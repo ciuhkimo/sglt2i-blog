@@ -131,5 +131,15 @@ const jsonLd = JSON.stringify({
 			</article>
 		</main>
 		<Footer />
+		<script>
+			document.querySelectorAll('.prose table').forEach((table) => {
+				if (!table.parentElement?.classList.contains('table-wrapper')) {
+					const wrapper = document.createElement('div');
+					wrapper.className = 'table-wrapper';
+					table.parentNode?.insertBefore(wrapper, table);
+					wrapper.appendChild(table);
+				}
+			});
+		</script>
 	</body>
 </html>

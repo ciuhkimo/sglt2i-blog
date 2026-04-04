@@ -99,6 +99,23 @@ input {
 }
 table {
 	width: 100%;
+	border-collapse: collapse;
+	font-size: 0.9em;
+}
+th, td {
+	border: 1px solid rgb(var(--gray-light));
+	padding: 0.5em 0.75em;
+	text-align: left;
+	vertical-align: top;
+}
+th {
+	background-color: rgba(var(--gray-light), 0.5);
+	font-weight: 700;
+}
+.table-wrapper {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	margin-bottom: 1.5em;
 }
 img {
 	max-width: 100%;
@@ -133,6 +150,29 @@ hr {
 	}
 	main {
 		padding: 1em;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1.6em;
+	}
+	h3 {
+		font-size: 1.3em;
+	}
+	table {
+		font-size: 0.8em;
+	}
+	th, td {
+		padding: 0.4em 0.5em;
+	}
+	blockquote {
+		font-size: 1.1em;
+		padding-left: 12px;
+	}
+	pre {
+		padding: 1em;
+		font-size: 0.85em;
 	}
 }
 
