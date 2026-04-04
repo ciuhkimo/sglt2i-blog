@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sglt2i-blog.vercel.app/sitemap-index.xml
