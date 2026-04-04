@@ -10,27 +10,27 @@ const allNotes = await getCollection('notes');
 const clusters = [
 	{
 		title: '啟用決策 (Initiation)',
-		description: '何時開始使用 SGLT2i？適應症判斷、非糖尿病 CKD、蛋白尿影響、eGFR 閾值、腎臟 vs 心臟保護目標。',
+		description: 'KDIGO 2024 已將 SGLT2i 定位為 CKD 的核心器官保護藥物，而非僅是血糖藥。但臨床上「該不該開」仍是最常見的猶豫點：非糖尿病 CKD 能不能用？eGFR 掉到 20-30 還敢開嗎？蛋白尿不高的病人有沒有效益？心臟保護和腎臟保護是同一回事嗎？這五篇筆記涵蓋啟用時機、適應症邊界、與 eGFR 門檻的實證決策。',
 		prefix: ['Q01', 'Q02', 'Q03', 'Q04', 'Q05'],
 	},
 	{
 		title: '風險評估 (Risk Assessment)',
-		description: '啟用前與使用中的風險評估——容積狀態、DKA 風險辨識、反覆感染處理、手術與禁食期間的停藥時機。',
+		description: '開藥前最怕的三件事：病人會不會 DKA、會不會脫水低血壓、反覆泌尿道或生殖器感染怎麼辦？加上手術前到底要停幾天，FDA 和英國指引還講不同天數。這四篇筆記整理了啟用前的體液評估框架、DKA 高風險辨識清單、感染風險的效益權衡、以及圍術期停藥的國際共識比較。',
 		prefix: ['Q06', 'Q07', 'Q08', 'Q09'],
 	},
 	{
 		title: '監測判讀 (Monitoring)',
-		description: '用藥後的監測與數值判讀——肌酸酐初始下降 vs 真正 AKI、eGFR 下降的可接受範圍、低血壓歸因、多尿與脫水處理。',
+		description: '啟用 SGLT2i 後最常觸發停藥焦慮的，不是真正的副作用，而是對正常生理反應的誤判。Creatinine 上升是 hemodynamic dip 還是 AKI？eGFR 掉了 15% 要不要停？血壓降了是 SGLT2i 還是利尿劑？病人說尿多口渴是脫水嗎？這四篇提供可操作的鑑別診斷框架，避免不必要的停藥。',
 		prefix: ['Q10', 'Q11', 'Q12', 'Q13'],
 	},
 	{
 		title: '暫停與重啟 (Hold & Restart)',
-		description: '急性疾病暫停規則、AKI 後停藥決策、術前停藥與術後重啟時機、AKI 恢復後重啟評估。',
+		description: '急性疾病住院、AKI、手術——這些情境下 SGLT2i 該暫停還是繼續？停了之後什麼時候重啟？太早重啟怕出事，太晚重啟浪費保護效益。這五篇筆記整理了 sick day rules、AKI 分級對應的停藥邏輯、術前停藥天數、以及恢復後重啟的臨床條件清單。',
 		prefix: ['Q14', 'Q15', 'Q16', 'Q17', 'Q18'],
 	},
 	{
 		title: '整合與特殊族群 (Integration)',
-		description: '多重藥物整合策略（RASi + SGLT2i + finerenone）以及特殊族群（腎移植、透析前、高齡）的用藥考量。',
+		description: 'CKD 病人常同時使用 ACEi/ARB、可能需要加上 finerenone 或 GLP-1 RA——這些藥怎麼疊加、順序怎麼排？另外，78 歲衰弱老人、腎移植後 5 年的糖尿病患者、即將進入透析的病人，這些主要 RCT 代表性不足的族群到底能不能用？這兩篇處理多重藥物整合策略與特殊族群的個別化決策。',
 		prefix: ['Q19', 'Q20'],
 	},
 ];
