@@ -19,4 +19,16 @@ const notes = defineCollection({
 	}),
 });
 
-export const collections = { notes };
+const patient = defineCollection({
+	loader: glob({ base: './src/content/patient', pattern: '**/*.{md,mdx}' }),
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		source_note: z.string(),
+		last_updated: z.coerce.date(),
+		tags: z.array(z.string()),
+		seo_title: z.string().optional(),
+	}),
+});
+
+export const collections = { notes, patient };

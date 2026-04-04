@@ -1,0 +1,104 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+
+const allArticles = await getCollection('patient');
+const sorted = allArticles.sort((a, b) =>
+	b.data.last_updated.valueOf() - a.data.last_updated.valueOf()
+);
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead title={`給病人與家屬 | ${SITE_TITLE}`} description="用白話中文說明 SGLT2 抑制劑的常見問題，幫助您在看診前後更了解自己的用藥。" />
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+			.page-header h1 {
+				font-size: 2em;
+				margin-bottom: 0.3em;
+			}
+			.page-header p {
+				color: rgb(var(--gray));
+				font-size: 1.05em;
+				margin-bottom: 2em;
+			}
+			.article-list {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+			.article-list li {
+				padding: 1em 0;
+				border-bottom: 1px solid rgb(var(--gray-light));
+			}
+			.article-list li:last-child {
+				border-bottom: none;
+			}
+			.article-link {
+				text-decoration: none;
+				display: block;
+			}
+			.article-link:hover .article-title {
+				color: var(--accent);
+			}
+			.article-title {
+				font-weight: 600;
+				font-size: 1.15em;
+			}
+			.article-desc {
+				color: rgb(var(--gray));
+				font-size: 0.95em;
+				margin-top: 0.3em;
+			}
+			.article-meta {
+				font-size: 0.8em;
+				color: rgb(var(--gray));
+				margin-top: 0.3em;
+			}
+			.empty-msg {
+				color: rgb(var(--gray));
+				font-style: italic;
+				font-size: 0.95em;
+				padding: 1em 0;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="page-header">
+				<h1>給病人與家屬</h1>
+				<p>用白話中文說明 SGLT2 抑制劑的常見問題，幫助您在看診前後更了解自己的用藥。</p>
+			</div>
+
+			{sorted.length > 0 ? (
+				<ul class="article-list">
+					{sorted.map((article) => (
+						<li>
+							<a class="article-link" href={`/patient/${article.id}/`}>
+								<span class="article-title">{article.data.title}</span>
+								<p class="article-desc">{article.data.description}</p>
+								<div class="article-meta">
+									更新：<FormattedDate date={article.data.last_updated} />
+								</div>
+							</a>
+						</li>
+					))}
+				</ul>
+			) : (
+				<p class="empty-msg">衛教文章準備中，敬請期待...</p>
+			)}
+		</main>
+		<Footer />
+	</body>
+</html>

@@ -1,0 +1,20 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import PatientLayout from '../../layouts/PatientLayout.astro';
+
+export async function getStaticPaths() {
+	const articles = await getCollection('patient');
+	return articles.map((article) => ({
+		params: { slug: article.id },
+		props: article,
+	}));
+}
+type Props = CollectionEntry<'patient'>;
+
+const article = Astro.props;
+const { Content } = await render(article);
+---
+
+<PatientLayout {...article.data}>
+	<Content />
+</PatientLayout>

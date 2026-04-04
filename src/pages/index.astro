@@ -108,6 +108,35 @@ const clusters = [
 				font-style: italic;
 				padding: 0.5em 0;
 			}
+			.patient-section {
+				margin-top: 3em;
+				padding: 2em;
+				background: var(--accent-light, #e8f4f0);
+				border-radius: 8px;
+			}
+			.patient-section h2 {
+				font-size: 1.5em;
+				margin-bottom: 0.3em;
+			}
+			.patient-section p {
+				color: rgb(var(--gray));
+				font-size: 0.95em;
+				margin-bottom: 1em;
+			}
+			.patient-link {
+				display: inline-block;
+				background: var(--accent);
+				color: #fff;
+				padding: 0.5em 1.2em;
+				border-radius: 6px;
+				text-decoration: none;
+				font-size: 0.95em;
+				font-weight: 600;
+			}
+			.patient-link:hover {
+				background: var(--accent-dark);
+				color: #fff;
+			}
 			.disclaimer {
 				margin-top: 3em;
 				padding-top: 1.5em;
@@ -154,6 +183,11 @@ const clusters = [
 				);
 			})}
 
+			<section class="patient-section">
+				<h2>給病人與家屬</h2>
+				<p>用白話中文說明 SGLT2 抑制劑常見問題。這些文章不取代醫師的診療建議，而是幫助您在看診前後更了解自己的用藥。</p>
+				<a href="/patient/" class="patient-link">前往病人衛教專區 &rarr;</a>
+			</section>
 		</main>
 		<Footer />
 	</body>
