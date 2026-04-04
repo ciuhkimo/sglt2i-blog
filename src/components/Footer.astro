@@ -3,8 +3,7 @@ const today = new Date();
 ---
 
 <footer>
-	<p class="disclaimer">本站內容為個人臨床學習整理，不代表任何機構立場。臨床決策應結合個別病人狀況與最新指引。</p>
-	<p>&copy; {today.getFullYear()} SGLT2i 臨床決策手冊. 保留所有權利。</p>
+	<p>&copy; {today.getFullYear()} SGLT2i 臨床決策手冊. 保留所有權利。｜<a href="/about#disclaimer">免責聲明</a></p>
 </footer>
 <style>
 	footer {
@@ -13,8 +12,7 @@ const today = new Date();
 		color: rgb(var(--gray));
 		text-align: center;
 	}
-	.disclaimer {
-		font-size: 0.85em;
-		margin-bottom: 0.5em;
+	footer a {
+		color: rgb(var(--gray));
 	}
 </style>
