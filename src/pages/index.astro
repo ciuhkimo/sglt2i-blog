@@ -3,46 +3,158 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { getCollection } from 'astro:content';
+
+const allNotes = await getCollection('notes');
+
+const clusters = [
+	{
+		title: '啟用決策 (Initiation)',
+		description: '何時開始使用 SGLT2i？適應症判斷、非糖尿病 CKD、蛋白尿影響、eGFR 閾值、腎臟 vs 心臟保護目標。',
+		prefix: ['Q01', 'Q02', 'Q03', 'Q04', 'Q05'],
+	},
+	{
+		title: '風險評估 (Risk Assessment)',
+		description: '啟用前與使用中的風險評估——容積狀態、DKA 風險辨識、反覆感染處理、手術與禁食期間的停藥時機。',
+		prefix: ['Q06', 'Q07', 'Q08', 'Q09'],
+	},
+	{
+		title: '監測判讀 (Monitoring)',
+		description: '用藥後的監測與數值判讀——肌酸酐初始下降 vs 真正 AKI、eGFR 下降的可接受範圍、低血壓歸因、多尿與脫水處理。',
+		prefix: ['Q10', 'Q11', 'Q12', 'Q13'],
+	},
+	{
+		title: '暫停與重啟 (Hold & Restart)',
+		description: '急性疾病暫停規則、AKI 後停藥決策、術前停藥與術後重啟時機、AKI 恢復後重啟評估。',
+		prefix: ['Q14', 'Q15', 'Q16', 'Q17', 'Q18'],
+	},
+	{
+		title: '整合與特殊族群 (Integration)',
+		description: '多重藥物整合策略（RASi + SGLT2i + finerenone）以及特殊族群（腎移植、透析前、高齡）的用藥考量。',
+		prefix: ['Q19', 'Q20'],
+	},
+];
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="zh-Hant">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+			.site-intro {
+				margin-bottom: 2.5em;
+			}
+			.site-intro h1 {
+				font-size: 2.2em;
+				margin-bottom: 0.3em;
+			}
+			.site-intro p {
+				color: rgb(var(--gray));
+				font-size: 1.05em;
+			}
+			.cluster {
+				margin-bottom: 2.5em;
+			}
+			.cluster h2 {
+				font-size: 1.5em;
+				margin-bottom: 0.3em;
+				border-left: 4px solid var(--accent);
+				padding-left: 0.5em;
+			}
+			.cluster .cluster-desc {
+				color: rgb(var(--gray));
+				font-size: 0.95em;
+				margin-bottom: 0.8em;
+			}
+			.note-list {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+			.note-list li {
+				padding: 0.4em 0;
+				border-bottom: 1px solid rgb(var(--gray-light));
+			}
+			.note-list li:last-child {
+				border-bottom: none;
+			}
+			.note-list a {
+				text-decoration: none;
+				display: flex;
+				justify-content: space-between;
+				align-items: baseline;
+			}
+			.note-list a:hover {
+				color: var(--accent);
+			}
+			.note-id {
+				font-weight: 700;
+				margin-right: 0.5em;
+				color: var(--accent-dark);
+			}
+			.note-version {
+				font-size: 0.8em;
+				color: rgb(var(--gray));
+			}
+			.placeholder {
+				color: rgb(var(--gray));
+				font-size: 0.9em;
+				font-style: italic;
+				padding: 0.5em 0;
+			}
+			.disclaimer {
+				margin-top: 3em;
+				padding-top: 1.5em;
+				border-top: 1px solid rgb(var(--gray-light));
+				font-size: 0.85em;
+				color: rgb(var(--gray));
+			}
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+			<section class="site-intro">
+				<h1>{SITE_TITLE}</h1>
+				<p>{SITE_DESCRIPTION}</p>
+			</section>
+
+			{clusters.map((cluster) => {
+				const clusterNotes = allNotes
+					.filter((n) => cluster.prefix.includes(n.data.question_id))
+					.sort((a, b) => a.data.question_id.localeCompare(b.data.question_id));
+				return (
+					<section class="cluster">
+						<h2>{cluster.title}</h2>
+						<p class="cluster-desc">{cluster.description}</p>
+						{clusterNotes.length > 0 ? (
+							<ul class="note-list">
+								{clusterNotes.map((note) => (
+									<li>
+										<a href={`/notes/${note.id}/`}>
+											<span>
+												<span class="note-id">{note.data.question_id}</span>
+												{note.data.title}
+											</span>
+											<span class="note-version">{note.data.version}</span>
+										</a>
+									</li>
+								))}
+							</ul>
+						) : (
+							<p class="placeholder">筆記準備中...</p>
+						)}
+					</section>
+				);
+			})}
+
+			<p class="disclaimer">本站內容為個人臨床學習整理，不代表任何機構立場。臨床決策應結合個別病人狀況與最新指引。</p>
 		</main>
 		<Footer />
 	</body>
