@@ -8,14 +8,12 @@ last_updated: 2026-04-03
 next_review: 2026-09-17
 seo_title: "急性生病要停 SGLT2i 嗎？Sick Day Rules 指引"
 description: "急性疾病伴脫水、禁食或感染時應暫停 SGLT2i，以避免 AKI 與 eDKA。本文涵蓋停藥指徵、輕症可續用情境、重啟條件與 Sick Day Rules 患者衛教要點。"
+quick_answer: "嚴重脫水、禁食或敗血症時應暫停 SGLT2i；輕症可續用；症狀緩解後 24-48 小時內應重啟。"
 tags:
   - SGLT2i
   - decision-note
   - holding
 ---
-
-# Decision Note: Acute Illness 時是否應停用 SGLT2 Inhibitor？
-
 
 ## Why This Matters
 

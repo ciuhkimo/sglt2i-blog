@@ -8,14 +8,12 @@ last_updated: 2026-04-04
 next_review: 2026-09-17
 seo_title: "SGLT2i 與 RASi、Finerenone、GLP-1 RA 合併策略"
 description: "CKD 四柱療法如何排序？本文整理 SGLT2i 與 ACEi/ARB、Finerenone、GLP-1 RA 的整合策略，涵蓋 CONFIDENCE、FLOW 試驗證據與臨床啟動優先順序建議。"
+quick_answer: "RAASi + SGLT2i 為首要組合；符合條件者可再加 finerenone（第三柱）與 GLP-1 RA（第四柱）疊加保護。"
 tags:
   - SGLT2i
   - decision-note
   - integration
 ---
-
-# Decision Note: 與 ACEi/ARB、Finerenone、GLP-1 RA 如何整合？
-
 
 ## Why This Matters
 

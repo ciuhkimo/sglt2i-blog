@@ -8,14 +8,12 @@ last_updated: 2026-04-04
 next_review: 2026-09-17
 seo_title: "CKD 何時開始 SGLT2i？啟用時機與 eGFR 門檻"
 description: "KDIGO 2024 建議 eGFR≥20 的 CKD 患者應啟用 SGLT2i。本文涵蓋啟用條件、eGFR 門檻、禁忌症篩查與安全啟用流程，協助臨床醫師掌握最佳開始時機。"
+quick_answer: "KDIGO 2024 建議 T2DM+CKD 且 eGFR≥20 即可啟用 SGLT2i，無需等待 eGFR 進一步下降。"
 tags:
   - SGLT2i
   - decision-note
   - initiation
 ---
-
-# Decision Note: CKD 病人何時應開始 SGLT2 inhibitor？
-
 
 ## Why This Matters
 

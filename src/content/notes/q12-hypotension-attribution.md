@@ -8,14 +8,12 @@ last_updated: 2026-04-03
 next_review: 2026-09-17
 seo_title: "低血壓是 SGLT2i 造成的嗎？鑑別與藥物調整"
 description: "SGLT2i 平均僅降壓 3-5 mmHg，低血壓多源於合併用藥。本文提供鑑別診斷框架、SGLT2i 實際降壓幅度數據、藥物調整優先順序與避免不必要停藥的策略。"
+quick_answer: "SGLT2i 降壓僅約 2-5 mmHg，低血壓應優先排查利尿劑與 RASi 等合併用藥，不應直接歸因 SGLT2i。"
 tags:
   - SGLT2i
   - decision-note
   - monitoring
 ---
-
-# Decision Note: Hypotension 是來自 SGLT2i 還是其他藥？
-
 
 ## Why This Matters
 

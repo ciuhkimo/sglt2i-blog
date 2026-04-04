@@ -14,6 +14,7 @@ const notes = defineCollection({
 		next_review: z.coerce.date(),
 		tags: z.array(z.string()),
 		description: z.string().optional(),
+		quick_answer: z.string().optional(),
 		seo_title: z.string().optional(),
 	}),
 });

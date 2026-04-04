@@ -8,14 +8,12 @@ last_updated: 2026-04-04
 next_review: 2026-09-17
 seo_title: "SGLT2i 後肌酸酐上升：生理性 dip 還是 AKI？"
 description: "SGLT2i 啟用後 eGFR 下降 3-5 是預期的血流動力學效應，非真正腎損傷。本文提供三步驟鑑別框架，區分生理性 creatinine dip 與 AKI，避免不必要停藥。"
+quick_answer: "啟用後 2-4 週內 eGFR 下降 ≤30% 多為可逆性 hemodynamic effect，通常不需停藥。"
 tags:
   - SGLT2i
   - decision-note
   - monitoring
 ---
-
-# Decision Note: Creatinine Dip vs AKI 如何判讀？
-
 
 ## Why This Matters
 

@@ -8,14 +8,12 @@ last_updated: 2026-04-04
 next_review: 2026-09-17
 seo_title: "AKI 恢復後何時重啟 SGLT2i？條件與證據整理"
 description: "AKI 恢復後重啟 SGLT2i 可改善長期腎臟預後。本文提供重啟條件評估清單、觀察性研究與小型 RCT 證據摘要、個別化重啟框架與監測時間表。"
+quick_answer: "AKI 恢復後腎功能趨穩、可正常進食且血流動力學穩定時，應在 1-4 週內個別化評估重啟 SGLT2i。"
 tags:
   - SGLT2i
   - decision-note
   - restarting
 ---
-
-# Decision Note: SGLT2i Restart After AKI Recovery
-
 
 ## Why This Matters
 

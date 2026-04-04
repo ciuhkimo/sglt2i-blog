@@ -8,14 +8,12 @@ last_updated: 2026-04-03
 next_review: 2026-09-17
 seo_title: "AKI 時要停 SGLT2i 嗎？暫停指徵與重啟時機"
 description: "AKI 發生時應暫停 SGLT2i，但觀察性研究顯示 AKI 後重啟者長期預後較佳。本文涵蓋暫停指徵、重啟條件評估、post-AKI 研究證據與 eGFR<45 的特殊考量。"
+quick_answer: "AKI 合併血流動力學不穩時應暫停 SGLT2i；恢復後應儘早重啟，觀察性研究顯示重啟與較佳長期預後相關。"
 tags:
   - SGLT2i
   - decision-note
   - holding
 ---
-
-# Decision Note: AKI 發生時是否停用 SGLT2 Inhibitor？
-
 
 ## Why This Matters
 

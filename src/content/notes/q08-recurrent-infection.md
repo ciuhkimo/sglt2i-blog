@@ -8,14 +8,12 @@ last_updated: 2026-04-01
 next_review: 2026-09-17
 seo_title: "反覆泌尿道或黴菌感染能用 SGLT2i 嗎？風險評估"
 description: "SGLT2i 增加生殖道黴菌感染風險約 3-4 倍，但 UTI 風險較不一致。本文涵蓋 GMI/UTI 風險分層、不同感染情境的啟用與停藥判斷、預防措施與監測建議。"
+quick_answer: "反覆感染非 SGLT2i 絕對禁忌；GMI 風險明確增加但多為輕症可治療，cardiorenal 效益通常遠大於感染風險。"
 tags:
   - SGLT2i
   - decision-note
   - initiation
 ---
-
-# Decision Note: Recurrent Infection 病人是否適合使用 SGLT2 Inhibitor？
-
 
 ## Why This Matters
 

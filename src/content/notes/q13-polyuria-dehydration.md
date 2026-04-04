@@ -8,14 +8,12 @@ last_updated: 2026-04-03
 next_review: 2026-09-17
 seo_title: "SGLT2i 多尿口渴是脫水嗎？體液評估與衛教"
 description: "SGLT2i 初期多尿與口渴多為暫時性滲透性利尿，數週後代償。本文解析體液代償機制、區分生理適應與真正脫水的評估方法、Sick Day Rules 衛教重點。"
+quick_answer: "多尿與口渴多為暫時性生理代償，不應因此停藥；應評估實際 volume status 再決定是否調整利尿劑。"
 tags:
   - SGLT2i
   - decision-note
   - monitoring
 ---
-
-# Decision Note: Polyuria / 口渴 — 是否代表過度脫水？
-
 
 ## Why This Matters
 

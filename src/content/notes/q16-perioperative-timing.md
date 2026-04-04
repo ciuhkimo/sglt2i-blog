@@ -8,14 +8,12 @@ last_updated: 2026-04-04
 next_review: 2026-09-17
 seo_title: "圍術期 SGLT2i 停藥與重啟時機完整指引"
 description: "圍術期使用 SGLT2i 的最大風險為 euglycemic DKA。本文比較北美（3-4天）與英國（1天）停藥天數差異、eDKA 風險監測指標與緊急手術的處置流程。"
+quick_answer: "北美主流建議術前 3-4 天停用 SGLT2i，英國建議前一天+當天停；國際間停藥天數存在異質性。"
 tags:
   - SGLT2i
   - decision-note
   - holding
 ---
-
-# Decision Note: Perioperative SGLT2i Hold Timing
-
 
 ## Why This Matters
 

@@ -7,7 +7,7 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'notes'>['data'];
 
-const { question_id, title, category, version, last_updated, tags, description, seo_title } = Astro.props;
+const { question_id, title, category, version, last_updated, tags, description, seo_title, quick_answer } = Astro.props;
 
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',
@@ -96,6 +96,18 @@ const jsonLd = JSON.stringify({
 				font-size: 0.8em;
 				color: rgb(var(--gray-dark));
 			}
+			.quick-answer {
+				background: #f0f4ff;
+				border-left: 4px solid var(--accent);
+				padding: 1em 1.2em;
+				margin-bottom: 1.5em;
+				border-radius: 0 6px 6px 0;
+				font-size: 0.95em;
+				line-height: 1.6;
+			}
+			.quick-answer strong {
+				color: var(--accent-dark);
+			}
 		</style>
 	</head>
 
@@ -127,6 +139,11 @@ const jsonLd = JSON.stringify({
 						</div>
 					)}
 				</div>
+				{quick_answer && (
+					<div class="quick-answer">
+						<strong>臨床結論：</strong>{quick_answer}
+					</div>
+				)}
 				<slot />
 			</article>
 		</main>

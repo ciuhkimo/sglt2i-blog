@@ -8,14 +8,12 @@ last_updated: 2026-04-04
 next_review: 2026-09-17
 seo_title: "SGLT2i 術前要停幾天？手術禁食停藥指引"
 description: "FDA 與 ADA 建議術前 3-4 天停用 SGLT2i 以避免 euglycemic DKA。本文比較各國停藥天數差異、SSTOP 原則、緊急手術處置流程與術後重啟條件。"
+quick_answer: "術前至少 3 天停用 SGLT2i（ertugliflozin 4 天），術後恢復進食且血流動力學穩定後重啟。"
 tags:
   - SGLT2i
   - decision-note
   - holding
 ---
-
-# Decision Note: 手術或禁食前是否應延後開始 SGLT2 Inhibitor？
-
 
 ## Why This Matters
 

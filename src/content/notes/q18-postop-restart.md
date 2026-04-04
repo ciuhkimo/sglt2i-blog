@@ -8,14 +8,12 @@ last_updated: 2026-04-04
 next_review: 2026-09-17
 seo_title: "術後何時重啟 SGLT2i？依手術類型的重啟建議"
 description: "術後須確認患者可正常進食、血流動力學穩定且無酮症後方可重啟 SGLT2i。本文涵蓋依手術類型的重啟時間建議、必要條件 checklist 與 eDKA 監測流程。"
+quick_answer: "術後重啟 SGLT2i 須同時滿足：可正常進食、血流動力學穩定、無酮症，以臨床狀態而非固定天數為依據。"
 tags:
   - SGLT2i
   - decision-note
   - restarting
 ---
-
-# Decision Note: Postoperative SGLT2i Restart Timing
-
 
 ## Why This Matters
 

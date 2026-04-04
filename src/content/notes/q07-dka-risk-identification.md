@@ -8,14 +8,12 @@ last_updated: 2026-03-23
 next_review: 2026-09-17
 seo_title: "SGLT2i 與 DKA：高風險族群辨識與預防策略"
 description: "SGLT2i 可引起血糖正常型 DKA（euglycemic DKA），發生率約為安慰劑的 2 倍。本文整理 DKA 高風險因子、處方前評估清單、患者衛教重點與緊急處置原則。"
+quick_answer: "T1DM、LADA、insulin-dependent T2DM 及 DKA 病史者為高風險族群，處方前須完成風險評估並教育 eDKA 警示症狀。"
 tags:
   - SGLT2i
   - decision-note
   - initiation
 ---
-
-# Decision Note: 如何辨識 DKA 高風險族群？
-
 
 ## Why This Matters
 

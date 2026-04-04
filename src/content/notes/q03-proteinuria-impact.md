@@ -8,14 +8,12 @@ last_updated: 2026-03-21
 next_review: 2026-09-17
 seo_title: "蛋白尿程度影響 SGLT2i 效益嗎？分層證據解析"
 description: "蛋白尿越多，SGLT2i 絕對效益越大，但正常白蛋白尿仍有相對獲益。本文涵蓋 SMART-C meta-analysis、CREDENCE 亞群分析與各 UACR 分層的臨床決策建議。"
+quick_answer: "蛋白尿程度不應作為拒絕啟用 SGLT2i 的理由；UACR 越高絕對效益越大，但各分層相對風險降低一致。"
 tags:
   - SGLT2i
   - decision-note
   - initiation
 ---
-
-# Decision Note: 蛋白尿程度對 SGLT2 inhibitor 治療效益的影響
-
 
 ## Why This Matters
 

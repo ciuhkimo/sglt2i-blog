@@ -8,14 +8,12 @@ last_updated: 2026-04-04
 next_review: 2026-09-17
 seo_title: "SGLT2i 特殊族群：高齡、透析、移植、衰弱患者"
 description: "高齡、透析、腎移植、衰弱患者能否用 SGLT2i？本文整理各特殊族群的 RCT 證據強度、IgAN 最新指引建議、個別化風險效益評估與實務處方考量。"
+quick_answer: "高齡與輕中度衰弱患者建議使用；移植受者可謹慎考慮；透析患者目前不建議常規使用。"
 tags:
   - SGLT2i
   - decision-note
   - integration
 ---
-
-# Decision Note: 特殊族群是否應持續使用 SGLT2i？（elderly / dialysis / transplant / frailty）
-
 
 ## Why This Matters
 

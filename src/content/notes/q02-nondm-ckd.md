@@ -8,14 +8,12 @@ last_updated: 2026-03-20
 next_review: 2026-09-17
 seo_title: "非糖尿病 CKD 可以用 SGLT2i 嗎？適應症與證據整理"
 description: "DAPA-CKD 與 EMPA-KIDNEY 證實 SGLT2i 在非糖尿病 CKD 患者中具腎臟保護效益。本文整理非 DM CKD 的 RCT 亞組證據、KDIGO 2024 分層建議與臨床啟用判斷。"
+quick_answer: "非糖尿病 CKD 若 UACR≥200 或合併 HF，KDIGO 2024 以 1A 強度建議使用 SGLT2i（eGFR≥20）。"
 tags:
   - SGLT2i
   - decision-note
   - initiation
 ---
-
-# Decision Note: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？
-
 
 ## Why This Matters
 
