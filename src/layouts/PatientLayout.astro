@@ -9,6 +9,30 @@ type Props = CollectionEntry<'patient'>['data'];
 
 const { title, description, source_note, last_updated, tags, seo_title } = Astro.props;
 
+const noteSlugMap: Record<string, string> = {
+	Q01: 'q01-ckd-start-timing',
+	Q02: 'q02-nondm-ckd',
+	Q03: 'q03-proteinuria-impact',
+	Q04: 'q04-egfr-20-30-threshold',
+	Q05: 'q05-renal-vs-hf-protection',
+	Q06: 'q06-volume-status-assessment',
+	Q07: 'q07-dka-risk-identification',
+	Q08: 'q08-recurrent-infection',
+	Q09: 'q09-surgery-fasting-hold',
+	Q10: 'q10-creatinine-dip-vs-aki',
+	Q11: 'q11-egfr-decline-acceptable',
+	Q12: 'q12-hypotension-attribution',
+	Q13: 'q13-polyuria-dehydration',
+	Q14: 'q14-acute-illness-hold',
+	Q15: 'q15-aki-stop-decision',
+	Q16: 'q16-perioperative-timing',
+	Q17: 'q17-aki-recovery-restart',
+	Q18: 'q18-postop-restart',
+	Q19: 'q19-drug-combination-strategy',
+	Q20: 'q20-special-populations',
+};
+const noteSlug = noteSlugMap[source_note] || source_note.toLowerCase();
+
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',
 	'@type': 'MedicalWebPage',
@@ -136,7 +160,7 @@ const jsonLd = JSON.stringify({
 				</div>
 				<slot />
 				<div class="pro-link">
-					<a href={`/notes/${source_note}/`}>醫療專業人員版本 &rarr;</a>
+					<a href={`/notes/${noteSlug}/`}>醫療專業人員版本 &rarr;</a>
 				</div>
 				{tags.length > 0 && (
 					<div class="tags">
