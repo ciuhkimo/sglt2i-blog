@@ -1,7 +1,7 @@
 ---
 question_id: Q20
 title: "特殊族群是否應持續使用 SGLT2i？（elderly / dialysis / transplant / frailty）"
-category: "整合策略 (Integration)"
+category: "整合與特殊族群 (Integration)"
 version: "v1.0"
 status: 已定稿
 last_updated: 2026-04-04

@@ -1,7 +1,7 @@
 ---
 question_id: Q09
 title: "手術或禁食前是否應延後開始 SGLT2 Inhibitor？"
-category: "風險評估"
+category: "風險評估 (Risk Assessment)"
 version: "v1.5"
 status: 已定稿
 last_updated: 2026-04-04

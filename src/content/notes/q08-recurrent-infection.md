@@ -1,7 +1,7 @@
 ---
 question_id: Q08
 title: "Recurrent Infection 病人是否適合使用 SGLT2 Inhibitor？"
-category: "風險評估"
+category: "風險評估 (Risk Assessment)"
 version: "v1.0"
 status: 已定稿
 last_updated: 2026-04-01

@@ -1,7 +1,7 @@
 ---
 question_id: Q19
 title: "與 ACEi/ARB、Finerenone、GLP-1 RA 如何整合？"
-category: "整合策略 (Integration)"
+category: "整合與特殊族群 (Integration)"
 version: "v1.0"
 status: 已定稿
 last_updated: 2026-04-04

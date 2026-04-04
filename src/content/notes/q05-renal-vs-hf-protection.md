@@ -1,7 +1,7 @@
 ---
 question_id: Q05
 title: "SGLT2i 的心臟保護 vs 腎臟保護"
-category: "啟用決策 (Initiation Decision)"
+category: "啟用決策 (Initiation)"
 version: "v1.9"
 status: 已定稿
 last_updated: 2026-04-04

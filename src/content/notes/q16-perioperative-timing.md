@@ -1,7 +1,7 @@
 ---
 question_id: Q16
 title: "Perioperative SGLT2i Hold Timing"
-category: "暫停決策 (Holding)"
+category: "暫停與重啟 (Hold & Restart)"
 version: "v1.0"
 status: 已定稿
 last_updated: 2026-04-04

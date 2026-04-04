@@ -1,7 +1,7 @@
 ---
 question_id: Q04
 title: "eGFR 20–30 患者的 SGLT2i 啟用決策"
-category: "啟用決策 (Initiation Decision)"
+category: "啟用決策 (Initiation)"
 version: "v1.5"
 status: 已定稿
 last_updated: 2026-03-21

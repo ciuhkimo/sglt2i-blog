@@ -1,7 +1,7 @@
 ---
 question_id: Q10
 title: "Creatinine Dip vs AKI 如何判讀？"
-category: "監測判讀（Monitoring Interpretation）"
+category: "監測判讀 (Monitoring)"
 version: "v1.5"
 status: 已定稿
 last_updated: 2026-04-04

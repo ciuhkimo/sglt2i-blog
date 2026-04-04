@@ -1,7 +1,7 @@
 ---
 question_id: Q11
 title: "eGFR 下降 <30% 是否可接受？"
-category: "監測判讀（Monitoring Interpretation）"
+category: "監測判讀 (Monitoring)"
 version: "v1.8"
 status: 已定稿
 last_updated: 2026-04-03

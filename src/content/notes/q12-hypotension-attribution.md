@@ -1,7 +1,7 @@
 ---
 question_id: Q12
 title: "Hypotension 是來自 SGLT2i 還是其他藥？"
-category: "監測判讀（Monitoring Interpretation）"
+category: "監測判讀 (Monitoring)"
 version: "v1.7"
 status: 已定稿
 last_updated: 2026-04-03

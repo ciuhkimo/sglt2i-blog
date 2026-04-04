@@ -1,7 +1,7 @@
 ---
 question_id: Q06
 title: "SGLT2i 啟用時的體液狀態評估"
-category: "風險評估 / 安全監測"
+category: "風險評估 (Risk Assessment)"
 version: "v1.1"
 status: 已定稿
 last_updated: 2026-03-23

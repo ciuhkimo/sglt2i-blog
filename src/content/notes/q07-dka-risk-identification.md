@@ -1,7 +1,7 @@
 ---
 question_id: Q07
 title: "如何辨識 DKA 高風險族群？"
-category: "風險評估"
+category: "風險評估 (Risk Assessment)"
 version: "v1.0"
 status: 已定稿
 last_updated: 2026-03-23

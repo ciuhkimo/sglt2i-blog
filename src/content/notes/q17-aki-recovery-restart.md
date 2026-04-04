@@ -1,7 +1,7 @@
 ---
 question_id: Q17
 title: "SGLT2i Restart After AKI Recovery"
-category: "重啟決策 (Restarting)"
+category: "暫停與重啟 (Hold & Restart)"
 version: "v1.0"
 status: 已定稿
 last_updated: 2026-04-04

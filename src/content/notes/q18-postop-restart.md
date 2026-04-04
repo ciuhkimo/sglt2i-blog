@@ -1,7 +1,7 @@
 ---
 question_id: Q18
 title: "Postoperative SGLT2i Restart Timing"
-category: "重啟決策 (Restarting)"
+category: "暫停與重啟 (Hold & Restart)"
 version: "v1.0"
 status: 已定稿
 last_updated: 2026-04-04

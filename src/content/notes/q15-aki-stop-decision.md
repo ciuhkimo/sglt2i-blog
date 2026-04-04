@@ -1,7 +1,7 @@
 ---
 question_id: Q15
 title: "AKI 發生時是否停用 SGLT2 Inhibitor？"
-category: "暫停決策 (Holding)"
+category: "暫停與重啟 (Hold & Restart)"
 version: "v1.5"
 status: 已定稿
 last_updated: 2026-04-03
