@@ -6,7 +6,8 @@ version: "v1.4"
 status: 已定稿
 last_updated: 2026-04-03
 next_review: 2026-09-17
-description: "SGLT2i 引起的多尿與口渴是否代表過度脫水？涵蓋體液代償機制、水分狀態評估與 Sick Day Rules 衛教。"
+seo_title: "SGLT2i 多尿口渴是脫水嗎？體液評估與衛教"
+description: "SGLT2i 初期多尿與口渴多為暫時性滲透性利尿，數週後代償。本文解析體液代償機制、區分生理適應與真正脫水的評估方法、Sick Day Rules 衛教重點。"
 tags:
   - SGLT2i
   - decision-note

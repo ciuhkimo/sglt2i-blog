@@ -6,7 +6,8 @@ version: "v1.5"
 status: 已定稿
 last_updated: 2026-03-20
 next_review: 2026-09-17
-description: "非糖尿病 CKD 患者是否應使用 SGLT2i？涵蓋 DAPA-CKD、EMPA-KIDNEY 非糖尿病亞組證據與 KDIGO 2024 分層建議。"
+seo_title: "非糖尿病 CKD 可以用 SGLT2i 嗎？適應症與證據整理"
+description: "DAPA-CKD 與 EMPA-KIDNEY 證實 SGLT2i 在非糖尿病 CKD 患者中具腎臟保護效益。本文整理非 DM CKD 的 RCT 亞組證據、KDIGO 2024 分層建議與臨床啟用判斷。"
 tags:
   - SGLT2i
   - decision-note

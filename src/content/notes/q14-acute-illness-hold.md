@@ -6,7 +6,8 @@ version: "v1.5"
 status: 已定稿
 last_updated: 2026-04-03
 next_review: 2026-09-17
-description: "急性疾病時是否應停用 SGLT2i？涵蓋停藥指徵、輕症可續用情境、重啟時機與 Sick Day Rules 衛教義務。"
+seo_title: "急性生病要停 SGLT2i 嗎？Sick Day Rules 指引"
+description: "急性疾病伴脫水、禁食或感染時應暫停 SGLT2i，以避免 AKI 與 eDKA。本文涵蓋停藥指徵、輕症可續用情境、重啟條件與 Sick Day Rules 患者衛教要點。"
 tags:
   - SGLT2i
   - decision-note

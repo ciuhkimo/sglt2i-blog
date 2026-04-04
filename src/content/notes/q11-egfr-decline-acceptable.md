@@ -6,7 +6,8 @@ version: "v1.8"
 status: 已定稿
 last_updated: 2026-04-03
 next_review: 2026-09-17
-description: "SGLT2i 使用中 eGFR 下降多少可接受？涵蓋 KDIGO 2024 的 30% 閾值、三層判讀框架與監測時間點建議。"
+seo_title: "SGLT2i 後 eGFR 下降多少可接受？30% 閾值解析"
+description: "KDIGO 2024 建議 SGLT2i 啟用後 eGFR 下降<30% 屬可接受範圍。本文涵蓋 30% 閾值的證據來源、三層判讀框架、監測時間點建議與需要停藥的警示情境。"
 tags:
   - SGLT2i
   - decision-note

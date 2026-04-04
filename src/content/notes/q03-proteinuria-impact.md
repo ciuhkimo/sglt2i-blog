@@ -6,7 +6,8 @@ version: "v1.6"
 status: 已定稿
 last_updated: 2026-03-21
 next_review: 2026-09-17
-description: "蛋白尿程度如何影響 SGLT2i 治療效益？涵蓋 SMART-C meta-analysis、CREDENCE 亞群分析與各蛋白尿分層的絕對效益比較。"
+seo_title: "蛋白尿程度影響 SGLT2i 效益嗎？分層證據解析"
+description: "蛋白尿越多，SGLT2i 絕對效益越大，但正常白蛋白尿仍有相對獲益。本文涵蓋 SMART-C meta-analysis、CREDENCE 亞群分析與各 UACR 分層的臨床決策建議。"
 tags:
   - SGLT2i
   - decision-note

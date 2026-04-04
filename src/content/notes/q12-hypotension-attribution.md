@@ -6,7 +6,8 @@ version: "v1.7"
 status: 已定稿
 last_updated: 2026-04-03
 next_review: 2026-09-17
-description: "低血壓是來自 SGLT2i 還是其他藥物？涵蓋鑑別診斷框架、SGLT2i 實際降壓幅度與藥物調整優先順序。"
+seo_title: "低血壓是 SGLT2i 造成的嗎？鑑別與藥物調整"
+description: "SGLT2i 平均僅降壓 3-5 mmHg，低血壓多源於合併用藥。本文提供鑑別診斷框架、SGLT2i 實際降壓幅度數據、藥物調整優先順序與避免不必要停藥的策略。"
 tags:
   - SGLT2i
   - decision-note

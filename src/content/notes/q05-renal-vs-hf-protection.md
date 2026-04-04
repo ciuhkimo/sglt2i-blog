@@ -6,7 +6,8 @@ version: "v1.9"
 status: 已定稿
 last_updated: 2026-04-04
 next_review: 2026-09-17
-description: "SGLT2i 的心臟保護與腎臟保護效益比較，協助腎臟科醫師向患者及其他專科解釋 SGLT2i 的雙重器官保護機轉。"
+seo_title: "SGLT2i 護心還是護腎？心腎雙重保護機轉比較"
+description: "SGLT2i 同時具備心臟保護與腎臟保護效益。本文比較 DAPA-HF、EMPEROR、DAPA-CKD 等關鍵試驗數據，解析心腎雙重保護機轉與 CKD 合併心衰竭的決策要點。"
 tags:
   - SGLT2i
   - decision-note

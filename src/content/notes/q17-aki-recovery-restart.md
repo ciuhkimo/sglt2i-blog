@@ -6,7 +6,8 @@ version: "v1.0"
 status: 已定稿
 last_updated: 2026-04-04
 next_review: 2026-09-17
-description: "AKI 恢復後何時重啟 SGLT2i？涵蓋重啟條件評估清單、觀察性研究與小型 RCT 證據、個別化重啟框架。"
+seo_title: "AKI 恢復後何時重啟 SGLT2i？條件與證據整理"
+description: "AKI 恢復後重啟 SGLT2i 可改善長期腎臟預後。本文提供重啟條件評估清單、觀察性研究與小型 RCT 證據摘要、個別化重啟框架與監測時間表。"
 tags:
   - SGLT2i
   - decision-note

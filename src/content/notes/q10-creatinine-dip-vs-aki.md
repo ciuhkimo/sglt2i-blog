@@ -6,7 +6,8 @@ version: "v1.5"
 status: 已定稿
 last_updated: 2026-04-04
 next_review: 2026-09-17
-description: "如何區分 SGLT2i 啟用後的 creatinine dip 與真正的 AKI？涵蓋三步驟鑑別框架與 KDIGO 2024 建議。"
+seo_title: "SGLT2i 後肌酸酐上升：生理性 dip 還是 AKI？"
+description: "SGLT2i 啟用後 eGFR 下降 3-5 是預期的血流動力學效應，非真正腎損傷。本文提供三步驟鑑別框架，區分生理性 creatinine dip 與 AKI，避免不必要停藥。"
 tags:
   - SGLT2i
   - decision-note

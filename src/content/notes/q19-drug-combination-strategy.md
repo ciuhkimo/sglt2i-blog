@@ -6,7 +6,8 @@ version: "v1.0"
 status: 已定稿
 last_updated: 2026-04-04
 next_review: 2026-09-17
-description: "SGLT2i 與 ACEi/ARB、Finerenone、GLP-1 RA 如何整合？涵蓋四柱療法的啟動順序、CONFIDENCE 與 FLOW 試驗證據。"
+seo_title: "SGLT2i 與 RASi、Finerenone、GLP-1 RA 合併策略"
+description: "CKD 四柱療法如何排序？本文整理 SGLT2i 與 ACEi/ARB、Finerenone、GLP-1 RA 的整合策略，涵蓋 CONFIDENCE、FLOW 試驗證據與臨床啟動優先順序建議。"
 tags:
   - SGLT2i
   - decision-note

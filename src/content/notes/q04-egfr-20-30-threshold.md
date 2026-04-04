@@ -6,7 +6,8 @@ version: "v1.5"
 status: 已定稿
 last_updated: 2026-03-21
 next_review: 2026-09-17
-description: "eGFR 20-30 的 CKD 患者是否應啟用 SGLT2i？涵蓋 EMPA-KIDNEY、DAPA-CKD stage 4 亞組與 CJASN 2025 meta-analysis。"
+seo_title: "eGFR 20-30 能否啟用 SGLT2i？CKD stage 4 證據"
+description: "KDIGO 2024 將 SGLT2i 啟用門檻下修至 eGFR≥20。本文整理 EMPA-KIDNEY、DAPA-CKD stage 4 亞組與 CJASN 2025 meta-analysis，解析低 eGFR 啟用的效益與風險。"
 tags:
   - SGLT2i
   - decision-note

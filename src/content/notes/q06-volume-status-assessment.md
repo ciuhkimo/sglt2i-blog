@@ -6,7 +6,8 @@ version: "v1.1"
 status: 已定稿
 last_updated: 2026-03-23
 next_review: 2026-09-17
-description: "SGLT2i 啟用前的體液狀態評估方法，涵蓋脫水風險辨識、利尿劑調整策略與高風險族群監測要點。"
+seo_title: "SGLT2i 啟用前體液評估：脫水風險與利尿劑調整"
+description: "啟用 SGLT2i 前應評估體液狀態以避免低血壓與 AKI。本文涵蓋脫水風險辨識、利尿劑劑量調整策略、高風險族群監測要點與啟用前 checklist。"
 tags:
   - SGLT2i
   - decision-note

@@ -7,7 +7,7 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'notes'>['data'];
 
-const { question_id, title, category, version, last_updated, tags } = Astro.props;
+const { question_id, title, category, version, last_updated, tags, description, seo_title } = Astro.props;
 
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',
@@ -28,7 +28,7 @@ const jsonLd = JSON.stringify({
 
 <html lang="zh-Hant">
 	<head>
-		<BaseHead title={`${question_id} ${title} | SGLT2i 臨床決策手冊`} description={title} />
+		<BaseHead title={seo_title || `${title} — SGLT2i 臨床決策`} description={description || title} />
 		<script type="application/ld+json" set:html={jsonLd} />
 		<style>
 			main {
