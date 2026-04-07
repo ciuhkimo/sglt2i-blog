@@ -44,4 +44,17 @@ const dialysis = defineCollection({
 	}),
 });
 
-export const collections = { notes, patient, dialysis };
+const blog = defineCollection({
+	loader: glob({ base: './src/content/blog', pattern: '**/*.{md,mdx}' }),
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		category: z.string(),
+		target_audience: z.string(),
+		last_updated: z.coerce.date(),
+		tags: z.array(z.string()),
+		seo_title: z.string().optional(),
+	}),
+});
+
+export const collections = { notes, patient, dialysis, blog };
