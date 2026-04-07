@@ -12,7 +12,7 @@ const sorted = allArticles.sort((a, b) => a.data.chapter.localeCompare(b.data.ch
 <!doctype html>
 <html lang="zh-Hant">
 	<head>
-		<BaseHead title={`透析衛教——護理版 | ${SITE_TITLE}`} description="以護理實務為導向的透析照護學習筆記，整合多本教科書的核心知識。" />
+		<BaseHead title={`透析衛教——護理版 | ${SITE_TITLE}`} description="以護理實務為導向的透析照護學習筆記，核心知識。" />
 		<style>
 			main {
 				width: 720px;
@@ -67,7 +67,7 @@ const sorted = allArticles.sort((a, b) => a.data.chapter.localeCompare(b.data.ch
 		<Header />
 		<main>
 			<h1>透析衛教——護理版</h1>
-			<p class="subtitle">以護理實務為導向的透析照護學習筆記，整合多本教科書的核心知識。</p>
+			<p class="subtitle">以護理實務為導向的透析照護學習筆記，核心知識。</p>
 
 			<ul class="note-list">
 				{sorted.map((article) => (
