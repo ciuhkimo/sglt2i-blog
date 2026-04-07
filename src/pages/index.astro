@@ -137,6 +137,35 @@ const clusters = [
 				background: var(--accent-dark);
 				color: #fff;
 			}
+			.dialysis-section {
+				margin-top: 2em;
+				padding: 2em;
+				background: #f5f3ef;
+				border-radius: 8px;
+			}
+			.dialysis-section h2 {
+				font-size: 1.5em;
+				margin-bottom: 0.3em;
+			}
+			.dialysis-section p {
+				color: rgb(var(--gray));
+				font-size: 0.95em;
+				margin-bottom: 1em;
+			}
+			.dialysis-link {
+				display: inline-block;
+				background: var(--accent);
+				color: #fff;
+				padding: 0.5em 1.2em;
+				border-radius: 6px;
+				text-decoration: none;
+				font-size: 0.95em;
+				font-weight: 600;
+			}
+			.dialysis-link:hover {
+				background: var(--accent-dark);
+				color: #fff;
+			}
 			.disclaimer {
 				margin-top: 3em;
 				padding-top: 1.5em;
@@ -187,6 +216,12 @@ const clusters = [
 				<h2>給病人與家屬</h2>
 				<p>用白話中文說明 SGLT2 抑制劑常見問題。這些文章不取代醫師的診療建議，而是幫助您在看診前後更了解自己的用藥。</p>
 				<a href="/patient/" class="patient-link">前往病人衛教專區 &rarr;</a>
+			</section>
+
+			<section class="dialysis-section">
+				<h2>透析衛教——護理版</h2>
+				<p>以護理實務為導向的透析照護學習筆記。涵蓋血液透析併發症處理、飲食營養、水分控制、糖尿病照護、貧血管理、骨礦物質代謝等核心主題。</p>
+				<a href="/dialysis/" class="dialysis-link">前往透析衛教專區 &rarr;</a>
 			</section>
 		</main>
 		<Footer />
