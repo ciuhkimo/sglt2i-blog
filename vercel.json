@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/notes/:path*",
+      "destination": "/sglt2i/:path*",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
