@@ -1,0 +1,103 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+
+const allNotes = await getCollection('glp1ra');
+const sorted = allNotes.sort((a, b) => a.data.question_id.localeCompare(b.data.question_id));
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead
+			title={`GLP-1 RA 臨床決策筆記 | ${SITE_TITLE}`}
+			description="GLP-1 receptor agonist 在 CKD 與心腎保護的 10 個臨床決策問題。以 FLOW trial 為核心證據，整合 KDIGO、ADA、ESC 指引與台灣健保實務。"
+		/>
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+			h1 {
+				font-size: 2em;
+				margin-bottom: 0.3em;
+			}
+			.subtitle {
+				color: rgb(var(--gray));
+				font-size: 1.05em;
+				margin-bottom: 2em;
+			}
+			.note-list {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+			.note-list li {
+				padding: 0.5em 0;
+				border-bottom: 1px solid rgb(var(--gray-light));
+			}
+			.note-list li:last-child {
+				border-bottom: none;
+			}
+			.note-link {
+				text-decoration: none;
+				display: block;
+			}
+			.note-link:hover .note-title {
+				color: #d4913a;
+			}
+			.note-title {
+				font-weight: 600;
+			}
+			.note-id {
+				font-weight: 700;
+				color: #b5711a;
+				margin-right: 0.3em;
+			}
+			.note-meta {
+				font-size: 0.8em;
+				color: rgb(var(--gray));
+				margin-top: 0.2em;
+			}
+			.empty-msg {
+				color: rgb(var(--gray));
+				font-style: italic;
+				font-size: 0.9em;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>GLP-1 RA 臨床決策筆記</h1>
+			<p class="subtitle">GLP-1 receptor agonist 在 CKD 與心腎保護的 10 個臨床決策問題。以 FLOW trial 為核心證據，整合 KDIGO、ADA、ESC 指引與台灣健保實務。</p>
+
+			{sorted.length > 0 ? (
+				<ul class="note-list">
+					{sorted.map((note) => (
+						<li>
+							<a class="note-link" href={`/glp1ra/${note.id}/`}>
+								<span class="note-title">
+									<span class="note-id">{note.data.question_id}</span>
+									{note.data.title}
+								</span>
+								<div class="note-meta">
+									{note.data.version} | 更新：<FormattedDate date={note.data.last_updated} /> | {note.data.status}
+								</div>
+							</a>
+						</li>
+					))}
+				</ul>
+			) : (
+				<p class="empty-msg">筆記準備中...</p>
+			)}
+		</main>
+		<Footer />
+	</body>
+</html>

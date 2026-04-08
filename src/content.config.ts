@@ -44,6 +44,23 @@ const dialysis = defineCollection({
 	}),
 });
 
+const glp1ra = defineCollection({
+	loader: glob({ base: './src/content/glp1ra', pattern: '**/*.{md,mdx}' }),
+	schema: z.object({
+		question_id: z.string(),
+		title: z.string(),
+		category: z.string(),
+		version: z.string(),
+		status: z.string(),
+		last_updated: z.coerce.date(),
+		next_review: z.coerce.date(),
+		tags: z.array(z.string()),
+		description: z.string().optional(),
+		quick_answer: z.string().optional(),
+		seo_title: z.string().optional(),
+	}),
+});
+
 const blog = defineCollection({
 	loader: glob({ base: './src/content/blog', pattern: '**/*.{md,mdx}' }),
 	schema: z.object({
@@ -57,4 +74,4 @@ const blog = defineCollection({
 	}),
 });
 
-export const collections = { notes, patient, dialysis, blog };
+export const collections = { notes, patient, dialysis, blog, glp1ra };

@@ -1,0 +1,20 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import Glp1raLayout from '../../layouts/Glp1raLayout.astro';
+
+export async function getStaticPaths() {
+	const notes = await getCollection('glp1ra');
+	return notes.map((note) => ({
+		params: { slug: note.id },
+		props: note,
+	}));
+}
+type Props = CollectionEntry<'glp1ra'>;
+
+const note = Astro.props;
+const { Content } = await render(note);
+---
+
+<Glp1raLayout {...note.data}>
+	<Content />
+</Glp1raLayout>
