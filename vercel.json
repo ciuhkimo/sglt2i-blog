@@ -1,0 +1,26 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "sglt2i-blog.vercel.app"
+        }
+      ],
+      "destination": "https://nephrodecisions.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "sglt2i-blog-ciuhkimos-projects.vercel.app"
+        }
+      ],
+      "destination": "https://nephrodecisions.com/:path*",
+      "permanent": true
+    }
+  ]
+}
