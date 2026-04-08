@@ -235,19 +235,6 @@ eGFR 20–45 且 UACR <200 mg/g？
 - **Clinical Relevance**: ★★★★★
   *全球非糖尿病 CKD 患者數目龐大；本決策影響數百萬患者的疾病修飾治療*
 
----
-
-## 修訂歷史
-
-| 版本 | 日期 | 修訂內容 | 審閱者 |
-|-----|------|--------|-------|
-| v1.0 | 2026-03-17 | 初稿 | 待審閱 |
-| v1.1 | 2026-03-20 | 10 項修正 | Chang（腎臟科）|
-| v1.2 | 2026-03-20 | 9 項修正 | Chang（腎臟科）|
-| v1.3 | 2026-03-20 | 6 項修正 | Chang（腎臟科）|
-| v1.4 | 2026-03-20 | 6 項修正 | Chang（腎臟科）|
-| v1.5 | 2026-03-20 | 正式版（第五輪 fact-check：7 項修正，含 Certainty Level 分層、試驗類型欄位重標、HF「低風險」措辭修正、AKI hold 移除固定時程、患者教育 eGFR/UACR 語氣收斂、Status 加入適用範圍說明） | Chang（腎臟科）|
-
 ## 相關筆記
 [Q01: CKD 病人何時應開始 SGLT2 inhibitor？](/notes/q01-ckd-start-timing)
 [Q03: 蛋白尿程度對 SGLT2 inhibitor 治療效益的影響](/notes/q03-proteinuria-impact)

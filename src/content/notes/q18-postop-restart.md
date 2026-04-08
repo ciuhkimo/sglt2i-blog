@@ -146,20 +146,6 @@ VA 大型世代研究（N=462,968）提供術後真實世界安全性資料，**
 
 ---
 
-## 修訂歷史
-
-| 版本 | 日期 | 主要變更 |
-|------|------|---------|
-| v1.0 | 2026-04-04 | 第五輪人工校稿（最終定稿）：(1) eKA 與 mortality 數字對位修正：「eKA 絕對差異極小（1.1% vs 1.6%）」拆清為 eKA: OR 1.11（CI 1.05–1.17）；1.1% vs 1.6% 標明為 mortality 絕對值，加 ⚠️ 防止混用；(2) 移除頂端「AI 自動生成草稿，需人工審閱」警語（與 v1.0 定稿狀態衝突）；(3) Last Updated 更新為 2026-04-04；(4) Why This Matters 移除「HR 2.40 pending verification」句，改為保守的 HF withdrawal 間接推論語境描述 |
-*（前一條「第四輪」為同日 v0.7→v1.0 過程中的中間命名，已整合至本版）*
-| v1.0（初稿） | 2026-04-04 | 第四輪人工校稿（定稿）：(1) ACC/AHA 2024 pending row 從 Guideline table 刪除（ACC/AHA 直接支持的是術前停藥，術後 restart wording 未能核實；authority backbone 維持 FDA/DailyMed + KDIGO 2022/2024）；(2) CCJM 2025 Pending/Unverified 整區移除，不留入正文（待核實後如有精確 DOI 再補入）；(3) 監測時間窗「術後 1–3 天為最常見高風險期」→「術後前幾天常特別需要警覺，但風險可延伸至整個恢復期」，加說明不應以 1–3 天為硬性上限（與 BJA 2019 時間分布一致） |
-| v0.7 | 2026-04-04 | 第三輪人工校稿（Q18校稿）：(1) Tallarico JAMA Surgery 段落：「較早重啟合理性」→「在符合重啟條件後避免不必要地過度延遲重啟」；加 ⚠️ 說明此研究為 users vs 對照者比較，非 restart timing 直接比較試驗；補入 OR CI 數字；(2) CCJM 2025 從 Major Studies 移至獨立 Pending / Unverified Citations 區塊，並在 Metadata 明確標示未計入 evidence tally；(3) Metadata LOE 修正為 LOE B: 3（BJA 2019、STOP DKA-2、Tallarico）；LOE C: 1（Frontiers 2026） |
-| v0.6 | 2026-04-04 | 第二輪人工校稿（Q18校稿）：(1) Frontiers 2026 row 移除「3.8% vs 3.5%（NS）」（屬另一篇 emergency surgery JAMA Surgery，非 Tallarico Postoperative Outcomes 同篇）；加說明兩篇 JAMA Surgery 2025 為不同文章，不應合併引用；(2) CCJM 2025 row 改為 pending verification，說明現有 CCJM 2025 文章未能對應到精確的 perioperative guideline comparison review，本列暫不引用；(3) 進行中研究：NCT06838507 / NCT07127406 改正為 perioperative ketoacidosis incidence/characterization 觀察性研究，非直接比較 restart timing 的 RCT |
-| v0.5 | 2026-04-04 | 第一輪人工校稿（Q18校稿）：(1) Why This Matters「停藥 1 週消除保護效應」→ 軟化為 EMPEROR withdrawal 間接推論；「HR 2.40」加 ⚠️ pending verification；(2) BJA 2019 eDKA 時間範圍「術後 1–3 天」→「術後數小時至數週」；(3) CCJM 2025 LOE B→C（secondary review）；Frontiers 2026 LOE B→C（review + indirect inference）；(4) Guideline table：加入 FDA/DailyMed 及 KDIGO 2022（authority backbone）；ADA 更新為 2026；ACC/AHA 加 ⚠️ pending verification；(5) 重啟必要條件清單加 ⚠️ pragmatic framework 標注，量化指標各加免責說明；(6) 手術分層表加 ⚠️ pragmatic algorithm 說明；(7) 監測時間窗從「術後 1–3 天」擴寬，加 ⚠️；(8) 「肌酐 >30% 停藥」改為臨床綜合判斷描述；(9) Metadata LOE 重新計算為 LOE B: 2、LOE C: 2 + official guidelines |
-| v0.4 | 2026-03-25 | AI 草稿更新（v0.4） |
-
----
-
 ## 相關筆記
 [Q16 Perioperative Timing](/notes/q16-perioperative-timing)：術前停藥時機（與 Q18 形成完整「停→重啟」流程）
 [Q17 AKI Recovery Restart](/notes/q17-aki-recovery-restart)：若術後合併 AKI，重啟時機需參照 Q17

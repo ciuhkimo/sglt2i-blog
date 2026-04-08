@@ -148,18 +148,6 @@ tags:
 - **Next Review Date**: 2026-09-18
 - **Clinical Relevance**: ★★★★☆（重要臨床問題，但決策相對清晰）
 
-## 修訂歷史
-
-| 版本 | 日期 | 主要變更 |
-|------|------|---------|
-| v1.7 | 2026-04-03 | 第六輪人工審閱（Q12校稿）：(1) T2DM+HTN 降壓幅度 row：移除錯誤的「2–4 mmHg」，改為三篇明確錨點：EMPA-REG BP trial（PMID 25271206，24h SBP −3.4~−4.2 mmHg）、PMID 37280615（24h SBP −5.06 mmHg / office SBP −4.53 mmHg）、PMID 32369546（resistant HTN post-hoc，-4.5 mmHg / -3.7 mmHg）；整體範圍標注「約 3–5 mmHg，依量測方式及族群而異」；(2) 刪除「症狀性低血壓整體發生率低」句：此句在現列兩篇文獻（PMID 37280615、32369546）均無直接核實，移除以避免無引文 assertion |
-| v1.6 | 2026-04-03 | 第五輪人工審閱（Q12校稿）：(1) EMPA-REG row：移除「症狀性低血壓未顯著增加」句，改為「低血壓安全性主要依據為 HF-specific trials / meta-analyses，非本試驗」（EMPA-REG 非 low-BP safety 主要文獻）；(2) 降壓幅度 meta-analysis row：換為明確 PMID：PMID 37280615（T2DM+HTN meta-analysis, Diabetology Metab Syndr 2023）＋ PMID 32369546（EMPA-REG resistant HTN post-hoc, Am J Hypertens 2020，-4.5 mmHg resistant vs -3.7 mmHg non-resistant），移除模糊「約 2020–2024 / MDPI 2024」表述 |
-| v1.5 | 2026-04-03 | 第四輪人工審閱（Q12校稿）：(1) EMPA-REG row 限縮為 T2DM+ASCVD 背景，移除「HF population 更中性」句（應由 DAPA-HF/EMPEROR-Reduced 承接，不屬本 row）；(2) DAPA-advKD results 句改保守化：「目前可讀取 record 未見 posted summary results；後續追蹤」；(3) Metadata Evidence Sources 移除 [citation pending]，補入 PMID 32981346 / PMID 36451919；(4) Clinical Decision 高危族群補入 DAPA-HF SBP ≥95 mmHg inclusion criterion 說明（基礎 SBP <95 mmHg 者 RCT 代表性有限） |
-| v1.4 | 2026-04-03 | 第三輪人工審閱（Q12校稿）：(1) OH meta-analysis 與 hypovolemia meta-analysis 的 citation pending 改為正式 PMID：OH = PMID 32981346（DOI 10.1177/1479164120953625）；hypovolemia = PMID 36451919（DOI 10.3389/fcvm.2022.973129）；(2) ESC row 來源拆分：HFrEF Class I 地位改引 2021 ESC HF guideline（Eur Heart J 2021;42:3599–3726）；2023 focused update 主要覆蓋 HFmrEF/HFpEF 等新情境；低血壓操作優先序標為 HF review 實務推論而非 2023 focused update 原文；(3) OH 定義補完整：「站立 3 分鐘內，SBP 下降 ≥20 mmHg 或 DBP 下降 ≥10 mmHg」；提示因素加入藥物因素；(4) EMPA-SNS 狀態更新：CT.gov last verified 2022-09、status unknown，當前真實進度不明；(5) 待追蹤補入 2025 self-controlled case series 時間聚集性 signal 與高危族群 practical markers 標注 |
-| v1.3 | 2026-04-03 | 第二輪人工審閱（Q12校稿）：(1) DAPA-advKD（NCT05196347）從「進行中」改為「已完成（2024-08-31）；結果待發表」；(2) EMPA-SNS（NCT03912909）加入機轉研究說明，並明確標示與 autonomic neuropathy–specific BP dynamics 的差異；(3) ESC 2023 row 進一步收窄：HFrEF Class I 地位已核實；「低血壓時 diuretic 優先調整」操作句明確標為 HF 實務推論、需另引文獻，不宜掛在 ESC 2023 focused update；(4) Clinical Decision 第三步加入「HF 實務推論，非 ESC 明文」標示，並細化 HFrEF 保藥優先序邏輯與重啟計畫要求 |
-| v1.2 | 2026-04-03 | 第一輪人工審閱（Q12校稿）：(1) Why This Matters：移除「平均 4 mmHg」固定值，改為「約 2–5 mmHg，依族群而異」；移除「單獨不足以造成症狀性低血壓」過強句，改為 volume depletion 風險可能小幅上升的平衡表述；移除 Br J Cardiol 2026 錯誤歸因；(2) Trial table：拆為 HF-specific（DAPA-HF/EMPEROR）、cardiorenal（EMPA-REG）、降壓幅度 meta-analysis、OH meta-analysis（RR 1.17, citation pending）、hypovolemia meta-analysis（RR 1.12, citation pending）五列；移除 Marcos Gamboa Br J Cardiol 2026 row 及 7-year pharmacovigilance falls 34% 未核實數據；(3) Guideline rows：KDIGO 改為推論一致（prolonged fasting/surgery/critical illness 停藥核實；mild BP 不停藥 = 推論）；ADA 改為 2026，加 T2DM/older adults 族群標示，移除過強「優先調藥」明文歸因；ESC 降級「diuretic 優先」為 HF 實務推論；(4) Clinical Decision BP 幅度改為範圍值；(5) Uncertainty 移除 Br J Cardiol 2026，加入 citation pending 標示，autonomic neuropathy ongoing trial 改標「未核實」 |
-| v1.1 | 2026-03-23 | AI 自動生成草稿 |
-
 ## 相關筆記
 [Q13-Polyuria-Dehydration/decision-note](/notes/q13-polyuria-dehydration)
 [Q14-Acute-Illness-Hold/decision-note](/notes/q14-acute-illness-hold)

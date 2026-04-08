@@ -147,19 +147,6 @@ tags:
 
 ---
 
-## 修訂歷史
-
-| 版本 | 日期 | 主要變更 |
-|------|------|---------|
-| v1.0 | 2026-04-04 | 第四輪人工校稿（定稿）：KDIGO IgAN/IgAV 2025 guideline table row 改為官方語言「patients who are at risk of progressive loss of kidney function with IgAN」；移除「UACR ≥500–1000 mg/g」作為 recommendation 原句的寫法；加 ⚠️ 說明試驗族群多為 eGFR 較低者，eGFR >60 段仍有不確定性 |
-| v0.7 | 2026-04-04 | 第三輪人工校稿（Q20校稿）：(1) Transplant safety meta-analysis PMID 補入：F1000Research 2025（PMID 41458393 / DOI 10.12688/f1000research.162502.1）；UTI/GMI/urosepsis/allograft rejection 均無顯著增加；臨床建議段同步移除「PMID 待補」標注；(2) ADA 2026 guideline table row 精確化：官方直接支持語句改為「eGFR ≥20 可啟動並持續至 kidney failure」；透析患者主要建議為 GLP-1–based therapy；「衰弱患者個別評估」明確標為 implied practice interpretation；(3) Metadata Evidence Sources 重新清點為 7 篇（LOE A: 2、LOE B: 3、LOE C: 2），與實際 evidence table 對齊 |
-| v0.6 | 2026-04-04 | 第二輪人工校稿（Q20校稿）：(1) Why This Matters「排除高齡 >75 歲」→「underrepresented」，補入 DAPA-CKD/EMPA-KIDNEY/CREDENCE 平均年齡及 eligibility 實際為 ≥18；(2) RENAL LIFECYCLE 名稱修正（移除 S），樣本數 1500→1750–2000 event-driven；(3) 補入全部 PMID/DOI：Age and Ageing（38287703）、Nat Commun（39567483）、Curr Hypertens Rep（38913113）、Clin Kidney J（41487902）、KDIGO 2025 IgAN（40975525）；(4) 移植腎段落補入 2025 transplant meta-analysis（UTI/allograft rejection 無顯著增加）；Nat Commun 核心族群限制明確標注（diabetic KTx、移植後前 3 個月）；(5) IgAN 適應症改用 KDIGO 2025 官方語言「at risk of progressive loss of kidney function」+ proteinuria ≥0.5 g/day，移除過度依賴「UACR 500–1000」的未核實 cut-point |
-| v0.5 | 2026-04-04 | 第一輪人工校稿（Q20校稿）：(1) DELIVER「≥80 歲不良事件未增加」→「across age spectrum / ≥75 歲亞組效益一致、安全終點無顯著差異」，標注原結論為 across age spectrum；(2) KDIGO 2024 CKD row 補入完整三條路徑：eGFR ≥20 + UACR ≥200（1A）、HF irrespective of albuminuria（1A）、eGFR 20–45 + UACR <200（2B suggestion）；(3) ADA 2026 / ESC 2023 推論句降級為 implied practice interpretation，加 ⚠️ 說明非原文逐字 wording，標注待補 guideline anchor；(4) 透析段「完全缺乏 RCT」改為「缺乏 landmark randomized outcome evidence」，說明已有 PK、exploratory、observational data 但不足支持 routine use；(5) IgAN 適應條件：UACR ≥500–1000 加 ⚠️ 說明 cut-point 待核官方 PDF；補入 KDIGO 2025 蛋白尿目標 <0.5 g/day（理想 <0.3 g/day）；(6) 各 Key Evidence 條目補入 DOI/PMID/NCT「待補」標注；RENAL LIFECYCLE 補入 NCT05374291；移除 AI 草稿警語；Last Updated 更新 2026-04-04 |
-| v1.1 | 2026-03-22 | AI 草稿更新：加入 KDIGO 2025 IgAN SGLT2i Grade 2B 建議 |
-| v1.0 | 2026-03-17 | AI 自動生成草稿 |
-
----
-
 ## 相關筆記
 [Q19 Drug Combination Strategy](/notes/q19-drug-combination-strategy)：與 ACEi/ARB、Finerenone、GLP-1 RA 的整合策略
 [Q17 AKI Recovery Restart](/notes/q17-aki-recovery-restart)：AKI 後重啟 SGLT2i（含移植/高齡情境參考）

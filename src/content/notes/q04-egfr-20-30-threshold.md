@@ -181,19 +181,6 @@ CKD stage 4（eGFR 20–30）患者是腎臟科臨床的主要族群。過去因
 - **Clinical Relevance**: ★★★★★（高）
   - CKD stage 4 是臨床主要族群，SGLT2i 啟用決策直接影響腎衰竭時程
 
----
-
-## 修訂歷史
-
-| 版本 | 日期 | 修訂內容 | 審閱者 |
-|-----|------|--------|-------|
-| v0.1 | 2026-03-17 | AI 自動生成草稿 | 待審閱 |
-| v1.1 | 2026-03-21 | 全文校對：(1) EMPA-KIDNEY 年份修正為 2022 主試驗；slope data 標示為 2024 secondary analysis 且為 overall，非 eGFR <30 subgroup；(2) DAPA-CKD 重新標示為 2021 stage 4 subgroup + 2023/2024 modeling（非 5 年 RCT 追蹤）；(3) ADA 2025 限縮為 T2D+CKD 語境，移除「不論是否糖尿病」；(4) ESC 2023 限縮為 diabetes/T2D+CKD cardiovascular-kidney 語境；(5) 藥物選擇：明確 empagliflozin / dapagliflozin 在 eGFR 20–30 有直接 RCT 依據；CREDENCE/canagliflozin 入組門檻為 eGFR ≥30，不應視為同等直接；(6) 刪除「每延遲一年啟用，透析提前 3–6 個月」（無可核實來源）；(7) 停藥標準：移除「反覆感染近月新增風險信號」，改為 label-based 風險描述 | Chang（腎臟科）|
-| v1.2 | 2026-03-21 | Citation hygiene：(1) EMPA-KIDNEY 年份更正為 NEJM 2023 Jan（ePub 2022 Nov）；補入主試驗 HR 0.72 與 eGFR <30 subgroup 人數（n=2,282）；(2) ESC 欄標題改為「2023 ESC Guidelines for the management of cardiovascular disease in patients with diabetes」（非 HF guideline）；補入「可啟用到至少 eGFR 20，持續到 KRT」明文；(3) EMPA-KIDNEY long-term follow-up 升格為 2025 已發表（HR 0.79），移出「進行中的研究」；(4) DAPA-CKD long-term modeling 年份統一為 2024 | Chang（腎臟科）|
-| v1.3 | 2026-03-21 | Citation precision：(1) ESC 指引標題移除「pre-diabetes」，確認正式標題為「2023 ESC Guidelines for the management of cardiovascular disease in patients with diabetes」；(2) Dapagliflozin 直接 RCT 證據範圍修正：DAPA-CKD 入組門檻為 eGFR ≥25，eGFR 20–24 為外推，非直接 RCT 直接納入；empagliflozin 直接 RCT 證據至 eGFR 20；(3) eGFR 急性下降 10–30% 實務門檻標示為「實務操作門檻，非 KDIGO 明文 cutoff」；(4) DAPA-CKD stage 4 subgroup 補入具體數字：primary composite 相對降低 27%，eGFR slope 2.15 vs 3.38 mL/min/1.73m²/yr，serious adverse events 類似 | Chang（腎臟科）|
-| v1.4 | 2026-03-21 | Evidence precision final：(1) DAPA-CKD stage 4 subgroup 族群描述修正：原「eGFR 25–<30 至 30–<45」為錯誤，改為「prespecified stage 4 subgroup：baseline eGFR <30；原 trial eligibility eGFR 25–75 + UACR 200–5000 mg/g」；(2) EMPA-KIDNEY 入組條件補完：「eGFR ≥20 to <45，或 eGFR ≥45 to <90 且 UACR ≥200 mg/g」，移除不精確的「20–45」簡寫；(3) ESC 語境從「diabetes + CKD」精縮為「T2DM + CKD」，與指引核心對象一致；(4) 不確定性段落：「效益訊號較弱」改為「hard outcome certainty 較低，但 slope analysis 及 SMART-C meta-analysis 仍支持有腎保護訊號」，並補入 SMART-C UACR ≤30 mg/g HR 0.58；(5) 新增 SMART-C JAMA 2025 meta-analysis（N=70,361；eGFR <30 subgroup HR 0.71, 95% CI 0.60–0.83）為獨立佐證 | Chang（腎臟科）|
-| v1.5 | 2026-03-21 | Wording precision（定稿前最終調整）：(1) DAPA-CKD stage 4 subgroup primary composite 補入 95% CI（27%，95% CI −2% to 47%），標示 CI 跨越無效值，改為「方向與整體 trial 一致」語氣；(2) eGFR slope 補上負號及 decline wording：「annual eGFR decline −2.15 vs −3.38 mL/min/1.73m²/yr」 | Chang（腎臟科）|
-
 ## 相關筆記
 [Q01: CKD 病人何時應開始 SGLT2 inhibitor？](/notes/q01-ckd-start-timing)
 [Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/notes/q02-nondm-ckd)

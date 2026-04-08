@@ -171,17 +171,6 @@ AKI 恢復 + 血動穩定
 - **Next Review Date**: 2026-09-18
 - **Clinical Relevance**: ★★★★★
 
-## 修訂歷史
-
-| 版本 | 日期 | 主要變更 |
-|------|------|---------|
-| v1.5 | 2026-04-03 | 第五輪人工審閱（Q15校稿）：(1) 「停藥後應儘早重啟，延遲重啟與較差的長期預後相關」→ 改為「Post-AKI re-use 與較佳 outcomes 相關（主要 observational data，Murphy 2024）；最佳重啟時機尚缺 RCT 定論」，移除因果語氣；(2) 流程圖右支：「輕度、血容量正常 → 可考慮繼續」→ 改為「先重新評估是否真為 AKI（vs hemodynamic eGFR dip）；確認 AKI 則個別化判斷（active AKI routine continuation 缺乏 RCT 支持）；hemodynamic dip 則繼續觀察」，區分四個概念：active AKI / acute illness / early eGFR dip / post-AKI re-use |
-| v1.4 | 2026-04-03 | 第四輪人工審閱（Q15校稿）：(1) Kidney Medicine 2026 population 修正為「13 RCT、84,581 人 diverse populations」，非 CKD-only；(2) eGFR <45 row 移除「pending full verification」（已在 PubMed 核實）；(3) Murphy et al. 拆為兩列：Kidney360 2024（aHR 0.72 CKD/0.75 recurrent AKI）+ Kidney International 2024（aHR 0.63 mortality）；(4) 「KDIGO AKI Stage 1b」標注非官方術語，改為 KDIGO criteria + clinically significant acute illness；(5) 「輕度 AKI 不需停藥」改為個別化判斷，補注 active AKI routine continuation 缺乏 RCT 直接支持；(6) Why This Matters 改為 observational + promising not definitive 表述；(7) 機轉段「延遲重啟等於延遲保護」去因果化，改為「提供 biologic plausibility，不直接定義最佳重啟時機」 |
-| v1.3 | 2026-04-03 | 第三輪人工審閱（Q15校稿）：(1) post-AKI RCT 補入 MAKE365 具體數字（35% vs 36%，P=0.82）與 recurrent AKI IRR 0.51（0.31–0.84）完整 CI；(2) Dong 2025 補入三個 HR（HF 0.58、AKI 0.53、全因死亡 0.51）；(3) UKKA 補入 early eGFR decline Grade 2B（不宜誤判停藥），與 sick day hold 1C 並列 |
-| v1.2 | 2026-04-03 | 第二輪人工審閱（Q15校稿）：(1) Why This Matters 移除「停藥 >3 個月」未核實硬數字；(2) SMART-C/2024 row 改標為 Lancet 2022 collaborative meta-analysis（正確發表年份與來源）；(3) Kidney Medicine 2026 row 修正整體 RR 為 0.80（非 0.70；0.70 是 pre-existing CKD 亞群）；(4) eGFR <45 HR 1.04 拆出為獨立 2025 meta-analysis row，標注來源不同於 Kidney Medicine 2026，避免混列；(5) eGFR <45 Clinical Decision 區塊相應更正，明確說明兩篇來源應分開解讀 |
-| v1.1 | 2026-04-03 | 第一輪人工審閱（Q15校稿）：(1) 移除「DAPA-CKD/CREDENCE 整合分析 27%」row，改為 SMART-C/Lancet meta-analysis（AKI -23%，腎進展 -37%）；(2) Kidney Medicine 2026 亞組數字（T2DM 0.75 / non-DM 0.88）標為 pending，eGFR<45 未顯著差異改以可核實 2025 meta-analysis 數字（HR 1.04, 0.50–2.17）表述；(3) Frontiers 2024 更正為 Murphy et al.（Veterans, DKD）post-AKI 觀察性世代（-28% CKD, -25% recurrent AKI），並標明非 active AKI 安全性研究；(4) Nakao review 年份 2025→2026（NDT Jan 30, DOI 10.1093/ndt/gfaf132），LOE 改為 C（review）；(5) 新增 post-AKI RCT（NCT05360615 相關）：MAKE365 未顯著改善，但 recurrent AKI 可能下降（IRR ~0.51），標為 promising but not definitive；(6) ADA 2025→2026，移除「AKI 停藥 Grade B」簡化公式，改為 sick-day / inpatient safety 框架；(7) KDIGO row 精準化（起始後 <20 仍可繼續；特定情境暫停）；(8) 造影前停藥降級為 conditional，補充最新 elective angiography 無顯著差異資料；(9) 重啟數值門檻與週數標為 pragmatic / expert-informed，非 guideline-backed threshold |
-| v0.4 | 2026-03-25 | AI 自動生成草稿 |
-
 ## 相關筆記
 [Q10-Creatinine-Dip-vs-AKI/decision-note](/notes/q10-creatinine-dip-vs-aki)
 [Q11-eGFR-Decline-Acceptable/decision-note](/notes/q11-egfr-decline-acceptable)

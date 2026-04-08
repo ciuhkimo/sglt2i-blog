@@ -192,20 +192,6 @@ eGFR ≥20 mL/min/1.73m²？
   - 正確的決策可優化成本效益
   - 腎病範圍患者的適當治療可改善預後
 
----
-
-## 修訂歷史
-
-| 版本 | 日期 | 修訂內容 | 審閱者 |
-|-----|------|--------|-------|
-| v1.0 | 2026-03-17 | 初稿；基於SMART-C、CREDENCE、CKJ、Kidney Medicine分析 | 待審閱 |
-| v1.1 | 2026-03-20 | Fact-check 修正：(1) SMART-C 出版年份與族群說明精修；(2) Kidney Medicine 2021 與 Diabetes Obes Metab 2019 分拆為兩列；(3) KDIGO 1A vs 2B 分層明確化；(4) ADA 2025 陳述精修（albuminuria 非唯一門檻）；(5) 移除無指南支持的「>20% UACR threshold」；(6) 肺炎監測句改為正確歸因（腎病症候群通用監測） | Chang（腎臟科）|
-| v1.2 | 2026-03-21 | 6 項來源修正：(1) Diabetes Obes Metab 2019 → Bae et al. Sci Rep 2019 (PMID 31506585)；(2) Kidney Medicine albuminuria subgroup 更正為 7 trials, 61,821 participants；(3) EMPA-REG 誤歸因 → CREDENCE post hoc analysis（所有段落）；(4) Guideline Concordance 精修（KDIGO 1A vs 2B 強度差異明確化）；(5) EMPA-KIDNEY follow-up 更新為已發表（NEJM 2025），不再寫預期 2026–2027；(6) NRP ongoing studies 改為具體 2023–2024 RCT 列舉，移除模糊「預期結果」句 | Chang（腎臟科）|
-| v1.3 | 2026-03-21 | 4 項書目精度與措辭校準：(1) CREDENCE 年份更正：2019 (main trial); albuminuria subgroup 2021；(2) CKJ 回顧更正為 Kalay et al. Clin Kidney J. 2022 (doi: 10.1093/ckj/sfac189)；(3) Uncertainty 中「<10%」改為「少數族群但並非完全缺席」並加入 CREDENCE 實際比例（約 11.5%）；(4) Clinical Decision 標題軟化為「albuminuria 不應單獨作為拒絕依據」，ESC 欄改為以 HF phenotype 為進入條件的精準表述 | Chang（腎臟科）|
-| v1.4 | 2026-03-21 | 最終 attribution cleanup：(1) Clinical Decision pt.2 絕對 benefit 數字來源從 SMART-C 改回正確出處 Kidney Medicine 2021（附注 SMART-C 提供 relative HR）；(2) 3/6/12 個月監測時點加註「本地實務工作流程，非 KDIGO/ADA 明文規定」；(3) 臨床流程加入警示標籤，標明為 SMART-C + KDIGO + ADA 整合路徑，非單一指南原文算法 | Chang（腎臟科）|
-| v1.5 | 2026-03-21 | 5 項精修：(1) Uncertainty pt.1 修正「absolute benefit 最低」——三組中最低為 UACR 30–300（1.4），非 <30（2.2）；(2) Bae 2019 RR 解讀修正為完整三組（0.69/0.49/0.73，移除誤讀的進展描述）；(3) 3 個月監測補充 ADA 2025 的 ≥30% UACR 目標背景，並明確說明非 SGLT2i 專屬停藥門檻；(4) eGFR <20 流程圖改寫為啟用門檻 vs 持續邏輯分開說明（KDIGO：已啟用後通常可持續至 KRT）；(5) Clinical Decision pt.2 標題改為 pragmatic prioritization，明確標示非成本效益試驗結論 | Chang（腎臟科）|
-| v1.6 | 2026-03-21 | KDIGO framing 補全與 T2D eligibility 邏輯修正：(1) Guideline 表格補入 KDIGO 2024 Rec 3.7.1 (1A)：T2D+CKD+eGFR≥20 → recommend，不以 albuminuria 為前提條件；(2) 臨床流程圖重構為 T2D+CKD（建議啟用，1A）vs non-DM CKD（依 ACR/HF 分層，1A/2B）兩條分支，albuminuria 退為 absolute benefit 與優先排序層次；(3) Metadata 修正為 5 個主要分析（補入 Bae et al. 2019） | Chang（腎臟科）|
-
 ## 相關筆記
 [Q01: CKD 病人何時應開始 SGLT2 inhibitor？](/notes/q01-ckd-start-timing)
 [Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/notes/q02-nondm-ckd)

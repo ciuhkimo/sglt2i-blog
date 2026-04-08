@@ -133,17 +133,6 @@ AKI 恢復追蹤（出院後門診）
 
 ---
 
-## 修訂歷史
-
-| 版本 | 日期 | 主要變更 |
-|------|------|---------|
-| v0.7 | 2026-04-04 | 第三輪人工校稿（Q17校稿）：(1) Why This Matters「強力顯示」→「supports / suggests」，時間改為 2024–2026 年；(2) 重啟條件評估清單加入 ⚠️ pragmatic framework 標注，各數值（Scr 穩定 48–72h、尿量 0.5 mL/kg/h、β-HB <0.6）均加 ⚠️ 說明非 guideline 固定閾值；(3) 重啟後監測「肌酐上升 >30% 即停藥」改為臨床綜合判斷描述，加 ⚠️ 說明 KDIGO 無此固定門檻，並注明輕度 Scr 上升屬預期生理反應；(4) Guideline table KDIGO row：PP 4.3.3 → PP 4.3.2 + PP 4.3.3，並分別說明兩個 PP 的核心要求 |
-| v0.6 | 2026-04-04 | 第二輪人工校稿（Q17校稿）：(1) 新增 Empagliflozin After Severe AKI RCT（2025/2026，N=200，MAKE365 NS，recurrent AKI IRR 0.51，95% CI 0.31–0.84）至 Key Evidence，目前已知最直接的 AKI 後重啟 RCT；(2) Frontiers Pharmacology 2024 row 改寫：移除「延遲重啟與較差預後相關」歸因，改標為 AKI 住院期間使用 SGLT2i 與 MAKE endpoint 的研究，加 ⚠️ 非 early-vs-delayed restart 直接比較；(3) Guideline table 修正：KDIGO row 補入 PP 4.3.3 編號及「停藥時記錄重啟時機」要求；ADA 更新為 2026 並加 ⚠️ 以 DM 患者為主；ESC row 加 ⚠️ 說明屬 HF guideline 非 AKI-specific 直接建議；(4) Metadata LOE 修正為 7 篇（LOE B: 5；LOE C: 2） |
-| v0.5 | 2026-04-04 | 第一輪人工校稿（Q17校稿）：(1) Stage-based 固定重啟天數（Stage 1: 3–7天、Stage 2: 1–2週、Stage 3: ≥4週）改為 individualized framework 表格，加 ⚠️ 說明 KDIGO/ADA/ESC 均未提供固定天數；(2) "Impacts After Recent AKI PMC 2024" 與 "To Hold or Not to Hold Kidney360 2025" 均降級為 LOE C，加 commentary/editorial 標注；(3) Empagliflozin 30 天停藥訊號改標為 indirect HF withdrawal evidence，非 AKI-specific restart 直接論證；(4) BMC Nephrology 2026 sample size 修正為 39,251 SGLT2i vs 256,298 DPP4i（加權分析），不再寫成 N=295,549；(5) BELIEVE Trial 改標為 Thai registry TCTR20230703004，非 ClinicalTrials.gov；(6) 進行中的研究加入「前瞻性 AKI-specific restart RCT 仍缺乏」說明；Why This Matters 第 3 點加 LOE C 標注 |
-| v0.4 | 2026-03-25 | AI 草稿更新（v0.4） |
-
----
-
 ## 相關筆記
 [Q10 Creatinine Dip vs AKI](/notes/q10-creatinine-dip-vs-aki)：如何區分 SGLT2i 引起的肌酐上升（適應性）與真正 AKI
 [Q15 AKI Stop Decision](/notes/q15-aki-stop-decision)：何時應停用 SGLT2i（與 Q17 的重啟形成完整流程）

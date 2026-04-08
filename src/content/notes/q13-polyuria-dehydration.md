@@ -141,16 +141,6 @@ SGLT2 抑制劑因其葡萄糖尿機制，使用初期患者常出現**多尿（
 - **Next Review Date**: 2026-09-18
 - **Clinical Relevance**: ★★★★☆
 
-## 修訂歷史
-
-| 版本 | 日期 | 主要變更 |
-|------|------|---------|
-| v1.4 | 2026-04-03 | 第四輪人工審閱（Q13校稿）：(1) Frontiers 綜述 2022 row（LOE C）升級為 Dekkers CCJ 2019（PMID 31407856，Diabetes Obes Metab）：T2DM 患者人體直接量測（¹²⁵I-HSA mPV −9.0%；phase 2b/3 pooled ePV −9.6%，95% CI 9.0–10.2）；LOE 升至 B；方向不變但 bibliographic precision 與證據層級顯著提升 |
-| v1.3 | 2026-04-03 | 第三輪人工審閱（Q13校稿）：(1) 「正常生理代償」改為「常見且合理的生理代償之一」，補注外推限制（DAPA-Shuttle1 = HF 族群；Masuda 2020 = GK rats；frailty/advanced CKD 仍屬推論）；(2) 「鼓勵正常補水」改為「依 volume status 與心腎情境個別化補水」；(3) bedside markers（Na⁺、BUN/Cr、尿液比重等）加入「輔助評估」說明，明確標注非 guideline 明文 stop-criteria |
-| v1.2 | 2026-04-03 | 第二輪人工審閱（Q13校稿）：(1) EMPA-KIDNEY population 改為精確分層條件（eGFR ≥20 to <45 不限 UACR；eGFR ≥45 to <90 需 UACR ≥200）；(2) EMPA-KIDNEY safety 改為 "broadly comparable" 並加入 individual participant-level meta-analysis 顯示 volume depletion 略多之說明；(3) 機制研究物種從「動物 + 人類」更正為「diabetic GK rats（Masuda 2020）」，加入人體資料應另補說明；(4) UKKA 年份 2023 → 2021（v1 發布日 20.10.21）；(5) Akunjee 的「volume 效應可代償」不再由本篇單獨承擔，注明依據為 DAPA-Shuttle1 + Masuda 2020；(6) Clinical Decision 移除 >2 kg 與 furosemide ≥40 mg/d 硬門檻（無 guideline 依據），改為描述性；高風險 eGFR 從 <30 擴展為 <60（尤其 <30），與 FDA label 警語一致 |
-| v1.1 | 2026-04-03 | 第一輪人工審閱（Q13校稿）：(1) Why This Matters 補入 FDA label 為 volume depletion 警告的第一來源；(2) DAPA-HF 次族群分析 → 更正為 DAPA-Shuttle1（NCT04080518）機轉 RCT，加入正確機轉描述；(3) 移除 Frontiers 綜述「~100-200 mL」未核實精確數字，改為「輕度至中度 plasma volume contraction，依個體風險而異」；(4) 新增 DAPA-CKD / EMPA-KIDNEY 為背景 cardiorenal benefit 來源，標明非直接多尿/停藥研究；(5) KDIGO 從 2024 改為 2022 DM-in-CKD（更適切的 volume management guidance 來源），並說明 2024 主要對應 perioperative/DKA 場景；(6) ADA 從 2025 改為 2026，移除「Grade B」與具體 bedside checklist 的 ADA 歸因，改標為臨床實務推論；(7) UKKA 補充 DAPA-CKD volume depletion 具體數字（5.9% vs 4.2%）與高劑量利尿劑次族群警示；(8) IES2025 LOE 降至 Very low / hypothesis-generating；KANG 標為 position statement；Akunjee 標為 narrative review |
-| v0.4 | 2026-03-25 | AI 自動生成草稿 |
-
 ## 相關筆記
 [Q12-Hypotension-Attribution/decision-note](/notes/q12-hypotension-attribution)
 [Q14-Acute-Illness-Hold/decision-note](/notes/q14-acute-illness-hold)

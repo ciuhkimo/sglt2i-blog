@@ -226,19 +226,6 @@ CKD 患者就診
 
 ---
 
-## 修訂歷史
-
-| 版本 | 日期 | 主要變更 |
-|------|------|---------|
-| v1.4 | 2026-04-04 | 第二輪人工校稿（Q01校稿）：(1) EMPA-KIDNEY 年份 2022（NEJM）→ 2023（NEJM；Epub 2022 Nov 4）；(2) ADA 2026 row wording 精確化：continue until an individual starts dialysis、Strength 改為 A；(3) Step 5 監測改為 practice-based 標注，加引用 KDIGO PP 3.7.3；(4) CREDENCE 進行中研究條目修正：限定 T2DM + albuminuric CKD，明確不能作為 non-diabetic CKD 依據；(5) DAPA-CKD LTE → longer-term modeling / extrapolation，加說明非真實 follow-up cohort；(6) KDIGO 2026 public review draft 日期修正為 2026-03-24；(7) eGFR 20–25 Uncertainty 降階：移除「應啟用但需更密集監測」，改為個別化決定；(8) Metadata Certainty Level 分層（High / Moderate）；(9) Trial registration cross-check 補入 Metadata；(10) Terminology Note 補入 Metadata（KRT / dialysis / ESRD 統一規則） |
-| v1.3 | 2026-04-04 | 第一輪人工校稿（Q01校稿）：(1) ADA 2026 歸因修正：non-diabetic CKD / CKD+HF 的 Grade 1A 依據改標 KDIGO 2024，ADA 2026 row 加 ⚠️ 說明其適用對象僅 T2DM + CKD；(2) eGFR <20 新啟用降階：從「不應貿然拒絕」改為「高品質 trial 未納入；individualized nephrology-assisted decision；先核藥品標示」；(3) 禁忌症結構重組：T1DM / 既往 DKA 為「不建議啟用」；sepsis / AKI / critical illness / surgery / volume depletion 改為「暫緩啟用或暫時停用（hold / defer）」；(4) 水分建議改為「avoid volume depletion；個別化 by volume status / HF plan」；(5) eGFR drop >30% 加 ⚠️ 標注為 practice-based threshold，非 KDIGO graded recommendation；(6) EMPA-KIDNEY 年份 2023→2022（NEJM）；(7) LTE「前 6 個月最明顯」加 figure-level exploratory observation 標注；(8) 核心結論改為四點分層架構 |
-| v1.2 | 2026-04-04 | 三版整合：(1) 套用 Chang 手動校稿（v1.1 manual review）的全部修正：DAPA-CKD DM% 66%→68% T2DM / 32% non-DM、DAPA-HF HR 0.71→0.74、EMPEROR-Preserved N 4128→5988、DELIVER HR 0.83→0.82、KDIGO「continue below eGFR 20」Grade 1A→Practice Point 3.7.1、術前停藥時間「24–48 小時」→「至少 3 天」（ertugliflozin 4 天）、eGFR dip 用語改為 KDIGO 原文、Canagliflozin 限定 T2DM + albuminuric CKD；(2) 保留 decision-note.md 的 EMPA-KIDNEY LTE（PMID 39453837, HR 0.87 / 0.79）；(3) ADA 2025→ADA 2026（Section 11 官方文字）；(4) 整合修訂備註至修訂歷史表，去除各節 inline 修訂標注；(5) 新增核心結論段落 |
-| v1.1（decision-note.md） | 2026-03-23 | AI 自動更新：加入 EMPA-KIDNEY LTE（NEJM 2025, PMID 39453837）；未套用 Chang 手動校稿 |
-| v1.1（decision-note-v1.1.md） | 2026-03-17 | Chang 手動校稿：修正 6 處核心數據錯誤；更新 ADA 表述；修正術前停藥天數、eGFR dip 用語、Canagliflozin 定位；未納入 EMPA-KIDNEY LTE |
-| v1.0 | 2026-03-17 | AI 自動生成初稿 |
-
----
-
 ## 相關筆記
 [Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/notes/q02-nondm-ckd)
 [Q03: 蛋白尿程度對 SGLT2 inhibitor 治療效益的影響](/notes/q03-proteinuria-impact)

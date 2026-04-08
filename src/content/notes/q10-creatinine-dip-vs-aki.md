@@ -142,18 +142,6 @@ eGFR 下降幅度？              → 尋找其他 AKI 誘因
 - **Guideline Concordance**: KDIGO 2024 官方文本直接支持：(1) reversible dip 不是停藥理由 + 不需增加監測頻率；(2) hemodynamically active therapy 啟動後 eGFR >30% 超過預期變異、應評估其他原因——兩者均為 KDIGO 官方原文；ADA 2026 / ESC 2023 的精確原句尚未逐字核實，方向一致
 - **Clinical Relevance**: ★★★★★（腎臟科日常最高頻臨床問題之一）
 
----
-
-## 修訂歷史
-
-| 版本 | 日期 | 主要變更 |
-|------|------|---------|
-| v1.5 | 2026-04-04 | 第三輪人工審閱（Q10校稿）：(1) Why This Matters 首條「約 creatinine 上升 5–15%」從獨立數字改為「臨床粗估值，非單一 pivotal trial 固定數字」；(2) `<20%` 判讀欄從「幾乎確定為生理性 dip」改為「若發生於啟用後早期，且無其他 AKI 誘因或臨床不穩定，通常較支持生理性 dip」；(3) 流程圖 `>30%` 臂「複查 creatinine（1–2 週）」改為「高風險或疑似 true AKI 者，可考慮短期複查 serum creatinine / eGFR（實務監測建議，非 KDIGO 直接規定之固定時程）」；(4) ADA 2026 row 升級：補入 Section 11 官方文字（eGFR ≥20 建議使用、if tolerated continue until dialysis），strength 改為「強烈建議」 |
-| v1.4 | 2026-04-01 | 第二輪人工審閱（Q10校稿）：(1) KDIGO >30% 閾值歸屬改正：此語句確為 KDIGO 2024 官方原文（hemodynamically active therapy 啟動後 >30% 超預期變異、應評估原因），移除原先錯誤的「主要出自 KDOQI commentary」標注；KDIGO row 改為精確引述官方措辭；(2) EMPA-KIDNEY population 擴展：eGFR 20–45 → eGFR 20–<45，或 eGFR 45–<90 且 uACR ≥200 mg/g；補入 prespecified secondary analysis（前 2 個月 acute dip 2.12 mL/min/1.73m²、約 6%，之後慢性 slope 顯著變慢）；(3) 時間窗全面更新：三處「2–4 週」改為「早期（約 2 週至 2 個月內）」，更貼近 DAPA-CKD（2 週）/ EMPA-REG（4 週）/ EMPA-KIDNEY secondary analysis（2 個月）各自的觀察點；(4) EMPA-KIDNEY long-term follow-up 從「進行中」移至「已發布、可納入下一版更新」（2025 年已發表，NCT03594110 已更新） |
-| v1.3 | 2026-04-01 | 第一輪人工審閱（Q10校稿）：(1) 28.3% >10% dip 數字歸屬改為 EMPA-REG OUTCOME post hoc，移出 EMPA-KIDNEY；EMPA-KIDNEY row 修正並加警示；(2) DAPA-CKD 試驗行精確化為 prespecified post hoc analysis，補入 49.4% vs 23.7%、2-week 觀察點、NCT03036150；(3) CTR 2025 eGFR <45 subgroup HR 1.04 措辭從「保護效果消失」降級為「未達統計顯著，不等同無效」；(4) KDIGO guideline row 補入 KDOQI commentary 歸因說明，區分 KDIGO 官方條文 vs >30% 閾值的來源；(5) ADA 2026 / ESC 2023 措辭降級為「方向一致、exact wording 待核實」之臨床推論；(6) NGAL/KIM-1 section 重構為「理論性輔助、非 routine discriminator」，強調 SGLT2i-specific 驗證缺乏；(7) Uncertainty item 4 同步修正 |
-| v1.2 | 2026-03-25 | AI 草稿更新（生物標記段加入；Empagliflozin IPD 補入） |
-| v1.1 | — | 早期草稿版本 |
-
 ## 相關筆記
 [Q09: Surgery & Fasting Hold](/notes/q09-surgery-fasting-hold)
 [Q11: eGFR Decline Acceptable](/notes/q11-egfr-decline-acceptable)

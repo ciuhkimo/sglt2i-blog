@@ -132,22 +132,6 @@ SGLT2i 治療中的 eGFR 監測
 - **Guideline Concordance**: KDIGO 2024 直接支持「reversible dip 不是停藥理由、>30% 應進一步評估」；ADA 2026 直接支持「SGLT2i 起始 creatinine rise 不應停藥、eGFR ≥20 可啟用持續至 kidney failure」（已核實）；ESC 2023 直接支持「持續使用至 KRT 前、CKD 患者至少 eGFR ≥20 啟用」（已核實）；「mild eGFR decline alone 不停藥」之 ESC exact wording 未直接定位，為與 ESC 立場一致之推論；三層 <20/20–30/>30% 為 practical heuristic，非 KDIGO 官方條文分級
 - **Next Review Date**: 2026-09-18
 
----
-
-## 修訂歷史
-
-| 版本 | 日期 | 主要變更 |
-|------|------|---------|
-| v1.8 | 2026-04-03 | 第七輪人工審閱（Q11校稿）：(1) KDIGO row 補入 PP 3.7.1（once initiated 可持續使用至 eGFR <20，除非不耐受或 KRT；generic CKD，非限 T2DM），補入 PP 2.1.3/2.1.4 具體引注；Strength 欄改為「Practice Point（PP 2.1.3/2.1.4/3.7.1；非正式 graded recommendation）」；(2) ADA Strength 欄拆分為 formal recommendation（11.7a）+ narrative support（creatinine rise 不停藥為正文敘述）；(3) ESC Strength 欄改為 narrative support，標注 exact wording 未直接定位；(4) Clinical flowchart 下方補短註：4–8 週 / 1–2 週為 practical heuristic，非 KDIGO 或 RCT 明文時間點 |
-| v1.7 | 2026-04-03 | 第六輪人工審閱（Q11校稿）：(1) Clinical Decision 表格合併第 2、3 列（原列有「>20% 需評估」vs「—」的內部矛盾）→ 重整為乾淨兩列架構：hemodynamic therapy 用 >30%；一般 subsequent testing 用 >20%；各自引 KDIGO PP 2.1.3/2.1.4；(2) 「不應每 2–4 週頻繁複查」改為 nuanced guidance：KDIGO 立場為 routine 不需改變監測頻率；但 volume / 感染 / 低血壓 / 利尿劑調整 / frailty 等臨床疑慮時可個別提前追蹤；(3) EMPA-KIDNEY / DAPA-CKD / CREDENCE 三個 trial 的 population 欄補入精確 UACR / albuminuria 條件，防止後續誤引 |
-| v1.6 | 2026-04-03 | 第五輪人工審閱（Q11校稿）：(1) DAPA-CKD 拆為兩列：main trial 2020（HR 0.61）與 acute-dip post-hoc analysis 2022（dip 數字與 safety 結論），消除 citation mixing；(2) ADA 2026 row 加入「適用族群：T2DM 合併 CKD」標示，避免誤讀為 generic CKD guidance；(3) ESC 2023 row 加入「適用族群：T2DM 合併 CKD（ESC 2023 Diabetes guideline 脈絡）」標示；(4) 三層分類表格第三列改為「未啟動 hemodynamically active therapy（subsequent testing expected variability）」，貼近 KDIGO 原文措辭；(5) Clinical Decision 時間節點加入 workflow heuristic 標示，並將「12 週」改為「數週至 3 個月」，標注 DAPA 2-week observation point 出處，避免過度歸因 KDIGO |
-| v1.5 | 2026-04-03 | 第四輪人工審閱（Q11校稿）：(1) Why This Matters 移除「與長期腎臟保護效益正相關」過強表述，改為「多反映可預期 hemodynamic effect；通常不代表較差長期腎預後」，歸因來源明標 KDIGO 2024 + Herrington 2025；(2) CREDENCE row 拆為兩列：main trial 2019（HR 0.70 / renal HR 0.66 / ESKD↓32%）與 acute-dip post-hoc analysis 2021（≈45% vs ≈21%；long-term trajectories 大致相似），消除 attribution mixing；(3) 「監測時間點建議」小標從「根據 KDIGO」改為「pragmatic practice；核心精神參照 KDIGO」，避免過度歸因 KDIGO 時間點原文 |
-| v1.4 | 2026-04-03 | 第三輪人工審閱（Q11校稿）：(1) DAPA-CKD prespecified post hoc analysis 年份更正 2021→2022；(2) EMPA-KIDNEY row 移除過度歸因：「dip 可逆不影響長期效益」改標為 KDIGO 2024 + Herrington 2025 依據，非 EMPA-KIDNEY 單一 trial 陳述；(3) Uncertainty item 4 改寫：Herrington 2025 支持 benefit irrespective of diabetes status；DM vs non-DM slope 幅度差異不確定（移除「non-DM 幅度較低」此一未直接核實的比較）；(4) Metadata 更新：Evidence Sources 4→9+，Guideline Concordance 更新 ADA 2026 / ESC 2023 狀態從「待核實」改為已核實，並說明各 row 歸因精確度 |
-| v1.3 | 2026-04-02 | 第二輪人工審閱（Q11校稿）：(1) ESC 2023 row 升級：「持續使用至 KRT 前」及「eGFR ≥20 啟用」已核實為 ESC 2023 直接支持；「mild eGFR decline 不停藥」exact wording 未直接定位，標為推論一致；(2) Herrington 2025 row 移除未核實的 DM 74%/non-DM 42% 亞組百分比；(3) Uncertainty item 4 移除具體百分比，改標「待核實」 |
-| v1.2 | 2026-04-01 | 第一輪人工審閱（Q11校稿）：(1) Why This Matters 移除「KDIGO 已提供正式閾值」過強表述，改為精確陳述 KDIGO 2024 官方立場（reversible dip 不是停藥理由；>30% 應評估，非必然永久停藥）；(2) EMPA-KIDNEY row 更正 primary outcome HR 0.72（0.64–0.82），移除錯誤掛名的「腎衰竭風險 34%」→ 此數字歸 Herrington 2025 IPD meta；(3) DAPA-CKD row 移除未驗證的 HR 0.58（0.50–0.66），改為主試驗 primary composite HR 0.61，並精確標注 dip paper 的重點；(4) Herrington 2025 IPD meta 修正為 kidney failure HR 0.66、AKI adverse events HR 0.73；DM 74%/non-DM 42% 標為 pending verification；(5) KDIGO guideline row 加入 heuristic 與官方條文區分說明；(6) ADA row 降級標注「≤30% creatinine 閾值係 RAS blockade 適用，非 SGLT2i-specific」；(7) ESC row 降級為「方向一致、exact wording 待核實」；(8) Clinical Decision 三層分類表格改標 practical heuristic；(9) >30% 決策路徑改為「評估原因 → 個別決定是否暫停」，移除「暫停 SGLT2i」作為預設動作 |
-| v1.1 | 2026-03-23 | 前期草稿更新 |
-- **Clinical Relevance**: ★★★★★（每個 SGLT2i 患者必然面臨的監測問題）
-
 ## 相關筆記
 [Q03-Proteinuria-Impact/decision-note](/notes/q03-proteinuria-impact)
 [Q09-Surgery-Fasting-Hold/decision-note](/notes/q09-surgery-fasting-hold)
