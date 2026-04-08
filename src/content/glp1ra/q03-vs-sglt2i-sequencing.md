@@ -186,6 +186,7 @@ T2DM + CKD 病人（已在 ACEi/ARB + metformin）
 
 ## 相關筆記
 - [Q01: CKD+T2DM 何時加 GLP-1 RA](/glp1ra/q01-ckd-dm-when-to-start/)
+- [Q04: eGFR <30 或透析的 GLP-1 RA 使用](/glp1ra/q04-low-egfr-use/)
 - Q05: 腎臟終點證據（即將推出）
 - Q10: 四柱療法整合（即將推出）
 - [SGLT2i Q05: 腎 vs 心保護定位](/sglt2i/q05-renal-vs-hf-protection/)
