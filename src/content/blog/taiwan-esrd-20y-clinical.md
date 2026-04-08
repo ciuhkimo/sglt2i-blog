@@ -200,4 +200,33 @@ NSAIDs 使用率從 21.3% 降至 14.3%，是少數可量化的用藥安全改善
 
 ---
 
+## 作者與審閱
+
+- **作者**：小鎮醫生｜腎臟科專科醫師
+- **審閱**：同作者（三平台 AI deep research 交叉查核 + 人工校閱）
+- **版本**：v1.0
+- **最後更新**：2026-04-08
+- **下次審閱**：2026-10-08
+
+---
+
+## 延伸閱讀
+
+- [SGLT2i 在 CKD 的啟用時機](/sglt2i/q01-ckd-start-timing/)
+- [GLP-1 RA 何時加入 CKD 治療](/glp1ra/q01-ckd-dm-when-to-start/)
+- [特殊族群的 SGLT2i 使用](/sglt2i/q20-special-populations/)
+- [透析飲食與營養管理](/dialysis/edu-06-nutrition/)
+- [台灣洗腎人數與趨勢（民眾版）](/blog/taiwan-esrd-20y-public/)
+
+---
+
+## References
+
+1. 台灣腎臟醫學會、國家衛生研究院。台灣腎病年報（2015-2024 年各版）。https://www.tsn.org.tw
+2. United States Renal Data System (USRDS). Annual Data Report: Epidemiology of Kidney Disease in the United States. National Institutes of Health, National Institute of Diabetes and Digestive and Kidney Diseases. https://usrds-adr.niddk.nih.gov
+3. ANZDATA Registry. Australia and New Zealand Dialysis and Transplant Registry Annual Reports. https://www.anzdata.org.au
+4. ERA-EDTA Registry. European Renal Association Annual Reports. https://www.era-online.org
+
+---
+
 *資料來源：台灣腎臟醫學會（TSN）歷年腎病年報。本文為趨勢分析整理，個別數值以各年度年報原始資料為準。*

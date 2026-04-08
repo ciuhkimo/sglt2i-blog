@@ -210,6 +210,40 @@ seo_title: "洗腎掉髮與頭皮毛囊炎：鑑別診斷與 ESRD 安全用藥"
 
 ---
 
+## 作者與審閱
+
+- **作者**：小鎮醫生｜腎臟科專科醫師
+- **審閱**：同作者（三平台 AI deep research 交叉查核 + 人工校閱）
+- **版本**：v1.0
+- **最後更新**：2026-04-08
+- **下次審閱**：2026-10-08
+
+---
+
+## 延伸閱讀
+
+- [透析中常見不適與緊急處理](/dialysis/edu-05-hd-complications/)
+- [透析飲食與營養管理](/dialysis/edu-06-nutrition/)
+- [貧血管理：紅血球生成素與鐵劑](/dialysis/edu-10-anemia/)
+- [感染預防與控制](/dialysis/edu-12-infection-control/)
+- [洗腎掉頭髮、頭皮長疹子怎麼辦？（病人版）](/blog/hd-alopecia-patient/)
+
+---
+
+## References
+
+1. Pisoni RL, Wikström B, Elder SJ, et al. Pruritus in haemodialysis patients: International results from the Dialysis Outcomes and Practice Patterns Study (DOPPS). *Nephrol Dial Transplant*. 2006;21(12):3495-3505.
+2. Fishbane S, Jamal A, Engel-Boder N, et al. A phase 3 trial of difelikefalin in hemodialysis patients with pruritus (KALM-1). *N Engl J Med*. 2020;382(3):222-232.
+3. Ishida JH, McCulloch CE, Steinman MA, et al. Gabapentin and pregabalin use and association with adverse outcomes among hemodialysis patients. *J Am Soc Nephrol*. 2018;29(7):1970-1978.
+4. Otberg N, Shapiro J. Hair growth disorders. In: Goldsmith LA, Katz SI, Gilchrest BA, et al., eds. *Fitzpatrick's Dermatology in General Medicine*. 8th ed. McGraw-Hill; 2012.
+5. Sperling LC, Sinclair RD, Shabrawi-Caelen L. Alopecias. In: Bolognia JL, Schaffer JV, Cerroni L, eds. *Dermatology*. 4th ed. Elsevier; 2018.
+6. Kluger N, Jégou MH, Téot L. Folliculitis decalvans and dissecting cellulitis: literature review and management recommendations. *J Eur Acad Dermatol Venereol*. 2019;33(12):2241-2249.
+7. Boelaert JR, Van Landuyt HW, Godard CA, et al. Nasal mucosal carriage of *Staphylococcus aureus* in hemodialysis patients: prevalence and clinical significance. *Clin Infect Dis*. 1993;17(1):1-7.
+8. FDA Safety Communication. The FDA warns that biotin may interfere with lab tests. 2017; updated 2019.
+9. KDIGO 2012 Clinical Practice Guideline for Anemia in Chronic Kidney Disease. *Kidney Int Suppl*. 2012;2(4):279-335.
+
+---
+
 ## 免責聲明
 
 本文為臨床教育用途的整理筆記，不構成個別醫療建議。藥物劑量與適應症可能因各國法規、藥品仿單、與個別患者狀況而異。實際臨床決策應依據完整的病史評估、最新的治療指引、以及主治醫師的專業判斷。如有疑問，請諮詢皮膚科或腎臟科專科醫師。
