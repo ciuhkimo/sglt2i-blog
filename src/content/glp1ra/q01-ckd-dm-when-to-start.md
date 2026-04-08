@@ -15,35 +15,6 @@ quick_answer: "最直接的腎臟結局證據來自 FLOW：T2DM + CKD 且 eGFR 2
 seo_title: "CKD 合併糖尿病何時加 GLP-1 RA？FLOW、指引與台灣實務"
 ---
 
-# CKD 合併 T2DM 病人，何時應加上 GLP-1 RA？
-
-> **臨床問題：** 對於已使用 ACEi/ARB ± SGLT2i 的 CKD 合併 T2DM 病人，在什麼臨床情境下應優先加上 GLP-1 RA？加入時機是否取決於 eGFR、UACR、HbA1c、ASCVD 風險或 BMI？
-
----
-
-## 查核摘要（v1.1 先看這段）
-
-> **✅ 直接查核通過**
-> 1. **FLOW** 確實證明 once-weekly semaglutide 1 mg 可降低主要腎臟複合終點（HR 0.76），並降低 CV death（HR 0.71）與 all-cause death（HR 0.80）。
-> 2. **FDA 於 2025 年核准 Ozempic 新適應症**：用於降低 T2DM + CKD 成人的 sustained eGFR decline、ESKD、與 cardiovascular death 風險。
-> 3. **台灣健保現行 GLP-1 RA 給付限制** 確實要求先經既定藥物治療後，HbA1c 仍 >8.5%，且**不得與 SGLT2i 併用給付**。
-
-> **⚠️ 本版已修正的重要錯誤**
-> 1. **FLOW 納入條件原先寫得太粗**：不是單純「eGFR 25–75 + UACR ≥100」，而是
->    - eGFR 25–<50：UACR ≥100 mg/g
->    - eGFR 50–75：UACR ≥300 mg/g
-> 2. **不應把 semaglutide 寫成『繼 SGLT2i 之後第二類具 primary renal endpoint RCT 支持的腎保護藥』**；因為在 T2DM + CKD 領域，**finerenone 的 FIDELIO-DKD 也有 primary kidney endpoint RCT**。
-> 3. **Rybelsus 並非「未核准」**：台灣官方資料可查到 oral semaglutide（瑞倍適）許可證；但我**沒有在目前公開的健保 GLP-1 給付條文中看到 oral semaglutide 被列入給付**。
-> 4. **SURPASS-CVOT 的 CKD 次族群 HR 0.67** 未能以本輪主要查核來源直接確認；本版改列為「不可作為定案依據」。
-> 5. **TREASURE-CKD 完成時程不再寫死某個月份**；本版僅保留為 ongoing phase 2 mechanistic trial。
-
-> **ℹ️ 目前仍屬 provisional 的重點**
-> 1. **GLP-1 RA 加在 SGLT2i 之上的腎臟「加成」效果**：整體方向合理，但 FLOW baseline SGLT2i subgroup 事件少，不能用來下定論。
-> 2. **dialysis / eGFR <25 病人的腎保護**：目前較適合談可用性、體重管理與候補移植，不宜宣稱已證實腎保護。
-> 3. **tirzepatide 的腎保護定位**：已有 SURPASS-4、SURPASS-CVOT 後續分析與機制試驗，但仍未達 semaglutide/FLOW 這種 dedicated kidney outcome RCT 的證據等級。
-
----
-
 ## Why This Matters（為何重要）
 
 CKD 合併 T2DM 的心腎風險高，而臨床上真正困難的問題通常不是「要不要降 HbA1c」，而是**何時應把 GLP-1 RA 從單純降糖藥，提升為器官保護策略的一部分**。
