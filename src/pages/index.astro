@@ -5,7 +5,7 @@ import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getCollection } from 'astro:content';
 
-const allNotes = await getCollection('notes');
+const allNotes = await getCollection('sglt2i');
 
 const clusters = [
 	{
@@ -253,7 +253,7 @@ const clusters = [
 							<ul class="note-list">
 								{clusterNotes.map((note) => (
 									<li>
-										<a href={`/notes/${note.id}/`}>
+										<a href={`/sglt2i/${note.id}/`}>
 											<span>
 												<span class="note-id">{note.data.question_id}</span>
 												{note.data.title}

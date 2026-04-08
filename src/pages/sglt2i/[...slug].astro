@@ -3,13 +3,13 @@ import { type CollectionEntry, getCollection, render } from 'astro:content';
 import NoteLayout from '../../layouts/NoteLayout.astro';
 
 export async function getStaticPaths() {
-	const notes = await getCollection('notes');
+	const notes = await getCollection('sglt2i');
 	return notes.map((note) => ({
 		params: { slug: note.id },
 		props: note,
 	}));
 }
-type Props = CollectionEntry<'notes'>;
+type Props = CollectionEntry<'sglt2i'>;
 
 const note = Astro.props;
 const { Content } = await render(note);
