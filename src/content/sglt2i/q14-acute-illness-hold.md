@@ -188,6 +188,6 @@ oral intake 正常、無紅旗徵兆）          無法進食、高 DKA risk、�
 - **Clinical Relevance**: ★★★★★
 
 ## 相關筆記
-[Q09-Surgery-Fasting-Hold/decision-note](/notes/q09-surgery-fasting-hold)
-[Q12-Hypotension-Attribution/decision-note](/notes/q12-hypotension-attribution)
-[Q13-Polyuria-Dehydration/decision-note](/notes/q13-polyuria-dehydration)
+[Q09-Surgery-Fasting-Hold/decision-note](/sglt2i/q09-surgery-fasting-hold)
+[Q12-Hypotension-Attribution/decision-note](/sglt2i/q12-hypotension-attribution)
+[Q13-Polyuria-Dehydration/decision-note](/sglt2i/q13-polyuria-dehydration)

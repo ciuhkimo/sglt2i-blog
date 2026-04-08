@@ -193,7 +193,7 @@ eGFR ≥20 mL/min/1.73m²？
   - 腎病範圍患者的適當治療可改善預後
 
 ## 相關筆記
-[Q01: CKD 病人何時應開始 SGLT2 inhibitor？](/notes/q01-ckd-start-timing)
-[Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/notes/q02-nondm-ckd)
-[Q04: eGFR 20–30 患者的 SGLT2i 啟用決策](/notes/q04-egfr-20-30-threshold)
-[Q11: eGFR Decline Acceptable](/notes/q11-egfr-decline-acceptable)
+[Q01: CKD 病人何時應開始 SGLT2 inhibitor？](/sglt2i/q01-ckd-start-timing)
+[Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/sglt2i/q02-nondm-ckd)
+[Q04: eGFR 20–30 患者的 SGLT2i 啟用決策](/sglt2i/q04-egfr-20-30-threshold)
+[Q11: eGFR Decline Acceptable](/sglt2i/q11-egfr-decline-acceptable)

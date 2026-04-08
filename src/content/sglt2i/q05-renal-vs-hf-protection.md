@@ -344,6 +344,6 @@ SGLT2 抑制劑同時提供**腎保護與心臟保護**，兩者並非二擇一�
 - **Next Review Date**: 2026-09-17
 
 ## 相關筆記
-[Q01: CKD 病人何時應開始 SGLT2 inhibitor？](/notes/q01-ckd-start-timing)
-[Q06: Volume Status Assessment](/notes/q06-volume-status-assessment)
-[Q07: DKA Risk Identification](/notes/q07-dka-risk-identification)
+[Q01: CKD 病人何時應開始 SGLT2 inhibitor？](/sglt2i/q01-ckd-start-timing)
+[Q06: Volume Status Assessment](/sglt2i/q06-volume-status-assessment)
+[Q07: DKA Risk Identification](/sglt2i/q07-dka-risk-identification)

@@ -227,8 +227,8 @@ CKD 患者就診
 ---
 
 ## 相關筆記
-[Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/notes/q02-nondm-ckd)
-[Q03: 蛋白尿程度對 SGLT2 inhibitor 治療效益的影響](/notes/q03-proteinuria-impact)
-[Q04: eGFR 20–30 患者的 SGLT2i 啟用決策](/notes/q04-egfr-20-30-threshold)
-[Q10: Creatinine Dip vs AKI](/notes/q10-creatinine-dip-vs-aki)
-[Q15: AKI Stop Decision](/notes/q15-aki-stop-decision)
+[Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/sglt2i/q02-nondm-ckd)
+[Q03: 蛋白尿程度對 SGLT2 inhibitor 治療效益的影響](/sglt2i/q03-proteinuria-impact)
+[Q04: eGFR 20–30 患者的 SGLT2i 啟用決策](/sglt2i/q04-egfr-20-30-threshold)
+[Q10: Creatinine Dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki)
+[Q15: AKI Stop Decision](/sglt2i/q15-aki-stop-decision)

@@ -143,5 +143,5 @@ eGFR 下降幅度？              → 尋找其他 AKI 誘因
 - **Clinical Relevance**: ★★★★★（腎臟科日常最高頻臨床問題之一）
 
 ## 相關筆記
-[Q09: Surgery & Fasting Hold](/notes/q09-surgery-fasting-hold)
-[Q11: eGFR Decline Acceptable](/notes/q11-egfr-decline-acceptable)
+[Q09: Surgery & Fasting Hold](/sglt2i/q09-surgery-fasting-hold)
+[Q11: eGFR Decline Acceptable](/sglt2i/q11-egfr-decline-acceptable)

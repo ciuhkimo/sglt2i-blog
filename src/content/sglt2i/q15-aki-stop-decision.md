@@ -172,6 +172,6 @@ AKI 恢復 + 血動穩定
 - **Clinical Relevance**: ★★★★★
 
 ## 相關筆記
-[Q10-Creatinine-Dip-vs-AKI/decision-note](/notes/q10-creatinine-dip-vs-aki)
-[Q11-eGFR-Decline-Acceptable/decision-note](/notes/q11-egfr-decline-acceptable)
-[Q14-Acute-Illness-Hold/decision-note](/notes/q14-acute-illness-hold)
+[Q10-Creatinine-Dip-vs-AKI/decision-note](/sglt2i/q10-creatinine-dip-vs-aki)
+[Q11-eGFR-Decline-Acceptable/decision-note](/sglt2i/q11-egfr-decline-acceptable)
+[Q14-Acute-Illness-Hold/decision-note](/sglt2i/q14-acute-illness-hold)

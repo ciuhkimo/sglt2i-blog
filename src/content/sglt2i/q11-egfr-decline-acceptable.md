@@ -133,6 +133,6 @@ SGLT2i 治療中的 eGFR 監測
 - **Next Review Date**: 2026-09-18
 
 ## 相關筆記
-[Q03-Proteinuria-Impact/decision-note](/notes/q03-proteinuria-impact)
-[Q09-Surgery-Fasting-Hold/decision-note](/notes/q09-surgery-fasting-hold)
-[Q10-Creatinine-Dip-vs-AKI/decision-note](/notes/q10-creatinine-dip-vs-aki)
+[Q03-Proteinuria-Impact/decision-note](/sglt2i/q03-proteinuria-impact)
+[Q09-Surgery-Fasting-Hold/decision-note](/sglt2i/q09-surgery-fasting-hold)
+[Q10-Creatinine-Dip-vs-AKI/decision-note](/sglt2i/q10-creatinine-dip-vs-aki)
