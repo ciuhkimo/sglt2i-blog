@@ -182,3 +182,60 @@ AKI KDIGO stage 1-2，已完成容積復甦
 - 不要用反覆高劑量 furosemide 試圖改變寡尿狀態，這不會改善預後
 - 四大 RCT 告訴我們 40-50% 的患者即使符合傳統標準也不需要 RRT，FST 正是幫助辨識這群患者的工具
 - 大型 FST 引導結局的 RCT 尚未完成，現階段 FST 應作為輔助決策工具，而非唯一依據
+
+---
+
+## 作者與審閱
+
+- **作者**：小鎮醫生｜腎臟科專科醫師
+- **審閱**：同作者（三平台 AI deep research 交叉查核 + 人工校閱）
+- **版本**：v1.0
+- **最後更新**：2026-04-08
+- **下次審閱**：2026-10-08
+
+---
+
+## 延伸閱讀
+
+- [SGLT2i 與 AKI 停藥決策](/sglt2i/q15-aki-stop-decision/) — AKI 發生時 SGLT2i 是否停用？
+- [AKI 恢復後何時重啟 SGLT2i](/sglt2i/q17-aki-recovery-restart/) — AKI recovery 後的藥物重啟時機
+- [急性疾病時 SGLT2i 要不要停](/sglt2i/q14-acute-illness-hold/) — Sick day rules 與暫停原則
+- [透析中常見不適與緊急處理](/dialysis/edu-05-hd-complications/) — 血液透析併發症的護理處置
+- [生病時 SGLT2i 要停嗎？](/patient/sick-day-rules/) — 病人衛教版 sick day 指引
+
+---
+
+## References
+
+### Systematic Review / Meta-analysis
+
+1. Chen JJ, et al. Furosemide stress test as a predictive marker of acute kidney injury progression or renal replacement therapy: a systemic review and meta-analysis. *Crit Care*. 2020;24:202. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32375859/)
+
+### Randomized Controlled Trials（RRT Timing）
+
+2. STARRT-AKI Investigators. Timing of initiation of renal-replacement therapy in acute kidney injury. *N Engl J Med*. 2020;383:240-251. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32668114/)
+3. Gaudry S, et al. (AKIKI) Initiation strategies for renal-replacement therapy in the intensive care unit. *N Engl J Med*. 2016;375:122-133. [PubMed](https://pubmed.ncbi.nlm.nih.gov/27181456/)
+4. Barbar SD, et al. (IDEAL-ICU) Timing of renal-replacement therapy in patients with acute kidney injury and sepsis. *N Engl J Med*. 2018;379:1431-1442. [PubMed](https://pubmed.ncbi.nlm.nih.gov/30304656/)
+5. Gaudry S, et al. (AKIKI-2) Comparison of two delayed strategies for renal replacement therapy initiation. *Lancet*. 2021;397:1293-1300. [PubMed](https://pubmed.ncbi.nlm.nih.gov/33812488/)
+
+### FST Derivation / Validation Studies
+
+6. Chawla LS, et al. Development and standardization of a furosemide stress test to predict the severity of acute kidney injury. *Crit Care*. 2013;17(5):R207. [PubMed](https://pubmed.ncbi.nlm.nih.gov/24053972/)
+7. Koyner JL, et al. Furosemide stress test and biomarkers for the prediction of AKI severity. *J Am Soc Nephrol*. 2015;26:2023-2031. [PubMed](https://pubmed.ncbi.nlm.nih.gov/25614832/)
+8. Rewa OG, Bagshaw SM, et al. The furosemide stress test for prediction of worsening AKI in critically ill patients: a multicenter, prospective, observational study. *J Crit Care*. 2019;52:109-114. [PubMed](https://pubmed.ncbi.nlm.nih.gov/31026731/)
+
+### FST-Guided RRT Pilot Trial
+
+9. Lumlertgul N, et al. Early versus standard initiation of renal replacement therapy in furosemide stress test non-responsive acute kidney injury patients (the FST Trial). *Crit Care*. 2018;22:101. [PubMed](https://pubmed.ncbi.nlm.nih.gov/29673373/)
+
+### Sepsis-Specific FST Data
+
+10. Palmowski L, et al. Predictive enrichment for the need of renal replacement in sepsis-associated acute kidney injury: combination of furosemide stress test and urinary biomarkers. *Ann Intensive Care*. 2024;14:111. [PubMed](https://pubmed.ncbi.nlm.nih.gov/39023810/)
+
+### Pathophysiology / Mechanism
+
+11. Gomez H, et al. A unified theory of sepsis-induced acute kidney injury. *Shock*. 2014;41(1):3-11. [PubMed](https://pubmed.ncbi.nlm.nih.gov/24346647/)
+
+### Guidelines
+
+12. Ostermann M, et al. KDIGO Controversies Conference: acute kidney injury. *Kidney Int*. 2020;98:294-309. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32709292/)
