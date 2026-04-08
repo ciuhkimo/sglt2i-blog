@@ -234,6 +234,6 @@ T2DM + CKD 病人就診
 ---
 
 ## 相關筆記
-- Q03: GLP-1 RA vs SGLT2i 排序（即將推出）
+- [Q03: GLP-1 RA vs SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/)
 - Q05: 腎臟終點證據（即將推出）
 - Q10: 四柱療法整合（即將推出）
