@@ -233,16 +233,6 @@ T2DM + CKD 病人就診
 
 ---
 
-## 修訂歷史
-
-| 版本 | 日期 | 主要變更 |
-|------|------|---------|
-| v1.2 | 2026-04-08 | 結構重寫為網站版：套用 SGLT2i 系列統一格式（Why This Matters / Key Evidence / Clinical Decision / Uncertainty / Metadata）；移除第一人稱語氣與對話式表述；將 Guideline Landscape、Agent Selection、Practical Start-and-Monitor、Bottom Line、Source Anchors 整合至對應標準段落；Landmark Trials 與 Guideline Recommendations 改為標準表格格式；所有臨床數據與建議內容不變 |
-| v1.1 | 2026-04-08 | 人工查核版：(1) FLOW 納入條件修正為 eGFR 分層 UACR 門檻；(2) 修正 semaglutide 定位語句（finerenone FIDELIO-DKD 亦有 primary renal RCT）；(3) Rybelsus 台灣許可證確認但健保給付未確認；(4) SURPASS-CVOT CKD HR 0.67 降為 provisional；(5) TREASURE-CKD 移除固定完成日期；(6) 新增 Source Anchors 查核錨點 |
-| v1.0 | 2026-04-08 | AI 輔助初稿，整合 Claude/Gemini/ChatGPT 三份 deep research |
-
----
-
 ## 相關筆記
 - [Q03: GLP-1 RA vs SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/)
 - [Q05: 腎臟終點證據](/glp1ra/q05-renal-endpoint-evidence/)
