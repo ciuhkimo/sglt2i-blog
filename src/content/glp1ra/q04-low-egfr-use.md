@@ -201,5 +201,5 @@ GLP-1 RA 熱量攝取減少 16-39%，體重減輕中 lean mass 流失 11-50%。C
 ## 相關筆記
 - [Q01: CKD+T2DM 何時加 GLP-1 RA](/glp1ra/q01-ckd-dm-when-to-start/)
 - [Q03: GLP-1 RA vs SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/)
-- Q05: 腎臟終點證據（即將推出）
+- [Q05: 腎臟終點證據](/glp1ra/q05-renal-endpoint-evidence/)
 - [SGLT2i Q04: eGFR 20-30 門檻](/sglt2i/q04-egfr-20-30-threshold/)
