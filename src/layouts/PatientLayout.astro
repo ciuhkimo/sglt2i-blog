@@ -31,7 +31,7 @@ const noteSlugMap: Record<string, string> = {
 	Q19: 'q19-drug-combination-strategy',
 	Q20: 'q20-special-populations',
 };
-const noteSlug = noteSlugMap[source_note] || source_note.toLowerCase();
+const noteSlug = source_note ? (noteSlugMap[source_note] || source_note.toLowerCase()) : '';
 
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',
@@ -159,9 +159,11 @@ const jsonLd = JSON.stringify({
 					這篇文章幫助您了解醫師處方的藥物。具體用藥請遵循您的主治醫師指示。
 				</div>
 				<slot />
-				<div class="pro-link">
-					<a href={`/sglt2i/${noteSlug}/`}>醫療專業人員版本 &rarr;</a>
-				</div>
+				{source_note && (
+					<div class="pro-link">
+						<a href={`/sglt2i/${noteSlug}/`}>醫療專業人員版本 &rarr;</a>
+					</div>
+				)}
 				{tags.length > 0 && (
 					<div class="tags">
 						{tags.map((tag) => (

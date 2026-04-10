@@ -24,7 +24,7 @@ const patient = defineCollection({
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
-		source_note: z.string(),
+		source_note: z.string().optional(),
 		last_updated: z.coerce.date(),
 		tags: z.array(z.string()),
 		seo_title: z.string().optional(),
