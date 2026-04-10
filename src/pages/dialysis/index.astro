@@ -7,6 +7,55 @@ import { SITE_TITLE } from '../../consts';
 
 const allArticles = await getCollection('dialysis');
 const sorted = allArticles.sort((a, b) => a.data.chapter.localeCompare(b.data.chapter));
+
+// Group articles by cluster for the knowledge map
+const clusters = [
+	{
+		id: 'access',
+		title: '透析治療核心',
+		color: '#1a6b5a',
+		bg: '#e8f4f0',
+		topics: [
+			{ slug: 'edu-03-vascular-access', short: '血管通路照護' },
+			{ slug: 'edu-05-hd-complications', short: '併發症與緊急處理' },
+			{ slug: 'edu-12-infection-control', short: '感染預防與控制' },
+		],
+	},
+	{
+		id: 'complications',
+		title: '併發症管理',
+		color: '#c05621',
+		bg: '#fef5e7',
+		topics: [
+			{ slug: 'edu-14-cardiovascular', short: '心血管併發症' },
+			{ slug: 'edu-10-anemia', short: '貧血管理' },
+			{ slug: 'edu-11-bone-mineral', short: '骨礦物質異常' },
+			{ slug: 'edu-09-diabetes-dialysis', short: '糖尿病腎病變' },
+		],
+	},
+	{
+		id: 'selfcare',
+		title: '自我管理',
+		color: '#4a6fa5',
+		bg: '#f0f4ff',
+		topics: [
+			{ slug: 'edu-06-nutrition', short: '飲食與營養' },
+			{ slug: 'edu-07-fluid-weight', short: '水分與體重' },
+		],
+	},
+	{
+		id: 'special',
+		title: '特殊照護與教育',
+		color: '#7a5ea7',
+		bg: '#f3f0f5',
+		topics: [
+			{ slug: 'edu-16-elderly-dialysis', short: '老年透析' },
+			{ slug: 'edu-18-patient-education', short: '病人衛教技巧' },
+		],
+	},
+];
+
+const titleMap = new Map(sorted.map((a) => [a.id, a.data.title]));
 ---
 
 <!doctype html>
@@ -15,7 +64,7 @@ const sorted = allArticles.sort((a, b) => a.data.chapter.localeCompare(b.data.ch
 		<BaseHead title={`透析衛教——護理版 | ${SITE_TITLE}`} description="以護理實務為導向的透析照護學習筆記，核心知識。" />
 		<style>
 			main {
-				width: 720px;
+				width: 880px;
 				max-width: calc(100% - 2em);
 				margin: auto;
 				padding: 3em 1em;
@@ -28,6 +77,65 @@ const sorted = allArticles.sort((a, b) => a.data.chapter.localeCompare(b.data.ch
 				color: rgb(var(--gray));
 				font-size: 1.05em;
 				margin-bottom: 2em;
+			}
+
+			/* Knowledge map */
+			.knowledge-map {
+				margin-bottom: 3em;
+			}
+			.map-title {
+				font-size: 1.1em;
+				font-weight: 600;
+				color: rgb(var(--gray));
+				margin-bottom: 1em;
+				text-align: center;
+			}
+			.cluster-grid {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				gap: 1em;
+			}
+			.cluster {
+				border-radius: 10px;
+				padding: 1.3em 1.2em 1em;
+				border: 2px solid transparent;
+			}
+			.cluster-title {
+				font-size: 1.05em;
+				font-weight: 700;
+				margin-bottom: 0.8em;
+				padding-bottom: 0.5em;
+				border-bottom: 2px solid currentColor;
+				opacity: 0.9;
+			}
+			.topic-link {
+				display: block;
+				padding: 0.5em 0.7em;
+				margin-bottom: 0.4em;
+				background: #fff;
+				border-radius: 6px;
+				text-decoration: none;
+				color: rgb(var(--gray-dark));
+				font-size: 0.9em;
+				transition: transform 0.12s, box-shadow 0.12s;
+				border-left: 3px solid currentColor;
+			}
+			.topic-link:hover {
+				transform: translateX(3px);
+				box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+			}
+			.topic-link:last-child {
+				margin-bottom: 0;
+			}
+
+			/* Full list section */
+			.full-list-header {
+				font-size: 1.1em;
+				font-weight: 600;
+				color: rgb(var(--gray));
+				margin: 2em 0 1em;
+				padding-top: 1.5em;
+				border-top: 1px solid rgb(var(--gray-light));
 			}
 			.note-list {
 				list-style: none;
@@ -51,15 +159,16 @@ const sorted = allArticles.sort((a, b) => a.data.chapter.localeCompare(b.data.ch
 			.note-title {
 				font-weight: 600;
 			}
-			.note-id {
-				font-weight: 700;
-				color: var(--accent-dark);
-				margin-right: 0.3em;
-			}
 			.note-meta {
 				font-size: 0.8em;
 				color: rgb(var(--gray));
 				margin-top: 0.2em;
+			}
+
+			@media (max-width: 720px) {
+				.cluster-grid {
+					grid-template-columns: 1fr;
+				}
 			}
 		</style>
 	</head>
@@ -69,6 +178,29 @@ const sorted = allArticles.sort((a, b) => a.data.chapter.localeCompare(b.data.ch
 			<h1>透析衛教——護理版</h1>
 			<p class="subtitle">以護理實務為導向的透析照護學習筆記，核心知識。</p>
 
+			<section class="knowledge-map">
+				<p class="map-title">知識地圖 — 依臨床主題分群</p>
+				<div class="cluster-grid">
+					{clusters.map((cluster) => (
+						<div class="cluster" style={`background: ${cluster.bg};`}>
+							<div class="cluster-title" style={`color: ${cluster.color};`}>
+								{cluster.title}
+							</div>
+							{cluster.topics.map((topic) => (
+								<a
+									class="topic-link"
+									href={`/dialysis/${topic.slug}/`}
+									style={`color: ${cluster.color};`}
+								>
+									{topic.short}
+								</a>
+							))}
+						</div>
+					))}
+				</div>
+			</section>
+
+			<p class="full-list-header">完整列表</p>
 			<ul class="note-list">
 				{sorted.map((article) => (
 					<li>
