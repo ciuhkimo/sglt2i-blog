@@ -237,4 +237,4 @@ T2DM + CKD 病人就診
 - [Q03: GLP-1 RA vs SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/)
 - [Q04: eGFR <30 或透析的 GLP-1 RA 使用](/glp1ra/q04-low-egfr-use/)
 - [Q05: 腎臟終點證據](/glp1ra/q05-renal-endpoint-evidence/)
-- Q10: 四柱療法整合（即將推出）
+- [Q10: 四柱療法整合](/glp1ra/q10-four-pillar-integration/)
