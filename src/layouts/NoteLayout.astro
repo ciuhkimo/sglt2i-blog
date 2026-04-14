@@ -118,6 +118,52 @@ const jsonLd = JSON.stringify({
 			.quick-answer strong {
 				color: var(--accent-dark);
 			}
+			.author-block {
+				display: flex;
+				gap: 1em;
+				align-items: flex-start;
+				margin-top: 3em;
+				padding: 1.5em;
+				background: #f8f9fa;
+				border-radius: 10px;
+				border: 1px solid rgb(var(--gray-light));
+			}
+			.author-avatar {
+				font-size: 2.5em;
+				flex-shrink: 0;
+			}
+			.author-info {
+				font-size: 0.88em;
+				line-height: 1.6;
+				color: rgb(var(--gray));
+			}
+			.author-info p {
+				margin: 0 0 0.2em;
+			}
+			.author-name {
+				font-size: 1.1em;
+				font-weight: 700;
+				color: rgb(var(--gray-dark));
+			}
+			.author-title {
+				color: var(--accent-dark);
+				font-weight: 500;
+			}
+			.author-ai {
+				font-size: 0.85em;
+				font-style: italic;
+			}
+			.author-link {
+				display: inline-block;
+				margin-top: 0.4em;
+				color: var(--accent);
+				text-decoration: none;
+				font-weight: 600;
+				font-size: 0.9em;
+			}
+			.author-link:hover {
+				text-decoration: underline;
+			}
 		</style>
 	</head>
 
@@ -150,6 +196,16 @@ const jsonLd = JSON.stringify({
 					</div>
 				)}
 				<slot />
+				<aside class="author-block">
+					<div class="author-avatar">👨‍⚕️</div>
+					<div class="author-info">
+						<p class="author-name">小鎮醫生</p>
+						<p class="author-title">腎臟科專科醫師｜內科專科醫師</p>
+						<p class="author-review">醫師審閱：<FormattedDate date={last_updated} /></p>
+						<p class="author-ai">AI 輔助：文獻搜尋與初稿整理。最終內容由醫師查核與修訂。</p>
+						<a class="author-link" href="/about/">了解編輯流程 →</a>
+					</div>
+				</aside>
 			</article>
 		</main>
 		<Footer />
