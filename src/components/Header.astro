@@ -1,20 +1,38 @@
 ---
 import { SITE_TITLE } from '../consts';
-import HeaderLink from './HeaderLink.astro';
 ---
 
 <header>
 	<nav>
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
-			<HeaderLink href="/">首頁</HeaderLink>
-			<HeaderLink href="/sglt2i">SGLT2i</HeaderLink>
-			<HeaderLink href="/glp1ra">GLP-1 RA</HeaderLink>
-			<HeaderLink href="/sexual-health">腎友與性</HeaderLink>
-			<HeaderLink href="/patient">給病人與家屬</HeaderLink>
-			<HeaderLink href="/dialysis">透析衛教</HeaderLink>
-			<HeaderLink href="/blog">臨床專題</HeaderLink>
-			<HeaderLink href="/about">關於</HeaderLink>
+			<a href="/" class="nav-link">首頁</a>
+
+			<div class="dropdown">
+				<span class="nav-link dropdown-trigger">藥物決策 ▾</span>
+				<div class="dropdown-menu">
+					<a href="/sglt2i/">SGLT2i（20 題）</a>
+					<a href="/glp1ra/">GLP-1 RA（10 題）</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<span class="nav-link dropdown-trigger">臨床專區 ▾</span>
+				<div class="dropdown-menu">
+					<a href="/sexual-health/">腎友與性（7 題）</a>
+					<a href="/blog/">臨床專題</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<span class="nav-link dropdown-trigger">衛教資源 ▾</span>
+				<div class="dropdown-menu">
+					<a href="/patient/">給病人與家屬</a>
+					<a href="/dialysis/">透析衛教</a>
+				</div>
+			</div>
+
+			<a href="/about/" class="nav-link">關於</a>
 		</div>
 	</nav>
 </header>
@@ -29,7 +47,6 @@ import HeaderLink from './HeaderLink.astro';
 		margin: 0;
 		font-size: 1em;
 	}
-
 	h2 a,
 	h2 a.active {
 		text-decoration: none;
@@ -40,18 +57,70 @@ import HeaderLink from './HeaderLink.astro';
 		align-items: center;
 		justify-content: space-between;
 	}
-	nav a {
-		padding: 1em 0.5em;
+	.internal-links {
+		display: flex;
+		align-items: center;
+		gap: 0;
+	}
+	.nav-link {
+		padding: 1em 0.7em;
 		color: rgba(255, 255, 255, 0.8);
 		border-bottom: 4px solid transparent;
 		text-decoration: none;
+		cursor: pointer;
+		font-size: inherit;
+		white-space: nowrap;
 	}
-	nav a:hover {
+	.nav-link:hover {
 		color: #fff;
 	}
-	nav a.active {
+
+	/* Dropdown */
+	.dropdown {
+		position: relative;
+	}
+	.dropdown-trigger {
+		user-select: none;
+	}
+	.dropdown-menu {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		background: var(--accent-dark);
+		border-radius: 0 0 8px 8px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+		min-width: 180px;
+		z-index: 100;
+		padding: 0.3em 0;
+	}
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+	.dropdown-menu a {
+		display: block;
+		padding: 0.6em 1em;
+		color: rgba(255, 255, 255, 0.85);
 		text-decoration: none;
+		font-size: 0.9em;
+		white-space: nowrap;
+	}
+	.dropdown-menu a:hover {
+		background: rgba(255, 255, 255, 0.1);
 		color: #fff;
-		border-bottom-color: var(--accent-light, #e8f4f0);
+	}
+
+	@media (max-width: 720px) {
+		nav {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		.internal-links {
+			flex-wrap: wrap;
+		}
+		.nav-link {
+			padding: 0.6em 0.5em;
+			font-size: 0.9em;
+		}
 	}
 </style>

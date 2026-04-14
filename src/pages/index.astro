@@ -7,60 +7,92 @@ import { getCollection } from 'astro:content';
 
 const sglt2iNotes = await getCollection('sglt2i');
 const glp1raNotes = await getCollection('glp1ra');
+const sexualHealthNotes = await getCollection('sexualHealth');
 const patientNotes = await getCollection('patient');
 const dialysisNotes = await getCollection('dialysis');
 const blogNotes = await getCollection('blog');
 
-const sections = [
+const totalDecisionNotes = sglt2iNotes.length + glp1raNotes.length;
+const totalAll = totalDecisionNotes + sexualHealthNotes.length + patientNotes.length + dialysisNotes.length + blogNotes.length;
+
+const groups = [
 	{
-		title: 'SGLT2i 決策筆記',
-		description: 'SGLT2 inhibitor 在 CKD 與心腎保護的 20 個臨床決策問題。涵蓋啟用時機、風險評估、監測判讀、暫停重啟與特殊族群。',
-		count: sglt2iNotes.length,
-		unit: '篇',
-		href: '/sglt2i/',
-		color: '#e8f4f0',
-		accent: 'var(--accent)',
-		icon: '💊',
+		title: '藥物決策',
+		subtitle: '腎臟科核心藥物的臨床決策問題，從啟用到停藥的完整思路。',
+		cards: [
+			{
+				title: 'SGLT2i 決策筆記',
+				description: '20 個臨床決策問題。涵蓋啟用時機、風險評估、監測判讀、暫停重啟與特殊族群。',
+				count: sglt2iNotes.length,
+				unit: '篇',
+				href: '/sglt2i/',
+				color: '#e8f4f0',
+				accent: 'var(--accent)',
+				icon: '💊',
+			},
+			{
+				title: 'GLP-1 RA 決策筆記',
+				description: '10 個臨床決策問題。以 FLOW trial 為核心，涵蓋啟用、排序、安全性與四柱整合。',
+				count: glp1raNotes.length,
+				unit: '篇',
+				href: '/glp1ra/',
+				color: '#fef5e7',
+				accent: '#d4913a',
+				icon: '💉',
+			},
+		],
 	},
 	{
-		title: 'GLP-1 RA 決策筆記',
-		description: 'GLP-1 receptor agonist 在 CKD 與心腎保護的 10 個臨床決策問題。以 FLOW trial 為核心，涵蓋啟用、排序、安全性與四柱整合。',
-		count: glp1raNotes.length,
-		unit: '篇（建置中）',
-		href: '/glp1ra/',
-		color: '#fef5e7',
-		accent: '#d4913a',
-		icon: '💉',
+		title: '臨床專區',
+		subtitle: '針對特定臨床主題的系統性深度整理。',
+		cards: [
+			{
+				title: '腎友與性',
+				description: '透析病人的性功能、月經、生育與親密關係。涵蓋病人衛教與臨床決策筆記，男女都有。',
+				count: sexualHealthNotes.length,
+				unit: '篇',
+				href: '/sexual-health/',
+				color: '#fce4ec',
+				accent: '#c0627e',
+				icon: '❤️‍🩹',
+			},
+			{
+				title: '臨床專題',
+				description: '教科書著墨不多的實務問題——透析掉髮、台灣腎病趨勢等。',
+				count: blogNotes.length,
+				unit: '篇',
+				href: '/blog/',
+				color: '#f3f0f5',
+				accent: '#7a5ea7',
+				icon: '📋',
+			},
+		],
 	},
 	{
-		title: '給病人與家屬',
-		description: '用白話中文說明腎臟用藥的常見問題，幫助病人和家屬在看診前後更了解自己的治療。',
-		count: patientNotes.length,
-		unit: '篇',
-		href: '/patient/',
-		color: '#f0f4ff',
-		accent: '#4a6fa5',
-		icon: '👨‍👩‍👧',
-	},
-	{
-		title: '透析衛教——護理版',
-		description: '以護理實務為導向的透析照護學習筆記。涵蓋併發症處理、飲食營養、水分控制、感染預防等核心主題。',
-		count: dialysisNotes.length,
-		unit: '篇',
-		href: '/dialysis/',
-		color: '#f5f3ef',
-		accent: '#8b7355',
-		icon: '🏥',
-	},
-	{
-		title: '臨床專題',
-		description: '針對特定臨床情境的深度整理——透析掉髮、台灣腎病趨勢等教科書著墨不多的實務問題。',
-		count: blogNotes.length,
-		unit: '篇',
-		href: '/blog/',
-		color: '#f3f0f5',
-		accent: '#7a5ea7',
-		icon: '📋',
+		title: '衛教資源',
+		subtitle: '用白話中文，讓病人、家屬與護理團隊都能用的學習資源。',
+		cards: [
+			{
+				title: '給病人與家屬',
+				description: '用白話中文說明腎臟用藥的常見問題，幫助病人和家屬在看診前後更了解自己的治療。',
+				count: patientNotes.length,
+				unit: '篇',
+				href: '/patient/',
+				color: '#f0f4ff',
+				accent: '#4a6fa5',
+				icon: '👨‍👩‍👧',
+			},
+			{
+				title: '透析衛教——護理版',
+				description: '以護理實務為導向的透析照護學習筆記。涵蓋併發症處理、飲食營養、水分控制、感染預防。',
+				count: dialysisNotes.length,
+				unit: '篇',
+				href: '/dialysis/',
+				color: '#f5f3ef',
+				accent: '#8b7355',
+				icon: '🏥',
+			},
+		],
 	},
 ];
 ---
@@ -110,16 +142,36 @@ const sections = [
 				display: block;
 			}
 
+			/* Section groups */
+			.section-group {
+				margin-bottom: 2.5em;
+			}
+			.section-group-header {
+				margin-bottom: 1em;
+			}
+			.section-group-header h2 {
+				font-size: 1.4em;
+				color: var(--accent-dark);
+				margin: 0 0 0.2em;
+				border-left: 4px solid var(--accent);
+				padding-left: 0.6em;
+			}
+			.section-group-header p {
+				font-size: 0.9em;
+				color: rgb(var(--gray));
+				margin: 0;
+				padding-left: 1.2em;
+			}
+
 			/* Cards grid */
 			.cards {
 				display: grid;
 				grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-				gap: 1.5em;
-				margin-bottom: 3em;
+				gap: 1.2em;
 			}
 			.card {
 				border-radius: 10px;
-				padding: 1.8em;
+				padding: 1.6em;
 				text-decoration: none;
 				color: rgb(var(--gray-dark));
 				transition: transform 0.15s, box-shadow 0.15s;
@@ -132,26 +184,26 @@ const sections = [
 				color: rgb(var(--gray-dark));
 			}
 			.card-icon {
-				font-size: 2em;
-				margin-bottom: 0.5em;
-			}
-			.card h2 {
-				font-size: 1.25em;
+				font-size: 1.8em;
 				margin-bottom: 0.4em;
 			}
+			.card h3 {
+				font-size: 1.15em;
+				margin: 0 0 0.3em;
+			}
 			.card .card-desc {
-				font-size: 0.9em;
+				font-size: 0.88em;
 				color: rgb(var(--gray));
 				line-height: 1.6;
 				flex-grow: 1;
 			}
 			.card .card-count {
-				margin-top: 1em;
+				margin-top: 0.8em;
 				font-size: 0.85em;
 				font-weight: 600;
 			}
 			.card .card-cta {
-				margin-top: 0.8em;
+				margin-top: 0.5em;
 				font-size: 0.9em;
 				font-weight: 600;
 			}
@@ -204,24 +256,32 @@ const sections = [
 				<h1>Nephro Decisions</h1>
 				<p class="tagline">腎臟科臨床決策知識庫——從實證到實務，涵蓋藥物決策、透析照護與病人衛教。由腎臟科專科醫師主導，AI 輔助研究與多輪交替審稿。</p>
 				<div class="stats">
-					<div><span class="stat-num">{sglt2iNotes.length + glp1raNotes.length}</span>決策筆記</div>
-					<div><span class="stat-num">{patientNotes.length}</span>病人衛教</div>
-					<div><span class="stat-num">{dialysisNotes.length}</span>透析護理</div>
-					<div><span class="stat-num">{blogNotes.length}</span>臨床專題</div>
+					<div><span class="stat-num">{totalAll}</span>篇文章</div>
+					<div><span class="stat-num">{totalDecisionNotes}</span>決策筆記</div>
+					<div><span class="stat-num">{sexualHealthNotes.length}</span>腎友與性</div>
+					<div><span class="stat-num">{patientNotes.length + dialysisNotes.length}</span>衛教資源</div>
 				</div>
 			</section>
 
-			<div class="cards">
-				{sections.map((s) => (
-					<a class="card" href={s.href} style={`background: ${s.color};`}>
-						<span class="card-icon">{s.icon}</span>
-						<h2>{s.title}</h2>
-						<p class="card-desc">{s.description}</p>
-						<span class="card-count" style={`color: ${s.accent};`}>{s.count} {s.unit}</span>
-						<span class="card-cta" style={`color: ${s.accent};`}>前往 →</span>
-					</a>
-				))}
-			</div>
+			{groups.map((group) => (
+				<section class="section-group">
+					<div class="section-group-header">
+						<h2>{group.title}</h2>
+						<p>{group.subtitle}</p>
+					</div>
+					<div class="cards">
+						{group.cards.map((s) => (
+							<a class="card" href={s.href} style={`background: ${s.color};`}>
+								<span class="card-icon">{s.icon}</span>
+								<h3>{s.title}</h3>
+								<p class="card-desc">{s.description}</p>
+								<span class="card-count" style={`color: ${s.accent};`}>{s.count} {s.unit}</span>
+								<span class="card-cta" style={`color: ${s.accent};`}>前往 →</span>
+							</a>
+						))}
+					</div>
+				</section>
+			))}
 
 			<section class="about-preview">
 				<p class="author">小鎮醫生｜腎臟科專科醫師｜內科專科醫師｜台灣大學醫學系</p>
