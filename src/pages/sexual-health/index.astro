@@ -1,0 +1,123 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+
+const allNotes = await getCollection('sexualHealth');
+
+const categoryOrder = [
+	'專區首頁 (Hub / Pillar Page)',
+	'病人衛教 (Patient Education)',
+	'臨床評估 (Clinical Assessment)',
+];
+
+const grouped = categoryOrder.map((cat) => ({
+	category: cat,
+	notes: allNotes
+		.filter((n) => n.data.category === cat)
+		.sort((a, b) => a.data.question_id.localeCompare(b.data.question_id)),
+}));
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead title={`腎友與性 | ${SITE_TITLE}`} description="透析病人性與生殖健康專區" />
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+			h1 {
+				font-size: 2em;
+				margin-bottom: 1em;
+			}
+			.category-section {
+				margin-bottom: 2em;
+			}
+			.category-section h2 {
+				font-size: 1.4em;
+				border-left: 4px solid var(--accent);
+				padding-left: 0.5em;
+				margin-bottom: 0.5em;
+			}
+			.note-list {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+			.note-list li {
+				padding: 0.5em 0;
+				border-bottom: 1px solid rgb(var(--gray-light));
+			}
+			.note-list li:last-child {
+				border-bottom: none;
+			}
+			.note-link {
+				text-decoration: none;
+				display: block;
+			}
+			.note-link:hover .note-title {
+				color: var(--accent);
+			}
+			.note-title {
+				font-weight: 600;
+			}
+			.note-id {
+				font-weight: 700;
+				color: var(--accent-dark);
+				margin-right: 0.3em;
+			}
+			.note-meta {
+				font-size: 0.8em;
+				color: rgb(var(--gray));
+				margin-top: 0.2em;
+			}
+			.empty-msg {
+				color: rgb(var(--gray));
+				font-style: italic;
+				font-size: 0.9em;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>腎友與性</h1>
+			<p style="margin-bottom: 2em; color: rgb(var(--gray));">
+				透析病人性與生殖健康專區 — 涵蓋病人衛教與臨床決策筆記
+			</p>
+
+			{grouped.map(({ category, notes }) => (
+				<section class="category-section">
+					<h2>{category}</h2>
+					{notes.length > 0 ? (
+						<ul class="note-list">
+							{notes.map((note) => (
+								<li>
+									<a class="note-link" href={`/sexual-health/${note.id}/`}>
+										<span class="note-title">
+											<span class="note-id">{note.data.question_id}</span>
+											{note.data.title}
+										</span>
+										<div class="note-meta">
+											{note.data.version} | 更新：<FormattedDate date={note.data.last_updated} /> | {note.data.status}
+										</div>
+									</a>
+								</li>
+							))}
+						</ul>
+					) : (
+						<p class="empty-msg">此分類筆記準備中...</p>
+					)}
+				</section>
+			))}
+		</main>
+		<Footer />
+	</body>
+</html>

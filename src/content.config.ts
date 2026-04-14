@@ -74,4 +74,24 @@ const blog = defineCollection({
 	}),
 });
 
-export const collections = { sglt2i, patient, dialysis, blog, glp1ra };
+const sexualHealth = defineCollection({
+	loader: glob({ base: './src/content/sexual-health', pattern: '**/*.{md,mdx}' }),
+	schema: z.object({
+		question_id: z.string(),
+		title: z.string(),
+		category: z.string(),
+		version: z.string(),
+		status: z.string(),
+		last_updated: z.coerce.date(),
+		next_review: z.coerce.date(),
+		tags: z.array(z.string()),
+		seo_title: z.string().optional(),
+		meta_description: z.string().optional(),
+		target_keywords: z.array(z.string()).optional(),
+		schema: z.string().optional(),
+		evidence_checked_with: z.array(z.string()).optional(),
+		verification_scope: z.array(z.string()).optional(),
+	}),
+});
+
+export const collections = { sglt2i, patient, dialysis, blog, glp1ra, sexualHealth };
