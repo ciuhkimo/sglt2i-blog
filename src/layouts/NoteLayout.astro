@@ -5,9 +5,19 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 
-type Props = CollectionEntry<'sglt2i'>['data'];
+type Props = CollectionEntry<'sglt2i'>['data'] | CollectionEntry<'glp1ra'>['data'] | CollectionEntry<'sexualHealth'>['data'];
 
 const { question_id, title, category, version, last_updated, tags, description, seo_title, quick_answer } = Astro.props;
+
+// Dynamic breadcrumb based on URL path
+const path = Astro.url.pathname;
+const breadcrumbMap: Record<string, { href: string; label: string }> = {
+	'/sglt2i/': { href: '/sglt2i/', label: 'SGLT2i 決策筆記' },
+	'/glp1ra/': { href: '/glp1ra/', label: 'GLP-1 RA 決策筆記' },
+	'/sexual-health/': { href: '/sexual-health/', label: '腎友與性' },
+};
+const matchedSection = Object.entries(breadcrumbMap).find(([prefix]) => path.startsWith(prefix));
+const breadcrumb = matchedSection ? matchedSection[1] : { href: '/sglt2i/', label: '決策筆記' };
 
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',
@@ -116,7 +126,7 @@ const jsonLd = JSON.stringify({
 		<main>
 			<nav class="breadcrumb">
 				<a href="/">首頁</a> &rsaquo;
-				<a href="/sglt2i/">SGLT2i 決策筆記</a> &rsaquo;
+				<a href={breadcrumb.href}>{breadcrumb.label}</a> &rsaquo;
 				<span>{question_id}</span>
 			</nav>
 			<article class="prose">

@@ -16,12 +16,6 @@ tags:
 
 # Decision Note: 女性透析病人性與生殖健康評估
 
-> **Question ID**: T07  
-> **Category**: 臨床評估 (Clinical Assessment)  
-> **Version**: v1.1（fact-checked）  
-> **Status**: 查核後修訂  
-> **Last Updated**: 2026-04-14
-
 ---
 
 ## Executive Bottom Line

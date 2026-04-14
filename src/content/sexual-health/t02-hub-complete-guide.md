@@ -26,19 +26,13 @@ schema: CollectionPage, MedicalWebPage
 
 ## TL;DR
 
-<blockquote>
-<p><strong>重點摘要</strong></p>
-<ul>
-<li>腎臟病與透析族群的性健康問題很常見。CDC 病人衛教頁面指出，CKD 病人回報性健康問題的比例可高達約 8 成；在男性 ESRD / 透析族群中，PubMed 系統性回顧也顯示 ED 高度盛行。[^cdc-sex][^ed-esrd][^ed-ckd]</li>
-<li>這不只是「生活品質小問題」。性健康困擾和較差生活品質、憂鬱 / 焦慮症狀、伴侶壓力，以及臨床上經常沒有被例行詢問有關。[^depression-review][^navaneethan][^nephrologist-survey]</li>
-<li>多數問題值得主動提出，因為常可從藥物副作用、荷爾蒙、透析相關因素、情緒心理支持與症狀治療中找到介入空間。[^cdc-sex][^nkf-sex]</li>
-</ul>
-</blockquote>
+**重點摘要**
 
-<blockquote>
-<p><strong>查核提示</strong></p>
-<p>性功能與生殖健康的盛行率會因族群（CKD、HD、PD、移植）、性別、年齡、是否有性行為，以及使用的量表不同而差很多。本頁只在有較清楚來源時保留數字；其餘改用「常見 / 高度盛行」表述，避免把單一研究數字套用到所有腎友。[^cdc-sex][^female-hd-review][^menstrual-review]</p>
-</blockquote>
+- 腎臟病與透析族群的性健康問題很常見。CDC 病人衛教頁面指出，CKD 病人回報性健康問題的比例可高達約 8 成；在男性 ESRD / 透析族群中，PubMed 系統性回顧也顯示 ED 高度盛行。[^cdc-sex][^ed-esrd][^ed-ckd]
+- 這不只是「生活品質小問題」。性健康困擾和較差生活品質、憂鬱 / 焦慮症狀、伴侶壓力，以及臨床上經常沒有被例行詢問有關。[^depression-review][^navaneethan][^nephrologist-survey]
+- 多數問題值得主動提出，因為常可從藥物副作用、荷爾蒙、透析相關因素、情緒心理支持與症狀治療中找到介入空間。[^cdc-sex][^nkf-sex]
+
+> **查核提示**：性功能與生殖健康的盛行率會因族群（CKD、HD、PD、移植）、性別、年齡、是否有性行為，以及使用的量表不同而差很多。本頁只在有較清楚來源時保留數字；其餘改用「常見 / 高度盛行」表述，避免把單一研究數字套用到所有腎友。[^cdc-sex][^female-hd-review][^menstrual-review]
 
 ## 為什麼重要
 

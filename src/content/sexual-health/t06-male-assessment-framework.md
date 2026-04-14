@@ -21,52 +21,11 @@ tags:
 
 # Decision Note: 透析男性性功能障礙門診評估框架
 
-> **Question ID**: T06  
-> **Category**: 臨床評估 (Clinical Assessment)  
-> **Version**: v1.2（authority/PubMed/ClinicalTrials.gov checked）  
-> **Status**: 查核修訂版  
-> **Last Updated**: 2026-04-14
+> 本文為以現有 evidence、guideline 與 product label 為基礎的**透析門診評估框架**。目前無任何主要學會發布透析專屬的性功能障礙評估演算法。
 
 ---
 
-## 0. 這份 note 的定位
-
-這是一份 **dialysis-aware clinical framework**，不是任何單一學會正式發布的「透析專屬」性功能障礙演算法。  
-我本次查核後的結論是：
-
-- **透析男性 ED 很常見，通常 >70%**
-- **major society guidance 多為 CKD / 一般 ED / testosterone deficiency 外推**
-- **目前未找到 KDIGO / AUA / EAU / Endocrine Society / Princeton IV 的透析專屬 SD 門診流程圖**
-- 因此，以下內容應被理解為：  
-  **「以已知 evidence + guideline + product label 為基礎的透析門診評估框架」**
-
----
-
-## 1. 本次查核後的主要修正
-
-### 已修正
-1. **Cochrane 年份改為 2010**
-   - 原稿寫成「Cochrane 2021」不正確。
-2. **Vardenafil 在 renal dialysis 改為 avoid / not recommended**
-   - 原稿寫「起始 5 mg」不合現行 product label。
-3. **KDIGO 2024 的敘述已收斂**
-   - KDIGO 2024 有納入 sexual dysfunction 的 symptom burden 資訊，
-     但該 guideline **不是以 dialysis / kidney transplant recipients 為焦點**。
-4. **移除未確認的精確效應量**
-   - 例如 free testosterone 與死亡/CV event 的精確 OR 未在本輪查核中確認，故不保留該數字。
-5. **「透析當日避免 PDE5i」降級為個別化實務提醒**
-   - 本輪未找到 major guideline / label 要求一律避免透析當日使用。
-6. **「PRL >100 一律 MRI」、「FT4 必須 heparin ≥10h」、「HbA1c 在 HD/ESA 下低估」**
-   - 這些內容未在本輪完成權威來源逐條確認，因此移入 **Verification-needed**，不作硬規則。
-
-### 保留但改為較保守說法
-- nephrologists 很少常規主動談 sexual dysfunction
-- depression screening / medication review / cardiovascular review 的重要性
-- PDE5i 在透析男性可考慮，但整體證據量仍小
-
----
-
-## 2. Why This Matters
+## Why This Matters
 
 - ED / sexual dysfunction 在 advanced CKD 與 dialysis 男性非常常見。
 - 透析人群的問題常是 **多因子並存**：vascular disease、diabetes、depression、fatigue、body image、relationship strain、drug adverse effects、hormonal disturbance、sleep disorder。
