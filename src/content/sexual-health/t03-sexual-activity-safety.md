@@ -3,7 +3,7 @@ question_id: T03
 title: "洗腎後還可以有性生活嗎？安全性、注意事項與常見疑慮"
 category: "病人衛教 (Patient Education)"
 version: v1.1-checked
-status: 查核完成
+status: 已發布
 last_updated: 2026-04-14
 next_review: 2026-10-14
 tags:

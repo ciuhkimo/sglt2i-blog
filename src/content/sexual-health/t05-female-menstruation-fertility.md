@@ -3,7 +3,7 @@ question_id: T05
 title: "女性腎友的月經、性慾與懷孕：洗腎後身體的變化與可以做的事"
 category: "病人衛教 (Patient Education)"
 version: v1.1
-status: 已查核修訂
+status: 已發布
 last_updated: 2026-04-14
 next_review: 2026-10-14
 tags:
