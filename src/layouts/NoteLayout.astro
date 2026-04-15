@@ -7,7 +7,7 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'sglt2i'>['data'] | CollectionEntry<'glp1ra'>['data'] | CollectionEntry<'sexualHealth'>['data'];
 
-const { question_id, title, category, version, last_updated, tags, description, seo_title, quick_answer } = Astro.props;
+const { question_id, title, category, version, last_updated, next_review, tags, description, seo_title, quick_answer } = Astro.props;
 
 // Dynamic breadcrumb based on URL path
 const path = Astro.url.pathname;
@@ -188,6 +188,11 @@ const jsonLd = JSON.stringify({
 						<span class="meta-item">
 							<span class="meta-label">更新日期：</span><FormattedDate date={last_updated} />
 						</span>
+						{next_review && (
+						<span class="meta-item">
+							<span class="meta-label">下次審閱：</span><FormattedDate date={next_review} />
+						</span>
+						)}
 					</div>
 				</div>
 				{quick_answer && (
