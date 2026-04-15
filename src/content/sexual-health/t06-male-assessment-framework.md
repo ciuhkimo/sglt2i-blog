@@ -2,7 +2,7 @@
 question_id: T06
 title: "透析男性性功能障礙門診評估框架"
 category: "臨床評估 (Clinical Assessment)"
-version: v1.2-verified
+version: v1.0
 status: 已發布
 last_updated: 2026-04-14
 next_review: 2026-10-14

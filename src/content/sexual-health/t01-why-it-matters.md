@@ -2,7 +2,7 @@
 question_id: T01
 title: "洗腎後還有性生活嗎？為什麼腎友的性健康值得被正視"
 category: "病人衛教 (Patient Education)"
-version: v1.1
+version: v1.0
 status: 已發布
 last_updated: 2026-04-14
 next_review: 2026-10-14

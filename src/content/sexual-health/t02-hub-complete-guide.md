@@ -2,7 +2,7 @@
 question_id: T02
 title: "腎友與性完整指南：洗腎、腎移植病人的性健康全攻略"
 category: "專區首頁 (Hub / Pillar Page)"
-version: v1.2
+version: v1.0
 status: 已發布
 last_updated: 2026-04-15
 next_review: 2026-10-15

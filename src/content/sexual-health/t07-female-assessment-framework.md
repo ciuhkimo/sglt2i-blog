@@ -2,7 +2,7 @@
 question_id: T07
 title: "女性透析病人性與生殖健康評估"
 category: "臨床評估 (Clinical Assessment)"
-version: v1.1
+version: v1.0
 status: 已發布
 last_updated: 2026-04-14
 next_review: 2026-10-14

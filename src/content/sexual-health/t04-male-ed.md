@@ -2,7 +2,7 @@
 question_id: T04
 title: "洗腎後硬不起來怎麼辦？腎臟科醫師解析原因與治療"
 category: "病人衛教 (Patient Education)"
-version: v1.1
+version: v1.0
 status: 已發布
 last_updated: 2026-04-14
 next_review: 2026-10-14
