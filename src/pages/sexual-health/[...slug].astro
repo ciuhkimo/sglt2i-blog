@@ -13,8 +13,30 @@ type Props = CollectionEntry<'sexualHealth'>;
 
 const note = Astro.props;
 const { Content } = await render(note);
+
+// FAQPage schema for T14
+const extraSchema = note.data.question_id === 'T14' ? JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'FAQPage',
+	mainEntity: [
+		{ '@type': 'Question', name: '腎臟病真的會影響性生活嗎？影響有多大？', acceptedAnswer: { '@type': 'Answer', text: '會，而且比你想的更普遍。統合分析顯示，血液透析男性約 79% 有勃起困難，女性約 80% 有性功能障礙。這不是「想太多」，是腎臟病本身就會影響荷爾蒙、血管、神經和體力。' } },
+		{ '@type': 'Question', name: '洗腎後還可以有性生活嗎？會不會傷到瘻管或移植腎？', acceptedAnswer: { '@type': 'Answer', text: '病情穩定時可以。透析通路避免壓迫和拉扯、移植後等傷口癒合（通常至少 6 週），多數人可以安全進行。' } },
+		{ '@type': 'Question', name: '洗腎男性勃起困難（陽痿）怎麼辦？', acceptedAnswer: { '@type': 'Answer', text: 'ED 在透析男性非常常見（70-82%），而且它可能是心血管風險的早期警訊。先做系統性評估（病史、用藥、抽血），很多情況可以改善。' } },
+		{ '@type': 'Question', name: '威而鋼、犀利士在洗腎或移植可以吃嗎？', acceptedAnswer: { '@type': 'Answer', text: '多數情況可以用，但必須由醫師評估。sildenafil 在重度腎功能不全建議從 25 mg 起始；tadalafil 需調整頻率。絕對禁忌是同時使用硝酸鹽類（如硝化甘油）。' } },
+		{ '@type': 'Question', name: '女性腎友月經不規則、性慾下降、懷孕有可能嗎？', acceptedAnswer: { '@type': 'Answer', text: '約 63% 的透析女性有月經異常，包括經期不規則甚至停經。但「月經不來」不等於「不會懷孕」，排卵仍可能發生。移植後生育力可能在 6 週內回復。' } },
+		{ '@type': 'Question', name: '腎移植後性功能會改善嗎？多久可以恢復性生活？', acceptedAnswer: { '@type': 'Answer', text: '會改善但不會完全恢復。統合分析顯示移植後 ED 盛行率從 79% 降至約 42-59%。一般建議傷口癒合後（約 6-8 週）經醫師確認即可恢復。' } },
+		{ '@type': 'Question', name: '哪些藥物會影響性功能？可以自己停藥嗎？', acceptedAnswer: { '@type': 'Answer', text: '部分降壓藥、抗憂鬱藥（SSRI 類）、以及某些免疫抑制劑都可能影響。最重要的是不要自己停藥，把困擾告訴醫師，很多時候有替代方案。' } },
+		{ '@type': 'Question', name: '洗腎後完全沒有性慾，正常嗎？', acceptedAnswer: { '@type': 'Answer', text: '很常見，原因通常是疲勞、貧血、荷爾蒙變化、情緒壓力和藥物副作用的疊加。先把這些可調整的因素釐清，往往就能改善。' } },
+		{ '@type': 'Question', name: '瘻管或洗腎導管在性生活時怎麼辦？', acceptedAnswer: { '@type': 'Answer', text: '不會弄壞，只要避免直接壓迫瘻管手臂、不拉扯導管即可。選擇不壓到通路的姿勢，必要時用枕頭支撐。' } },
+		{ '@type': 'Question', name: '腹膜透析肚子有導管，還能有性生活嗎？', acceptedAnswer: { '@type': 'Answer', text: '可以。建議在排液後（腹腔淨空時）進行較舒適，導管用透氣膠帶固定貼平於腹部，避免拉扯。' } },
+		{ '@type': 'Question', name: '性生活後特別累、頭暈、心悸，是正常的嗎？', acceptedAnswer: { '@type': 'Answer', text: '輕度疲勞在透析或貧血的人很常見。但如果出現胸痛、嚴重喘不過氣、昏厥、冒冷汗，這是危險警訊，要立刻就醫。' } },
+		{ '@type': 'Question', name: '洗腎的人還能生小孩嗎？', acceptedAnswer: { '@type': 'Answer', text: '透析期間生育力明顯下降，但不是零。加強透析方案下活產率可達 85%。腎移植後生育率明顯回升。' } },
+		{ '@type': 'Question', name: '伴侶可以怎麼支持？該看哪一科？', acceptedAnswer: { '@type': 'Answer', text: '最有效的支持是一起把性當成可以討論、可以解決的健康議題。可先從腎臟科提出，必要時轉介泌尿科、婦產科、身心科或性諮商。' } },
+		{ '@type': 'Question', name: '腎移植後想懷孕，抗排斥藥怎麼辦？', acceptedAnswer: { '@type': 'Answer', text: '懷孕前要評估腎功能穩定度、把致畸胎藥停掉或換藥（尤其 mycophenolate 必須停用）、建立腎臟科與高危險妊娠產科的共同照護。通常建議移植後至少 1-2 年再懷孕。' } },
+	],
+}) : null;
 ---
 
-<NoteLayout {...note.data}>
+<NoteLayout {...note.data} extraSchema={extraSchema}>
 	<Content />
 </NoteLayout>

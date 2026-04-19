@@ -5,9 +5,9 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 
-type Props = CollectionEntry<'sglt2i'>['data'] | CollectionEntry<'glp1ra'>['data'] | CollectionEntry<'sexualHealth'>['data'];
+type Props = (CollectionEntry<'sglt2i'>['data'] | CollectionEntry<'glp1ra'>['data'] | CollectionEntry<'sexualHealth'>['data']) & { extraSchema?: string | null };
 
-const { question_id, title, category, version, last_updated, tags, description, seo_title, quick_answer } = Astro.props;
+const { question_id, title, category, version, last_updated, tags, description, seo_title, quick_answer, extraSchema } = Astro.props;
 
 // Dynamic breadcrumb based on URL path
 const path = Astro.url.pathname;
@@ -56,6 +56,7 @@ const breadcrumbLd = JSON.stringify({
 		<BaseHead title={seo_title || `${title} — Nephro Decisions`} description={description || title} />
 		<script type="application/ld+json" set:html={jsonLd} />
 		<script type="application/ld+json" set:html={breadcrumbLd} />
+		{extraSchema && <script type="application/ld+json" set:html={extraSchema} />}
 		<style>
 			main {
 				width: calc(100% - 2em);
