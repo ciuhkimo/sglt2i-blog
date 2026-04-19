@@ -7,12 +7,13 @@ import { getCollection } from 'astro:content';
 
 const sglt2iNotes = await getCollection('sglt2i');
 const glp1raNotes = await getCollection('glp1ra');
+const finerenoneNotes = await getCollection('finerenone');
 const sexualHealthNotes = await getCollection('sexualHealth');
 const patientNotes = await getCollection('patient');
 const dialysisNotes = await getCollection('dialysis');
 const blogNotes = await getCollection('blog');
 
-const totalDecisionNotes = sglt2iNotes.length + glp1raNotes.length;
+const totalDecisionNotes = sglt2iNotes.length + glp1raNotes.length + finerenoneNotes.length;
 const totalAll = totalDecisionNotes + sexualHealthNotes.length + patientNotes.length + dialysisNotes.length + blogNotes.length;
 
 const groups = [
@@ -39,6 +40,16 @@ const groups = [
 				color: '#fef5e7',
 				accent: '#d4913a',
 				icon: '💉',
+			},
+			{
+				title: 'Finerenone 決策筆記',
+				description: '11 個臨床決策問題。整合 FIDELIO、FIGARO、FIDELITY、CONFIDENCE 證據，涵蓋啟用、排序、高血鉀管理與台灣健保實務。',
+				count: finerenoneNotes.length,
+				unit: '篇',
+				href: '/finerenone/',
+				color: '#eef0f7',
+				accent: '#5b6abf',
+				icon: '🛡️',
 			},
 		],
 	},
