@@ -240,3 +240,13 @@ T2D + CKD 病人就診
   12. Agarwal R, et al. PMID: 41493296.
   13. Bayer. FIND-CKD topline press release. 2026-03-16.
   14. Heerspink HJL, et al. N Engl J Med. 2026. PMID: 41780000.
+
+---
+
+## 延伸閱讀
+
+- [Finerenone 與 SGLT2i/GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)
+- [Hyperkalemia 風險管理](/finerenone/q03-hyperkalemia-management/)
+- [台灣健保給付與自費](/finerenone/q11-taiwan-nhi-coverage/)
+- [SGLT2i Q01 — CKD 啟用時機](/sglt2i/q01-ckd-start-timing/)
+- [GLP-1 RA Q01 — CKD 合併糖尿病何時加入](/glp1ra/q01-ckd-dm-when-to-start/)

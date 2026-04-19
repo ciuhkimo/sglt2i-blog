@@ -189,3 +189,12 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
   7. Rossing P, et al. Diabetes Care. 2022. PMID: 35972218.
   8. Agarwal R, et al. N Engl J Med. 2025. PMID: 40470996.
   9. Mann JFE, et al. Nat Med. 2024. PMID: 38914124.
+
+---
+
+## 延伸閱讀
+
+- [DKD 何時加上 Finerenone](/finerenone/q01-dkd-when-to-start/)
+- [SGLT2i Q19 — 多藥策略](/sglt2i/q19-drug-combination-strategy/)
+- [GLP-1 RA Q03 — 與 SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/)
+- [GLP-1 RA Q10 — 四柱整合](/glp1ra/q10-four-pillar-integration/)

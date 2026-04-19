@@ -145,3 +145,12 @@ FINE-ONE 2026 顯示 UACR surrogate benefit，但目前仍非既有 CKD/T2D indi
   6. Kahvecioglu S, et al. J Clin Med. 2025. PMID: 41375598.
   7. NCT06059664 (EFFEKTOR). NCT07356388.
   8. Heerspink HJL, et al. N Engl J Med. 2026. PMID: 41780000.
+
+---
+
+## 延伸閱讀
+
+- [eGFR 門檻](/finerenone/q04-egfr-threshold/)
+- [Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)
+- [台灣健保與自費](/finerenone/q11-taiwan-nhi-coverage/)
+- [SGLT2i Q20 — 特殊族群](/sglt2i/q20-special-populations/)

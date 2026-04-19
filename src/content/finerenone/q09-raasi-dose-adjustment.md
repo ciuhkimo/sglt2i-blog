@@ -133,3 +133,11 @@ seo_title: "Finerenone + ACEi/ARB 劑量調整｜高血鉀處置優先順序"
   7. Agarwal R, et al. Eur Heart J. 2022. PMID: 35023547.
   8. Agarwal R, et al. J Am Soc Nephrol. 2022. PMID: 34732509.
   9. Agarwal R, et al. N Engl J Med. 2025. PMID: 40470996.
+
+---
+
+## 延伸閱讀
+
+- [Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)
+- [監測頻率](/finerenone/q08-monitoring-frequency/)
+- [DKD 啟動時機](/finerenone/q01-dkd-when-to-start/)

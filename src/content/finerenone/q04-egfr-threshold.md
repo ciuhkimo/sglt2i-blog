@@ -130,3 +130,12 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
   6. Solomon SD, et al. N Engl J Med. 2024. PMID: 39225278.
   7. Chimura M, et al. JACC Heart Fail. 2026. PMID: 41642173.
   8. Bayer FIND-CKD topline press release. 2026-03-16.
+
+---
+
+## 延伸閱讀
+
+- [Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)
+- [監測頻率](/finerenone/q08-monitoring-frequency/)
+- [特殊族群](/finerenone/q10-special-populations/)
+- [SGLT2i Q04 — eGFR 20-30 門檻](/sglt2i/q04-egfr-20-30-threshold/)

@@ -139,3 +139,11 @@ seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
   6. FDA Kerendia Approval Letter. 2025-07-11.
   7. TFDA Kerendia 仿單.
   8. NCT06033950 (FINALITY-HF).
+
+---
+
+## 延伸閱讀
+
+- [Steroidal vs Nonsteroidal MRA](/finerenone/q07-steroidal-vs-nonsteroidal/)
+- [排序與合併](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)
+- [SGLT2i Q05 — 腎保護 vs 心保護](/sglt2i/q05-renal-vs-hf-protection/)

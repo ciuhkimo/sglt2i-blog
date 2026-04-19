@@ -121,3 +121,11 @@ seo_title: "FIDELIO、FIGARO、FIDELITY 臨床解讀｜Finerenone 證據"
   5. KDIGO 2024 CKD Guideline. PMID: 38490803.
   6. ADA Standards of Care 2026.
   7. Agarwal R, et al. N Engl J Med. 2025. PMID: 40470996.
+
+---
+
+## 延伸閱讀
+
+- [DKD 啟動時機](/finerenone/q01-dkd-when-to-start/)
+- [eGFR 門檻](/finerenone/q04-egfr-threshold/)
+- [Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)

@@ -107,3 +107,11 @@ seo_title: "Steroidal vs Nonsteroidal MRA｜Finerenone 選擇時機比較"
   8. Pitt B, et al. N Engl J Med. 1999. PMID: 10471456.
   9. Zannad F, et al. N Engl J Med. 2011. PMID: 21073363.
   10. Williams B, et al. Lancet. 2015. PMID: 26414968.
+
+---
+
+## 延伸閱讀
+
+- [HF + CKD 角色](/finerenone/q05-hf-ckd-role/)
+- [Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)
+- [RAASi 劑量調整](/finerenone/q09-raasi-dose-adjustment/)

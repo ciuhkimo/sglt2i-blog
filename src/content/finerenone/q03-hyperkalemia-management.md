@@ -188,3 +188,12 @@ Finerenone 使用中
   5. KDIGO 2022/2024 CKD Guidelines.
   6. Agarwal R, et al. N Engl J Med. 2025. PMID: 40470996.
   7. Agarwal R, et al. PMID: 41493296.
+
+---
+
+## 延伸閱讀
+
+- [eGFR 門檻](/finerenone/q04-egfr-threshold/)
+- [監測頻率](/finerenone/q08-monitoring-frequency/)
+- [RAASi 劑量調整](/finerenone/q09-raasi-dose-adjustment/)
+- [DKD 啟動時機](/finerenone/q01-dkd-when-to-start/)

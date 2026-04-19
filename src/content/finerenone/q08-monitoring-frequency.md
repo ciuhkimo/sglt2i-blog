@@ -122,3 +122,11 @@ seo_title: "Finerenone 監測頻率｜K 與 eGFR 追蹤時間表"
   5. Agarwal R, et al. J Am Soc Nephrol. 2022. PMID: 34732509.
   6. Agarwal R, et al. N Engl J Med. 2025. PMID: 40470996.
   7. Agarwal R, et al. PMID: 41493296.
+
+---
+
+## 延伸閱讀
+
+- [Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)
+- [eGFR 門檻](/finerenone/q04-egfr-threshold/)
+- [RAASi 劑量調整](/finerenone/q09-raasi-dose-adjustment/)

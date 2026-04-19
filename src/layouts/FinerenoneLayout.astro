@@ -13,6 +13,7 @@ const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',
 	'@type': ['MedicalWebPage', 'Article'],
 	name: title,
+	datePublished: last_updated.toISOString(),
 	dateModified: last_updated.toISOString(),
 	author: {
 		'@type': 'Person',
