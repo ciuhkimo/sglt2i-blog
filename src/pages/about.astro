@@ -3,12 +3,30 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_TITLE } from '../consts';
+
+const profileLd = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'ProfilePage',
+	mainEntity: {
+		'@type': 'Person',
+		name: '小鎮醫生',
+		jobTitle: '腎臟科專科醫師',
+		affiliation: {
+			'@type': 'Organization',
+			name: '台灣大學醫學系',
+		},
+		description: '腎臟科專科醫師、內科專科醫師。Nephro Decisions 創辦人，以實證為基礎的腎臟科臨床決策知識庫。',
+		url: 'https://nephrodecisions.com/about/',
+		knowsAbout: ['Nephrology', 'Chronic Kidney Disease', 'Dialysis', 'SGLT2 inhibitors', 'GLP-1 receptor agonists', 'Finerenone', 'Mineralocorticoid receptor antagonists'],
+	},
+});
 ---
 
 <!doctype html>
 <html lang="zh-Hant">
 	<head>
 		<BaseHead title={`關於 | ${SITE_TITLE}`} description="關於本站與作者" />
+		<script type="application/ld+json" set:html={profileLd} />
 		<style>
 			main {
 				width: 720px;
