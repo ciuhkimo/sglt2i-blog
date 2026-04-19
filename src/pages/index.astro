@@ -219,6 +219,62 @@ const groups = [
 				font-weight: 600;
 			}
 
+			/* Subscribe */
+			.subscribe-section {
+				text-align: center;
+				padding: 2.5em 1em;
+				margin-bottom: 1em;
+				background: #f0f4f3;
+				border-radius: 12px;
+			}
+			.subscribe-section h2 {
+				font-size: 1.3em;
+				color: var(--accent-dark);
+				margin: 0 0 0.3em;
+			}
+			.subscribe-section > p {
+				font-size: 0.95em;
+				color: rgb(var(--gray));
+				margin: 0 0 1.2em;
+			}
+			.subscribe-form {
+				display: flex;
+				justify-content: center;
+				gap: 0.5em;
+				flex-wrap: wrap;
+				max-width: 420px;
+				margin: 0 auto;
+			}
+			.subscribe-form input[type="email"] {
+				flex: 1;
+				min-width: 200px;
+				padding: 0.6em 1em;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 6px;
+				font-size: 0.95em;
+			}
+			.subscribe-form button {
+				padding: 0.6em 1.5em;
+				background: var(--accent);
+				color: #fff;
+				border: none;
+				border-radius: 6px;
+				font-size: 0.95em;
+				font-weight: 600;
+				cursor: pointer;
+			}
+			.subscribe-form button:hover {
+				background: var(--accent-dark);
+			}
+			.subscribe-note {
+				font-size: 0.8em;
+				color: rgb(var(--gray));
+				margin-top: 0.8em;
+			}
+			.subscribe-note a {
+				color: var(--accent);
+			}
+
 			/* About preview */
 			.about-preview {
 				text-align: center;
@@ -293,6 +349,21 @@ const groups = [
 					</div>
 				</section>
 			))}
+
+			<section class="subscribe-section">
+				<h2>訂閱更新</h2>
+				<p>新的臨床決策筆記發布時，直接寄到你的信箱。不灌水、不賣東西。</p>
+				<form
+					action="https://buttondown.com/api/emails/embed-subscribe/nephrodecisions"
+					method="post"
+					target="popupwindow"
+					class="subscribe-form"
+				>
+					<input type="email" name="email" placeholder="your@email.com" required />
+					<button type="submit">訂閱</button>
+				</form>
+				<p class="subscribe-note">也可透過 <a href="/rss.xml">RSS</a> 追蹤</p>
+			</section>
 
 			<section class="about-preview">
 				<p class="author">小鎮醫生｜腎臟科專科醫師｜內科專科醫師｜台灣大學醫學系</p>
