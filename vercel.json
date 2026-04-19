@@ -1,8 +1,14 @@
 {
   "redirects": [
     {
-      "source": "/notes/:path*",
-      "destination": "/sglt2i/:path*",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.nephrodecisions.com"
+        }
+      ],
+      "destination": "https://nephrodecisions.com/:path*",
       "permanent": true
     },
     {
@@ -25,6 +31,11 @@
         }
       ],
       "destination": "https://nephrodecisions.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/notes/:path*",
+      "destination": "/sglt2i/:path*",
       "permanent": true
     }
   ]
