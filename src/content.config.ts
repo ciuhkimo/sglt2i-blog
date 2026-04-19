@@ -94,4 +94,21 @@ const sexualHealth = defineCollection({
 	}),
 });
 
-export const collections = { sglt2i, patient, dialysis, blog, glp1ra, sexualHealth };
+const finerenone = defineCollection({
+	loader: glob({ base: './src/content/finerenone', pattern: '**/*.{md,mdx}' }),
+	schema: z.object({
+		question_id: z.string(),
+		title: z.string(),
+		category: z.string(),
+		version: z.string(),
+		status: z.string(),
+		last_updated: z.coerce.date(),
+		next_review: z.coerce.date(),
+		tags: z.array(z.string()),
+		description: z.string().optional(),
+		quick_answer: z.string().optional(),
+		seo_title: z.string().optional(),
+	}),
+});
+
+export const collections = { sglt2i, patient, dialysis, blog, glp1ra, sexualHealth, finerenone };
