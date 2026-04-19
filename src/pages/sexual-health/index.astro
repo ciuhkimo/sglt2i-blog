@@ -8,44 +8,115 @@ import { SITE_TITLE } from '../../consts';
 
 const allNotes = await getCollection('sexualHealth');
 
-const categoryOrder = [
-	'專區首頁 (Hub / Pillar Page)',
-	'病人衛教 (Patient Education)',
-	'臨床評估 (Clinical Assessment)',
-	'藥物治療 (Pharmacotherapy)',
-];
+const patientNotes = allNotes
+	.filter((n) => n.data.category === '病人衛教 (Patient Education)')
+	.sort((a, b) => a.data.question_id.localeCompare(b.data.question_id));
 
-const grouped = categoryOrder.map((cat) => ({
-	category: cat,
-	notes: allNotes
-		.filter((n) => n.data.category === cat)
-		.sort((a, b) => a.data.question_id.localeCompare(b.data.question_id)),
-}));
+const clinicalNotes = allNotes
+	.filter((n) =>
+		n.data.category === '臨床評估 (Clinical Assessment)' ||
+		n.data.category === '藥物治療 (Pharmacotherapy)'
+	)
+	.sort((a, b) => a.data.question_id.localeCompare(b.data.question_id));
+
+const hubNote = allNotes.find((n) => n.data.category === '專區首頁 (Hub / Pillar Page)');
 ---
 
 <!doctype html>
 <html lang="zh-Hant">
 	<head>
-		<BaseHead title={`腎友與性：洗腎、透析病人的性健康與生殖照護｜${SITE_TITLE}`} description="透析、腹膜透析、腎移植病人的性功能障礙、月經異常、避孕與懷孕。涵蓋病人衛教與臨床決策筆記。" />
+		<BaseHead
+			title={`腎友與性：洗腎、透析病人的性健康與生殖照護｜${SITE_TITLE}`}
+			description="透析、腹膜透析、腎移植病人的性功能障礙、月經異常、避孕與懷孕。涵蓋病人衛教與臨床決策筆記。"
+		/>
 		<style>
 			main {
-				width: 720px;
+				width: 880px;
 				max-width: calc(100% - 2em);
 				margin: auto;
 				padding: 3em 1em;
 			}
-			h1 {
-				font-size: 2em;
+
+			/* Hero */
+			.hero {
+				text-align: center;
+				margin-bottom: 2.5em;
+			}
+			.hero h1 {
+				font-size: 2.2em;
+				margin-bottom: 0.3em;
+				color: var(--accent-dark);
+			}
+			.hero .subtitle {
+				font-size: 1.05em;
+				color: rgb(var(--gray));
+				max-width: 600px;
+				margin: 0 auto 1.5em;
+				line-height: 1.7;
+			}
+			.hero .hub-link {
+				display: inline-block;
+				padding: 0.5em 1.2em;
+				background: var(--accent);
+				color: #fff;
+				border-radius: 6px;
+				text-decoration: none;
+				font-weight: 600;
+				font-size: 0.95em;
+			}
+			.hero .hub-link:hover {
+				background: var(--accent-dark);
+			}
+
+			/* Two-path cards */
+			.paths {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+				gap: 1.5em;
+				margin-bottom: 3em;
+			}
+			.path-card {
+				border-radius: 12px;
+				padding: 2em;
+				text-decoration: none;
+				color: rgb(var(--gray-dark));
+			}
+			.path-card h2 {
+				font-size: 1.3em;
+				margin: 0 0 0.3em;
+			}
+			.path-card .path-desc {
+				font-size: 0.9em;
+				color: rgb(var(--gray));
+				line-height: 1.6;
 				margin-bottom: 1em;
 			}
-			.category-section {
-				margin-bottom: 2em;
+			.path-card .path-icon {
+				font-size: 2em;
+				margin-bottom: 0.3em;
+				display: block;
 			}
-			.category-section h2 {
+			.path-card .path-count {
+				font-size: 0.85em;
+				font-weight: 600;
+			}
+
+			/* Note list */
+			.section {
+				margin-bottom: 2.5em;
+			}
+			.section h2 {
 				font-size: 1.4em;
 				border-left: 4px solid var(--accent);
-				padding-left: 0.5em;
-				margin-bottom: 0.5em;
+				padding-left: 0.6em;
+				margin-bottom: 0.8em;
+				color: var(--accent-dark);
+			}
+			.section .section-desc {
+				font-size: 0.9em;
+				color: rgb(var(--gray));
+				margin-bottom: 1em;
+				padding-left: 1.2em;
 			}
 			.note-list {
 				list-style: none;
@@ -79,45 +150,107 @@ const grouped = categoryOrder.map((cat) => ({
 				color: rgb(var(--gray));
 				margin-top: 0.2em;
 			}
-			.empty-msg {
+			.cat-badge {
+				display: inline-block;
+				background: rgb(var(--gray-light));
+				padding: 0.1em 0.5em;
+				border-radius: 4px;
+				font-size: 0.75em;
 				color: rgb(var(--gray));
-				font-style: italic;
-				font-size: 0.9em;
+				margin-left: 0.3em;
+				vertical-align: middle;
+			}
+
+			@media (max-width: 720px) {
+				.paths {
+					grid-template-columns: 1fr;
+				}
+				.hero h1 {
+					font-size: 1.8em;
+				}
 			}
 		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>腎友與性</h1>
-			<p style="margin-bottom: 2em; color: rgb(var(--gray));">
-				透析病人性與生殖健康專區 — 涵蓋病人衛教與臨床決策筆記
-			</p>
+			<section class="hero">
+				<h1>腎友與性</h1>
+				<p class="subtitle">
+					透析、腹膜透析、腎移植病人的性功能、月經、生育與親密關係。<br />
+					問題很常見，多數可以評估、可以改善。
+				</p>
+				{hubNote && (
+					<a class="hub-link" href={`/sexual-health/${hubNote.id}/`}>
+						閱讀完整指南 →
+					</a>
+				)}
+			</section>
 
-			{grouped.map(({ category, notes }) => (
-				<section class="category-section">
-					<h2>{category}</h2>
-					{notes.length > 0 ? (
-						<ul class="note-list">
-							{notes.map((note) => (
-								<li>
-									<a class="note-link" href={`/sexual-health/${note.id}/`}>
-										<span class="note-title">
-											<span class="note-id">{note.data.question_id}</span>
-											{note.data.title}
-										</span>
-										<div class="note-meta">
-											{note.data.version} | 更新：<FormattedDate date={note.data.last_updated} /> | {note.data.status}
-										</div>
-									</a>
-								</li>
-							))}
-						</ul>
-					) : (
-						<p class="empty-msg">此分類筆記準備中...</p>
-					)}
-				</section>
-			))}
+			<!-- Two-path entry -->
+			<div class="paths">
+				<a class="path-card" href="#patient" style="background: #fef5e7;">
+					<span class="path-icon">👨‍👩‍👧</span>
+					<h2>我是病人或家屬</h2>
+					<p class="path-desc">
+						用白話中文說明常見問題——洗腎後能不能有性生活、勃起困難怎麼辦、月經不來還會懷孕嗎、伴侶怎麼支持。每題一句話回答 + 深入文章。
+					</p>
+					<span class="path-count" style="color: #d4913a;">{patientNotes.length} 篇衛教文章</span>
+				</a>
+				<a class="path-card" href="#clinical" style="background: #eef0f7;">
+					<span class="path-icon">🩺</span>
+					<h2>我是醫護人員</h2>
+					<p class="path-desc">
+						門診評估框架（IIEF-5、FSFI）、PLISSIT 諮商模型、藥物副作用盤點、PDE5i 處方指引、轉介時機與科別建議。
+					</p>
+					<span class="path-count" style="color: #5b6abf;">{clinicalNotes.length} 篇臨床筆記</span>
+				</a>
+			</div>
+
+			<!-- Patient section -->
+			<section class="section" id="patient">
+				<h2>給病人與家屬</h2>
+				<p class="section-desc">用白話中文寫的衛教文章，男女都有。每題附一句話回答，想深入就點進去。</p>
+				<ul class="note-list">
+					{patientNotes.map((note) => (
+						<li>
+							<a class="note-link" href={`/sexual-health/${note.id}/`}>
+								<span class="note-title">
+									<span class="note-id">{note.data.question_id}</span>
+									{note.data.title}
+								</span>
+								<div class="note-meta">
+									{note.data.version} | 更新：<FormattedDate date={note.data.last_updated} />
+								</div>
+							</a>
+						</li>
+					))}
+				</ul>
+			</section>
+
+			<!-- Clinical section -->
+			<section class="section" id="clinical">
+				<h2>給醫護人員</h2>
+				<p class="section-desc">門診評估框架、藥物盤點、轉介時機——讓你在 5 分鐘內把性健康議題帶進腎臟科門診。</p>
+				<ul class="note-list">
+					{clinicalNotes.map((note) => (
+						<li>
+							<a class="note-link" href={`/sexual-health/${note.id}/`}>
+								<span class="note-title">
+									<span class="note-id">{note.data.question_id}</span>
+									{note.data.title}
+								</span>
+								<span class="cat-badge">
+									{note.data.category.includes('評估') ? '評估' : '藥物'}
+								</span>
+								<div class="note-meta">
+									{note.data.version} | 更新：<FormattedDate date={note.data.last_updated} />
+								</div>
+							</a>
+						</li>
+					))}
+				</ul>
+			</section>
 		</main>
 		<Footer />
 	</body>
