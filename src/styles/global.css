@@ -177,6 +177,74 @@ hr {
 	}
 }
 
+/* Print styles */
+@media print {
+	header, footer, .breadcrumb, .subscribe-section, .print-btn, nav {
+		display: none !important;
+	}
+	body {
+		font-size: 12pt;
+		line-height: 1.5;
+		color: #000;
+		background: #fff;
+	}
+	main {
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.prose {
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+	}
+	a {
+		color: #000;
+		text-decoration: underline;
+	}
+	a[href^="http"]::after {
+		content: " (" attr(href) ")";
+		font-size: 0.8em;
+		color: #555;
+	}
+	a[href^="/"]::after {
+		content: " (nephrodecisions.com" attr(href) ")";
+		font-size: 0.8em;
+		color: #555;
+	}
+	.note-header {
+		border-bottom: 2px solid #000;
+	}
+	.quick-answer {
+		border-left: 3px solid #000;
+		background: #f5f5f5 !important;
+	}
+	table {
+		font-size: 0.85em;
+	}
+	th {
+		background-color: #eee !important;
+	}
+	h1, h2, h3 {
+		page-break-after: avoid;
+	}
+	table, blockquote {
+		page-break-inside: avoid;
+	}
+	.print-footer {
+		display: block !important;
+		margin-top: 2em;
+		padding-top: 1em;
+		border-top: 1px solid #ccc;
+		font-size: 0.8em;
+		color: #666;
+	}
+}
+.print-footer {
+	display: none;
+}
+
 .sr-only {
 	border: 0;
 	padding: 0;

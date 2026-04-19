@@ -153,6 +153,22 @@ const breadcrumbLd = JSON.stringify({
 				font-size: 0.75em;
 				color: rgb(var(--gray-dark));
 			}
+			.print-btn-wrapper {
+				margin-bottom: 1.5em;
+				text-align: right;
+			}
+			.print-btn {
+				padding: 0.4em 1em;
+				background: rgb(var(--gray-light));
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 6px;
+				font-size: 0.85em;
+				color: rgb(var(--gray-dark));
+				cursor: pointer;
+			}
+			.print-btn:hover {
+				background: #ddd;
+			}
 		</style>
 	</head>
 
@@ -174,6 +190,9 @@ const breadcrumbLd = JSON.stringify({
 				<div class="callout">
 					這篇文章幫助您了解醫師處方的藥物。具體用藥請遵循您的主治醫師指示。
 				</div>
+				<div class="print-btn-wrapper">
+					<button class="print-btn" onclick="window.print()">列印 / 存 PDF</button>
+				</div>
 				<slot />
 				{source_note && (
 					<div class="pro-link">
@@ -187,6 +206,9 @@ const breadcrumbLd = JSON.stringify({
 						))}
 					</div>
 				)}
+				<div class="print-footer">
+					<p>Nephro Decisions｜nephrodecisions.com｜由腎臟科專科醫師主導，AI 輔助研究與多輪交替審稿。本文不構成醫療建議。</p>
+				</div>
 			</article>
 		</main>
 		<Footer />
