@@ -362,3 +362,17 @@ https://clinicaltrials.gov/study/NCT03574597
 
 - Swedish Obese Subjects (SOS): NCT01479452
   https://clinicaltrials.gov/study/NCT01479452
+
+---
+
+## 延伸閱讀
+
+### CKM 專案
+- [Obesity-Related Glomerulopathy](/ckm/q08-obesity-related-glomerulopathy/)
+- [MASLD/MASH 與 CKD](/ckm/q09-masld-mash-ckd/)
+- [四柱整合策略](/ckm/q11-four-pillar-integration/)
+
+### 跨專案
+- [GLP-1 RA Q05 — FLOW](/glp1ra/q05-renal-endpoint-evidence/)
+- [GLP-1 RA Q07 — 減重 Paradox](/glp1ra/q07-weight-loss-paradox/)
+- [SGLT2i Q16 — 圍術期](/sglt2i/q16-perioperative-timing/)

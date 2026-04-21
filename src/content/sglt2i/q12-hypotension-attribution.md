@@ -151,3 +151,10 @@ tags:
 ## 相關筆記
 [Q13-Polyuria-Dehydration/decision-note](/sglt2i/q13-polyuria-dehydration)
 [Q14-Acute-Illness-Hold/decision-note](/sglt2i/q14-acute-illness-hold)
+
+---
+
+## 延伸閱讀
+
+- [CKM Q04 — 容量評估](/ckm/q04-volume-assessment/)
+- [CKM Q06 — HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)

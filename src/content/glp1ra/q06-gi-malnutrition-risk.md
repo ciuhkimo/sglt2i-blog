@@ -260,3 +260,9 @@ GI 症狀出現
 - [Q05: GLP-1 RA 腎臟終點證據](/glp1ra/q05-renal-endpoint-evidence/)
 - [SGLT2i Q06: Volume Status Assessment](/sglt2i/q06-volume-status-assessment/)
 - [SGLT2i Q13: 多尿/脫水管理](/sglt2i/q13-polyuria-dehydration/)
+
+---
+
+## 延伸閱讀
+
+- [CKM Q10 — Metabolic Surgery（術前 GLP-1 RA 停藥）](/ckm/q10-metabolic-surgery-ckd/)

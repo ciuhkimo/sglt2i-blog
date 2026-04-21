@@ -232,3 +232,12 @@ CKD 患者就診
 [Q04: eGFR 20–30 患者的 SGLT2i 啟用決策](/sglt2i/q04-egfr-20-30-threshold)
 [Q10: Creatinine Dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki)
 [Q15: AKI Stop Decision](/sglt2i/q15-aki-stop-decision)
+
+---
+
+## 延伸閱讀
+
+- [Finerenone Q01 — DKD 啟動時機](/finerenone/q01-dkd-when-to-start/)
+- [GLP-1 RA Q01 — CKD 合併糖尿病何時加入](/glp1ra/q01-ckd-dm-when-to-start/)
+- [CKM Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/)
+- [2026 DKD 四柱療法完整指南](/blog/dkd-four-pillars-2026/)

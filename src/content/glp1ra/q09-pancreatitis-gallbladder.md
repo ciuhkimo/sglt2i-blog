@@ -202,3 +202,9 @@ Lomeli 2024 與 Nassar 2025 的 retrospective cohort 資料並未呈現悲觀結
 - [Q06: GI 副作用與營養不良風險](/glp1ra/q06-gi-malnutrition-risk/)
 - [Q07: 體重下降在 CKD 病人是好事還是壞事？](/glp1ra/q07-weight-loss-paradox/)
 - [Q08: 急性疾病 / 手術前後是否應停藥？](/glp1ra/q08-sick-day-perioperative/)
+
+---
+
+## 延伸閱讀
+
+- [CKM Q10 — Metabolic Surgery（GI 併發症）](/ckm/q10-metabolic-surgery-ckd/)

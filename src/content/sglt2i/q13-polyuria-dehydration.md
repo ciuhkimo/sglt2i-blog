@@ -144,3 +144,9 @@ SGLT2 抑制劑因其葡萄糖尿機制，使用初期患者常出現**多尿（
 ## 相關筆記
 [Q12-Hypotension-Attribution/decision-note](/sglt2i/q12-hypotension-attribution)
 [Q14-Acute-Illness-Hold/decision-note](/sglt2i/q14-acute-illness-hold)
+
+---
+
+## 延伸閱讀
+
+- [CKM Q05 — Cardiorenal 利尿策略](/ckm/q05-diuretic-strategy/)

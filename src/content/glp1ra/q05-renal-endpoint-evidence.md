@@ -210,3 +210,11 @@ Step 5: 注意邊界
 - [Q03: GLP-1 RA vs SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/)
 - [Q04: eGFR <30 或透析的 GLP-1 RA 使用](/glp1ra/q04-low-egfr-use/)
 - [SGLT2i Q05: 腎 vs 心保護定位](/sglt2i/q05-renal-vs-hf-protection/)
+
+---
+
+## 延伸閱讀
+
+- [Finerenone Q06 — FIDELIO/FIGARO/FIDELITY 解讀](/finerenone/q06-landmark-trial-evidence/)
+- [CKM Q13 — 新興治療](/ckm/q13-emerging-therapies/)
+- [CKM Q08 — ORG](/ckm/q08-obesity-related-glomerulopathy/)

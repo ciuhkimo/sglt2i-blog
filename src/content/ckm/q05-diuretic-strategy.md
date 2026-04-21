@@ -283,3 +283,16 @@ Loop diuretic + thiazide + acetazolamide + SGLT2i 的 sequential nephron blockad
 - EMPAG-HF: NCT04049045
 - DICTATE-AHF: NCT04298229
 - PUSH-AHF: NCT04606927
+
+---
+
+## 延伸閱讀
+
+### CKM 專案
+- [CKD + HF 容量評估](/ckm/q04-volume-assessment/)
+- [HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
+- [急性心腎症候群](/ckm/q07-acute-cardiorenal-role/)
+
+### 跨專案
+- [SGLT2i Q06 — Volume Status](/sglt2i/q06-volume-status-assessment/)
+- [SGLT2i Q12 — Hypotension Attribution](/sglt2i/q12-hypotension-attribution/)

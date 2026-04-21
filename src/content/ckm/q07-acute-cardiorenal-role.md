@@ -404,3 +404,18 @@ KDIGO 2012 支持在以下情境 **emergent** 啟動 KRT：[3]
 30. Giangregorio F, et al. **Assessing Venous Congestion in Acute and Chronic Heart Failure**. 2025 review; outcome-driven VExUS thresholds remain unvalidated. / ClinicalTrials.gov: **NCT06714409**.
 
 ---
+
+---
+
+## 延伸閱讀
+
+### CKM 專案
+- [Cardiorenal Syndrome 分型](/ckm/q03-cardiorenal-syndrome-types/)
+- [CKD + HF 容量評估](/ckm/q04-volume-assessment/)
+- [Cardiorenal 利尿策略](/ckm/q05-diuretic-strategy/)
+- [HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
+
+### 跨專案
+- [SGLT2i Q10 — Cr dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/)
+- [SGLT2i Q14 — Acute Illness Hold](/sglt2i/q14-acute-illness-hold/)
+- [SGLT2i Q15 — AKI Stop Decision](/sglt2i/q15-aki-stop-decision/)

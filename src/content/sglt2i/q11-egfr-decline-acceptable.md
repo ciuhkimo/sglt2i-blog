@@ -136,3 +136,10 @@ SGLT2i 治療中的 eGFR 監測
 [Q03-Proteinuria-Impact/decision-note](/sglt2i/q03-proteinuria-impact)
 [Q09-Surgery-Fasting-Hold/decision-note](/sglt2i/q09-surgery-fasting-hold)
 [Q10-Creatinine-Dip-vs-AKI/decision-note](/sglt2i/q10-creatinine-dip-vs-aki)
+
+---
+
+## 延伸閱讀
+
+- [Finerenone Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/)
+- [CKM Q12 — eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)

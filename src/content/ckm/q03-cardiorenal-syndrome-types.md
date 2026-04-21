@@ -245,3 +245,16 @@ CRS Type [1-5], [dominant phenotype], [current priority], [escalation status]
 - **N12.** FIGARO-DKD — **NCT02545049**
 
 ---
+
+---
+
+## 延伸閱讀
+
+### CKM 專案
+- [CKD + HF 容量評估](/ckm/q04-volume-assessment/)
+- [急性心腎症候群的腎臟科角色](/ckm/q07-acute-cardiorenal-role/)
+- [CKM 定義與分期](/ckm/q01-ckm-definition-staging/)
+
+### 跨專案
+- [SGLT2i Q10 — Cr dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/)
+- [Finerenone Q05 — HF+CKD 角色](/finerenone/q05-hf-ckd-role/)

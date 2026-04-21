@@ -132,3 +132,10 @@ SGLT2 inhibitor 在圍術期使用的最大顧慮是 euglycemic DKA (eDKA) 的�
 [Q08: Recurrent Infection](/sglt2i/q08-recurrent-infection)
 [Q11: eGFR Decline Acceptable](/sglt2i/q11-egfr-decline-acceptable)
 [Q14: Acute Illness Hold](/sglt2i/q14-acute-illness-hold)
+
+---
+
+## 延伸閱讀
+
+- [CKM Q10 — Metabolic Surgery 對 CKD](/ckm/q10-metabolic-surgery-ckd/)
+- [GLP-1 RA Q08 — Sick-Day Perioperative](/glp1ra/q08-sick-day-perioperative/)

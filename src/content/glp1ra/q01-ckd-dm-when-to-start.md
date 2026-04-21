@@ -238,3 +238,12 @@ T2DM + CKD 病人就診
 - [Q04: eGFR <30 或透析的 GLP-1 RA 使用](/glp1ra/q04-low-egfr-use/)
 - [Q05: 腎臟終點證據](/glp1ra/q05-renal-endpoint-evidence/)
 - [Q10: 四柱療法整合](/glp1ra/q10-four-pillar-integration/)
+
+---
+
+## 延伸閱讀
+
+- [SGLT2i Q01 — CKD 啟用時機](/sglt2i/q01-ckd-start-timing/)
+- [Finerenone Q01 — DKD 啟動時機](/finerenone/q01-dkd-when-to-start/)
+- [CKM Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/)
+- [2026 DKD 四柱療法完整指南](/blog/dkd-four-pillars-2026/)

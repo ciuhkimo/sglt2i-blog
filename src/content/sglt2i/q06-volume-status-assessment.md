@@ -383,3 +383,11 @@ SGLT2 inhibitors 具有 osmotic diuretic / natriuretic effect，並透過增加�
 ## 相關筆記
 [Q05: Renal vs HF Protection](/sglt2i/q05-renal-vs-hf-protection)
 [Q07: DKA Risk Identification](/sglt2i/q07-dka-risk-identification)
+
+---
+
+## 延伸閱讀
+
+- [CKM Q04 — CKD+HF 容量評估](/ckm/q04-volume-assessment/)
+- [CKM Q05 — Cardiorenal 利尿策略](/ckm/q05-diuretic-strategy/)
+- [CKM Q07 — 急性心腎症候群](/ckm/q07-acute-cardiorenal-role/)

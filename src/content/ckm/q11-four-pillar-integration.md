@@ -483,3 +483,22 @@ Albuminuric T2D + CKD
    - Registry status at this review: **Completed / No Results Posted**
 
 ---
+
+---
+
+## 延伸閱讀
+
+### CKM 專案
+- [CKM 定義與分期](/ckm/q01-ckm-definition-staging/)
+- [HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
+- [eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)
+- [新興治療](/ckm/q13-emerging-therapies/)
+- [CV 風險分層](/ckm/q14-cv-risk-stratification/)
+
+### 跨專案
+- [2026 DKD 四柱療法完整指南](/blog/dkd-four-pillars-2026/)
+- [SGLT2i Q19 — 多藥策略](/sglt2i/q19-drug-combination-strategy/)
+- [Finerenone Q02 — 與 SGLT2i/GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)
+- [GLP-1 RA Q03 — 與 SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/)
+- [GLP-1 RA Q10 — 四柱整合](/glp1ra/q10-four-pillar-integration/)
+- [Finerenone Q05 — HF+CKD 角色](/finerenone/q05-hf-ckd-role/)

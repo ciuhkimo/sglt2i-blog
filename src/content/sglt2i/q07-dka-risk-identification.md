@@ -120,3 +120,9 @@ SGLT2 inhibitor 相關的 euglycemic diabetic ketoacidosis (eDKA) 是一個罕�
 ## 相關筆記
 [Q05: Renal vs HF Protection](/sglt2i/q05-renal-vs-hf-protection)
 [Q06: Volume Status Assessment](/sglt2i/q06-volume-status-assessment)
+
+---
+
+## 延伸閱讀
+
+- [CKM Q10 — Metabolic Surgery（術前 SGLT2i 停藥）](/ckm/q10-metabolic-surgery-ckd/)

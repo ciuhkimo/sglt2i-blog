@@ -335,3 +335,11 @@ eGFR 20–45 且 UACR <200？
 - [Q01: CKD 何時開始 SGLT2i](/sglt2i/q01-ckd-start-timing/)
 - [Q03: 蛋白尿影響](/sglt2i/q03-proteinuria-impact/)
 - [Q04: eGFR 20-30 門檻](/sglt2i/q04-egfr-20-30-threshold/)
+
+---
+
+## 延伸閱讀
+
+- [CKM Q08 — Obesity-Related Glomerulopathy](/ckm/q08-obesity-related-glomerulopathy/)
+- [Finerenone Q01 — DKD 啟動時機](/finerenone/q01-dkd-when-to-start/)
+- [CKM Q13 — 新興治療（FIND-CKD 擴展）](/ckm/q13-emerging-therapies/)

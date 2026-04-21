@@ -197,3 +197,10 @@ eGFR ≥20 mL/min/1.73m²？
 [Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/sglt2i/q02-nondm-ckd)
 [Q04: eGFR 20–30 患者的 SGLT2i 啟用決策](/sglt2i/q04-egfr-20-30-threshold)
 [Q11: eGFR Decline Acceptable](/sglt2i/q11-egfr-decline-acceptable)
+
+---
+
+## 延伸閱讀
+
+- [Finerenone Q01 — DKD 啟動時機（albuminuria 門檻）](/finerenone/q01-dkd-when-to-start/)
+- [CKM Q02 — CKM 篩檢與識別](/ckm/q02-ckm-screening/)

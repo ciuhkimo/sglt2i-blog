@@ -191,3 +191,11 @@ T2DM + CKD 病人（已在 ACEi/ARB + metformin）
 - [Q10: 四柱療法整合](/glp1ra/q10-four-pillar-integration/)
 - [SGLT2i Q05: 腎 vs 心保護定位](/sglt2i/q05-renal-vs-hf-protection/)
 - [SGLT2i Q19: 合併用藥策略](/sglt2i/q19-drug-combination-strategy/)
+
+---
+
+## 延伸閱讀
+
+- [Finerenone Q02 — 與 SGLT2i/GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)
+- [SGLT2i Q19 — 多藥策略](/sglt2i/q19-drug-combination-strategy/)
+- [CKM Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/)

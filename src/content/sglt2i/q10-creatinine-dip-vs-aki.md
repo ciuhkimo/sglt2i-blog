@@ -145,3 +145,11 @@ eGFR 下降幅度？              → 尋找其他 AKI 誘因
 ## 相關筆記
 [Q09: Surgery & Fasting Hold](/sglt2i/q09-surgery-fasting-hold)
 [Q11: eGFR Decline Acceptable](/sglt2i/q11-egfr-decline-acceptable)
+
+---
+
+## 延伸閱讀
+
+- [Finerenone Q04 — eGFR 門檻（early dip 解讀）](/finerenone/q04-egfr-threshold/)
+- [CKM Q07 — 急性心腎症候群（pseudo-WRF）](/ckm/q07-acute-cardiorenal-role/)
+- [CKM Q15 — CKM Biomarkers 解讀](/ckm/q15-ckm-biomarkers/)

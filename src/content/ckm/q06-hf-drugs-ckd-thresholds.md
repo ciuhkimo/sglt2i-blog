@@ -488,3 +488,20 @@ DIALIZE-Outcomes 沒有證明 SZC 在 maintenance hemodialysis 能改善 arrhyth
   https://clinicaltrials.gov/study/NCT04847232
 
 ---
+
+---
+
+## 延伸閱讀
+
+### CKM 專案
+- [CKD + HF 容量評估](/ckm/q04-volume-assessment/)
+- [Cardiorenal 利尿策略](/ckm/q05-diuretic-strategy/)
+- [急性心腎症候群](/ckm/q07-acute-cardiorenal-role/)
+- [四柱整合策略](/ckm/q11-four-pillar-integration/)
+- [eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)
+
+### 跨專案
+- [SGLT2i Q19 — 多藥策略](/sglt2i/q19-drug-combination-strategy/)
+- [Finerenone Q05 — HF+CKD 角色](/finerenone/q05-hf-ckd-role/)
+- [Finerenone Q07 — Steroidal vs Nonsteroidal MRA](/finerenone/q07-steroidal-vs-nonsteroidal/)
+- [Finerenone Q03 — Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)

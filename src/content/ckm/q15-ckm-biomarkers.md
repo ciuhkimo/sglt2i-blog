@@ -271,3 +271,16 @@ KDIGO 2024 重點：
 21. Agarwal R, et al. **Finerenone with Empagliflozin in Chronic Kidney Disease and Type 2 Diabetes**. N Engl J Med. 2025.
 
 ---
+
+---
+
+## 延伸閱讀
+
+### CKM 專案
+- [CV 風險分層](/ckm/q14-cv-risk-stratification/)
+- [急性心腎症候群](/ckm/q07-acute-cardiorenal-role/)
+- [四柱整合策略](/ckm/q11-four-pillar-integration/)
+
+### 跨專案
+- [Finerenone Q08 — 監測頻率](/finerenone/q08-monitoring-frequency/)
+- [SGLT2i Q10 — Cr dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/)

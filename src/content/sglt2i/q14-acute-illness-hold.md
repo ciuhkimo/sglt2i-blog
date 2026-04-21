@@ -191,3 +191,10 @@ oral intake 正常、無紅旗徵兆）          無法進食、高 DKA risk、�
 [Q09-Surgery-Fasting-Hold/decision-note](/sglt2i/q09-surgery-fasting-hold)
 [Q12-Hypotension-Attribution/decision-note](/sglt2i/q12-hypotension-attribution)
 [Q13-Polyuria-Dehydration/decision-note](/sglt2i/q13-polyuria-dehydration)
+
+---
+
+## 延伸閱讀
+
+- [CKM Q07 — 急性心腎症候群](/ckm/q07-acute-cardiorenal-role/)
+- [Finerenone Q03 — Hyperkalemia 管理（sick-day rules）](/finerenone/q03-hyperkalemia-management/)

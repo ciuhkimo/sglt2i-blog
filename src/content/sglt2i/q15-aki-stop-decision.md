@@ -175,3 +175,10 @@ AKI 恢復 + 血動穩定
 [Q10-Creatinine-Dip-vs-AKI/decision-note](/sglt2i/q10-creatinine-dip-vs-aki)
 [Q11-eGFR-Decline-Acceptable/decision-note](/sglt2i/q11-egfr-decline-acceptable)
 [Q14-Acute-Illness-Hold/decision-note](/sglt2i/q14-acute-illness-hold)
+
+---
+
+## 延伸閱讀
+
+- [CKM Q07 — 急性心腎症候群（RRT timing）](/ckm/q07-acute-cardiorenal-role/)
+- [CKM Q12 — eGFR <20 策略](/ckm/q12-low-egfr-ckm-strategy/)

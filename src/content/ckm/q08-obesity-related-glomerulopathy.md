@@ -546,3 +546,17 @@ Nasr 2024 的 secondary oxalate nephropathy cohort 顯示：
 7. **NCT02644486** — ORG-related small interventional study record
 
 ---
+
+---
+
+## 延伸閱讀
+
+### CKM 專案
+- [MASLD/MASH 與 CKD](/ckm/q09-masld-mash-ckd/)
+- [Metabolic Surgery 對 CKD](/ckm/q10-metabolic-surgery-ckd/)
+- [四柱整合策略](/ckm/q11-four-pillar-integration/)
+
+### 跨專案
+- [GLP-1 RA Q05 — 腎臟終點證據（FLOW）](/glp1ra/q05-renal-endpoint-evidence/)
+- [GLP-1 RA Q07 — 體重下降 Paradox](/glp1ra/q07-weight-loss-paradox/)
+- [SGLT2i Q02 — Non-DM CKD](/sglt2i/q02-nondm-ckd/)

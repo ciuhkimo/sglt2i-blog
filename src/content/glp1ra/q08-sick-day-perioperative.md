@@ -247,3 +247,11 @@ Daily agents（liraglutide）於恢復口服後 24–48 小時重啟；weekly ag
 - [Q07: 體重下降在 CKD 病人是好事還是壞事？](/glp1ra/q07-weight-loss-paradox/)
 - [SGLT2i Q09: 手術前禁食期的停藥](/sglt2i/q09-surgery-fasting-hold/)
 - [SGLT2i Q14: 急性疾病時的停藥決策](/sglt2i/q14-acute-illness-hold/)
+
+---
+
+## 延伸閱讀
+
+- [SGLT2i Q14 — Acute Illness Hold](/sglt2i/q14-acute-illness-hold/)
+- [SGLT2i Q16 — 圍術期](/sglt2i/q16-perioperative-timing/)
+- [CKM Q07 — 急性心腎症候群](/ckm/q07-acute-cardiorenal-role/)

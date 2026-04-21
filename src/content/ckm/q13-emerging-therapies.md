@@ -496,3 +496,17 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
    https://clinicaltrials.gov/study/NCT05047263
 
 ---
+
+---
+
+## 延伸閱讀
+
+### CKM 專案
+- [四柱整合策略](/ckm/q11-four-pillar-integration/)
+- [eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)
+- [MASLD/MASH 與 CKD](/ckm/q09-masld-mash-ckd/)
+
+### 跨專案
+- [GLP-1 RA Q05 — FLOW 腎臟終點](/glp1ra/q05-renal-endpoint-evidence/)
+- [Finerenone Q02 — 排序與合併](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)
+- [2026 DKD 四柱療法完整指南](/blog/dkd-four-pillars-2026/)

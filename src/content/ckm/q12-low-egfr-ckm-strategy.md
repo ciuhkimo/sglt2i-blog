@@ -322,3 +322,18 @@ KRT 準備同步進行：
 20. KDIGO. *Clinical Practice Guideline for Lipid Management in CKD.* **Kidney Int Suppl.** 2013. Dialysis-dependent CKD 不建議新起始 statin；若在 dialysis initiation 時已在用，可續用。
 
 ---
+
+---
+
+## 延伸閱讀
+
+### CKM 專案
+- [HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
+- [四柱整合策略](/ckm/q11-four-pillar-integration/)
+- [新興治療](/ckm/q13-emerging-therapies/)
+
+### 跨專案
+- [SGLT2i Q04 — eGFR 20-30 門檻](/sglt2i/q04-egfr-20-30-threshold/)
+- [SGLT2i Q15 — AKI Stop Decision](/sglt2i/q15-aki-stop-decision/)
+- [Finerenone Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/)
+- [Finerenone Q10 — 特殊族群](/finerenone/q10-special-populations/)

@@ -150,3 +150,11 @@ tags:
 ## 相關筆記
 [Q19 Drug Combination Strategy](/sglt2i/q19-drug-combination-strategy)：與 ACEi/ARB、Finerenone、GLP-1 RA 的整合策略
 [Q17 AKI Recovery Restart](/sglt2i/q17-aki-recovery-restart)：AKI 後重啟 SGLT2i（含移植/高齡情境參考）
+
+---
+
+## 延伸閱讀
+
+- [Finerenone Q10 — 特殊族群](/finerenone/q10-special-populations/)
+- [CKM Q10 — Metabolic Surgery 對 CKD](/ckm/q10-metabolic-surgery-ckd/)
+- [CKM Q12 — eGFR <20 策略](/ckm/q12-low-egfr-ckm-strategy/)

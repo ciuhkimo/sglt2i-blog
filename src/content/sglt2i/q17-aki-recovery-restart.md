@@ -137,3 +137,10 @@ AKI 恢復追蹤（出院後門診）
 [Q10 Creatinine Dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki)：如何區分 SGLT2i 引起的肌酐上升（適應性）與真正 AKI
 [Q15 AKI Stop Decision](/sglt2i/q15-aki-stop-decision)：何時應停用 SGLT2i（與 Q17 的重啟形成完整流程）
 [Q14 Acute Illness Hold](/sglt2i/q14-acute-illness-hold)：急性疾病期間的 sick day rule
+
+---
+
+## 延伸閱讀
+
+- [CKM Q07 — 急性心腎症候群](/ckm/q07-acute-cardiorenal-role/)
+- [Finerenone Q03 — Hyperkalemia（hold/restart 規則）](/finerenone/q03-hyperkalemia-management/)

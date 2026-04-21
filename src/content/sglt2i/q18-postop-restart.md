@@ -150,3 +150,9 @@ VA 大型世代研究（N=462,968）提供術後真實世界安全性資料，**
 [Q16 Perioperative Timing](/sglt2i/q16-perioperative-timing)：術前停藥時機（與 Q18 形成完整「停→重啟」流程）
 [Q17 AKI Recovery Restart](/sglt2i/q17-aki-recovery-restart)：若術後合併 AKI，重啟時機需參照 Q17
 [Q09 Surgery Fasting Hold](/sglt2i/q09-surgery-fasting-hold)：急性禁食期間的 SGLT2i 決策
+
+---
+
+## 延伸閱讀
+
+- [CKM Q10 — Metabolic Surgery 對 CKD](/ckm/q10-metabolic-surgery-ckd/)

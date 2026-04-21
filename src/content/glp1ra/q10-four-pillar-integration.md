@@ -177,3 +177,12 @@ Hyperkalemia 是四柱整合中最重要的安全交互作用，來自 ACEi/ARB 
 - [Q07: 體重下降在 CKD 病人是好事還是壞事？](/glp1ra/q07-weight-loss-paradox/)
 - [Q08: 急性疾病 / 手術前後是否應停藥？](/glp1ra/q08-sick-day-perioperative/)
 - [Q09: 胰臟炎、膽囊疾病風險——CKD 病人的考量？](/glp1ra/q09-pancreatitis-gallbladder/)
+
+---
+
+## 延伸閱讀
+
+- [CKM Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/)
+- [2026 DKD 四柱療法完整指南](/blog/dkd-four-pillars-2026/)
+- [Finerenone Q02 — 與 SGLT2i/GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)
+- [SGLT2i Q19 — 多藥策略](/sglt2i/q19-drug-combination-strategy/)

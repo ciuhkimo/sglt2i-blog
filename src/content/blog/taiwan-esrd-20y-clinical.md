@@ -256,3 +256,11 @@ NSAIDs 使用率從 21.3% 降至 14.3%，是少數可量化的用藥安全改善
 ---
 
 *資料來源：台灣腎臟醫學會（TSN）歷年腎病年報。本文為趨勢分析整理，個別數值以各年度年報原始資料為準。*
+
+---
+
+## 延伸閱讀
+
+- [CKM Q01 — CKM 定義與分期](/ckm/q01-ckm-definition-staging/)
+- [CKM Q14 — CV 風險分層](/ckm/q14-cv-risk-stratification/)
+- [SGLT2i 決策筆記（20 題）](/sglt2i/)

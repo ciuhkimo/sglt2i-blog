@@ -120,3 +120,11 @@ seo_title: "台灣洗腎人數與趨勢：8.8 萬人的故事（2000-2022）"
 **延伸閱讀：**
 - [台灣末期腎臟病二十年趨勢完整分析（醫療人員版）](/blog/taiwan-esrd-20y-clinical/)
 - [我有慢性腎臟病，SGLT2 抑制劑是什麼藥？](/patient/sglt2i-what-is-it/)
+
+---
+
+## 延伸閱讀
+
+- [給病人與家屬](/patient/)
+- [透析衛教](/dialysis/)
+- [CKD 評估與透析準備](/patient/ckd-assessment-dialysis-prep/)

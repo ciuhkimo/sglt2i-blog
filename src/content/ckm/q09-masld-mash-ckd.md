@@ -421,3 +421,17 @@ Stable CKD patient
 - **NCT04166773** — SYNERGY-NASH
 
 ---
+
+---
+
+## 延伸閱讀
+
+### CKM 專案
+- [Obesity-Related Glomerulopathy](/ckm/q08-obesity-related-glomerulopathy/)
+- [Metabolic Surgery 對 CKD](/ckm/q10-metabolic-surgery-ckd/)
+- [四柱整合策略](/ckm/q11-four-pillar-integration/)
+- [CKM Biomarkers](/ckm/q15-ckm-biomarkers/)
+
+### 跨專案
+- [GLP-1 RA Q05 — FLOW 腎臟終點](/glp1ra/q05-renal-endpoint-evidence/)
+- [Finerenone Q10 — 特殊族群](/finerenone/q10-special-populations/)

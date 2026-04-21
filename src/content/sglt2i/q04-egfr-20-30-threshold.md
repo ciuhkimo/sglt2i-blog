@@ -186,3 +186,11 @@ CKD stage 4（eGFR 20–30）患者是腎臟科臨床的主要族群。過去因
 [Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/sglt2i/q02-nondm-ckd)
 [Q03: 蛋白尿程度對 SGLT2 inhibitor 治療效益的影響](/sglt2i/q03-proteinuria-impact)
 [Q11: eGFR Decline Acceptable](/sglt2i/q11-egfr-decline-acceptable)
+
+---
+
+## 延伸閱讀
+
+- [Finerenone Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/)
+- [CKM Q12 — eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)
+- [CKM Q06 — HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)

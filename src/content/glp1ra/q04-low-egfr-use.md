@@ -203,3 +203,11 @@ GLP-1 RA 熱量攝取減少 16-39%，體重減輕中 lean mass 流失 11-50%。C
 - [Q03: GLP-1 RA vs SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/)
 - [Q05: 腎臟終點證據](/glp1ra/q05-renal-endpoint-evidence/)
 - [SGLT2i Q04: eGFR 20-30 門檻](/sglt2i/q04-egfr-20-30-threshold/)
+
+---
+
+## 延伸閱讀
+
+- [Finerenone Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/)
+- [SGLT2i Q04 — eGFR 20-30 門檻](/sglt2i/q04-egfr-20-30-threshold/)
+- [CKM Q12 — eGFR <20 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)
