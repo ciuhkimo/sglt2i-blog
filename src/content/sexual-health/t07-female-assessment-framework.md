@@ -303,3 +303,10 @@ UK Kidney Association 2019 建議：
 ---
 
 <div class="callout callout-caution"><p><strong>醫療免責聲明</strong><br>本文為臨床決策輔助，不取代個別病人的專科判斷。對高風險決策（確認妊娠、調整致畸藥物、選擇避孕方式、孕期透析處方），仍應結合個案條件與最新正式來源逐項核對。</p></div>
+---
+
+## 延伸閱讀
+
+- [女性月經與生育（病人版）](/sexual-health/t05-female-menstruation-fertility/)
+- [月經不規則](/sexual-health/t20-menstrual-irregularity/)
+- [轉介標準](/sexual-health/t12-referral-criteria/)

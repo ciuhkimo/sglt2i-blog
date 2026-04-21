@@ -143,3 +143,11 @@ PD 病人：
 > **醫療免責聲明**：本文為臨床決策參考。所有安全建議應依病人心血管狀態、透析處方、共病與個人偏好進行個別化調整。
 
 *[T03 性生活安全](/sexual-health/t03-sexual-activity-safety/) | [T06 男性評估框架](/sexual-health/t06-male-assessment-framework/) | [T07 女性評估](/sexual-health/t07-female-assessment-framework/) | [T02 Hub](/sexual-health/t02-hub-complete-guide/)*
+
+---
+
+## 延伸閱讀
+
+- [伴侶支持](/sexual-health/t13-partner-support/)
+- [轉介標準](/sexual-health/t12-referral-criteria/)
+- [常見問答 FAQ](/sexual-health/t14-faq/)

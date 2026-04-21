@@ -86,3 +86,11 @@ schema: FAQPage, MedicalWebPage
 ---
 
 > **醫療免責聲明**：本文僅供衛教參考，不能取代醫師的個別化建議。每位腎友的狀況不同，治療方式請與您的腎臟科、婦產科或移植醫療團隊討論。
+
+---
+
+## 延伸閱讀
+
+- [女性月經與生育](/sexual-health/t05-female-menstruation-fertility/)
+- [腎移植後懷孕](/sexual-health/t10-post-transplant/)
+- [常見問答 FAQ](/sexual-health/t14-faq/)

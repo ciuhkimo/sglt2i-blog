@@ -209,3 +209,11 @@ tags:
 ---
 
 > **醫療免責聲明**：本文為專業醫療人員參考用臨床決策輔助工具，不構成個別病人的醫療建議。臨床決策應結合個別病人情況、最新實證與共享決策原則。
+
+---
+
+## 延伸閱讀
+
+- [男性評估框架](/sexual-health/t06-male-assessment-framework/)
+- [女性評估框架](/sexual-health/t07-female-assessment-framework/)
+- [諮商實務](/sexual-health/t08-counseling-practice/)

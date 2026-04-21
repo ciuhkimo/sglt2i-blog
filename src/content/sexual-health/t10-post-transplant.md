@@ -125,3 +125,12 @@ schema: FAQPage, MedicalWebPage
 ---
 
 > **醫療免責聲明**：本文僅供衛教參考，不能取代醫師的個別化建議。藥物調整、懷孕時機等決策都必須由您的醫療團隊根據個別情況判斷。
+
+---
+
+## 延伸閱讀
+
+- [腎移植後何時恢復性生活？](/sexual-health/t22-post-transplant-resumption/)
+- [不孕症](/sexual-health/t15-infertility/)
+- [CKM Q10 — Metabolic Surgery](/ckm/q10-metabolic-surgery-ckd/)
+- [Finerenone Q10 — 特殊族群](/finerenone/q10-special-populations/)

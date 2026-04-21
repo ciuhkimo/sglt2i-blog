@@ -321,3 +321,11 @@ HCV 的傳染力遠低於 HBV：
 - 透析單位的感染爆發事件中，環境清潔不足是最常見的根本原因之一
 - 表面消毒是多層防護中不可或缺的一環——手部衛生、PPE、環境消毒缺一不可
 - 作為團隊的一份子，每位護理師都有責任維護整個單位的感染安全
+
+---
+
+## 延伸閱讀
+
+- [併發症處理](/dialysis/edu-05-hd-complications/)
+- [血管通路](/dialysis/edu-03-vascular-access/)
+- [SGLT2i Q08 — 反覆感染](/sglt2i/q08-recurrent-infection/)

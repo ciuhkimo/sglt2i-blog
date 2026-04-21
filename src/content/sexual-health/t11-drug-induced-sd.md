@@ -183,3 +183,11 @@ tags:
 > **醫療免責聲明**：本文為臨床決策參考，不構成個別病人的治療建議。藥物調整應結合病人共病、精神科/心臟科/泌尿科共同照護意見、透析處方與個人偏好進行個別化評估。任何藥物變更均需與原處方醫師討論。
 
 *[T09 PDE5i 處方](/sexual-health/t09-pde5i-medication-review/) | [T06 男性評估框架](/sexual-health/t06-male-assessment-framework/) | [T04 男性 ED 衛教](/sexual-health/t04-male-ed/) | [T02 Hub](/sexual-health/t02-hub-complete-guide/)*
+
+---
+
+## 延伸閱讀
+
+- [降壓藥與抗憂鬱藥](/sexual-health/t19-antihypertensive-antidepressant/)
+- [PDE5i 用藥](/sexual-health/t09-pde5i-medication-review/)
+- [男性 ED](/sexual-health/t04-male-ed/)

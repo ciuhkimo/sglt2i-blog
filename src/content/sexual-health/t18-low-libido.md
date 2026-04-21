@@ -91,3 +91,11 @@ schema: FAQPage, MedicalWebPage
 ---
 
 > **醫療免責聲明**：本文僅供衛教參考，不能取代醫師的個別化建議。每位腎友的狀況不同，治療方式請與您的腎臟科醫療團隊討論。
+
+---
+
+## 延伸閱讀
+
+- [男性 ED](/sexual-health/t04-male-ed/)
+- [藥物引起的性功能障礙](/sexual-health/t11-drug-induced-sd/)
+- [常見問答 FAQ](/sexual-health/t14-faq/)

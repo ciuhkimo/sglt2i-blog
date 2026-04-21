@@ -126,3 +126,12 @@ schema: FAQPage, MedicalWebPage
 ---
 
 > **醫療免責聲明**：本文僅供衛教參考，不能取代醫師的個別化建議。每位腎友的狀況不同，尤其若合併心臟病、胸痛、低血壓、使用硝酸鹽類藥物，或有懷孕 / 生育計畫，請務必與您的腎臟科醫療團隊討論。
+
+---
+
+## 延伸閱讀
+
+- [腎友與性完整指南](/sexual-health/t02-hub-complete-guide/)
+- [常見問答 FAQ](/sexual-health/t14-faq/)
+- [洗腎後的性生活安全須知](/sexual-health/t03-sexual-activity-safety/)
+- [透析衛教](/dialysis/)

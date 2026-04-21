@@ -269,3 +269,12 @@ HbA1c 反映紅血球上血紅蛋白被糖化的程度，理論上代表過去 2
 - 使用高濃度透析液（4.25%）時可導致顯著高血糖
 - 因此 PD 患者的胰島素需求量可能反而需要增加（與 HD 患者相反）
 - 一個特殊選項是透過腹腔內直接給予胰島素（IP insulin），讓胰島素經門脈循環先到達肝臟，更接近生理途徑，但有肝脂肪變性和無菌性腹膜炎的風險
+
+---
+
+## 延伸閱讀
+
+- [SGLT2i 是什麼？（病人版）](/patient/sglt2i-what-is-it/)
+- [營養](/dialysis/edu-06-nutrition/)
+- [CKM Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/)
+- [2026 DKD 四柱療法指南](/blog/dkd-four-pillars-2026/)

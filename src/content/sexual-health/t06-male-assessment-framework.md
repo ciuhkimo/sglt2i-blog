@@ -449,3 +449,11 @@ tags:
 ---
 
 <div class="callout callout-caution"><p><strong>醫療免責聲明</strong><br>本文是經查核後的臨床評估框架，不是正式 guideline 原文。對於高風險用藥、轉介門檻、影像檢查與 testosterone treatment，仍應結合病人個別狀況與最新原始文件判斷。</p></div>
+---
+
+## 延伸閱讀
+
+- [男性 ED（病人版）](/sexual-health/t04-male-ed/)
+- [PDE5i 用藥](/sexual-health/t09-pde5i-medication-review/)
+- [轉介標準](/sexual-health/t12-referral-criteria/)
+- [SGLT2i 對性功能的影響？](/sglt2i/)

@@ -192,3 +192,12 @@ tags:
 > **醫療免責聲明**：本文為臨床決策參考，不構成個別病人的治療建議。PDE5i 處方應結合病人心血管狀態、透析處方、共病、併用藥物與個人偏好進行個別化評估。
 
 *[T06 男性評估框架](/sexual-health/t06-male-assessment-framework/) | [T04 男性 ED 衛教](/sexual-health/t04-male-ed/) | [T11 藥物影響性功能](/sexual-health/t11-drug-induced-sd/) | [T02 Hub](/sexual-health/t02-hub-complete-guide/)*
+
+---
+
+## 延伸閱讀
+
+- [男性 ED](/sexual-health/t04-male-ed/)
+- [藥物引起的性功能障礙](/sexual-health/t11-drug-induced-sd/)
+- [腎移植後用藥](/sexual-health/t10-post-transplant/)
+- [SGLT2i Q20 — 特殊族群](/sglt2i/q20-special-populations/)

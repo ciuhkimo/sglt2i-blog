@@ -153,3 +153,11 @@ schema: FAQPage, MedicalWebPage
 ---
 
 > **醫療免責聲明**：本文僅供衛教參考，不能取代醫師的個別化建議。每對伴侶的狀況不同，如有疑慮請與腎臟科醫療團隊討論。文中建議的伴侶支持架構主要來自跨疾病研究的推論，CKD 領域尚無專屬的伴侶介入方案經過臨床驗證。
+
+---
+
+## 延伸閱讀
+
+- [常見問答 FAQ](/sexual-health/t14-faq/)
+- [諮商實務](/sexual-health/t08-counseling-practice/)
+- [為什麼腎友的性健康值得被正視](/sexual-health/t01-why-it-matters/)

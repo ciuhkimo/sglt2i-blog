@@ -168,3 +168,12 @@ NIDDK 明確提醒：**不要在沒有先和醫療專業人員討論前，自行
 ---
 
 > **醫療免責聲明**：本文僅供衛教參考，不能取代醫師的個別化建議。每位腎友的狀況、心血管風險與用藥不同，治療方式請與你的腎臟科、泌尿科或原本開藥的醫療團隊討論。
+
+---
+
+## 延伸閱讀
+
+- [男性 SD 門診評估框架（醫師版）](/sexual-health/t06-male-assessment-framework/)
+- [PDE5i 用藥指引](/sexual-health/t09-pde5i-medication-review/)
+- [藥物引起的性功能障礙](/sexual-health/t11-drug-induced-sd/)
+- [腎移植後性功能](/sexual-health/t10-post-transplant/)

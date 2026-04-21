@@ -121,3 +121,12 @@ seo_title: "慢性腎臟病 CKD 是什麼？分期、檢查與透析準備完整
 *本文最後更新：2026 年 4 月 10 日。內容僅供參考，不取代醫師的診療建議。*
 
 **作者：** 小鎮醫生｜腎臟科專科醫師
+
+---
+
+## 延伸閱讀
+
+- [SGLT2i 是什麼？](/patient/sglt2i-what-is-it/)
+- [腎功能下降怎麼辦？](/patient/kidney-function-drop/)
+- [透析衛教——護理版](/dialysis/)
+- [台灣透析 20 年趨勢](/blog/taiwan-esrd-20y-public/)

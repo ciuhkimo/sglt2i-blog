@@ -76,3 +76,11 @@ schema: FAQPage, MedicalWebPage
 ---
 
 > **醫療免責聲明**：本文僅供衛教參考，不能取代醫師的個別化建議。每位腎友的狀況不同，治療方式請與您的腎臟科或移植醫療團隊討論。
+
+---
+
+## 延伸閱讀
+
+- [腎移植後性功能](/sexual-health/t10-post-transplant/)
+- [不孕症](/sexual-health/t15-infertility/)
+- [CKM Q10 — Metabolic Surgery](/ckm/q10-metabolic-surgery-ckd/)

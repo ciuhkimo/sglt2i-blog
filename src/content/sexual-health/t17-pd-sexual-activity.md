@@ -83,3 +83,11 @@ schema: FAQPage, MedicalWebPage
 ---
 
 > **醫療免責聲明**：本文僅供衛教參考，不能取代醫師的個別化建議。每位腎友的狀況不同，導管照護方式請與您的腎臟科醫療團隊討論。
+
+---
+
+## 延伸閱讀
+
+- [洗腎後的性生活安全須知](/sexual-health/t03-sexual-activity-safety/)
+- [瘻管或導管的影響](/sexual-health/t16-fistula-impact/)
+- [透析衛教](/dialysis/)

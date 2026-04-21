@@ -76,3 +76,11 @@ schema: FAQPage, MedicalWebPage
 ---
 
 > **醫療免責聲明**：本文僅供衛教參考，不能取代醫師的個別化建議。每位腎友的狀況不同，治療方式請與您的腎臟科或婦產科醫療團隊討論。
+
+---
+
+## 延伸閱讀
+
+- [女性月經與生育](/sexual-health/t05-female-menstruation-fertility/)
+- [女性評估框架（醫師版）](/sexual-health/t07-female-assessment-framework/)
+- [不孕症](/sexual-health/t15-infertility/)

@@ -85,3 +85,11 @@ schema: FAQPage, MedicalWebPage
 ---
 
 > **醫療免責聲明**：本文僅供衛教參考，不能取代醫師的個別化建議。藥物調整必須由您的處方醫師決定，請勿自行停藥或換藥。
+
+---
+
+## 延伸閱讀
+
+- [藥物引起的性功能障礙](/sexual-health/t11-drug-induced-sd/)
+- [PDE5i 用藥](/sexual-health/t09-pde5i-medication-review/)
+- [CKM Q06 — HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
