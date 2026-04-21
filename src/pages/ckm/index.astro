@@ -1,0 +1,103 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+
+const allNotes = await getCollection('ckm');
+const sorted = allNotes.sort((a, b) => a.data.question_id.localeCompare(b.data.question_id));
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead
+			title={`CKM Syndrome 臨床決策筆記 | ${SITE_TITLE}`}
+			description="CKM Syndrome（Cardiovascular-Kidney-Metabolic）的 15 個臨床決策問題。涵蓋 CKM 定義分期、心腎交互、代謝腎交互、四柱整合策略與風險分層，整合 AHA 2023、KDIGO 2024 指引與台灣實務。"
+		/>
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+			h1 {
+				font-size: 2em;
+				margin-bottom: 0.3em;
+			}
+			.subtitle {
+				color: rgb(var(--gray));
+				font-size: 1.05em;
+				margin-bottom: 2em;
+			}
+			.note-list {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+			.note-list li {
+				padding: 0.5em 0;
+				border-bottom: 1px solid rgb(var(--gray-light));
+			}
+			.note-list li:last-child {
+				border-bottom: none;
+			}
+			.note-link {
+				text-decoration: none;
+				display: block;
+			}
+			.note-link:hover .note-title {
+				color: #7a5ea7;
+			}
+			.note-title {
+				font-weight: 600;
+			}
+			.note-id {
+				font-weight: 700;
+				color: #5a3d7a;
+				margin-right: 0.3em;
+			}
+			.note-meta {
+				font-size: 0.8em;
+				color: rgb(var(--gray));
+				margin-top: 0.2em;
+			}
+			.empty-msg {
+				color: rgb(var(--gray));
+				font-style: italic;
+				font-size: 0.9em;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>CKM Syndrome 臨床決策筆記</h1>
+			<p class="subtitle">CKM Syndrome（Cardiovascular-Kidney-Metabolic）的 15 個臨床決策問題。涵蓋 CKM 定義分期、心腎交互（CRS 分型、容量評估、利尿策略）、代謝腎交互（ORG、MASLD、代謝手術）、四柱整合策略與風險分層。整合 AHA 2023、KDIGO 2024 指引與台灣實務。</p>
+
+			{sorted.length > 0 ? (
+				<ul class="note-list">
+					{sorted.map((note) => (
+						<li>
+							<a class="note-link" href={`/ckm/${note.id}/`}>
+								<span class="note-title">
+									<span class="note-id">{note.data.question_id}</span>
+									{note.data.title}
+								</span>
+								<div class="note-meta">
+									{note.data.version} | 更新：<FormattedDate date={note.data.last_updated} /> | {note.data.status}
+								</div>
+							</a>
+						</li>
+					))}
+				</ul>
+			) : (
+				<p class="empty-msg">筆記準備中...</p>
+			)}
+		</main>
+		<Footer />
+	</body>
+</html>

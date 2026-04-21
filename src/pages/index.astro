@@ -8,12 +8,13 @@ import { getCollection } from 'astro:content';
 const sglt2iNotes = await getCollection('sglt2i');
 const glp1raNotes = await getCollection('glp1ra');
 const finerenoneNotes = await getCollection('finerenone');
+const ckmNotes = await getCollection('ckm');
 const sexualHealthNotes = await getCollection('sexualHealth');
 const patientNotes = await getCollection('patient');
 const dialysisNotes = await getCollection('dialysis');
 const blogNotes = await getCollection('blog');
 
-const totalDecisionNotes = sglt2iNotes.length + glp1raNotes.length + finerenoneNotes.length;
+const totalDecisionNotes = sglt2iNotes.length + glp1raNotes.length + finerenoneNotes.length + ckmNotes.length;
 const totalAll = totalDecisionNotes + sexualHealthNotes.length + patientNotes.length + dialysisNotes.length + blogNotes.length;
 
 const groups = [
@@ -57,6 +58,16 @@ const groups = [
 		title: '臨床專區',
 		subtitle: '針對特定臨床主題的系統性深度整理。',
 		cards: [
+			{
+				title: 'CKM Syndrome 決策筆記',
+				description: '15 個心腎代謝症候群的臨床決策問題。涵蓋 CKM 分期、心腎交互、代謝手術、四柱整合與風險分層。',
+				count: ckmNotes.length,
+				unit: '篇',
+				href: '/ckm/',
+				color: '#f0e8f5',
+				accent: '#7a5ea7',
+				icon: '\u{1FAC0}',
+			},
 			{
 				title: '腎友與性',
 				description: '透析病人的性功能、月經、生育與親密關係。涵蓋病人衛教與臨床決策筆記，男女都有。',
