@@ -1,0 +1,145 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead title={`編輯方針 | ${SITE_TITLE}`} description="Nephro Decisions 的編輯方針：產製流程、AI 使用透明度、證據標準、版本管理、勘誤與利益揭露。" />
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+			h1 {
+				font-size: 2em;
+				margin-bottom: 0.5em;
+			}
+			.lead {
+				color: rgb(var(--gray));
+				margin-bottom: 2em;
+			}
+			h2 {
+				font-size: 1.3em;
+				margin-top: 2em;
+				margin-bottom: 0.5em;
+				border-left: 4px solid var(--accent);
+				padding-left: 0.5em;
+			}
+			ol, ul {
+				padding-left: 1.5em;
+			}
+			li {
+				margin-bottom: 0.4em;
+			}
+			table {
+				width: 100%;
+				border-collapse: collapse;
+				margin: 1em 0;
+				font-size: 0.92em;
+			}
+			th, td {
+				border: 1px solid rgb(var(--gray-light));
+				padding: 0.5em 0.75em;
+				text-align: left;
+			}
+			th {
+				background: rgba(var(--gray-light), 0.5);
+			}
+			.meta {
+				margin-top: 3em;
+				padding-top: 1em;
+				border-top: 1px solid rgb(var(--gray-light));
+				font-size: 0.85em;
+				color: rgb(var(--gray));
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>編輯方針</h1>
+			<p class="lead">Nephro Decisions 是台灣腎臟科專科醫師主導、以決策問題為核心的臨床知識庫。這頁說明內容怎麼產製、AI 做什麼、醫師做什麼、怎麼管版本、怎麼勘誤。</p>
+
+			<h2>定位</h2>
+			<p>本站以臨床決策為核心，整合國際指引、landmark trials、台灣健保與在地實務。主要讀者為腎臟科醫師與照護團隊，並設有病人與家屬的衛教專區。不是醫院衛教入口、不是商業推廣、不接受廣告或 affiliate。</p>
+
+			<h2>作者與責任</h2>
+			<p>所有內容由「小鎮醫生」（腎臟科專科醫師、內科專科醫師、台灣大學醫學系）主導撰寫、審閱與拍板。作者身分為筆名，但編輯責任由本人承擔。</p>
+
+			<h2>產製流程（7 步驟）</h2>
+			<table>
+				<thead>
+					<tr><th>步驟</th><th>執行者</th><th>做什麼</th></tr>
+				</thead>
+				<tbody>
+					<tr><td>1. 臨床題目</td><td>醫師</td><td>從臨床困境提出具體決策問題</td></tr>
+					<tr><td>2. 題目結構釐清</td><td>ChatGPT / Claude</td><td>拆解 sub-questions、釐清族群</td></tr>
+					<tr><td>3. 提示詞建構</td><td>ChatGPT Deep Research</td><td>為三源產生一致的研究 prompt</td></tr>
+					<tr><td>4. 三源文獻研究</td><td>ChatGPT + Claude + Gemini</td><td>各自獨立產出完整文獻回顧</td></tr>
+					<tr><td>5. Synthesis + Decision Note</td><td>Claude Code</td><td>交叉比對三源，整合為結構化 note（v1.0）</td></tr>
+					<tr><td>6. 雙重審閱</td><td>醫師 + ChatGPT Pro</td><td>醫師做臨床判斷；ChatGPT Pro 做獨立查核修訂（v1.1）</td></tr>
+					<tr><td>7. 定稿上架</td><td>醫師</td><td>拍板、標註版本與更新日</td></tr>
+				</tbody>
+			</table>
+
+			<h2>AI 使用透明度</h2>
+			<p>本站的 AI 使用不是「AI 寫、醫師潤稿」，而是<strong>多工具角色分工</strong>：</p>
+			<ul>
+				<li><strong>臨床判斷與最終決策</strong>：醫師</li>
+				<li><strong>多源文獻研究</strong>：ChatGPT + Claude + Gemini 三源平行，降低單一 AI bias</li>
+				<li><strong>結構化整合</strong>：Claude Code 負責交叉比對與草稿產製</li>
+				<li><strong>獨立查核</strong>：ChatGPT Pro 作為第二審閱者，產出 v1.1 查核修訂版</li>
+			</ul>
+			<p>AI 不做臨床判斷；醫師不做機械性的三源比對。每篇文章的 v1.0 與 v1.1 版本差異記錄在該篇的修訂歷史中。</p>
+
+			<h2>證據標準</h2>
+			<ul>
+				<li>核心證據以 <strong>PubMed / PMID、ClinicalTrials.gov / NCT、官方指引</strong>（KDIGO、ADA、AHA、ESC、TFDA、NHI）為主</li>
+				<li>文獻分層標示：direct RCT、pooled / subgroup analysis、observational、expert consensus</li>
+				<li>surrogate endpoint（如 UACR）與 hard outcome（如 ESKD、mortality）明確區分，不混用語言</li>
+				<li>台灣健保條件直接引用官方公告原文</li>
+			</ul>
+
+			<h2>版本管理</h2>
+			<ul>
+				<li>每篇文章標註版本號（v1.0、v1.1）與最後更新日期</li>
+				<li>v1.0 為 Claude Code 初版；v1.1 為 ChatGPT Pro 獨立查核修訂版</li>
+				<li>重要指引更新或新 RCT 發表時進行版本更新</li>
+				<li>每篇 frontmatter 記錄 next_review 日期作為內部治理參考</li>
+			</ul>
+
+			<h2>勘誤政策</h2>
+			<p>發現錯誤請來信 <a href="mailto:cayman.schools.2@icloud.com">cayman.schools.2@icloud.com</a>。原則：</p>
+			<ul>
+				<li>事實錯誤會盡快修正，版本號進位（v1.1 → v1.2）</li>
+				<li>重大修正會在文章修訂歷史中註記改了什麼</li>
+				<li>若錯誤影響臨床建議，會透過 newsletter 通知訂閱者</li>
+			</ul>
+
+			<h2>利益揭露</h2>
+			<ul>
+				<li>本站無藥廠、器材廠或醫療機構贊助</li>
+				<li>無廣告、無 affiliate link、無業配</li>
+				<li>作者無與本站內容相關的利益衝突需揭露</li>
+				<li>若未來接受任何合作，會在該文章明確標示</li>
+			</ul>
+
+			<h2>不構成醫療建議</h2>
+			<p>本站內容為臨床教育與決策輔助，不構成醫療建議，不建立醫病關係，不能取代主治醫師的個別化臨床判斷。讀者若有具體醫療問題，請諮詢主治醫師。</p>
+
+			<h2>聯絡方式</h2>
+			<p>編輯、合作、學術討論：<a href="mailto:cayman.schools.2@icloud.com">cayman.schools.2@icloud.com</a></p>
+
+			<div class="meta">
+				最後更新：2026-04-22 ｜ <a href="/about/">關於本站</a> ｜ <a href="/about/#disclaimer">免責聲明</a>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

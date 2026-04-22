@@ -77,23 +77,24 @@ const profileLd = JSON.stringify({
 				每篇內容皆以實證為基礎，結合臨床情境設計，目標是讓腎臟科醫師與照護團隊在門診、病房與透析室中能快速參考、輔助判斷。
 			</p>
 
-			<h2>編輯流程</h2>
-			<p>每篇筆記經過以下九步驟產出與審校：</p>
+			<h2>編輯流程（7 步驟）</h2>
 			<ol>
-				<li>臨床情境提問——由醫師根據實際臨床困境提出問題</li>
-				<li>文獻搜尋與篩選——系統性檢索 PubMed、主要腎臟/心臟學期刊與指引</li>
-				<li>AI 輔助文獻整理——使用大型語言模型協助摘要與結構化</li>
-				<li>初稿撰寫——AI 依據文獻與臨床框架產出草稿</li>
-				<li>醫師第一輪審稿——逐段校閱事實正確性、臨床合理性</li>
-				<li>AI 修訂——根據審稿意見修改</li>
-				<li>醫師第二輪審稿——確認修訂品質，補充臨床細節</li>
-				<li>最終校對——格式、引用、用語一致性檢查</li>
-				<li>定稿發佈——標註版本號與更新日期</li>
+				<li><strong>臨床題目</strong>——醫師從實際臨床困境提出具體決策問題</li>
+				<li><strong>題目結構釐清</strong>——ChatGPT / Claude 協助拆解 sub-questions 與族群範圍</li>
+				<li><strong>三源 Deep Research 提示詞建構</strong>——ChatGPT Deep Research 產生一致的研究 prompt</li>
+				<li><strong>三源平行 Deep Research</strong>——ChatGPT + Claude + Gemini 各自獨立產出完整文獻回顧</li>
+				<li><strong>Synthesis + Decision Note 產製</strong>——Claude Code 交叉比對三源，整合為結構化 synthesis 與 decision note（v1.0）</li>
+				<li><strong>雙重審閱</strong>——醫師做臨床判斷與事實把關；ChatGPT Pro 做獨立查核與修訂（v1.1）</li>
+				<li><strong>定稿上架</strong>——醫師拍板、標註版本號與更新日期</li>
 			</ol>
+
+			<p style="margin-top: 1em;">
+				<a href="/editorial-policy/">完整編輯方針 →</a>
+			</p>
 
 			<h2>版本管理</h2>
 			<p>
-				每篇筆記標註版本號（如 v1.4）與最後更新日期。當有重要指引更新或新證據發表時，將進行版本更新。
+				每篇筆記標註版本號（v1.0、v1.1）與最後更新日期。當有重要指引更新或新證據發表時，將進行版本更新。
 			</p>
 
 			<div class="disclaimer" id="disclaimer">
