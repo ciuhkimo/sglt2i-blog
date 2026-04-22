@@ -1,0 +1,199 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead title={`訂閱更新 | ${SITE_TITLE}`} description="訂閱 Nephro Decisions newsletter：每月 25 日一封，涵蓋新上架文章、查核修訂、台灣健保與腎臟科實務更新。3 分鐘讀完。" />
+		<style>
+			main {
+				width: 680px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+
+			/* Hero */
+			.hero {
+				text-align: center;
+				margin-bottom: 2em;
+			}
+			.hero h1 {
+				font-size: 2.2em;
+				margin-bottom: 0.3em;
+				color: var(--accent-dark);
+			}
+			.hero .tagline {
+				font-size: 1.05em;
+				color: rgb(var(--gray));
+				line-height: 1.7;
+				max-width: 500px;
+				margin: 0 auto;
+			}
+
+			/* Form */
+			.form-section {
+				background: #f0f4f3;
+				padding: 2em 1.5em;
+				border-radius: 12px;
+				text-align: center;
+				margin-bottom: 2.5em;
+				border-left: 4px solid var(--accent);
+			}
+			.form-section form {
+				display: flex;
+				justify-content: center;
+				gap: 0.5em;
+				flex-wrap: wrap;
+				max-width: 440px;
+				margin: 0 auto;
+			}
+			.form-section input[type="email"] {
+				flex: 1;
+				min-width: 220px;
+				padding: 0.7em 1em;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 6px;
+				font-size: 1em;
+			}
+			.form-section button {
+				padding: 0.7em 1.6em;
+				background: var(--accent);
+				color: #fff;
+				border: none;
+				border-radius: 6px;
+				font-size: 1em;
+				font-weight: 600;
+				cursor: pointer;
+			}
+			.form-section button:hover {
+				background: var(--accent-dark);
+			}
+			.form-note {
+				font-size: 0.82em;
+				color: rgb(var(--gray));
+				margin-top: 0.8em;
+			}
+
+			/* Content blocks */
+			h2 {
+				font-size: 1.3em;
+				margin-top: 2em;
+				margin-bottom: 0.8em;
+				border-left: 4px solid var(--accent);
+				padding-left: 0.5em;
+			}
+			.format-grid {
+				display: grid;
+				gap: 0.8em;
+				margin-top: 0.5em;
+			}
+			.format-block {
+				background: #fff;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 8px;
+				padding: 1em 1.2em;
+			}
+			.format-block h3 {
+				margin: 0 0 0.3em;
+				font-size: 1em;
+				color: var(--accent-dark);
+			}
+			.format-block p {
+				margin: 0;
+				font-size: 0.92em;
+				color: rgb(var(--gray));
+				line-height: 1.6;
+			}
+			.meta-row {
+				display: flex;
+				gap: 1.5em;
+				flex-wrap: wrap;
+				padding: 1em 0;
+				border-top: 1px solid rgb(var(--gray-light));
+				border-bottom: 1px solid rgb(var(--gray-light));
+				margin: 1em 0;
+				font-size: 0.92em;
+			}
+			.meta-row strong {
+				color: var(--accent-dark);
+			}
+			.alt {
+				margin-top: 2em;
+				padding-top: 1.5em;
+				border-top: 1px solid rgb(var(--gray-light));
+				font-size: 0.92em;
+				color: rgb(var(--gray));
+			}
+			.alt a {
+				color: var(--accent);
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="hero">
+				<h1>訂閱 Nephro Decisions</h1>
+				<p class="tagline">
+					每月 25 日一封。新文、查核修訂、台灣健保實務。3 分鐘讀完，不灌水、不賣東西。
+				</p>
+			</section>
+
+			<section class="form-section">
+				<form
+					action="https://buttondown.com/api/emails/embed-subscribe/nephrodecisions"
+					method="post"
+					target="popupwindow"
+				>
+					<input type="email" name="email" placeholder="your@email.com" required />
+					<button type="submit">訂閱</button>
+				</form>
+				<p class="form-note">免費、可隨時取消訂閱。不會寄廣告或轉售 email。</p>
+			</section>
+
+			<h2>每封信會有什麼</h2>
+			<div class="format-grid">
+				<div class="format-block">
+					<h3>1. 本月重點</h3>
+					<p>1-2 句話講這個月最重要的事：新文、查核修訂、或政策變化。</p>
+				</div>
+				<div class="format-block">
+					<h3>2. 新上架 / 查核修訂</h3>
+					<p>條列這個月的新文章與版本更新，附一句話摘要與連結。</p>
+				</div>
+				<div class="format-block">
+					<h3>3. 本月精選</h3>
+					<p>挑一篇深度文章，用 100 字講「為什麼值得讀」。</p>
+				</div>
+				<div class="format-block">
+					<h3>4. 台灣實務觀察</h3>
+					<p>健保公告、TSN 新聞、TFDA 核准變動，附官方來源連結。</p>
+				</div>
+			</div>
+
+			<div class="meta-row">
+				<div><strong>頻率</strong>：每月 25 日</div>
+				<div><strong>篇幅</strong>：400-500 字</div>
+				<div><strong>讀完時間</strong>：3 分鐘</div>
+			</div>
+
+			<h2>適合誰訂閱</h2>
+			<ul>
+				<li>腎臟科醫師、內科醫師、家醫科醫師</li>
+				<li>透析室護理師與照護團隊</li>
+				<li>CKD / 透析 / 腎移植病人與家屬</li>
+				<li>想追蹤台灣腎臟病政策與實務的人</li>
+			</ul>
+
+			<p class="alt">
+				不想綁 email？也可以用 <a href="/rss.xml">RSS</a> 追蹤站上所有新文章。
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
