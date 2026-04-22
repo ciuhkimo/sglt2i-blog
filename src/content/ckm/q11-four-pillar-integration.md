@@ -3,7 +3,7 @@ question_id: "Q11"
 title: "CKM 四柱整合策略（RASi + SGLT2i + Finerenone + GLP-1 RA）"
 category: "整合藥物策略"
 version: "v1.1"
-status: "已查核"
+status: "查核修訂版"
 last_updated: 2026-04-22
 next_review: 2027-04-22
 tags:

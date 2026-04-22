@@ -3,7 +3,7 @@ question_id: "Q12"
 title: "eGFR <20 的 CKM 藥物策略（Advanced CKD）"
 category: "整合藥物策略"
 version: "v1.1"
-status: "已查核"
+status: "查核修訂版"
 last_updated: 2026-04-22
 next_review: 2027-04-22
 tags:

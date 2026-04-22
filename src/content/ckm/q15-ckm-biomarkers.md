@@ -3,7 +3,7 @@ question_id: "Q15"
 title: "CKM Biomarkers 解讀（NT-proBNP、Troponin、UACR、Cystatin C 在 CKD 的陷阱）"
 category: "風險與預後"
 version: "v1.1"
-status: "已查核"
+status: "查核修訂版"
 last_updated: 2026-04-22
 next_review: 2027-04-22
 tags:

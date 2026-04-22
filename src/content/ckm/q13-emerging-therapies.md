@@ -3,7 +3,7 @@ question_id: "Q13"
 title: "CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finerenone 擴展）—查核修訂版"
 category: "整合藥物策略"
 version: "v1.1"
-status: "已查核"
+status: "查核修訂版"
 last_updated: 2026-04-22
 next_review: 2027-04-22
 tags:

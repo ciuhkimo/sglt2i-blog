@@ -3,7 +3,7 @@ question_id: "Q14"
 title: "CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker）— 查核修正版"
 category: "風險與預後"
 version: "v1.1"
-status: "已查核"
+status: "查核修訂版"
 last_updated: 2026-04-22
 next_review: 2027-04-22
 tags:

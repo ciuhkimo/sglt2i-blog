@@ -3,7 +3,7 @@ question_id: "Q04"
 title: "CKD + HF 的容量評估"
 category: "心腎交互"
 version: "v1.1"
-status: "已查核"
+status: "查核修訂版"
 last_updated: 2026-04-22
 next_review: 2027-04-22
 tags:

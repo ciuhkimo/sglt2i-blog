@@ -3,7 +3,7 @@ question_id: "Q10"
 title: "Metabolic Surgery 對 CKD 的影響（轉介、術前評估、腎臟結局、並發症）"
 category: "代謝腎交互"
 version: "v1.1"
-status: "已查核"
+status: "查核修訂版"
 last_updated: 2026-04-22
 next_review: 2027-04-22
 tags:

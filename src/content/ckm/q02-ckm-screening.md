@@ -3,7 +3,7 @@ question_id: "Q02"
 title: "CKM 篩檢與識別"
 category: "定義與識別"
 version: "v1.1"
-status: "已查核"
+status: "查核修訂版"
 last_updated: 2026-04-22
 next_review: 2027-04-22
 tags:

@@ -3,7 +3,7 @@ question_id: "Q06"
 title: "HF 藥物在 CKD 的使用門檻（BB、MRA、ARNI、H-ISDN、SGLT2i）"
 category: "心腎交互"
 version: "v1.1"
-status: "已查核"
+status: "查核修訂版"
 last_updated: 2026-04-22
 next_review: 2027-04-22
 tags:

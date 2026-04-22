@@ -3,7 +3,7 @@ question_id: "Q07"
 title: "急性心腎症候群的腎臟科角色（Ward / ICU / 門診 decompensation）"
 category: "心腎交互"
 version: "v1.1"
-status: "已查核"
+status: "查核修訂版"
 last_updated: 2026-04-22
 next_review: 2027-04-22
 tags:
