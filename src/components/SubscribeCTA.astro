@@ -1,0 +1,85 @@
+---
+// Newsletter subscription CTA block - inserted at bottom of every article
+---
+
+<section class="subscribe-cta no-print">
+	<div class="subscribe-cta-inner">
+		<h3>訂閱 Nephro Decisions</h3>
+		<p>每月 25 日一封。新文、查核修訂、台灣健保實務。3 分鐘讀完。</p>
+		<form
+			action="https://buttondown.com/api/emails/embed-subscribe/nephrodecisions"
+			method="post"
+			target="popupwindow"
+			class="subscribe-cta-form"
+		>
+			<input type="email" name="email" placeholder="your@email.com" required />
+			<button type="submit">訂閱</button>
+		</form>
+		<p class="subscribe-cta-note">也可透過 <a href="/rss.xml">RSS</a> 追蹤</p>
+	</div>
+</section>
+
+<style>
+	.subscribe-cta {
+		margin: 2.5em 0 1em;
+		padding: 1.8em 1.5em;
+		background: #f0f4f3;
+		border-radius: 10px;
+		border-left: 4px solid var(--accent);
+	}
+	.subscribe-cta-inner {
+		max-width: 500px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.subscribe-cta h3 {
+		margin: 0 0 0.3em;
+		font-size: 1.15em;
+		color: var(--accent-dark);
+	}
+	.subscribe-cta > .subscribe-cta-inner > p {
+		margin: 0 0 1em;
+		font-size: 0.9em;
+		color: rgb(var(--gray));
+	}
+	.subscribe-cta-form {
+		display: flex;
+		justify-content: center;
+		gap: 0.4em;
+		flex-wrap: wrap;
+	}
+	.subscribe-cta-form input[type="email"] {
+		flex: 1;
+		min-width: 180px;
+		max-width: 280px;
+		padding: 0.5em 0.9em;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 6px;
+		font-size: 0.9em;
+	}
+	.subscribe-cta-form button {
+		padding: 0.5em 1.2em;
+		background: var(--accent);
+		color: #fff;
+		border: none;
+		border-radius: 6px;
+		font-size: 0.9em;
+		font-weight: 600;
+		cursor: pointer;
+	}
+	.subscribe-cta-form button:hover {
+		background: var(--accent-dark);
+	}
+	.subscribe-cta-note {
+		margin: 0.6em 0 0 !important;
+		font-size: 0.78em !important;
+	}
+	.subscribe-cta-note a {
+		color: var(--accent);
+	}
+	@media print {
+		.no-print {
+			display: none !important;
+		}
+	}
+</style>
