@@ -2,9 +2,9 @@
 question_id: Q20
 title: "特殊族群是否應持續使用 SGLT2i？（elderly / dialysis / transplant / frailty）"
 category: "整合與特殊族群 (Integration)"
-version: "v1.0"
-status: 已定稿
-last_updated: 2026-04-04
+version: "v1.2"
+status: 查核修訂版
+last_updated: 2026-04-28
 next_review: 2026-09-17
 seo_title: "SGLT2i 特殊族群：高齡、透析、移植、衰弱患者"
 description: "高齡、透析、腎移植、衰弱患者能否用 SGLT2i？本文整理各特殊族群的 RCT 證據強度、IgAN 最新指引建議、個別化風險效益評估與實務處方考量。"
@@ -32,8 +32,11 @@ tags:
 | SGLT2i in Frail/Elderly Meta-analysis（Age and Ageing 2024） | 2024 | DAPA-HF、DELIVER、EMPEROR 等，依年齡 / 衰弱分層 | 高齡及衰弱患者中 SGLT2i 療效一致維持；DAPA-HF ≥75 歲族群 primary outcome HR 0.68（95% CI 0.53–0.88）；DELIVER 顯示在不同年齡層（含 ≥75 歲，across the age spectrum）效益一致，預先定義安全終點未見顯著差異〔**PMID 38287703 / DOI 10.1093/ageing/afad254**〕 | A |
 | SGLT2i in Kidney Transplant Recipients（Nature Communications 2024） | 2024 | 糖尿病腎臟移植受者（TriNetX real-world platform；⚠️ 核心族群為 diabetic KTx，暴露定義為移植後前 3 個月內使用） | all-cause mortality aHR 0.32、MACE aHR 0.48、MAKE aHR 0.52〔**PMID 39567483 / DOI 10.1038/s41467-024-54171-8**〕 | B |
 | **Transplant Safety Meta-analysis（F1000Research 2025）** | **2025** | **腎臟移植受者（多研究合併）** | **UTI、genital mycotic infection、urosepsis、allograft rejection 均無顯著增加〔**PMID 41458393 / DOI 10.12688/f1000research.162502.1**〕** | **B** |
+| **SGLT2i in Non-DM KTR（Transplant Int 2026）** | **2026** | **非糖尿病腎臟移植受者（單中心回顧性觀察）** | **SGLT2i 使用後 graft function 穩定化，提示腎保護效應可能不限於糖尿病族群〔PMID 41601587 / DOI 10.3389/ti.2025.15872〕** | **C** |
+| **SGLT2i in Heart Transplant SR/MA（AJCD 2026）** | **2026** | **心臟移植受者（5 項回顧性世代研究，312 SGLT2i vs 1,200 對照）** | **eGFR 無顯著差異（MD 3.96, p=0.22）；BMI 顯著降低（MD -0.90, p=0.02）；SBP 顯著降低（MD -4.69 mmHg, p<0.001）；死亡率趨勢有利但未達顯著（RR 0.64, p=0.26）；UTI 未增加〔PMID 41860728 / DOI 10.1007/s40256-026-00792-x〕** | **B** |
 | SGLT2i in Dialysis/ESKD（Current Hypertension Reports 2024） | 2024 | ESKD 透析患者（narrative review） | 所有 landmark RCT 均排除透析患者；缺乏 landmark randomized outcome evidence（已有 PK 研究、小型 exploratory trial、HD/PD observational data，但不足支持 routine use）〔**PMID 38913113 / DOI 10.1007/s11906-024-01314-3**〕 | C |
 | SGLT2i in Dialysis — State of the Art（Clin Kidney J 2025） | 2025 | 透析患者 | 補充 dialysis PK 與 small exploratory trial 現有資料〔**PMID 41487902 / DOI 10.1093/ckj/sfaf350**〕 | C |
+| **SGLT2i in HF + ESKD Real-World Cohort（Frontiers CVM 2026）** | **2026** | **心衰竭合併 ESKD 患者（含透析；多中心回顧性世代研究）** | **首篇聚焦 HF + ESKD 重疊族群的真實世界觀察性研究，評估 SGLT2i 在此極端族群的臨床效果；為目前極少數探討 SGLT2i 在 ESKD 階段效益的研究之一〔DOI 10.3389/fcvm.2026.1652863〕** | **C** |
 | **KDIGO 2025 IgAN/IgAV Guideline**（Kidney International） | **2025** | IgAN 患者（有進展風險） | **SGLT2i Grade 2B 建議，不限糖尿病狀態**；DAPA-CKD IgAN 亞組（n=270）HR 0.29（95% CI 0.12–0.73）；EMPA-KIDNEY IgAN 亞組方向一致；proteinuria 控制目標 <0.5 g/day（理想 <0.3 g/day）〔**PMID 40975525 / DOI 10.1016/j.kint.2025.04.003**〕 | **A（指南）** |
 
 ### Guideline Recommendations
@@ -69,12 +72,14 @@ tags:
 **4. 腎臟移植受者**
 - **可考慮使用（謹慎）**：Nat Commun 2024 TriNetX real-world study（diabetic KTx）提供初步 reassuring 數據（all-cause mortality aHR 0.32、MACE aHR 0.48）（⚠️ 核心族群為糖尿病移植受者，暴露定義為移植後前 3 個月，不宜直接外推至所有移植後時期）
 - 2025 transplant safety meta-analysis（PMID 41458393）進一步顯示 UTI、genital mycotic infection、urosepsis、allograft rejection 均無顯著增加，為安全性提供更廣族群的支持
-- 適應症：移植後糖尿病（PTDM）或既有 DM + 心血管高危
+- **2026 新增**：Rodríguez-Espinosa et al.（Transplant Int 2026, PMID 41601587）報告非糖尿病 KTR 使用 SGLT2i 後 graft function 穩定化，提示腎保護效應可能**不限於糖尿病移植受者**（⚠️ 單中心回顧性觀察、Letter 格式，證據等級 C）
+- **2026 新增**：Cahuapaza-Gutierrez et al.（AJCD 2026, PMID 41860728）首篇心臟移植 SGLT2i SR/MA（312 vs 1,200），顯示 **BMI 顯著降低（MD -0.90, p=0.02）、SBP 顯著降低（MD -4.69, p<0.001）**；eGFR 與死亡率趨勢有利但未達顯著。UTI 未增加。支持 SGLT2i 在實體器官移植受者的心血管代謝獲益
+- 適應症：移植後糖尿病（PTDM）或既有 DM + 心血管高危；2026 年新資料提示非糖尿病 KTR 亦可能獲益但證據仍弱
 - 注意事項：
   - 免疫抑制劑（CNI）+ SGLT2i 無已知重大藥物交互作用，但需監測腎功能
   - 泌尿生殖道感染風險：多數現有資料顯示未顯著增加，但需個別評估（反覆感染史者謹慎）
   - 圍術期（再移植）前暫停
-- **尚無 RCT，使用屬 off-label（需與患者充分溝通）**
+- **尚無 KTR 專屬 RCT（RENAL LIFECYCLE 進行中），使用屬 off-label（需與患者充分溝通）**
 
 **5. IgA 腎病（IgAN）患者** ⭐ 2025 年新增指引
 - **建議使用（Grade 2B）**：KDIGO 2025 IgAN 指南是首個針對 IgAN 明確推薦 SGLT2i 的主要國際指引
@@ -87,7 +92,7 @@ tags:
 
 ### 不建議做法
 
-- **透析患者（需透析的 ESKD）**：不建議常規使用——腎小管機轉失效，缺乏 RCT 證據；待 RENAL LIFECYCLE 結果
+- **透析患者（需透析的 ESKD）**：不建議常規使用——腎小管機轉失效，缺乏 RCT 證據；待 RENAL LIFECYCLE 結果。**2026 新增**：Frontiers CVM 2026 多中心回顧性世代研究首次聚焦 HF + ESKD 重疊族群，提供初步觀察性數據，但為回顧性設計、有 confounding 風險，**不改變「不建議常規使用」的立場**，仍需 RCT 確認
 - **腹膜透析**：案例系列有限，同樣不建議常規使用
 - **急性排斥期移植腎**：不建議使用（免疫/感染風險高）
 - **近期泌尿道/生殖道感染（< 4 週）的移植受者**：延後啟動
@@ -119,7 +124,7 @@ tags:
 
 ### 已知的不確定性
 
-- **透析患者**：缺乏 landmark randomized outcome evidence（⚠️ 非「完全沒有資料」——已有 PK 研究、小型 exploratory trial 及 observational HD/PD data，但均不足以支持 routine use；非糖尿型機轉在透析族群是否殘存效益仍不確定）；待 RENAL LIFECYCLE（NCT05374291）結果
+- **透析患者**：缺乏 landmark randomized outcome evidence（⚠️ 非「完全沒有資料」——已有 PK 研究、小型 exploratory trial 及 observational HD/PD data，但均不足以支持 routine use；非糖尿型機轉在透析族群是否殘存效益仍不確定）；2026 年 Frontiers CVM 多中心回顧性世代研究新增 HF + ESKD 觀察性數據，但證據等級仍為 C；待 RENAL LIFECYCLE（NCT05374291）結果
 - **腎臟移植受者**：真實世界 observational data 有選擇偏誤，需要 RCT
 - **衰弱評估工具的一致性**：不同試驗衰弱定義不同，難以直接比較
 - **最嚴重衰弱患者**（入住護理機構、認知功能下降）：完全缺乏資料
@@ -140,7 +145,7 @@ tags:
 
 ## Metadata
 - **Certainty Level**: Low-Moderate（高齡衰弱：Moderate；移植：Low；透析：Very Low；**IgAN：Moderate（KDIGO 2025 Grade 2B）**）
-- **Evidence Sources**: 7 篇（LOE A: 2〔Age and Ageing 2024 frailty meta-analysis PMID 38287703、KDIGO 2025 IgAN guideline PMID 40975525〕；LOE B: 3〔Nat Commun 2024 KTx PMID 39567483、F1000Research 2025 transplant safety meta-analysis PMID 41458393、DAPA-CKD IgAN subgroup〕；LOE C: 2〔Curr Hypertens Rep 2024 dialysis review PMID 38913113、Clin Kidney J 2025 PMID 41487902〕）+ official guidelines（KDIGO CKD 2024、KDIGO IgAN 2025、ADA 2026）
+- **Evidence Sources**: 10 篇（LOE A: 2〔Age and Ageing 2024 frailty meta-analysis PMID 38287703、KDIGO 2025 IgAN guideline PMID 40975525〕；LOE B: 4〔Nat Commun 2024 KTx PMID 39567483、F1000Research 2025 transplant safety meta-analysis PMID 41458393、AJCD 2026 heart transplant SR/MA PMID 41860728、DAPA-CKD IgAN subgroup〕；LOE C: 4〔Curr Hypertens Rep 2024 dialysis review PMID 38913113、Clin Kidney J 2025 PMID 41487902、Transplant Int 2026 non-DM KTR PMID 41601587、Frontiers CVM 2026 HF+ESKD real-world〕）+ official guidelines（KDIGO CKD 2024、KDIGO IgAN 2025、ADA 2026）
 - **Guideline Concordance**: 部分分歧（高齡：一致；移植/透析：指南未明確建議；**IgAN：KDIGO 2025 新增 Grade 2B 建議**）
 - **Next Review Date**: 2026-09-22（待 RENAL LIFECYCLE；IgAN 專屬 SGLT2i RCT）
 - **Clinical Relevance**: ★★★★★
