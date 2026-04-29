@@ -2,10 +2,10 @@
 question_id: "Q06"
 title: "HF 藥物在 CKD 的使用門檻（BB、MRA、ARNI、H-ISDN、SGLT2i）"
 category: "心腎交互"
-version: "v1.1"
+version: "v1.2"
 status: "查核修訂版"
-last_updated: 2026-04-22
-next_review: 2027-04-22
+last_updated: 2026-04-29
+next_review: 2027-04-29
 tags:
   - CKM-syndrome
   - cardiorenal-metabolic
@@ -16,12 +16,10 @@ tags:
   - finerenone
   - ARNI
   - hyperkalemia
-description: "Q06 HF 藥物在 CKD 的使用門檻（BB、MRA、ARNI、H-ISDN、SGLT2i） -- CKM Syndrome 心腎交互臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "CKD 3b-5 與透析病人合併 HF 時，beta-blocker、MRA、ARNI、H-ISDN、SGLT2i 的起始門檻、停藥條件與 eGFR 再下降後的續用思路。"
 quick_answer: ""
 seo_title: "Q06 HF 藥物在 CKD 的使用門檻（BB、MRA、ARNI、H-ISDN、SGLT2i） | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# HF 藥物在 CKD 的使用門檻（查核修訂版）
 
 **臨床問題**
 
@@ -414,6 +412,41 @@ DIALIZE-Outcomes 沒有證明 SZC 在 maintenance hemodialysis 能改善 arrhyth
 4. **在 HFrEF 把 finerenone 直接寫成 steroidal MRA 的同位替代**
 5. **在 maintenance dialysis routine 新起始 spironolactone 期待 hard outcome benefit**
 6. **把 potassium binder 描述成已證實可改善長期 CV hard outcome 的 MRA-enabler**
+
+---
+
+## KDIGO 2026 Controversies Conference 補充（v1.2 新增）
+
+2026 年 4 月 *JACC: Heart Failure* 發表 **KDIGO HF + CKD Controversies Conference** 結論報告（Lam et al., 2024 Amsterdam 共識會議；PMID 41793402）。此為跨領域共識文件，將直接影響 2026–2027 KDIGO 後續正式指南方向，對本題提供以下補強：
+
+### 1) HF + CKD 應視為一體管理
+- 心、腎共享風險因子與病理機轉
+- 不應再用「腎臟科 vs 心臟科分立」的舊框架
+- GDMT 應同步啟動而非依次轉介
+
+### 2) Biomarker 詮釋需 CKD-specific 調整
+- **NT-proBNP** 在 CKD 受 renal clearance 影響 → 建議 **CKD-specific HF diagnostic thresholds**
+- **Troponin** 同樣需重新校準解讀
+- 影響 **HF 診斷與分期**，但 **不影響** GDMT（含 finerenone、SGLT2i、ARNI）的啟動門檻
+
+### 3) 啟動 GDMT 後的 small eGFR dip
+- 多為 hemodynamic-mediated → **不需例行停藥**
+- 適用於 RASi、ARNI、SGLT2i、finerenone、GLP-1 RA 全光譜
+- **強化本題既有立場**：「Trial gate ≠ bedside stop line」
+
+### 4) Advanced CKD（G4–G5、dialysis）
+- RCT 證據仍極有限，**所有藥物的 advanced CKD 啟動門檻不變**
+- finerenone 在 eGFR <25 仍不建議起始（與 USPI/SmPC、本題 v1.1 一致）
+- dialysis GDMT 仍需個別化，無共識可 routine 起始
+
+### 5) 試驗設計建議
+- 強調 **kidney function trajectory、QoL、symptom burden** 應作為次要終點
+- 影響未來 HF/CKD 試驗設計（如 FIND-CKD、FINALITY-HF 後續）
+
+> **本版立場**：KDIGO 2026 共識與本題 v1.1 的核心結論 **完全一致**。新增本段為強化權威背書，**不改變既有用藥決策框架**，但建議引用本文件回應臨床上「該不該因為 small dip 停藥」的疑問。
+
+**新增參考**：
+- Lam CSP, et al. *JACC Heart Fail*. 2026;14(4):102943. PMID: 41793402. DOI: [10.1016/j.jchf.2026.102943](https://doi.org/10.1016/j.jchf.2026.102943)
 
 ---
 

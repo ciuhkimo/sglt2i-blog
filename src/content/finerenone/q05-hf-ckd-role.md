@@ -2,11 +2,11 @@
 question_id: "Q05"
 title: "Finerenone 在 Heart Failure 合併 CKD 的角色"
 category: "適應症定位"
-version: "v1.1"
+version: "v1.2"
 status: "查核修訂版"
-last_updated: 2026-04-19
-next_review: 2027-04-19
-tags: [finerenone, nonsteroidal-MRA, heart-failure, HFpEF, HFmrEF, HFrEF, CKD, decision-note, FINEARTS-HF]
+last_updated: 2026-04-29
+next_review: 2027-04-29
+tags: [finerenone, nonsteroidal-MRA, heart-failure, HFpEF, HFmrEF, HFrEF, CKD, decision-note, FINEARTS-HF, KDIGO-2026]
 description: "Finerenone 在 HFrEF、HFmrEF/HFpEF 與 CKD 交會情境的 MRA 定位，包含 FINEARTS-HF 核心數據、regulatory status、dual-MRA 禁忌與 FINE-HEART 正確詮釋。"
 quick_answer: "HFrEF 仍以 spironolactone/eplerenone 為主；HFmrEF/HFpEF（LVEF ≥40%）finerenone 是目前最直接有專屬 phase 3 outcome data 的 MRA 選項（FINEARTS-HF：RR 0.84），且已獲美國/歐盟/台灣 HF 標示。Routine dual-MRA 不建議。FINEARTS-HF 的 CV death 單獨未達顯著。"
 seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
@@ -110,6 +110,22 @@ seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
 
 ---
 
+## KDIGO 2026 Controversies Conference 補充（v1.2 新增）
+
+2026 年 4 月 *JACC: Heart Failure* 發表的 **KDIGO HF + CKD Controversies Conference** 結論報告（Lam et al., 2024 Amsterdam 共識會議；PMID 41793402），是目前最權威的跨領域共識文件，將直接影響 2026–2027 KDIGO 後續正式指南之內容方向。對 finerenone 在 HF + CKD 的角色，提供以下補強：
+
+| 議題 | KDIGO 共識結論 | 對 finerenone 的意義 |
+|---|---|---|
+| HF + CKD 雙向關係 | 共享風險因子與病理機轉，應同步管理 | 強化 finerenone 同時針對心、腎終點的定位 |
+| 啟動 GDMT 後的 small eGFR dip | 多為 hemodynamic-mediated，**不需例行停藥** | 與 Q08 監測共識一致；不應因 small dip 中止 finerenone |
+| Biomarker 詮釋 | NT-proBNP 在 CKD 受 renal clearance 影響，建議 CKD-specific thresholds | 不影響 finerenone 啟動，但影響 HF 診斷與分期 |
+| Advanced CKD（G4–G5、dialysis）| 證據仍極有限 | finerenone 在 eGFR <25 仍不建議起始（與現行 USPI/SmPC 一致） |
+| 試驗設計建議 | kidney function trajectory、QoL、symptom burden 應為次要終點 | 影響未來 finerenone HF 試驗設計（如 FINALITY-HF 後續分析） |
+
+> **本版立場**：KDIGO 2026 共識與 Q05 v1.1 的核心結論 **完全一致**——finerenone 不取代 HFrEF 標準 sMRA、不應因 small eGFR dip 中止、advanced CKD 仍有證據缺口。新增本段為強化權威背書，**不改變既有臨床決策框架**。
+
+---
+
 ## Uncertainty
 
 ### 高度不確定
@@ -139,6 +155,7 @@ seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
   6. FDA Kerendia Approval Letter. 2025-07-11.
   7. TFDA Kerendia 仿單.
   8. NCT06033950 (FINALITY-HF).
+  9. Lam CSP, et al. Kidney Disease and Heart Failure: Recent Advances and Current Challenges: Conclusions From a KDIGO Controversies Conference. *JACC Heart Fail*. 2026;14(4):102943. PMID: 41793402.
 
 ---
 
