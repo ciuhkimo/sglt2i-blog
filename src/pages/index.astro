@@ -39,7 +39,7 @@ const groups = [
 				unit: '篇',
 				href: '/glp1ra/',
 				color: '#fef5e7',
-				accent: '#d4913a',
+				accent: '#8a5c10',
 				icon: '💉',
 			},
 			{
@@ -49,7 +49,7 @@ const groups = [
 				unit: '篇',
 				href: '/finerenone/',
 				color: '#eef0f7',
-				accent: '#5b6abf',
+				accent: '#4a5699',
 				icon: '🛡️',
 			},
 		],
@@ -65,7 +65,7 @@ const groups = [
 				unit: '篇',
 				href: '/ckm/',
 				color: '#f0e8f5',
-				accent: '#7a5ea7',
+				accent: '#634a8a',
 				icon: '\u{1FAC0}',
 			},
 			{
@@ -75,7 +75,7 @@ const groups = [
 				unit: '篇',
 				href: '/sexual-health/',
 				color: '#fce4ec',
-				accent: '#c0627e',
+				accent: '#9b4060',
 				icon: '❤️‍🩹',
 			},
 			{
@@ -85,7 +85,7 @@ const groups = [
 				unit: '篇',
 				href: '/blog/',
 				color: '#f3f0f5',
-				accent: '#7a5ea7',
+				accent: '#634a8a',
 				icon: '📋',
 			},
 		],
@@ -111,7 +111,7 @@ const groups = [
 				unit: '篇',
 				href: '/dialysis/',
 				color: '#f5f3ef',
-				accent: '#8b7355',
+				accent: '#6e5a3f',
 				icon: '🏥',
 			},
 		],
@@ -123,6 +123,21 @@ const groups = [
 <html lang="zh-Hant">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<script type="application/ld+json" set:html={JSON.stringify({
+			'@context': 'https://schema.org',
+			'@type': 'WebSite',
+			name: 'Nephro Decisions',
+			url: 'https://nephrodecisions.com/',
+			description: '腎臟科臨床決策知識庫——從實證到實務，涵蓋藥物決策、透析照護與病人衛教。',
+			inLanguage: 'zh-Hant',
+			publisher: {
+				'@type': 'Person',
+				name: '小鎮醫生',
+				jobTitle: '腎臟科專科醫師',
+				affiliation: { '@type': 'Organization', name: '台灣大學醫學系' },
+				url: 'https://nephrodecisions.com/about/',
+			},
+		})} />
 		<style>
 			main {
 				width: 880px;
@@ -329,7 +344,7 @@ const groups = [
 	</head>
 	<body>
 		<Header />
-		<main>
+		<main id="main-content">
 			<section class="hero">
 				<h1>Nephro Decisions</h1>
 				<p class="tagline">腎臟科臨床決策知識庫——從實證到實務，涵蓋藥物決策、透析照護與病人衛教。由腎臟科專科醫師主導，AI 輔助研究與多輪交替審稿。</p>
@@ -370,7 +385,8 @@ const groups = [
 					target="popupwindow"
 					class="subscribe-form"
 				>
-					<input type="email" name="email" placeholder="your@email.com" required />
+					<label for="home-subscribe-email" class="sr-only">電子郵件地址</label>
+					<input type="email" name="email" id="home-subscribe-email" placeholder="your@email.com" required aria-label="電子郵件地址" />
 					<button type="submit">訂閱</button>
 				</form>
 				<p class="subscribe-note">也可透過 <a href="/rss.xml">RSS</a> 追蹤</p>
@@ -378,7 +394,7 @@ const groups = [
 
 			<section class="about-preview">
 				<p class="author">小鎮醫生｜腎臟科專科醫師｜內科專科醫師｜台灣大學醫學系</p>
-				<p>每篇筆記經過臨床問題定義、多平台文獻研究、AI 與人工交替審稿的九步驟流程產出。內容以實證為基礎，結合台灣臨床實務。</p>
+				<p>每篇筆記經過臨床問題定義、多平台文獻研究、AI 與人工交替審稿的七步驟流程產出。內容以實證為基礎，結合台灣臨床實務。</p>
 				<a href="/about/">了解更多 →</a>
 			</section>
 		</main>
