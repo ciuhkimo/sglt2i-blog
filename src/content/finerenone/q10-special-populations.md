@@ -2,13 +2,13 @@
 question_id: "Q10"
 title: "Finerenone 於特殊族群的證據邊界與處方指引"
 category: "特殊族群"
-version: "v1.1"
+version: "v1.2"
 status: "查核修訂版"
-last_updated: 2026-04-19
-next_review: 2027-04-19
-tags: [finerenone, elderly, frailty, kidney-transplant, dialysis, hepatic-impairment, pregnancy, decision-note]
-description: "Finerenone 在老年（含 ≥75 歲）、frailty、腎臟移植受贈者、dialysis、肝功能不全、懷孕哺乳及兒童等特殊族群的證據邊界，區分 RCT subgroup、post-hoc 與純外推。"
-quick_answer: "老年（含 ≥75 歲）有 phase 3 subgroup evidence 支持 CV 獲益一致，不需因年齡降劑量。Frailty 為 post-hoc 分析，非 dedicated RCT。腎臟移植受贈者為 off-label（pivotal trials 排除）。Dialysis 無直接 trial。Child-Pugh C / pregnancy / pediatric 避免使用。"
+last_updated: 2026-04-29
+next_review: 2027-04-29
+tags: [finerenone, elderly, frailty, kidney-transplant, dialysis, hepatic-impairment, pregnancy, IgA-nephropathy, non-diabetic-CKD, decision-note]
+description: "Finerenone 在老年（含 ≥75 歲）、frailty、腎臟移植受贈者、dialysis、肝功能不全、懷孕哺乳、兒童及非糖尿病 CKD（含 IgAN）等特殊族群的證據邊界，區分 RCT subgroup、post-hoc 與純外推。"
+quick_answer: "老年（含 ≥75 歲）有 phase 3 subgroup evidence 支持 CV 獲益一致，不需因年齡降劑量。Frailty 為 post-hoc 分析，非 dedicated RCT。腎臟移植受贈者為 off-label（pivotal trials 排除）。Dialysis 無直接 trial。Child-Pugh C / pregnancy / pediatric 避免使用。非糖尿病 CKD（含 IgAN）目前僅有小型 PSM 觀察性訊號，正式答案應等 FIND-CKD RCT。"
 seo_title: "Finerenone 特殊族群｜老年、移植、透析、懷孕處方指引"
 ---
 
@@ -24,6 +24,7 @@ seo_title: "Finerenone 特殊族群｜老年、移植、透析、懷孕處方指
 | Pregnancy / Lactation | 主要依非臨床毒理與仿單 | label-based |
 | Pediatric | 安全性/有效性未建立 | 無直接證據 |
 | T1D-CKD | FINE-ONE 已顯示 UACR surrogate benefit；尚非 label expansion | 新興 / 間接 |
+| 非糖尿病 CKD / IgAN | 僅有小型單中心 PSM observational signal；FIND-CKD RCT 為主要 anchor（待 fulltext） | **很低（hypothesis-generating only）** |
 
 ---
 
@@ -76,6 +77,44 @@ FIDELITY post-hoc analysis 以 Rockwood frailty index 計算。效果不因 frai
 
 FINE-ONE 2026 顯示 UACR surrogate benefit，但目前仍非既有 CKD/T2D indication 的等價延伸。
 
+### 7) 非糖尿病 CKD / IgA Nephropathy（v1.2 新增）
+
+#### 證據現況
+
+| 來源 | 性質 | 說明 |
+|---|---|---|
+| **FIND-CKD（NCT05047263）** | Phase 3 RCT in non-diabetic CKD | **唯一可作為臨床決策 anchor 的證據**；目前僅 topline announce，待 fulltext（見 Q06 #07）|
+| **Zhang W et al. 2026 (PMID 42002725)** | 中國浙江單中心、回溯性 PSM cohort | N=28 vs 28（PSM 後）；12 月 ΔUP24 −393 vs +235 mg；Δ eGFR +3.4 vs −6.0 |
+| **個別 case series / mechanistic 推論** | — | 不應作為臨床決策依據 |
+
+#### Zhang 2026 的方法學限制（保守解讀）
+
+PSM observational study 在「比較不同治療效果」這類問題上**操作空間很大**，需特別注意：
+
+1. **協變數選擇敏感性**：PSM 的結果高度依賴納入哪些 covariates；本研究未公開完整 PSM diagnostics
+2. **Confounding by indication**：開立 finerenone 的決策本身可能與「醫師認為病人較會反應」有關，這類 selection 無法被 PSM 完全消除
+3. **Residual confounding**：如疾病活動性、組織學分級、SGLT2i 共用比例、依從性等難以量化的因子
+4. **Sample size**：PSM 後 28 vs 28 → 統計力低，CI 寬，p 值容易受極端值影響
+5. **Surrogate endpoint**：proteinuria/eGFR 12 月變化，非 hard outcome（GFR slope ≥3 yr 才較可靠）
+6. **單中心 + 單一族群**：generalizability 受限
+7. **無法 blind**：medication-naive group 與 active group 行為差異可能影響其它 confounders
+
+→ **GRADE certainty: Low**；應視為 **hypothesis-generating signal**，不作為臨床決策主要依據。
+
+#### 台灣實務脈絡
+
+- **健保現行給付：finerenone 僅限 T2D + DKD**；用於 IgAN / 其它非糖 CKD 屬 **off-label + 自費**
+- 真要使用須符合：shared decision-making、病歷紀錄理由、患者承擔費用、密切監測 K⁺ 與 eGFR
+- 詳見 [Q11 — 台灣健保與自費考量](/finerenone/q11-taiwan-nhi-coverage/)
+
+#### 暫時的實務立場
+
+| 情境 | 建議 |
+|---|---|
+| 非糖尿病 CKD / IgAN 想用 finerenone | **目前不建議作為 routine option**；應優先 RASi + SGLT2i 標準路徑 |
+| 病人/同事問「Zhang 2026 不是有效嗎？」 | 說明這是 N=56 PSM cohort，不能取代 RCT；正式答案要等 FIND-CKD fulltext |
+| 想參考使用 | 視為 off-label individualized decision，不是 standard of care |
+
 ---
 
 ## Clinical Decision
@@ -110,6 +149,7 @@ FINE-ONE 2026 顯示 UACR surrogate benefit，但目前仍非既有 CKD/T2D indi
 | Pregnancy | 避免 |
 | Lactation | 不建議哺乳 |
 | Pediatric | 不適用 |
+| 非糖尿病 CKD / IgAN routine 使用 | 目前不建議；等 FIND-CKD RCT fulltext |
 
 ---
 
@@ -120,6 +160,7 @@ FINE-ONE 2026 顯示 UACR surrogate benefit，但目前仍非既有 CKD/T2D indi
 - KTR 的 graft survival、rejection、MACE、death 等 hard outcomes 幾乎空白
 - Finerenone 與 tacrolimus / cyclosporine 的直接 PK interaction 缺正式研究
 - Dialysis 族群缺乏直接 outcome trial
+- **非糖尿病 CKD / IgAN 之 hard outcome 效益**：FIND-CKD topline 已 announce 但未 fulltext；Zhang 2026 PSM cohort 為 hypothesis-generating only
 
 ### 中度不確定
 
@@ -145,6 +186,7 @@ FINE-ONE 2026 顯示 UACR surrogate benefit，但目前仍非既有 CKD/T2D indi
   6. Kahvecioglu S, et al. J Clin Med. 2025. PMID: 41375598.
   7. NCT06059664 (EFFEKTOR). NCT07356388.
   8. Heerspink HJL, et al. N Engl J Med. 2026. PMID: 41780000.
+  9. Zhang W, et al. Finerenone in IgA nephropathy: real-world 12-month propensity-matched cohort. *Ren Fail*. 2026;48(1):2644719. PMID: 42002725.
 
 ---
 
