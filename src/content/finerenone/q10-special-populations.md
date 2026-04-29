@@ -89,17 +89,39 @@ FINE-ONE 2026 顯示 UACR surrogate benefit，但目前仍非既有 CKD/T2D indi
 
 #### Zhang 2026 的方法學限制（保守解讀）
 
-PSM observational study 在「比較不同治療效果」這類問題上**操作空間很大**，需特別注意：
+PSM observational study 在「比較不同治療效果」這類問題上**操作空間很大**，但 PSM 並非原罪。判讀 PSM 研究可信度，主要看四件事：
 
-1. **協變數選擇敏感性**：PSM 的結果高度依賴納入哪些 covariates；本研究未公開完整 PSM diagnostics
-2. **Confounding by indication**：開立 finerenone 的決策本身可能與「醫師認為病人較會反應」有關，這類 selection 無法被 PSM 完全消除
-3. **Residual confounding**：如疾病活動性、組織學分級、SGLT2i 共用比例、依從性等難以量化的因子
-4. **Sample size**：PSM 後 28 vs 28 → 統計力低，CI 寬，p 值容易受極端值影響
-5. **Surrogate endpoint**：proteinuria/eGFR 12 月變化，非 hard outcome（GFR slope ≥3 yr 才較可靠）
-6. **單中心 + 單一族群**：generalizability 受限
-7. **無法 blind**：medication-naive group 與 active group 行為差異可能影響其它 confounders
+| 評估項目 | 一般可信標準 | Zhang 2026 表現 |
+|---|---|---|
+| **協變數清單透明度** | 完整公開納入/排除的 covariates，理由可審視 | abstract / fulltext 未公開完整 PSM diagnostics |
+| **PSM 後 balance 達成** | standardized mean difference (SMD) 各變項 <0.1 | 未報告 SMD 表格，無從驗證 balance 品質 |
+| **Sensitivity analysis** | E-value、negative control outcome、tipping-point analysis | 未見 sensitivity analysis |
+| **Sample size** | 一般共識每組 >100；越小越易受極端值與 regression-to-mean 影響 | **PSM 後 28 vs 28** → 統計力低、CI 寬、單一極端個案即可翻轉結論 |
 
-→ **GRADE certainty: Low**；應視為 **hypothesis-generating signal**，不作為臨床決策主要依據。
+**→ Zhang 2026 在這四點上全都不太理想，因此可信度受限。**
+
+#### 其它需注意的 bias 來源
+
+1. **Confounding by indication**：開立 finerenone 的決策本身可能與「醫師認為病人較會反應」有關，PSM 無法完全消除此 selection
+2. **Residual confounding**：疾病活動性、組織學分級、SGLT2i 共用比例、依從性等難以量化的因子未必被納入 PSM
+3. **Surrogate endpoint**：proteinuria 與 12 月 eGFR 變化非 hard outcome（要看 long-term GFR slope ≥3 年才較可靠）
+4. **單中心 + 單一族群**：generalizability 受限
+5. **無法 blind**：active 組與 conventional 組的醫病行為（追蹤頻率、共用藥物調整）差異可能影響其它 confounders
+
+#### Effect size 是否合理？
+
+Zhang 2026 報告 12 月 ΔeGFR +3.4 vs −6.0 mL/min（差距 **~9.4 mL/min/yr**）。作為對照：
+
+| 試驗 | 藥物 | N | eGFR slope difference / yr |
+|---|---|---|---|
+| DAPA-CKD | dapagliflozin | 4,304 | ~1.7 |
+| EMPA-KIDNEY | empagliflozin | 6,609 | ~1.4 |
+| FIDELIO-DKD | finerenone | 5,674 | ~0.5 |
+| **Zhang 2026** | **finerenone** | **28/組（PSM）** | **~9.4** |
+
+當一個小樣本觀察性研究的 effect size **比同類藥物的大型 RCT 大 5 倍以上**，通常不是「真的特別有效」，而是 selection / measurement / regression-to-the-mean 的訊號。
+
+**→ GRADE certainty: Low**；應視為 **hypothesis-generating signal**，不作為臨床決策主要依據。
 
 #### 台灣實務脈絡
 
