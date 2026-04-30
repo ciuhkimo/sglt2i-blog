@@ -12,7 +12,8 @@
 			target="popupwindow"
 			class="subscribe-cta-form"
 		>
-			<input type="email" name="email" placeholder="your@email.com" required />
+			<label for="subscribe-cta-email" class="sr-only">電子郵件地址</label>
+			<input type="email" name="email" id="subscribe-cta-email" placeholder="your@email.com" required aria-label="電子郵件地址" />
 			<button type="submit">訂閱</button>
 		</form>
 		<p class="subscribe-cta-note">也可透過 <a href="/rss.xml">RSS</a> 追蹤</p>

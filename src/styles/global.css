@@ -9,7 +9,7 @@
 	--accent-dark: #0f4a3e;
 	--accent-light: #e8f4f0;
 	--black: 15, 18, 25;
-	--gray: 100, 116, 130;
+	--gray: 82, 95, 108;
 	--gray-light: 234, 238, 242;
 	--gray-dark: 32, 40, 48;
 	--gray-gradient: rgba(var(--gray-light), 50%), #fff;
@@ -175,6 +175,24 @@ hr {
 		padding: 1em;
 		font-size: 0.85em;
 	}
+}
+
+/* Accessibility */
+*:focus-visible {
+	outline: 3px solid var(--accent);
+	outline-offset: 2px;
+	border-radius: 2px;
+}
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
 }
 
 /* Print styles */

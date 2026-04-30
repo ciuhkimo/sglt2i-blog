@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import SubscribeCTA from '../components/SubscribeCTA.astro';
+import ReadAloudButton from '../components/ReadAloudButton.astro';
 
 type Props = CollectionEntry<'patient'>['data'];
 
@@ -34,25 +35,30 @@ const noteSlugMap: Record<string, string> = {
 };
 const noteSlug = source_note ? (noteSlugMap[source_note] || source_note.toLowerCase()) : '';
 
+const authorPerson = {
+	'@type': 'Person',
+	name: '小鎮醫生',
+	jobTitle: '腎臟科專科醫師',
+	affiliation: {
+		'@type': 'Organization',
+		name: '台灣大學醫學系',
+	},
+	url: 'https://nephrodecisions.com/about/',
+};
+
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',
 	'@type': ['MedicalWebPage', 'Article'],
+	headline: title,
 	name: title,
 	datePublished: last_updated.toISOString(),
 	dateModified: last_updated.toISOString(),
-	audience: {
-		'@type': 'PeopleAudience',
+	author: authorPerson,
+	reviewedBy: authorPerson,
+	lastReviewed: last_updated.toISOString().split('T')[0],
+	medicalAudience: {
+		'@type': 'MedicalAudience',
 		audienceType: 'Patient',
-	},
-	author: {
-		'@type': 'Person',
-		name: '小鎮醫生',
-		jobTitle: '腎臟科專科醫師',
-		affiliation: {
-			'@type': 'Organization',
-			name: '台灣大學醫學系',
-		},
-		url: 'https://nephrodecisions.com/about/',
 	},
 	about: {
 		'@type': 'MedicalCondition',
@@ -176,7 +182,7 @@ const breadcrumbLd = JSON.stringify({
 
 	<body>
 		<Header />
-		<main>
+		<main id="main-content">
 			<nav class="breadcrumb">
 				<a href="/">首頁</a> &rsaquo;
 				<a href="/patient/">給病人與家屬</a> &rsaquo;
@@ -190,9 +196,10 @@ const breadcrumbLd = JSON.stringify({
 					</div>
 				</div>
 				<div class="callout">
-					這篇文章幫助您了解醫師處方的藥物。具體用藥請遵循您的主治醫師指示。
+					本文提供腎臟病照護的衛教整理，不能取代個別醫囑。飲食、水分、運動與藥物調整，請依您的腎臟科醫療團隊建議。
 				</div>
 				<div class="print-btn-wrapper">
+					<ReadAloudButton />
 					<button class="print-btn" onclick="window.print()">列印 / 存 PDF</button>
 				</div>
 				<slot />
@@ -210,7 +217,8 @@ const breadcrumbLd = JSON.stringify({
 					</div>
 				)}
 				<div class="print-footer">
-					<p>Nephro Decisions｜nephrodecisions.com｜由腎臟科專科醫師主導，AI 輔助研究與多輪交替審稿。本文不構成醫療建議。</p>
+					<p>Nephro Decisions｜https://nephrodecisions.com{Astro.url.pathname}｜由腎臟科專科醫師主導，AI 輔助研究與多輪交替審稿。本文不構成醫療建議。</p>
+					<p class="print-date">列印日期由瀏覽器產生｜文章更新日期：{last_updated.toISOString().split('T')[0]}</p>
 				</div>
 			</article>
 		</main>

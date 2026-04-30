@@ -2,35 +2,36 @@
 import { SITE_TITLE } from '../consts';
 ---
 
+<a href="#main-content" class="skip-link">跳至主要內容</a>
 <header>
-	<nav>
+	<nav aria-label="主導覽列">
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<a href="/" class="nav-link">首頁</a>
 
 			<div class="dropdown">
-				<span class="nav-link dropdown-trigger">藥物決策 ▾</span>
-				<div class="dropdown-menu">
-					<a href="/sglt2i/">SGLT2i</a>
-					<a href="/glp1ra/">GLP-1 RA</a>
-					<a href="/finerenone/">Finerenone</a>
+				<button class="nav-link dropdown-trigger" type="button" aria-expanded="false" aria-haspopup="true">藥物決策 ▾</button>
+				<div class="dropdown-menu" role="menu">
+					<a href="/sglt2i/" role="menuitem">SGLT2i</a>
+					<a href="/glp1ra/" role="menuitem">GLP-1 RA</a>
+					<a href="/finerenone/" role="menuitem">Finerenone</a>
 				</div>
 			</div>
 
 			<div class="dropdown">
-				<span class="nav-link dropdown-trigger">臨床專區 ▾</span>
-				<div class="dropdown-menu">
-					<a href="/ckm/">CKM Syndrome</a>
-					<a href="/sexual-health/">腎友與性</a>
-					<a href="/blog/">臨床專題</a>
+				<button class="nav-link dropdown-trigger" type="button" aria-expanded="false" aria-haspopup="true">臨床專區 ▾</button>
+				<div class="dropdown-menu" role="menu">
+					<a href="/ckm/" role="menuitem">CKM Syndrome</a>
+					<a href="/sexual-health/" role="menuitem">腎友與性</a>
+					<a href="/blog/" role="menuitem">臨床專題</a>
 				</div>
 			</div>
 
 			<div class="dropdown">
-				<span class="nav-link dropdown-trigger">衛教資源 ▾</span>
-				<div class="dropdown-menu">
-					<a href="/patient/">給病人與家屬</a>
-					<a href="/dialysis/">透析衛教</a>
+				<button class="nav-link dropdown-trigger" type="button" aria-expanded="false" aria-haspopup="true">衛教資源 ▾</button>
+				<div class="dropdown-menu" role="menu">
+					<a href="/patient/" role="menuitem">給病人與家屬</a>
+					<a href="/dialysis/" role="menuitem">透析衛教</a>
 				</div>
 			</div>
 
@@ -39,6 +40,22 @@ import { SITE_TITLE } from '../consts';
 	</nav>
 </header>
 <style>
+	.skip-link {
+		position: absolute;
+		top: -100%;
+		left: 1em;
+		z-index: 999;
+		padding: 0.6em 1.2em;
+		background: var(--accent);
+		color: #fff;
+		border-radius: 0 0 6px 6px;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 0.9em;
+	}
+	.skip-link:focus {
+		top: 0;
+	}
 	header {
 		margin: 0;
 		padding: 0 1em;
@@ -83,6 +100,9 @@ import { SITE_TITLE } from '../consts';
 	}
 	.dropdown-trigger {
 		user-select: none;
+		background: none;
+		border: none;
+		font-family: inherit;
 	}
 	.dropdown-menu {
 		display: none;
@@ -96,7 +116,8 @@ import { SITE_TITLE } from '../consts';
 		z-index: 100;
 		padding: 0.3em 0;
 	}
-	.dropdown:hover .dropdown-menu {
+	.dropdown:hover .dropdown-menu,
+	.dropdown-menu.open {
 		display: block;
 	}
 	.dropdown-menu a {
@@ -110,6 +131,12 @@ import { SITE_TITLE } from '../consts';
 	.dropdown-menu a:hover {
 		background: rgba(255, 255, 255, 0.1);
 		color: #fff;
+	}
+
+	.dropdown-trigger:focus-visible {
+		outline: 3px solid #fff;
+		outline-offset: -3px;
+		border-radius: 2px;
 	}
 
 	@media (max-width: 720px) {
@@ -126,3 +153,58 @@ import { SITE_TITLE } from '../consts';
 		}
 	}
 </style>
+
+<script>
+	// Dropdown keyboard accessibility
+	document.querySelectorAll('.dropdown-trigger').forEach((trigger) => {
+		const menu = trigger.nextElementSibling as HTMLElement | null;
+		if (!menu) return;
+		const items = menu.querySelectorAll<HTMLAnchorElement>('a[role="menuitem"]');
+
+		const open = () => {
+			menu.classList.add('open');
+			trigger.setAttribute('aria-expanded', 'true');
+		};
+		const close = () => {
+			menu.classList.remove('open');
+			trigger.setAttribute('aria-expanded', 'false');
+		};
+
+		trigger.addEventListener('click', () => {
+			const isOpen = trigger.getAttribute('aria-expanded') === 'true';
+			if (isOpen) { close(); }
+			else { open(); items[0]?.focus(); }
+		});
+
+		trigger.addEventListener('keydown', (e: Event) => {
+			const ke = e as KeyboardEvent;
+			if (ke.key === 'ArrowDown') {
+				ke.preventDefault(); open(); items[0]?.focus();
+			} else if (ke.key === 'Escape') {
+				close(); (trigger as HTMLElement).focus();
+			}
+		});
+
+		menu.addEventListener('keydown', (e: Event) => {
+			const ke = e as KeyboardEvent;
+			const current = Array.from(items).indexOf(document.activeElement as HTMLAnchorElement);
+			if (ke.key === 'ArrowDown') {
+				ke.preventDefault();
+				if (current < items.length - 1) items[current + 1].focus();
+			} else if (ke.key === 'ArrowUp') {
+				ke.preventDefault();
+				if (current > 0) items[current - 1].focus();
+				else { close(); (trigger as HTMLElement).focus(); }
+			} else if (ke.key === 'Escape') {
+				close(); (trigger as HTMLElement).focus();
+			}
+		});
+
+		// Close when clicking outside
+		document.addEventListener('click', (e: Event) => {
+			if (!(trigger as HTMLElement).parentElement?.contains(e.target as Node)) {
+				close();
+			}
+		});
+	});
+</script>

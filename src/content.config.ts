@@ -41,6 +41,8 @@ const dialysis = defineCollection({
 		sources: z.array(z.string()),
 		last_updated: z.coerce.date(),
 		tags: z.array(z.string()),
+		description: z.string().optional(),
+		seo_title: z.string().optional(),
 	}),
 });
 

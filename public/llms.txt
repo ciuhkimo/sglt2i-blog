@@ -1,0 +1,38 @@
+# Nephro Decisions
+
+> 台灣腎臟科臨床決策知識庫。由腎臟科專科醫師主導，AI 輔助文獻研究與多輪交替審稿。不接受藥廠贊助、無廣告、無 affiliate。
+
+## Core Clinical Decision Notes
+
+- [SGLT2i Decision Notes](https://nephrodecisions.com/sglt2i/): 20 clinical decision questions on SGLT2 inhibitors in CKD — initiation, monitoring, hold/restart, special populations. Based on KDIGO 2024, DAPA-CKD, EMPA-KIDNEY, CREDENCE.
+- [GLP-1 RA Decision Notes](https://nephrodecisions.com/glp1ra/): 10 clinical decision questions on GLP-1 receptor agonists in CKD — FLOW trial, sequencing with SGLT2i, Taiwan NHI coverage.
+- [Finerenone Decision Notes](https://nephrodecisions.com/finerenone/): 11 clinical decision questions — mechanism, hyperkalemia management, FIDELIO/FIGARO/FIDELITY evidence, Taiwan NHI status.
+- [CKM Syndrome Decision Notes](https://nephrodecisions.com/ckm/): 15 clinical decision questions on Cardiovascular-Kidney-Metabolic syndrome — AHA 2023 staging, cardiorenal syndrome types, four-pillar integration, CV risk stratification.
+
+## Patient Education
+
+- [Sexual Health & Kidney Disease](https://nephrodecisions.com/sexual-health/): 22 articles on sexual function, fertility, and intimacy for dialysis and transplant patients. Dual-path design (patient vs clinician).
+- [Patient Guides](https://nephrodecisions.com/patient/): Plain-language guides for CKD patients and families — SGLT2i basics, sick day rules, surgery prep, dialysis readiness.
+- [Dialysis Nursing Education](https://nephrodecisions.com/dialysis/): 10 nursing-oriented dialysis care modules — vascular access, complications, nutrition, CKD-MBD, infection control.
+
+## Clinical Topics (Blog)
+
+- [DKD Four-Pillar Therapy Guide 2026](https://nephrodecisions.com/blog/dkd-four-pillars-2026/): Comprehensive integration of ACEi/ARB + SGLT2i + Finerenone + GLP-1 RA with Taiwan NHI context.
+- [Taiwan ESRD 20-Year Trends](https://nephrodecisions.com/blog/taiwan-esrd-20y-clinical/): 2000-2022 dialysis epidemiology, mortality, transplant rates.
+
+## Trust & Editorial
+
+- [Editorial Policy](https://nephrodecisions.com/editorial-policy/): 7-step production workflow, AI transparency, evidence standards, version management, conflict of interest disclosure.
+- [About / Author](https://nephrodecisions.com/about/): Nephrologist, internist, National Taiwan University School of Medicine.
+- [Medical Disclaimer](https://nephrodecisions.com/disclaimer/)
+- [Privacy Policy](https://nephrodecisions.com/privacy/)
+- [Accessibility Statement](https://nephrodecisions.com/accessibility/)
+
+## Key Facts
+
+- Language: Traditional Chinese (zh-Hant), Taiwan context
+- Author: 小鎮醫生 (pen name), board-certified nephrologist and internist
+- AI usage: Three-source triangulation (ChatGPT + Claude + Gemini) for literature review; physician makes all clinical judgments
+- Evidence sources: PubMed/PMID, ClinicalTrials.gov/NCT, KDIGO, ADA, AHA, ESC, TFDA, Taiwan NHI
+- Drug names: Generic names primary; Taiwan brand names (e.g., Forxiga/福適佳, Jardiance/恩排糖, Kerendia, Ozempic/善纖達) listed for identification only, not endorsement
+- No pharma sponsorship, no advertising, no affiliate links

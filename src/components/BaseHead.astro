@@ -8,9 +8,21 @@ interface Props {
 	image?: string;
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+// Normalize canonical: always trailing slash, no query/hash
+const rawPath = Astro.url.pathname;
+const normalizedPath = rawPath === '/' ? '/' :
+	rawPath.endsWith('/') ? rawPath : `${rawPath}/`;
+const canonicalURL = new URL(normalizedPath, Astro.site);
 
 const { title, description, image } = Astro.props;
+
+// Auto-compute OG image URL from current pathname
+// /sglt2i/q01-xxx/ → /og/sglt2i/q01-xxx.png
+// / → /og/index.png
+// /about/ → /og/about.png
+const pathname = Astro.url.pathname.replace(/^\/|\/$/g, '');
+const ogImagePath = pathname === '' ? '/og/index.png' : `/og/${pathname}.png`;
+const ogImageURL = image ? new URL(image, Astro.url) : new URL(ogImagePath, Astro.site);
 ---
 
 <!-- Google Analytics -->
@@ -52,11 +64,13 @@ const { title, description, image } = Astro.props;
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:locale" content="zh_TW" />
-{image && <meta property="og:image" content={new URL(image, Astro.url)} />}
+<meta property="og:image" content={ogImageURL} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-{image && <meta property="twitter:image" content={new URL(image, Astro.url)} />}
+<meta property="twitter:image" content={ogImageURL} />

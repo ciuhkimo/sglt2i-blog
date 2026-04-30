@@ -1,0 +1,165 @@
+---
+// ReadAloudButton — Web Speech API based TTS button
+// Extracts text from the nearest .prose ancestor and reads via speechSynthesis.
+// Falls back to hidden if browser lacks SpeechSynthesis.
+---
+
+<button class="read-aloud-btn no-print" type="button" data-read-aloud aria-label="朗讀本篇文章" title="朗讀本篇文章（使用裝置內建語音）">
+	<span class="ra-icon" aria-hidden="true">🎧</span>
+	<span class="ra-label">朗讀</span>
+</button>
+
+<style>
+	.read-aloud-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.3em;
+		padding: 0.4em 1em;
+		margin-right: 0.5em;
+		background: rgb(var(--gray-light));
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 6px;
+		font-size: 0.85em;
+		color: rgb(var(--gray-dark));
+		cursor: pointer;
+		font-family: inherit;
+	}
+	.read-aloud-btn:hover {
+		background: #ddd;
+	}
+	.read-aloud-btn[data-state="playing"] {
+		background: var(--accent);
+		color: #fff;
+		border-color: var(--accent);
+	}
+	.read-aloud-btn[data-state="playing"]:hover {
+		background: var(--accent-dark);
+	}
+	@media print {
+		.read-aloud-btn {
+			display: none !important;
+		}
+	}
+</style>
+
+<script>
+	const btn = document.querySelector('[data-read-aloud]') as HTMLButtonElement | null;
+	if (!btn) {
+		// nothing to do
+	} else if (!('speechSynthesis' in window)) {
+		btn.style.display = 'none';
+	} else {
+		const icon = btn.querySelector('.ra-icon') as HTMLElement;
+		const label = btn.querySelector('.ra-label') as HTMLElement;
+		let playing = false;
+		let queue: string[] = [];
+		let index = 0;
+
+		const reset = () => {
+			playing = false;
+			index = 0;
+			queue = [];
+			btn.setAttribute('data-state', '');
+			btn.setAttribute('aria-label', '朗讀本篇文章');
+			icon.textContent = '🎧';
+			label.textContent = '朗讀';
+		};
+
+		const extractText = () => {
+			const prose = document.querySelector('.prose');
+			if (!prose) return '';
+			const clone = prose.cloneNode(true) as HTMLElement;
+			clone.querySelectorAll(
+				'.print-btn-wrapper, .subscribe-cta, .author-block, .print-footer, .tags, .pro-link, script, style, [aria-hidden="true"]'
+			).forEach((el) => el.remove());
+			const raw = clone.textContent || '';
+			return raw.replace(/\s+/g, ' ').trim();
+		};
+
+		const chunkText = (text: string): string[] => {
+			// Split on sentence endings to avoid browser-specific length limits
+			const parts = text.match(/[^。！？.!?]+[。！？.!?]?/g) || [text];
+			// Merge very short chunks
+			const merged: string[] = [];
+			let buf = '';
+			for (const p of parts) {
+				if ((buf + p).length < 180) {
+					buf += p;
+				} else {
+					if (buf) merged.push(buf);
+					buf = p;
+				}
+			}
+			if (buf) merged.push(buf);
+			return merged;
+		};
+
+		const pickVoice = () => {
+			const voices = speechSynthesis.getVoices();
+			// Prefer Traditional Chinese (Taiwan), then any Chinese
+			return (
+				voices.find((v) => v.lang === 'zh-TW' || v.lang === 'zh-Hant-TW') ||
+				voices.find((v) => v.lang && v.lang.startsWith('zh-Hant')) ||
+				voices.find((v) => v.lang && v.lang.startsWith('zh')) ||
+				null
+			);
+		};
+
+		const speakNext = () => {
+			if (!playing) return;
+			if (index >= queue.length) {
+				reset();
+				return;
+			}
+			const u = new SpeechSynthesisUtterance(queue[index]);
+			u.lang = 'zh-TW';
+			u.rate = 1.0;
+			u.pitch = 1.0;
+			const voice = pickVoice();
+			if (voice) u.voice = voice;
+			u.onend = () => {
+				index += 1;
+				speakNext();
+			};
+			u.onerror = () => {
+				reset();
+			};
+			speechSynthesis.speak(u);
+		};
+
+		btn.addEventListener('click', () => {
+			if (playing) {
+				speechSynthesis.cancel();
+				reset();
+				return;
+			}
+			const text = extractText();
+			if (!text) return;
+			queue = chunkText(text);
+			if (!queue.length) return;
+			playing = true;
+			index = 0;
+			btn.setAttribute('data-state', 'playing');
+			btn.setAttribute('aria-label', '停止朗讀');
+			icon.textContent = '⏹';
+			label.textContent = '停止';
+			// Some browsers populate voices asynchronously
+			if (!speechSynthesis.getVoices().length) {
+				speechSynthesis.addEventListener('voiceschanged', speakNext, { once: true });
+			} else {
+				speakNext();
+			}
+		});
+
+		window.addEventListener('beforeunload', () => {
+			speechSynthesis.cancel();
+		});
+		// Stop when page visibility changes (e.g. user switches tab) to avoid zombie audio
+		document.addEventListener('visibilitychange', () => {
+			if (document.hidden && playing) {
+				speechSynthesis.cancel();
+				reset();
+			}
+		});
+	}
+</script>

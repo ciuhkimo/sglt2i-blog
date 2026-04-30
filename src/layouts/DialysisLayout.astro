@@ -5,28 +5,34 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import SubscribeCTA from '../components/SubscribeCTA.astro';
+import ReadAloudButton from '../components/ReadAloudButton.astro';
 
 type Props = CollectionEntry<'dialysis'>['data'];
 
-const { title, chapter, category, target_audience, last_updated } = Astro.props;
+const { title, chapter, category, target_audience, last_updated, description, seo_title } = Astro.props;
+
+const authorPerson = {
+	'@type': 'Person',
+	name: '小鎮醫生',
+	jobTitle: '腎臟科專科醫師',
+	affiliation: {
+		'@type': 'Organization',
+		name: '台灣大學醫學系',
+	},
+	url: 'https://nephrodecisions.com/about/',
+};
 
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',
 	'@type': ['MedicalWebPage', 'Article'],
+	headline: title,
 	name: title,
 	datePublished: last_updated.toISOString(),
 	dateModified: last_updated.toISOString(),
-	author: {
-		'@type': 'Person',
-		name: '小鎮醫生',
-		jobTitle: '腎臟科專科醫師',
-		affiliation: {
-			'@type': 'Organization',
-			name: '台灣大學醫學系',
-		},
-		url: 'https://nephrodecisions.com/about/',
-	},
-	audience: {
+	author: authorPerson,
+	reviewedBy: authorPerson,
+	lastReviewed: last_updated.toISOString().split('T')[0],
+	medicalAudience: {
 		'@type': 'MedicalAudience',
 		audienceType: 'Nurse',
 	},
@@ -49,7 +55,7 @@ const breadcrumbLd = JSON.stringify({
 
 <html lang="zh-Hant">
 	<head>
-		<BaseHead title={`${title} — 透析衛教`} description={title} />
+		<BaseHead title={seo_title || `${title} — 透析衛教`} description={description || title} />
 		<script type="application/ld+json" set:html={jsonLd} />
 		<script type="application/ld+json" set:html={breadcrumbLd} />
 		<style>
@@ -126,7 +132,7 @@ const breadcrumbLd = JSON.stringify({
 
 	<body>
 		<Header />
-		<main>
+		<main id="main-content">
 			<nav class="breadcrumb">
 				<a href="/">首頁</a> &rsaquo;
 				<a href="/dialysis/">透析衛教</a> &rsaquo;
@@ -148,12 +154,14 @@ const breadcrumbLd = JSON.stringify({
 					</div>
 				</div>
 				<div class="print-btn-wrapper">
+					<ReadAloudButton />
 					<button class="print-btn" onclick="window.print()">列印 / 存 PDF</button>
 				</div>
 				<slot />
 				<SubscribeCTA />
 				<div class="print-footer">
-					<p>Nephro Decisions｜nephrodecisions.com｜由腎臟科專科醫師主導，AI 輔助研究與多輪交替審稿。本文不構成醫療建議。</p>
+					<p>Nephro Decisions｜https://nephrodecisions.com{Astro.url.pathname}｜由腎臟科專科醫師主導，AI 輔助研究與多輪交替審稿。本文不構成醫療建議。</p>
+					<p class="print-date">列印日期由瀏覽器產生｜文章更新日期：{last_updated.toISOString().split('T')[0]}</p>
 				</div>
 			</article>
 		</main>
@@ -165,6 +173,18 @@ const breadcrumbLd = JSON.stringify({
 					wrapper.className = 'table-wrapper';
 					table.parentNode?.insertBefore(wrapper, table);
 					wrapper.appendChild(table);
+				}
+				// A11y: add scope to th in thead
+				table.querySelectorAll("thead th").forEach((th) => {
+					if (!th.getAttribute("scope")) th.setAttribute("scope", "col");
+				});
+			});
+		</script>
+		<script>
+			document.querySelectorAll('.prose input[type="checkbox"][disabled]').forEach((cb, i) => {
+				if (!cb.getAttribute('aria-label')) {
+					const text = cb.parentElement?.textContent?.trim().slice(0, 60) || `項目 ${i + 1}`;
+					cb.setAttribute('aria-label', text);
 				}
 			});
 		</script>

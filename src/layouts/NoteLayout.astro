@@ -5,10 +5,12 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import SubscribeCTA from '../components/SubscribeCTA.astro';
+import ReadAloudButton from '../components/ReadAloudButton.astro';
 
 type Props = (CollectionEntry<'sglt2i'>['data'] | CollectionEntry<'glp1ra'>['data'] | CollectionEntry<'sexualHealth'>['data']) & { extraSchema?: string | null };
 
-const { question_id, title, category, version, last_updated, tags, description, seo_title, quick_answer, extraSchema } = Astro.props;
+const { question_id, title, category, version, status, last_updated, tags, description, seo_title, quick_answer, extraSchema, meta_description } = Astro.props as any;
+const effectiveDescription = meta_description || description || title;
 
 // Dynamic breadcrumb based on URL path
 const path = Astro.url.pathname;
@@ -20,21 +22,31 @@ const breadcrumbMap: Record<string, { href: string; label: string }> = {
 const matchedSection = Object.entries(breadcrumbMap).find(([prefix]) => path.startsWith(prefix));
 const breadcrumb = matchedSection ? matchedSection[1] : { href: '/sglt2i/', label: '決策筆記' };
 
+const isPatientContent = category?.includes('病人衛教') || category?.includes('Patient Education');
+const authorPerson = {
+	'@type': 'Person',
+	name: '小鎮醫生',
+	jobTitle: '腎臟科專科醫師',
+	affiliation: {
+		'@type': 'Organization',
+		name: '台灣大學醫學系',
+	},
+	url: 'https://nephrodecisions.com/about/',
+};
+
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',
 	'@type': ['MedicalWebPage', 'Article'],
+	headline: title,
 	name: title,
 	datePublished: last_updated.toISOString(),
 	dateModified: last_updated.toISOString(),
-	author: {
-		'@type': 'Person',
-		name: '小鎮醫生',
-		jobTitle: '腎臟科專科醫師',
-		affiliation: {
-			'@type': 'Organization',
-			name: '台灣大學醫學系',
-		},
-		url: 'https://nephrodecisions.com/about/',
+	author: authorPerson,
+	reviewedBy: authorPerson,
+	lastReviewed: last_updated.toISOString().split('T')[0],
+	medicalAudience: {
+		'@type': 'MedicalAudience',
+		audienceType: isPatientContent ? 'Patient' : 'Clinician',
 	},
 	about: {
 		'@type': 'MedicalCondition',
@@ -55,7 +67,7 @@ const breadcrumbLd = JSON.stringify({
 
 <html lang="zh-Hant">
 	<head>
-		<BaseHead title={seo_title || `${title} — Nephro Decisions`} description={description || title} />
+		<BaseHead title={seo_title || `${title} — Nephro Decisions`} description={effectiveDescription} />
 		<script type="application/ld+json" set:html={jsonLd} />
 		<script type="application/ld+json" set:html={breadcrumbLd} />
 		{extraSchema && <script type="application/ld+json" set:html={extraSchema} />}
@@ -111,6 +123,16 @@ const breadcrumbLd = JSON.stringify({
 			}
 			.meta-label {
 				font-weight: 700;
+			}
+			.status-badge {
+				display: inline-block;
+				background: var(--accent-light, #e8f4f0);
+				color: var(--accent-dark);
+				padding: 0.1em 0.6em;
+				border-radius: 4px;
+				font-size: 0.85em;
+				font-weight: 600;
+				border: 1px solid var(--accent);
 			}
 			.tags {
 				display: flex;
@@ -204,7 +226,7 @@ const breadcrumbLd = JSON.stringify({
 
 	<body>
 		<Header />
-		<main>
+		<main id="main-content">
 			<nav class="breadcrumb">
 				<a href="/">首頁</a> &rsaquo;
 				<a href={breadcrumb.href}>{breadcrumb.label}</a> &rsaquo;
@@ -220,12 +242,18 @@ const breadcrumbLd = JSON.stringify({
 						<span class="meta-item">
 							<span class="meta-label">版本：</span>{version}
 						</span>
+						{status && (
+							<span class="meta-item">
+								<span class="status-badge">{status}</span>
+							</span>
+						)}
 						<span class="meta-item">
 							<span class="meta-label">更新日期：</span><FormattedDate date={last_updated} />
 						</span>
 					</div>
 				</div>
 				<div class="print-btn-wrapper">
+					<ReadAloudButton />
 					<button class="print-btn" onclick="window.print()">列印 / 存 PDF</button>
 				</div>
 				{quick_answer && (
@@ -234,7 +262,7 @@ const breadcrumbLd = JSON.stringify({
 					</div>
 				)}
 				<slot />
-				<aside class="author-block">
+				<div class="author-block">
 					<div class="author-avatar">👨‍⚕️</div>
 					<div class="author-info">
 						<p class="author-name">小鎮醫生</p>
@@ -243,10 +271,11 @@ const breadcrumbLd = JSON.stringify({
 						<p class="author-ai">AI 輔助：文獻搜尋與初稿整理。最終內容由醫師查核與修訂。</p>
 						<a class="author-link" href="/about/">了解編輯流程 →</a>
 					</div>
-				</aside>
+				</div>
 				<SubscribeCTA />
 				<div class="print-footer">
-					<p>Nephro Decisions｜nephrodecisions.com｜由腎臟科專科醫師主導，AI 輔助研究與多輪交替審稿。本文不構成醫療建議。</p>
+					<p>Nephro Decisions｜https://nephrodecisions.com{Astro.url.pathname}｜由腎臟科專科醫師主導，AI 輔助研究與多輪交替審稿。本文不構成醫療建議。</p>
+					<p class="print-date">列印日期由瀏覽器產生｜文章更新日期：{last_updated.toISOString().split('T')[0]}</p>
 				</div>
 			</article>
 		</main>
@@ -258,6 +287,19 @@ const breadcrumbLd = JSON.stringify({
 					wrapper.className = 'table-wrapper';
 					table.parentNode?.insertBefore(wrapper, table);
 					wrapper.appendChild(table);
+				}
+				// A11y: add scope to th in thead
+				table.querySelectorAll('thead th').forEach((th) => {
+					if (!th.getAttribute('scope')) th.setAttribute('scope', 'col');
+				});
+			});
+		</script>
+		<script>
+			// A11y: label markdown task-list checkboxes
+			document.querySelectorAll('.prose input[type="checkbox"][disabled]').forEach((cb, i) => {
+				if (!cb.getAttribute('aria-label')) {
+					const text = cb.parentElement?.textContent?.trim().slice(0, 60) || `項目 ${i + 1}`;
+					cb.setAttribute('aria-label', text);
 				}
 			});
 		</script>
