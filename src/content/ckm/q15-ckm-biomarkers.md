@@ -18,12 +18,10 @@ tags:
   - KTR
   - ARNI
   - finerenone
-description: "Q15 CKM Biomarkers 解讀（NT-proBNP、Troponin、UACR、Cystatin C 在 CKD 的陷阱） -- CKM Syndrome 風險與預後臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "CKD、透析與腎移植後病人判讀 NT-proBNP、troponin、UACR、cystatin C 的陷阱：單次值 vs serial delta 的選擇、ARNI 與 finerenone 對判讀的影響。"
 quick_answer: "1. CKD 看到 troponin 或 NT-proBNP 升高，不能直接等同 acute MI 或 acute HF。"
 seo_title: "Q15 CKM Biomarkers 解讀（NT-proBNP、Troponin、UACR、Cystatin C 在 CKD 的陷阱） | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# CKM Biomarkers 解讀（查核後修正版）
 
 **臨床問題**
 

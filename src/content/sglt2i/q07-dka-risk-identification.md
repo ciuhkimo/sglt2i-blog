@@ -118,8 +118,8 @@ SGLT2 inhibitor 相關的 euglycemic diabetic ketoacidosis (eDKA) 是一個罕�
 - **Clinical Relevance**: ★★★★☆
 
 ## 相關筆記
-[Q05: Renal vs HF Protection](/sglt2i/q05-renal-vs-hf-protection)
-[Q06: Volume Status Assessment](/sglt2i/q06-volume-status-assessment)
+[Q05: Renal vs HF Protection](/sglt2i/q05-renal-vs-hf-protection/)
+[Q06: Volume Status Assessment](/sglt2i/q06-volume-status-assessment/)
 
 ---
 

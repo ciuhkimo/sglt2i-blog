@@ -22,8 +22,6 @@ target_keywords:
 schema: FAQPage, MedicalWebPage
 ---
 
-# 女性腎友的月經、性慾與懷孕：洗腎後身體的變化與可以做的事
-
 ## 一句話回答
 
 **重點摘要**

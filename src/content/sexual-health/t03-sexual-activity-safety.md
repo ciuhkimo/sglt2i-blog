@@ -20,8 +20,6 @@ target_keywords:
 schema: FAQPage, MedicalWebPage
 ---
 
-# 洗腎後還可以有性生活嗎？安全性、注意事項與常見疑慮
-
 ## 一句話回答
 
 **重點摘要**

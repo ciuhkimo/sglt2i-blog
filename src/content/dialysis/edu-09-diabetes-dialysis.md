@@ -9,6 +9,7 @@ sources:
   - "PPD Ch31"
 last_updated: 2026-04-07
 tags: [透析, 護理, 衛教, 糖尿病, 低血糖, 胰島素]
+description: "糖尿病透析病人的血糖管理特殊性：HbA1c 在透析的失準、低血糖風險、胰島素劑量調整與 SGLT2i/GLP-1 RA 續用考量。"
 ---
 
 

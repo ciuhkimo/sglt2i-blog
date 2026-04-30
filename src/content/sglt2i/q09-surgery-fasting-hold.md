@@ -129,9 +129,9 @@ SGLT2 inhibitor 在圍術期使用的最大顧慮是 euglycemic DKA (eDKA) 的�
 - **Clinical Relevance**: ★★★★★
 
 ## 相關筆記
-[Q08: Recurrent Infection](/sglt2i/q08-recurrent-infection)
-[Q11: eGFR Decline Acceptable](/sglt2i/q11-egfr-decline-acceptable)
-[Q14: Acute Illness Hold](/sglt2i/q14-acute-illness-hold)
+[Q08: Recurrent Infection](/sglt2i/q08-recurrent-infection/)
+[Q11: eGFR Decline Acceptable](/sglt2i/q11-egfr-decline-acceptable/)
+[Q14: Acute Illness Hold](/sglt2i/q14-acute-illness-hold/)
 
 ---
 

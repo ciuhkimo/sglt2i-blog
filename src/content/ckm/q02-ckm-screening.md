@@ -15,12 +15,10 @@ tags:
   - PREVENT
   - KFRE
   - minimum-dataset
-description: "Q02 CKM 篩檢與識別 -- CKM Syndrome 定義與識別臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "腎臟科門診如何系統性辨識 CKM syndrome 病人？涵蓋最低篩檢資料集（UACR、eGFR、BMI、BP）、風險分層流程與 shared care 啟動時機。"
 quick_answer: ""
 seo_title: "Q02 CKM 篩檢與識別 | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# CKM 篩檢與識別
 
 **臨床問題**
 

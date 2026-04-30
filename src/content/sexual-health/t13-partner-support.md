@@ -20,8 +20,6 @@ target_keywords:
 schema: FAQPage, MedicalWebPage
 ---
 
-# 伴侶支持：另一半在洗腎，我可以怎麼幫忙？
-
 ## 一句話回答
 
 **重點摘要**

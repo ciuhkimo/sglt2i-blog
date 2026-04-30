@@ -18,12 +18,10 @@ tags:
   - transplant
   - GLP-1-RA
   - SGLT2i
-description: "Q10 Metabolic Surgery 對 CKD 的影響（轉介、術前評估、腎臟結局、並發症） -- CKM Syndrome 代謝腎交互臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "CKD、透析與移植候選人何時轉介 metabolic surgery？涵蓋 BMI 閾值、術前腎功能評估、術後 enteric hyperoxaluria 風險、與 GLP-1 RA 的取捨及腎臟結局證據。"
 quick_answer: ""
 seo_title: "Q10 Metabolic Surgery 對 CKD 的影響（轉介、術前評估、腎臟結局、並發症） | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# Metabolic Surgery 對 CKD 的影響（已查核修訂）
 
 **臨床問題**
 

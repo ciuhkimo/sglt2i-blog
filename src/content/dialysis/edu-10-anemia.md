@@ -9,6 +9,7 @@ sources:
   - "PPD Ch29"
 last_updated: 2026-04-07
 tags: [透析, 護理, 衛教, 貧血, ESA, 鐵劑]
+description: "透析病人貧血管理：ESA（紅血球生成素）劑量調整、鐵劑補充路徑、鐵蛋白目標與功能性缺鐵判讀實務。"
 ---
 
 

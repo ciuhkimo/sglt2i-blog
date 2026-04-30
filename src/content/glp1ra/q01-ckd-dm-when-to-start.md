@@ -10,7 +10,12 @@ tags:
   - GLP-1RA
   - decision-note
   - initiation
-description: "FLOW 試驗證實 semaglutide 可改善 T2DM + albuminuric CKD 的腎臟結局。本文涵蓋啟用條件、FLOW 適用族群、國際指引建議、台灣健保限制與藥物選擇，協助臨床醫師掌握 GLP-1 RA 的啟用時機與定位。"
+  - 善纖達
+  - 瑞倍適
+  - 胰妥善
+  - 易週糖
+  - 穩糖優
+description: "GLP-1 RA 在 CKD + T2DM 的啟用時機。FLOW 試驗證實 semaglutide（善纖達）的腎臟結局。涵蓋 dulaglutide（易週糖）、tirzepatide（穩糖優）、liraglutide（胰妥善）的台灣健保與藥物選擇。"
 quick_answer: "最直接的腎臟結局證據來自 FLOW：T2DM + CKD 且 eGFR 25–<50 時 UACR ≥100 mg/g，或 eGFR 50–75 時 UACR ≥300 mg/g。對這類高心腎風險病人，尤其在 ACEi/ARB ± SGLT2i 基礎治療後仍有殘餘蛋白尿、ASCVD、肥胖或需額外降糖時，應積極考慮加入 GLP-1 RA；其中 semaglutide 皮下注射的直接腎臟證據最強。"
 seo_title: "CKD 合併糖尿病何時加 GLP-1 RA？FLOW、指引與台灣實務"
 ---

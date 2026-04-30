@@ -7,12 +7,14 @@ status: 已定稿
 last_updated: 2026-04-04
 next_review: 2026-09-17
 seo_title: "CKD 何時開始 SGLT2i？啟用時機與 eGFR 門檻"
-description: "KDIGO 2024 建議 eGFR≥20 的 CKD 患者應啟用 SGLT2i。本文涵蓋啟用條件、eGFR 門檻、禁忌症篩查與安全啟用流程，協助臨床醫師掌握最佳開始時機。"
+description: "KDIGO 2024 建議 eGFR≥20 的 CKD 患者應啟用 SGLT2i（福適佳 dapagliflozin、恩排糖 empagliflozin）。涵蓋啟用條件、eGFR 門檻、禁忌症篩查與安全啟用流程。"
 quick_answer: "KDIGO 2024 建議 T2DM+CKD 且 eGFR≥20 即可啟用 SGLT2i，無需等待 eGFR 進一步下降。"
 tags:
   - SGLT2i
   - decision-note
   - initiation
+  - 福適佳
+  - 恩排糖
 ---
 
 ## Why This Matters
@@ -227,11 +229,11 @@ CKD 患者就診
 ---
 
 ## 相關筆記
-[Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/sglt2i/q02-nondm-ckd)
-[Q03: 蛋白尿程度對 SGLT2 inhibitor 治療效益的影響](/sglt2i/q03-proteinuria-impact)
-[Q04: eGFR 20–30 患者的 SGLT2i 啟用決策](/sglt2i/q04-egfr-20-30-threshold)
-[Q10: Creatinine Dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki)
-[Q15: AKI Stop Decision](/sglt2i/q15-aki-stop-decision)
+[Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/sglt2i/q02-nondm-ckd/)
+[Q03: 蛋白尿程度對 SGLT2 inhibitor 治療效益的影響](/sglt2i/q03-proteinuria-impact/)
+[Q04: eGFR 20–30 患者的 SGLT2i 啟用決策](/sglt2i/q04-egfr-20-30-threshold/)
+[Q10: Creatinine Dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/)
+[Q15: AKI Stop Decision](/sglt2i/q15-aki-stop-decision/)
 
 ---
 

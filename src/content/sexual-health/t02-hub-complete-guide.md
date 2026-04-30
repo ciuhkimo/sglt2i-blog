@@ -22,8 +22,6 @@ target_keywords:
 schema: CollectionPage, MedicalWebPage
 ---
 
-# 腎友與性完整指南：洗腎、腎移植病人的性健康全攻略
-
 ## TL;DR
 
 **重點摘要**

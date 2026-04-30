@@ -20,8 +20,6 @@ target_keywords:
 schema: FAQPage, MedicalWebPage
 ---
 
-# 瘻管會不會影響性生活？
-
 ## 一句話回答
 
 **瘻管不會因為正常的性行為而受損。** 只要避免直接壓迫或拉扯管路部位，洗腎病人可以安全地進行性生活。

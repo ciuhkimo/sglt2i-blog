@@ -19,8 +19,6 @@ tags:
   - verified
 ---
 
-# Decision Note: 透析男性性功能障礙門診評估框架
-
 > 本文為以現有 evidence、guideline 與 product label 為基礎的**透析門診評估框架**。目前無任何主要學會發布透析專屬的性功能障礙評估演算法。
 
 ---

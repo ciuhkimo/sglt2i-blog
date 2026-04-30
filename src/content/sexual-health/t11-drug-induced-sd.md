@@ -14,8 +14,6 @@ tags:
   - medication-review
 ---
 
-# Decision Note: 藥物影響性功能——透析病人的系統性藥物盤點與替換策略
-
 > 本文為以 DOPPS 研究、系統性回顧與 ESRD 藥物動力學為基礎的**透析病人致 SD 藥物識別與替換框架**。KDIGO、KDOQI 與 ERA-EDTA 指引均未涵蓋透析病人性功能障礙的藥物管理。
 >
 > **與 [T09](/sexual-health/t09-pde5i-medication-review/) 的區分**：T09 聚焦 PDE5i 處方決策（怎麼開、開給誰）；T11 聚焦**識別並替換造成 SD 的藥物**——medication review 應在 PDE5i 之前完成。

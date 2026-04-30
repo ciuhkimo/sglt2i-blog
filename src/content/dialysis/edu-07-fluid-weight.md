@@ -9,6 +9,7 @@ sources:
   - "PPD Ch15"
 last_updated: 2026-04-07
 tags: [透析, 護理, 衛教, 體液, 乾體重, 血壓]
+description: "透析病人水分攝取與體重增加（IDWG）管理。涵蓋 dry weight 判定、液體限制原則、低血壓預防與病人衛教實務工具。"
 ---
 
 

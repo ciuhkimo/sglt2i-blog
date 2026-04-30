@@ -14,8 +14,6 @@ tags:
   - multidisciplinary
 ---
 
-# Decision Note: 轉介時機——透析病人性功能問題何時該跨科合作
-
 > 本文整合 KDIGO、EAU、AUA、ACOG、ISSWSH、Endocrine Society 指引及近年系統性回顧，建立腎臟科團隊的**性功能障礙分流與轉介決策框架**。目前無任何腎臟學會發布 CKD 專屬的性健康跨科轉介指引。
 
 ---

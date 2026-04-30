@@ -2,9 +2,9 @@
 question_id: Q02
 title: "非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？"
 category: "啟用決策 (Initiation)"
-version: "v1.6"
-status: 已修訂
-last_updated: 2026-04-08
+version: "v1.7"
+status: 查核修訂版
+last_updated: 2026-04-28
 next_review: 2026-09-17
 description: "非糖尿病 CKD 是否應使用 SGLT2i？KDIGO 2024 建議 eGFR≥20 且 UACR≥200 或合併心衰竭時啟用。涵蓋 DAPA-CKD、EMPA-KIDNEY 證據、IgA 腎病變亞組分析、臨床啟用流程與台灣實務。"
 seo_title: "非糖尿病 CKD 能用 SGLT2i 嗎？KDIGO 2024 建議與臨床決策"
@@ -14,6 +14,8 @@ tags:
   - decision-note
   - initiation
   - non-DM-CKD
+  - 福適佳
+  - 恩排糖
 ---
 
 ## Bottom Line
@@ -272,6 +274,7 @@ eGFR 20–45 且 UACR <200？
 - 雖然 KDIGO 2024 已給 2B recommendation
 - EMPA-KIDNEY 也支持不應只因 albuminuria 低就排除治療
 - 但這仍不是與 albuminuric CKD 同等強度的直接證據層級
+- **2025 新增批判性觀點**：NDT 2025 評論（DOI: 10.1093/ndt/gfag009）指出，現有 meta-analyses 可能過度推論 SGLT2i 在**低蛋白尿 + 非糖尿病 + 無心衰竭 + 無 ASCVD** 族群的效益，因為 subgroup analysis 統計力有限、直接 RCT 證據不足。在這些低風險族群使用 SGLT2i 時，應充分告知病人證據的不確定性
 
 ### 2) Rare / immune-active glomerular diseases
 - 對 **ANCA-associated vasculitis**、**lupus nephritis** 的直接 outcome trial evidence 仍不足

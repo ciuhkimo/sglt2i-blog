@@ -15,12 +15,10 @@ tags:
   - loop-diuretic
   - acetazolamide
   - natriuresis-guided
-description: "Q05 Cardiorenal 利尿策略 -- CKM Syndrome 心腎交互臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "Loop diuretic + thiazide + acetazolamide + SGLT2i 的 sequential nephron blockade 組合、diuretic resistance 處理流程，以及 Cr 上升可接受範圍的判斷。"
 quick_answer: ""
 seo_title: "Q05 Cardiorenal 利尿策略 | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# Cardiorenal 利尿策略
 
 **臨床問題**
 

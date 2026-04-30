@@ -153,8 +153,8 @@ tags:
 ---
 
 ## 相關筆記
-[Q19 Drug Combination Strategy](/sglt2i/q19-drug-combination-strategy)：與 ACEi/ARB、Finerenone、GLP-1 RA 的整合策略
-[Q17 AKI Recovery Restart](/sglt2i/q17-aki-recovery-restart)：AKI 後重啟 SGLT2i（含移植/高齡情境參考）
+[Q19 Drug Combination Strategy](/sglt2i/q19-drug-combination-strategy/)：與 ACEi/ARB、Finerenone、GLP-1 RA 的整合策略
+[Q17 AKI Recovery Restart](/sglt2i/q17-aki-recovery-restart/)：AKI 後重啟 SGLT2i（含移植/高齡情境參考）
 
 ---
 

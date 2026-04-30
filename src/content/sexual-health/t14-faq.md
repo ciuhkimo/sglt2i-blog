@@ -19,8 +19,6 @@ target_keywords:
 schema: FAQPage, MedicalWebPage
 ---
 
-# 腎友與性常見問答：快速找到你的答案
-
 ## 一句話回答
 
 **重點摘要**

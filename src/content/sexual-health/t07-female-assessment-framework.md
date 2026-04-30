@@ -14,8 +14,6 @@ tags:
   - fact-checked
 ---
 
-# Decision Note: 女性透析病人性與生殖健康評估
-
 ---
 
 ## Executive Bottom Line

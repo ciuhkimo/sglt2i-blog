@@ -17,12 +17,10 @@ tags:
   - GLP-1-RA
   - RASi
   - Taiwan-NHI
-description: "Q11 CKM 四柱整合策略（RASi + SGLT2i + Finerenone + GLP-1 RA） -- CKM Syndrome 整合藥物策略臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "RASi、SGLT2i、finerenone、GLP-1 RA 四柱療法的起始順序、疊加時機與 eGFR 分層策略。依 KDIGO 2024、ADA 2026、CONFIDENCE trial 整合並對齊台灣健保條件。"
 quick_answer: "1. Foundation therapy 仍是 maximally tolerated RASi + 盡早納入 SGLT2i。"
 seo_title: "Q11 CKM 四柱整合策略（RASi + SGLT2i + Finerenone + GLP-1 RA） | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# CKM 四柱整合策略（RASi + SGLT2i + Finerenone + GLP-1 RA）
 
 **臨床問題**
 

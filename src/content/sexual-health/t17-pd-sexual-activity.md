@@ -20,8 +20,6 @@ target_keywords:
 schema: FAQPage, MedicalWebPage
 ---
 
-# 腹膜透析可以有性生活嗎？
-
 ## 一句話回答
 
 **可以。** 腹膜透析（俗稱「洗肚子」）的病人可以有性生活，只要注意幾個簡單的準備步驟。

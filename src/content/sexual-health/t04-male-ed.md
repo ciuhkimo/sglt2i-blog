@@ -19,8 +19,6 @@ target_keywords:
 schema: FAQPage, MedicalWebPage
 ---
 
-# 洗腎後硬不起來怎麼辦？腎臟科醫師解析原因與治療
-
 ## 一句話回答
 
 **重點摘要**

@@ -159,7 +159,7 @@ Non-diabetic CKD 病人評估 GLP-1 RA
 ---
 
 ## 相關筆記
-- [Q01: CKD + T2DM 何時加 GLP-1 RA](/glp1ra/q01-ckd-dm-when-to-start)
+- [Q01: CKD + T2DM 何時加 GLP-1 RA](/glp1ra/q01-ckd-dm-when-to-start/)
 - [Q03: GLP-1 RA vs SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/)
 - [Q04: eGFR <30 或透析的 GLP-1 RA 使用](/glp1ra/q04-low-egfr-use/)
 

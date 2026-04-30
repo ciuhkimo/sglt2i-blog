@@ -11,9 +11,8 @@ sources:
   - "HHD Ch09"
 last_updated: 2026-04-07
 tags: [透析, 護理, 衛教, 血管通路, AVF, AVG, 導管]
+description: "透析血管通路（AVF、AVG、CVC）的選擇與照護。涵蓋 KDOQI 優先順序、日常評估、感染預防、併發症辨識與護理實務要點。"
 ---
-
-# 血管通路照護：瘻管、人工血管、導管
 
 ## 學習目標
 

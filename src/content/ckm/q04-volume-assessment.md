@@ -15,12 +15,10 @@ tags:
   - VExUS
   - bioimpedance
   - NT-proBNP
-description: "Q04 CKD + HF 的容量評估 -- CKM Syndrome 心腎交互臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "CKD 合併 HF 何時「太乾」何時「太濕」？整合 bedside signs、肺超音波、VExUS、BCM/bioimpedance、NT-proBNP 與 daily weight 的多模態容量評估策略。"
 quick_answer: "1. CKD + HF 的容量評估不應依賴單一工具；最穩妥的做法是把 症狀/bedside signs + natriuretic peptides + objective congestion imaging/POCUS 放在同一判讀框架內。"
 seo_title: "Q04 CKD + HF 的容量評估 | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# CKD + HF 的容量評估
 
 **臨床問題**
 

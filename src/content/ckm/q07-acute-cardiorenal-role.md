@@ -17,12 +17,10 @@ tags:
   - decongestion
   - VExUS
   - ultrafiltration
-description: "Q07 急性心腎症候群的腎臟科角色（Ward / ICU / 門診 decompensation） -- CKM Syndrome 心腎交互臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "Type 1 CRS（acute HF → AKI）腎臟科何時介入？涵蓋 functional Cr rise vs true AKI 鑑別、aggressive decongestion 的腎安全邊界、UF/KRT 啟動時機與住院藥物續用規則。"
 quick_answer: ""
 seo_title: "Q07 急性心腎症候群的腎臟科角色（Ward / ICU / 門診 decompensation） | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# 急性心腎症候群的腎臟科角色
 
 **臨床問題**
 

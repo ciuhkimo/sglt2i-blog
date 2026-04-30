@@ -19,8 +19,6 @@ target_keywords:
 schema: FAQPage, MedicalWebPage
 ---
 
-# 洗腎後還有性生活嗎？為什麼腎友的性健康值得被正視
-
 ## 一句話回答
 
 **重點摘要**

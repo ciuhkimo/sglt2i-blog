@@ -17,12 +17,10 @@ tags:
   - STOP-ACEi
   - ACHIEVE
   - RENAL-LIFECYCLE
-description: "Q12 eGFR <20 的 CKM 藥物策略（Advanced CKD） -- CKM Syndrome 整合藥物策略臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "eGFR 接近或低於 20 時，哪些 CKM 藥物應續用、哪些不該 reflex 停藥、哪些不宜新起始？SGLT2i、finerenone、GLP-1 RA 在 advanced CKD 的分層使用策略。"
 quick_answer: "1. RASi 不應因 eGFR 掉到 <20 或 <30 就自動停。 STOP-ACEi 並未顯示停藥可改善 3 年 eGFR；次分析甚至提示停藥組 kidney failure / KRT 風險較高。[1,2] KDIGO 2024 也明確寫到：eGFR 降到 <30 不是停 ACEi/ARB 的理由；真正考慮減停藥的是 symptomatic hypotension、無法控制的高血鉀，或為減"
 seo_title: "Q12 eGFR <20 的 CKM 藥物策略（Advanced CKD） | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# eGFR <20 的 CKM 藥物策略（查核修訂版）
 
 **臨床問題**
 

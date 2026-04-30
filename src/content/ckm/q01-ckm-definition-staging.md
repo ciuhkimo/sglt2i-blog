@@ -9,18 +9,17 @@ next_review: 2027-04-22
 tags:
   - CKM-syndrome
   - cardiorenal-metabolic
+  - 心腎代謝症候群
   - decision-note
   - staging
   - AHA-2023
   - KDIGO-2024
   - PREVENT
   - ADA-2026
-description: "Q01 CKM Syndrome 定義與分期（查核修訂版） -- CKM Syndrome 定義與識別臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "CKM Syndrome（心腎代謝症候群）是什麼？AHA 2023 Stage 0-4 分期如何在腎臟科門診操作化？與 KDIGO CKD CGA 分類如何整合？本文拆解定義、分期邏輯與臨床決策差異。"
 quick_answer: ""
-seo_title: "Q01 CKM Syndrome 定義與分期（查核修訂版） | CKM Syndrome 腎臟科臨床決策"
+seo_title: "CKM Syndrome 心腎代謝症候群定義與分期（查核修訂版） | 腎臟科臨床決策"
 ---
-
-# CKM Syndrome 定義與分期
 
 **臨床問題**
 

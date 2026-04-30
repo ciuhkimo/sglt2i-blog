@@ -20,8 +20,6 @@ target_keywords:
 schema: FAQPage, MedicalWebPage
 ---
 
-# 腎移植後多久可以恢復性生活？
-
 ## 一句話回答
 
 多數人在腎移植手術後 **4-6 週**，傷口癒合穩定、醫師評估沒問題後就可以恢復性生活。

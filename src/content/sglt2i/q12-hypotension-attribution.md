@@ -149,8 +149,8 @@ tags:
 - **Clinical Relevance**: ★★★★☆（重要臨床問題，但決策相對清晰）
 
 ## 相關筆記
-[Q13-Polyuria-Dehydration/decision-note](/sglt2i/q13-polyuria-dehydration)
-[Q14-Acute-Illness-Hold/decision-note](/sglt2i/q14-acute-illness-hold)
+[Q13-Polyuria-Dehydration/decision-note](/sglt2i/q13-polyuria-dehydration/)
+[Q14-Acute-Illness-Hold/decision-note](/sglt2i/q14-acute-illness-hold/)
 
 ---
 

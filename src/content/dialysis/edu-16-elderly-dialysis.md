@@ -8,9 +8,8 @@ sources:
   - "PPD Ch42"
 last_updated: 2026-04-07
 tags: [透析, 護理, 衛教, 老年, 衰弱]
+description: "老年透析病人的衰弱評估、跌倒預防、保守治療選擇與預立醫療照護計畫。涵蓋 frailty scoring 與跨團隊溝通實務。"
 ---
-
-# 老年透析病人的特殊考量
 
 ## 學習目標
 

@@ -19,12 +19,10 @@ tags:
   - resmetirom
   - semaglutide
   - hepato-renal
-description: "Q09 MASLD/MASH 與 CKD 的腎臟科共管 -- CKM Syndrome 代謝腎交互臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "CKD 病人 MASLD/MASH 的 case-finding 流程、FIB-4 vs elastography 選擇、透析 FibroScan 陷阱，以及 SGLT2i、semaglutide、finerenone、resmetirom 的跨器官排序策略。"
 quick_answer: "> 1. 不是所有 CKD 都該篩肝；是 CKD + metabolic/liver signal 才該進 MASLD fibrosis pathway。"
 seo_title: "Q09 MASLD/MASH 與 CKD 的腎臟科共管 | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# MASLD/MASH 與 CKD 的腎臟科共管
 
 **臨床問題**
 

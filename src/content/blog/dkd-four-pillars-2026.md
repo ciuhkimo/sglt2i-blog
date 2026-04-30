@@ -4,7 +4,7 @@ description: "糖尿病腎臟病（DKD）的四柱療法整合指南。涵蓋 AC
 category: "臨床整合"
 target_audience: "腎臟科醫師、內分泌科醫師、一般內科醫師"
 last_updated: 2026-04-20
-tags: [DKD, four-pillars, SGLT2i, GLP-1RA, finerenone, ACEi, ARB, KDIGO, ADA, 台灣, 健保]
+tags: [DKD, four-pillars, SGLT2i, GLP-1RA, finerenone, Kerendia, ACEi, ARB, KDIGO, ADA, 台灣, 健保, 福適佳, 恩排糖, 善纖達, 易週糖, 穩糖優]
 seo_title: "DKD 四柱療法完整指南：SGLT2i、Finerenone、GLP-1 RA 排序與台灣實務（2026）"
 ---
 

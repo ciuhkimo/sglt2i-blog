@@ -8,6 +8,7 @@ sources:
   - "PPD Ch24"
 last_updated: 2026-04-07
 tags: [透析, 護理, 衛教, CKD-MBD, 鈣磷, 副甲狀腺]
+description: "CKD-MBD 的鈣磷平衡管理：磷結合劑選擇、維他命 D 類似物、calcimimetics 使用、血管鈣化預防與骨病變辨識。"
 ---
 
 

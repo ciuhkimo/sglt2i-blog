@@ -18,12 +18,10 @@ tags:
   - IgAN
   - pipeline
   - fact-check
-description: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finerenone 擴展）—查核修訂版 -- CKM Syndrome 整合藥物策略臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "2022-2026 重塑 CKM 版圖的新治療（tirzepatide、atrasentan、baxdrostat、finerenone 擴展適應症）：核准狀態、證據分層、腎臟科使用情境與台灣可近性。"
 quick_answer: ""
 seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finerenone 擴展）—查核修訂版 | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# CKM 新興治療（查核修訂版）
 
 **臨床問題**
 

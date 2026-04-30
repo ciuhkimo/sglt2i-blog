@@ -16,12 +16,10 @@ tags:
   - ASCVD
   - biomarkers
   - CAC
-description: "Q14 CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker）— 查核修正版 -- CKM Syndrome 風險與預後臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "傳統 CV risk calculator 在 CKD 常失準。整合 KDIGO 2024 heat map、AHA PREVENT、CAC 評分與心臟 biomarker，建立腎臟科可操作的 CV 風險分層流程。"
 quick_answer: "1. 先用 KDIGO 2024 的 CGA / heat map 定位，再決定要不要進 calculator。"
 seo_title: "Q14 CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker）— 查核修正版 | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# CKD 的 CV 風險分層
 
 **臨床問題**
 

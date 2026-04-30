@@ -15,12 +15,10 @@ tags:
   - decongestion
   - pseudo-WRF
   - VExUS
-description: "Q03 Cardiorenal Syndrome 分型（Type 1-5） -- CKM Syndrome 心腎交互臨床決策筆記，整合 AHA/KDIGO 指引與台灣實務。"
+description: "Ronco Type 1-5 Cardiorenal Syndrome 的臨床決策差異、急性與慢性區分、functional Cr rise vs true WRF 的判讀，以及何時需要升級處置。"
 quick_answer: ""
 seo_title: "Q03 Cardiorenal Syndrome 分型（Type 1-5） | CKM Syndrome 腎臟科臨床決策"
 ---
-
-# Cardiorenal Syndrome 分型（Type 1-5）
 
 **臨床問題**
 

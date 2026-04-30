@@ -182,10 +182,10 @@ CKD stage 4（eGFR 20–30）患者是腎臟科臨床的主要族群。過去因
   - CKD stage 4 是臨床主要族群，SGLT2i 啟用決策直接影響腎衰竭時程
 
 ## 相關筆記
-[Q01: CKD 病人何時應開始 SGLT2 inhibitor？](/sglt2i/q01-ckd-start-timing)
-[Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/sglt2i/q02-nondm-ckd)
-[Q03: 蛋白尿程度對 SGLT2 inhibitor 治療效益的影響](/sglt2i/q03-proteinuria-impact)
-[Q11: eGFR Decline Acceptable](/sglt2i/q11-egfr-decline-acceptable)
+[Q01: CKD 病人何時應開始 SGLT2 inhibitor？](/sglt2i/q01-ckd-start-timing/)
+[Q02: 非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？](/sglt2i/q02-nondm-ckd/)
+[Q03: 蛋白尿程度對 SGLT2 inhibitor 治療效益的影響](/sglt2i/q03-proteinuria-impact/)
+[Q11: eGFR Decline Acceptable](/sglt2i/q11-egfr-decline-acceptable/)
 
 ---
 

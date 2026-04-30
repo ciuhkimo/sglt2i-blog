@@ -13,10 +13,16 @@ tags:
   - PDE5i
   - sildenafil
   - tadalafil
+  - 威而鋼
+  - 犀利士
   - medication-review
+seo_title: "透析病人 PDE5i 處方指引：sildenafil（威而鋼）與 tadalafil（犀利士）在洗腎的劑量調整"
+meta_description: "透析男性 ED 可以用威而鋼（sildenafil）或犀利士（tadalafil）嗎？本文整理 RCT 證據、腎功能劑量調整、nitrate 禁忌、透析排除率與處方前評估框架。"
+target_keywords:
+  - 洗腎 威而鋼
+  - 透析 PDE5i
+  - 犀利士 腎功能
 ---
-
-# Decision Note: PDE5i 處方與 Medication Review——透析男性 ED 的藥物治療
 
 > 本文為以 RCT、product label 與 pharmacokinetic data 為基礎的**透析男性 PDE5i 處方與 medication review 框架**。目前無任何腎臟學會發布透析專屬的 PDE5i 處方建議或 medication review 指引。
 
