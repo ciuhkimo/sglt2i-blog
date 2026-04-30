@@ -2,10 +2,10 @@
 question_id: "Q08"
 title: "Finerenone 用藥期間 K 與腎功能監測頻率"
 category: "監測管理"
-version: "v1.1"
+version: "v1.2"
 status: "查核修訂版"
-last_updated: 2026-04-19
-next_review: 2027-04-19
+last_updated: 2026-04-30
+next_review: 2027-04-30
 tags: [finerenone, monitoring, hyperkalemia, eGFR, decision-note]
 description: "Finerenone 使用期間 K 與 eGFR 的最佳監測頻率，包含 label-based 最低要求、KDIGO/trial-derived 預設節奏、高風險病人調整與台灣門診落地策略。"
 quick_answer: "最低安全要求：baseline 抽 K + eGFR，起始後 4 週必追，重啟/加量後 4 週再追。實務預設節奏：1 個月、4 個月、其後每 4 個月。高風險病人應在前 4 週內加做至少一次額外檢驗。不要因合併 SGLT2i 就放鬆監測。"
@@ -89,6 +89,51 @@ seo_title: "Finerenone 監測頻率｜K 與 eGFR 追蹤時間表"
 
 ---
 
+## 啟動初期 eGFR dip 的解讀（v1.2 新增）
+
+Cherney / Alicic / Bonaca 於 2026 年 *Mayo Clin Proc* 發表跨類別整合性 review（PMID 42017862），確立 finerenone 啟動後的 eGFR 下降應與 RASi、SGLT2i、GLP-1 RA **以同一框架解讀**。
+
+### 預期幅度
+
+| 來源 | 預期 dip |
+|---|---|
+| **Cherney 2026** | finerenone 平均 **−2 to −3 mL/min/1.73 m²**；通常於 3 個月內穩定 |
+| **FIDELIO/FIGARO post-hoc** | 與上述一致 |
+
+### 判讀框架（同 SGLT2i Q10 三步驟）
+
+**Step 1：時間關係**
+- 啟動後 **<3 個月**內出現 → 優先考慮 hemodynamic dip
+- 穩定後才出現 → 應排除 AKI 誘因（脫水、NSAID、感染、造影劑等）
+
+**Step 2：下降幅度**
+
+| eGFR 下降 | 判讀 | 操作 |
+|---|---|---|
+| <30% | 預期生理性 dip | **不停藥**（前提：K 在可控範圍）|
+| ≥30% | 超出預期 | 評估其他原因；若無法解釋則考慮暫停 |
+
+**Step 3：排除其他原因 + K 評估**
+- finerenone 的特殊性在於同時要看 **K**——dip <30% 但 K >5.5 仍應依劑量規則暫停
+- 與 SGLT2i 不同：SGLT2i 的 dip 評估只看 eGFR；finerenone 必須 **eGFR + K 兩者並看**
+
+### 重要的延伸觀察
+
+> **Early dip 與 long-term renal benefit 呈正相關**——FIDELITY post-hoc 顯示，啟動後出現 early dip 的病人，**長期腎臟結局反而較好**（dip 是預期的 hemodynamic 反應，非腎損傷）。
+
+### 操作含意
+
+- 啟動後 4 週首次回查時，**dip <30%、K 可控** → 維持劑量、按照預設節奏繼續監測
+- 不要把 dip 歸因於單一藥物（特別是合併 SGLT2i 的病人）——這是跨類別共通的 hemodynamic 反應
+- 核心原則：**「treat the cause, not the eGFR number alone」**
+
+### 與其它頁面銜接
+
+- 詳細的鑑別診斷三步驟與 NGAL/KIM-1 輔助參考：[SGLT2i Q10 — Creatinine Dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/)
+- 急性場景下的 WRF / pseudo-WRF：[CKM Q07 — 急性心腎症候群](/ckm/q07-acute-cardiorenal-role/)
+
+---
+
 ## 起始前必查清單
 
 - [ ] Serum K ≤5.0 mmol/L（若 >4.8-5.0，前 4 週需額外監測）
@@ -122,6 +167,7 @@ seo_title: "Finerenone 監測頻率｜K 與 eGFR 追蹤時間表"
   5. Agarwal R, et al. J Am Soc Nephrol. 2022. PMID: 34732509.
   6. Agarwal R, et al. N Engl J Med. 2025. PMID: 40470996.
   7. Agarwal R, et al. PMID: 41493296.
+  8. Cherney DZI, Alicic RZ, Bonaca MP. Acute Estimated Glomerular Filtration Rate Decline After Initiation of Therapies That Slow Kidney Disease Progression: Clinical Practice Implications. *Mayo Clin Proc*. 2026. PMID: 42017862.
 
 ---
 

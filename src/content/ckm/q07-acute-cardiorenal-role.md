@@ -2,10 +2,10 @@
 question_id: "Q07"
 title: "急性心腎症候群的腎臟科角色（Ward / ICU / 門診 decompensation）"
 category: "心腎交互"
-version: "v1.1"
+version: "v1.2"
 status: "查核修訂版"
-last_updated: 2026-04-22
-next_review: 2027-04-22
+last_updated: 2026-04-30
+next_review: 2027-04-30
 tags:
   - CKM-syndrome
   - cardiorenal-metabolic
@@ -85,6 +85,24 @@ seo_title: "Q07 急性心腎症候群的腎臟科角色（Ward / ICU / 門診 de
 - **Spot urine Na 50–70 mmol/L** 是 **expert consensus / pragmatic response target**，不是絕對切點。[11,28]
 - **NGAL / KIM-1 / TIMP-2·IGFBP7** 目前可作 research / selected adjunct，**不是** acute cardiorenal ward/ICU 的 routine discriminator。[10,11]
 - **FeUrea、BUN/Cr ratio** 在 acute HF + loop diuretic 情境下的鑑別價值有限，本版不再把它們寫成主要判斷依據。
+
+#### ⚠️ 不要混淆兩種「creatinine rise」情境（v1.2 補充）
+
+實務上臨床醫師最容易混淆兩種看似相似但機轉不同的場景：
+
+| 情境 | 主要機轉 | 典型場景 | 管理原則 | 對應證據 |
+|---|---|---|---|---|
+| **A. 急性去充血中的 functional Cr rise**（本題重點） | filling pressure 下降 → renal perfusion pressure 改善過程中的 transient rise | acute HF 住院、aggressive diuresis 期間 | 持續去充血、不停藥、看 congestion trajectory | DOSE / ROSE-AHF / ADVOR / CLOROTIC |
+| **B. 啟動藥物期 hemodynamic dip**（不是急性 WRF）| 啟動 RASi / SGLT2i / finerenone / GLP-1 RA 後的 glomerular hypertension 緩解 | 門診穩定病人加 first-line CKM 藥物時 | <30% 不停藥、4 週後複查 | Cherney/Alicic/Bonaca 2026 *Mayo Clin Proc*（PMID 42017862）|
+
+**為什麼要分開**：
+- 情境 A 發生在**急性失代償住院期**，必須結合 congestion trajectory + diuretic response 判讀，不能單看 creatinine 數字
+- 情境 B 發生在**穩定門診開始新藥**時，主要看 dip 幅度（<30% vs ≥30%）+ 排除其他 AKI 誘因
+- 兩者都不應 routine 因為 creatinine 上升就停藥，但**判讀框架不同**
+
+**Cherney 2026 的跨類別共識**：啟動 RASi、SGLT2i、finerenone、GLP-1 RA 後 eGFR dip <30% 是預期 hemodynamic 反應，不需停藥；early dip 與 long-term renal benefit **正相關**。詳見：
+- [SGLT2i Q10 — Creatinine Dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/)（三步驟鑑別框架）
+- [Finerenone Q08 — 監測頻率](/finerenone/q08-monitoring-frequency/)（finerenone-specific dip 解讀）
 
 ### 3) Landmark trials — Decongestion
 

@@ -2,9 +2,9 @@
 question_id: Q10
 title: "Creatinine Dip vs AKI 如何判讀？"
 category: "監測判讀 (Monitoring)"
-version: "v1.5"
+version: "v1.6"
 status: 已定稿
-last_updated: 2026-04-04
+last_updated: 2026-04-30
 next_review: 2026-09-17
 seo_title: "SGLT2i 後肌酸酐上升：生理性 dip 還是 AKI？"
 description: "SGLT2i 啟用後 eGFR 下降 3-5 是預期的血流動力學效應，非真正腎損傷。本文提供三步驟鑑別框架，區分生理性 creatinine dip 與 AKI，避免不必要停藥。"
@@ -116,6 +116,29 @@ eGFR 下降幅度？              → 尋找其他 AKI 誘因
 
 ---
 
+## 跨類別共識（v1.6 補充）
+
+2026 年 *Mayo Clin Proc* 發表 Cherney / Alicic / Bonaca 之整合性 review（PMID 42017862），確立「啟動初期 eGFR dip <30% 不停藥」**不是 SGLT2i 獨有原則**，而是橫跨四類藥物的跨類別共識：
+
+| 藥物類別 | Cherney 2026 立場 | 與本題既有論述關係 |
+|---|---|---|
+| **RASi（ACEi/ARB）** | dip 為 hemodynamic-mediated，<30% 不需停藥 | 與經典 ACEi/ARB 啟動原則一致 |
+| **SGLT2i** | dip 為 hemodynamic-mediated，<30% 不需停藥 | ✅ 與本題三步驟框架完全一致 |
+| **Finerenone（nsMRA）** | 平均 dip −2 to −3 mL/min/1.73 m²；<30% 不需停藥 | 詳見 [Finerenone Q08](/finerenone/q08-monitoring-frequency/) |
+| **GLP-1 RA** | dip 較不顯著但同原則 | — |
+
+### 重要的延伸觀察
+
+> **Early dip 與 long-term renal benefit 呈正相關**——FIDELITY 與 FINEARTS-HF 數據顯示，啟動後出現 early dip 的患者，**長期腎保護效益反而較大**。這支持「dip 是預期生理反應、非腎損傷」的詮釋立場。
+
+### 操作含意
+
+- 對於同時使用 SGLT2i + RASi（甚至 + finerenone）的病人，**不要把 dip 歸因到單一藥物**——這是跨類別共通的 hemodynamic 反應
+- Cherney 等人提出的核心原則：**「treat the cause, not the eGFR number alone」**——應排除 hyperK、AKI 誘因（脫水、NSAID、造影劑）後再判斷
+- 此立場與 KDIGO 2024 + KDIGO 2026 HF/CKD Controversies Conference（PMID 41793402）一致
+
+---
+
 ## Uncertainty
 
 ### 已知的不確定性
@@ -138,7 +161,7 @@ eGFR 下降幅度？              → 尋找其他 AKI 誘因
 
 ## Metadata
 - **Certainty Level**: High（大型 RCT 資料一致支持）；NGAL/KIM-1 鑑別用途 Low（缺乏 SGLT2i-specific 驗證）
-- **Evidence Sources**: EMPA-REG OUTCOME post hoc analysis、EMPA-KIDNEY、DAPA-CKD prespecified post hoc analysis（NCT03036150）、Kidney360 機制綜述、CTR 2025 65,606 人 AKI meta-analysis、Empagliflozin IPD Meta-Analysis Lancet DE 2025、Renal Failure 2025 AKI 生物標記 SR
+- **Evidence Sources**: EMPA-REG OUTCOME post hoc analysis、EMPA-KIDNEY、DAPA-CKD prespecified post hoc analysis（NCT03036150）、Kidney360 機制綜述、CTR 2025 65,606 人 AKI meta-analysis、Empagliflozin IPD Meta-Analysis Lancet DE 2025、Renal Failure 2025 AKI 生物標記 SR、Cherney/Alicic/Bonaca 2026 Mayo Clin Proc 跨類別整合 review（PMID 42017862）
 - **Guideline Concordance**: KDIGO 2024 官方文本直接支持：(1) reversible dip 不是停藥理由 + 不需增加監測頻率；(2) hemodynamically active therapy 啟動後 eGFR >30% 超過預期變異、應評估其他原因——兩者均為 KDIGO 官方原文；ADA 2026 / ESC 2023 的精確原句尚未逐字核實，方向一致
 - **Clinical Relevance**: ★★★★★（腎臟科日常最高頻臨床問題之一）
 
