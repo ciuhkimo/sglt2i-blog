@@ -1,0 +1,96 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead title={`隱私權政策 | ${SITE_TITLE}`} description="Nephro Decisions 隱私權政策：說明本站如何處理訪客資料、使用 Google Analytics、Buttondown 電子報訂閱與 Cookie。" />
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+			h1 {
+				font-size: 2em;
+				margin-bottom: 0.5em;
+			}
+			.lead {
+				color: rgb(var(--gray));
+				margin-bottom: 2em;
+			}
+			h2 {
+				font-size: 1.3em;
+				margin-top: 2em;
+				margin-bottom: 0.5em;
+				border-left: 4px solid var(--accent);
+				padding-left: 0.5em;
+			}
+			ul {
+				padding-left: 1.5em;
+			}
+			li {
+				margin-bottom: 0.4em;
+			}
+			.meta {
+				margin-top: 3em;
+				padding-top: 1em;
+				border-top: 1px solid rgb(var(--gray-light));
+				font-size: 0.85em;
+				color: rgb(var(--gray));
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main id="main-content">
+			<h1>隱私權政策</h1>
+			<p class="lead">本頁說明 Nephro Decisions（nephrodecisions.com）如何處理訪客資料。本站不收集個人健康資訊、不販售資料、不投放廣告。</p>
+
+			<h2>我們收集什麼</h2>
+			<p>本站<strong>不要求註冊、不收集姓名、不收集病歷或健康資訊</strong>。訪客可在不提供任何個人資料的情況下閱讀所有內容。</p>
+
+			<h2>Google Analytics</h2>
+			<p>本站使用 Google Analytics 4（GA4，追蹤 ID：G-Y6L20JKVXJ）分析匿名化的訪客行為，包括頁面瀏覽量、停留時間、流量來源與裝置類型。</p>
+			<ul>
+				<li>GA4 <strong>不收集</strong>可識別個人身分的資訊</li>
+				<li>IP 位址由 Google 匿名化處理</li>
+				<li>資料用於了解哪些內容對讀者有用，以改善內容品質</li>
+				<li>你可以透過安裝 <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out Browser Add-on</a> 停用追蹤</li>
+			</ul>
+
+			<h2>電子報訂閱（Buttondown）</h2>
+			<p>若你選擇訂閱電子報，你提供的 email 地址會由第三方服務 <a href="https://buttondown.com" target="_blank" rel="noopener">Buttondown</a> 儲存與處理。</p>
+			<ul>
+				<li>你的 email <strong>僅用於寄送本站電子報</strong>，不會轉售或分享給第三方</li>
+				<li>每封電子報底部都有取消訂閱連結，一鍵即可退訂</li>
+				<li>Buttondown 的隱私權政策請參考 <a href="https://buttondown.com/legal/privacy" target="_blank" rel="noopener">Buttondown Privacy Policy</a></li>
+			</ul>
+
+			<h2>Cookie</h2>
+			<p>本站本身不設定 cookie。Google Analytics 會透過第一方 cookie 辨識回訪者（匿名），不涉及個人身分識別。本站不使用廣告 cookie、不追蹤跨站行為。</p>
+
+			<h2>第三方連結</h2>
+			<p>文章中可能包含指向 PubMed、ClinicalTrials.gov、KDIGO、FDA、健保署等外部網站的連結。點擊後適用該網站的隱私權政策，本站不負責其資料處理方式。</p>
+
+			<h2>兒童隱私</h2>
+			<p>本站內容為醫療專業人員與成年病人設計，不針對 16 歲以下兒童收集資料。</p>
+
+			<h2>變更通知</h2>
+			<p>若本政策有重大變更，會在本頁更新日期中反映。持續使用本站即表示同意當前版本的隱私權政策。</p>
+
+			<h2>聯絡方式</h2>
+			<p>隱私相關問題請來信：<a href="mailto:cayman.schools.2@icloud.com">cayman.schools.2@icloud.com</a></p>
+
+			<div class="meta">
+				最後更新：2026-04-22 ｜ <a href="/editorial-policy/">編輯方針</a> ｜ <a href="/disclaimer/">醫療免責聲明</a>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

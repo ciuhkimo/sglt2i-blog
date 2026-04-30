@@ -1,0 +1,104 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead title={`醫療免責聲明 | ${SITE_TITLE}`} description="Nephro Decisions 醫療免責聲明：本站內容為臨床教育與決策輔助用途，不構成醫療建議，不建立醫病關係。" />
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+			h1 {
+				font-size: 2em;
+				margin-bottom: 0.5em;
+			}
+			.lead {
+				color: rgb(var(--gray));
+				margin-bottom: 2em;
+			}
+			h2 {
+				font-size: 1.3em;
+				margin-top: 2em;
+				margin-bottom: 0.5em;
+				border-left: 4px solid var(--accent);
+				padding-left: 0.5em;
+			}
+			.highlight {
+				background: #fef9ef;
+				border-left: 4px solid #e6a817;
+				padding: 1em 1.2em;
+				border-radius: 0 6px 6px 0;
+				margin: 1.5em 0;
+				line-height: 1.7;
+			}
+			ul {
+				padding-left: 1.5em;
+			}
+			li {
+				margin-bottom: 0.4em;
+			}
+			.meta {
+				margin-top: 3em;
+				padding-top: 1em;
+				border-top: 1px solid rgb(var(--gray-light));
+				font-size: 0.85em;
+				color: rgb(var(--gray));
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main id="main-content">
+			<h1>醫療免責聲明</h1>
+			<p class="lead">請在使用本站內容前詳閱以下聲明。</p>
+
+			<div class="highlight">
+				<strong>本站內容僅供臨床教育與決策輔助用途，不構成醫療建議，不建立醫病關係，不能取代您的主治醫師的個別化臨床判斷。</strong>
+			</div>
+
+			<h2>用途與限制</h2>
+			<ul>
+				<li>本站內容設計給<strong>腎臟科醫師、內科醫師、護理人員</strong>作為臨床決策參考，以及<strong>病人與家屬</strong>作為衛教輔助</li>
+				<li>所有內容基於發布時可取得的最佳證據，但醫學知識持續更新，本站無法保證所有資訊在您閱讀時仍為最新</li>
+				<li>每篇文章標註版本號與最後更新日期，供讀者自行評估時效性</li>
+			</ul>
+
+			<h2>不構成醫療建議</h2>
+			<ul>
+				<li>本站內容<strong>不能取代</strong>面對面的醫師診察、檢查與個別化治療計畫</li>
+				<li>閱讀本站內容<strong>不建立醫病關係</strong></li>
+				<li>病人若有具體醫療問題，應諮詢主治醫師或就近就醫</li>
+				<li>請勿根據本站內容自行開始、停止或調整任何藥物</li>
+			</ul>
+
+			<h2>藥物資訊</h2>
+			<ul>
+				<li>藥物資訊來自各國監管機關核准的仿單（FDA、EMA、TFDA）、PubMed 文獻與國際指引</li>
+				<li>台灣健保給付條件引用自健保署公告原文，但條件可能隨時變更</li>
+				<li>實際處方應由具處方權的醫師根據病人個別狀況判斷</li>
+			</ul>
+
+			<h2>AI 使用</h2>
+			<p>本站使用 AI 工具輔助文獻搜尋與初稿整理，但<strong>所有臨床判斷與最終內容由腎臟科專科醫師審閱與拍板</strong>。詳細流程請參考<a href="/editorial-policy/">編輯方針</a>。</p>
+
+			<h2>緊急狀況</h2>
+			<p>若您或您的病人正在經歷醫療緊急狀況，請<strong>立即撥打 119 或前往最近的急診</strong>，不要花時間查閱本站。</p>
+
+			<h2>責任限制</h2>
+			<p>在法律允許的最大範圍內，本站作者與營運方不對因使用或依賴本站內容所導致的任何直接或間接損害負責。</p>
+
+			<div class="meta">
+				最後更新：2026-04-22 ｜ <a href="/editorial-policy/">編輯方針</a> ｜ <a href="/privacy/">隱私權政策</a> ｜ <a href="/about/">關於本站</a>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>
