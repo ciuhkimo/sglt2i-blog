@@ -1,0 +1,95 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead title={`無障礙聲明 | ${SITE_TITLE}`} description="Nephro Decisions 無障礙聲明：本站致力於讓所有讀者（包括視障、聽障、運動障礙與認知障礙者）都能取用腎臟科臨床決策資源。" />
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+			h1 {
+				font-size: 2em;
+				margin-bottom: 0.5em;
+			}
+			.lead {
+				color: rgb(var(--gray));
+				margin-bottom: 2em;
+			}
+			h2 {
+				font-size: 1.3em;
+				margin-top: 2em;
+				margin-bottom: 0.5em;
+				border-left: 4px solid var(--accent);
+				padding-left: 0.5em;
+			}
+			ul {
+				padding-left: 1.5em;
+			}
+			li {
+				margin-bottom: 0.4em;
+			}
+			.meta {
+				margin-top: 3em;
+				padding-top: 1em;
+				border-top: 1px solid rgb(var(--gray-light));
+				font-size: 0.85em;
+				color: rgb(var(--gray));
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main id="main-content">
+			<h1>無障礙聲明</h1>
+			<p class="lead">Nephro Decisions 致力於讓所有讀者——包括視覺障礙、聽覺障礙、運動障礙與認知障礙者——都能取用本站的腎臟科臨床決策資源。</p>
+
+			<h2>我們的承諾</h2>
+			<p>本站以 <strong>WCAG 2.1 Level AA</strong> 為目標標準，並持續改善。我們的讀者群包括糖尿病視網膜病變、中風後遺症、高齡衰弱等患者——這些族群對腎臟科資訊的需求最高，也最需要無障礙設計。</p>
+
+			<h2>已採取的措施</h2>
+			<ul>
+				<li><strong>鍵盤導覽</strong>：主要功能（導覽列、文章閱讀、訂閱、列印）皆可透過鍵盤操作，導覽列 dropdown 支援 Enter / Arrow / Escape 鍵盤控制</li>
+				<li><strong>跳至主要內容</strong>：頁面頂部提供 skip link，按 Tab 即可跳過導覽列</li>
+				<li><strong>語義化 HTML</strong>：正確使用 <code>&lt;main&gt;</code>、<code>&lt;nav&gt;</code>、<code>&lt;article&gt;</code>、<code>&lt;header&gt;</code>、<code>&lt;footer&gt;</code> 等 landmark 元素</li>
+				<li><strong>標題層級</strong>：每頁僅一個 H1，標題按序不跳級</li>
+				<li><strong>表單標籤</strong>：所有表單欄位（如訂閱信箱）附有 <code>&lt;label&gt;</code> 和 <code>aria-label</code></li>
+				<li><strong>表格表頭</strong>：資料表格使用 <code>&lt;th scope&gt;</code> 屬性，螢幕閱讀器可正確導覽</li>
+				<li><strong>Focus 指示</strong>：鍵盤焦點有清晰可見的 outline 樣式</li>
+				<li><strong>色彩對比</strong>：文字色、主色與各區塊背景的對比度以 WCAG AA 4.5:1 為目標，使用工具計算驗證並持續修正</li>
+				<li><strong>純文字為主</strong>：本站以文字內容為核心，不依賴圖片或影音傳遞醫療資訊</li>
+				<li><strong>列印友善</strong>：每篇文章可列印或存為 PDF，列印版自動隱藏導覽元素</li>
+			</ul>
+
+			<h2>已知限制</h2>
+			<ul>
+				<li>部分 Markdown 渲染的表格可能在複雜版面下需水平滾動</li>
+				<li>OG 預覽圖（社群分享用）目前無替代文字，但這些圖片不出現在網頁內容中</li>
+				<li>部分外部連結（PubMed、ClinicalTrials.gov）的無障礙品質不在本站控制範圍</li>
+			</ul>
+
+			<h2>回報問題</h2>
+			<p>如果您在使用本站時遇到無障礙問題，請來信 <a href="mailto:cayman.schools.2@icloud.com">cayman.schools.2@icloud.com</a>，說明您遇到的障礙、使用的輔助技術（螢幕閱讀器、放大軟體等）與受影響的頁面。我們會盡快回覆並改善。</p>
+
+			<h2>評估方式</h2>
+			<ul>
+				<li>使用 Chrome Lighthouse Accessibility 自動掃描</li>
+				<li>手動鍵盤導覽測試</li>
+				<li>色彩對比度檢查工具</li>
+			</ul>
+
+			<div class="meta">
+				最後更新：2026-04-23 ｜ <a href="/editorial-policy/">編輯方針</a> ｜ <a href="/privacy/">隱私權政策</a> ｜ <a href="/disclaimer/">醫療免責聲明</a>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

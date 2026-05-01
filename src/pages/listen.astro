@@ -1,0 +1,176 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead title={`通勤收聽指南 | ${SITE_TITLE}`} description="開車通勤、騎車、搭捷運時如何用聽的複習 Nephro Decisions 的腎臟科臨床決策內容。iOS、Android 內建朗讀與 Pocket、Speechify 設定教學。" />
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+			h1 {
+				font-size: 2em;
+				margin-bottom: 0.5em;
+			}
+			.lead {
+				color: rgb(var(--gray));
+				margin-bottom: 2em;
+				font-size: 1.1em;
+				line-height: 1.7;
+			}
+			h2 {
+				font-size: 1.3em;
+				margin-top: 2.5em;
+				margin-bottom: 0.6em;
+				border-left: 4px solid var(--accent);
+				padding-left: 0.5em;
+			}
+			h3 {
+				font-size: 1.1em;
+				margin-top: 1.5em;
+				margin-bottom: 0.4em;
+				color: var(--accent-dark);
+			}
+			ul, ol {
+				padding-left: 1.5em;
+				line-height: 1.8;
+			}
+			li {
+				margin-bottom: 0.3em;
+			}
+			.warning {
+				background: #fef2e9;
+				border-left: 4px solid #d4913a;
+				padding: 1em 1.2em;
+				border-radius: 0 6px 6px 0;
+				margin: 1.5em 0;
+				line-height: 1.7;
+			}
+			.tip {
+				background: var(--accent-light, #e8f4f0);
+				border-left: 4px solid var(--accent);
+				padding: 1em 1.2em;
+				border-radius: 0 6px 6px 0;
+				margin: 1.5em 0;
+				line-height: 1.7;
+			}
+			code {
+				background: rgb(var(--gray-light));
+				padding: 0.1em 0.4em;
+				border-radius: 3px;
+				font-size: 0.9em;
+			}
+			.meta {
+				margin-top: 3em;
+				padding-top: 1em;
+				border-top: 1px solid rgb(var(--gray-light));
+				font-size: 0.85em;
+				color: rgb(var(--gray));
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main id="main-content">
+			<h1>通勤收聽指南</h1>
+			<p class="lead">
+				開車上下班、騎車、搭捷運時，用「聽」的方式複習 finerenone 的起始時機、KDIGO 2024 新指引、CKM Syndrome 四柱療法。以下整理三種收聽方式，從最簡單到最專業。
+			</p>
+
+			<div class="warning">
+				<strong>⚠️ 安全優先</strong><br />
+				開車時請勿看螢幕、勿操作手機。建議出發前設定好、放入口袋或車載支架。本站內容是臨床決策輔助，不是即時醫療指令，聽錯一次無大礙；但車禍是不可逆的。
+			</div>
+
+			<h2>方式一：用本站內建「🎧 朗讀」按鈕（最快）</h2>
+			<p>每篇 decision note 與 blog 頁面頂部都有 <strong>🎧 朗讀</strong> 按鈕，點一下就開始朗讀整篇。使用裝置的原生 Traditional Chinese 語音。</p>
+			<ul>
+				<li>iOS Safari：音質好（「美嘉」「啟芬」等聲音）</li>
+				<li>Android Chrome：音質普通，建議配合 Pocket 使用</li>
+				<li>按第二次會停止</li>
+				<li>頁面關閉或切換會停止</li>
+			</ul>
+			<p><strong>限制</strong>：需保持瀏覽器頁面開啟；進隧道斷訊無影響（因為文字已載入），但切換 app 可能中斷。</p>
+
+			<h2>方式二：裝置內建朗讀（適合長篇、穩定度高）</h2>
+
+			<h3>iPhone / iPad（推薦給 iOS 使用者）</h3>
+			<ol>
+				<li>設定 → 輔助使用 → 朗讀內容</li>
+				<li>開啟「<strong>朗讀螢幕</strong>」</li>
+				<li>選擇聲音 → 中文 → 選一個繁中聲音（台灣）</li>
+				<li>在網頁上<strong>用兩根手指從螢幕頂端往下滑</strong>，整個頁面會被朗讀</li>
+			</ol>
+			<p>進階：打開「輔助使用 → 旁白捷徑」可用三指點兩下啟動／暫停。</p>
+
+			<h3>Android（推薦給 Android 使用者）</h3>
+			<ol>
+				<li>設定 → 輔助使用 → TalkBack 或 Select-to-Speak</li>
+				<li>開啟 Select-to-Speak（選擇後朗讀）</li>
+				<li>在網頁上選取文字或整個段落 → 點浮動圖示朗讀</li>
+			</ol>
+			<p>或使用 <strong>Google 朗讀</strong>功能：Chrome → 右上選單 → 朗讀此頁。</p>
+
+			<h2>方式三：第三方 App（適合通勤常態使用）</h2>
+
+			<h3>Pocket（免費、推薦）</h3>
+			<p>Pocket 是 Mozilla 出的「稍後閱讀」app，支援離線朗讀。</p>
+			<ol>
+				<li>下載 <a href="https://getpocket.com/" target="_blank" rel="noopener">Pocket</a></li>
+				<li>在瀏覽器分享 → 儲存到 Pocket</li>
+				<li>上車前開 Pocket → 點文章 → 右下「朗讀」圖示</li>
+				<li>支援背景播放、鎖螢幕控制、車載藍牙</li>
+			</ol>
+
+			<h3>Speechify（付費、音質最佳）</h3>
+			<p><a href="https://speechify.com/" target="_blank" rel="noopener">Speechify</a> 的 CJK 音質較 Pocket 自然，支援速度調整（1.5-3x 聽習慣了很快）。免費版有功能限制，付費約 $140 USD/年。</p>
+			<p>適合：每天通勤 30+ 分鐘、對音質敏感、想提高吸收效率的重度使用者。</p>
+
+			<h3>Voice Aloud Reader（Android 免費）</h3>
+			<p><a href="https://play.google.com/store/apps/details?id=com.hyperionics.avar" target="_blank" rel="noopener">Voice Aloud Reader</a> 可直接分享網址給它朗讀，支援背景播放。</p>
+
+			<div class="tip">
+				<strong>💡 車載整合建議</strong><br />
+				把 Pocket 或 Speechify 連到車上藍牙後，就能用方向盤控制鍵「播放／暫停／下一篇」，不用碰手機。Apple CarPlay 與 Android Auto 的第三方 app 支援度越來越好。
+			</div>
+
+			<h2>哪些文章適合「聽」、哪些建議「讀」？</h2>
+
+			<h3>✅ 適合聽</h3>
+			<ul>
+				<li><a href="/blog/">臨床專題</a>：敘事性強、連貫閱讀</li>
+				<li><a href="/sexual-health/">腎友與性</a>：衛教文章多為問答形式</li>
+				<li>橋接文如 <a href="/blog/dkd-four-pillars-2026/">DKD 四柱療法指南</a></li>
+			</ul>
+
+			<h3>⚠️ 建議回家再讀</h3>
+			<ul>
+				<li>Decision notes 中含<strong>大量表格、劑量數字、健保條件</strong>的段落 — 聽會漏</li>
+				<li>需要對照 trial 數據（例如 FIDELIO、DAPA-CKD 的子組分析）的段落</li>
+				<li>需要看 flow chart 的流程決策</li>
+			</ul>
+
+			<h2>醫療內容聽的注意事項</h2>
+			<div class="warning">
+				<strong>⚠️ 劑量與健保條件以文字為準</strong><br />
+				TTS 朗讀可能把 <code>10 mg</code> 讀成含糊的「十毫克」，或把 <code>eGFR</code> 讀成「e 接 fur」。<strong>任何臨床決策請回頭看文字版</strong>，不要依賴聽到的劑量、濃度、商品名發音下處方。
+			</div>
+
+			<h2>你有什麼建議嗎？</h2>
+			<p>如果你通勤時聽本站的經驗有心得，或發現某個 app 特別適合腎臟科內容，歡迎來信 <a href="mailto:cayman.schools.2@icloud.com">cayman.schools.2@icloud.com</a>。未來可能做<strong>預先生成 MP3 + podcast feed</strong>，但現在先用這些輕量方式試試。</p>
+
+			<div class="meta">
+				最後更新：2026-04-23 ｜ <a href="/accessibility/">無障礙聲明</a> ｜ <a href="/editorial-policy/">編輯方針</a>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

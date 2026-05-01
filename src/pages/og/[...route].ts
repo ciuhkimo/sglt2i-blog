@@ -37,6 +37,8 @@ pages['editorial-policy'] = { title: '編輯方針', section: 'Nephro Decisions'
 pages['subscribe'] = { title: '訂閱 Nephro Decisions', section: '每月 25 日一封｜3 分鐘讀完' };
 pages['disclaimer'] = { title: '醫療免責聲明', section: 'Nephro Decisions' };
 pages['privacy'] = { title: '隱私權政策', section: 'Nephro Decisions' };
+pages['accessibility'] = { title: '無障礙聲明', section: 'Nephro Decisions' };
+pages['listen'] = { title: '通勤收聽指南', section: 'Nephro Decisions' };
 
 // Listing / hub pages
 pages['sglt2i'] = { title: 'SGLT2i 決策筆記', section: 'Nephro Decisions' };
