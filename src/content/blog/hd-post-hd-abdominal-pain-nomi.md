@@ -22,6 +22,8 @@ seo_title: "HD 透析後腹痛冒冷汗：NOMI 識別與地區醫院工作流程
 
 ## 為什麼這篇值得讀
 
+> **這篇是我遇到一個 case 後整理的**——所以與其說是教科書，不如說是我下次再遇到會怎麼處理的 SOP。
+
 血液透析病人**洗後腹痛 + 冒冷汗**，是被嚴重低估的臨床警訊。
 
 最常見的反射性歸因是「**脫水太多了**」或「**單純的 IDH**（intradialytic hypotension）」。但這個 presentation 在 HD 族群有一個必須優先警覺的鑑別診斷：
@@ -134,6 +136,8 @@ HD 病人慢性 elevated renin → 基線 angiotensin II-mediated mesenteric vas
 ## ⭐ 5 步驟工作流程（地區醫院可操作版）
 
 > 這是這篇文章的核心 anchor。**不是國際教科書的理想答案，是地區醫院腎臟科可立刻執行的精煉版。**
+>
+> 下面這 5 步是我**現在**會跑的——以前不會這樣，是這個 case 教我的。
 
 ```
 Step 1: EKG + Troponin I
@@ -515,6 +519,8 @@ NOMI 的核心治療不是 surgery（除非 bowel necrosis），而是 **selecti
 3. **BP 從 170 掉到 100/70，在 HD 病人不是治療成功，是警訊。**
 4. **CTA 陰性不能排除 NOMI——它的核心病理是 small vessel vasospasm。**
 5. **Empirical dry weight 上調若改善症狀，反向支持 NOMI 診斷。**
+
+> 以上五句，**前三句是我這個 case 之後才真的記住的**——之前都「知道」，但沒當一回事。
 
 ---
 
