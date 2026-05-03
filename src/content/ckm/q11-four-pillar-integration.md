@@ -2,10 +2,10 @@
 question_id: "Q11"
 title: "CKM 四柱整合策略（RASi + SGLT2i + Finerenone + GLP-1 RA）"
 category: "整合藥物策略"
-version: "v1.1"
+version: "v1.2"
 status: "查核修訂版"
-last_updated: 2026-04-22
-next_review: 2027-04-22
+last_updated: 2026-05-03
+next_review: 2027-05-03
 tags:
   - CKM-syndrome
   - cardiorenal-metabolic
@@ -181,6 +181,51 @@ FLOW 顯示 semaglutide 在 **T2D + CKD** 病人可降低主要腎臟終點：
 - 四柱中的 GLP-1 RA 比較像：
   - **第三或第四步納入**
   - 或在特定 phenotype（obesity / ASCVD / glycemic gap）下提早加入
+
+---
+
+## 5. Mohsen 2026 Algorithm：對抗 clinical inertia 的整合性框架（v1.2 新增）
+
+⭐ **Mohsen et al. 2026 *J Clin Endocrinol Metab*（PMID 41973867）**——多國作者群（Cherney、Marx、Wanner、Persson、Butler 等核心 CKD/T2D 領域）發表的整合性 narrative review，**直接針對「四柱該怎麼用」提出實務演算法**。
+
+### 核心主張
+
+> **「Early combination > slow sequential」**——診斷 DKD 時即可考慮**4 藥同時或快速序貫啟動**，以對抗治療惰性（clinical inertia）。
+
+### 機轉互補性論述
+
+| 機轉軸 | 藥物 | 互補角度 |
+|---|---|---|
+| Hemodynamic（efferent arteriolar）| RASi | 標準地基 |
+| Hemodynamic + metabolic（tubular）| SGLT2i | 與 RASi 機轉部分重疊但又互補 |
+| Anti-inflammatory / anti-fibrotic | Finerenone | **不被 RASi/SGLT2i 涵蓋的機轉** |
+| Metabolic + atheroprotective | GLP-1 RA | 體重、ASCVD、血糖整合 |
+
+→ **四藥機轉互不重疊**——這是 Mohsen 框架的核心論點：理論上有 **additive cardiorenal protection**。
+
+### Mohsen 算法實務上要怎麼用
+
+| 該寫的 | 不該寫的 |
+|---|---|
+| ✅ 為「**早期合併治療對抗 clinical inertia**」的論述背書 | ❌ 「四藥同步啟動已被 RCT 證實 mortality benefit」（**沒有**這樣的試驗）|
+| ✅ 與 CONFIDENCE 互補：CONFIDENCE 給 simultaneous 雙藥可行性，Mohsen 給整體框架 | ❌ 把 Mohsen algorithm 寫成 guideline-level recommendation |
+| ✅ 對 phenotype 高殘餘風險病人是合理 framing | ❌ 套用到所有 DKD / CKD 病人 |
+| ✅ 提醒「副作用管理 ≠ 啟動禁忌」 | ❌ 忽略台灣健保 / 取得限制的真實考量 |
+
+### 評估
+
+- **Oxford CEBM**: Level 5（expert opinion narrative review with proposed algorithm）
+- **GRADE certainty**: Moderate（algorithm 基礎為多個 high-quality RCT，但 head-to-head sequencing 證據仍少）
+- **Bias risk**: Some concerns（多位作者具有 industry tie；narrative 而非 systematic review）
+
+### 對台灣 CKM 四柱實務的補充
+
+Mohsen 算法是**國際視角**——其建議的「快速序貫」在台灣會撞上：
+- **健保 finerenone 給付仍未明朗**（多為自費）
+- **GLP-1 RA 健保仍綁不得與 SGLT2i 併用**
+- **多藥自費負擔**對病人是真實壓力
+
+→ 我們在台灣可以**接受 Mohsen 的 framing（早期合併 > 緩慢序貫）**，但**實際路徑要結合健保/自費現況**（見下方「台灣實務」段落）。Mohsen 不是 cookbook，是 mental model。
 
 ---
 
@@ -479,6 +524,12 @@ Albuminuric T2D + CKD
    - PMID: `38858818`
    - ClinicalTrials.gov: `NCT05047263`
    - Registry status at this review: **Completed / No Results Posted**
+
+9. **Mohsen 2026 — Combination Treatment Algorithm**（v1.2 新增）
+   - Mohsen M, Yi TW, Faruque L, et al. Combination Treatment for Management of CKD and T2D: A Review and Practical Guidance. *J Clin Endocrinol Metab*. 2026.
+   - DOI: `10.1210/clinem/dgag163`
+   - PMID: `41973867`
+   - 性質：Expert opinion narrative review with proposed quadruple-therapy algorithm
 
 ---
 

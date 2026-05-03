@@ -2,10 +2,10 @@
 question_id: "Q02"
 title: "Finerenone 與 SGLT2i / GLP-1 RA 的排序與合併策略"
 category: "排序與合併"
-version: "v1.2"
+version: "v1.3"
 status: "查核修訂版"
-last_updated: 2026-04-29
-next_review: 2027-04-29
+last_updated: 2026-05-03
+next_review: 2027-05-03
 tags: [finerenone, SGLT2i, GLP-1RA, sequencing, combination, decision-note, DKD, NDKD, non-diabetic-CKD]
 description: "在已接受 max tolerated ACEi/ARB 的 DKD 病人，finerenone 如何與 SGLT2i 及 GLP-1 RA 排序與合併？依 KDIGO 2024、ADA 2026、CONFIDENCE 與 FIDELITY 查核修訂；v1.2 新增非糖尿病 CKD（NDKD）排序考量。"
 quick_answer: "預設仍以 SGLT2i 為 first add-on；符合 albuminuria / eGFR / K 條件時加 finerenone；GLP-1 RA 依 glycemic / obesity / ASCVD / direct kidney-outcome evidence 前移。ADA 2026 已新增：T2D + UACR ≥100 + eGFR 30-90 + RASi 的成人可考慮 SGLT2i + finerenone simultaneous initiation。NDKD（含 IgAN / FSGS）目前僅有 NMA-level surrogate 證據（Chen 2026），正式答案仍待 FIND-CKD fulltext。"
@@ -139,6 +139,46 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
 
 - 詳細 IgAN / 非糖 CKD 證據邊界與 Zhang 2026 PSM cohort 解讀，請參考 [Q10 — 特殊族群](/finerenone/q10-special-populations/) 之非糖 CKD 段落
 
+### F. Accelerated initiation：對抗 clinical inertia（v1.3 新增）
+
+⭐ **Mohsen et al. 2026 *J Clin Endocrinol Metab*（PMID 41973867）**——多國作者群（Cherney、Marx、Wanner、Persson、Butler 等核心 CKD/T2D 領域）發表的**整合性 narrative review + 提議演算法**，主張：
+
+> **「Early combination > slow sequential」**——診斷 DKD 時即可考慮**4 藥同時或快速序貫啟動**，以對抗治療惰性（clinical inertia）。
+
+#### 提議演算法的核心邏輯
+
+| 機轉軸 | 藥物 | 互補角度 |
+|---|---|---|
+| Hemodynamic（efferent arteriolar）| RASi | 標準地基 |
+| Hemodynamic + metabolic（tubular）| SGLT2i | 與 RASi 機轉部分重疊但又互補 |
+| Anti-inflammatory / anti-fibrotic | Finerenone | **不被 RASi/SGLT2i 涵蓋的機轉** |
+| Metabolic + atheroprotective | GLP-1 RA | 體重、ASCVD、血糖整合 |
+
+→ **四藥機轉互不重疊，理論上有 additive cardiorenal protection。**
+
+#### Mohsen 2026 提的實務策略
+
+1. **不要 sequential 等到病情惡化才加下一個**——這是 clinical inertia
+2. **在 albuminuric DKD 確診時即可考慮 simultaneous start**（CONFIDENCE 提供 finerenone + SGLT2i 同步啟動的可行性訊號）
+3. **副作用管理**：hyperkalemia、initial eGFR dip、volume status——不是禁忌，是監測項目
+4. **健保 / 取得限制**是真實考量，但**不應作為「先用一個觀察很久」的藉口**
+
+#### 我們應該怎麼引用這個 algorithm
+
+| 應該寫的 | 不應該寫的 |
+|---|---|
+| ✅ Mohsen 2026 為 expert algorithm，**對抗 clinical inertia** 的論述合理 | ❌ 「四藥同步啟動已被 RCT 證實 mortality benefit」（**沒有**這樣的試驗）|
+| ✅ 與 CONFIDENCE 互補：CONFIDENCE 給 simultaneous 雙藥可行性，Mohsen 給整體框架 | ❌ 把 Mohsen algorithm 寫成 guideline-level recommendation |
+| ✅ 對 phenotype 高殘餘風險病人是合理 framing | ❌ 套用到所有 DKD 病人 |
+
+#### Evidence strength
+
+- **Oxford CEBM**: Level 5（expert opinion narrative review with proposed algorithm）
+- **GRADE certainty**: Moderate（algorithm 基礎為多個 high-quality RCT，但 head-to-head sequencing 證據仍少）
+- **Bias risk**: Some concerns（多位作者具有 industry tie；narrative 而非 systematic review）
+
+→ Mohsen 2026 **不是新證據**，是對既有證據的**整合與框架化**——值得引用作為「為什麼要早期合併治療」的論述背書，**不是 RCT-grade 推薦**。
+
 ---
 
 ## 實務排序矩陣（phenotype-based）
@@ -231,6 +271,7 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
   8. Agarwal R, et al. N Engl J Med. 2025. PMID: 40470996.
   9. Mann JFE, et al. Nat Med. 2024. PMID: 38914124.
   10. Chen R, et al. Divergent renal benefits of SGLT2 inhibitors and mineralocorticoid receptor antagonists in non-diabetic kidney disease (Bayesian network meta-analysis). *Kidney Blood Press Res*. 2026. PMID: 42030206.
+  11. Mohsen M, Yi TW, Faruque L, et al. Combination Treatment for Management of Chronic Kidney Disease and Type 2 Diabetes: A Review and Practical Guidance. *J Clin Endocrinol Metab*. 2026. PMID: 41973867.
 
 ---
 
