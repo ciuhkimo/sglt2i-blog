@@ -1,7 +1,7 @@
 ---
 title: "腎友皮膚癢、乾燥、掉髮：常見原因與何時要就醫"
 description: "CKD 與透析病人的皮膚搔癢、乾燥與掉髮衛教。涵蓋尿毒搔癢機轉、保濕 SOP、治療選項（gabapentin、difelikefalin、NB-UVB）、掉髮常見原因、紅旗鑑別與台灣就醫資源。"
-last_updated: 2026-04-27
+last_updated: 2026-05-05
 tags: [皮膚, 搔癢, 乾燥, 掉髮, CKD, 透析, 病人衛教, CKD-aP]
 seo_title: "腎友皮膚癢、乾燥、掉髮怎麼辦？原因、照護與何時就醫"
 ---
@@ -95,16 +95,18 @@ HD 病人皮膚乾燥（xerosis）的盛行率約 **54-91%**。原因是汗腺�
 
 ## 可以跟醫師討論的治療
 
-| 治療 | 證據 / 定位 | 備註 |
+> 以下治療不是每個人都適合，尤其腎功能不好、腹膜透析、血液透析與未透析 CKD 的用藥方式不同。請把這些選項當成「可以和醫師討論的方向」，**不要自行買藥或調整劑量**。
+
+| 治療 | 證據確定性 | 效果大小 / 實務重點 |
 |---|---|---|
-| **積極保濕** | 基礎第一線 | 對乾燥、皮膚屏障與癢抓循環有幫助；低風險，應普遍執行 |
+| **積極保濕 / emollient** | 實務強烈建議 | 對乾燥、皮膚屏障與癢抓循環有幫助；低風險，應普遍執行 |
 | **透析充分性優化** | 中 / 情境依賴 | 確認 Kt/V 達標；若懷疑膜材或透析相關反應，可與腎臟科討論調整 |
 | **CKD-MBD 控制** | 中 / 間接 | 磷、鈣、PTH 仍應依 CKD-MBD 原則控制；但不能保證止癢 |
-| **缺鐵或貧血矯正** | 依貧血指引處理 | 作為掉髮、疲倦與全身症狀評估的一部分；不列為高證據止癢治療 |
-| **Gabapentin / Pregabalin** | 高（止癢療效） | CKD-aP 證據較強，但多為 off-label；HD 需低劑量（100-300 mg 僅 HD 後給藥），監測嗜睡、頭暈、跌倒與意識改變 |
-| **Difelikefalin（Korsuva）** | 高（限 HD 中重度 CKD-aP） | 成人 HD 病人適用；未建議用於 PD。台灣臨床可近性請以食藥署與院內藥品目錄為準 |
+| **缺鐵 / 貧血評估與矯正** | 條件性 | 若有缺鐵或貧血，可能加重搔癢、疲倦或掉髮，應依 CKD 貧血照護原則處理；**但補鐵不是所有尿毒搔癢的通用止癢治療** |
+| **Gabapentin / Pregabalin** | 中等 | 對部分腎友搔癢有效，但在腎功能不好或透析病人身上容易累積，可能造成嗜睡、頭暈、步態不穩與跌倒。**劑量必須由醫師依腎功能與透析方式調整，請不要自行服用或加量**（HD 常見起始 100-300 mg 僅 HD 後給藥）|
+| **Difelikefalin（Korsuva）** | 高，限 HD 中重度 CKD-aP | RCT 證實有效，但適用族群較窄；美國核准用於成人血液透析中重度 CKD-aP，**未研究於 PD，不建議用於 PD 或未透析 CKD**。可能頭暈、嗜睡、噁心、腹瀉、高血鉀或增加跌倒風險。台灣可查到 difelikefalin acetate 原料藥／外銷專用品項，但**不等於臨床治療用製劑已在台灣常規上市或健保給付**；實際可用性請以 TFDA 藥證查詢與健保署最新收載資料為準 |
 | **窄波 UVB 光照** | 低-中 | 可由皮膚科評估；免疫抑制或皮膚癌高風險者需特別小心 |
-| **抗組織胺** | 低 | 對純 CKD-aP 通常效果有限；鎮靜型有時只是幫助睡眠 |
+| **抗組織胺** | 低或不一致 | 對純 CKD-aP 通常效果有限；鎮靜型可能只是幫助睡眠，但有嗜睡跌倒風險 |
 
 ---
 
@@ -163,11 +165,13 @@ HD 病人皮膚乾燥（xerosis）的盛行率約 **54-91%**。原因是汗腺�
 
 ## 本文主要依據
 
-- **DOPPS / PDOPPS**：CKD-aP 在 HD 與 PD 病人的盛行率、低通報率與臨床結局
-- **Cochrane 2020**：CKD 搔癢治療系統性回顧
-- **KALM-1（NEJM 2020）/ KALM-1+2 pooled（Kidney Med 2022）**：Difelikefalin 於成人 HD 中重度 CKD-aP 的第三期臨床試驗
-- **AAD 乾燥皮膚照護建議**：洗澡時間、溫水、溫和清潔、洗後立即保濕
-- **台灣本土文獻**：尿毒搔癢症治療與台灣藥品可近性討論
+1. Pisoni RL, et al. Pruritus in haemodialysis patients: international results from DOPPS. *Nephrol Dial Transplant.* 2006. PMID: 16968725.
+2. Sukul N, et al. Self-reported pruritus and outcomes in hemodialysis patients, DOPPS phases 4-6. *Kidney Medicine.* 2021.
+3. Sukul N, et al. Pruritus and patient-reported outcomes in non-dialysis CKD (CKDopps). *CJASN.* 2019.
+4. Boehlke C, et al. Pharmacological interventions for pruritus in adult palliative care patients. *Cochrane Database Syst Rev.* 2023.
+5. Fishbane S, et al. (KALM-1) Difelikefalin in hemodialysis patients with pruritus. *NEJM.* 2020.
+6. FDA prescribing information: KORSUVA (difelikefalin) injection.
+7. BC Renal. Management of Pruritus in Patients with Chronic Kidney Disease. 2025.
 
 ---
 
