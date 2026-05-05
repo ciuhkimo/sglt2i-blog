@@ -6,8 +6,8 @@ version: "v1.0"
 status: 已定稿
 last_updated: 2026-03-23
 next_review: 2026-09-17
-seo_title: "SGLT2i 與 DKA：高風險族群辨識與預防策略"
-description: "SGLT2i 可引起血糖正常型 DKA（euglycemic DKA），發生率約為安慰劑的 2 倍。本文整理 DKA 高風險因子、處方前評估清單、患者衛教重點與緊急處置原則。"
+seo_title: "SGLT2i 引發的 EDKA（euglycemic DKA）：辨識、鑑別與預防"
+description: "SGLT2i 可能引發 EDKA（euglycemic DKA，正常血糖型酮酸中毒），與一般 DKA 的關鍵差異在於血糖常 <250 mg/dL 而易延誤診斷。本文整理 SGLT2i DKA 高風險族群、與一般 DKA 的鑑別重點、處方前評估清單與停藥時機。"
 quick_answer: "T1DM、LADA、insulin-dependent T2DM 及 DKA 病史者為高風險族群，處方前須完成風險評估並教育 eDKA 警示症狀。"
 tags:
   - SGLT2i
@@ -18,6 +18,25 @@ tags:
 ## Why This Matters
 
 SGLT2 inhibitor 相關的 euglycemic diabetic ketoacidosis (eDKA) 是一個罕見但可能危及生命的併發症。與傳統 DKA 不同，eDKA 的血糖通常低於 250 mg/dL，導致診斷延遲。隨著 SGLT2i 在 CKD 領域的適應症擴大（包括非糖尿病 CKD），腎臟科醫師可能成為主要處方者，因此辨識 DKA 高風險族群並在處方前進行風險評估至關重要。目前 non-diabetic CKD trial data 未顯示明顯增加 ketoacidosis，但 real-world precision 仍有限，因此不能視為風險完全不存在；腎臟科醫師仍需熟悉可能增加 ketosis 的臨床情境。
+
+## EDKA 與一般 DKA 的鑑別重點
+
+EDKA（euglycemic diabetic ketoacidosis，正常血糖型酮酸中毒）與經典 DKA 同屬糖尿病酮酸中毒，pH、HCO₃⁻、ketones 等診斷指標一致；差別在於血糖常 <250 mg/dL，臨床表現容易被低估與延誤。SGLT2i 使用者出現相關症狀時，即使血糖未明顯升高，仍應積極排除 EDKA。
+
+| 項目 | 經典 DKA | EDKA |
+|---|---|---|
+| 血糖 | 通常 >250 mg/dL（多 >300） | 常 <250 mg/dL，甚至接近正常 |
+| 常見族群 | T1DM、insulin 漏打或嚴重不足 | SGLT2i 使用者、低醣／生酮飲食、prolonged fasting、過量飲酒 |
+| 誘發因子 | Insulin 中斷、感染、創傷 | Insulin 減量、急性疾病、手術／禁食、carbohydrate 攝取不足 |
+| Ketones | β-hydroxybutyrate ↑↑ | β-hydroxybutyrate ↑↑（同樣升高） |
+| Acidosis | pH <7.3、HCO₃⁻ <18 | pH <7.3、HCO₃⁻ <18（鑑別指標相同） |
+| 典型症狀 | 多尿、多渴、脫水、fruity breath | 噁心、嘔吐、腹痛、疲倦、呼吸急促（無高血糖警示） |
+| 易誤判為 | — | 病毒性腸胃炎、術後不適、藥物副作用 |
+| 處置差異 | IV insulin + saline | IV insulin 併同葡萄糖輸注（避免低血糖），立即停 SGLT2i |
+
+**臨床要點**：SGLT2i 使用者出現噁心、嘔吐、腹痛、疲倦或呼吸急促時，即使 fingerstick 血糖正常，也應檢測 ketones 與血氣。EDKA 的「正常血糖」不代表沒有 DKA。
+
+**附註**：妊娠中後期因 insulin 抗性與 ketogenesis 傾向，亦可出現 EDKA，屬獨立病理機轉（非 SGLT2i 引起）；妊娠族群之血糖控制以 insulin 為主，不在本文 SGLT2i 處方策略範疇。
 
 ## Key Evidence
 

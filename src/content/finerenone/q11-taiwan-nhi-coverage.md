@@ -1,15 +1,15 @@
 ---
 question_id: "Q11"
-title: "台灣健保給付與自費處方決策（finerenone）"
+title: "Finerenone 健保給付與自費價格（台灣）"
 category: "台灣在地化"
 version: "v1.1"
 status: "查核修訂版"
 last_updated: 2026-04-19
 next_review: 2027-04-19
 tags: [finerenone, Kerendia, 可申達, Taiwan, NHI, self-pay, DKD, CKD, decision-note, 健保]
-description: "Kerendia（finerenone）台灣健保給付現況（截至 2026-04 未收載）、自費月費約 NT$2,250-2,700、門診排序與 shared decision 對話框架。依 TFDA、健保署公開文件查核。"
+description: "Finerenone（Kerendia）在台灣有健保給付嗎？2026 年最新狀況：尚未納入健保，需自費處方，每月藥費約 NT$2,250-2,700。本文整理健保給付現況、自費價格、處方適應族群與門診 shared decision 對話框架。"
 quick_answer: "截至 2026-04-19，finerenone 未見已生效納入台灣健保給付的公開資料，臨床仍以自費處方為主。門診排序：ACEi/ARB 最適化 → SGLT2i（已有健保給付）→ 對仍有殘餘 albuminuria 且 K 穩定的病人討論 finerenone 自費 add-on。公開醫院自費價約 NT$75-90/錠（20 mg），月費約 NT$2,250-2,700。"
-seo_title: "Finerenone 台灣健保給付現況與自費處方決策｜2026 更新"
+seo_title: "Finerenone 在台灣有健保給付嗎？自費價格、處方時機完整解析"
 ---
 
 ## Bottom line
@@ -29,7 +29,7 @@ seo_title: "Finerenone 台灣健保給付現況與自費處方決策｜2026 更�
 
 ---
 
-## 台灣官方現況
+## 健保給付現況與自費價格
 
 | 面向 | 查核後結論 |
 |---|---|
