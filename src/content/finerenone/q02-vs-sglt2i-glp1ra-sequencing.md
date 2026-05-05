@@ -2,12 +2,12 @@
 question_id: "Q02"
 title: "Finerenone 與 SGLT2i / GLP-1 RA 的排序與合併策略"
 category: "排序與合併"
-version: "v1.3"
+version: "v1.4"
 status: "查核修訂版"
-last_updated: 2026-05-03
-next_review: 2027-05-03
+last_updated: 2026-05-05
+next_review: 2027-05-05
 tags: [finerenone, SGLT2i, GLP-1RA, sequencing, combination, decision-note, DKD, NDKD, non-diabetic-CKD]
-description: "在已接受 max tolerated ACEi/ARB 的 DKD 病人，finerenone 如何與 SGLT2i 及 GLP-1 RA 排序與合併？依 KDIGO 2024、ADA 2026、CONFIDENCE 與 FIDELITY 查核修訂；v1.2 新增非糖尿病 CKD（NDKD）排序考量。"
+description: "在已接受 max tolerated ACEi/ARB 的 DKD 病人，finerenone 如何與 SGLT2i 及 GLP-1 RA 排序與合併？依 KDIGO 2024、ADA 2026、CONFIDENCE 與 FIDELITY 查核修訂；v1.2 新增非糖尿病 CKD（NDKD）排序考量；v1.4（2026-05-05）新增 rapid eGFR decliner 加 finerenone 前的穩定性檢查（基於 Yang 2026 subgroup 訊號）。"
 quick_answer: "預設仍以 SGLT2i 為 first add-on；符合 albuminuria / eGFR / K 條件時加 finerenone；GLP-1 RA 依 glycemic / obesity / ASCVD / direct kidney-outcome evidence 前移。ADA 2026 已新增：T2D + UACR ≥100 + eGFR 30-90 + RASi 的成人可考慮 SGLT2i + finerenone simultaneous initiation。NDKD（含 IgAN / FSGS）目前僅有 NMA-level surrogate 證據（Chen 2026），正式答案仍待 FIND-CKD fulltext。"
 seo_title: "Finerenone vs SGLT2i vs GLP-1 RA 排序策略｜DKD 合併用藥"
 ---
@@ -208,6 +208,24 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
 - **serum K 正常**
 - 檢視 **CYP3A4 interaction**
 - **不要 routine 合併另一個 MRA**
+
+### Rapid eGFR decliner 加 finerenone 前的穩定性檢查
+
+> Yang 2026（PMID 42070997；單中心 retrospective n=297，1:4 PSM）的 subgroup 訊號顯示，**「治療前 eGFR 快速下降」族群在加上 finerenone+SGLT2i 後反而看到更快惡化的訊號**（mean Δslope −6.28 mL/min/1.73 m²/yr, 95% CI −11.81 to −0.75）。最可能的解釋是 confounding by indication / time-zero bias / hemodynamic vulnerability，**不代表 finerenone 導致惡化**——但提醒我們：rapid decline 不是單純「風險高所以加更多保腎藥」，**有時代表病人正處於不穩定狀態，必須先找原因**。
+
+對近期 eGFR 快速下降的病人，加 finerenone 前先檢查：
+
+- [ ] 最近是否有 **AKI episode**
+- [ ] **BP** 是否過低或降太快
+- [ ] 是否 **volume depletion**
+- [ ] 是否近期加強 **diuretic / RASi / SGLT2i**
+- [ ] 是否使用 **NSAID、顯影劑、草藥或不明保健品**
+- [ ] **UACR** 是否突然上升
+- [ ] 是否有 **obstruction / infection**
+- [ ] 是否有 **heart failure / cardiorenal syndrome**
+- [ ] **K** 是否已偏高
+
+> 找到並處理可逆原因後再評估是否加 finerenone；不要把不穩定 phenotype 自動歸類為「殘餘風險高」而急於 layered therapy。
 
 ### Finerenone 劑量與監測
 
