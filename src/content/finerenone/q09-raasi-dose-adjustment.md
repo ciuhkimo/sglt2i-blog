@@ -2,12 +2,12 @@
 question_id: "Q09"
 title: "Finerenone 啟用時 RAASi 劑量調整實務"
 category: "合併用藥"
-version: "v1.1"
+version: "v1.2"
 status: "查核修訂版"
-last_updated: 2026-04-19
-next_review: 2027-04-19
+last_updated: 2026-05-05
+next_review: 2027-05-05
 tags: [finerenone, RAASi, ACEi, ARB, ARNI, CKD, T2D, decision-note]
-description: "在已接受 ACEi/ARB 的 CKD+T2D 病人加上 finerenone 時，是否需預防性降低 RAASi 劑量、K 升高時如何優先處理、以及 ARNI 情境的 caveat。依 FDA/EMA/KDIGO/PubMed 查核。"
+description: "在已接受 ACEi/ARB 的 CKD+T2D 病人加上 finerenone 時，是否需預防性降低 RAASi 劑量、K 升高時如何優先處理、以及 ARNI 情境的 caveat。依 FDA/EMA/KDIGO/PubMed 查核；v1.2（2026-05-05）新增「不要因 eGFR <30 reflex 停 ACEi/ARB」段落（基於 STOP-ACEi 與 Moriconi 2026 NDT Treatment Standard）。"
 quick_answer: "不建議為了加上 finerenone 而預防性降低 ACEi/ARB 劑量。K >5.5 時先 hold finerenone（而非先砍 RAASi），待 K ≤5.0 再以 10 mg 重啟。ACEi/ARB 的降量/停藥保留給高血鉀經治療仍失控、sCr 起始後 4 週上升 >30%、或症狀性低血壓等標準情境。"
 seo_title: "Finerenone + ACEi/ARB 劑量調整｜高血鉀處置優先順序"
 ---
@@ -76,6 +76,22 @@ seo_title: "Finerenone + ACEi/ARB 劑量調整｜高血鉀處置優先順序"
 | finerenone 10 mg 想上調到 20 mg | 若 eGFR 較前次下降 >30%，不要上調 |
 | 已在使用，eGFR 掉到 <25 | 可在 K 可接受且藥物耐受下持續 |
 | eGFR 掉到 <15 | EMA 建議停用 |
+
+### 不要因 eGFR <30 reflex 停用 ACEi/ARB
+
+> **STOP-ACEi trial**（Bhandari et al. *NEJM* 2022）：advanced CKD 病人停用 RAS inhibitor **並未帶來有意義的 eGFR 改善**——「eGFR <30 就反射停藥」沒有證據支持。**Moriconi 2026** *NDT* Treatment Standard（PMID 42008148）強化此立場：advanced CKD 仍可能有 albuminuric / cardiorenal benefit。
+
+**應繼續用**（即使 eGFR <30）：仍有 albuminuria / proteinuria；HFrEF / post-MI / LV dysfunction；BP 仍需控制且可耐受；K 可控制；Cr rise 在可接受範圍。
+
+**該減量或停用**：
+- Symptomatic hypotension
+- Persistent / uncontrolled hyperkalemia（先試降鉀策略 + K binder，再考慮減 RAASi）
+- Cr 上升 >30%（先排除 renal artery stenosis、volume depletion、NSAID interaction）
+- 急性病程（AKI、sepsis、術前禁食）→ **temporary hold + restart plan**，不是長期停
+
+> **問錯問題**：「eGFR 這麼低，該停 ACEi/ARB 嗎？」
+>
+> **問對問題**：「這個病人還有 albuminuric / cardiorenal benefit 嗎？K、BP、血流能不能安全管理？」
 
 ---
 
