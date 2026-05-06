@@ -71,6 +71,24 @@ const formatDate = (d: Date) => {
 	return `${yyyy}-${mm}-${dd}`;
 };
 
+// 各 collection 的最新更新日期（給 cluster card 顯示用）
+const getLatestDate = (notes: any[]): Date | null => {
+	if (!notes.length) return null;
+	return notes.reduce<Date>((max, e) => {
+		const d = e.data.last_updated as Date;
+		return !max || d > max ? d : max;
+	}, null as any);
+};
+
+const latestSglt2i = getLatestDate(sglt2iNotes);
+const latestGlp1ra = getLatestDate(glp1raNotes);
+const latestFinerenone = getLatestDate(finerenoneNotes);
+const latestCkm = getLatestDate(ckmNotes);
+const latestSexualHealth = getLatestDate(sexualHealthNotes);
+const latestPatient = getLatestDate(patientNotes);
+const latestDialysis = getLatestDate(dialysisNotes);
+const latestBlog = getLatestDate(blogNotes);
+
 const groups = [
 	{
 		title: '藥物決策',
@@ -85,6 +103,7 @@ const groups = [
 				color: '#e8f4f0',
 				accent: 'var(--accent)',
 				icon: '💊',
+				latest: latestSglt2i,
 			},
 			{
 				title: 'GLP-1 RA 決策筆記',
@@ -95,6 +114,7 @@ const groups = [
 				color: '#fef5e7',
 				accent: '#8a5c10',
 				icon: '💉',
+				latest: latestGlp1ra,
 			},
 			{
 				title: 'Finerenone 決策筆記',
@@ -105,6 +125,7 @@ const groups = [
 				color: '#eef0f7',
 				accent: '#4a5699',
 				icon: '🛡️',
+				latest: latestFinerenone,
 			},
 		],
 	},
@@ -121,6 +142,7 @@ const groups = [
 				color: '#f0e8f5',
 				accent: '#634a8a',
 				icon: '\u{1FAC0}',
+				latest: latestCkm,
 			},
 			{
 				title: '腎友與性',
@@ -131,6 +153,7 @@ const groups = [
 				color: '#fce4ec',
 				accent: '#9b4060',
 				icon: '❤️‍🩹',
+				latest: latestSexualHealth,
 			},
 			{
 				title: '臨床專題',
@@ -141,6 +164,7 @@ const groups = [
 				color: '#f3f0f5',
 				accent: '#634a8a',
 				icon: '📋',
+				latest: latestBlog,
 			},
 		],
 	},
@@ -157,6 +181,7 @@ const groups = [
 				color: '#f0f4ff',
 				accent: '#4a6fa5',
 				icon: '👨‍👩‍👧',
+				latest: latestPatient,
 			},
 			{
 				title: '透析衛教——護理版',
@@ -167,6 +192,7 @@ const groups = [
 				color: '#f5f3ef',
 				accent: '#6e5a3f',
 				icon: '🏥',
+				latest: latestDialysis,
 			},
 		],
 	},
@@ -326,10 +352,22 @@ const groups = [
 				line-height: 1.6;
 				flex-grow: 1;
 			}
-			.card .card-count {
+			.card .card-meta {
+				display: flex;
+				justify-content: space-between;
+				align-items: baseline;
+				gap: 0.6em;
 				margin-top: 0.8em;
+			}
+			.card .card-count {
 				font-size: 0.85em;
 				font-weight: 600;
+			}
+			.card .card-latest {
+				font-size: 0.78em;
+				color: rgb(var(--gray));
+				font-variant-numeric: tabular-nums;
+				white-space: nowrap;
 			}
 			.card .card-cta {
 				margin-top: 0.5em;
@@ -564,7 +602,10 @@ const groups = [
 								<span class="card-icon">{s.icon}</span>
 								<h3>{s.title}</h3>
 								<p class="card-desc">{s.description}</p>
-								<span class="card-count" style={`color: ${s.accent};`}>{s.count} {s.unit}</span>
+								<div class="card-meta">
+									<span class="card-count" style={`color: ${s.accent};`}>{s.count} {s.unit}</span>
+									{s.latest && <span class="card-latest">最新 {formatDate(s.latest)}</span>}
+								</div>
 								<span class="card-cta" style={`color: ${s.accent};`}>前往 →</span>
 							</a>
 						))}
