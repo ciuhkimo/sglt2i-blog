@@ -3,22 +3,12 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_TITLE } from '../consts';
+import { authorPerson } from '../lib/schema/authorPerson';
 
 const profileLd = JSON.stringify({
 	'@context': 'https://schema.org',
 	'@type': 'ProfilePage',
-	mainEntity: {
-		'@type': 'Person',
-		name: '小鎮醫生',
-		jobTitle: '腎臟科專科醫師',
-		affiliation: {
-			'@type': 'Organization',
-			name: '台灣大學醫學系',
-		},
-		description: '腎臟科專科醫師、內科專科醫師。Nephro Decisions 創辦人，以實證為基礎的腎臟科臨床決策知識庫。',
-		url: 'https://nephrodecisions.com/about/',
-		knowsAbout: ['Nephrology', 'Chronic Kidney Disease', 'Dialysis', 'SGLT2 inhibitors', 'GLP-1 receptor agonists', 'Finerenone', 'Mineralocorticoid receptor antagonists'],
-	},
+	mainEntity: authorPerson,
 });
 ---
 
@@ -70,7 +60,8 @@ const profileLd = JSON.stringify({
 		<main>
 			<h1>關於本站</h1>
 
-			<p class="author-info">小鎮醫生｜腎臟科專科醫師｜內科專科醫師｜台灣大學醫學系</p>
+			<p class="author-info">小鎮醫生｜腎臟科專科醫師｜內科專科醫師</p>
+			<p class="author-info" style="font-weight: 400; font-size: 0.95em; color: rgb(var(--gray));">學歷：台灣大學醫學系</p>
 
 			<p>
 				Nephro Decisions 是腎臟科臨床決策知識庫，涵蓋 SGLT2 inhibitor、GLP-1 receptor agonist、透析照護、病人衛教與臨床專題等多元主題。

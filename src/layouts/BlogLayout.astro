@@ -6,21 +6,11 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import SubscribeCTA from '../components/SubscribeCTA.astro';
 import ReadAloudButton from '../components/ReadAloudButton.astro';
+import { authorPerson } from '../lib/schema/authorPerson';
 
 type Props = CollectionEntry<'blog'>['data'];
 
 const { title, category, target_audience, last_updated, description, seo_title, tags } = Astro.props;
-
-const authorPerson = {
-	'@type': 'Person',
-	name: '小鎮醫生',
-	jobTitle: '腎臟科專科醫師',
-	affiliation: {
-		'@type': 'Organization',
-		name: '台灣大學醫學系',
-	},
-	url: 'https://nephrodecisions.com/about/',
-};
 
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',

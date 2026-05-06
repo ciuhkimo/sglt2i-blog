@@ -6,6 +6,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import SubscribeCTA from '../components/SubscribeCTA.astro';
 import ReadAloudButton from '../components/ReadAloudButton.astro';
+import { authorPerson } from '../lib/schema/authorPerson';
 
 type Props = (CollectionEntry<'sglt2i'>['data'] | CollectionEntry<'glp1ra'>['data'] | CollectionEntry<'sexualHealth'>['data']) & { extraSchema?: string | null };
 
@@ -23,16 +24,6 @@ const matchedSection = Object.entries(breadcrumbMap).find(([prefix]) => path.sta
 const breadcrumb = matchedSection ? matchedSection[1] : { href: '/sglt2i/', label: '決策筆記' };
 
 const isPatientContent = category?.includes('病人衛教') || category?.includes('Patient Education');
-const authorPerson = {
-	'@type': 'Person',
-	name: '小鎮醫生',
-	jobTitle: '腎臟科專科醫師',
-	affiliation: {
-		'@type': 'Organization',
-		name: '台灣大學醫學系',
-	},
-	url: 'https://nephrodecisions.com/about/',
-};
 
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',

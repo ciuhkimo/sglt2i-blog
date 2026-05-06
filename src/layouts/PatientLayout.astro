@@ -6,6 +6,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import SubscribeCTA from '../components/SubscribeCTA.astro';
 import ReadAloudButton from '../components/ReadAloudButton.astro';
+import { authorPerson } from '../lib/schema/authorPerson';
 
 type Props = CollectionEntry<'patient'>['data'];
 
@@ -34,17 +35,6 @@ const noteSlugMap: Record<string, string> = {
 	Q20: 'q20-special-populations',
 };
 const noteSlug = source_note ? (noteSlugMap[source_note] || source_note.toLowerCase()) : '';
-
-const authorPerson = {
-	'@type': 'Person',
-	name: '小鎮醫生',
-	jobTitle: '腎臟科專科醫師',
-	affiliation: {
-		'@type': 'Organization',
-		name: '台灣大學醫學系',
-	},
-	url: 'https://nephrodecisions.com/about/',
-};
 
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',
