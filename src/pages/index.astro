@@ -5,6 +5,7 @@ import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getCollection } from 'astro:content';
 import { authorPerson } from '../lib/schema/authorPerson';
+import { organization, organizationRef } from '../lib/schema/organization';
 
 const sglt2iNotes = await getCollection('sglt2i');
 const glp1raNotes = await getCollection('glp1ra');
@@ -126,12 +127,18 @@ const groups = [
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<script type="application/ld+json" set:html={JSON.stringify({
 			'@context': 'https://schema.org',
-			'@type': 'WebSite',
-			name: 'Nephro Decisions',
-			url: 'https://nephrodecisions.com/',
-			description: '腎臟科臨床決策知識庫——從實證到實務，涵蓋藥物決策、透析照護與病人衛教。',
-			inLanguage: 'zh-Hant',
-			publisher: authorPerson,
+			'@graph': [
+				organization,
+				authorPerson,
+				{
+					'@type': 'WebSite',
+					name: 'Nephro Decisions',
+					url: 'https://nephrodecisions.com/',
+					description: '腎臟科臨床決策知識庫——從實證到實務，涵蓋藥物決策、透析照護與病人衛教。',
+					inLanguage: 'zh-Hant',
+					publisher: organizationRef,
+				},
+			],
 		})} />
 		<style>
 			main {

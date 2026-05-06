@@ -6,7 +6,8 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import SubscribeCTA from '../components/SubscribeCTA.astro';
 import ReadAloudButton from '../components/ReadAloudButton.astro';
-import { authorPerson } from '../lib/schema/authorPerson';
+import { authorPerson, authorPersonRef } from '../lib/schema/authorPerson';
+import { organization, organizationRef } from '../lib/schema/organization';
 
 type Props = CollectionEntry<'dialysis'>['data'];
 
@@ -14,22 +15,29 @@ const { title, chapter, category, target_audience, last_updated, description, se
 
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',
-	'@type': ['MedicalWebPage', 'Article'],
-	headline: title,
-	name: title,
-	datePublished: last_updated.toISOString(),
-	dateModified: last_updated.toISOString(),
-	author: authorPerson,
-	reviewedBy: authorPerson,
-	lastReviewed: last_updated.toISOString().split('T')[0],
-	medicalAudience: {
-		'@type': 'MedicalAudience',
-		audienceType: 'Nurse',
-	},
-	about: {
-		'@type': 'MedicalCondition',
-		name: 'End-Stage Renal Disease',
-	},
+	'@graph': [
+		organization,
+		authorPerson,
+		{
+			'@type': ['MedicalWebPage', 'Article'],
+			headline: title,
+			name: title,
+			datePublished: last_updated.toISOString(),
+			dateModified: last_updated.toISOString(),
+			author: authorPersonRef,
+			reviewedBy: authorPersonRef,
+			publisher: organizationRef,
+			lastReviewed: last_updated.toISOString().split('T')[0],
+			medicalAudience: {
+				'@type': 'MedicalAudience',
+				audienceType: 'Nurse',
+			},
+			about: {
+				'@type': 'MedicalCondition',
+				name: 'End-Stage Renal Disease',
+			},
+		},
+	],
 });
 
 const breadcrumbLd = JSON.stringify({

@@ -46,4 +46,14 @@ export const authorPerson = {
 	],
 	description: '台灣腎臟科專科醫師、內科專科醫師。Nephro Decisions 創辦人，以實證為基礎的腎臟科臨床決策知識庫。',
 	url: 'https://nephrodecisions.com/about/',
+	worksFor: { '@id': 'https://nephrodecisions.com/#organization' },
+} as const;
+
+/**
+ * Short reference to authorPerson, for use in Article schema's
+ * author / reviewedBy fields when the full Person is defined elsewhere
+ * on the page (typically in @graph).
+ */
+export const authorPersonRef = {
+	'@id': authorPerson['@id'],
 } as const;
