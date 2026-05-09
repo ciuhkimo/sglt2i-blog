@@ -52,6 +52,7 @@ pages['patient'] = { title: '病人與家屬衛教', section: 'Nephro Decisions'
 pages['dialysis'] = { title: '透析衛教', section: 'Nephro Decisions' };
 pages['blog'] = { title: '臨床專題', section: 'Nephro Decisions' };
 pages['sexual-health'] = { title: '腎友與性', section: 'Nephro Decisions' };
+pages['rural-nephrology'] = { title: '偏鄉腎臟照護', section: 'Rural Nephrology ｜ Nephro Decisions' };
 
 export const prerender = true;
 
