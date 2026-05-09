@@ -45,14 +45,14 @@ PA 在台灣健保下，**主要的「篩檢、確診、影像、手術」這條
 > [!note] 證據力說明
 > 多數 PA 診斷相關檢查在符合臨床適應症時可透過健保檢驗、影像或處置項目申報；但**實際是否需自費、是否需事前審查、是否有院內流程限制，仍應依醫院端與最新健保規定確認**。下表「給付狀態」僅作大方向參考。
 
-| 項目 | 給付狀態 | 備註 | 信心 |
-|---|---|---|---|
-| ARR (PRA + PAC 各為獨立檢驗) | 健保給付 | 依生化檢驗常規申報；PRA 與 PAC 為獨立健保碼，無「ARR 比值」單一條文。具體點數依最新版「醫療服務給付項目及支付標準」查詢系統為準 | ✓✓✓ |
-| Saline infusion test (SIT) | 多以拆項申報 | 點滴 + 兩次 PAC；無 SIT 包裹碼 | ✓✓ |
-| Captopril challenge test (CCT) | 多以拆項申報 | Captopril 給付 + 兩次 PAC/PRA；無 CCT 包裹碼 | ✓✓ |
-| Fludrocortisone suppression test | 不普及 | 台灣無常規藥源；極少臨床使用 | ✓✓ |
-| 1-mg overnight DST（鑑別 MACS） | 多可透過健保處置申報 | dexamethasone + cortisol 檢驗 | ✓✓ |
-| Plasma/urinary metanephrines（鑑別 pheo） | 多可透過健保檢驗申報 | 標準鑑別 incidentaloma 三聯篩 | ✓✓ |
+| 項目 | 給付狀態 | 備註 |
+|---|---|---|
+| ARR (PRA + PAC 各為獨立檢驗) | 健保給付 | 依生化檢驗常規申報；PRA 與 PAC 為獨立健保碼，無「ARR 比值」單一條文。具體點數依最新版「醫療服務給付項目及支付標準」查詢系統為準 |
+| Saline infusion test (SIT) | 多以拆項申報 | 點滴 + 兩次 PAC；無 SIT 包裹碼 |
+| Captopril challenge test (CCT) | 多以拆項申報 | Captopril 給付 + 兩次 PAC/PRA；無 CCT 包裹碼 |
+| Fludrocortisone suppression test | 不普及 | 台灣無常規藥源；極少臨床使用 |
+| 1-mg overnight DST（鑑別 MACS） | 多可透過健保處置申報 | dexamethasone + cortisol 檢驗 |
+| Plasma/urinary metanephrines（鑑別 pheo） | 多可透過健保檢驗申報 | 標準鑑別 incidentaloma 三聯篩 |
 
 > [!warning] ARR 申報核刪風險（依個人經驗推論）
 > 個人臨床經驗中，**ARR 至今尚未被核刪過**。**ARR 在 PA 篩檢條件下未必能完全免於類似高於同儕量的審查**，特別是基層醫師若篩檢量明顯高於同區，建議在病歷明確記載：(a) HTN with hypokalemia、(b) resistant HTN（≥3 種降壓藥仍未控）、(c) HTN + adrenal incidentaloma、(d) 早發 HTN + 家族史 等高風險篩檢適應症之一，以降低核刪風險。
@@ -62,51 +62,51 @@ PA 在台灣健保下，**主要的「篩檢、確診、影像、手術」這條
 > [!note] 影像與 AVS 申報細節
 > 本節以**公開可查文件 + 醫學中心常規**為主要依據。**地區醫院腎臟科實務上多轉介至醫學中心執行 CT、AVS、手術**，具體申報碼、自費耗材組合請以該轉介中心當期公告為準。本表不替轉介中心做財務承諾。
 
-| 項目 | 給付狀態 | 備註 | 信心 |
-|---|---|---|---|
-| Adrenal CT（含薄切） | 全給付 | 用通用 CT 碼，無 PA 專屬條文 | ✓✓✓ |
-| Adrenal MRI | 給付（限制較嚴） | 多用於 CT 不確定或對比劑禁忌；MRI 適應症依健保限制 | ✓✓✓ |
-| AVS 程序（血管攝影 + 採血 + 對比劑） | 主要醫學中心多給付 | 拆分申報；無 AVS 包裹碼 | ✓✓✓ |
-| AVS 用 ACTH (cosyntropin) | 進口困難、不常規 | TAIPAI Study Group 主流採 non-stimulated AVS；台灣 cosyntropin 取得受限 | ✓✓ |
-| AVS 用特殊微導管 | **可能自費** | 為提升右側 AVS 插管成功率，部分中心採高階微導管；具體政策依該院當期公告 | ✓ |
-| NP-59 scintigraphy | 給付（核醫科申報） | TAIPAI 與 NTUH 經驗豐富；AVS 失敗或不可行時的合理替代 | ✓✓ |
+| 項目 | 給付狀態 | 備註 |
+|---|---|---|
+| Adrenal CT（含薄切） | 全給付 | 用通用 CT 碼，無 PA 專屬條文 |
+| Adrenal MRI | 給付（限制較嚴） | 多用於 CT 不確定或對比劑禁忌；MRI 適應症依健保限制 |
+| AVS 程序（血管攝影 + 採血 + 對比劑） | 主要醫學中心多給付 | 拆分申報；無 AVS 包裹碼 |
+| AVS 用 ACTH (cosyntropin) | 進口困難、不常規 | TAIPAI Study Group 主流採 non-stimulated AVS；台灣 cosyntropin 取得受限 |
+| AVS 用特殊微導管 | **可能自費** | 為提升右側 AVS 插管成功率，部分中心採高階微導管；具體政策依該院當期公告 |
+| NP-59 scintigraphy | 給付（核醫科申報） | TAIPAI 與 NTUH 經驗豐富；AVS 失敗或不可行時的合理替代 |
 
 ### 藥物治療
 
-| 藥物 | 給付狀態 | 適應症 / 條件 | TFDA 仿單字號 | 信心 |
-|---|---|---|---|---|
-| **Spironolactone** | **全給付** | TFDA 仿單明列「**原發性醛類脂醇過多症**」 | 衛署藥輸字第 022610 號（Aldactone）等多廠牌 | ✓✓✓ |
-| **Eplerenone (Inspra)** | **限縮給付，PA 不在內** | 藥品給付規定 2.9.1：限對 spironolactone 無法耐受之 (1) post-MI 心衰竭、(2) NYHA II 以上 LVEF≤30% 慢性心衰竭（100/1/1、104/12/1） | 衛署藥輸字第 024306 號 | ✓✓✓ |
-| **Finerenone (Kerendia, 可申達)** | **截至本次查核未確認有正式生效之健保給付條文** | TFDA 仿單列 **(a) T2D 相關 CKD**、**(b) LVEF ≥40% 心衰竭** 兩項適應症；第 79 次共擬會議仍在補資料階段；多家醫院列為自費品項。**對 PA 無任何國家或學會給予適應症**（FDA、EMA、TFDA、Endocrine Society 2016/2025、Taiwan 2022/2023 guideline 皆無）；申報前以最新健保藥品給付規定為準 | 衛部藥輸字第 028326 號 | ✓✓✓ |
-| Amiloride（單方或複方 Moduretic） | 給付 | 109/8/3 列入給付；可作 spironolactone 不耐受時的 K-sparing 替代 | — | ✓✓ |
-| Patiromer (Veltassa) | 自費 | 用於 MRA-related 嚴重 hyperkalemia | — | ✓✓✓ |
-| SZC (Lokelma) | 自費 | 高 K 急性處置 | 衛部藥輸字第 028710 號 | ✓✓ |
+| 藥物 | 給付狀態 | 適應症 / 條件 | TFDA 仿單字號 |
+|---|---|---|
+| **Spironolactone** | **全給付** | TFDA 仿單明列「**原發性醛類脂醇過多症**」 | 衛署藥輸字第 022610 號（Aldactone）等多廠牌 |
+| **Eplerenone (Inspra)** | **限縮給付，PA 不在內** | 藥品給付規定 2.9.1：限對 spironolactone 無法耐受之 (1) post-MI 心衰竭、(2) NYHA II 以上 LVEF≤30% 慢性心衰竭（100/1/1、104/12/1） | 衛署藥輸字第 024306 號 |
+| **Finerenone (Kerendia, 可申達)** | **截至本次查核未確認有正式生效之健保給付條文** | TFDA 仿單列 **(a) T2D 相關 CKD**、**(b) LVEF ≥40% 心衰竭** 兩項適應症；第 79 次共擬會議仍在補資料階段；多家醫院列為自費品項。**對 PA 無任何國家或學會給予適應症**（FDA、EMA、TFDA、Endocrine Society 2016/2025、Taiwan 2022/2023 guideline 皆無）；申報前以最新健保藥品給付規定為準 | 衛部藥輸字第 028326 號 |
+| Amiloride（單方或複方 Moduretic） | 給付 | 109/8/3 列入給付；可作 spironolactone 不耐受時的 K-sparing 替代 | — |
+| Patiromer (Veltassa) | 自費 | 用於 MRA-related 嚴重 hyperkalemia | — |
+| SZC (Lokelma) | 自費 | 高 K 急性處置 | 衛部藥輸字第 028710 號 |
 
 ### 手術（依公開資料整理；具體申報依轉介中心）
 
-| 項目 | 給付狀態 | 備註 | 信心 |
-|---|---|---|---|
-| Laparoscopic adrenalectomy | 給付（含住院、麻醉、一般材料） | unilateral PA 之 gold standard；達文西、3D 內視鏡、能量器械等高階耗材視該院政策另收自費 | ✓✓ |
-| Open adrenalectomy | 給付 | 用於腫瘤過大、可疑惡性、解剖困難 | ✓✓ |
-| 達文西機器手臂腎上腺切除 | **自費差額** | 各院公告自費項目；具體金額依該院當期公告 | ✓✓ |
-| Targeted thermal ablation (RFA) | 不給付（研究階段） | TSA 2023 guideline 標明「long-term outcomes lacking」 | ✓✓✓ |
+| 項目 | 給付狀態 | 備註 |
+|---|---|---|
+| Laparoscopic adrenalectomy | 給付（含住院、麻醉、一般材料） | unilateral PA 之 gold standard；達文西、3D 內視鏡、能量器械等高階耗材視該院政策另收自費 |
+| Open adrenalectomy | 給付 | 用於腫瘤過大、可疑惡性、解剖困難 |
+| 達文西機器手臂腎上腺切除 | **自費差額** | 各院公告自費項目；具體金額依該院當期公告 |
+| Targeted thermal ablation (RFA) | 不給付（研究階段） | TSA 2023 guideline 標明「long-term outcomes lacking」 |
 
 ### 基因檢測
 
-| 項目 | 給付狀態 | 備註 | 信心 |
-|---|---|---|---|
-| FH 基因 panel（CYP11B1/B2、KCNJ5、CACNA1H、CLCN2 胚系） | 部分給付 | 罕病轉介條件下；多透過醫學中心遺傳科 | ✓✓ |
-| APA 體細胞突變定序（KCNJ5、CACNA1D、ATP1A1、ATP2B3） | 自費 / 研究 | 主要為 NTUH 研究，臨床意義仍在累積 | ✓✓ |
+| 項目 | 給付狀態 | 備註 |
+|---|---|---|
+| FH 基因 panel（CYP11B1/B2、KCNJ5、CACNA1H、CLCN2 胚系） | 部分給付 | 罕病轉介條件下；多透過醫學中心遺傳科 |
+| APA 體細胞突變定序（KCNJ5、CACNA1D、ATP1A1、ATP2B3） | 自費 / 研究 | 主要為 NTUH 研究，臨床意義仍在累積 |
 
 ---
 
 ## 2. TFDA 仿單核可（PA 是否在適應症內？）
 
-| 藥物 | TFDA 適應症（仿單原文摘要） | PA 是否列入 | 信心 |
-|---|---|---|---|
-| **Spironolactone**（Aldactone 安達通等多廠牌） | 「利尿、高血壓、**原發性醛類脂醇過多症**（primary hyperaldosteronism）」 | **是**（明列） | ✓✓✓ |
-| **Eplerenone (Inspra)** | 「心肌梗塞後心衰竭」、「NYHA II 級以上慢性心衰竭」、「原發性高血壓」 | **否**（無 PA 條目） | ✓✓✓ |
-| **Finerenone (Kerendia, 可申達)** | TFDA 仿單目前列：**(1) 第二型糖尿病相關慢性腎臟病** + **(2) LVEF ≥40% 心衰竭**（兩項獨立適應症） | **否** | ✓✓✓ |
+| 藥物 | TFDA 適應症（仿單原文摘要） | PA 是否列入 |
+|---|---|---|
+| **Spironolactone**（Aldactone 安達通等多廠牌） | 「利尿、高血壓、**原發性醛類脂醇過多症**（primary hyperaldosteronism）」 | **是**（明列） |
+| **Eplerenone (Inspra)** | 「心肌梗塞後心衰竭」、「NYHA II 級以上慢性心衰竭」、「原發性高血壓」 | **否**（無 PA 條目） |
+| **Finerenone (Kerendia, 可申達)** | TFDA 仿單目前列：**(1) 第二型糖尿病相關慢性腎臟病** + **(2) LVEF ≥40% 心衰竭**（兩項獨立適應症） | **否** |
 
 > [!important] 仿單核可 ≠ 健保給付
 > TFDA 仿單核可只代表「在台灣可合法販售並依適應症處方」，**不等於健保有給付**。截至本次查核：
