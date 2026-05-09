@@ -19,10 +19,10 @@ tags:
 
 # Q1 — 何時該篩 PA：哪些 HTN 必須篩檢
 
-> [!summary] 一句話結論
+> **💡 一句話結論**
 > 目前所有 confirmed hypertension 都應被考慮至少一次 PA 篩檢。若資源無法 universal screening，**最低限度必篩**：resistant HTN、HTN + 自發/利尿劑誘發低血鉀、young-onset HTN <40 歲、adrenal incidentaloma + HTN、HTN + OSA 且有風險增強因子（hypoK / resistant / young / moderate-severe）、HTN + AF 或 cardioembolic stroke、sustained BP >150/100、PA / 早發 HTN/CVA 家族史。抽血前 K⁺ 補到 ≥4.0；2025 ES 採**三層 washout 策略**（no withdrawal / minimal withdrawal / ideal full withdrawal）；多數情境 minimal withdrawal 即可（停 MRA + ENaC inhibitor 4 週）。
 
-> [!note] 文件層級分辨
+> **📝 文件層級分辨**
 > **指引建議（guideline recommendation）** ≠ **臨床實務（clinical practice）** ≠ **政策現況（NHI coverage）**。本文以 2025 Endocrine Society Clinical Practice Guideline (Adler GK et al., JCEM 2025, **PMID 40658480**) 為主軸；2024 ESC、2025 Taipei Positional Paper、2017/2024 TSA 共識為對照。截至本次查核可見（2026-05-08），台灣 NHI 對 PA 篩檢仍要求臨床懷疑佐證；universal screening 為國際指引建議，**未進入台灣健保政策**。
 
 ---
@@ -48,7 +48,7 @@ PA 篩檢已**不應再窄化為「低血鉀高血壓才需要驗 ARR」**。202
 - **強度**：Conditional / weak recommendation（GRADE 2，**suggest** 而非 recommend）
 - **證據等級**：⊕⊕OO = **Low certainty**
 - **Technical remarks**：明寫「This is a **conditional recommendation**, with implementation depending on contextual factors such as available resources, local expertise, and healthcare system capacity」 → 留下資源受限地區的 prioritization 彈性
-- ==**篩檢工具**：serum/plasma aldosterone + plasma renin（PRA 或 DRC）+ 計算 ARR==
+- ****篩檢工具**：serum/plasma aldosterone + plasma renin（PRA 或 DRC）+ 計算 ARR**
 - **K⁺ 角色**：**不是篩檢工具本身**，而是用來校正 aldosterone 解讀
 
 #### 2025 ES vs 2016 ES 對比
@@ -69,7 +69,7 @@ PA 篩檢已**不應再窄化為「低血鉀高血壓才需要驗 ARR」**。202
 - **2025 AHA/ACC HTN guideline**：在 resistant hypertension 情境下，PA screening 給到 COR 1 / LOE B-NR（regardless of K⁺）；**這不等於對所有 HTN 採 universal screening**
 - **2025 Taipei Positional Paper** (Lin LY et al., J Clin Hypertens 2025, **PMID 40991208**)：主張台灣朝 universal PA screening 靠齊，引述 PA 約佔 all HTN 5-10%、resistant HTN 達 30%、實際篩檢率僅 1-2%
 
-> [!warning] 對台灣 NHI 政策含義
+> **⚠️ 對台灣 NHI 政策含義**
 > 截至本次查核可見（2026-05-08），台灣健保對 PA 篩檢仍要求臨床懷疑佐證；universal screening 是**國際指引建議**，**並非台灣健保政策**。Universal screening 在台灣的成本效益**尚未本土評估**。請務必區分「指引推薦」與「健保給付現況」。
 
 ### 2.2 高風險族群（已確認證據）
@@ -106,7 +106,7 @@ PA 篩檢已**不應再窄化為「低血鉀高血壓才需要驗 ARR」**。202
 
 ##### A5. HTN + OSA + 風險增強因子
 
-> [!note] OSA 是否普篩在近年證據具爭議
+> **📝 OSA 是否普篩在近年證據具爭議**
 > 2019 HYPNOS 顯示，若沒有其他適應症，OSA 人群的 PA prevalence 可降至約 1.5%；2025 ES Table 3 也未把 OSA 單獨列為 prevalence subgroup。Evidence framing 已從「OSA = 強指標」轉為「**需依 enhancer 情境判讀**」。
 
 下列情境仍應優先篩：
@@ -312,7 +312,7 @@ flowchart TD
 - Early-onset HTN：3.0%
 - HTN + hypokalemia：3.6%
 
-> [!warning] 數據口徑
+> **⚠️ 數據口徑**
 > 上述為 medRxiv preprint。**截至本次查核可見，已可由 PubMed 檢索到 preprint record（PMID 41292622），但仍不宜視為正式定稿證據**；待正式期刊發表後補入信心等級。
 
 ### 6.3 在地共識與基礎建設
@@ -330,7 +330,7 @@ flowchart TD
 
 ### 6.5 在地臨床現場觀察
 
-> [!note] 🩺 在地臨床現場觀察
+> **📝 🩺 在地臨床現場觀察**
 >
 > 臨床上遇到多重藥物控制不下來的高血壓，尤其使用利尿劑、合併低血鉀或代謝鹼、腎功能正常者，PA 的警覺度會明顯上升。這類臨床圖像在地區醫院腎臟科門診並不少見。
 >
@@ -344,7 +344,7 @@ flowchart TD
 
 ## 7. ARR 申報核刪預防（callout）
 
-> [!important] 截至本次查核可見
+> **❗ 截至本次查核可見**
 > 台灣 NHI 給付 aldosterone 與 renin 檢測，但需臨床適應症佐證。**實際申報前以最新版健保署支付標準查詢系統與貴院申報指引為準**。
 
 ### 7.1 高頻核刪情境
