@@ -115,7 +115,7 @@ seo_title: "洗腎病人可以旅行嗎？透析安排、藥物、保險與旅�
 
 ## 移植病人旅行專區
 
-> 本篇 SEO slug 為 `travel-dialysis-transplant`，但前面內容以 HD/PD 為主。移植病人請特別注意以下：
+> 前面內容以 HD/PD 為主，移植病人請特別注意以下：
 
 - **時機**：移植後第一年、近期排斥、感染、CMV 治療中、免疫抑制劑調整中或腎功能不穩者，應先與移植團隊討論，必要時延後高風險地區旅行
 - **免疫抑制劑（IS）攜帶與用藥**：tacrolimus / cyclosporine、mycophenolate、sirolimus / everolimus、steroid 等須**隨身攜帶、保留原包裝、備足額外天數**；跨時區需預先排好服藥時間與抽 trough 的安排

@@ -11,12 +11,13 @@ const sglt2iNotes = await getCollection('sglt2i');
 const glp1raNotes = await getCollection('glp1ra');
 const finerenoneNotes = await getCollection('finerenone');
 const ckmNotes = await getCollection('ckm');
+const paNotes = await getCollection('pa');
 const sexualHealthNotes = await getCollection('sexualHealth');
 const patientNotes = await getCollection('patient');
 const dialysisNotes = await getCollection('dialysis');
 const blogNotes = await getCollection('blog');
 
-const totalDecisionNotes = sglt2iNotes.length + glp1raNotes.length + finerenoneNotes.length + ckmNotes.length;
+const totalDecisionNotes = sglt2iNotes.length + glp1raNotes.length + finerenoneNotes.length + ckmNotes.length + paNotes.length;
 const totalAll = totalDecisionNotes + sexualHealthNotes.length + patientNotes.length + dialysisNotes.length + blogNotes.length;
 
 // 「最近更新」: 合併所有 collection、按 last_updated 排序、取最新 7 篇
@@ -33,6 +34,7 @@ const collectionMeta: Record<string, { label: string; icon: string; pathPrefix: 
 	glp1ra: { label: 'GLP-1 RA 決策筆記', icon: '💉', pathPrefix: '/glp1ra/' },
 	finerenone: { label: 'Finerenone 決策筆記', icon: '🛡️', pathPrefix: '/finerenone/' },
 	ckm: { label: 'CKM Syndrome', icon: '\u{1FAC0}', pathPrefix: '/ckm/' },
+	pa: { label: 'Primary Aldosteronism 決策筆記', icon: '🧪', pathPrefix: '/pa/' },
 	sexualHealth: { label: '腎友與性', icon: '❤️‍🩹', pathPrefix: '/sexual-health/' },
 	patient: { label: '給病人與家屬', icon: '👨‍👩‍👧', pathPrefix: '/patient/' },
 	dialysis: { label: '透析衛教', icon: '🏥', pathPrefix: '/dialysis/' },
@@ -44,6 +46,7 @@ const allEntries: RecentEntry[] = [
 	...glp1raNotes.map((e) => ({ collection: 'glp1ra', entry: e })),
 	...finerenoneNotes.map((e) => ({ collection: 'finerenone', entry: e })),
 	...ckmNotes.map((e) => ({ collection: 'ckm', entry: e })),
+	...paNotes.map((e) => ({ collection: 'pa', entry: e })),
 	...sexualHealthNotes.map((e) => ({ collection: 'sexualHealth', entry: e })),
 	...patientNotes.map((e) => ({ collection: 'patient', entry: e })),
 	...dialysisNotes.map((e) => ({ collection: 'dialysis', entry: e })),
@@ -84,6 +87,7 @@ const latestSglt2i = getLatestDate(sglt2iNotes);
 const latestGlp1ra = getLatestDate(glp1raNotes);
 const latestFinerenone = getLatestDate(finerenoneNotes);
 const latestCkm = getLatestDate(ckmNotes);
+const latestPa = getLatestDate(paNotes);
 const latestSexualHealth = getLatestDate(sexualHealthNotes);
 const latestPatient = getLatestDate(patientNotes);
 const latestDialysis = getLatestDate(dialysisNotes);
@@ -143,6 +147,17 @@ const groups = [
 				accent: '#634a8a',
 				icon: '\u{1FAC0}',
 				latest: latestCkm,
+			},
+			{
+				title: 'Primary Aldosteronism 決策筆記',
+				description: '原發性醛固酮症（PA）的篩檢、確診、治療策略與台灣健保實務。整合 2025 ES guideline、2025 Taipei Positional Paper、TAIPAI cohort。',
+				count: paNotes.length,
+				unit: '篇',
+				href: '/pa/',
+				color: '#e8f0f5',
+				accent: '#3a6080',
+				icon: '🧪',
+				latest: latestPa,
 			},
 			{
 				title: '腎友與性',

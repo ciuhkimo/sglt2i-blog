@@ -1,0 +1,103 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+
+const allNotes = await getCollection('pa');
+const sorted = allNotes.sort((a, b) => a.data.question_id.localeCompare(b.data.question_id));
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead
+			title={`Primary Aldosteronism (PA) 臨床決策筆記 | ${SITE_TITLE}`}
+			description="原發性醛固酮症（Primary Aldosteronism, PA）在台灣腎臟科實務的 13 個臨床決策問題。整合 2025 Endocrine Society guideline、2024 ESC HTN guideline、2025 Taipei Positional Paper、TAIPAI Study Group 證據與健保實務。"
+		/>
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+			h1 {
+				font-size: 2em;
+				margin-bottom: 0.3em;
+			}
+			.subtitle {
+				color: rgb(var(--gray));
+				font-size: 1.05em;
+				margin-bottom: 2em;
+			}
+			.note-list {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+			.note-list li {
+				padding: 0.5em 0;
+				border-bottom: 1px solid rgb(var(--gray-light));
+			}
+			.note-list li:last-child {
+				border-bottom: none;
+			}
+			.note-link {
+				text-decoration: none;
+				display: block;
+			}
+			.note-link:hover .note-title {
+				color: #d4913a;
+			}
+			.note-title {
+				font-weight: 600;
+			}
+			.note-id {
+				font-weight: 700;
+				color: #b5711a;
+				margin-right: 0.3em;
+			}
+			.note-meta {
+				font-size: 0.8em;
+				color: rgb(var(--gray));
+				margin-top: 0.2em;
+			}
+			.empty-msg {
+				color: rgb(var(--gray));
+				font-style: italic;
+				font-size: 0.9em;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Primary Aldosteronism (PA) 臨床決策筆記</h1>
+			<p class="subtitle">原發性醛固酮症在台灣腎臟科實務的決策問題。整合 2025 Endocrine Society、2024 ESC HTN guideline、2025 Taipei Positional Paper、TAIPAI Study Group 證據與健保實務。第一批上線 Q1（篩檢）+ Q11（健保）；其他 Q（治療策略、CKD-PA、AVS、AF、Osteoporosis、MACS-PA 等）後續發表。</p>
+
+			{sorted.length > 0 ? (
+				<ul class="note-list">
+					{sorted.map((note) => (
+						<li>
+							<a class="note-link" href={`/pa/${note.id}/`}>
+								<span class="note-title">
+									<span class="note-id">{note.data.question_id}</span>
+									{note.data.title}
+								</span>
+								<div class="note-meta">
+									{note.data.version} | 更新：<FormattedDate date={note.data.last_updated} /> | {note.data.status}
+								</div>
+							</a>
+						</li>
+					))}
+				</ul>
+			) : (
+				<p class="empty-msg">筆記準備中...</p>
+			)}
+		</main>
+		<Footer />
+	</body>
+</html>

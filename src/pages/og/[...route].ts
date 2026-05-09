@@ -1,11 +1,12 @@
 import { OGImageRoute } from 'astro-og-canvas';
 import { getCollection } from 'astro:content';
 
-const [sglt2i, glp1ra, finerenone, ckm, patient, dialysis, blog, sexualHealth] = await Promise.all([
+const [sglt2i, glp1ra, finerenone, ckm, pa, patient, dialysis, blog, sexualHealth] = await Promise.all([
 	getCollection('sglt2i'),
 	getCollection('glp1ra'),
 	getCollection('finerenone'),
 	getCollection('ckm'),
+	getCollection('pa'),
 	getCollection('patient'),
 	getCollection('dialysis'),
 	getCollection('blog'),
@@ -25,6 +26,7 @@ for (const e of sglt2i) pages[`sglt2i/${e.id}`] = { title: clean(e.data.title), 
 for (const e of glp1ra) pages[`glp1ra/${e.id}`] = { title: clean(e.data.title), section: 'GLP-1 RA 決策筆記 ｜ Nephro Decisions' };
 for (const e of finerenone) pages[`finerenone/${e.id}`] = { title: clean(e.data.title), section: 'Finerenone 決策筆記 ｜ Nephro Decisions' };
 for (const e of ckm) pages[`ckm/${e.id}`] = { title: clean(e.data.title), section: 'CKM Syndrome 決策筆記 ｜ Nephro Decisions' };
+for (const e of pa) pages[`pa/${e.id}`] = { title: clean(e.data.title), section: 'Primary Aldosteronism 決策筆記 ｜ Nephro Decisions' };
 for (const e of patient) pages[`patient/${e.id}`] = { title: clean(e.data.title), section: '病人衛教 ｜ Nephro Decisions' };
 for (const e of dialysis) pages[`dialysis/${e.id}`] = { title: clean(e.data.title), section: '透析衛教 ｜ Nephro Decisions' };
 for (const e of blog) pages[`blog/${e.id}`] = { title: clean(e.data.title), section: '臨床專題 ｜ Nephro Decisions' };
@@ -45,6 +47,7 @@ pages['sglt2i'] = { title: 'SGLT2i 決策筆記', section: 'Nephro Decisions' };
 pages['glp1ra'] = { title: 'GLP-1 RA 決策筆記', section: 'Nephro Decisions' };
 pages['finerenone'] = { title: 'Finerenone 決策筆記', section: 'Nephro Decisions' };
 pages['ckm'] = { title: 'CKM Syndrome 決策筆記', section: 'Nephro Decisions' };
+pages['pa'] = { title: 'Primary Aldosteronism 決策筆記', section: 'Nephro Decisions' };
 pages['patient'] = { title: '病人與家屬衛教', section: 'Nephro Decisions' };
 pages['dialysis'] = { title: '透析衛教', section: 'Nephro Decisions' };
 pages['blog'] = { title: '臨床專題', section: 'Nephro Decisions' };
