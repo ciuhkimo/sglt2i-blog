@@ -3,7 +3,7 @@ question_id: "Q11"
 title: "PA 健保給付與自費價格（台灣）"
 category: "台灣在地化"
 version: "v1.1"
-status: "已定稿（含 ChatGPT Pro fact-check）"
+status: ""
 last_updated: 2026-05-06
 next_review: 2027-05-06
 tags:

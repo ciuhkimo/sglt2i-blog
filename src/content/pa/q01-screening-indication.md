@@ -3,7 +3,7 @@ question_id: Q1
 title: 何時該篩 PA：哪些 HTN 必須篩檢
 category: Screening
 version: v1.1
-status: 已完成 ChatGPT Pro 獨立 fact-check；可上線
+status: ""
 last_updated: 2026-05-09
 next_review: 2027-05-09
 seo_title: "何時該篩 PA？台灣腎臟科 ARR 篩檢適應症（2025 Endocrine Society + Taipei Positional Paper 整合）"
