@@ -3,7 +3,7 @@ question_id: "Q05"
 title: "Finerenone 在 Heart Failure 合併 CKD 的角色"
 category: "適應症定位"
 version: "v1.2"
-status: "查核修訂版"
+status: ""
 last_updated: 2026-04-29
 next_review: 2027-04-29
 tags: [finerenone, nonsteroidal-MRA, heart-failure, HFpEF, HFmrEF, HFrEF, CKD, decision-note, FINEARTS-HF, KDIGO-2026]

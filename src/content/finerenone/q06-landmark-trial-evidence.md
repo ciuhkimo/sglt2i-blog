@@ -3,7 +3,7 @@ question_id: "Q06"
 title: "FIDELIO / FIGARO / FIDELITY 三大試驗的正確臨床解讀"
 category: "證據解讀"
 version: "v1.1"
-status: "查核修訂版"
+status: ""
 last_updated: 2026-04-19
 next_review: 2027-04-19
 tags: [finerenone, nonsteroidal-MRA, decision-note, landmark-trials, FIDELIO, FIGARO, FIDELITY]

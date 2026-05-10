@@ -3,7 +3,7 @@ question_id: "Q08"
 title: "Finerenone 用藥期間 K 與腎功能監測頻率"
 category: "監測管理"
 version: "v1.2"
-status: "查核修訂版"
+status: ""
 last_updated: 2026-04-30
 next_review: 2027-04-30
 tags: [finerenone, monitoring, hyperkalemia, eGFR, decision-note]

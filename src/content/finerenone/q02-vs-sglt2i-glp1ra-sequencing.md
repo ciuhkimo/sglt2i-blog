@@ -3,7 +3,7 @@ question_id: "Q02"
 title: "Finerenone 與 SGLT2i / GLP-1 RA 的排序與合併策略"
 category: "排序與合併"
 version: "v1.4"
-status: "查核修訂版"
+status: ""
 last_updated: 2026-05-05
 next_review: 2027-05-05
 tags: [finerenone, SGLT2i, GLP-1RA, sequencing, combination, decision-note, DKD, NDKD, non-diabetic-CKD]

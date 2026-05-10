@@ -3,7 +3,7 @@ question_id: "Q04"
 title: "Finerenone eGFR 門檻 — 起始 vs 持續使用"
 category: "起始與劑量"
 version: "v1.1"
-status: "查核修訂版"
+status: ""
 last_updated: 2026-04-19
 next_review: 2027-04-19
 tags: [finerenone, nonsteroidal-MRA, eGFR, CKD-staging, decision-note, dosing]

@@ -3,7 +3,7 @@ question_id: "Q01"
 title: "DKD 何時加上 Finerenone — 啟動時機與治療定位"
 category: "起始治療"
 version: "v1.1"
-status: "查核修訂版"
+status: ""
 last_updated: 2026-04-19
 next_review: 2027-04-19
 tags: [finerenone, nonsteroidal-MRA, decision-note, DKD, albuminuria, cardiorenal]

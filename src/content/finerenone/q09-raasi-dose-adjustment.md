@@ -3,7 +3,7 @@ question_id: "Q09"
 title: "Finerenone 啟用時 RAASi 劑量調整實務"
 category: "合併用藥"
 version: "v1.2"
-status: "查核修訂版"
+status: ""
 last_updated: 2026-05-05
 next_review: 2027-05-05
 tags: [finerenone, RAASi, ACEi, ARB, ARNI, CKD, T2D, decision-note]

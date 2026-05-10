@@ -3,7 +3,7 @@ question_id: "Q07"
 title: "類固醇型與非類固醇型 MRA 的臨床抉擇"
 category: "藥物比較"
 version: "v1.1"
-status: "查核修訂版"
+status: ""
 last_updated: 2026-04-19
 next_review: 2027-04-19
 tags: [finerenone, nonsteroidal-MRA, spironolactone, eplerenone, decision-note]

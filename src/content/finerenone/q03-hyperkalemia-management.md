@@ -3,7 +3,7 @@ question_id: "Q03"
 title: "Finerenone Hyperkalemia 風險管理"
 category: "安全性管理"
 version: "v1.1"
-status: "查核修訂版"
+status: ""
 last_updated: 2026-04-19
 next_review: 2027-04-19
 tags: [finerenone, nonsteroidal-MRA, hyperkalemia, potassium, decision-note, SGLT2i, monitoring]

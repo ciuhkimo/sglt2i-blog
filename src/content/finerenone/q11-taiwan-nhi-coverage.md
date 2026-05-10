@@ -3,7 +3,7 @@ question_id: "Q11"
 title: "Finerenone 健保給付與自費價格（台灣）"
 category: "台灣在地化"
 version: "v1.1"
-status: "查核修訂版"
+status: ""
 last_updated: 2026-04-19
 next_review: 2027-04-19
 tags: [finerenone, Kerendia, 可申達, Taiwan, NHI, self-pay, DKD, CKD, decision-note, 健保]

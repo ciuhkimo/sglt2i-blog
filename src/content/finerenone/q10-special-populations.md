@@ -3,7 +3,7 @@ question_id: "Q10"
 title: "Finerenone 於特殊族群的證據邊界與處方指引"
 category: "特殊族群"
 version: "v1.2"
-status: "查核修訂版"
+status: ""
 last_updated: 2026-04-29
 next_review: 2027-04-29
 tags: [finerenone, elderly, frailty, kidney-transplant, dialysis, hepatic-impairment, pregnancy, IgA-nephropathy, non-diabetic-CKD, decision-note]
