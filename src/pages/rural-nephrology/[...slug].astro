@@ -1,0 +1,20 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import RuralNephrologySpokeLayout from '../../layouts/RuralNephrologySpokeLayout.astro';
+
+export async function getStaticPaths() {
+	const spokes = await getCollection('ruralNephrology');
+	return spokes.map((spoke) => ({
+		params: { slug: spoke.id },
+		props: spoke,
+	}));
+}
+type Props = CollectionEntry<'ruralNephrology'>;
+
+const spoke = Astro.props;
+const { Content } = await render(spoke);
+---
+
+<RuralNephrologySpokeLayout {...spoke.data}>
+	<Content />
+</RuralNephrologySpokeLayout>

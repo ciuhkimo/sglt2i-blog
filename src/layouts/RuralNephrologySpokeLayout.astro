@@ -1,0 +1,187 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import Header from '../components/Header.astro';
+import SubscribeCTA from '../components/SubscribeCTA.astro';
+import ReadAloudButton from '../components/ReadAloudButton.astro';
+import { authorPerson, authorPersonRef } from '../lib/schema/authorPerson';
+import { organization, organizationRef } from '../lib/schema/organization';
+
+type Props = CollectionEntry<'ruralNephrology'>['data'];
+
+const { title, description, category, last_updated, tags = [], seo_title, target_audience } = Astro.props;
+
+const jsonLd = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@graph': [
+		organization,
+		authorPerson,
+		{
+			'@type': ['MedicalWebPage', 'Article'],
+			headline: title,
+			name: title,
+			datePublished: last_updated.toISOString(),
+			dateModified: last_updated.toISOString(),
+			author: authorPersonRef,
+			reviewedBy: authorPersonRef,
+			publisher: organizationRef,
+			lastReviewed: last_updated.toISOString().split('T')[0],
+			inLanguage: 'zh-Hant',
+			about: {
+				'@type': 'MedicalCondition',
+				name: category || 'Rural Nephrology Care',
+			},
+		},
+	],
+});
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead title={seo_title || title} description={description} />
+		<script type="application/ld+json" set:html={jsonLd} />
+		<style>
+			main {
+				width: 100%;
+			}
+			.prose {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 1em;
+				color: rgb(var(--gray-dark));
+			}
+			.breadcrumb {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: 1em auto 0;
+				padding: 0 1em;
+				font-size: 0.85em;
+				color: rgb(var(--gray));
+			}
+			.breadcrumb a {
+				color: rgb(var(--gray));
+				text-decoration: none;
+			}
+			.breadcrumb a:hover {
+				color: var(--accent);
+			}
+			.spoke-header {
+				margin-bottom: 1.5em;
+				padding-bottom: 1em;
+				border-bottom: 1px solid rgb(var(--gray-light));
+			}
+			.spoke-header h1 {
+				margin: 0 0 0.5em 0;
+				font-size: 2em;
+				line-height: 1.3;
+			}
+			.meta {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 1em;
+				font-size: 0.85em;
+				color: rgb(var(--gray));
+			}
+			.meta-item {
+				display: flex;
+				align-items: center;
+				gap: 0.3em;
+			}
+			.meta-label {
+				font-weight: 700;
+			}
+			.tags {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.5em;
+				margin-top: 0.5em;
+			}
+			.tag {
+				background: rgb(var(--gray-light));
+				padding: 0.15em 0.6em;
+				border-radius: 4px;
+				font-size: 0.8em;
+				color: rgb(var(--gray-dark));
+			}
+			.print-btn-wrapper {
+				margin-bottom: 1.5em;
+				text-align: right;
+			}
+			.print-btn {
+				padding: 0.4em 1em;
+				background: rgb(var(--gray-light));
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 6px;
+				font-size: 0.85em;
+				color: rgb(var(--gray-dark));
+				cursor: pointer;
+			}
+			.print-btn:hover {
+				background: #ddd;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main id="main-content">
+			<nav class="breadcrumb">
+				<a href="/">首頁</a> &rsaquo;
+				<a href="/rural-nephrology/">偏鄉腎臟照護</a> &rsaquo;
+				<span>{title}</span>
+			</nav>
+			<article class="prose">
+				<div class="spoke-header">
+					<h1>{title}</h1>
+					<div class="meta">
+						{category && (
+							<span class="meta-item">
+								<span class="meta-label">類別：</span>{category}
+							</span>
+						)}
+						{target_audience && (
+							<span class="meta-item">
+								<span class="meta-label">對象：</span>{target_audience}
+							</span>
+						)}
+						<span class="meta-item">
+							<span class="meta-label">更新日期：</span><FormattedDate date={last_updated} />
+						</span>
+					</div>
+					{tags && tags.length > 0 && (
+						<div class="tags">
+							{tags.map((tag: string) => <span class="tag">{tag}</span>)}
+						</div>
+					)}
+				</div>
+				<div class="print-btn-wrapper">
+					<ReadAloudButton />
+					<button class="print-btn" onclick="window.print()">列印 / 存 PDF</button>
+				</div>
+				<slot />
+				<SubscribeCTA />
+				<div class="print-footer">
+					<p>Nephro Decisions｜https://nephrodecisions.com{Astro.url.pathname}｜由腎臟科專科醫師主導，AI 輔助研究與多輪交替審稿。本文不構成醫療建議。</p>
+					<p class="print-date">列印日期由瀏覽器產生｜文章更新日期：{last_updated.toISOString().split('T')[0]}</p>
+				</div>
+			</article>
+		</main>
+		<Footer />
+		<script>
+			document.querySelectorAll('.prose table').forEach((table) => {
+				if (!table.parentElement?.classList.contains('table-wrapper')) {
+					const wrapper = document.createElement('div');
+					wrapper.className = 'table-wrapper';
+					table.parentNode?.insertBefore(wrapper, table);
+					wrapper.appendChild(table);
+				}
+				table.querySelectorAll("thead th").forEach((th) => {
+					if (!th.getAttribute("scope")) th.setAttribute("scope", "col");
+				});
+			});
+		</script>
+	</body>
+</html>

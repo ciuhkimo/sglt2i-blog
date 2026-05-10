@@ -147,4 +147,18 @@ const pa = defineCollection({
 	}),
 });
 
-export const collections = { sglt2i, patient, dialysis, blog, glp1ra, sexualHealth, finerenone, ckm, pa };
+const ruralNephrology = defineCollection({
+	loader: glob({ base: './src/content/rural-nephrology', pattern: '**/*.{md,mdx}' }),
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		category: z.string().optional(),
+		last_updated: z.coerce.date(),
+		tags: z.array(z.string()),
+		seo_title: z.string().optional(),
+		target_audience: z.string().optional(),
+		spoke_id: z.string().optional(),
+	}),
+});
+
+export const collections = { sglt2i, patient, dialysis, blog, glp1ra, sexualHealth, finerenone, ckm, pa, ruralNephrology };

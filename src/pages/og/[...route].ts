@@ -1,7 +1,7 @@
 import { OGImageRoute } from 'astro-og-canvas';
 import { getCollection } from 'astro:content';
 
-const [sglt2i, glp1ra, finerenone, ckm, pa, patient, dialysis, blog, sexualHealth] = await Promise.all([
+const [sglt2i, glp1ra, finerenone, ckm, pa, patient, dialysis, blog, sexualHealth, ruralNephrology] = await Promise.all([
 	getCollection('sglt2i'),
 	getCollection('glp1ra'),
 	getCollection('finerenone'),
@@ -11,6 +11,7 @@ const [sglt2i, glp1ra, finerenone, ckm, pa, patient, dialysis, blog, sexualHealt
 	getCollection('dialysis'),
 	getCollection('blog'),
 	getCollection('sexualHealth'),
+	getCollection('ruralNephrology'),
 ]);
 
 type PageData = {
@@ -31,6 +32,7 @@ for (const e of patient) pages[`patient/${e.id}`] = { title: clean(e.data.title)
 for (const e of dialysis) pages[`dialysis/${e.id}`] = { title: clean(e.data.title), section: '透析衛教 ｜ Nephro Decisions' };
 for (const e of blog) pages[`blog/${e.id}`] = { title: clean(e.data.title), section: '臨床專題 ｜ Nephro Decisions' };
 for (const e of sexualHealth) pages[`sexual-health/${e.id}`] = { title: clean(e.data.title), section: '腎友與性 ｜ Nephro Decisions' };
+for (const e of ruralNephrology) pages[`rural-nephrology/${e.id}`] = { title: clean(e.data.title), section: '偏鄉腎臟照護 ｜ Nephro Decisions' };
 
 // Site-level pages
 pages['index'] = { title: 'Nephro Decisions', section: '腎臟科臨床決策知識庫｜台灣' };
