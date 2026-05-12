@@ -2,9 +2,9 @@
 question_id: Q09
 title: "手術或禁食前是否應延後開始 SGLT2 Inhibitor？"
 category: "風險評估 (Risk Assessment)"
-version: "v1.5"
-status: 已定稿
-last_updated: 2026-04-04
+version: "v1.6"
+status: ""
+last_updated: 2026-05-12
 next_review: 2026-09-17
 seo_title: "SGLT2i 術前要停幾天？手術禁食停藥指引"
 description: "FDA 與 ADA 建議術前 3-4 天停用 SGLT2i 以避免 euglycemic DKA。本文比較各國停藥天數差異、SSTOP 原則、緊急手術處置流程與術後重啟條件。"
@@ -103,6 +103,7 @@ SGLT2 inhibitor 在圍術期使用的最大顧慮是 euglycemic DKA (eDKA) 的�
 - Non-diabetic CKD 患者圍術期 eDKA 精確風險：直覺上可能低於 DM 患者，但現有 guideline 與 perioperative safety 文件主要圍繞 T2D 使用情境，non-diabetic CKD 的精確風險分層資料不足，不宜過度強調「較安全」 *[uncertain]*
 - 最佳的術後重啟時機尚無 RCT 比較；多數專家建議待 adequate oral intake 恢復、臨床穩定、無 ketoacidosis 疑慮後再重啟，而非固定天數
 - 目前大多數 perioperative 規範建立於 case reports、FDA warning 與 expert safety logic，而非大量隨機試驗（APSF 2025 明確指出）
+- **術前停藥落實度有顯著實務 gap（2026 ANZ 真實世界）**：Sasaki 2026（PMID 42006531）顯示，**ICU 入院時 51.9%（28/54）SGLT2i 使用者被停藥**——主因為 EDKA 擔憂。這表示有近一半病人**進到 ICU 才被動停藥**，不是術前已主動停。台灣端無系統性資料；reactive stop 與 proactive pre-op stop 的比例分布、以及急診手術 vs 擇期手術的差異，仍待累積。對門診端的 implication：擇期手術轉診時主動衛教與術前 hold 規劃，比依賴 ICU / 麻醉端 reactive 停藥更安全。
 
 ### 進行中的研究
 - **NCT06838507**：德國 multicentre prospective cohort；研究 perioperative SGLT2i-associated ketoacidosis 的 incidence、fasting times、management 與 outcomes（observational，非停藥天數比較試驗）

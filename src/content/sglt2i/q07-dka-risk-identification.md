@@ -2,9 +2,9 @@
 question_id: Q07
 title: "如何辨識 DKA 高風險族群？"
 category: "風險評估 (Risk Assessment)"
-version: "v1.0"
-status: 已定稿
-last_updated: 2026-03-23
+version: "v1.1"
+status: ""
+last_updated: 2026-05-12
 next_review: 2026-09-17
 seo_title: "SGLT2i 引發的 EDKA（euglycemic DKA）：辨識、鑑別與預防"
 description: "SGLT2i 可能引發 EDKA（euglycemic DKA，正常血糖型酮酸中毒），與一般 DKA 的關鍵差異在於血糖常 <250 mg/dL 而易延誤診斷。本文整理 SGLT2i DKA 高風險族群、與一般 DKA 的鑑別重點、處方前評估清單與停藥時機。"
@@ -103,6 +103,7 @@ EDKA（euglycemic diabetic ketoacidosis，正常血糖型酮酸中毒）與經�
 - 不同 SGLT2i 間 DKA 風險差異仍未定；部分 network meta-analysis 顯示 canagliflozin ranking 較高，但 evidence certainty 不高，各藥之間尚無一致且明確的 head-to-head 差異
 - CKD 特定族群的 DKA 發生率缺乏大規模前瞻性數據
 - 是否需要常規檢測 ketones 作為監測手段尚無共識
+- **ICU 真實世界 EDKA 偵測率（2026 新證據）**：Sasaki 2026（PMID 42006531；ANZ 52 ICUs / 786 critically ill adults）顯示，**ICU 入院時 SGLT2i 使用率 6.9%**；在實際接受 blood ketone 檢測的 114 病人中，**33.0% 出現 ketone 升高、5.2% 符合 ketoacidosis criteria**。但只有 1.9% 的 ICU 把 SGLT2i 列為 ketone 監測 trigger，**測試多由臨床懷疑驅動**——意味實際 EDKA 發生率可能被低估。台灣 ICU 端目前無等價系統性資料，這個數字提供「應該主動建立 SGLT2i-trigger blood ketone monitoring」的立論基礎；**血酮（capillary 或 venous β-hydroxybutyrate）才能可靠偵測 EDKA**，尿酮在 SGLT2i 使用者偽陰性率高，不可依賴。
 - Perioperative observational data 並不完全一致：2023 population-based study 支持 preop SGLT2i exposure 與 postoperative DKA risk 增加（高風險特徵：emergency operation、HbA1c ≥8%、insulin use）；但 2025 JAMA Surgery study 在 emergency surgery cohort 中，調整後未見顯著增加。此不推翻 FDA/ADA 的停藥建議，但談及 perioperative risk 時應標明 observational data are mixed。
 
 ### 進行中的研究

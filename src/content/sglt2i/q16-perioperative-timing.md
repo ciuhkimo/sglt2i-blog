@@ -2,9 +2,9 @@
 question_id: Q16
 title: "Perioperative SGLT2i Hold Timing"
 category: "暫停與重啟 (Hold & Restart)"
-version: "v1.0"
-status: 已定稿
-last_updated: 2026-04-04
+version: "v1.1"
+status: ""
+last_updated: 2026-05-12
 next_review: 2026-09-17
 seo_title: "圍術期 SGLT2i 停藥與重啟時機完整指引"
 description: "圍術期使用 SGLT2i 的最大風險為 euglycemic DKA。本文比較北美（3-4天）與英國（1天）停藥天數差異、eDKA 風險監測指標與緊急手術的處置流程。"
@@ -110,6 +110,7 @@ SGLT2 inhibitor 的使用適應症已擴展至 CKD、HF（含非糖尿病）等�
 - **非糖尿病 CKD/HF 患者的直接 perioperative outcome evidence 有限**：ACC/AHA 2024 已明確將「HF and/or diabetes 患者」納入停藥建議對象（Class I）；2025 Anaesthesia 多專科共識亦以「成人 SGLT2i 使用者」為對象，不限於 DM。真正不足的是 non-DM CKD/HF 的直接 perioperative DKA / outcome quantitative evidence；應表述為「直接證據有限，但已有 guideline/consensus 將此族群納入管理建議」，而非「缺乏指引」
 - 最佳「緊急手術」管理流程尚無 RCT 驗證
 - **停藥天數國際異質性**：主流北美來源（FDA、ADA、ACC/AHA）傾向 3–4 天；但 CPOC 建議 day before + day of surgery，JBDS 建議亦有變動，Anaesthesia 2025 多專科共識明確採 day before + day of procedure。國際 guidance 仍有明顯差異，不宜寫成「已達成全球共識（≥3 天）」
+- **真實世界執行落差（2026 ANZ 觀察）**：Sasaki 2026（PMID 42006531；52 ICUs / 786 critically ill adults）顯示 ICU 入院時 SGLT2i 使用率 6.9%，**但其中 51.9% 才在 ICU 階段被停藥**——意味相當比例屬「reactive 停藥」而非 proactive pre-op hold。Guideline 與實務有顯著 implementation gap；門診端主動術前衛教與 hold scheduling 比依賴 ICU / 麻醉端 reactive 停藥更安全。
 
 ### 進行中的研究
 - **NCT06838507**：multicentre prospective observational cohort study（not yet recruiting）；研究 perioperative SGLT2i-associated ketoacidosis 的 incidence、characterisation、management 與 outcomes；納入條件明寫 regardless of whether SGLT2i was discontinued preoperatively or not——**非 continue-vs-hold 直接比較 RCT**

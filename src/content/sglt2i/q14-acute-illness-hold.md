@@ -2,9 +2,9 @@
 question_id: Q14
 title: "Acute Illness 時是否應停用 SGLT2 Inhibitor？"
 category: "暫停與重啟 (Hold & Restart)"
-version: "v1.5"
-status: 已定稿
-last_updated: 2026-04-03
+version: "v1.6"
+status: ""
+last_updated: 2026-05-12
 next_review: 2026-09-17
 seo_title: "急性生病要停 SGLT2i 嗎？Sick Day Rules 指引"
 description: "急性疾病伴脫水、禁食或感染時應暫停 SGLT2i，以避免 AKI 與 eDKA。本文涵蓋停藥指徵、輕症可續用情境、重啟條件與 Sick Day Rules 患者衛教要點。"
@@ -163,6 +163,7 @@ oral intake 正常、無紅旗徵兆）          無法進食、高 DKA risk、�
 - 輕症急性疾病（輕度感冒）繼續 SGLT2i 的安全性缺乏 RCT 數據
 - 非糖尿病 CKD 患者的停藥必要性仍有爭議（eDKA risk appears very low，但 AKI 風險仍存在）
 - 最適停藥持續時間與重啟時機尚未有 RCT 定論
+- **ICU 端 ketone monitoring 制度缺口（2026 ANZ 真實世界）**：Sasaki 2026（PMID 42006531）顯示，**ICU 入院時 SGLT2i 使用率 6.9%**——對 ICU 已是高比例；但 ANZ 52 ICUs 中只有 **34.6% 有 documented ketone measurement policy**，且**僅 1.9% 把 SGLT2i 列為 ketone monitoring trigger**。實際接受 blood ketone 檢測的 114 病人中，33.0% ketone 升高、5.2% 符合 ketoacidosis criteria——而檢測多由臨床懷疑驅動，不是 protocol-driven。對台灣 ICU policy 的 implication：**主動建立「入 ICU 病人若用 SGLT2i 即觸發 blood ketone monitoring」協定**可能比依賴臨床懷疑更可靠。
 
 ### 進行中的研究
 目前 ongoing research 主要集中於三個方向：
