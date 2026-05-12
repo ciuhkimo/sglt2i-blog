@@ -2,9 +2,9 @@
 question_id: Q5
 title: PA 治療策略：Surgery vs MRA 怎麼選
 category: Treatment
-version: v1.1
+version: v1.2
 status: ""
-last_updated: 2026-05-09
+last_updated: 2026-05-12
 next_review: 2027-05-09
 seo_title: "PA 手術還是吃藥？腎上腺切除 vs MRA 治療決策（2025 Endocrine Society + TAIPAI 整合）"
 description: "對 lateralized PA 病人，腹腔鏡單側腎上腺切除為 gold standard；bilateral 或不適合手術 → spironolactone first-line。整合 PASO 結果、TAIPAI hard endpoint、術後 acute eGFR dip、Karagiannis 2008 RCT、Finerenone off-label disclaimer，給區域醫院腎臟科可落地的決策框架。"
@@ -272,6 +272,27 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 | **Thiazide** | K⁺ 控好後可加；但可能影響日後篩檢解讀 |
 
 **原則**：PA treatment 不是把一般 HTN 藥全停掉，而是**把 MRA 放回病因治療主軸，其他藥退到輔助角色**。
+
+### 4.6 未來治療：Aldosterone Synthase Inhibitor（preview）
+
+**Baxdrostat** 是 aldosterone synthase (CYP11B2) 選擇性抑制劑——機轉與 MRA 不同（MRA 是受體拮抗，ASI 是上游酵素抑制），但兩者最終都在 aldosterone signaling 軸上作用。
+
+**目前可確認的 phase 3 證據（BaxHTN）：**
+
+- **PMID 40888730**；NEJM 2025-08-30；Flack et al.；N=796。
+- 對象：**uncontrolled 或 resistant HTN**（2 種降壓藥仍 SBP 140-<170 為 uncontrolled；≥3 種含 diuretic 仍 ≥135 為 resistant）。
+- **本試驗 by protocol 排除 PA 病人** — 因此 BaxHTN 不是 PA-specific efficacy trial。
+- 主要結果（12 週 seated SBP，placebo-corrected）：1 mg **−8.7 mmHg**、2 mg **−9.8 mmHg**（兩者 P<0.001）。
+- **安全性需注意**：K⁺ >6.0 mmol/L 比例 1 mg 2.3%、2 mg 3.0% vs placebo 0.4%——對 CKD / 合併 MRA / ACEi-ARB 族群屬實質高血鉀風險。
+
+**腎臟科目前該如何寫：**
+
+- **不能寫成 PA 的標準治療** — BaxHTN protocol-level 排除 PA，沒有 PA-specific biochemical remission 或 long-term cardiorenal data。
+- **不能寫成 adrenalectomy 或 spironolactone/eplerenone 的替代** — 適應症不同；adrenalectomy 對 lateralized PA 仍是 etiology-curing；MRA 仍是雙側病變或不適合手術的主軸。
+- **可以寫成「未來方向之一」** — 機轉上對 aldosterone excess 高度相關，phase 3 已有正式 BP-lowering data；但 PA-targeted efficacy、subtype-specific role、surgery-sparing potential 都尚未建立。
+- **截至本次查核可見**：台灣 TFDA 公開資料未顯示已核准適應症；US NDA accepted under FDA Priority Review (2025-12)，實際監管行動以官方公告為準。
+
+詳細 emerging therapy 定位見 [CKM Q13 — 新興治療（含 ASI、口服 GLP-1RA、retatrutide）](/ckm/q13-emerging-therapies/)。
 
 ---
 
