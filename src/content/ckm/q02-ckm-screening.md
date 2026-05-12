@@ -2,9 +2,9 @@
 question_id: "Q02"
 title: "CKM 篩檢與識別"
 category: "定義與識別"
-version: "v1.1"
-status: "查核修訂版"
-last_updated: 2026-04-22
+version: "v1.2"
+status: ""
+last_updated: 2026-05-12
 next_review: 2027-04-22
 tags:
   - CKM-syndrome
@@ -54,6 +54,7 @@ seo_title: "Q02 CKM 篩檢與識別 | CKM Syndrome 腎臟科臨床決策"
 - **AHA 2026 implementation guide** 已明示：CKM staging framework 對幾乎所有 CKD 病人都相關；而且在 CKM stage 2–4，**正確的 kidney function evaluation 是核心工作**。
 - **albuminuria testing 仍被明顯低估**：在 insured US adults with CKD 的研究中，**59% 未接受 albuminuria testing**；在高血壓/糖尿病的大型 EHR 研究中，約 **two-thirds of albuminuria remained undetected because of lack of testing**。
 - 台灣 515,602 人世代顯示 **71.5% 成人符合 CKM**；其中 CKM stage 2 佔 **46.3%**，且相較於無 CKM 成分者，**CVD mortality HR 2.81、incident ESKD HR 10.15**。
+- 2026 年 Nat Rev Nephrol 的 epidemiology review 整合多國資料指出，**stage 2（代謝風險或腎病）是全球最普遍的層級**；CKM 負擔在男性、年長者、社經弱勢與鄉村族群更高，因此 screening 不能只依「臨床表觀風險」，社區與 primary care 場景的 albuminuria + eGFR 取得管道是 implementation 重點（PMID 42098477）。
 - 以 CKD-PC 24 cohorts、637,315 人的 meta-analysis 來看，**albuminuria 與 eGFR 應同時納入 CV 風險分類**；其中 ACR 對 **CV mortality 與 HF** 的 discrimination improvement 特別明顯。
 - 一旦高風險者被辨識出來，並不是只「貼標籤」而已：目前已有可連結到 hard outcomes 的治療證據與 guideline-directed therapy，包括 **ACEi/ARB、SGLT2 inhibitor、finerenone、GLP-1RA/semaglutide（特定情境）**。
 

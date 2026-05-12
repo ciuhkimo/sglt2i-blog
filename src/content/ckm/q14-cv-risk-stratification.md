@@ -2,9 +2,9 @@
 question_id: "Q14"
 title: "CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker）— 查核修正版"
 category: "風險與預後"
-version: "v1.1"
-status: "查核修訂版"
-last_updated: 2026-04-22
+version: "v1.2"
+status: ""
+last_updated: 2026-05-12
 next_review: 2027-04-22
 tags:
   - CKM-syndrome
@@ -97,6 +97,14 @@ CKD-PC 的 collaborative meta-analysis 顯示，加入 albuminuria / ACR 後，�
 即使是早期 CKD，albuminuria 也會拉高 CV risk。UK Biobank cohort 顯示，**stage 2 CKD with albuminuria** 的 MACE、HF、all-cause mortality 風險，都高於正常腎功能組，而且風險程度接近 **stage 3A CKD without albuminuria**。這支持一個實務重點：
 
 > **G1A3 / G2A3 雖然不是 KDIGO red，但絕對不是「低風險早期 CKD」。**
+
+### 4) 2026 流病更新：disparity 與 emerging risk modifier 要納入風險脈絡
+
+2026 年 Nat Rev Nephrol 的 epidemiology review（PMID 42098477）整合最新資料，補強兩個對 CV risk stratification 有實務意義的觀察：
+
+- **CKM 負擔分布不平等**：advanced CKM 在男性、年長者、社經弱勢與鄉村族群更高；單看臨床指標無法捕捉這些 implementation gap。
+- **氣候相關 stressor（極端高溫、空氣汙染）為新興 risk modifier**：證據仍在累積，目前**不宜寫成獨立因果風險因子**，但可視為「為何同樣的 KDIGO 分層在不同族群預後不同」的補充脈絡。
+- 在門診 risk stratification 對話時，UACR、eGFR trajectory、HF phenotype 之外，社會脆弱性（social vulnerability）也應列入照護計畫考量，而非僅在「公衛統計」層級看待。
 
 ---
 

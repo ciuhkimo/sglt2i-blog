@@ -2,9 +2,9 @@
 question_id: "Q01"
 title: "CKM Syndrome 定義與分期（查核修訂版）"
 category: "定義與識別"
-version: "v1.1"
-status: "查核修訂版"
-last_updated: 2026-04-22
+version: "v1.2"
+status: ""
+last_updated: 2026-05-12
 next_review: 2027-04-22
 tags:
   - CKM-syndrome
@@ -39,7 +39,7 @@ CKM syndrome 是 AHA 於 2023 年提出的整合式風險架構，用來把 **ad
 
 這個框架對腎臟科的實際意義：
 
-- **美國成人近 90% 已達 CKM stage ≥1**，其中約 **14.6%** 屬於 advanced stage（3–4），代表 CKM 不是少數人的特殊名詞，而是高盛行率的臨床現象。[2]
+- **美國成人近 90% 已達 CKM stage ≥1**，其中約 **14.6%** 屬於 advanced stage（3–4），代表 CKM 不是少數人的特殊名詞，而是高盛行率的臨床現象。[2] 2026 年 Nat Rev Nephrol 的 epidemiology review 進一步指出，**stage 2（代謝風險或腎病）是最普遍的層級**；CKM 負擔在性別、年齡、社經與地理上有顯著不平等，**氣候相關 stressor 為新興 risk modifier**。[14]
 - 台灣官方/官方引用資料顯示，**CKD 盛行率約 11.9%**；衛福部簡報顯示 **2023 年全國門診透析就醫人數 97,262 人**，2024 年為 96,553 人。[3]
 - 亞洲大型世代研究（515,602 人）顯示：**每增加一個 CKM component**，all-cause mortality HR **1.22**、CVD mortality HR **1.37**。[4]
 - 台灣自 **2025-03-01** 起擴增 SGLT2 inhibitor 健保給付於符合條件的 CKD 病人；官方估計 **新增嘉惠約 15.3 萬名 CKD 病友**。同次修訂亦納入部分 **HFmrEF** 給付條件。[5]
