@@ -2,9 +2,9 @@
 question_id: "Q13"
 title: "CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finerenone 擴展）—查核修訂版"
 category: "整合藥物策略"
-version: "v1.1"
-status: "查核修訂版"
-last_updated: 2026-04-22
+version: "v1.2"
+status: ""
+last_updated: 2026-05-12
 next_review: 2027-04-22
 tags:
   - CKM-syndrome
@@ -120,16 +120,16 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
   - 不是「腎臟適應症」
   - 也不等同於「HFpEF 官方 label 已擴張」
 
-#### C. SURPASS-CVOT + 2026 JAMA Cardiology post hoc cardiorenal analysis
-- 原始 SURPASS-CVOT 主試驗是 **tirzepatide vs dulaglutide** 的 active-comparator CVOT。
-- 原始 3-point MACE 比較為 **HR 0.92**, superiority **P=.09**，也就是：
-  - **已證明 noninferiority**
-  - **未正式證明 superiority for primary 3-point MACE**
-- 後續 2026 post hoc 分析則顯示：
+#### C. SURPASS-CVOT primary publication + 2026 JAMA Cardiology post hoc cardiorenal analysis
+- SURPASS-CVOT 已於 **2025-12 在 NEJM 正式發表 primary outcome paper**（PMID 41406444；N=13,165 modified ITT）。
+- Primary 3-point MACE 比較：**HR 0.92 (95.3% CI 0.83–1.01)**，noninferiority P=0.003；**superiority P=0.09 未達**。
+  - 也就是：**已正式證明 noninferiority vs dulaglutide**
+  - **未證明 superiority for primary 3-point MACE**
+- 2026 JAMA Cardiology post hoc 分析則顯示：
   - 6-component cardiorenal composite：**HR 0.84 (0.79–0.90)**
   - all-cause mortality：**HR 0.84 (0.75–0.94)**
   - composite renal endpoint：**HR 0.79 (0.68–0.91)**
-- 這些結果很有臨床吸引力，但仍須明白寫成：**secondary / post hoc cardiorenal evidence**, 不能直接等同於一個 dedicated kidney outcome registration trial。
+- 這些 post hoc 結果有臨床吸引力，但仍應寫成：**secondary / post hoc cardiorenal evidence**, 不能等同於一個 dedicated kidney outcome registration trial。腎臟科決策時，把 tirzepatide 視為「metabolic + CV outcome 等級的藥物，附帶 secondary cardiorenal signal」較準確。
 
 ### 3. 實務定位
 
@@ -149,6 +149,64 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
   - 評估 renal trajectory、albuminuria、volume status
   - 區分它是 **metabolic/obesity/HF drug with renal relevance**，不是「已核准腎臟藥」
   - 避免用 tirzepatide 的熱度取代已落地的腎保護基礎治療
+
+---
+
+## Orforglipron（口服小分子 GLP-1 RA）
+
+### 1. 目前可直接確認的 official status
+
+- Orforglipron 是 **口服、小分子、非胜肽 GLP-1 receptor agonist**；不需空腹、不需特殊飲水條件。
+- 截至 2026-05，美國 FDA / 台灣 TFDA 公開資料皆未顯示已核准適應症；屬於臨床試驗階段藥物。
+
+### 2. 關鍵試驗：ATTAIN-1（obesity, non-diabetic）
+
+- **PMID 40960239**；NEJM 2025-09-16；Wharton et al.；N=3,127；phase 3、multinational、double-blind。
+- 對象：**obesity without diabetes** 成人；隨機分配 6 / 12 / 36 mg vs placebo，72 週。
+- 主要結果（baseline → week 72 體重變化）：
+  - 6 mg：**−7.5%**（95% CI −8.2 to −6.8）
+  - 12 mg：**−8.4%**（−9.1 to −7.7）
+  - 36 mg：**−11.2%**（−12.0 to −10.4）
+  - placebo：−2.1%
+- 36 mg 組達 **≥10% 減重 54.6%**、**≥15% 減重 36.0%**、**≥20% 減重 18.4%**。
+- 次要 endpoint：waist circumference、SBP、TG、non-HDL-C 皆顯著改善。
+- 安全性：**胃腸道副作用為主，多為輕中度**；因副作用停藥比例 5.3–10.3%（placebo 2.7%）。
+
+### 3. Regulatory status
+
+- 截至本次查核可見公開資料，**仍未取得 FDA 或 TFDA 正式減重 / T2D 適應症核准**。
+- 後續 ATTAIN-2（obesity with T2D, Lancet 2025）與 ACHIEVE 系列（T2D efficacy）資料已陸續發表，但**腎臟 hard endpoint 仍闕如**。
+
+### 4. 腎臟科實務定位
+
+- Orforglipron 目前**沒有 dedicated renal outcome data**。
+- 可以說：「**未來可能改變 GLP-1 RA 的 access barrier**（口服 vs 注射）」。
+- 不能說：「已證明腎保護」、「可取代 semaglutide / tirzepatide 在 CKD 的角色」。
+- 腎臟科最可能的接觸場景：T2D + obesity 病人由糖尿病門診或減重門診先啟動，腎臟科端負責 renal trajectory monitoring。
+
+---
+
+## Retatrutide（GIP + GLP-1 + glucagon triple agonist，phase 2 early signal）
+
+### 1. 機轉與發展階段
+
+- Retatrutide 是 **first-in-class** 的 triple hormone receptor agonist（GIP / GLP-1 / glucagon）。
+- 截至 2026-05，phase 2 完整資料已發表，**phase 3 / CVOT / dedicated CKD trial 仍進行中**（TRANSCEND-CKD 為其中一項）。
+
+### 2. Phase 2 關鍵數字（資料整合自 2026 review）
+
+- 48 週 12 mg：**體重下降 24.2%**；63% 達 ≥20% 減重。
+- T2D 族群：**HbA1c 降 2.02%**；27% 達 HbA1c < 5.7% normoglycemia。
+- DEXA 顯示 **脂肪量下降 23.2%**，幅度接近 bariatric surgery。
+- MASLD：**肝脂下降 82.4%**；86% 病人達肝脂正常化。
+- 系統血流動力學：SBP 下降 **8.79 mmHg**；UACR 顯著下降。
+- 副作用：與 incretin class 一致；**dose-dependent chronotropic effect**（心率上升）需注意。
+
+### 3. 腎臟科實務定位
+
+- 在 hard renal outcome 出爐前，**不能寫成 CKD 治療藥**。
+- 機轉上對 CKM continuum（obesity + MASLD + BP + UACR）有跨領域影響，是值得追蹤的方向。
+- 對腎臟科目前的意義：**未來幾年要密切追蹤 phase 3 / dedicated CKD outcome trial**；現階段不適合於門診主動建議或臨床決策依據。
 
 ---
 
@@ -217,16 +275,21 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 - 已在 PubMed / NEJM 可查到 phase 2 positive signal，支持 baxdrostat 可降低收縮壓。
 
 #### B. BaxHTN（phase 3）
-- 官方 AstraZeneca 公告的 phase 3 full results 顯示，在 hard-to-control HTN 病人中：
-  - **2 mg**：placebo-adjusted seated SBP reduction **9.8 mmHg**
-  - **1 mg**：placebo-adjusted seated SBP reduction **8.7 mmHg**
-- 並被描述為 generally well tolerated。
+- **PMID 40888730**；NEJM 2025-08-30；Flack et al.；N=796；phase 3、multinational、double-blind。
+- 對象：**uncontrolled / resistant HTN**（在 2 種降壓藥仍 SBP 140 ~ <170 為 uncontrolled；≥3 種含 diuretic 仍 ≥135 為 resistant）；隨機分配 1 mg / 2 mg / placebo + background therapy，12 週。
+- 主要結果（seated SBP baseline → week 12）：
+  - 1 mg：**−14.5 mmHg**（95% CI −16.5 to −12.5）
+  - 2 mg：**−15.7 mmHg**（95% CI −17.6 to −13.7）
+  - placebo：−5.8 mmHg
+  - placebo-corrected difference：**1 mg −8.7 mmHg、2 mg −9.8 mmHg**（兩者 P<0.001）
+- **安全性需特別記錄**：**K⁺ >6.0 mmol/L 比例**——1 mg 2.3%、2 mg 3.0%、placebo 0.4%。對 CKD 共照族群是實質安全訊號，不是 "generally well tolerated" 就能帶過。
 
 ### 3. Regulatory status
 
-- 官方公告可直接確認：**U.S. NDA accepted under FDA Priority Review**（2025-12），預計 **Q2 2026** 採取監管行動。
-- 因此在 2026-04 這個時間點，比較準確的寫法是：
-  - **advanced regulatory stage**
+- 截至本次查核可見：**U.S. NDA accepted under FDA Priority Review**（2025-12），實際監管行動以官方公告為準。
+- 台灣 TFDA 公開資料未顯示已核准適應症。
+- 因此目前較準確的寫法是：
+  - **advanced regulatory stage with peer-reviewed phase 3 data**
   - **not yet a routine nephrology prescription drug**
 
 ### 4. 腎臟科實務定位
