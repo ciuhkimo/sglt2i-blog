@@ -20,8 +20,6 @@ tags:
   - finerenone
 ---
 
-# Q5 — PA 治療策略：Surgery vs MRA 怎麼選
-
 > **💡 一句話結論**
 > **原發性醛固酮（Primary aldosteronism, PA）** 治療策略的核心：Lateralized unilateral PA + 可手術 candidate → **腹腔鏡單側腎上腺切除為 gold standard**（biochemical complete success ~94%，但 clinical complete success 僅 ~37%）。Bilateral / 不可手術 / 拒手術 → **spironolactone first-line**（12.5-25 mg/day 起始，依 K⁺/Cr/BP/renin 滴定；不耐受 → eplerenone 25-50 mg BID 自費）。**Severe CKD（eGFR <30）+ lateralized PA 反而常讓手術更值得認真考慮**（chronic MRA 有 hyperkalemia + dose limitation 問題）。**Finerenone 在 PA 為 off-label**：機轉外推合理，但 hard endpoint 不存在；TW 不在 PA 給付，自費。**沒有 spironolactone vs adrenalectomy head-to-head RCT**；長期 outcome 優勢來自 observational TAIPAI cohort。
 

@@ -5,13 +5,50 @@ import sitemap from '@astrojs/sitemap';
 import remarkGfm from 'remark-gfm';
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
 const buildDate = new Date();
+
+// rehype plugin: wrap every <table> in <div class="table-wrapper"> + add scope="col" to <th>
+// Build-time only; no client JS; responsive horizontal scroll via existing .table-wrapper CSS
+function rehypeWrapTablesAndThScope() {
+	return (tree) => {
+		function walk(node) {
+			if (!node || !node.children) return;
+			for (let i = 0; i < node.children.length; i++) {
+				const child = node.children[i];
+				if (child && child.type === 'element' && child.tagName === 'table') {
+					const isAlreadyWrapped =
+						node.type === 'element' &&
+						node.tagName === 'div' &&
+						Array.isArray(node.properties?.className) &&
+						node.properties.className.includes('table-wrapper');
+					if (!isAlreadyWrapped) {
+						node.children[i] = {
+							type: 'element',
+							tagName: 'div',
+							properties: { className: ['table-wrapper'] },
+							children: [child],
+						};
+					}
+				}
+				if (child && child.type === 'element' && child.tagName === 'th') {
+					child.properties = child.properties || {};
+					if (!child.properties.scope) {
+						child.properties.scope = 'col';
+					}
+				}
+				walk(child);
+			}
+		}
+		walk(tree);
+	};
+}
 
 export default defineConfig({
 	site: 'https://nephrodecisions.com',
 	integrations: [
-		mdx(),
+		mdx({
+			rehypePlugins: [rehypeWrapTablesAndThScope],
+		}),
 		sitemap({
 			serialize(item) {
 				if (!item.lastmod) {
@@ -23,5 +60,6 @@ export default defineConfig({
 	],
 	markdown: {
 		remarkPlugins: [remarkGfm],
+		rehypePlugins: [rehypeWrapTablesAndThScope],
 	},
 });

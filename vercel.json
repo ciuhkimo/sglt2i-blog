@@ -37,6 +37,16 @@
       "source": "/notes/:path*",
       "destination": "/sglt2i/:path*",
       "permanent": true
+    },
+    {
+      "source": "/feed.xml",
+      "destination": "/rss.xml",
+      "permanent": true
+    },
+    {
+      "source": "/feed",
+      "destination": "/rss.xml",
+      "permanent": true
     }
   ]
 }

@@ -18,8 +18,6 @@ tags:
 seo_title: "偏鄉腎臟照護｜從 CKD 到末期腎病的完整 care continuum｜南部偏鄉腎臟科觀察"
 ---
 
-# 偏鄉腎臟照護｜不只是洗腎，而是從 CKD 到末期腎病的長期照顧
-
 > **💡 Bottom Line**
 > 偏鄉腎臟科**不是 medical center 的縮小版，也不是二流腎臟科**，而是在不同資源條件下，提供**長期、可近、連續、並且知道何時該上轉**的腎臟照護。從 CKD 早期追蹤、CKD5 透析準備、HD/PD 在地照護、AKI 上轉判斷、腎臟移植後 shared care，到 conservative kidney management 與末期腎病安寧——care continuum 不是只有洗腎，地區醫院腎臟科扮演一個 distinct 角色。
 

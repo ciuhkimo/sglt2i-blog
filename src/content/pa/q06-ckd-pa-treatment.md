@@ -28,8 +28,6 @@ related_q:
   - Q11 NHI 給付
 ---
 
-# Q6 — PA + CKD：eGFR 三段式治療與手術後 acute eGFR dip 管理
-
 > **📌 一句話結論**
 > **原發性醛固酮（Primary aldosteronism, PA）** 合併**慢性腎臟病（CKD）** 的處置不是把標準 PA 治療「縮小劑量」，而是**用 eGFR 三段式決策**：(1) **≥60** lateralized → adrenalectomy / bilateral → spironolactone 12.5-25 mg/day；(2) **30-60** spironolactone 12.5 mg QOD-QD 起 + 1-2 週查 K⁺/Cr，**lateralized 仍優先手術**；(3) **<30 + lateralized** → **反而更該考慮手術**（chronic MRA hyperK + dose limit；**clinical inference，非 RCT**），術前必告知 **acute eGFR dip 16.6%** [Chen JY 2024]；**<30 + bilateral / 不可手術** → AMBER patiromer-enabled spironolactone（**eGFR 25-45 紅線**，不外推 <25/dialysis）or amiloride 替代。**沒有 spironolactone vs adrenalectomy head-to-head RCT**；Comparator 嚴格區分：Chen 2019 = ADX-treated PA **vs EH controls**（不是 vs MRA direct）；Wu 2021 = adrenalectomy **vs MRA direct**（ACM HR 0.57 / MACE HR 0.67 / CHF HR 0.49）；Cohen 2023 PA-CKD specific cohort 顯示 ADX vs medical 5 年 BP + 用藥較佳但 hard endpoint 無顯著差異。**Finerenone 在 PA 為 off-label**，僅 60 人 8 週 pilot RCT [Hu 2025 Circulation, eGFR ≥60 only, BP 非劣 + K⁺ 較佳]，**hard endpoint 證據不存在**，TW 自費。
 

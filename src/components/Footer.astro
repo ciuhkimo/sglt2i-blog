@@ -5,6 +5,32 @@ const today = new Date();
 <footer>
 	<p>&copy; {today.getFullYear()} Nephro Decisions. 保留所有權利。｜<a href="/editorial-policy/">編輯方針</a>｜<a href="/disclaimer/">醫療免責聲明</a>｜<a href="/privacy/">隱私權政策</a>｜<a href="/accessibility/">無障礙</a>｜<a href="/listen/">通勤收聽</a>｜<a href="/rss.xml">RSS</a>｜<a href="mailto:cayman.schools.2@icloud.com">聯絡信箱</a></p>
 </footer>
+
+<script type="module">
+	(async () => {
+		const blocks = document.querySelectorAll('pre[data-language="mermaid"]');
+		if (blocks.length === 0) return;
+		try {
+			const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs');
+			mermaid.initialize({ startOnLoad: false, theme: 'default', securityLevel: 'loose' });
+			blocks.forEach((pre) => {
+				const code = pre.querySelector('code');
+				if (!code) return;
+				const text = code.textContent || '';
+				const div = document.createElement('div');
+				div.className = 'mermaid';
+				div.setAttribute('role', 'img');
+				div.setAttribute('aria-label', 'Mermaid 臨床決策流程圖');
+				div.textContent = text;
+				pre.replaceWith(div);
+			});
+			await mermaid.run({ querySelector: '.mermaid' });
+		} catch (e) {
+			console.warn('Mermaid render error:', e);
+		}
+	})();
+</script>
+
 <style>
 	footer {
 		padding: 2em 1em 6em 1em;
@@ -14,5 +40,21 @@ const today = new Date();
 	}
 	footer a {
 		color: rgb(var(--gray));
+	}
+	.mermaid {
+		margin: 1.5em 0;
+		padding: 1em;
+		background: #fafafa;
+		border-radius: 8px;
+		overflow-x: auto;
+		text-align: center;
+	}
+	.mermaid svg {
+		max-width: 100%;
+		height: auto;
+	}
+	@media print {
+		.mermaid { background: transparent; padding: 0; }
+		.mermaid svg { filter: grayscale(1); }
 	}
 </style>

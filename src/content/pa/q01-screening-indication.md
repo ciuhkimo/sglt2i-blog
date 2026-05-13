@@ -17,8 +17,6 @@ tags:
   - ARR
 ---
 
-# Q1 — 何時該篩 PA：哪些 HTN 必須篩檢
-
 > **💡 一句話結論**
 > 目前所有 confirmed hypertension 都應被考慮至少一次 **原發性醛固酮（Primary aldosteronism, PA）** 篩檢。若資源無法 universal screening，**最低限度必篩**：resistant HTN、HTN + 自發/利尿劑誘發低血鉀、young-onset HTN <40 歲、adrenal incidentaloma + HTN、HTN + OSA 且有風險增強因子（hypoK / resistant / young / moderate-severe）、HTN + AF 或 cardioembolic stroke、sustained BP >150/100、PA / 早發 HTN/CVA 家族史。抽血前 K⁺ 補到 ≥4.0；2025 ES 採**三層 washout 策略**（no withdrawal / minimal withdrawal / ideal full withdrawal）；多數情境 minimal withdrawal 即可（停 MRA + ENaC inhibitor 4 週）。
 
