@@ -22,6 +22,8 @@ function rehypeWrapTablesAndThScope() {
 						Array.isArray(node.properties?.className) &&
 						node.properties.className.includes('table-wrapper');
 					if (!isAlreadyWrapped) {
+						// Astro/hast strips role + aria-label from rehype output;
+						// these are added client-side by Footer.astro init script
 						node.children[i] = {
 							type: 'element',
 							tagName: 'div',

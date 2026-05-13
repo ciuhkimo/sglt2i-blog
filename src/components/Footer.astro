@@ -6,6 +6,17 @@ const today = new Date();
 	<p>&copy; {today.getFullYear()} Nephro Decisions. 保留所有權利。｜<a href="/editorial-policy/">編輯方針</a>｜<a href="/disclaimer/">醫療免責聲明</a>｜<a href="/privacy/">隱私權政策</a>｜<a href="/accessibility/">無障礙</a>｜<a href="/listen/">通勤收聽</a>｜<a href="/rss.xml">RSS</a>｜<a href="mailto:cayman.schools.2@icloud.com">聯絡信箱</a></p>
 </footer>
 
+<script>
+	// table-wrapper a11y init: add role="region" + aria-label to every wrapper
+	// (rehype properties for role/aria-label get stripped by Astro hast serialization)
+	document.querySelectorAll('.table-wrapper').forEach((el) => {
+		if (!el.getAttribute('role')) el.setAttribute('role', 'region');
+		if (!el.getAttribute('aria-label')) el.setAttribute('aria-label', '表格可水平捲動');
+		// keyboard scrollability — make wrapper focusable so users can Tab into it and arrow-scroll
+		if (!el.hasAttribute('tabindex')) el.setAttribute('tabindex', '0');
+	});
+</script>
+
 <script type="module">
 	(async () => {
 		const blocks = document.querySelectorAll('pre[data-language="mermaid"]');
