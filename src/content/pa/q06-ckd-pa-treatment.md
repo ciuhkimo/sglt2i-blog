@@ -31,7 +31,7 @@ related_q:
 # Q6 — PA + CKD：eGFR 三段式治療與手術後 acute eGFR dip 管理
 
 > **📌 一句話結論**
-> PA 合併 CKD 的處置不是把標準 PA 治療「縮小劑量」，而是**用 eGFR 三段式決策**：(1) **≥60** lateralized → adrenalectomy / bilateral → spironolactone 12.5-25 mg/day；(2) **30-60** spironolactone 12.5 mg QOD-QD 起 + 1-2 週查 K⁺/Cr，**lateralized 仍優先手術**；(3) **<30 + lateralized** → **反而更該考慮手術**（chronic MRA hyperK + dose limit；**clinical inference，非 RCT**），術前必告知 **acute eGFR dip 16.6%** [Chen JY 2024]；**<30 + bilateral / 不可手術** → AMBER patiromer-enabled spironolactone（**eGFR 25-45 紅線**，不外推 <25/dialysis）or amiloride 替代。**沒有 spironolactone vs adrenalectomy head-to-head RCT**；Comparator 嚴格區分：Chen 2019 = ADX-treated PA **vs EH controls**（不是 vs MRA direct）；Wu 2021 = adrenalectomy **vs MRA direct**（ACM HR 0.57 / MACE HR 0.67 / CHF HR 0.49）；Cohen 2023 PA-CKD specific cohort 顯示 ADX vs medical 5 年 BP + 用藥較佳但 hard endpoint 無顯著差異。**Finerenone 在 PA 為 off-label**，僅 60 人 8 週 pilot RCT [Hu 2025 Circulation, eGFR ≥60 only, BP 非劣 + K⁺ 較佳]，**hard endpoint 證據不存在**，TW 自費。
+> **原發性醛固酮（Primary aldosteronism, PA）** 合併**慢性腎臟病（CKD）** 的處置不是把標準 PA 治療「縮小劑量」，而是**用 eGFR 三段式決策**：(1) **≥60** lateralized → adrenalectomy / bilateral → spironolactone 12.5-25 mg/day；(2) **30-60** spironolactone 12.5 mg QOD-QD 起 + 1-2 週查 K⁺/Cr，**lateralized 仍優先手術**；(3) **<30 + lateralized** → **反而更該考慮手術**（chronic MRA hyperK + dose limit；**clinical inference，非 RCT**），術前必告知 **acute eGFR dip 16.6%** [Chen JY 2024]；**<30 + bilateral / 不可手術** → AMBER patiromer-enabled spironolactone（**eGFR 25-45 紅線**，不外推 <25/dialysis）or amiloride 替代。**沒有 spironolactone vs adrenalectomy head-to-head RCT**；Comparator 嚴格區分：Chen 2019 = ADX-treated PA **vs EH controls**（不是 vs MRA direct）；Wu 2021 = adrenalectomy **vs MRA direct**（ACM HR 0.57 / MACE HR 0.67 / CHF HR 0.49）；Cohen 2023 PA-CKD specific cohort 顯示 ADX vs medical 5 年 BP + 用藥較佳但 hard endpoint 無顯著差異。**Finerenone 在 PA 為 off-label**，僅 60 人 8 週 pilot RCT [Hu 2025 Circulation, eGFR ≥60 only, BP 非劣 + K⁺ 較佳]，**hard endpoint 證據不存在**，TW 自費。
 
 > **📝 文件層級分辨**
 > **指引建議** ≠ **臨床實務** ≠ **政策現況（NHI coverage）**。本文以 2025 Endocrine Society Clinical Practice Guideline (Adler GK et al., **PMID 40658480**) 為主軸；KDIGO 2024 CKD guideline 為 CKD pathway 對照；TAIPAI Chen YY 2019 + Wu VC 2021 + Chen JY 2024 為核心 cohort 證據；Cohen 2023 為 PA-CKD specific multicenter cohort。截至本次查核可見（2026-05-12），**台灣 NHI 對 finerenone 在 PA 為 off-label 自費**；patiromer 在台灣未能獨立確認成品藥證 / 上市供應 / 健保收載，申報 / 採購前以 TFDA / 健保署 / 院內藥局為準（Q11 cross-reference）。
@@ -53,6 +53,8 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
 ---
 
 ## 2. PA 病人的 CKD epidemiology
+
+**原發性醛固酮合併慢性腎臟病**比一般族群常見，且病程與 essential hypertension (EH) 合併 CKD 不同 —— hyperfiltration 掩蓋真實 eGFR、MRA 治療不夠 aggressive 時腎臟預後仍劣於 EH。
 
 ### 2.1 盛行率與機轉
 
@@ -227,7 +229,7 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
 ### 4.4 Finerenone in CKD-PA — Off-label disclaimer ⚠️
 
 > **⚠️ Off-label 紅線**
-> **Finerenone 在 PA 為 off-label**。**機轉外推合理，但 hard endpoint 證據在 PA 不存在；不可外推 PA 優於 spironolactone**。
+> **Finerenone 在原發性醛固酮（PA）為 off-label**：FDA / EMA / TFDA / 2025 Endocrine Society / 2023 TSA 皆無 PA 適應症；台灣健保僅給付 T2D-CKD。**機轉外推合理，但 hard endpoint 證據在 PA 不存在；不可外推 PA 優於 spironolactone**。
 
 **FIDELITY pooled analysis（T2D-CKD, NOT PA）**：
 - Hyperkalemia 14% vs 6.9%
