@@ -20,7 +20,7 @@ tags:
 # Q1 — 何時該篩 PA：哪些 HTN 必須篩檢
 
 > **💡 一句話結論**
-> 目前所有 confirmed hypertension 都應被考慮至少一次 PA 篩檢。若資源無法 universal screening，**最低限度必篩**：resistant HTN、HTN + 自發/利尿劑誘發低血鉀、young-onset HTN <40 歲、adrenal incidentaloma + HTN、HTN + OSA 且有風險增強因子（hypoK / resistant / young / moderate-severe）、HTN + AF 或 cardioembolic stroke、sustained BP >150/100、PA / 早發 HTN/CVA 家族史。抽血前 K⁺ 補到 ≥4.0；2025 ES 採**三層 washout 策略**（no withdrawal / minimal withdrawal / ideal full withdrawal）；多數情境 minimal withdrawal 即可（停 MRA + ENaC inhibitor 4 週）。
+> 目前所有 confirmed hypertension 都應被考慮至少一次 **原發性醛固酮（Primary aldosteronism, PA）** 篩檢。若資源無法 universal screening，**最低限度必篩**：resistant HTN、HTN + 自發/利尿劑誘發低血鉀、young-onset HTN <40 歲、adrenal incidentaloma + HTN、HTN + OSA 且有風險增強因子（hypoK / resistant / young / moderate-severe）、HTN + AF 或 cardioembolic stroke、sustained BP >150/100、PA / 早發 HTN/CVA 家族史。抽血前 K⁺ 補到 ≥4.0；2025 ES 採**三層 washout 策略**（no withdrawal / minimal withdrawal / ideal full withdrawal）；多數情境 minimal withdrawal 即可（停 MRA + ENaC inhibitor 4 週）。
 
 > **📝 文件層級分辨**
 > **指引建議（guideline recommendation）** ≠ **臨床實務（clinical practice）** ≠ **政策現況（NHI coverage）**。本文以 2025 Endocrine Society Clinical Practice Guideline (Adler GK et al., JCEM 2025, **PMID 40658480**) 為主軸；2024 ESC、2025 Taipei Positional Paper、2017/2024 TSA 共識為對照。截至本次查核可見（2026-05-08），台灣 NHI 對 PA 篩檢仍要求臨床懷疑佐證；universal screening 為國際指引建議，**未進入台灣健保政策**。
@@ -29,7 +29,7 @@ tags:
 
 ## 1. Bottom Line（300 字）
 
-PA 篩檢已**不應再窄化為「低血鉀高血壓才需要驗 ARR」**。2025 Endocrine Society guideline (Adler 2025) 採 universal screening 立場（"In all individuals with hypertension, we suggest screening for PA"，**conditional recommendation, low certainty**）；2024 ESC HTN guideline 推薦 confirmed HTN systematic ARR screening（Class IIa, Level B）；2025 Taipei Positional Paper 主張台灣應跟進 [PMID 40658480、39210715、40991208]。
+**原發性醛固酮（PA）** 篩檢已**不應再窄化為「低血鉀高血壓才需要驗 ARR」**。2025 Endocrine Society guideline (Adler 2025) 採 universal screening 立場（"In all individuals with hypertension, we suggest screening for PA"，**conditional recommendation, low certainty**）；2024 ESC HTN guideline 推薦 confirmed HTN systematic ARR screening（Class IIa, Level B）；2025 Taipei Positional Paper 主張台灣應跟進 [PMID 40658480、39210715、40991208]。
 
 對台灣區域醫院腎臟科實務的雙軌策略：**第一軌**——下列 6 類絕對不能漏的「**必篩高風險族群**」；**第二軌**——新診斷且尚未複雜用藥的 HTN，可在資源允許下做 ARR + renin，朝 universal 靠齊。
 

@@ -25,11 +25,11 @@ quick_answer: "Spironolactone 全給付且仿單明列 PA 適應症，是 PA 第
 
 ## Bottom line
 
-PA 在台灣健保下，**主要的「篩檢、確診、影像、手術」這條主軸基本上走得通、財務不壓垮病人**，但有 **3 個關鍵紅線**：
+**原發性醛固酮（Primary aldosteronism, PA）** 在台灣健保下，**主要的「篩檢、確診、影像、手術」這條主軸基本上走得通、財務不壓垮病人**，但有 **3 個關鍵紅線**：
 
 1. **Spironolactone 全給付且 TFDA 仿單明列 PA 適應症** — 多數 PA 病人的長期治療、AVS 前 wash-out 與症狀控制都靠這個藥。
 2. **Eplerenone 健保不給付 PA**：給付僅限「對 spironolactone 無法耐受之 (a) 心肌梗塞後心衰竭、(b) NYHA II 以上 LVEF≤30% 慢性心衰竭」（藥品給付規定 2.9.1，100/1/1、104/12/1）。**PA 用法 off-label，自費**。
-3. **Finerenone 在台灣**：TFDA 已核可（仿單列 T2D 相關 CKD + LVEF ≥40% 心衰竭兩項適應症），**截至本次查核未確認有正式生效之健保給付條文**（第 79 次共擬會議仍在補資料階段，多家醫院列為自費品項）。**FDA、EMA、TFDA、Endocrine Society 2016/2025、Taiwan 2022/2023 guideline 皆無 PA 適應症**；個人立場是**只要沒有 FDA/TFDA 適應症就不會建議使用**。
+3. **Finerenone 在原發性醛固酮（PA）的健保與適應症現況**：TFDA 已核可（仿單列 T2D 相關 CKD + LVEF ≥40% 心衰竭兩項適應症），**截至本次查核未確認有正式生效之健保給付條文**（第 79 次共擬會議仍在補資料階段，多家醫院列為自費品項）。**FDA、EMA、TFDA、Endocrine Society 2016/2025、Taiwan 2022/2023 guideline 皆無 PA 適應症**；個人立場是**只要沒有 FDA/TFDA 適應症就不會建議使用**。
 
 實務上重點是：Spironolactone 為第一線；不耐受時告知病人換 eplerenone 需自費；不主動建議 finerenone 治療 PA。
 

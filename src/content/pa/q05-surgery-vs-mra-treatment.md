@@ -23,7 +23,7 @@ tags:
 # Q5 — PA 治療策略：Surgery vs MRA 怎麼選
 
 > **💡 一句話結論**
-> Lateralized unilateral PA + 可手術 candidate → **腹腔鏡單側腎上腺切除為 gold standard**（biochemical complete success ~94%，但 clinical complete success 僅 ~37%）。Bilateral / 不可手術 / 拒手術 → **spironolactone first-line**（12.5-25 mg/day 起始，依 K⁺/Cr/BP/renin 滴定；不耐受 → eplerenone 25-50 mg BID 自費）。**Severe CKD（eGFR <30）+ lateralized PA 反而常讓手術更值得認真考慮**（chronic MRA 有 hyperkalemia + dose limitation 問題）。**Finerenone 在 PA 為 off-label**：機轉外推合理，但 hard endpoint 不存在；TW 不在 PA 給付，自費。**沒有 spironolactone vs adrenalectomy head-to-head RCT**；長期 outcome 優勢來自 observational TAIPAI cohort。
+> **原發性醛固酮（Primary aldosteronism, PA）** 治療策略的核心：Lateralized unilateral PA + 可手術 candidate → **腹腔鏡單側腎上腺切除為 gold standard**（biochemical complete success ~94%，但 clinical complete success 僅 ~37%）。Bilateral / 不可手術 / 拒手術 → **spironolactone first-line**（12.5-25 mg/day 起始，依 K⁺/Cr/BP/renin 滴定；不耐受 → eplerenone 25-50 mg BID 自費）。**Severe CKD（eGFR <30）+ lateralized PA 反而常讓手術更值得認真考慮**（chronic MRA 有 hyperkalemia + dose limitation 問題）。**Finerenone 在 PA 為 off-label**：機轉外推合理，但 hard endpoint 不存在；TW 不在 PA 給付，自費。**沒有 spironolactone vs adrenalectomy head-to-head RCT**；長期 outcome 優勢來自 observational TAIPAI cohort。
 
 > **📝 文件層級分辨**
 > **指引建議** ≠ **臨床實務** ≠ **政策現況（NHI coverage）**。本文以 2025 Endocrine Society Clinical Practice Guideline (Adler GK et al., **PMID 40658480**) 為主軸；2024 TSA treatment guideline (Tseng CS et al., **PMID 37328332**) 為在地實作對照。截至本次查核可見（2026-05-09），TW NHI 對 eplerenone 的給付限 post-MI HF / NYHA II 以上 + LVEF ≤30%；finerenone 在 PA 未確認有正式生效之給付條文。
@@ -32,7 +32,7 @@ tags:
 
 ## 1. Bottom Line（300 字）
 
-PA 治療決策核心其實不複雜：**能確認 unilateral / lateralized disease 且病人是可手術候選者** → 腹腔鏡單側腎上腺切除為 gold standard；**bilateral、不可手術、或拒絕手術** → spironolactone first-line 為主的 MRA 治療。這在 2016 與 2025 ES、TSA 2024 三個 guideline 一致 [PMID 40658480、26934393、37328332]。
+**原發性醛固酮（PA）** 治療決策核心其實不複雜：**能確認 unilateral / lateralized disease 且病人是可手術候選者** → 腹腔鏡單側腎上腺切除為 gold standard；**bilateral、不可手術、或拒絕手術** → spironolactone first-line 為主的 MRA 治療。這在 2016 與 2025 ES、TSA 2024 三個 guideline 一致 [PMID 40658480、26934393、37328332]。
 
 但**手術的價值在於「修正病因」，不是保證完全停藥**：PASO (n=705) 顯示 complete biochemical success **94%**、partial clinical success **47%**、**complete clinical success 僅 37%** [PMID 28576687]。這是門診衛教最容易誤解的地方——多數人「醛固酮生化異常」會明顯改善，但只有約三分之一能完全停掉降壓藥。
 
@@ -40,7 +40,7 @@ PA 治療決策核心其實不複雜：**能確認 unilateral / lateralized dise
 
 **Severe CKD + lateralized PA**：別預設一定只能吃藥；手術反而常更值得認真考慮（chronic MRA 會遇到 hyperkalemia + dose limitation），但術前必須講清楚 **adrenalectomy 後 16.6% 病人 eGFR dip >30%**（與 incident MAKE 風險上升相關，HR 2.18）[PMID 38051943]。
 
-**Finerenone in PA**：機轉外推合理但**hard endpoint 證據不存在**；TW NHI 在 PA 屬 off-label 自費（公開自費 ~NT$90/20 mg/顆）；除非 spironolactone/eplerenone 都無法接受 + 病人充分理解證據不足，否則不該作為 routine。
+**Finerenone 在原發性醛固酮（PA）**：機轉外推合理但**hard endpoint 證據不存在**；TW NHI 在 PA 屬 off-label 自費（公開自費 ~NT$90/20 mg/顆）；除非 spironolactone/eplerenone 都無法接受 + 病人充分理解證據不足，否則不該作為 routine。
 
 ---
 
