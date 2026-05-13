@@ -122,10 +122,7 @@ tags:
 > - **2023 ESE incidentaloma framework**：只在 AI + HTN 或 unexplained hypokalemia 做 ARR（**不是所有 AI**）
 > - **2025 ES PA framework（PMID 40658480）**：擴大到「**所有高血壓可考慮篩 PA**」，但是 **conditional recommendation（GRADE 2 / ⊕⊕OO low certainty）**——強調看資源、專業量能與是否會改變處置
 
-**正確寫法**：
-- ❌ 不寫「所有腎上腺意外瘤都應篩 PA」
-- ❌ 不寫「腎上腺意外瘤合併 HTN 一定要驗 PA」
-- ✅ 寫「**腎上腺意外瘤合併高血壓，原則上建議考慮做 PA 篩檢；若高齡、脆弱、多重共病、預期不會改變治療，可個別商議 workup 強度。**」
+**腎上腺意外瘤合併高血壓，原則上建議考慮做 PA 篩檢；若高齡、脆弱、多重共病、預期不會改變治療，可個別商議 workup 強度。**
 
 ---
 
