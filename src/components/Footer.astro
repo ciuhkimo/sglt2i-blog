@@ -19,23 +19,18 @@ const today = new Date();
 
 <script type="module">
 	(async () => {
-		const blocks = document.querySelectorAll('pre[data-language="mermaid"]');
-		if (blocks.length === 0) return;
+		// Build-time rehype plugin renders Mermaid source into div.mermaid (see astro.config.mjs).
+		// This script adds ARIA + asks Mermaid to render the divs into SVG.
+		const divs = document.querySelectorAll('div.mermaid');
+		if (divs.length === 0) return;
+		divs.forEach((d) => {
+			if (!d.getAttribute('role')) d.setAttribute('role', 'img');
+			if (!d.getAttribute('aria-label')) d.setAttribute('aria-label', 'Mermaid 臨床決策流程圖');
+		});
 		try {
 			const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs');
 			mermaid.initialize({ startOnLoad: false, theme: 'default', securityLevel: 'loose' });
-			blocks.forEach((pre) => {
-				const code = pre.querySelector('code');
-				if (!code) return;
-				const text = code.textContent || '';
-				const div = document.createElement('div');
-				div.className = 'mermaid';
-				div.setAttribute('role', 'img');
-				div.setAttribute('aria-label', 'Mermaid 臨床決策流程圖');
-				div.textContent = text;
-				pre.replaceWith(div);
-			});
-			await mermaid.run({ querySelector: '.mermaid' });
+			await mermaid.run({ nodes: Array.from(divs) });
 		} catch (e) {
 			console.warn('Mermaid render error:', e);
 		}

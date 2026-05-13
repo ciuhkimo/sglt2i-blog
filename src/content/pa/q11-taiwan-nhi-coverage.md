@@ -74,7 +74,7 @@ quick_answer: "Spironolactone 全給付且仿單明列 PA 適應症，是 PA 第
 ### 藥物治療
 
 | 藥物 | 給付狀態 | 適應症 / 條件 | TFDA 仿單字號 |
-|---|---|---|
+|---|---|---|---|
 | **Spironolactone** | **全給付** | TFDA 仿單明列「**原發性醛類脂醇過多症**」 | 衛署藥輸字第 022610 號（Aldactone）等多廠牌 |
 | **Eplerenone (Inspra)** | **限縮給付，PA 不在內** | 藥品給付規定 2.9.1：限對 spironolactone 無法耐受之 (1) post-MI 心衰竭、(2) NYHA II 以上 LVEF≤30% 慢性心衰竭（100/1/1、104/12/1） | 衛署藥輸字第 024306 號 |
 | **Finerenone (Kerendia, 可申達)** | **截至本次查核未確認有正式生效之健保給付條文** | TFDA 仿單列 **(a) T2D 相關 CKD**、**(b) LVEF ≥40% 心衰竭** 兩項適應症；第 79 次共擬會議仍在補資料階段；多家醫院列為自費品項。**對 PA 無任何國家或學會給予適應症**（FDA、EMA、TFDA、Endocrine Society 2016/2025、Taiwan 2022/2023 guideline 皆無）；申報前以最新健保藥品給付規定為準 | 衛部藥輸字第 028326 號 |

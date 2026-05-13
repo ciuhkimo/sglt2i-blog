@@ -40,6 +40,14 @@ function readPage(url) {
 	return readFileSync(path, 'utf8');
 }
 
+// Strip <script>...</script> and <style>...</style> content so verbatim HTML strings
+// inside JS / CSS don't trigger false-positive grep matches.
+function stripScriptsAndStyles(html) {
+	return html
+		.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
+		.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '');
+}
+
 function countMatches(html, pattern) {
 	return (html.match(pattern) || []).length;
 }
@@ -143,22 +151,34 @@ for (const url of TABLE_PAGES) {
 }
 
 // ============================================================
-// Check 5: Mermaid raw code blocks should not appear as-is in final pages
-// (i.e., the mermaid renderer script should be present on every page)
+// Check 5: Mermaid source must NOT be in <pre><code> article markup.
+//          Use <div class="mermaid"> + global renderer script.
 // ============================================================
-console.log('\n## Check 5: Mermaid renderer script injected globally\n');
-const MERMAID_PAGES = [
+console.log('\n## Check 5: Mermaid uses <div class="mermaid"> (not <pre><code>) + renderer script\n');
+const MERMAID_PAGES_WITH_DIAGRAM = [
 	'/pa/q01-screening-indication/',
+	'/pa/q05-surgery-vs-mra-treatment/',
 	'/pa/q06-ckd-pa-treatment/',
-	'/sglt2i/',
 ];
-for (const url of MERMAID_PAGES) {
+const MERMAID_RENDERER_SAMPLES = ['/sglt2i/', '/index.html', '/pa/q06-ckd-pa-treatment/'];
+
+for (const url of MERMAID_PAGES_WITH_DIAGRAM) {
+	const rawHtml = readPage(url);
+	if (!rawHtml) { fail(`${url}: dist HTML not found`); continue; }
+	const html = stripScriptsAndStyles(rawHtml);
+	const preMermaid = countMatches(html, /<pre[^>]*data-language="mermaid"/g);
+	const divMermaid = countMatches(html, /<div[^>]*class="[^"]*\bmermaid\b[^"]*"/g);
+	if (preMermaid === 0 && divMermaid >= 1) {
+		ok(`${url}: ${divMermaid} <div class="mermaid"> in article body (no <pre data-language="mermaid">)`);
+	} else {
+		fail(`${url}: pre=${preMermaid} (must be 0), div=${divMermaid} (must be >=1) in article body`);
+	}
+}
+for (const url of MERMAID_RENDERER_SAMPLES) {
 	const html = readPage(url);
 	if (!html) continue;
-	// Footer.astro injects an inline <script> that does setAttribute('aria-label', 'Mermaid 臨床決策流程圖')
-	// Astro/Vite may minify quotes, so accept either single or double quote
-	const hasMermaidScript = /mermaid@11/.test(html) && /Mermaid 臨床決策流程圖/.test(html);
-	if (hasMermaidScript) ok(`${url}: Mermaid renderer script + aria-label string present`);
+	const hasScript = /mermaid@11/.test(html) && /Mermaid 臨床決策流程圖/.test(html);
+	if (hasScript) ok(`${url}: Mermaid renderer script + aria-label string present`);
 	else fail(`${url}: Mermaid renderer script or aria-label missing`);
 }
 
@@ -202,6 +222,27 @@ if (!existsSync(sitemapPath)) {
 	} else {
 		fail(`sitemap-0.xml: ${locCount} <loc>, ${lastmodCount} <lastmod> (mismatch)`);
 	}
+}
+
+// ============================================================
+// Check 8: No raw Markdown pipe table leak (broken separator → paragraph)
+// ============================================================
+console.log('\n## Check 8: No raw "| col1 | col2 |" Markdown pipe rows leaked as paragraph text\n');
+const PIPE_LEAK_PAGES = [
+	'/pa/q11-taiwan-nhi-coverage/',
+	'/ckm/q01-ckm-definition-staging/',
+	'/pa/q06-ckd-pa-treatment/',
+];
+for (const url of PIPE_LEAK_PAGES) {
+	const html = readPage(url);
+	if (!html) { fail(`${url}: dist HTML not found`); continue; }
+	// Look for `| 中文 | 中文 |` or `| word | word |` patterns inside <p> or directly in <article>
+	// crude but effective: search for "| 藥物 | 給付" specifically (was the known leak)
+	// + general "<p>| " heuristic
+	const knownLeak = /\|\s*藥物\s*\|\s*給付狀態\s*\|/.test(html);
+	const pParaPipe = /<p[^>]*>\s*\|[^<]{10,}\|/.test(html);
+	if (!knownLeak && !pParaPipe) ok(`${url}: no raw pipe-table paragraph leak`);
+	else fail(`${url}: raw Markdown pipe leak detected${knownLeak ? ' (known: 藥物/給付狀態)' : ''}${pParaPipe ? ' (generic <p>|...|)' : ''}`);
 }
 
 // ============================================================
