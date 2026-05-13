@@ -209,19 +209,28 @@ AHA 的 **PREVENT** 是 primary prevention 風險工具，不是 CKM 分期本�
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [CKM 篩檢與識別](/ckm/q02-ckm-screening/)
-- [Cardiorenal Syndrome 分型](/ckm/q03-cardiorenal-syndrome-types/)
-- [四柱整合策略](/ckm/q11-four-pillar-integration/)
-- [CV 風險分層](/ckm/q14-cv-risk-stratification/)
+**[Q02 — CKM 篩檢與識別](/ckm/q02-ckm-screening/)**：定義與分期講完後，門診下一步是「**哪些病人該被 flag 為 CKM、用什麼工具篩、頻率怎麼設**」。Q02 把 Stage 0-4 分期落實到實作層。
 
-### 跨專案
-- [2026 DKD 四柱療法完整指南](/blog/dkd-four-pillars-2026/)
-- [SGLT2i 決策筆記（20 題）](/sglt2i/)
-- [Finerenone Q01 — DKD 啟動時機](/finerenone/q01-dkd-when-to-start/)
-- [GLP-1 RA Q01 — CKD 合併糖尿病何時加入](/glp1ra/q01-ckd-dm-when-to-start/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**治療整合** → [Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/)（RASi + SGLT2i + Finerenone + GLP-1 RA 起始順序）
+- 想看**心腎共病** → [Q03 — Cardiorenal Syndrome 分型](/ckm/q03-cardiorenal-syndrome-types/)（Type 1-5 急慢性決策）
+- 想看 **CV 風險** → [Q14 — CV 風險分層](/ckm/q14-cv-risk-stratification/)（PREVENT / KDIGO heat map 取代 Framingham/ASCVD）
+
+---
+
+## 跨 cluster 深化
+
+- [2026 DKD 四柱療法完整指南](/blog/dkd-four-pillars-2026/) — CKM 框架下 DKD 的實作版
+- [SGLT2i 決策筆記（20 題）](/sglt2i/) — CKM 四柱第一柱深度
+- [Finerenone Q01 — DKD 啟動時機](/finerenone/q01-dkd-when-to-start/) — CKM 四柱第三柱
+- [GLP-1 RA Q01 — CKD 合併糖尿病何時加入](/glp1ra/q01-ckd-dm-when-to-start/) — CKM 四柱第四柱
 
 ---
 
