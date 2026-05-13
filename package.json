@@ -9,7 +9,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "verify:p0": "node scripts/verify-p0.mjs",
+    "build:verify": "npm run build && npm run verify:p0"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.3",

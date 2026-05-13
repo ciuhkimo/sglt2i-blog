@@ -5,7 +5,7 @@ import { SITE_TITLE } from '../consts';
 <a href="#main-content" class="skip-link">跳至主要內容</a>
 <header>
 	<nav aria-label="主導覽列">
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<a class="site-brand" href="/">{SITE_TITLE}</a>
 		<div class="internal-links">
 			<a href="/" class="nav-link">首頁</a>
 
@@ -64,14 +64,17 @@ import { SITE_TITLE } from '../consts';
 		background: var(--accent-dark);
 		box-shadow: 0 2px 8px rgba(var(--black), 10%);
 	}
-	h2 {
+	.site-brand {
+		display: inline-block;
 		margin: 0;
+		padding: 0.8em 0;
 		font-size: 1em;
-	}
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
+		font-weight: 700;
 		color: #fff;
+		text-decoration: none;
+	}
+	.site-brand:hover {
+		opacity: 0.85;
 	}
 	nav {
 		display: flex;
