@@ -40,12 +40,15 @@ function readPage(url) {
 	return readFileSync(path, 'utf8');
 }
 
-// Strip <script>...</script> and <style>...</style> content so verbatim HTML strings
-// inside JS / CSS don't trigger false-positive grep matches.
+// Strip <script>, <style>, <template>, and <noscript> content so that:
+//   1. verbatim HTML strings inside JS / CSS don't trigger false-positive grep matches
+//   2. inert content (template / noscript fallback) isn't counted as "visible article text"
 function stripScriptsAndStyles(html) {
 	return html
 		.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
-		.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '');
+		.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
+		.replace(/<template[\s\S]*?<\/template>/gi, '')
+		.replace(/<noscript[\s\S]*?<\/noscript>/gi, '');
 }
 
 function countMatches(html, pattern) {
@@ -151,10 +154,11 @@ for (const url of TABLE_PAGES) {
 }
 
 // ============================================================
-// Check 5: Mermaid source must NOT be in <pre><code> article markup.
-//          Use <div class="mermaid"> + global renderer script.
+// Check 5: Mermaid DSL must NOT appear as ordinary article text.
+//          Source is stored in <template class="mermaid-source"> (inert),
+//          <noscript> provides fallback, client init builds <div class="mermaid"> at runtime.
 // ============================================================
-console.log('\n## Check 5: Mermaid uses <div class="mermaid"> (not <pre><code>) + renderer script\n');
+console.log('\n## Check 5: Mermaid source isolated in <template> + <noscript> fallback (no raw flowchart in visible body)\n');
 const MERMAID_PAGES_WITH_DIAGRAM = [
 	'/pa/q01-screening-indication/',
 	'/pa/q05-surgery-vs-mra-treatment/',
@@ -165,13 +169,30 @@ const MERMAID_RENDERER_SAMPLES = ['/sglt2i/', '/index.html', '/pa/q06-ckd-pa-tre
 for (const url of MERMAID_PAGES_WITH_DIAGRAM) {
 	const rawHtml = readPage(url);
 	if (!rawHtml) { fail(`${url}: dist HTML not found`); continue; }
-	const html = stripScriptsAndStyles(rawHtml);
-	const preMermaid = countMatches(html, /<pre[^>]*data-language="mermaid"/g);
-	const divMermaid = countMatches(html, /<div[^>]*class="[^"]*\bmermaid\b[^"]*"/g);
-	if (preMermaid === 0 && divMermaid >= 1) {
-		ok(`${url}: ${divMermaid} <div class="mermaid"> in article body (no <pre data-language="mermaid">)`);
+	const visible = stripScriptsAndStyles(rawHtml);
+
+	// Visible body must NOT contain raw Mermaid DSL
+	const flowchartInVisible = countMatches(visible, /flowchart\s+(TD|LR|TB|BT|RL)/g);
+	if (flowchartInVisible !== 0) {
+		fail(`${url}: ${flowchartInVisible} raw 'flowchart XX' in visible article body (must be 0)`);
+		continue;
+	}
+
+	// Must NOT have <pre data-language="mermaid"> anywhere (old Shiki output)
+	const preMermaid = countMatches(rawHtml, /<pre[^>]*data-language="mermaid"/g);
+	if (preMermaid !== 0) {
+		fail(`${url}: ${preMermaid} <pre data-language="mermaid"> in full HTML (must be 0)`);
+		continue;
+	}
+
+	// Container + template + noscript fallback must exist
+	const container = countMatches(rawHtml, /<div[^>]*class="[^"]*\bmermaid-container\b[^"]*"/g);
+	const template = countMatches(rawHtml, /<template[^>]*class="[^"]*\bmermaid-source\b[^"]*"/g);
+	const noscript = countMatches(rawHtml, /本決策流程圖需要 JavaScript/g);
+	if (container >= 1 && template >= 1 && noscript >= 1) {
+		ok(`${url}: ${container} mermaid-container + ${template} <template> + ${noscript} <noscript> fallback (0 raw DSL in visible body)`);
 	} else {
-		fail(`${url}: pre=${preMermaid} (must be 0), div=${divMermaid} (must be >=1) in article body`);
+		fail(`${url}: container=${container}, template=${template}, noscript=${noscript} (all must be >=1)`);
 	}
 }
 for (const url of MERMAID_RENDERER_SAMPLES) {

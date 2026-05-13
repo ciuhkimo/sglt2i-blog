@@ -8,10 +8,17 @@ import { defineConfig } from 'astro/config';
 const buildDate = new Date();
 
 // rehype plugin: transform Shiki-rendered <pre data-language="mermaid"><code>...</code></pre>
-// → <div class="mermaid" aria-label="Mermaid 臨床決策流程圖">flowchart TD ...</div>
-// so the raw Mermaid source is NOT inside <pre><code> article-code-listing markup.
-// Client-side Mermaid script (Footer.astro) then renders the <div> to SVG.
+// → <div class="mermaid-container"><template class="mermaid-source">...</template><noscript>fallback</noscript></div>
+//
+// Design intent: raw Mermaid source (flowchart TD ...) must NOT appear as ordinary article text
+// so crawlers / AI scrapers don't index DSL fragments as visible content. Storing it inside
+// a <template> keeps it as inert HTML (not rendered, not parsed as document content until
+// JS accesses it). The <noscript> provides a text fallback for users with JavaScript off.
+//
+// Client-side init (Footer.astro) reads <template class="mermaid-source">, converts it to
+// <div class="mermaid">, runs Mermaid to produce SVG, and replaces the container's children.
 function rehypeMermaidPreToDiv() {
+	const fallbackText = '本決策流程圖需要 JavaScript 才能顯示為圖形。內文已包含對應的文字決策說明。';
 	return (tree) => {
 		function walk(node) {
 			if (!node || !node.children) return;
@@ -24,13 +31,26 @@ function rehypeMermaidPreToDiv() {
 					child.properties &&
 					(child.properties.dataLanguage === 'mermaid' || child.properties['data-language'] === 'mermaid')
 				) {
-					// Extract text content (drop Shiki <span> wrapping, recover newlines)
+					// Extract Mermaid DSL text (drop Shiki <span> wrapping, recover newlines)
 					const text = extractText(child).replace(/\n+$/, '');
 					node.children[i] = {
 						type: 'element',
 						tagName: 'div',
-						properties: { className: ['mermaid'] },
-						children: [{ type: 'text', value: text }],
+						properties: { className: ['mermaid-container'] },
+						children: [
+							{
+								type: 'element',
+								tagName: 'template',
+								properties: { className: ['mermaid-source'] },
+								children: [{ type: 'text', value: text }],
+							},
+							{
+								type: 'element',
+								tagName: 'noscript',
+								properties: {},
+								children: [{ type: 'text', value: fallbackText }],
+							},
+						],
 					};
 					continue;
 				}
