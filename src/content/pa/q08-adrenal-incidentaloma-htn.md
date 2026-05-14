@@ -82,7 +82,6 @@ tags:
 | 一般 primary-care HTN prospective | 5.9% |
 | 廣義文獻 HTN range | 5-15%（隨 severity 上升；**屬 general hypertensive population，不可直接外推至 AI+HTN**）|
 
-> **⚠️ 寫法 hedge**
 > **「AI+HTN PA 一定高到 5-15%」目前證據不夠穩**——5-15% 是 general HTN range，不是 AI+HTN range。較安全的結論是：「**至少不低、與一般 HTN 相當、且有足夠臨床意義支持做 ARR**」。
 
 ---
