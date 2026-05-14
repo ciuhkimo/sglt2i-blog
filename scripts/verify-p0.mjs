@@ -186,14 +186,16 @@ for (const url of MERMAID_PAGES_WITH_DIAGRAM) {
 		continue;
 	}
 
-	// Container + script[type=text/plain] + noscript fallback must exist
+	// Container with data-mermaid-src (URL-encoded DSL) + noscript fallback must exist
 	const container = countMatches(rawHtml, /<div[^>]*class="[^"]*\bmermaid-container\b[^"]*"/g);
-	const scriptSource = countMatches(rawHtml, /<script[^>]*type="text\/plain"[^>]*class="[^"]*\bmermaid-source\b[^"]*"/g);
+	const dataAttr = countMatches(rawHtml, /<div[^>]*data-mermaid-src="[^"]+"/g);
 	const noscript = countMatches(rawHtml, /本決策流程圖需要 JavaScript/g);
-	if (container >= 1 && scriptSource >= 1 && noscript >= 1) {
-		ok(`${url}: ${container} mermaid-container + ${scriptSource} <script type="text/plain"> + ${noscript} <noscript> fallback (0 raw DSL in readability-visible body)`);
+	// Strict: no literal DSL syntax anywhere in readability-visible body
+	const flowchartLiteralVisible = countMatches(visible, /flowchart\s+(TD|LR|TB|BT|RL)/g);
+	if (container >= 1 && dataAttr >= 1 && noscript >= 1 && flowchartLiteralVisible === 0) {
+		ok(`${url}: ${container} mermaid-container + ${dataAttr} data-mermaid-src + ${noscript} <noscript> (0 literal DSL syntax in readability-visible body)`);
 	} else {
-		fail(`${url}: container=${container}, scriptSource=${scriptSource}, noscript=${noscript} (all must be >=1)`);
+		fail(`${url}: container=${container}, dataAttr=${dataAttr}, noscript=${noscript}, visible flowchart literal=${flowchartLiteralVisible} (last must be 0)`);
 	}
 }
 for (const url of MERMAID_RENDERER_SAMPLES) {

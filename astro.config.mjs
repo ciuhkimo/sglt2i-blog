@@ -8,25 +8,23 @@ import { defineConfig } from 'astro/config';
 const buildDate = new Date();
 
 // rehype plugin: transform Shiki-rendered <pre data-language="mermaid"><code>...</code></pre>
-// → <div class="mermaid-container">
-//     <script type="text/plain" class="mermaid-source">flowchart TD ...</script>
+// → <div class="mermaid-container" data-mermaid-src="URL_ENCODED_DSL">
 //     <noscript>fallback</noscript>
 //   </div>
 //
-// Design intent: raw Mermaid DSL must NOT appear as ordinary article text so crawlers /
-// readability extractors (Mozilla Readability, ChatGPT web reader, etc.) don't index DSL
-// fragments as visible content.
+// Design intent: raw Mermaid DSL must NEVER appear as a literal substring anywhere in the
+// final HTML except inside <noscript> (which all readability extractors strip).
 //
-// We use <script type="text/plain"> because:
-//   1. Readability libraries reliably strip <script> elements before extracting article text
-//      (HTML spec inert <template> is theoretically the same but tool support is inconsistent;
-//      ChatGPT pro 2026-05-14 audit confirmed <template> content still leaked into "visible
-//      text" — switched to script[type=text/plain] for parity with readability standards).
-//   2. type="text/plain" is a documented "data block" pattern (HTML spec §4.12.1): browsers
-//      do NOT execute the content as JavaScript. The content remains accessible via DOM.
-//   3. Client-side init (Footer.astro) reads .mermaid-source content, materializes a
-//      <div class="mermaid">, runs Mermaid to produce SVG, replaces container children.
-//   4. <noscript> provides text fallback for users with JavaScript disabled.
+// Why URL-encoded data attribute (not <template>, not <script type="text/plain">):
+//   - 2026-05-14 ChatGPT pro audit pass 1: <template> tested → readability tools 仍抽 visible
+//   - 2026-05-14 ChatGPT pro audit pass 2: <script type="text/plain"> tested → string match
+//     仍 hit (web fetch tool searches raw HTML, not extracted article text)
+//   - Final solution: encode DSL via encodeURIComponent → store in data-mermaid-src
+//     attribute. The literal DSL keywords no longer exist anywhere in readable form in the
+//     HTML (encoded with %XX hex). String-match audits cannot trigger on the DSL syntax.
+//
+// Client-side init (Footer.astro): read container.dataset.mermaidSrc → decodeURIComponent →
+// materialize <div class="mermaid"> → mermaid.run() → SVG.
 function rehypeMermaidPreToDiv() {
 	const fallbackText = '本決策流程圖需要 JavaScript 才能顯示為圖形。內文已包含對應的文字決策說明。';
 	return (tree) => {
@@ -43,17 +41,15 @@ function rehypeMermaidPreToDiv() {
 				) {
 					// Extract Mermaid DSL text (drop Shiki <span> wrapping, recover newlines)
 					const text = extractText(child).replace(/\n+$/, '');
+					const encoded = encodeURIComponent(text);
 					node.children[i] = {
 						type: 'element',
 						tagName: 'div',
-						properties: { className: ['mermaid-container'] },
+						properties: {
+							className: ['mermaid-container'],
+							'data-mermaid-src': encoded,
+						},
 						children: [
-							{
-								type: 'element',
-								tagName: 'script',
-								properties: { type: 'text/plain', className: ['mermaid-source'] },
-								children: [{ type: 'text', value: text }],
-							},
 							{
 								type: 'element',
 								tagName: 'noscript',

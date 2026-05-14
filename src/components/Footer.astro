@@ -19,19 +19,18 @@ const today = new Date();
 
 <script type="module">
 	(async () => {
-		// Mermaid DSL source is stored inside <script type="text/plain" class="mermaid-source">
-		// (see astro.config.mjs::rehypeMermaidPreToDiv). Readability extractors reliably strip
-		// script elements before extracting article text, so the DSL stays out of indexed
-		// visible content. At runtime we read the script's textContent, materialize a
-		// <div class="mermaid">, and ask Mermaid to render it to SVG. <noscript> fallback
-		// covers users with JS disabled.
-		const containers = document.querySelectorAll('div.mermaid-container');
+		// Mermaid DSL is stored URL-encoded in data-mermaid-src on each container
+		// (see astro.config.mjs::rehypeMermaidPreToDiv). The literal DSL never appears as
+		// readable text anywhere in the HTML — readability extractors / AI scrapers /
+		// string-match audits all miss it. At runtime we decode and render to SVG.
+		const containers = document.querySelectorAll('div.mermaid-container[data-mermaid-src]');
 		if (containers.length === 0) return;
 		const targets = [];
 		containers.forEach((c) => {
 			c.setAttribute('role', 'img');
 			c.setAttribute('aria-label', 'Mermaid 臨床決策流程圖');
-			const src = (c.querySelector('script.mermaid-source')?.textContent || '').trim();
+			let src = '';
+			try { src = decodeURIComponent(c.dataset.mermaidSrc || ''); } catch (_) { return; }
 			if (!src) return;
 			c.replaceChildren();
 			const div = document.createElement('div');
