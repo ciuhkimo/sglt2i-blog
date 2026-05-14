@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "rm -rf .astro && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "verify:p0": "node scripts/verify-p0.mjs",
