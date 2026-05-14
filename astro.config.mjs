@@ -8,15 +8,25 @@ import { defineConfig } from 'astro/config';
 const buildDate = new Date();
 
 // rehype plugin: transform Shiki-rendered <pre data-language="mermaid"><code>...</code></pre>
-// → <div class="mermaid-container"><template class="mermaid-source">...</template><noscript>fallback</noscript></div>
+// → <div class="mermaid-container">
+//     <script type="text/plain" class="mermaid-source">flowchart TD ...</script>
+//     <noscript>fallback</noscript>
+//   </div>
 //
-// Design intent: raw Mermaid source (flowchart TD ...) must NOT appear as ordinary article text
-// so crawlers / AI scrapers don't index DSL fragments as visible content. Storing it inside
-// a <template> keeps it as inert HTML (not rendered, not parsed as document content until
-// JS accesses it). The <noscript> provides a text fallback for users with JavaScript off.
+// Design intent: raw Mermaid DSL must NOT appear as ordinary article text so crawlers /
+// readability extractors (Mozilla Readability, ChatGPT web reader, etc.) don't index DSL
+// fragments as visible content.
 //
-// Client-side init (Footer.astro) reads <template class="mermaid-source">, converts it to
-// <div class="mermaid">, runs Mermaid to produce SVG, and replaces the container's children.
+// We use <script type="text/plain"> because:
+//   1. Readability libraries reliably strip <script> elements before extracting article text
+//      (HTML spec inert <template> is theoretically the same but tool support is inconsistent;
+//      ChatGPT pro 2026-05-14 audit confirmed <template> content still leaked into "visible
+//      text" — switched to script[type=text/plain] for parity with readability standards).
+//   2. type="text/plain" is a documented "data block" pattern (HTML spec §4.12.1): browsers
+//      do NOT execute the content as JavaScript. The content remains accessible via DOM.
+//   3. Client-side init (Footer.astro) reads .mermaid-source content, materializes a
+//      <div class="mermaid">, runs Mermaid to produce SVG, replaces container children.
+//   4. <noscript> provides text fallback for users with JavaScript disabled.
 function rehypeMermaidPreToDiv() {
 	const fallbackText = '本決策流程圖需要 JavaScript 才能顯示為圖形。內文已包含對應的文字決策說明。';
 	return (tree) => {
@@ -40,8 +50,8 @@ function rehypeMermaidPreToDiv() {
 						children: [
 							{
 								type: 'element',
-								tagName: 'template',
-								properties: { className: ['mermaid-source'] },
+								tagName: 'script',
+								properties: { type: 'text/plain', className: ['mermaid-source'] },
 								children: [{ type: 'text', value: text }],
 							},
 							{

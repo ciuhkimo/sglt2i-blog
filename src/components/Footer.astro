@@ -19,24 +19,20 @@ const today = new Date();
 
 <script type="module">
 	(async () => {
-		// Mermaid DSL source is stored inside <template class="mermaid-source"> at build time
-		// (see astro.config.mjs::rehypeMermaidPreToDiv). The <template> element is HTML-spec
-		// inert: its contents are not rendered and not parsed as document text, so the DSL
-		// stays out of ordinary article text indexed by crawlers / readability extractors.
-		// At runtime we read the template, materialize a <div class="mermaid">, and ask
-		// Mermaid to render it to SVG. A <noscript> fallback covers users with JS disabled.
+		// Mermaid DSL source is stored inside <script type="text/plain" class="mermaid-source">
+		// (see astro.config.mjs::rehypeMermaidPreToDiv). Readability extractors reliably strip
+		// script elements before extracting article text, so the DSL stays out of indexed
+		// visible content. At runtime we read the script's textContent, materialize a
+		// <div class="mermaid">, and ask Mermaid to render it to SVG. <noscript> fallback
+		// covers users with JS disabled.
 		const containers = document.querySelectorAll('div.mermaid-container');
 		if (containers.length === 0) return;
 		const targets = [];
 		containers.forEach((c) => {
 			c.setAttribute('role', 'img');
 			c.setAttribute('aria-label', 'Mermaid 臨床決策流程圖');
-			const tpl = c.querySelector('template.mermaid-source');
-			if (!tpl) return;
-			// template.content is a DocumentFragment; use textContent to get the DSL string
-			const src = (tpl.content?.textContent || tpl.textContent || '').trim();
+			const src = (c.querySelector('script.mermaid-source')?.textContent || '').trim();
 			if (!src) return;
-			// Replace template + noscript with a single rendering target div
 			c.replaceChildren();
 			const div = document.createElement('div');
 			div.className = 'mermaid';

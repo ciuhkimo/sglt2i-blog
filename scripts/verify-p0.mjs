@@ -40,14 +40,15 @@ function readPage(url) {
 	return readFileSync(path, 'utf8');
 }
 
-// Strip <script>, <style>, <template>, and <noscript> content so that:
-//   1. verbatim HTML strings inside JS / CSS don't trigger false-positive grep matches
-//   2. inert content (template / noscript fallback) isn't counted as "visible article text"
+// Strip <script>, <style>, and <noscript> content. We DELIBERATELY do NOT strip <template>
+// here anymore: the new Mermaid hardening stores DSL in <script type="text/plain">, not
+// <template>. By only stripping <script>/<style>/<noscript>, our verify mirrors what
+// readability extractors (Mozilla Readability, ChatGPT web reader) actually do — anything
+// they would treat as visible article text remains in the stripped HTML and gets checked.
 function stripScriptsAndStyles(html) {
 	return html
 		.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
 		.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
-		.replace(/<template[\s\S]*?<\/template>/gi, '')
 		.replace(/<noscript[\s\S]*?<\/noscript>/gi, '');
 }
 
@@ -185,14 +186,14 @@ for (const url of MERMAID_PAGES_WITH_DIAGRAM) {
 		continue;
 	}
 
-	// Container + template + noscript fallback must exist
+	// Container + script[type=text/plain] + noscript fallback must exist
 	const container = countMatches(rawHtml, /<div[^>]*class="[^"]*\bmermaid-container\b[^"]*"/g);
-	const template = countMatches(rawHtml, /<template[^>]*class="[^"]*\bmermaid-source\b[^"]*"/g);
+	const scriptSource = countMatches(rawHtml, /<script[^>]*type="text\/plain"[^>]*class="[^"]*\bmermaid-source\b[^"]*"/g);
 	const noscript = countMatches(rawHtml, /本決策流程圖需要 JavaScript/g);
-	if (container >= 1 && template >= 1 && noscript >= 1) {
-		ok(`${url}: ${container} mermaid-container + ${template} <template> + ${noscript} <noscript> fallback (0 raw DSL in visible body)`);
+	if (container >= 1 && scriptSource >= 1 && noscript >= 1) {
+		ok(`${url}: ${container} mermaid-container + ${scriptSource} <script type="text/plain"> + ${noscript} <noscript> fallback (0 raw DSL in readability-visible body)`);
 	} else {
-		fail(`${url}: container=${container}, template=${template}, noscript=${noscript} (all must be >=1)`);
+		fail(`${url}: container=${container}, scriptSource=${scriptSource}, noscript=${noscript} (all must be >=1)`);
 	}
 }
 for (const url of MERMAID_RENDERER_SAMPLES) {
