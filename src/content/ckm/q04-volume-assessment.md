@@ -256,12 +256,25 @@ CKD 合併 HF 的病人，什麼時候「太乾」vs「太濕」？如何用多�
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [Cardiorenal 利尿策略](/ckm/q05-diuretic-strategy/)
-- [HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
-- [急性心腎症候群](/ckm/q07-acute-cardiorenal-role/)
+**[Q05 — Cardiorenal 利尿策略](/ckm/q05-diuretic-strategy/)**：容量評估完成後，最直接的處置就是「**該不該利尿、用哪一種、用多少、怎麼監測**」——Q05 把 DOSE-AHF / CARRESS-HF / ADVOR / CLOROTIC 證據整合到具體 protocol。
 
-### 跨專案
-- [SGLT2i Q06 — Volume Status Assessment](/sglt2i/q06-volume-status-assessment/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **cardiorenal 分型** → [Q03 — Cardiorenal Syndrome 分型](/ckm/q03-cardiorenal-syndrome-types/)（Type 1-5 急慢性決策）
+- 想看 **HF drug 在 CKD 邊界** → [Q06 — HF 藥物在 CKD 的使用門檻](/ckm/q06-hf-drugs-ckd-thresholds/)（BB、MRA、ARNI、H-ISDN、SGLT2i）
+- 想看**急性場景處置** → [Q07 — 急性心腎症候群的腎臟科角色](/ckm/q07-acute-cardiorenal-role/)（Ward / ICU / 門診 decompensation）
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q06 — Volume Status Assessment](/sglt2i/q06-volume-status-assessment/) — SGLT2i 啟動前後容量評估
+- [SGLT2i Q12 — Hypotension Attribution](/sglt2i/q12-hypotension-attribution/) — 低血壓歸因（容量 vs 血壓 vs 藥物）
+- [Finerenone Q05 — HF + CKD 角色](/finerenone/q05-hf-ckd-role/)
+- [HD 透析後腹痛冒冷汗：別漏掉 NOMI](/blog/hd-post-hd-abdominal-pain-nomi/) — 過度脫水的隱形殺手

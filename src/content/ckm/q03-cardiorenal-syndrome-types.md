@@ -246,13 +246,25 @@ CRS Type [1-5], [dominant phenotype], [current priority], [escalation status]
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [CKD + HF 容量評估](/ckm/q04-volume-assessment/)
-- [急性心腎症候群的腎臟科角色](/ckm/q07-acute-cardiorenal-role/)
-- [CKM 定義與分期](/ckm/q01-ckm-definition-staging/)
+**[Q04 — CKD + HF 的容量評估](/ckm/q04-volume-assessment/)**：cardiorenal Type 1-5 分型講完後，門診**最常需要 actionable 決策**的就是 acute decompensation 的容量狀態評估——Q04 把 POCUS、physical exam、biomarker 整合到具體 protocol。
 
-### 跨專案
-- [SGLT2i Q10 — Cr dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/)
-- [Finerenone Q05 — HF+CKD 角色](/finerenone/q05-hf-ckd-role/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**利尿策略** → [Q05 — Cardiorenal 利尿策略](/ckm/q05-diuretic-strategy/)（DOSE-AHF / CARRESS-HF / ADVOR / CLOROTIC 整合）
+- 想看 **HF drug 在 CKD 邊界** → [Q06 — HF 藥物在 CKD 的使用門檻](/ckm/q06-hf-drugs-ckd-thresholds/)（BB、MRA、ARNI、H-ISDN、SGLT2i）
+- 想看**急性場景處置** → [Q07 — 急性心腎症候群的腎臟科角色](/ckm/q07-acute-cardiorenal-role/)（Ward / ICU / 門診 decompensation）
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q05 — Renal vs HF Protection](/sglt2i/q05-renal-vs-hf-protection/) — SGLT2i 在 cardiorenal 的雙獲益
+- [SGLT2i Q10 — Cr Dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/) — 啟動後 eGFR 下降判讀
+- [Finerenone Q05 — HF + CKD 角色](/finerenone/q05-hf-ckd-role/) — FINEARTS-HF 證據
+- [PA Q6 — PA + CKD 三段式治療](/pa/q06-ckd-pa-treatment/) — MRA 在 cardiorenal 共病的滴定

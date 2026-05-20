@@ -243,13 +243,25 @@ PREVENT 不適用於已知 CVD 的 secondary prevention；KFRE 也不應外推�
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [CKM 定義與分期](/ckm/q01-ckm-definition-staging/)
-- [CV 風險分層](/ckm/q14-cv-risk-stratification/)
-- [CKM Biomarkers 解讀](/ckm/q15-ckm-biomarkers/)
+**[Q03 — Cardiorenal Syndrome 分型（Type 1-5）](/ckm/q03-cardiorenal-syndrome-types/)**：篩出 CKM 後，門診下一個必須拆解的軸是「**心腎共病該歸到哪一型 cardiorenal**」——Q03 把 5 個 type 的急慢性決策與處置邊界落實到 Ward / ICU / 門診層級。
 
-### 跨專案
-- [SGLT2i Q01 — CKD 啟用時機](/sglt2i/q01-ckd-start-timing/)
-- [Finerenone Q01 — DKD 啟動時機](/finerenone/q01-dkd-when-to-start/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**分期框架** → [Q01 — CKM Syndrome 定義與分期](/ckm/q01-ckm-definition-staging/)（Stage 0-4 完整定義）
+- 想看 **CV 風險分層** → [Q14 — CV 風險分層](/ckm/q14-cv-risk-stratification/)（PREVENT / KDIGO heat map 取代 Framingham/ASCVD）
+- 想看**篩檢工具陷阱** → [Q15 — CKM Biomarkers 解讀](/ckm/q15-ckm-biomarkers/)（NT-proBNP / Troponin / UACR / Cystatin C 在 CKD 的陷阱）
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q01 — CKD 啟用時機](/sglt2i/q01-ckd-start-timing/) — 篩出 CKM 後第一柱啟動
+- [Finerenone Q01 — DKD 啟動時機](/finerenone/q01-dkd-when-to-start/) — CKM 四柱第三柱
+- [GLP-1 RA Q01 — CKD 合併糖尿病何時加入](/glp1ra/q01-ckd-dm-when-to-start/) — CKM 四柱第四柱
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科視角的 CKM 篩檢與轉介

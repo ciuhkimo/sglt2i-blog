@@ -284,13 +284,25 @@ Loop diuretic + thiazide + acetazolamide + SGLT2i 的 sequential nephron blockad
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [CKD + HF 容量評估](/ckm/q04-volume-assessment/)
-- [HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
-- [急性心腎症候群](/ckm/q07-acute-cardiorenal-role/)
+**[Q06 — HF 藥物在 CKD 的使用門檻](/ckm/q06-hf-drugs-ckd-thresholds/)**：利尿策略安頓 volume 後，下一步是「**HF four-pillar 在 CKD 各 eGFR 的具體啟用門檻**」——Q06 把 BB、MRA、ARNI、H-ISDN、SGLT2i 在 advanced CKD 的 dose 與 monitoring 落實。
 
-### 跨專案
-- [SGLT2i Q06 — Volume Status](/sglt2i/q06-volume-status-assessment/)
-- [SGLT2i Q12 — Hypotension Attribution](/sglt2i/q12-hypotension-attribution/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**容量評估** → [Q04 — CKD + HF 的容量評估](/ckm/q04-volume-assessment/)（POCUS / physical exam / biomarker）
+- 想看**急性場景** → [Q07 — 急性心腎症候群的腎臟科角色](/ckm/q07-acute-cardiorenal-role/)（Ward / ICU / 門診 decompensation）
+- 想看 **CKM 四柱整合** → [Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/)（RASi + SGLT2i + Finerenone + GLP-1 RA 起始順序）
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q14 — Acute Illness Hold](/sglt2i/q14-acute-illness-hold/) — sick-day 暫停紀律
+- [Finerenone Q08 — Monitoring 頻率](/finerenone/q08-monitoring-frequency/) — K/Cr 監測
+- [PA Q6 — PA + CKD 三段式治療](/pa/q06-ckd-pa-treatment/) — MRA 在 CKD 的滴定
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科視角
