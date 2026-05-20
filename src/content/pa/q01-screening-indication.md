@@ -456,3 +456,28 @@ flowchart TD
 #### Preprint（尚未同儕審查）
 
 22. **Tsai CH, Chang YC, Chen ZW, Parisien-La Salle S, Brown JM, Vaidya A, Wu VC, Lin YH.** Screening and Diagnosis Trends for Primary Aldosteronism: A Longitudinal Nationwide Cohort Study of 7.8 Million People. *medRxiv* 2025.11.13.25340212. **PubMed PMID 41292622**（preprint record；尚未同儕審查）
+
+---
+
+## 🔜 下一題
+
+**[Q5 — PA 治療策略：Surgery vs MRA](/pa/q05-surgery-vs-mra-treatment/)**：篩出 PA 後，門診**最核心的下游決策**就是「**手術 vs 藥物**」——Q5 把 AVS-confirmed lateralized PA 的 adrenalectomy 與 bilateral / non-surgical PA 的 spironolactone-first MRA 滴定策略落實。
+
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **PA + CKD 共病處置** → [Q6 — PA + CKD 三段式治療](/pa/q06-ckd-pa-treatment/)（eGFR ≥60 / 30-60 / <30 spironolactone titration + AMBER patiromer 紅線）
+- 想看**腎上腺意外瘤共照** → [Q8 — Adrenal Incidentaloma + HTN](/pa/q08-adrenal-incidentaloma-htn/)（2023 ESE 4 cm 切點 + MACS-PA overlap）
+- 想看**健保實務** → [Q11 — Taiwan NHI Coverage](/pa/q11-taiwan-nhi-coverage/)（給付狀態 + eplerenone / finerenone 自費紅線）
+
+---
+
+## 跨 cluster 深化
+
+- [CKM Q02 — CKM 篩檢與識別](/ckm/q02-ckm-screening/) — PA 篩檢與 CKM 框架整合
+- [CKM Q14 — CV 風險分層](/ckm/q14-cv-risk-stratification/) — PA 病人 CV 風險獨立加成
+- [Finerenone Q11 — Taiwan NHI Coverage](/finerenone/q11-taiwan-nhi-coverage/) — MRA family 給付差異
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科 PA 篩檢與轉介視角

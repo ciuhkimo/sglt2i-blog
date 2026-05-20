@@ -290,12 +290,30 @@ PA 的健保政策框架自 2010 年代以來變動有限；除前述第 55 次�
   4. 不可給未公開驗證的精確新台幣金額（用級距，非確切數字；具體金額請轉介中心報價）
   5. AVS 執行風險不代為解釋；交由醫學中心施作醫師說明
 
-## 相關筆記
+## 🔜 回到開頭（PA 5 題 cluster loop）
 
-- [Q1 PA 篩檢適應症](/pa/q01-screening-indication/)
-- [Finerenone Q11 健保給付](/finerenone/q11-taiwan-nhi-coverage/)
-- Q5 治療策略 Surgery vs MRA（即將發表）
-- Q6 CKD-PA、Q9 PA + AF、Q12 PA + Osteoporosis、Q13 MACS-PA Overlap（後續發表）
+**[Q1 — PA 篩檢適應症](/pa/q01-screening-indication/)**：健保給付與自費價格框架定下來後，作為 PA 5 題 cluster 的收尾——回到 **篩檢起點**重新看，將具備完整的「篩檢 → 治療 → 共病 → 給付」決策視野。
+
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**篩檢起點** → [Q1 — PA 篩檢適應症](/pa/q01-screening-indication/)（強指征 / 條件指征 / wash-out 紀律）
+- 想看**治療策略整體** → [Q5 — PA 治療策略：Surgery vs MRA](/pa/q05-surgery-vs-mra-treatment/)
+- 想看 **PA + CKD 共病** → [Q6 — PA + CKD 三段式治療](/pa/q06-ckd-pa-treatment/)
+- 想看**腎上腺意外瘤共照** → [Q8 — Adrenal Incidentaloma + HTN](/pa/q08-adrenal-incidentaloma-htn/)
+
+---
+
+## 跨 cluster 深化
+
+- [Finerenone Q11 — Taiwan NHI Coverage](/finerenone/q11-taiwan-nhi-coverage/) — Finerenone 健保給付狀態與 PA off-label 紅線
+- [Finerenone Q01 — DKD 啟動時機](/finerenone/q01-dkd-when-to-start/) — MR antagonism family overview
+- [SGLT2i Q01 — CKD 啟用時機](/sglt2i/q01-ckd-start-timing/) — Early CKD / Pre-ESRD 計畫給付規則
+- [CKM Q12 — eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/) — advanced CKD 的 MRA 邊界與給付
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科 PA-CKD 共照與給付落地視角
 
 ---
 

@@ -475,3 +475,29 @@ flowchart TD
 ---
 
 > **品質聲明**：本決策備忘錄遵守 (1) 核心 PMID 已逐項核對；仍涉及健保 / 藥品可近性之條目，申報前須以最新版查詢系統與院內藥局為準；(2) Comparator 嚴格區分（Chen 2019 vs EH ≠ Wu 2021 vs MRA direct ≠ Cohen 2023 PA-CKD specific）；(3) Hard endpoint vs surrogate 區分；(4) AMBER 適用紅線（eGFR 25-45）；(5) Finerenone PA off-label flag；(6) Acute eGFR dip 為 hemodynamic unmasking 常見解釋，但 dip >30% 仍需排除可逆因素；(7) Severe CKD 手術立場必標 clinical inference hedge；(8) 作者範圍誠實 — 區域醫院腎臟科可執行 MRA titration / 追蹤 / 轉介手術 / 術後 eGFR 監測，**不執行 adrenalectomy 與 AVS**。
+
+---
+
+## 🔜 下一題
+
+**[Q8 — Adrenal Incidentaloma + HTN](/pa/q08-adrenal-incidentaloma-htn/)**：PA + CKD 共病處置安頓後，門診**第二大 entry intent** 是腎上腺意外瘤合併高血壓的共照路徑——Q8 把 2023 ESE 4 cm 切點 + functional workup 分流 + MACS-PA overlap 21.9% 整合落實。
+
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**篩檢起點** → [Q1 — PA 篩檢適應症](/pa/q01-screening-indication/)（強指征 / 條件指征 / wash-out 紀律）
+- 想看**治療策略整體** → [Q5 — Surgery vs MRA](/pa/q05-surgery-vs-mra-treatment/)（lateralized adrenalectomy vs bilateral MRA）
+- 想看**健保實務** → [Q11 — Taiwan NHI Coverage](/pa/q11-taiwan-nhi-coverage/)（spironolactone 全給付 + eplerenone PA 自費 + finerenone PA off-label）
+
+---
+
+## 跨 cluster 深化
+
+- [Finerenone Q03 — Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/) — MRA 啟動紀律與 K⁺ 監測
+- [SGLT2i Q01 — CKD 啟用時機](/sglt2i/q01-ckd-start-timing/) — PA-CKD 共病的 SGLT2i 角色
+- [CKM Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/) — RASi + SGLT2i + MRA 在 PA-CKM 整合
+- [CKM Q12 — eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/) — advanced CKD 的 MRA 邊界
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科 PA-CKD 共照視角

@@ -464,3 +464,26 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 
 ---
 
+## 🔜 下一題
+
+**[Q6 — PA + CKD 三段式治療](/pa/q06-ckd-pa-treatment/)**：PA 治療策略整體框架定下來後，**最棘手的灰色地帶**是 PA + CKD 共病的 spironolactone titration——Q6 把 eGFR ≥60 / 30-60 / <30 三段式 MRA 滴定 + AMBER patiromer 護航 + acute eGFR dip 校正回歸落實。
+
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**篩檢起點** → [Q1 — PA 篩檢適應症](/pa/q01-screening-indication/)（強指征 / 條件指征 / 不需例行篩 / wash-out 紀律）
+- 想看**腎上腺意外瘤共照** → [Q8 — Adrenal Incidentaloma + HTN](/pa/q08-adrenal-incidentaloma-htn/)（2023 ESE 4 cm 切點）
+- 想看**健保實務** → [Q11 — Taiwan NHI Coverage](/pa/q11-taiwan-nhi-coverage/)（eplerenone 在 PA 自費 / finerenone PA off-label）
+
+---
+
+## 跨 cluster 深化
+
+- [Finerenone Q01 — DKD 啟動時機](/finerenone/q01-dkd-when-to-start/) — MR antagonism family overview
+- [Finerenone Q03 — Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/) — MRA 啟動 / 維持紀律
+- [CKM Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/) — MRA 在 four-pillar 的位置
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科 PA 治療與轉介視角
+

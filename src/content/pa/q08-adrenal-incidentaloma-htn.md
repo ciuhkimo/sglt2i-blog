@@ -406,3 +406,28 @@ Q8 層級只需提醒三件事：
 ---
 
 > **品質聲明**：本決策備忘錄遵守 (1) 核心 PMID 已逐項核對；仍涉及健保 / 醫令可近性之條目，申報前須以最新版查詢系統與院內申報為準；(2) 影像 cutoff 嚴格依 2023 ESE wording；(3) Functional workup 紀律分流（DST 為全 AI / ARR 為 AI+HTN/hypokalemia / metanephrines 為 atypical imaging — 不寫成「全 AI 全 panel」）；(4) MACS-PA overlap 數字 multi-source 對照（不單用 TAIPAI 26.4%；PMID 歸屬正確為 Hung 2023 不是 Lu YC 2024）；(5) ACC biopsy 紅線必標；(6) 4 cm 不是「必切」絕對句；(7) 「腎上腺意外瘤都篩 PA」立場 nuance（incidentaloma framework vs PA framework）；(8) 作者範圍誠實——區域醫院腎臟科可執行 ARR / DST / 第一線 metanephrines + 追蹤，**不執行 AVS / adrenalectomy / 複雜 PET 解讀**。
+
+---
+
+## 🔜 下一題
+
+**[Q11 — Taiwan NHI Coverage](/pa/q11-taiwan-nhi-coverage/)**：腎上腺意外瘤共照流程完成後，下一個 actionable thread 是「**藥物可近性與健保給付邊界**」——Q11 把 spironolactone 全給付 / eplerenone PA 自費 / finerenone PA off-label / AVS 醫令給付分流落實。
+
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**篩檢起點** → [Q1 — PA 篩檢適應症](/pa/q01-screening-indication/)（強指征 / 條件指征 / 不需例行篩）
+- 想看**治療策略整體** → [Q5 — Surgery vs MRA](/pa/q05-surgery-vs-mra-treatment/)（adrenalectomy vs MRA 雙軌）
+- 想看 **PA + CKD 共病** → [Q6 — PA + CKD 三段式治療](/pa/q06-ckd-pa-treatment/)（eGFR ≥60 / 30-60 / <30 spironolactone titration）
+
+---
+
+## 跨 cluster 深化
+
+- [CKM Q14 — CV 風險分層](/ckm/q14-cv-risk-stratification/) — adrenal incidentaloma 病人 CV 風險評估
+- [Finerenone Q11 — Taiwan NHI Coverage](/finerenone/q11-taiwan-nhi-coverage/) — MR antagonism family 給付對照
+- [SGLT2i Q01 — CKD 啟用時機](/sglt2i/q01-ckd-start-timing/) — adrenal lesion + CKD 共病的 SGLT2i
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科腎上腺意外瘤共照視角
