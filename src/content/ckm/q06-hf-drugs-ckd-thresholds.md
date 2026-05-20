@@ -524,17 +524,26 @@ DIALIZE-Outcomes 沒有證明 SZC 在 maintenance hemodialysis 能改善 arrhyth
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [CKD + HF 容量評估](/ckm/q04-volume-assessment/)
-- [Cardiorenal 利尿策略](/ckm/q05-diuretic-strategy/)
-- [急性心腎症候群](/ckm/q07-acute-cardiorenal-role/)
-- [四柱整合策略](/ckm/q11-four-pillar-integration/)
-- [eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)
+**[Q07 — 急性心腎症候群的腎臟科角色](/ckm/q07-acute-cardiorenal-role/)**：HF 四柱在 CKD 的具體門檻定下來後，門診接著最常需要的就是**急性 decompensation 場景處置**——Q07 把 Ward / ICU / 門診三層 acute cardiorenal 的腎臟科角色與處置邊界落實。
 
-### 跨專案
-- [SGLT2i Q19 — 多藥策略](/sglt2i/q19-drug-combination-strategy/)
-- [Finerenone Q05 — HF+CKD 角色](/finerenone/q05-hf-ckd-role/)
-- [Finerenone Q07 — Steroidal vs Nonsteroidal MRA](/finerenone/q07-steroidal-vs-nonsteroidal/)
-- [Finerenone Q03 — Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **cardiorenal 分型** → [Q03 — Cardiorenal Syndrome 分型](/ckm/q03-cardiorenal-syndrome-types/)（Type 1-5 急慢性決策）
+- 想看**利尿策略** → [Q05 — Cardiorenal 利尿策略](/ckm/q05-diuretic-strategy/)（DOSE-AHF / CARRESS-HF / ADVOR）
+- 想看 **CKM 四柱整合** → [Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/)（RASi + SGLT2i + Finerenone + GLP-1 RA 起始順序）
+- 想看 **advanced CKD 藥物策略** → [Q12 — eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q19 — 多藥策略](/sglt2i/q19-drug-combination-strategy/) — four-pillar 在 CKD-DM 的整合 dosing
+- [Finerenone Q05 — HF + CKD 角色](/finerenone/q05-hf-ckd-role/) — FINEARTS-HF + 三柱中的位置
+- [Finerenone Q03 — Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/) — MRA 啟動/維持紀律
+- [PA Q6 — PA + CKD 三段式治療](/pa/q06-ckd-pa-treatment/) — MRA 在 CKD 各 eGFR 的滴定

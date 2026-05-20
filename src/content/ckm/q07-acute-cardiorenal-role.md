@@ -423,15 +423,26 @@ KDIGO 2012 支持在以下情境 **emergent** 啟動 KRT：[3]
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [Cardiorenal Syndrome 分型](/ckm/q03-cardiorenal-syndrome-types/)
-- [CKD + HF 容量評估](/ckm/q04-volume-assessment/)
-- [Cardiorenal 利尿策略](/ckm/q05-diuretic-strategy/)
-- [HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
+**[Q08 — Obesity-Related Glomerulopathy（ORG）](/ckm/q08-obesity-related-glomerulopathy/)**：急性 cardiorenal 處置完成回到 outpatient 視角後，CKM 的另一條重要 thread 是**肥胖驅動的腎臟病理**——Q08 把 ORG 的診斷標準、生檢適應症與治療決策邊界落實。
 
-### 跨專案
-- [SGLT2i Q10 — Cr dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/)
-- [SGLT2i Q14 — Acute Illness Hold](/sglt2i/q14-acute-illness-hold/)
-- [SGLT2i Q15 — AKI Stop Decision](/sglt2i/q15-aki-stop-decision/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **cardiorenal 分型** → [Q03 — Cardiorenal Syndrome 分型](/ckm/q03-cardiorenal-syndrome-types/)（Type 1-5 急慢性決策）
+- 想看**容量評估** → [Q04 — CKD + HF 的容量評估](/ckm/q04-volume-assessment/)（POCUS / physical exam / biomarker）
+- 想看**利尿策略** → [Q05 — Cardiorenal 利尿策略](/ckm/q05-diuretic-strategy/)
+- 想看 **HF 藥物在 CKD 的具體門檻** → [Q06 — HF 藥物在 CKD 的使用門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q10 — Cr Dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/) — 啟動後 eGFR 下降判讀
+- [SGLT2i Q14 — Acute Illness Hold](/sglt2i/q14-acute-illness-hold/) — sick-day 暫停紀律
+- [SGLT2i Q15 — AKI Stop Decision](/sglt2i/q15-aki-stop-decision/) — AKI 後續決策
+- [HD 透析後腹痛冒冷汗：別漏掉 NOMI](/blog/hd-post-hd-abdominal-pain-nomi/) — 過度脫水的隱形殺手

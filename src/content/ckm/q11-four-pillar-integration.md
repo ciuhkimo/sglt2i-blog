@@ -535,19 +535,27 @@ Albuminuric T2D + CKD
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [CKM 定義與分期](/ckm/q01-ckm-definition-staging/)
-- [HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
-- [eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)
-- [新興治療](/ckm/q13-emerging-therapies/)
-- [CV 風險分層](/ckm/q14-cv-risk-stratification/)
+**[Q12 — eGFR <20 的 CKM 藥物策略（Advanced CKD）](/ckm/q12-low-egfr-ckm-strategy/)**：四柱整合在 eGFR ≥20 的策略講完後，**最棘手的灰色地帶**是 advanced CKD（eGFR <20）的 four-pillar 邊界——Q12 把 SGLT2i / Finerenone / GLP-1 RA 在 CKD 4-5 的具體啟用 / 維持 / 停用紀律落實。
 
-### 跨專案
-- [2026 DKD 四柱療法完整指南](/blog/dkd-four-pillars-2026/)
-- [SGLT2i Q19 — 多藥策略](/sglt2i/q19-drug-combination-strategy/)
-- [Finerenone Q02 — 與 SGLT2i/GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)
-- [GLP-1 RA Q03 — 與 SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/)
-- [GLP-1 RA Q10 — 四柱整合](/glp1ra/q10-four-pillar-integration/)
-- [Finerenone Q05 — HF+CKD 角色](/finerenone/q05-hf-ckd-role/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**分期框架** → [Q01 — CKM Syndrome 定義與分期](/ckm/q01-ckm-definition-staging/)（Stage 0-4 完整定義）
+- 想看 **HF 藥物在 CKD 門檻** → [Q06 — HF 藥物在 CKD 的使用門檻](/ckm/q06-hf-drugs-ckd-thresholds/)（BB、MRA、ARNI、H-ISDN、SGLT2i）
+- 想看**新興治療** → [Q13 — CKM 新興治療](/ckm/q13-emerging-therapies/)（tirzepatide、atrasentan、baxdrostat）
+- 想看 **CV 風險分層** → [Q14 — CV 風險分層](/ckm/q14-cv-risk-stratification/)（PREVENT / KDIGO heat map）
+
+---
+
+## 跨 cluster 深化
+
+- [2026 DKD 四柱療法完整指南](/blog/dkd-four-pillars-2026/) — CKM 框架下 DKD 的 four-pillar 實作版
+- [SGLT2i Q19 — 多藥策略](/sglt2i/q19-drug-combination-strategy/) — four-pillar 在 CKD-DM 的整合
+- [Finerenone Q02 — 與 SGLT2i / GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/) — 啟動次序
+- [GLP-1 RA Q10 — 四柱整合](/glp1ra/q10-four-pillar-integration/) — GLP-1 RA 在 four-pillar 的位置
+- [PA Q6 — PA + CKD 三段式治療](/pa/q06-ckd-pa-treatment/) — MRA 在 four-pillar + PA 的整合

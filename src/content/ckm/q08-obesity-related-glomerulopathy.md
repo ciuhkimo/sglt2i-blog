@@ -547,14 +547,25 @@ Nasr 2024 的 secondary oxalate nephropathy cohort 顯示：
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [MASLD/MASH 與 CKD](/ckm/q09-masld-mash-ckd/)
-- [Metabolic Surgery 對 CKD](/ckm/q10-metabolic-surgery-ckd/)
-- [四柱整合策略](/ckm/q11-four-pillar-integration/)
+**[Q09 — MASLD/MASH 與 CKD 的腎臟科共管](/ckm/q09-masld-mash-ckd/)**：ORG 是肥胖驅動 CKD 的一條 thread；另一條同樣常見的 metabolic-renal 共病軸是 **MASLD/MASH**——Q09 把 fibroscan / 肝指數 / 腎臟功能 cross-monitoring 與藥物選擇邊界落實。
 
-### 跨專案
-- [GLP-1 RA Q05 — 腎臟終點證據（FLOW）](/glp1ra/q05-renal-endpoint-evidence/)
-- [GLP-1 RA Q07 — 體重下降 Paradox](/glp1ra/q07-weight-loss-paradox/)
-- [SGLT2i Q02 — Non-DM CKD](/sglt2i/q02-nondm-ckd/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **MASLD/MASH 共病** → [Q09 — MASLD/MASH 與 CKD](/ckm/q09-masld-mash-ckd/)
+- 想看**減重手術評估** → [Q10 — Metabolic Surgery 對 CKD 的影響](/ckm/q10-metabolic-surgery-ckd/)（轉介 / 術前評估 / 腎臟結局）
+- 想看 **CKM 四柱整合** → [Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/)（RASi + SGLT2i + Finerenone + GLP-1 RA）
+
+---
+
+## 跨 cluster 深化
+
+- [GLP-1 RA Q05 — FLOW 腎臟終點證據](/glp1ra/q05-renal-endpoint-evidence/) — Semaglutide CKD outcome
+- [GLP-1 RA Q07 — 體重下降 Paradox](/glp1ra/q07-weight-loss-paradox/) — 肥胖 CKD 的體重變化
+- [SGLT2i Q02 — Non-DM CKD](/sglt2i/q02-nondm-ckd/) — 非糖尿病 CKD 的 SGLT2i
+- [Finerenone Q10 — 特殊族群（含 NDKD/IgAN）](/finerenone/q10-special-populations/) — 非糖 CKD 的 MRA 角色

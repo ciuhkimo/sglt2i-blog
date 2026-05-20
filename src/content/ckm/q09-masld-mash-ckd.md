@@ -422,14 +422,25 @@ Stable CKD patient
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [Obesity-Related Glomerulopathy](/ckm/q08-obesity-related-glomerulopathy/)
-- [Metabolic Surgery 對 CKD](/ckm/q10-metabolic-surgery-ckd/)
-- [四柱整合策略](/ckm/q11-four-pillar-integration/)
-- [CKM Biomarkers](/ckm/q15-ckm-biomarkers/)
+**[Q10 — Metabolic Surgery 對 CKD 的影響](/ckm/q10-metabolic-surgery-ckd/)**：MASLD/MASH + CKD 共管的下一個 actionable thread 是「**減重手術何時轉介、術前評估、術後腎臟結局**」——Q10 把 metabolic surgery 對 CKD 的長期 risk-benefit 與並發症監測落實。
 
-### 跨專案
-- [GLP-1 RA Q05 — FLOW 腎臟終點](/glp1ra/q05-renal-endpoint-evidence/)
-- [Finerenone Q10 — 特殊族群](/finerenone/q10-special-populations/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**肥胖驅動 CKD** → [Q08 — Obesity-Related Glomerulopathy](/ckm/q08-obesity-related-glomerulopathy/)（診斷標準 / 生檢 / 治療）
+- 想看 **CKM 四柱整合** → [Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/)（GLP-1 RA 在 metabolic-renal 的位置）
+- 想看 **CKM Biomarkers** → [Q15 — CKM Biomarkers 解讀](/ckm/q15-ckm-biomarkers/)（NT-proBNP / Troponin / UACR / Cystatin C 在 CKD 的陷阱）
+
+---
+
+## 跨 cluster 深化
+
+- [GLP-1 RA Q05 — FLOW 腎臟終點證據](/glp1ra/q05-renal-endpoint-evidence/) — Semaglutide CKD primary outcome
+- [GLP-1 RA Q07 — 體重下降 Paradox](/glp1ra/q07-weight-loss-paradox/) — metabolic 共病的體重判讀
+- [SGLT2i Q02 — Non-DM CKD](/sglt2i/q02-nondm-ckd/) — 非糖尿病 CKD（MASLD overlap）
+- [Finerenone Q10 — 特殊族群](/finerenone/q10-special-populations/) — IgAN / 非糖 CKD 的 MRA 角色

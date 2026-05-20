@@ -560,14 +560,25 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [四柱整合策略](/ckm/q11-four-pillar-integration/)
-- [eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)
-- [MASLD/MASH 與 CKD](/ckm/q09-masld-mash-ckd/)
+**[Q14 — CKD 的 CV 風險分層](/ckm/q14-cv-risk-stratification/)**：新興治療 landscape 看完後，回到**最基礎也最常被誤用**的 framework 是 CV 風險分層——Q14 把 PREVENT / KDIGO heat map / CAC / biomarker 取代 Framingham/ASCVD 在 CKD 族群的紀律落實。
 
-### 跨專案
-- [GLP-1 RA Q05 — FLOW 腎臟終點](/glp1ra/q05-renal-endpoint-evidence/)
-- [Finerenone Q02 — 排序與合併](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)
-- [2026 DKD 四柱療法完整指南](/blog/dkd-four-pillars-2026/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **CKM 四柱整合** → [Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/)（RASi + SGLT2i + Finerenone + GLP-1 RA）
+- 想看 **advanced CKD 藥物策略** → [Q12 — eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)
+- 想看 **biomarker 陷阱** → [Q15 — CKM Biomarkers 解讀](/ckm/q15-ckm-biomarkers/)（NT-proBNP / Troponin / UACR / Cystatin C 在 CKD 的陷阱）
+
+---
+
+## 跨 cluster 深化
+
+- [GLP-1 RA Q05 — FLOW 腎臟終點證據](/glp1ra/q05-renal-endpoint-evidence/) — Semaglutide CKD primary outcome
+- [Finerenone Q02 — 與 SGLT2i / GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/) — 啟動次序
+- [2026 DKD 四柱療法完整指南](/blog/dkd-four-pillars-2026/) — CKM 框架下 DKD 的 four-pillar 實作版
+- [PA Q5 — Surgery vs MRA 治療策略](/pa/q05-surgery-vs-mra-treatment/) — PA 治療在 CKM 的位置

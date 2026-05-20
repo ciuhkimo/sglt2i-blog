@@ -272,13 +272,27 @@ KDIGO 2024 重點：
 
 ---
 
-## 延伸閱讀
+## 🔜 回到開頭（CKM 15 題 cluster loop）
 
-### CKM 專案
-- [CV 風險分層](/ckm/q14-cv-risk-stratification/)
-- [急性心腎症候群](/ckm/q07-acute-cardiorenal-role/)
-- [四柱整合策略](/ckm/q11-four-pillar-integration/)
+**[Q01 — CKM Syndrome 定義與分期](/ckm/q01-ckm-definition-staging/)**：biomarker 陷阱章節作為 CKM 15 題完整 cluster 的收尾——回到 **Stage 0-4 分期框架**重新看，將具備全新的工具與情境感。
 
-### 跨專案
-- [Finerenone Q08 — 監測頻率](/finerenone/q08-monitoring-frequency/)
-- [SGLT2i Q10 — Cr dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**篩檢與識別** → [Q02 — CKM 篩檢與識別](/ckm/q02-ckm-screening/)（哪些病人該被 flag 為 CKM）
+- 想看 **CV 風險分層** → [Q14 — CV 風險分層](/ckm/q14-cv-risk-stratification/)（PREVENT / KDIGO heat map / CAC）
+- 想看**急性場景** → [Q07 — 急性心腎症候群的腎臟科角色](/ckm/q07-acute-cardiorenal-role/)（Ward / ICU / 門診 biomarker 應用）
+- 想看 **CKM 四柱整合** → [Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/)
+
+---
+
+## 跨 cluster 深化
+
+- [Finerenone Q08 — Monitoring 頻率](/finerenone/q08-monitoring-frequency/) — K/Cr 監測頻率與 biomarker 整合
+- [SGLT2i Q10 — Cr Dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/) — 啟動後 eGFR 下降的 biomarker 判讀
+- [SGLT2i Q06 — Volume Status Assessment](/sglt2i/q06-volume-status-assessment/) — POCUS + biomarker 整合
+- [PA Q6 — PA + CKD 三段式治療](/pa/q06-ckd-pa-treatment/) — renin / aldosterone biomarker 在 CKM 的角色
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地 biomarker access 與決策視角

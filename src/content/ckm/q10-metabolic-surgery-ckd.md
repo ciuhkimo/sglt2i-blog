@@ -363,14 +363,25 @@ https://clinicaltrials.gov/study/NCT03574597
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [Obesity-Related Glomerulopathy](/ckm/q08-obesity-related-glomerulopathy/)
-- [MASLD/MASH 與 CKD](/ckm/q09-masld-mash-ckd/)
-- [四柱整合策略](/ckm/q11-four-pillar-integration/)
+**[Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/)**：減重手術與 metabolic-renal 共病處置完成後，回到藥物層面最核心的策略就是 **RASi + SGLT2i + Finerenone + GLP-1 RA 四柱起始順序**——Q11 把 four-pillar 整合到 CKM 各 stage 的具體決策框架。
 
-### 跨專案
-- [GLP-1 RA Q05 — FLOW](/glp1ra/q05-renal-endpoint-evidence/)
-- [GLP-1 RA Q07 — 減重 Paradox](/glp1ra/q07-weight-loss-paradox/)
-- [SGLT2i Q16 — 圍術期](/sglt2i/q16-perioperative-timing/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**肥胖驅動 CKD** → [Q08 — Obesity-Related Glomerulopathy](/ckm/q08-obesity-related-glomerulopathy/)（診斷標準 / 生檢適應症）
+- 想看 **MASLD/MASH 共病** → [Q09 — MASLD/MASH 與 CKD](/ckm/q09-masld-mash-ckd/)（fibroscan / 跨科 monitoring）
+- 想看 **advanced CKD 藥物策略** → [Q12 — eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)
+
+---
+
+## 跨 cluster 深化
+
+- [GLP-1 RA Q05 — FLOW 腎臟終點證據](/glp1ra/q05-renal-endpoint-evidence/) — Semaglutide CKD primary outcome
+- [GLP-1 RA Q07 — 減重 Paradox](/glp1ra/q07-weight-loss-paradox/) — 體重變化在 CKD 的判讀
+- [SGLT2i Q16 — 圍術期 Timing](/sglt2i/q16-perioperative-timing/) — 減重手術前後 SGLT2i 停用時機
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地與醫中分工的轉介決策

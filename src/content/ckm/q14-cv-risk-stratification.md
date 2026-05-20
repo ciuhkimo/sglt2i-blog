@@ -488,13 +488,26 @@ FGF23 在 CKD 與 HF risk 的關聯已有資料，例如 CRIC/相關 cohort 顯�
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [CKM 定義與分期](/ckm/q01-ckm-definition-staging/)
-- [CKM Biomarkers 解讀](/ckm/q15-ckm-biomarkers/)
-- [四柱整合策略](/ckm/q11-four-pillar-integration/)
+**[Q15 — CKM Biomarkers 解讀](/ckm/q15-ckm-biomarkers/)**：CV 風險分層的 framework 落實後，最容易誤判的下一個 layer 是 **biomarker 在 CKD 的解讀陷阱**——Q15 把 NT-proBNP / Troponin / UACR / Cystatin C 在 CKD 各 eGFR 的閾值校正與假陽性 / 假陰性 pattern 落實。
 
-### 跨專案
-- [SGLT2i 決策筆記（20 題）](/sglt2i/)
-- [Finerenone 決策筆記（11 題）](/finerenone/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看**分期框架** → [Q01 — CKM Syndrome 定義與分期](/ckm/q01-ckm-definition-staging/)（Stage 0-4 完整定義）
+- 想看**篩檢與識別** → [Q02 — CKM 篩檢與識別](/ckm/q02-ckm-screening/)
+- 想看 **CKM 四柱整合** → [Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/)
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q05 — Renal vs HF Protection](/sglt2i/q05-renal-vs-hf-protection/) — SGLT2i 的 dual benefit signal
+- [Finerenone Q05 — HF + CKD 角色](/finerenone/q05-hf-ckd-role/) — FINEARTS-HF + 在 CKD 三柱中的位置
+- [SGLT2i 決策筆記（20 題）](/sglt2i/) — CKM 四柱第一柱深度
+- [Finerenone 決策筆記（11 題）](/finerenone/) — CKM 四柱第三柱深度
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科 CV 風險評估視角

@@ -323,15 +323,26 @@ KRT 準備同步進行：
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-### CKM 專案
-- [HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
-- [四柱整合策略](/ckm/q11-four-pillar-integration/)
-- [新興治療](/ckm/q13-emerging-therapies/)
+**[Q13 — CKM 新興治療](/ckm/q13-emerging-therapies/)**：advanced CKD four-pillar 邊界處理完後，下一個 thread 是「**正在進入或剛上市的新療法**」——Q13 把 tirzepatide、atrasentan、baxdrostat、finerenone 擴展適應症整合到 CKM 未來 5 年的決策視角。
 
-### 跨專案
-- [SGLT2i Q04 — eGFR 20-30 門檻](/sglt2i/q04-egfr-20-30-threshold/)
-- [SGLT2i Q15 — AKI Stop Decision](/sglt2i/q15-aki-stop-decision/)
-- [Finerenone Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/)
-- [Finerenone Q10 — 特殊族群](/finerenone/q10-special-populations/)
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **HF 藥物在 CKD 門檻** → [Q06 — HF 藥物在 CKD 的使用門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
+- 想看 **CKM 四柱整合** → [Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/)
+- 想看 **CV 風險分層** → [Q14 — CV 風險分層](/ckm/q14-cv-risk-stratification/)（PREVENT / KDIGO heat map）
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q04 — eGFR 20-30 門檻](/sglt2i/q04-egfr-20-30-threshold/) — SGLT2i 在 advanced CKD 啟用邊界
+- [SGLT2i Q15 — AKI Stop Decision](/sglt2i/q15-aki-stop-decision/) — AKI 後決策
+- [Finerenone Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/) — Finerenone 在 advanced CKD
+- [Finerenone Q10 — 特殊族群（含 NDKD / IgAN）](/finerenone/q10-special-populations/)
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — advanced CKD 共照在地視角
