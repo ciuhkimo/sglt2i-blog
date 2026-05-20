@@ -293,9 +293,25 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-- [DKD 何時加上 Finerenone](/finerenone/q01-dkd-when-to-start/)
-- [SGLT2i Q19 — 多藥策略](/sglt2i/q19-drug-combination-strategy/)
-- [GLP-1 RA Q03 — 與 SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/)
-- [GLP-1 RA Q10 — 四柱整合](/glp1ra/q10-four-pillar-integration/)
+**[Q03 — Hyperkalemia 風險管理](/finerenone/q03-hyperkalemia-management/)**：排序拍板把 finerenone 加進來後，**下一個立刻面對的是 K⁺ 監測與 hold / restart 規則**——Q03 把 FIDELITY hyperkalemia risk score、起始後 4 週 monitoring、K >5.5 hold / ≤5.0 restart 規則寫成可操作 SOP。
+
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **啟動時機** → [Q01 — DKD 何時加上 Finerenone](/finerenone/q01-dkd-when-to-start/)（指徵 + ADA 2026 simultaneous initiation）
+- 想看 **eGFR 門檻** → [Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/)（25-60 / ≥60 / <25 分層 + acute dip 處理）
+- 想看 **健保實務** → [Q11 — Taiwan NHI Coverage](/finerenone/q11-taiwan-nhi-coverage/)（DKD 給付 / PA off-label）
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q19 — 多藥策略](/sglt2i/q19-drug-combination-strategy/) — 四柱合併的整體排序與時序
+- [GLP-1 RA Q03 — 與 SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/) — 第四柱與第一柱的 sequencing 拆解
+- [CKM Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/) — RASi + SGLT2i + Finerenone + GLP-1 RA 完整整合
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科 DKD 多藥啟動與滴定視角

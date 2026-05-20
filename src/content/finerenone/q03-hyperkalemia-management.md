@@ -191,9 +191,25 @@ Finerenone 使用中
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-- [eGFR 門檻](/finerenone/q04-egfr-threshold/)
-- [監測頻率](/finerenone/q08-monitoring-frequency/)
-- [RAASi 劑量調整](/finerenone/q09-raasi-dose-adjustment/)
-- [DKD 啟動時機](/finerenone/q01-dkd-when-to-start/)
+**[Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/)**：K⁺ 與 eGFR 是 finerenone titration 雙監測指標，**監測完 K⁺ 後同一張化驗單必然檢視 eGFR**——Q04 把起始 / 持續 / 停藥三個門檻拆開，並說明「治療中 eGFR <25 不等於必須停藥」這個最常見誤讀。
+
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **啟動時機** → [Q01 — DKD 何時加上 Finerenone](/finerenone/q01-dkd-when-to-start/)（指徵 + baseline K⁺ 篩選）
+- 想看 **排序合併** → [Q02 — vs SGLT2i / GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)（SGLT2i K-protective 訊號為何不能取代監測）
+- 想看 **RAASi 劑量** → [Q09 — RAASi 劑量調整](/finerenone/q09-raasi-dose-adjustment/)（K↑ 時先減 ACEi/ARB 還是先減 finerenone）
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q01 — CKD 啟動時機](/sglt2i/q01-ckd-start-timing/) — 第一柱啟動的 baseline 安全評估
+- [GLP-1 RA Q01 — CKD + DM 何時啟動](/glp1ra/q01-ckd-dm-when-to-start/) — 第四柱啟動不影響 K，多藥背景
+- [CKM Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/) — 多藥下的 K 平衡與監測整合
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地 K 監測 logistics 與轉診門檻

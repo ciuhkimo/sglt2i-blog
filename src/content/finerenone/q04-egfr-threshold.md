@@ -133,9 +133,25 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-- [Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)
-- [監測頻率](/finerenone/q08-monitoring-frequency/)
-- [特殊族群](/finerenone/q10-special-populations/)
-- [SGLT2i Q04 — eGFR 20-30 門檻](/sglt2i/q04-egfr-20-30-threshold/)
+**[Q08 — 監測頻率](/finerenone/q08-monitoring-frequency/)**：起始與持續門檻拍板後，**接下來的問題是「多久測一次 K⁺ 與 eGFR」**——Q08 把 baseline / 4 週 / 4 個月 monitoring rhythm 寫成可貼到 EHR 的追蹤排程。
+
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **啟動時機** → [Q01 — DKD 何時加上 Finerenone](/finerenone/q01-dkd-when-to-start/)（指徵 + 起始評估全圖）
+- 想看 **K⁺ 風險** → [Q03 — Hyperkalemia 風險管理](/finerenone/q03-hyperkalemia-management/)（FIDELITY risk score / hold / restart 規則）
+- 想看 **特殊族群** → [Q10 — 特殊族群](/finerenone/q10-special-populations/)（HF / NDKD / 高齡 eGFR 邊界）
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q04 — eGFR 20-30 門檻](/sglt2i/q04-egfr-20-30-threshold/) — 兩藥 threshold 對比與 EMPA-KIDNEY 證據
+- [GLP-1 RA Q04 — Low eGFR use](/glp1ra/q04-low-egfr-use/) — 第四柱在低 eGFR 的使用 cutoff
+- [CKM Q12 — Low eGFR CKM strategy](/ckm/q12-low-egfr-ckm-strategy/) — eGFR <30 時 CKM 多藥取捨
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地 eGFR titration 與轉診時機
