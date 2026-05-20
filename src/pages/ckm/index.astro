@@ -7,7 +7,30 @@ import Header from '../../components/Header.astro';
 import { SITE_TITLE } from '../../consts';
 
 const allNotes = await getCollection('ckm');
-const sorted = allNotes.sort((a, b) => a.data.question_id.localeCompare(b.data.question_id));
+
+const categoryOrder = [
+	'定義與識別',
+	'心腎交互',
+	'代謝腎交互',
+	'整合藥物策略',
+	'風險與預後',
+];
+
+const categoryDescriptions: Record<string, string> = {
+	'定義與識別': 'CKM Syndrome 框架的入口——Stage 0-4 分期、篩檢工具與識別流程',
+	'心腎交互': 'Cardiorenal Syndrome 分型、容量評估、利尿策略、HF 藥物在 CKD 的邊界、急性 decompensation',
+	'代謝腎交互': '肥胖驅動腎臟病理、MASLD/MASH 共管、減重手術對 CKD 的影響',
+	'整合藥物策略': 'RASi + SGLT2i + Finerenone + GLP-1 RA 四柱整合、advanced CKD 策略、新興療法',
+	'風險與預後': 'CV 風險分層、biomarker 在 CKD 的解讀陷阱',
+};
+
+const grouped = categoryOrder.map((cat) => ({
+	category: cat,
+	description: categoryDescriptions[cat] || '',
+	notes: allNotes
+		.filter((n) => n.data.category === cat)
+		.sort((a, b) => a.data.question_id.localeCompare(b.data.question_id)),
+}));
 ---
 
 <!doctype html>
@@ -32,6 +55,21 @@ const sorted = allNotes.sort((a, b) => a.data.question_id.localeCompare(b.data.q
 				color: rgb(var(--gray));
 				font-size: 1.05em;
 				margin-bottom: 2em;
+			}
+			.category-section {
+				margin-bottom: 2em;
+			}
+			.category-section h2 {
+				font-size: 1.4em;
+				border-left: 4px solid #7a5ea7;
+				padding-left: 0.5em;
+				margin-bottom: 0.3em;
+			}
+			.category-description {
+				color: rgb(var(--gray));
+				font-size: 0.95em;
+				margin-bottom: 0.8em;
+				padding-left: 0.8em;
 			}
 			.note-list {
 				list-style: none;
@@ -76,28 +114,35 @@ const sorted = allNotes.sort((a, b) => a.data.question_id.localeCompare(b.data.q
 		<Header />
 		<main>
 			<h1>CKM Syndrome 臨床決策筆記</h1>
-			<p class="subtitle">CKM Syndrome（Cardiovascular-Kidney-Metabolic）的 15 個臨床決策問題。涵蓋 CKM 定義分期、心腎交互（CRS 分型、容量評估、利尿策略）、代謝腎交互（ORG、MASLD、代謝手術）、四柱整合策略與風險分層。整合 AHA 2023、KDIGO 2024 指引與台灣實務。</p>
+			<p class="subtitle">CKM Syndrome（Cardiovascular-Kidney-Metabolic）的 15 個臨床決策問題。涵蓋 CKM 定義分期、心腎交互、代謝腎交互、四柱整合策略與風險分層，整合 AHA 2023、KDIGO 2024 指引與台灣實務。</p>
 
-			{sorted.length > 0 ? (
-				<ul class="note-list">
-					{sorted.map((note) => (
-						<li>
-							<a class="note-link" href={`/ckm/${note.id}/`}>
-								<span class="note-title">
-									<span class="note-id">{note.data.question_id}</span>
-									{note.data.title}
-								</span>
-								<div class="note-meta">
-									{note.data.version} | 更新：<FormattedDate date={note.data.last_updated} /> | {note.data.status}
-								</div>
-							</a>
-						</li>
-					))}
-				</ul>
-			) : (
-				<p class="empty-msg">筆記準備中...</p>
-			)}
+			{grouped.map(({ category, description, notes }) => (
+				<section class="category-section">
+					<h2>{category}</h2>
+					{description && <p class="category-description">{description}</p>}
+					{notes.length > 0 ? (
+						<ul class="note-list">
+							{notes.map((note) => (
+								<li>
+									<a class="note-link" href={`/ckm/${note.id}/`}>
+										<span class="note-title">
+											<span class="note-id">{note.data.question_id}</span>
+											{note.data.title}
+										</span>
+										<div class="note-meta">
+											{note.data.version} | 更新：<FormattedDate date={note.data.last_updated} /> | {note.data.status}
+										</div>
+									</a>
+								</li>
+							))}
+						</ul>
+					) : (
+						<p class="empty-msg">此分類筆記準備中...</p>
+					)}
+				</section>
+			))}
 		</main>
 		<Footer />
 	</body>
 </html>
+</content>
