@@ -243,10 +243,25 @@ T2D + CKD 病人就診
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-- [Finerenone 與 SGLT2i/GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)
-- [Hyperkalemia 風險管理](/finerenone/q03-hyperkalemia-management/)
-- [台灣健保給付與自費](/finerenone/q11-taiwan-nhi-coverage/)
-- [SGLT2i Q01 — CKD 啟用時機](/sglt2i/q01-ckd-start-timing/)
-- [GLP-1 RA Q01 — CKD 合併糖尿病何時加入](/glp1ra/q01-ckd-dm-when-to-start/)
+**[Q02 — Finerenone 與 SGLT2i / GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)**：DKD 啟動 Finerenone 後，門診**下一個必須拆解的決策**是 **「在 SGLT2i / GLP-1 RA 已啟動的病人，Finerenone 該放在哪個位置」**——Q02 把 four-pillar 排序邏輯與 Mohsen 2026 combination 證據落實。
+
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **Hyperkalemia 風險管理** → [Q03 — Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)（K⁺ 監測 / 暫停 / 重啟 / patiromer 角色）
+- 想看 **eGFR 門檻** → [Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/)（25-60 啟動 / 25-75 維持 / <25 邊界）
+- 想看**健保實務** → [Q11 — Taiwan NHI Coverage](/finerenone/q11-taiwan-nhi-coverage/)（T2D-CKD 給付條件 / PA off-label 自費）
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q01 — CKD 啟用時機](/sglt2i/q01-ckd-start-timing/) — 四柱第一柱啟動
+- [GLP-1 RA Q01 — CKD 合併糖尿病何時加入](/glp1ra/q01-ckd-dm-when-to-start/) — 四柱第四柱
+- [CKM Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/) — RASi + SGLT2i + Finerenone + GLP-1 RA 整合
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科 DKD 啟動與滴定視角
