@@ -124,8 +124,25 @@ seo_title: "FIDELIO、FIGARO、FIDELITY 臨床解讀｜Finerenone 證據"
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-- [DKD 啟動時機](/finerenone/q01-dkd-when-to-start/)
-- [eGFR 門檻](/finerenone/q04-egfr-threshold/)
-- [Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)
+**[Q07 — Steroidal vs Nonsteroidal MRA](/finerenone/q07-steroidal-vs-nonsteroidal/)**：FIDELIO / FIGARO / FIDELITY / FINEARTS trial 拍板後，**下一個必答的是「既有 spironolactone（steroidal MRA）還在，為何要用 finerenone（nonsteroidal）」**——Q07 把兩類 MRA 在受體 selectivity、組織分布、K⁺ 風險、終點證據四個面向系統化對比。
+
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **DKD 啟動時機** → [Q01 — DKD 何時加上 Finerenone](/finerenone/q01-dkd-when-to-start/)（trial 證據 translate 到啟動指徵）
+- 想看 **eGFR 門檻** → [Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/)（trial inclusion criteria 與 real-world 邊界）
+- 想看 **HF 角色** → [Q05 — HF + CKD 角色](/finerenone/q05-hf-ckd-role/)（FINEARTS-HF 在 HFmrEF / HFpEF 的拍板意義）
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q01 — CKD 啟用時機](/sglt2i/q01-ckd-start-timing/) — DAPA-CKD / EMPA-KIDNEY 平行 trial 證據鏈
+- [CKM Q11 — 四柱整合](/ckm/q11-four-pillar-integration/) — Finerenone 在 4 柱證據結構中的位置
+- [CKM Q13 — Emerging Therapies](/ckm/q13-emerging-therapies/) — 下一代 MRA / nsMRA / 新型機轉 candidates
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科 trial-to-practice translation 視角

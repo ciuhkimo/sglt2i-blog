@@ -159,8 +159,25 @@ seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
 
 ---
 
-## 延伸閱讀
+## 🔜 下一題
 
-- [Steroidal vs Nonsteroidal MRA](/finerenone/q07-steroidal-vs-nonsteroidal/)
-- [排序與合併](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)
-- [SGLT2i Q05 — 腎保護 vs 心保護](/sglt2i/q05-renal-vs-hf-protection/)
+**[Q06 — Landmark Trial Evidence](/finerenone/q06-landmark-trial-evidence/)**：HF + CKD 雙適應症與 KDIGO 2026 共識拍板後，**下一個必答的是「FIDELIO / FIGARO / FIDELITY / FINEARTS 究竟告訴我們什麼」**——Q06 把支撐 finerenone 雙適應症的關鍵 trial 證據鏈系統化整理。
+
+---
+
+## 相關問答
+
+依臨床情境分流：
+
+- 想看 **MRA 類別差異** → [Q07 — Steroidal vs Nonsteroidal MRA](/finerenone/q07-steroidal-vs-nonsteroidal/)（為何選 nsMRA、不疊用 sMRA）
+- 想看 **與 SGLT2i / GLP-1 RA 排序** → [Q02 — vs SGLT2i / GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)（HF + CKD 共存時的 four-pillar 順序）
+- 想看 **特殊族群** → [Q10 — 特殊族群](/finerenone/q10-special-populations/)（NDKD / IgAN / HFpEF 延伸）
+
+---
+
+## 跨 cluster 深化
+
+- [SGLT2i Q05 — 腎保護 vs 心保護](/sglt2i/q05-renal-vs-hf-protection/) — 第一柱在 HF 與 renal 兩個面向的權衡
+- [CKM Q06 — HF + CKD 用藥門檻](/ckm/q06-hf-drugs-ckd-thresholds/) — KDIGO 2026 跨類別 HF + CKD 用藥整合共識
+- [CKM Q11 — 四柱整合](/ckm/q11-four-pillar-integration/) — RASi + SGLT2i + Finerenone + GLP-1 RA 整合策略
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科 HF + CKD 共照視角
