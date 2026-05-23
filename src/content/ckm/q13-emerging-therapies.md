@@ -582,3 +582,4 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 - [Finerenone Q02 — 與 SGLT2i / GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/) — 啟動次序
 - [2026 DKD 四柱療法完整指南](/blog/dkd-four-pillars-2026/) — CKM 框架下 DKD 的 four-pillar 實作版
 - [PA Q5 — Surgery vs MRA 治療策略](/pa/q05-surgery-vs-mra-treatment/) — PA 治療在 CKM 的位置
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科視角的新藥可近性

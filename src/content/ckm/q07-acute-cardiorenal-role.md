@@ -446,3 +446,4 @@ KDIGO 2012 支持在以下情境 **emergent** 啟動 KRT：[3]
 - [SGLT2i Q14 — Acute Illness Hold](/sglt2i/q14-acute-illness-hold/) — sick-day 暫停紀律
 - [SGLT2i Q15 — AKI Stop Decision](/sglt2i/q15-aki-stop-decision/) — AKI 後續決策
 - [HD 透析後腹痛冒冷汗：別漏掉 NOMI](/blog/hd-post-hd-abdominal-pain-nomi/) — 過度脫水的隱形殺手
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地急性場景的腎臟科判斷

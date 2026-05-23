@@ -278,3 +278,4 @@ CKD 合併 HF 的病人，什麼時候「太乾」vs「太濕」？如何用多�
 - [SGLT2i Q12 — Hypotension Attribution](/sglt2i/q12-hypotension-attribution/) — 低血壓歸因（容量 vs 血壓 vs 藥物）
 - [Finerenone Q05 — HF + CKD 角色](/finerenone/q05-hf-ckd-role/)
 - [HD 透析後腹痛冒冷汗：別漏掉 NOMI](/blog/hd-post-hd-abdominal-pain-nomi/) — 過度脫水的隱形殺手
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科的容量評估實務

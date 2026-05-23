@@ -547,3 +547,4 @@ DIALIZE-Outcomes 沒有證明 SZC 在 maintenance hemodialysis 能改善 arrhyth
 - [Finerenone Q05 — HF + CKD 角色](/finerenone/q05-hf-ckd-role/) — FINEARTS-HF + 三柱中的位置
 - [Finerenone Q03 — Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/) — MRA 啟動/維持紀律
 - [PA Q6 — PA + CKD 三段式治療](/pa/q06-ckd-pa-treatment/) — MRA 在 CKD 各 eGFR 的滴定
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科視角的 HF 藥物滴定

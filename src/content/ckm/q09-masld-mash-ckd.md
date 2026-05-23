@@ -444,3 +444,4 @@ Stable CKD patient
 - [GLP-1 RA Q07 — 體重下降 Paradox](/glp1ra/q07-weight-loss-paradox/) — metabolic 共病的體重判讀
 - [SGLT2i Q02 — Non-DM CKD](/sglt2i/q02-nondm-ckd/) — 非糖尿病 CKD（MASLD overlap）
 - [Finerenone Q10 — 特殊族群](/finerenone/q10-special-populations/) — IgAN / 非糖 CKD 的 MRA 角色
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地 MASLD/MASH 共病處置視角

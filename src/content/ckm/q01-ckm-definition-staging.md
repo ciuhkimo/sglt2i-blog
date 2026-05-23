@@ -231,6 +231,7 @@ AHA 的 **PREVENT** 是 primary prevention 風險工具，不是 CKM 分期本�
 - [SGLT2i 決策筆記（20 題）](/sglt2i/) — CKM 四柱第一柱深度
 - [Finerenone Q01 — DKD 啟動時機](/finerenone/q01-dkd-when-to-start/) — CKM 四柱第三柱
 - [GLP-1 RA Q01 — CKD 合併糖尿病何時加入](/glp1ra/q01-ckd-dm-when-to-start/) — CKM 四柱第四柱
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科視角的 CKM 分期應用
 
 ---
 

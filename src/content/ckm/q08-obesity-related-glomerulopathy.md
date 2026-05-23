@@ -569,3 +569,4 @@ Nasr 2024 的 secondary oxalate nephropathy cohort 顯示：
 - [GLP-1 RA Q07 — 體重下降 Paradox](/glp1ra/q07-weight-loss-paradox/) — 肥胖 CKD 的體重變化
 - [SGLT2i Q02 — Non-DM CKD](/sglt2i/q02-nondm-ckd/) — 非糖尿病 CKD 的 SGLT2i
 - [Finerenone Q10 — 特殊族群（含 NDKD/IgAN）](/finerenone/q10-special-populations/) — 非糖 CKD 的 MRA 角色
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地肥胖 CKD 的轉介決策

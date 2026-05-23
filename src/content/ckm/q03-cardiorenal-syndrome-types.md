@@ -268,3 +268,4 @@ CRS Type [1-5], [dominant phenotype], [current priority], [escalation status]
 - [SGLT2i Q10 — Cr Dip vs AKI](/sglt2i/q10-creatinine-dip-vs-aki/) — 啟動後 eGFR 下降判讀
 - [Finerenone Q05 — HF + CKD 角色](/finerenone/q05-hf-ckd-role/) — FINEARTS-HF 證據
 - [PA Q6 — PA + CKD 三段式治療](/pa/q06-ckd-pa-treatment/) — MRA 在 cardiorenal 共病的滴定
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科視角的 cardiorenal 分型判讀

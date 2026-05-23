@@ -559,3 +559,4 @@ Albuminuric T2D + CKD
 - [Finerenone Q02 — 與 SGLT2i / GLP-1 RA 排序](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/) — 啟動次序
 - [GLP-1 RA Q10 — 四柱整合](/glp1ra/q10-four-pillar-integration/) — GLP-1 RA 在 four-pillar 的位置
 - [PA Q6 — PA + CKD 三段式治療](/pa/q06-ckd-pa-treatment/) — MRA 在 four-pillar + PA 的整合
+- [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科視角的四柱滴定實務
