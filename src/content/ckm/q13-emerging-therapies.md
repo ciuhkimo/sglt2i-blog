@@ -23,20 +23,24 @@ quick_answer: ""
 seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finerenone 擴展）—查核修訂版 | CKM Syndrome 腎臟科臨床決策"
 ---
 
-**臨床問題**
+## 臨床問題
 
 2022–2026 間重塑 cardiorenal-metabolic（CKM）版圖的新治療中，哪些已具正式核准與可用證據？哪些仍屬 surrogate-based、post hoc、pipeline 或 topline 訊息？腎臟科何時會遇到這些藥、該怎麼和既有標準治療整合、台灣可近性怎麼分級看待？
-**本版查核原則**
+
+## 本版查核原則
 
 僅保留能由 **official label / regulatory approval、PubMed 論文、ClinicalTrials.gov、官方公司公告** 直接支持的內容。
+
 未能以官方來源直接驗證的 **台灣上市、健保給付、或替代藥可近性**，一律改列 **Verification-needed**，不寫成定論。
-**這次查核後，原稿中有 5 個高價值修正**
+
+## 這次查核後，原稿中有 5 個高價值修正
 
 1. **Tirzepatide 目前不能寫成「已具 HFpEF 或 CKD 官方適應症」**；可寫成「HFpEF trial positive、cardiorenal signals strong」。
 2. **Atrasentan（Vanrafia）目前是 FDA accelerated approval for proteinuria reduction in primary IgAN**，不是已完成 hard renal outcome 驗證。
 3. **Vanrafia 的正式禁忌不是『HF』**；目前 label 可直接確認的是 pregnancy 與 hypersensitivity，fluid retention / hepatotoxicity 為重要警語。
 4. **Baxdrostat 仍屬 resistant / uncontrolled HTN 的後期研發與審查階段**，不能寫成已可常規處方。
 5. **Finerenone 在非糖尿病 CKD 的擴展，目前仍是 FIND-CKD positive topline + planned filing**，不能寫成已完成 label expansion。
+
 ---
 
 ## Executive Takeaways
