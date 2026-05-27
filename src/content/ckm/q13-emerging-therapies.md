@@ -1,11 +1,11 @@
 ---
 question_id: "Q13"
-title: "CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finerenone 擴展）—查核修訂版"
+title: "CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finerenone 擴展）"
 category: "整合藥物策略"
-version: "v1.2"
+version: "v1.3"
 status: ""
-last_updated: 2026-05-12
-next_review: 2027-04-22
+last_updated: 2026-05-27
+next_review: 2026-08-27
 tags:
   - CKM-syndrome
   - cardiorenal-metabolic
@@ -17,10 +17,9 @@ tags:
   - finerenone
   - IgAN
   - pipeline
-  - fact-check
 description: "2022-2026 重塑 CKM 版圖的新治療（tirzepatide、atrasentan、baxdrostat、finerenone 擴展適應症）：核准狀態、證據分層、腎臟科使用情境與台灣可近性。"
 quick_answer: ""
-seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finerenone 擴展）—查核修訂版 | CKM Syndrome 腎臟科臨床決策"
+seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finerenone 擴展） | CKM Syndrome 腎臟科臨床決策"
 ---
 
 ## 臨床問題
@@ -134,6 +133,25 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
   - all-cause mortality：**HR 0.84 (0.75–0.94)**
   - composite renal endpoint：**HR 0.79 (0.68–0.91)**
 - 這些 post hoc 結果有臨床吸引力，但仍應寫成：**secondary / post hoc cardiorenal evidence**, 不能等同於一個 dedicated kidney outcome registration trial。腎臟科決策時，把 tirzepatide 視為「metabolic + CV outcome 等級的藥物，附帶 secondary cardiorenal signal」較準確。
+
+#### D. SURPASS-CVOT 2026-05 Lancet Diabetes Endocrinol — pre-specified kidney analysis
+
+- 與 C 段的 JAMA Cardiology post hoc 是**同一試驗的不同 paper**：本篇為 **pre-specified exploratory kidney analysis**（Zoungas S et al., *Lancet Diabetes Endocrinol* 2026 May 11 Epub, PMID 42114520, DOI 10.1016/S2213-8587(26)00032-X）。
+- N=13,165，median follow-up 4.0 年。
+- **主要腎臟複合終點**（persistent macroalbuminuria / 持續 eGFR ↓ ≥50% / ESKD / 腎病死亡）：
+  - 整體 **HR 0.77 (0.68–0.88), P=0.0002** → 23% 相對風險降低
+  - low-to-moderate-risk CKD：**HR 0.70 (0.58–0.84)**，driver 為 new-onset persistent macroalbuminuria
+  - high-risk CKD（eGFR <45 或 UACR >300）：**HR 0.79 (0.64–0.96)**，driver 為 eGFR slope 保留 **~0.93 mL/min/1.73 m²/年**
+- **關鍵詮釋**：
+  - 同藥物在 CKD 不同階段透過**不同機制**起作用——早期擋 albuminuria 進展、晚期保 eGFR slope
+  - **Active-comparator design**：量化的是「dual incretin 對 GLP-1 RA 的 incremental kidney benefit」，**非絕對 renoprotection**
+  - 與 [GLP-1 RA Q05 — FLOW 腎臟終點](/glp1ra/q05-renal-endpoint-evidence/)（semaglutide vs placebo, HR 0.76）形成 incretin-vs-incretin head-to-head 軸線
+- **必要 caveat**：
+  - exploratory endpoint（trial primary 為 CV composite，powered for CV not kidney）
+  - composite 為 albuminuria-weighted（低風險 stratum 信號主要來自新發 macroalbuminuria，**不等同 ESKD prevention**）
+  - 族群限於 T2D + established ASCVD，**不能外推 non-DM CKD 或 primary prevention CKD**
+  - tirzepatide GI side effect（nausea / vomiting / diarrhea）顯著高於 dulaglutide
+  - 另 [Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/) 引用之 IJMS NMA（PMID 42123715）顯示 high-dose tirzepatide 10–15 mg/週有獨立 AKI signal（ARD 0.28%, NNH ~357）——**chronic benefit 與 acute monitoring 訊號需並列**
 
 ### 3. 實務定位
 
@@ -547,6 +565,8 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
    https://pubmed.ncbi.nlm.nih.gov/40888730/
 19. Heerspink HJL, et al. **Design and baseline characteristics of FIND-CKD.** PMID: **38858818**.
    https://pubmed.ncbi.nlm.nih.gov/38858818/
+25. Zoungas S, D'Alessio D, Pavo I, et al. **A comparison of the effects of tirzepatide and dulaglutide on major kidney events in people with type 2 diabetes: pre-specified exploratory analyses of the SURPASS-CVOT trial.** Lancet Diabetes Endocrinol. 2026 May 11 (Epub ahead of print). PMID: **42114520**. DOI: **10.1016/S2213-8587(26)00032-X**.
+   https://pubmed.ncbi.nlm.nih.gov/42114520/
 
 ### ClinicalTrials.gov
 20. **SUMMIT** — NCT04847557.
