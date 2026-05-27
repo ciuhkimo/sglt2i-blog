@@ -2,10 +2,10 @@
 question_id: "Q04"
 title: "Finerenone eGFR 門檻 — 起始 vs 持續使用"
 category: "起始與劑量"
-version: "v1.1"
+version: "v1.2"
 status: ""
-last_updated: 2026-04-19
-next_review: 2027-04-19
+last_updated: 2026-05-27
+next_review: 2026-08-27
 tags: [finerenone, nonsteroidal-MRA, eGFR, CKD-staging, decision-note, dosing]
 description: "Finerenone 的 eGFR 起始門檻、持續使用門檻與停藥門檻，以及 CKD/T2D 與 HF 兩種適應症的劑量差異。依 TFDA/FDA/EMA、PubMed、ClinicalTrials.gov 查核修訂。"
 quick_answer: "eGFR ≥60 起始 20 mg QD、eGFR 25-<60 起始 10 mg QD、eGFR <25 不建議起始。治療中跌破 25 不等於必須停藥（CKD/T2D：eGFR ≥15 可續用；<15/ESKD 停藥）。eGFR 下降 >30% 時不要上調劑量，先排除可逆因素。"
@@ -79,6 +79,29 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
 - 開始治療 **1 個月** 時：**25.1%** 出現 **>10% eGFR decline**
 - 關鍵不是「有沒有 early dip」，而是 **benefit 是否消失**；該分析顯示 finerenone 的心腎獲益不會因 acute eGFR change 而消失。
 
+### eGFR 20-25 + non-DM real-world 觀察訊號（Aledan 2026, Very Low certainty）— v1.2 新增
+
+⭐ **Aledan & Abbood 2026 *Front Nephrol*（PMID 42179848）**——單中心前瞻 cohort（伊拉克 Basra, N=180, 2023/01–2024/06, 1 年追蹤），刻意納入 **eGFR 20–60 ml/min** 的 CKD stage 3–4 病人，**包含 22% 非糖尿病**。
+
+| Subgroup | eGFR/UACR 變化（1 年） | 性質 |
+|---|---|---|
+| 全族群 (N=180) | eGFR / UACR **顯著改善** (P<0.001) | — |
+| **eGFR 20–25 (n=65, 36%)** | 同樣顯著改善 (P<0.001) | **低於 FIDELIO ≥25 起始門檻仍見效益** |
+| **非糖尿病 (22%)** | 同樣顯著改善 (P<0.001) | NDKD real-world 訊號 |
+| 血清 K⁺ | **未升高（did not elevate）** | 安全性正向（單臂無 placebo 對比）|
+
+**LOE / 限制**：Oxford Level 3–4；GRADE **Very Low**；單中心、**無對照組、before-after cohort 設計**；abstract 未提供劑量 / RASi / SGLT2i 背景比例；regression-to-the-mean 與 background therapy 變動干擾無法排除；伊拉克單一族群外推性受限。
+
+**對 Q04 的實務含意**：
+
+| 該寫的 | 不該寫的 |
+|---|---|
+| ✅ eGFR 20–25 區間（EMA SmPC 允許但 FIDELIO 未納入）有 **real-world 觀察訊號** | ❌ 把無對照 cohort 的 eGFR「改善」與 RCT 級 eGFR slope 證據等同 |
+| ✅ 非糖尿病 subgroup 與 FIND-CKD topline 方向一致，但 Aledan 證據等級**遠低** | ❌ 因 Aledan 就放寬 eGFR ≥25 起始門檻為常規 |
+| ✅ 補強 Q04「eGFR 20–25 灰色地帶」的決策對話素材 | ❌ 把 K⁺「未升高」推為「無 hyperkalemia 風險」（單臂 cohort 無 placebo 對比） |
+
+→ Aledan 是「**灰色地帶 real-world 觀察證據**」，不是 guideline-changing；目前 Q04 起始門檻（eGFR ≥25）與停藥門檻（CKD/T2D eGFR <15 / ESKD）**維持不變**。
+
 ---
 
 ## Clinical Decision
@@ -130,6 +153,7 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
   6. Solomon SD, et al. N Engl J Med. 2024. PMID: 39225278.
   7. Chimura M, et al. JACC Heart Fail. 2026. PMID: 41642173.
   8. Bayer FIND-CKD topline press release. 2026-03-16.
+  9. **Aledan H, Abbood AS. 2026.** Efficacy and safety of finerenone in chronic kidney disease stages 3-4 in diabetic and non-diabetic patients with an eGFR 20-60 mL/min: a prospective cohort study. *Front Nephrol.* 6:1716452. **PMID: 42179848**. DOI: 10.3389/fneph.2026.1716452. *(v1.2 新增 — 單中心 cohort N=180, eGFR 20-25 subgroup n=65 + non-DM 22% 同見改善, Very Low certainty)*
 
 ---
 

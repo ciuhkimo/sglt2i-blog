@@ -2,10 +2,10 @@
 question_id: "Q09"
 title: "MASLD/MASH 與 CKD 的腎臟科共管"
 category: "代謝腎交互"
-version: "v1.1"
-status: "查核修訂版"
-last_updated: 2026-04-22
-next_review: 2027-04-22
+version: "v1.2"
+status: "已定稿"
+last_updated: 2026-05-27
+next_review: 2026-08-27
 tags:
   - CKM-syndrome
   - cardiorenal-metabolic
@@ -176,6 +176,35 @@ seo_title: "Q09 MASLD/MASH 與 CKD 的腎臟科共管 | CKM Syndrome 腎臟科�
 **CKD + metabolic / liver signal → 進 MASLD fibrosis case-finding**
 而不是：
 **所有 CKD 一律 routine 篩 MASLD**
+
+---
+
+## Framework Watch：CKLMS 提案（v1.2 新增）
+
+⭐ **Kreutz R et al. 2026 *Eur J Intern Med*（PMID 42049588）**——多領域（hypertension / hepatology / diabetology / primary care / **nephrology** — Sarafidis 為共同作者）獨立 consensus statement，**提議將 CKM 框架擴展為 CKLMS（Cardiovascular-Kidney-Liver-Metabolic Syndrome）**，把肝臟（MASLD）納為與 CV / Kidney / Metabolic 平行的第四軸。
+
+### 核心主張
+
+- CKM 框架**結構性低估了肝臟軸**（MASLD 為全球最盛行慢性肝病，與 CV events / CKD progression / all-cause mortality 獨立相關）
+- 提議 primary-care 為 longitudinal multi-organ co-management 的協調樞紐
+- Assessment toolkit：BP + lipid + **kidney function + albuminuria** + **non-invasive liver fibrosis testing** + DM/obesity screening — 將 fibrosis test **與 eGFR/UACR 並列為 routine 工具**
+- Management 偏好「**multi-organ benefit pharmacotherapies**」 + 明確 specialist referral pathways
+
+### LOE 與性質
+
+- **Oxford CEBM**：Level 5（expert consensus, no new primary data）
+- **GRADE certainty**：N/A（empirical claims 仰賴既有 meta-analyses；CKLMS construct **本身是 proposal 不是 validated entity**）
+- **Bias risk**：**非主辦學會 consensus**（非 AHA / KDIGO / EASL / ESC 發布）— 不具 guideline-level authority
+
+### 對 Q09 / Q01 框架的意義
+
+| 該寫的 | 不該寫的 |
+|---|---|
+| ✅ CKLMS 是「**MASLD 應系統性納入 CKM 篩檢**」的多領域支持訊號 — 含 nephrology / hepatology 共同作者 | ❌ 把 CKLMS 寫成 adopted nomenclature 或 validated staging system — **AHA CKM 仍為本專案 operative framework** |
+| ✅ Co-management blueprint（fibrosis test 與 eGFR/UACR 並列、defined referral pathways）對 Q09「共管策略」操作層面有 immediate utility | ❌ 把 CKLMS 視為 Q01 staging 替代 — 它無 staging criteria / 無 outcome validation |
+| ✅ 作為 **framework watch item**：若未來 AHA / KDIGO / EASL 等主辦學會採納 liver-inclusive CKM revision，將是 major guideline update | ❌ 因 CKLMS 就放寬 / 改變 currently established Q09 篩檢與共管 SOP |
+
+→ Cite as **notable framework proposal / co-management blueprint**, not as standard.
 
 ---
 
@@ -409,6 +438,7 @@ Stable CKD patient
 - Sanyal et al. 2025: **ESSENCE**
 - Perakakis et al. 2024: FIDELITY post-hoc by FIB-4 subgroup
 - Suksai et al. 2025: dynamic post-dialysis changes in liver stiffness
+- **Kreutz R, Canbay A, Haluzik M, Januszewicz A, Mendive JM, Sarafidis P, Schattenberg JM. 2026.** Assessment and management of cardiovascular-kidney-liver metabolic-syndrome in the primary care setting: A multidisciplinary consensus statement. *Eur J Intern Med.* 2026 Apr 27 (Epub);106902. **PMID: 42049588**. DOI: 10.1016/j.ejim.2026.106902. *(v1.2 新增 — CKLMS framework 提案, 非主辦學會 consensus)*
 
 ### ClinicalTrials.gov（試驗身分查核）
 - **NCT03900429** — MAESTRO-NASH
