@@ -2,10 +2,10 @@
 question_id: Q10
 title: "GLP-1 RA + SGLT2i + finerenone + ACEi/ARB：四柱療法如何排序與整合？"
 category: "整合策略 (Integration)"
-version: "v1.1"
+version: "v1.2"
 status: 已定稿
-last_updated: 2026-04-10
-next_review: 2026-10-10
+last_updated: 2026-05-27
+next_review: 2026-08-27
 tags:
   - GLP-1RA
   - decision-note
@@ -61,6 +61,42 @@ T2DM + CKD 病人已使用 metformin + ACEi/ARB + SGLT2i，仍有殘餘蛋白尿
 **ADA 2026** 採更彈性的 phenotype-based 排序，明確文字為 "simultaneous initiation of an SGLT2 inhibitor and finerenone can be considered"（需已用 RASi、符合 eGFR/UACR/K 門檻），並將 GLP-1 RA 的適應症擴大至 T2D+CKD（不限於 ASCVD）。體重管理被提升為改變 T2DM 自然病程的核心手段。
 
 **ESC 2023** 是唯一將 "GLP-1 RA **and** an SGLT2 inhibitor" 併用明列為 Class I 的指引，**但此條文僅限 ASCVD + T2DM 族群**，不可直接外推至所有 CKD 病人。Finerenone 依 eGFR/UACR 分層加入。ESC 的積極立場適用範圍相對窄，臨床上不應以此為所有 CKD 病人併用的依據。
+
+### Four-Pillar Implementation Gap：De Nicola 2026 KIR — v1.2 新增
+
+⭐ **De Nicola L et al. 2026 *Kidney Int Rep*（PMID 42179812）**——義大利腎臟科學會 30 中心前瞻 cohort（N=4,523 ND-CKD, 2024-05 至 2025-05），**直接量化四柱 reach 病人的 gap**。
+
+#### 6-month Therapeutic Inertia by Pillar
+
+| Pillar | Failure-to-Intensify | 註 |
+|---|---|---|
+| RASi | **85%** | 最舊 pillar |
+| SGLT2i | **90%** | — |
+| **GLP-1 RA**（DM 次族群）| **92%** | — |
+| Finerenone（DM 次族群）| **96%** | 最新 pillar |
+
+**Inertia gradient ∝ pillar novelty**：新 pillar → 更高 inertia。
+
+#### 對 Q10「四柱整合」框架的重構意義
+
+> **"Ordering matters only after inertia is broken — and inertia, not sequencing logic, is currently the dominant barrier."**
+
+| 該寫的 | 不該寫的 |
+|---|---|
+| ✅ Four-pillar integration 問題**首先是 initiation 問題**，不是 sequencing 問題 — Q10 框架前置 inertia check | ❌ 把絕對數值外推到台灣（義大利 tertiary care 數據；台灣本地 cohort 無對應量化）|
+| ✅ GLP-1 RA inertia 92%（DM 次族群）— 第二高 inertia，提示 GLP-1 RA 在 four-pillar 啟動上也有 active-prompting 必要（不只 finerenone） | ❌ 把 "failure-to-intensify" 等同於 "clinically inappropriate"（GI 副作用、注射 reluctance、cost、臨床判斷皆會干擾）|
+| ✅ 在 best-case nephrology care 下 inertia 仍 85–96%，real-world 落地至少同等嚴峻 — **conservative floor estimate** | ❌ 把 De Nicola 寫成 RCT 級證據（observational, descriptive）|
+| ✅ Cross-ref [CKM Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/) 與 [Finerenone Q01 — DKD 何時加 Finerenone](/finerenone/q01-dkd-when-to-start/)：同 PMID 跨專案 framing | ❌ 把絕對 inertia % 視為治療品質指標的硬性閾值 |
+
+#### LOE 評估
+
+- **Oxford CEBM**：Level 2–3（multicenter prospective observational cohort, N=4,523）
+- **GRADE certainty**：Moderate for descriptive claim（prevalence of inertia）
+- **Bias risk**：Low–Some concerns（單一國家 tertiary 採樣；inertia 定義不能完全排除 clinically appropriate non-intensification）
+
+#### 對台灣實務的延伸（推論）
+
+De Nicola 是義大利數據，**台灣本地 four-pillar inertia 無對應 cohort 量化**，但 inertia gradient（新 pillar → 高 inertia）+ 台灣 GLP-1 RA 不得與 SGLT2i 健保併用 + finerenone 健保未明朗 → **台灣 GLP-1 RA + finerenone 的 inertia 應 ≥ 義大利水準**（保守推論）。
 
 ---
 
@@ -160,7 +196,7 @@ Hyperkalemia 是四柱整合中最重要的安全交互作用，來自 ACEi/ARB 
   - 中：KDIGO 2026 draft / ADA 2026 / ESC 2023 的指引立場；phenotype-based 排序框架；finerenone hyperK 監測 protocol
   - 低：CONFIDENCE 的 surrogate 證據（UACR -52%）、FIDELITY 次分析 hyperK 方向性支持、SOUL sequencing hints
   - 極低：四柱組合的 +5.5 年 modeling estimate、完整四柱的硬終點 incremental benefit、finerenone without RASi 的效果
-- **Evidence Sources**：FLOW（NEJM 2024、NCT03819153）、FIDELITY（finerenone 整合分析）、CONFIDENCE（finerenone + empagliflozin, n=807, 180d）、CREDENCE / DAPA-CKD / EMPA-KIDNEY、SMART-C、SOUL、Neuen Circulation 2023（modeling）、PRECIDENTD（NCT05390892, ongoing）、KDIGO 2026 public review draft、ADA 2026 Standards of Care、ESC 2023 Guidelines
+- **Evidence Sources**：FLOW（NEJM 2024、NCT03819153）、FIDELITY（finerenone 整合分析）、CONFIDENCE（finerenone + empagliflozin, n=807, 180d）、CREDENCE / DAPA-CKD / EMPA-KIDNEY、SMART-C、SOUL、Neuen Circulation 2023（modeling）、PRECIDENTD（NCT05390892, ongoing）、KDIGO 2026 public review draft、ADA 2026 Standards of Care、ESC 2023 Guidelines、**De Nicola 2026 KIR（PMID 42179812, N=4,523 義大利 ND-CKD 多中心前瞻 cohort — four-pillar therapeutic inertia 量化, v1.2 新增）**
 - **Guideline Concordance**：KDIGO 2026 public review draft；ADA 2026；ESC 2023（適用範圍 ASCVD + T2DM）
 - **Next Review Date**：2026-10-10
 - **Clinical Relevance**：T2DM + CKD 病人四柱療法（ACEi/ARB + SGLT2i + finerenone + GLP-1 RA）的排序、組合、台灣健保現況與安全監測框架；系列完結題，整合前九題的個別支柱證據

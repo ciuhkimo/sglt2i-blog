@@ -2,10 +2,10 @@
 question_id: "Q01"
 title: "DKD 何時加上 Finerenone — 啟動時機與治療定位"
 category: "起始治療"
-version: "v1.1"
+version: "v1.2"
 status: ""
-last_updated: 2026-04-19
-next_review: 2027-04-19
+last_updated: 2026-05-27
+next_review: 2026-08-27
 tags: [finerenone, nonsteroidal-MRA, decision-note, DKD, albuminuria, cardiorenal]
 description: "Finerenone 在 T2D + albuminuric CKD 的啟動時機、治療定位（additive vs foundational）、劑量選擇與排序策略，依 KDIGO 2024、ADA 2026、FDA/EMA 仿單及 FIDELIO/FIGARO/FIDELITY 查核修訂。"
 quick_answer: "Finerenone 定位為「有條件的 foundational add-on」：對 T2D + persistent albuminuria（UACR ≥30 mg/g）+ eGFR ≥25 + serum K ≤5.0 + 已建立 RAS blockade 的患者，應主動納入 cardiorenal disease-modifying strategy，而非僅作為最後一步 rescue therapy。不能替代 ACEi/ARB 或 SGLT2i。"
@@ -60,6 +60,41 @@ seo_title: "DKD 何時加 Finerenone？啟動時機、定位與劑量指引"
 - **Baseline SGLT2i subgroup（FIDELITY）**：在有無 baseline SGLT2i 的族群中，finerenone 的心腎效益方向一致，interaction tests **not significant**；雖然 baseline SGLT2i 族群的 HR 數值看起來更漂亮（CV HR 0.67；kidney HR 0.42），但該數字應解讀為 **consistent effect**，而不是「已證明 synergy 更強」。
 - **ASCVD subgroup**：相對效果在有無 ASCVD 間大致一致；若說 ASCVD 族群的絕對效益可能更大，這是因為 baseline risk 較高的 **risk-based inference**，不是直接的 superiority claim。
 - **Hyperkalemia（CONFIDENCE secondary analysis）**：組合療法在 180 天內 **未顯著降低 hyperkalemia risk**；因此不應把 empagliflozin + finerenone 當作「為了降鉀而合併」。
+
+---
+
+## Implementation Reality：Finerenone 啟動率（De Nicola 2026 KIR）— v1.2 新增
+
+⭐ **De Nicola L et al. 2026 *Kidney Int Rep*（PMID 42179812）**——義大利腎臟科學會 30 中心前瞻 cohort（N=4,523 ND-CKD, 2024-05 至 2025-05），量化 4 柱 6 個月 therapeutic inertia。
+
+### 對 Q01「何時加上 finerenone」的關鍵衝擊
+
+| Pillar | 6-month Inertia (failure-to-intensify) |
+|---|---|
+| RASi | 85% |
+| SGLT2i | 90% |
+| GLP-1 RA（DM subgroup）| 92% |
+| **Finerenone（DM subgroup）**| **96%** ← 4 柱中最高 |
+
+**Inertia gradient ∝ pillar novelty**：finerenone 作為最新 pillar，inertia 最嚴峻。即使在 stable specialist nephrology care（best-case implementation scenario）下，DM-CKD 病人 finerenone 6 個月啟動率僅 ~4%。
+
+### 對 Q01 教學重點的補強
+
+> **"When to start" 的對話只在 "actually starting" 為前提下才有意義。**
+
+| 該寫的 | 不該寫的 |
+|---|---|
+| ✅ Q01 啟動時機決策框架前**必先檢查 initiation gap** — DM-CKD + UACR ≥30 + eGFR ≥25 + K⁺ ≤5.0 + on RASi 的病人是否真有被討論到 finerenone | ❌ 把絕對數值外推到台灣（義大利 tertiary care 數據；台灣本地 cohort 無對應量化）|
+| ✅ 提醒「啟動 finerenone」這件事本身就是 active intervention — checklist / EHR alert / pharmacist prompt 比「再優化啟動條件」更實質 | ❌ 把 "failure-to-intensify" 等同於 "clinically inappropriate"（contraindications 與 intolerance 仍佔一部分）|
+| ✅ 對 Q01 的 sequencing 結論補強：finerenone 在「該加 → 真的加」的轉換率是當前最大 bottleneck | ❌ 因 De Nicola 改變既有啟動 criteria（UACR ≥30 + eGFR ≥25 + K⁺ ≤5.0 + on RASi 仍維持）|
+
+### LOE 評估
+
+- **Oxford CEBM**：Level 2–3（multicenter prospective observational cohort, N=4,523）
+- **GRADE certainty**：Moderate for descriptive claim (prevalence)
+- **Bias risk**：Low–Some concerns（義大利 tertiary 採樣；inertia 定義不能完全排除 clinically appropriate non-intensification）
+
+→ De Nicola **不改變 Q01 啟動門檻**，但**重置 Q01 教學優先序**：clinical inertia 比 criteria 微調更該被討論。Cross-ref [CKM Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/) 與 [GLP-1 RA Q10 — 四柱整合](/glp1ra/q10-four-pillar-integration/) 同 PMID 跨專案 framing。
 
 ---
 
@@ -240,6 +275,7 @@ T2D + CKD 病人就診
   12. Agarwal R, et al. PMID: 41493296.
   13. Bayer. FIND-CKD topline press release. 2026-03-16.
   14. Heerspink HJL, et al. N Engl J Med. 2026. PMID: 41780000.
+  15. **De Nicola L, Ruotolo C, La Manna G, et al.** Missing Opportunity for Nephroprotective Therapy in Patients With Non-Dialysis CKD Under Stable Nephrology Care. *Kidney Int Rep.* 2026;11(6):106541. **PMID: 42179812**. DOI: 10.1016/j.ekir.2026.106541. *(v1.2 新增 — N=4,523 義大利多中心 ND-CKD; finerenone 6-month inertia 96%（4 柱最高）)*
 
 ---
 
