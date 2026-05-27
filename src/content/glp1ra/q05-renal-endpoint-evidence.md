@@ -2,14 +2,16 @@
 question_id: Q05
 title: "GLP-1 RA 的腎臟終點證據有多強？"
 category: "啟用決策 (Initiation)"
-version: "v1.1"
+version: "v1.2"
 status: 已定稿
-last_updated: 2026-04-09
-next_review: 2026-10-09
+last_updated: 2026-05-27
+next_review: 2026-11-27
 tags:
   - GLP-1RA
   - decision-note
   - initiation
+  - renal-endpoint
+  - FLOW
 description: "GLP-1 RA 腎臟終點證據的系統性評估。FLOW 確立 semaglutide SC 在 T2DM+CKD 的 dedicated kidney outcome evidence，但全類別硬腎臟終點 class effect 尚未如 SGLT2i 穩固。涵蓋 FLOW 完整數據、CVOT 腎臟次要終點、meta-analysis、與 SGLT2i 的證據差距比較。"
 quick_answer: "Semaglutide SC 1.0 mg（FLOW）是目前唯一有 dedicated kidney outcome RCT 的 GLP-1 RA，HR 0.76。KDIGO 2026 draft 對 GLP-1-based therapy 給予 1A 推薦。但硬腎臟終點的 class effect 尚未像 SGLT2i（3 trials / 3 molecules / 含 non-DM）同等穩固。SGLT2i 仍為 foundational kidney therapy，GLP-1 RA 為額外的 cardiorenal strategy。"
 seo_title: "GLP-1 RA 腎臟保護證據有多強？FLOW trial 與 SGLT2i 比較"
@@ -108,7 +110,11 @@ SGLT2i 比較數據：CREDENCE（canagliflozin）HR 0.70（0.59-0.82）；DAPA-C
 
 ### Tirzepatide
 
-SURPASS-CVOT vs dulaglutide（active comparator，非 vs placebo）CKD 次族群 HR 0.67（0.52-0.87），尚待正式同儕審查發表。TREASURE-CKD（Phase 2, NCT05536804）進行中。Dedicated CKD outcome trials 仍在進行，目前證據不足以與 FLOW 同等看待。
+SURPASS-CVOT vs dulaglutide（active comparator，非 vs placebo）：ASN 2025 報告 CKD 次族群 HR 0.67（0.52-0.87）。**2026-05 Zoungas et al. pre-specified exploratory kidney analysis** 以正式 publication 補強（PMID 42114520, Lancet Diabetes Endocrinol 2026 May 11 Epub, DOI 10.1016/S2213-8587(26)00032-X；N=13,165, median follow-up 4.0 年）：主要腎臟複合終點整體 **HR 0.77（0.68-0.88），P=0.0002**；low-to-moderate-risk CKD **HR 0.70（0.58-0.84）**（driver = new-onset macroalbuminuria）；high-risk CKD（eGFR <45 或 UACR >300）**HR 0.79（0.64-0.96）**（driver = eGFR slope 保留 ~0.93 mL/min/1.73 m²/年）。
+
+**重要 framing — incretin-vs-incretin head-to-head era**：首篇 dual incretin vs conventional GLP-1 RA 之 head-to-head 腎臟結局 RCT；量化 dual incretin 對 GLP-1 RA 的 incremental kidney benefit（23% RRR），**非絕對 renoprotection**；與 FLOW（semaglutide vs placebo, HR 0.76）形成 semaglutide-vs-placebo + tirzepatide-vs-dulaglutide 兩階段證據 ladder。
+
+**判讀**：tirzepatide CKD 證據 tier 從「Phase 2 + active-comparator subgroup」**升級為「Phase 3-grade dedicated kidney readout」**；但仍非 dedicated CKD-primary-endpoint RCT（exploratory + powered for CV not kidney + albuminuria-weighted + 限 T2D+ASCVD）。TREASURE-CKD（Phase 2, NCT05536804）進行中。SGLT2i 仍為 foundational（3 dedicated trials + 含 non-DM），tirzepatide SURPASS-CVOT 為 active-comparator design，evidence basis 不同。
 
 ---
 
@@ -132,7 +138,7 @@ SURPASS-CVOT vs dulaglutide（active comparator，非 vs placebo）CKD 次族群
 
 3. **將 oral semaglutide（SOUL）描述為 renal-negative**：SOUL 腎臟結局為 secondary analysis，非 dedicated kidney trial，未顯著不等於 definitive negative。
 
-4. **將 tirzepatide 腎臟證據等同於 FLOW**：目前僅有 active-comparator data，dedicated CKD trials 仍在進行中。
+4. **將 tirzepatide 腎臟證據等同於 FLOW**：SURPASS-CVOT 2026-05 Lancet（Zoungas 2026, PMID 42114520, HR 0.77 vs dulaglutide）已升級為 Phase 3-grade dedicated kidney readout，但仍為 active-comparator + exploratory endpoint + albuminuria-weighted composite + 限 T2D+ASCVD，不能直接 placebo 比較。TREASURE-CKD（Phase 2）進行中。
 
 5. **將 NNT ~22 寫為試驗直接報告的固定值**：此數值由 ARR（23.2% vs 18.7%）推算而得。
 
@@ -161,7 +167,7 @@ Step 4: 定位
 Step 5: 注意邊界
   → Baseline SGLT2i subgroup = inconclusive, 非 negative
   → SOUL = secondary analysis, 非 renal-negative
-  → Tirzepatide = evolving, 非等同 FLOW
+  → Tirzepatide = SURPASS-CVOT 2026 Lancet (HR 0.77 vs dulaglutide) 升級為 Phase 3-grade dedicated kidney readout，仍非等同 FLOW（active-comparator + 限 T2D+ASCVD）
 ```
 
 ---
@@ -176,7 +182,7 @@ Step 5: 注意邊界
 
 3. **ESKD 在整個 GLP-1 RA 類別的確證**：Sasaki 2025 顯示 ESKD 單獨分析未顯著，需更多 dedicated trials 或 IPD meta-analysis
 
-4. **Tirzepatide 的 dedicated kidney outcome data**：TREASURE-CKD（NCT05536804）為 Phase 2；SURPASS-CVOT CKD 亞組待正式發表
+4. **Tirzepatide 的 dedicated kidney outcome data**：SURPASS-CVOT kidney 數據已正式發表（Zoungas 2026 Lancet Diabetes Endocrinol, PMID 42114520, 整體 HR 0.77 + 機制分層分析；ASN 2025 報告之 HR 0.67 與 Lancet 2026 整體 HR 0.77 差異反映亞組 vs 整體之分析範圍）；TREASURE-CKD（NCT05536804）Phase 2 仍進行中；尚無 dedicated CKD-primary-endpoint vs placebo RCT
 
 5. **KDIGO 2026 定稿版**：目前為 public review draft，最終版可能修訂推薦強度
 
@@ -192,7 +198,7 @@ Step 5: 注意邊界
   - Moderate：GLP-1 RA 類別降低 kidney failure（Badve HR 0.84, CI 接近 1.0, FLOW 主導）
   - Low：Non-DM CKD 腎臟保護（SELECT 支持性信號，非確證）
   - Uncertain：SGLT2i + GLP-1 RA 硬腎臟終點疊加效益
-- **Evidence Sources**: FLOW（NCT03819153; NEJM 2024）、LEADER（NCT01179048）、SUSTAIN-6、REWIND、AMPLITUDE-O、SOUL、SELECT、SURPASS-CVOT（ASN 2025, 待發表）、Badve 2025 meta-analysis、Sasaki 2025 meta-analysis、CREDENCE、DAPA-CKD、EMPA-KIDNEY、SMART-C IPD meta-analysis
+- **Evidence Sources**: FLOW（NCT03819153; NEJM 2024）、LEADER（NCT01179048）、SUSTAIN-6、REWIND、AMPLITUDE-O、SOUL、SELECT、SURPASS-CVOT（Zoungas 2026, Lancet Diabetes Endocrinol, PMID 42114520）、Badve 2025 meta-analysis、Sasaki 2025 meta-analysis、CREDENCE、DAPA-CKD、EMPA-KIDNEY、SMART-C IPD meta-analysis
 - **Guideline Concordance**: KDIGO 2026 draft 1A（draft）；ADA 2025/2026 Grade A；FDA Ozempic CKD indication（2025）
 - **Key References**:
   - FLOW main trial: Perkovic V et al. N Engl J Med. 2024
