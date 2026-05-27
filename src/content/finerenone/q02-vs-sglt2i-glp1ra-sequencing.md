@@ -2,12 +2,12 @@
 question_id: "Q02"
 title: "Finerenone 與 SGLT2i / GLP-1 RA 的排序與合併策略"
 category: "排序與合併"
-version: "v1.4"
+version: "v1.5"
 status: ""
-last_updated: 2026-05-05
-next_review: 2027-05-05
+last_updated: 2026-05-27
+next_review: 2026-08-27
 tags: [finerenone, SGLT2i, GLP-1RA, sequencing, combination, decision-note, DKD, NDKD, non-diabetic-CKD]
-description: "在已接受 max tolerated ACEi/ARB 的 DKD 病人，finerenone 如何與 SGLT2i 及 GLP-1 RA 排序與合併？依 KDIGO 2024、ADA 2026、CONFIDENCE 與 FIDELITY 查核修訂；v1.2 新增非糖尿病 CKD（NDKD）排序考量；v1.4（2026-05-05）新增 rapid eGFR decliner 加 finerenone 前的穩定性檢查（基於 Yang 2026 subgroup 訊號）。"
+description: "在已接受 max tolerated ACEi/ARB 的 DKD 病人，finerenone 如何與 SGLT2i 及 GLP-1 RA 排序與合併？依 KDIGO 2024、ADA 2026、CONFIDENCE 與 FIDELITY 查核修訂；v1.2 新增非糖尿病 CKD（NDKD）排序；v1.4 新增 rapid eGFR decliner 穩定性檢查（Yang 2026）；v1.5（2026-05-27）新增 FIVE-STAR secondary analysis（Tanaka 2026, PMID 42180819）— 慢性 SGLT2i 背景對 finerenone K⁺ 上升的衰減訊號 vs CONFIDENCE 不一致。"
 quick_answer: "預設仍以 SGLT2i 為 first add-on；符合 albuminuria / eGFR / K 條件時加 finerenone；GLP-1 RA 依 glycemic / obesity / ASCVD / direct kidney-outcome evidence 前移。ADA 2026 已新增：T2D + UACR ≥100 + eGFR 30-90 + RASi 的成人可考慮 SGLT2i + finerenone simultaneous initiation。NDKD（含 IgAN / FSGS）目前僅有 NMA-level surrogate 證據（Chen 2026），正式答案仍待 FIND-CKD fulltext。"
 seo_title: "Finerenone vs SGLT2i vs GLP-1 RA 排序策略｜DKD 合併用藥"
 ---
@@ -50,7 +50,7 @@ seo_title: "Finerenone vs SGLT2i vs GLP-1 RA 排序策略｜DKD 合併用藥"
 
 | 配對 | 核心證據 | 已被支持的內容 | 尚未被證實的內容 | 經查核後底線 |
 |---|---|---|---|---|
-| **Finerenone + SGLT2i** | **CONFIDENCE**（NEJM 2025; PMID 40470996）+ **FIDELITY-SGLT2 subgroup**（PMID 35972218） | 同步起始可比任一單藥帶來更大的 **UACR 下降**；FIDELITY 分析中 finerenone 效果未見明顯交互作用 | **硬終點 additivity / superiority**、最佳長期 sequencing、是否能實質消除 hyperkalemia 風險 | **Selected patients 可考慮、且 ADA 2026 已納入**；但仍屬 **surrogate-led** combination evidence |
+| **Finerenone + SGLT2i** | **CONFIDENCE**（NEJM 2025; PMID 40470996）+ **FIDELITY-SGLT2 subgroup**（PMID 35972218）+ **FIVE-STAR secondary analysis**（Tanaka 2026 KIR; PMID 42180819）| 同步起始可比任一單藥帶來更大的 **UACR 下降**；FIDELITY 分析中 finerenone 效果未見明顯交互作用；Tanaka 顯示 **finerenone 加在慢性 SGLT2i 背景上時 K⁺ 上升幅度被衰減**（N=97, Low certainty） | **硬終點 additivity / superiority**、最佳長期 sequencing、K⁺ 衰減訊號的 mechanism 與重現性（CONFIDENCE secondary 與 Tanaka 訊號不一致）| **Selected patients 可考慮、且 ADA 2026 已納入**；但仍屬 **surrogate-led** combination evidence |
 | **Finerenone + GLP-1 RA** | **FIDELIO-DKD GLP-1RA subgroup**（PMID 34580995）+ **FIDELITY GLP-1RA subgroup**（PMID 36193847）+ **CONFIDENCE baseline GLP-1RA analysis**（PMID 40968755） | finerenone 效益未因背景 GLP-1RA 而消失 | **Dedicated finerenone + GLP-1RA randomized hard-outcome trial** | **Reasonable but exploratory** |
 | **SGLT2i + GLP-1 RA** | 各自硬終點 trial + **FLOW baseline SGLT2i subgroup**（PMID 38914124） | 兩類藥各自有 cardiorenal benefit | **Dedicated DKD combination hard-outcome RCT** | **當 dual indication 並存時非常合理，但不能誤寫成已有專屬 combo hard-outcome RCT** |
 | **Layered therapy：RASi + SGLT2i + finerenone + GLP-1 RA** | post hoc / subgroup / observational / modeling | 高殘餘風險病人可能從多機轉覆蓋獲益 | universal target、最佳時序、長期 polypharmacy 安全性 | **只可寫成 layered high-risk strategy，不可寫成已定論** |
@@ -179,6 +179,54 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
 
 → Mohsen 2026 **不是新證據**，是對既有證據的**整合與框架化**——值得引用作為「為什麼要早期合併治療」的論述背書，**不是 RCT-grade 推薦**。
 
+### G. FIVE-STAR Secondary Analysis：finerenone + 慢性 SGLT2i 的 K⁺ 衰減訊號（v1.5 新增）
+
+⭐ **Tanaka A et al. 2026 *Kidney Int Rep*（PMID 42180819）**——FIVE-STAR trial 之 secondary subanalysis（日本多中心 RCT, finerenone vs placebo, T2D + CKD, 24 週），依 baseline RASi / SGLT2i / GLP-1 RA 使用狀態分層。
+
+#### 研究設計
+
+- **N=97**（FIVE-STAR full-analysis N=101 中具 UACR 資料者）
+- 日本多中心、雙盲、安慰劑對照 RCT；finerenone 目標劑量 20 mg/day
+- 中位 eGFR **56.2**、中位 UACR **193.8 mg/g**（CKD stage 2-3 為主）
+- 背景用藥：**RASi 79.4% / SGLT2i 62.9% / GLP-1 RA 30.9%**（合併用藥分布：0-1 種藥 35.1% / 2 種藥 49.5% / 3 種全用 15.5%）
+
+#### 核心發現
+
+| Outcome | 結果 | 解讀 |
+|---|---|---|
+| **UACR 降低（vs placebo, 整體）** | ~**29% 額外降低** | 與 FIVE-STAR 主結果一致 |
+| UACR 降低 × 背景治療狀態 | **一致**（單/雙/三藥下無交互作用） | finerenone 對 UACR 效果不受 RASi/SGLT2i/GLP-1 RA 背景影響 |
+| eGFR / BP × 背景治療狀態 | **不受影響** | — |
+| **血清 K⁺ 上升（vs placebo）** | **「無/單藥」族群上升較大** | 合併治療（尤其 SGLT2i 慢性背景）K⁺ 上升被衰減 |
+| K⁺ × SGLT2i 使用 | SGLT2i 使用者 K⁺ 變化幅度較小 | 慢性 SGLT2i 背景可能衰減 finerenone 引起的 K⁺ 上升 |
+
+#### 與 CONFIDENCE secondary 的**訊號不一致**
+
+| 試驗 | 起始方式 | K⁺ 觀察 |
+|---|---|---|
+| **CONFIDENCE secondary** | finerenone + empagliflozin **同步起始** | finerenone 單藥組與 combo 組 K⁺ 變化**相近**（SGLT2i 衰減效應不明顯）|
+| **Tanaka 2026 (FIVE-STAR)** | finerenone 加在**慢性 SGLT2i 背景**上 | combo 族群 K⁺ 上升幅度**較單藥族群小** |
+
+**作者推測**：差異源於「**起始方式不同**」 — synchronous vs sequential。Synchronous 時 SGLT2i 的 K⁺-shifting 效應尚未 fully kick in；chronic SGLT2i 用藥 ≥幾個月時 K⁺ buffering 可能較穩定。**Mechanism 待進一步驗證**。
+
+#### LOE 與限制
+
+- **Oxford CEBM**: Level 2（RCT secondary / subgroup analysis）
+- **GRADE certainty**: **Low**（N=97 小、非為次族群分析設計、統計檢力有限、未調整多重比較、surrogate endpoints）
+- **Bias risk**: Some concerns（探索性分析；α=0.05 未調整多重性）
+- **外推限制**：日本族群、SGLT2i 使用率高（62.9% 較貼近 2026 處方環境）；短期（24 週）；無法評估長期 eGFR slope / hard outcomes
+
+#### 對 Q02 的實務含意
+
+| 該寫的 | 不該寫的 |
+|---|---|
+| ✅ 「finerenone 對 UACR 的效果不受背景 RASi/SGLT2i/GLP-1 RA 影響」**有 RCT secondary 級證據** | ❌ 「慢性 SGLT2i 背景可消除 finerenone hyperkalemia 風險」（只是衰減訊號，N=97 + Low certainty）|
+| ✅ K⁺ attenuation by chronic SGLT2i 是值得納入 monitoring 思維的**訊號**（非定論）| ❌ 將 Tanaka 結果視為 hard endpoint additivity 證據（仍是 surrogate）|
+| ✅ Synchronous vs sequential initiation 的 K⁺ 動態**可能不同**——CONFIDENCE 與 Tanaka 兩種觀察並存 | ❌ 因 K⁺ 衰減訊號就放寬 4 週監測 SOP |
+| ✅ 對「慢性 SGLT2i 背景上加 finerenone」的 K⁺ 風險預期可略下修，但 **routine monitoring 不變** | ❌ 把 Tanaka 推為 dedicated combination trial（FIVE-STAR primary 為 UACR；本分析為 secondary）|
+
+→ Tanaka 主要訊息對 Q02 是：**combination effect on UACR 確認 + K⁺ 安全訊號補強**，但 K⁺ attenuation mechanism 與 CONFIDENCE 不一致需保留審慎。
+
 ---
 
 ## 實務排序矩陣（phenotype-based）
@@ -262,6 +310,7 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
 - **FLOW baseline SGLT2i subgroup** 僅 **N=550**，估計不精確
 - **FIDELITY** 中 baseline **SGLT2i 僅 6.7%**、baseline **GLP-1RA 僅 7.2%**
 - **GLP-1 RA 的 direct CKD hard-outcome evidence 目前仍以 semaglutide 最強**
+- **K⁺ 動態 in synchronous vs sequential combination**：CONFIDENCE secondary 顯示 finerenone + empagliflozin 同步起始時 K⁺ 變化與 finerenone 單藥相近；Tanaka 2026 FIVE-STAR secondary（N=97）則顯示慢性 SGLT2i 背景可衰減 finerenone 的 K⁺ 上升。兩者**訊號不一致**，作者推測為「起始方式不同」（synchronous vs sequential），**機制待驗證**
 
 ### 待追蹤
 
@@ -290,6 +339,7 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
   9. Mann JFE, et al. Nat Med. 2024. PMID: 38914124.
   10. Chen R, et al. Divergent renal benefits of SGLT2 inhibitors and mineralocorticoid receptor antagonists in non-diabetic kidney disease (Bayesian network meta-analysis). *Kidney Blood Press Res*. 2026. PMID: 42030206.
   11. Mohsen M, Yi TW, Faruque L, et al. Combination Treatment for Management of Chronic Kidney Disease and Type 2 Diabetes: A Review and Practical Guidance. *J Clin Endocrinol Metab*. 2026. PMID: 41973867.
+  12. Tanaka A, Imai T, Vaduganathan M, et al. Randomized Trial of Finerenone on Urinary Albumin-to-Creatinine Ratio in Type 2 Diabetes Mellitus and CKD. *Kidney Int Rep*. 2026;11(7):106546. PMID: 42180819. DOI: 10.1016/j.ekir.2026.106546. *(FIVE-STAR secondary analysis by background therapy; N=97; K⁺ attenuation signal in chronic SGLT2i context)*
 
 ---
 
