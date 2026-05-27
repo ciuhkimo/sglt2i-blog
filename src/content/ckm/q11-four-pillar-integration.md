@@ -2,10 +2,10 @@
 question_id: "Q11"
 title: "CKM 四柱整合策略（RASi + SGLT2i + Finerenone + GLP-1 RA）"
 category: "整合藥物策略"
-version: "v1.2"
-status: "查核修訂版"
-last_updated: 2026-05-03
-next_review: 2027-05-03
+version: "v1.3"
+status: "已定稿"
+last_updated: 2026-05-27
+next_review: 2026-08-27
 tags:
   - CKM-syndrome
   - cardiorenal-metabolic
@@ -38,6 +38,7 @@ FIND-CKD 完成後，finerenone 是否已可視為跨越 DKD 邊界？
 4. **finerenone 在 HFmrEF/HFpEF 有 FINEARTS-HF 支持，但這不等於可取代 HFrEF 中 steroidal MRA 的既有證據基礎。**
 5. **FIND-CKD 已完成，但截至本次查核，ClinicalTrials.gov 顯示尚未 posted results；因此不能把 finerenone 直接外推為已跨越 DKD 邊界。**
 6. **台灣目前最可落地的公費主軸仍是 RASi + SGLT2i；finerenone 為 TFDA 核准，但在最新 NHI 給付規定總表中未查得 Kerendia/finerenone；GLP-1 RA 則仍有「不得與 SGLT-2 抑制劑併用」的健保給付限制。**
+7. **De Nicola 2026 KIR（N=4,523 義大利 ND-CKD 多中心前瞻 cohort）量化 6 個月 therapeutic inertia：RASi 85% / SGLT2i 90% / GLP-1 RA 92% / finerenone 96%，gradient 與 pillar novelty 成正比。Four-pillar integration 問題首先是 initiation gap，其次才是 sequencing logic。**
 
 ---
 
@@ -226,6 +227,58 @@ Mohsen 算法是**國際視角**——其建議的「快速序貫」在台灣會
 - **多藥自費負擔**對病人是真實壓力
 
 → 我們在台灣可以**接受 Mohsen 的 framing（早期合併 > 緩慢序貫）**，但**實際路徑要結合健保/自費現況**（見下方「台灣實務」段落）。Mohsen 不是 cookbook，是 mental model。
+
+---
+
+## 6. De Nicola 2026 KIR：四柱整合的「啟動缺口」實證量化（v1.3 新增）
+
+⭐ **De Nicola L et al. 2026 *Kidney Int Rep*（PMID 42179812）**——義大利腎臟科學會多中心前瞻 cohort，**直接量化「四柱實際 reach 病人」的 gap**，補足 Mohsen 算法（理論）所缺的實證 magnitude。
+
+### 研究設計
+
+- **N=4,523** ND-CKD 病人（stage 3–5 或 stage 1–2 含 ACR >30 mg/g）
+- **30 個義大利腎臟專科診所**，2024-05 至 2025-05；2 visits 6 個月間隔
+- Baseline：mean age 71 ± 14、eGFR **34 ± 19**、DM 40%、CVD 40%、ACR 70（IQR 11–350）
+- 全部已在 **穩定 specialist nephrology care** 下——亦即 best-case implementation scenario
+
+### 6 個月 visit 核心發現：**Therapeutic Inertia by Pillar**
+
+| Pillar | Failure-to-Intensify | 註 |
+|---|---|---|
+| **RASi** | **85%** | 最舊 pillar，inertia 最低 |
+| **SGLT2i** | **90%** | — |
+| **GLP-1 RA**（DM 次族群）| **92%** | — |
+| **Finerenone**（DM 次族群）| **96%** | 最新 pillar，inertia 最高 |
+
+**Inertia gradient**：RASi < SGLT2i < GLP-1 RA < finerenone — **與 pillar novelty 成正比**。
+
+### 其他關鍵發現
+
+- BP 控制 above target **~70%**（sustained HTN 62%、resistant HTN 23%）
+- BP-lowering 治療不足：uncontrolled office BP 中 33%（DM）/ 43%（non-DM）僅用 ≤2 種降壓藥
+- **Albuminuria >30 mg/g 持續 in ~⅔**（non-DM 61% / DM 64%）
+- Authors 的悖論觀察：**severity of risk profile is paradoxically associated with remarkable therapeutic inertia** — 最 indicated 的病人最未受惠
+
+### 對 Q11 框架的重構意義
+
+> **"Ordering matters only after inertia is broken — and inertia, not sequencing logic, is currently the dominant barrier."**
+
+| 該寫的 | 不該寫的 |
+|---|---|
+| ✅ Four-pillar **integration 問題首先是 initiation 問題**，不是 sequencing 問題 | ❌ 把絕對數值外推到所有 health system（義大利 tertiary care 數據 — 絕對數字未必 transport，但 gradient 可 transport）|
+| ✅ Inertia gradient 提示**新 pillar（finerenone、GLP-1 RA）最需要 active-prompting / checklist / EHR alert intervention** | ❌ 把 "failure-to-intensify" 等同於 "clinically inappropriate"（contraindications 與 intolerance 仍佔一部分） |
+| ✅ Best-case nephrology care 下 inertia 仍 85–96%，real-world 落地至少同等嚴峻——**這是 conservative floor estimate** | ❌ 把 De Nicola 寫成 RCT 級證據（observational, descriptive） |
+| ✅ 與 Mohsen 框架互補：Mohsen 給 anti-inertia theory，De Nicola 給 inertia magnitude evidence | ❌ 把 De Nicola 寫成「義大利 nephrology 失職」（樣本是 stable specialist care，已是 best case）|
+
+### LOE 評估
+
+- **Oxford CEBM**：Level 2–3（multicenter prospective observational cohort）
+- **GRADE certainty**：Moderate（描述性 claim — large、multicenter、prespecified；非 interventional / causal）
+- **Bias risk**：Low–Some concerns（單一國家 tertiary 採樣；"therapeutic inertia" 定義不能完全排除 clinically appropriate non-intensification）
+
+### 對台灣實務的延伸（推論）
+
+De Nicola 是義大利數據，**台灣本地 four-pillar inertia 無對應 cohort 量化**，但 inertia gradient（新 pillar → 高 inertia）+ 台灣 finerenone 健保未明朗 + GLP-1 RA 不得與 SGLT2i 併用 → **台灣 finerenone / GLP-1 RA 的 inertia 應 ≥ 義大利水準**（保守推論）。
 
 ---
 
@@ -476,6 +529,8 @@ Albuminuric T2D + CKD
 > **2026 年的正確說法不是「四柱 simultaneous initiation 已成 universal standard」，而是：**
 > **對 T2D + albuminuric CKD + on RASi 的合適病人，finerenone + SGLT2i 同時起始現在已是 guideline-accepted option；但其直接證據仍主要是 UACR surrogate improvement，而非已完成的 hard-outcome combination proof。**
 > **在台灣，最可落地的公費主軸仍是 RASi + SGLT2i；finerenone 與 GLP-1 RA 的真正瓶頸主要在支付與併用規則。**
+>
+> **更值得強調的是 implementation gap**：De Nicola 2026 KIR（N=4,523 義大利 ND-CKD specialist care）量化 6 個月 therapeutic inertia 為 **RASi 85% / SGLT2i 90% / GLP-1 RA 92% / finerenone 96%**，gradient 與 pillar novelty 成正比；最 indicated 的病人最未受惠。**Q11 的真正瓶頸不是 sequencing logic，而是 initiation gap + 支付限制**。Sequencing 排序、Mohsen algorithm、CONFIDENCE simultaneous——這些都是「假設病人有被開立」之後的問題；真正的 bottleneck 通常在前一步。
 
 ---
 
@@ -530,6 +585,13 @@ Albuminuric T2D + CKD
    - DOI: `10.1210/clinem/dgag163`
    - PMID: `41973867`
    - 性質：Expert opinion narrative review with proposed quadruple-therapy algorithm
+
+10. **De Nicola 2026 — Four-Pillar Therapeutic Inertia in Italian Nephrology Care**（v1.3 新增）
+    - De Nicola L, Ruotolo C, La Manna G, et al. Missing Opportunity for Nephroprotective Therapy in Patients With Non-Dialysis CKD Under Stable Nephrology Care. *Kidney Int Rep*. 2026;11(6):106541 (Epub 2026 Apr 14).
+    - DOI: `10.1016/j.ekir.2026.106541`
+    - PMID: `42179812`
+    - 性質：Multicenter prospective observational cohort (N=4,523, 30 italian nephrology clinics, 2024-05 to 2025-05)
+    - 核心數據：6-month therapeutic inertia — RASi 85% / SGLT2i 90% / GLP-1 RA 92% / finerenone 96%（DM subgroup for GLP-1 RA + finerenone）；inertia gradient ∝ pillar novelty
 
 ---
 
