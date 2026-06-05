@@ -68,7 +68,7 @@ FIND-CKD 完成後，finerenone 是否已可視為跨越 DKD 邊界？
 
 ### A. 直接且較強的證據
 - **SGLT2i**：DAPA-CKD、CREDENCE、EMPA-KIDNEY 等硬終點試驗
-- **Finerenone in DKD**：FIDELIO-DKD、FIGARO-DKD、FIDELITY
+- **Finerenone in DKD**：FIDELIO-DKD、FIGARO-DKD、FIDELITY；FINE-HEART pooled 另顯示**獨特的猝死下降（HR 0.81, 2026）**——SGLT2i / GLP-1 RA 未明確展示，詳見 [Finerenone Q05 — HF + CKD](/finerenone/q05-hf-ckd-role/)
 - **GLP-1 RA in CKD/T2D**：FLOW（semaglutide）
 - **Simultaneous finerenone + empagliflozin**：CONFIDENCE，但主要終點是 **UACR at day 180**
 

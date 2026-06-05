@@ -2,9 +2,9 @@
 question_id: "Q05"
 title: "Finerenone 在 Heart Failure 合併 CKD 的角色"
 category: "適應症定位"
-version: "v1.2"
+version: "v1.3"
 status: ""
-last_updated: 2026-04-29
+last_updated: 2026-06-05
 next_review: 2027-04-29
 tags: [finerenone, nonsteroidal-MRA, heart-failure, HFpEF, HFmrEF, HFrEF, CKD, decision-note, FINEARTS-HF, KDIGO-2026]
 description: "Finerenone 在 HFrEF、HFmrEF/HFpEF 與 CKD 交會情境的 MRA 定位，包含 FINEARTS-HF 核心數據、regulatory status、dual-MRA 禁忌與 FINE-HEART 正確詮釋。"
@@ -19,6 +19,7 @@ seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
 3. **Routine dual-MRA（finerenone + spironolactone/eplerenone）不建議**。TFDA/EMA 仿單都明確寫出應避免併用。
 4. **FINEARTS-HF 的主要效益主要來自 worsening HF events 的減少**；**CV death 單獨並未達顯著**。
 5. **腎臟結局不可過度延伸**：在 FINEARTS-HF 本身的 HF 人群中，finerenone **未顯著改善 kidney composite outcome**。
+6. **（2026 新增）FINE-HEART sudden death 分析**：finerenone 在跨 CKM 母群一致**降低猝死（HR 0.81, 95% CI 0.67-0.98, P=0.034）**，且猝死負擔在 HF 族群最高（FINEARTS-HF 1.5 vs CKD trials 0.5/100 PY）——這是 SGLT2i / GLP-1 RA 未明確展示的訊號。但屬 pooled 母群的次級/探索性結局，**非 HFmrEF/HFpEF 單獨母群的獨立證據**。
 
 ---
 
@@ -65,8 +66,18 @@ seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
 | HF hospitalization | **HR 0.83（0.75-0.92）, P<0.001** | HF 相關獲益一致 |
 | Kidney composite | **HR 0.80（0.72-0.90）, P<0.001** | 支持 cardiorenal benefit，但不是純 HF-only 證據 |
 | CV death | **HR 0.89（0.78-1.01）, P=0.076** | 未達統計顯著 |
+| **Sudden death（2026 SD 專項）** | **HR 0.81（0.67-0.98）, P=0.034** | 跨 CKM spectrum 降猝死；SD 負擔在 HF 族群最高（FINEARTS-HF 1.5 vs CKD 0.5/100 PY），跨試驗一致（trial P-int 0.71） |
 
 > **不要把 FINE-HEART 寫成「HFmrEF/HFpEF 已證實單獨有腎保護 + mortality benefit」**。FINE-HEART 混合了 FIDELIO-DKD、FIGARO-DKD、FINEARTS-HF 三個試驗母群。
+
+### FINE-HEART 新增 sudden-death 訊號（2026）
+
+2026 年 FINE-HEART 的 sudden death 專項分析（Foà 等，*J Am Coll Cardiol* 2026，PMID 42233928；pooled FIDELIO-DKD + FIGARO-DKD + FINEARTS-HF，N=18,991，中位追蹤 2.9 年）：finerenone 相較 placebo **降低猝死 HR 0.81（95% CI 0.67-0.98, P=0.034）**，整體 418 例猝死（0.77/100 PY）。
+
+- **為什麼對 HF + CKD 特別相關**：猝死率在 **HF 試驗（FINEARTS-HF）達 1.5/100 PY、是 CKD 試驗（0.5/100 PY）的 3 倍**；治療效果跨試驗一致（trial 間 P for interaction 0.71）。猝死的臨床負擔正落在 HF 族群，而 finerenone 的降幅在含 HF 的母群中一致。
+- **finerenone 相對其他 CKM 支柱的差異點**：SGLT2i、GLP-1 RA 尚未明確展示獨立的猝死抑制效應。高猝死風險特徵（年長、HF 病史、AF、既往 MI、UACR 升高、SBP 偏低）者，這個訊號在 MRA 選擇上具參考價值。
+
+> 維持紀律：HR 0.81 是**跨 CKM 母群的整體治療效果**，**並非 FINEARTS-HF（HFmrEF/HFpEF）單獨母群中獨立 powered 的終點**，猝死亦屬次級/探索性結局。精準說法是「finerenone 在含 HF 的 CKM 母群中一致降低猝死，且猝死負擔以 HF 族群最高」，不要寫成「已證實在 HFmrEF/HFpEF 單獨降低猝死」。
 
 ---
 
