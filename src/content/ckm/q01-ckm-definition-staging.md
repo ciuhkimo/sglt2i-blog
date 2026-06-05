@@ -2,9 +2,9 @@
 question_id: "Q01"
 title: "CKM Syndrome 定義與分期（查核修訂版）"
 category: "定義與識別"
-version: "v1.2"
+version: "v1.3"
 status: ""
-last_updated: 2026-05-12
+last_updated: 2026-06-05
 next_review: 2027-04-22
 tags:
   - CKM-syndrome
@@ -126,6 +126,15 @@ AHA 的 **PREVENT** 是 primary prevention 風險工具，不是 CKM 分期本�
 | **FLOW** | 2024 | 3,533 | Semaglutide：kidney/CV composite **HR 0.76**；CV death **HR 0.71**；all-cause death **HR 0.80** |
 | **CONFIDENCE** | 2025 | ~800 | Finerenone + empagliflozin 在 Day 180 的 UACR reduction 約 **52%**，較任一單藥多降 **29–32%**；**屬 surrogate endpoint，不是 hard outcome trial** |
 
+### CKM 分期是動態指標：可被治療移動
+
+2026 年 FIDELITY 的 CKM-stage post-hoc 分析（pooled FIDELIO-DKD + FIGARO-DKD，N=12,990，T2D + CKD，eGFR ≥25；Lo KB et al., *JAMA Cardiol* 2026，PMID 42234437）在 phase 3 RCT 的個體層級資料上，把 AHA CKM staging 當成可分析變項，帶出兩個對腎臟科有意義的觀念：
+
+- **分期有預後梯度（RCT IPD 驗證）**：相較 Stage 2，**Stage 4 的 CV 事件 aHR 1.87（95% CI 1.56–2.24）、腎事件 aHR 1.96（1.43–2.69）**——把原本主要來自觀察性資料的 staging 預後價值，提升到 RCT 族群的驗證層級（限 T2D + CKD）。
+- **分期是「動態、可被治療移動」的**：追蹤 3 年，finerenone 組比安慰劑組**更可能 CKM 降階（regression）：11.4% vs 7.4%，aOR 1.66（1.30–2.13），P<0.001**；升階較少（aOR 0.89，P=0.05）。治療對 CV／腎複合終點的效益**跨各 stage 一致**（P for interaction 0.86／0.65）。
+
+**對門診的意義**：CKM 分期不只是靜態標籤——它是會隨治療移動的狀態，支持把「降低 CKM stage」當成可溝通的治療目標之一。但界線要誠實標明：此為**事後分析**、分期回溯套用 AHA 標準、僅涵蓋 **T2D + CKD（eGFR ≥25）**，不含 Stage 0–1、非糖尿病 CKM 或進階 CKD。
+
 ---
 
 ## Clinical Decision
@@ -193,7 +202,7 @@ AHA 的 **PREVENT** 是 primary prevention 風險工具，不是 CKM 分期本�
 
 - **Stage 1 與 Stage 2 的邊界**：尤其是 prediabetes、insulin resistance 與 adiposity 之間的操作化切分，目前不同研究與次級分析仍有差異。
 - **Stage 3 的最佳偵測策略**：誰應接受 CAC、echo、cardiac biomarker、POCUS 篩查，以及用何種門檻進入 Stage 3，尚未標準化。
-- **尚無 CKM-stage-guided intervention RCT**：目前是把既有心腎代謝證據「整合到同一框架」，而不是已有專門驗證 CKM stage 路徑本身的 RCT。
+- **尚無 prospective CKM-stage-guided intervention RCT**：2026 年 FIDELITY 的 CKM-stage post-hoc（PMID 42234437）已在 RCT 個體層級資料驗證分期的預後梯度、並顯示 finerenone 可促 CKM 降階（aOR 1.66），但這是**事後分析**、分期回溯套用 AHA 標準，而非以 CKM stage 為分派依據設計的前瞻試驗；CKM stage 路徑本身仍待 prospective study 驗證。
 
 ### 中度不確定
 
