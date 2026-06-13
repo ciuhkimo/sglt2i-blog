@@ -27,7 +27,7 @@ seo_title: "DKD 何時加 Finerenone？啟動時機、定位與劑量指引"
 | KDIGO 2024 = K ≤4.8 為 guideline 門檻 | KDIGO 的正式文字是 **normal serum potassium concentration**；≤4.8 主要來自 trial-based monitoring algorithm 與 label/pragmatic practice，不應寫成 KDIGO 的硬性文字門檻。 | 已改寫 |
 | CONFIDENCE 組合治療可降低 hyperkalemia，且可解釋為 SGLT2i 排鉀保護 | 專門的 secondary analysis 指出 **180 天內未顯著降低 hyperkalemia 風險**；因此不能把合併療法視為「保鉀解法」。 | 已改寫 |
 | 台灣自費金額約 NT$2,700/月 | 自費價格高度依醫院與時間而變動，本次以 authority-based audit 無法穩定驗證；不保留精確價格數字。 | 已移除 |
-| FIND-CKD 僅列為未來待追蹤 | 2026-03 已有 topline：**達成 primary endpoint（eGFR slope）**，但完整 peer-reviewed hard outcome 資料仍未公開。 | 已更新 |
+| FIND-CKD 僅列為未來待追蹤 | **已正式發表（NEJM 2026, PMID 42246672）**：proteinuric 非糖尿病 CKD 達 eGFR slope primary（差 +0.7／年, P<0.001）；惟 primary 為 surrogate、長期 hard outcome 待續、台灣非適應症 | 已更新 |
 | EMA HF indication 僅寫「pending」 | 2026-01 已有 **CHMP positive opinion**，但目前公開 EPAR/SmPC 仍以 CKD with T2D 為現行適應症；EC 最終變更後的公開 SmPC 尚未在本次查核時點完整反映。 | 已更新 |
 | 個別 trial 的 N 與 pooled analysis N 混寫 | 已統一為 **individual trial 用 randomized N；FIDELITY 用 pooled analysis N**。 | 已修正 |
 
@@ -242,7 +242,7 @@ T2D + CKD 病人就診
 
 ### 待追蹤研究 / 監管變化
 
-- **FIND-CKD（NCT05047263）**：2026-03 topline 顯示 finerenone 在 non-diabetic CKD 達成 eGFR slope primary endpoint，但完整 peer-reviewed 發表與監管變更仍待後續。
+- **FIND-CKD（Heerspink, NEJM 2026, PMID 42246672）已正式發表**：finerenone 在 proteinuric 非糖尿病 CKD 減緩 eGFR slope（差 +0.7／年, P<0.001）、composite kidney-or-CV HR 0.77（0.60–0.99）——「何時起始」的適應範圍首次擴及非糖尿病 CKD；INFINITY（Neuen, Lancet 2026, PMID 42248158）pooled 後跨 T2D 與非糖尿病 albuminuric CKD 方向一致。惟 primary 為 slope surrogate，且**台灣 CKD 適應症目前仍限 T2D-related CKD**（非糖尿病屬適應症外、監管變更待後續）。
 - **FINE-ONE（T1D + CKD）**：2026 已有 surrogate positive publication，但目前仍屬 current label 之外的延伸證據，不應直接等同於 T2D-associated DKD 的 routine indication。
 - **EMA HF indication**：2026-01 已有 CHMP positive opinion，但目前公開 EPAR/SmPC 仍未在本次查核時點完全反映 EC 最終核定後的更新版本。
 - **台灣 NHIA**：若未來有正式收載公告，臨床門檻、治療排序與可近性都可能實質改變。
@@ -256,7 +256,7 @@ T2D + CKD 病人就診
 | **Core evidence certainty（albuminuric T2D + CKD on RASi）** | **High** |
 | **Simultaneous start** | **Moderate**（因目前主要來自 surrogate / short-term trial） |
 | **Non-albuminuric DKD** | **Low** |
-| **T1D / non-diabetic CKD extension** | **Low to evolving** |
+| **Non-diabetic CKD extension** | **Moderate**（FIND-CKD slope-based RCT；台灣非適應症內）；T1D 仍 **Low** |
 | **臨床定位** | conditional foundational add-on rather than substitute |
 
 - **Evidence Sources**: FIDELIO-DKD (NCT02540993), FIGARO-DKD (NCT02545049), FIDELITY pooled analysis, CONFIDENCE (NCT05254002), KDIGO 2024, ADA 2026, FDA Kerendia PI (7/2025), EMA EPAR/SmPC
@@ -273,7 +273,8 @@ T2D + CKD 病人就診
   10. Agarwal R, et al. J Am Soc Nephrol. 2022;33:225-237. PMID: 34732509.
   11. Agarwal R, et al. N Engl J Med. 2025. PMID: 40470996.
   12. Agarwal R, et al. PMID: 41493296.
-  13. Bayer. FIND-CKD topline press release. 2026-03-16.
+  13. Heerspink HJL, et al. (FIND-CKD). Finerenone in Persons with CKD without Diabetes. N Engl J Med. 2026. PMID: 42246672.
+  14. Neuen BL, et al. (INFINITY IPD pooled). Lancet. 2026;407:2375-2386. PMID: 42248158.
   14. Heerspink HJL, et al. N Engl J Med. 2026. PMID: 41780000.
   15. **De Nicola L, Ruotolo C, La Manna G, et al.** Missing Opportunity for Nephroprotective Therapy in Patients With Non-Dialysis CKD Under Stable Nephrology Care. *Kidney Int Rep.* 2026;11(6):106541. **PMID: 42179812**. DOI: 10.1016/j.ekir.2026.106541. *(v1.2 新增 — N=4,523 義大利多中心 ND-CKD; finerenone 6-month inertia 96%（4 柱最高）)*
 

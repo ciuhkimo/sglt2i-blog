@@ -97,7 +97,7 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
 | 該寫的 | 不該寫的 |
 |---|---|
 | ✅ eGFR 20–25 區間（EMA SmPC 允許但 FIDELIO 未納入）有 **real-world 觀察訊號** | ❌ 把無對照 cohort 的 eGFR「改善」與 RCT 級 eGFR slope 證據等同 |
-| ✅ 非糖尿病 subgroup 與 FIND-CKD topline 方向一致，但 Aledan 證據等級**遠低** | ❌ 因 Aledan 就放寬 eGFR ≥25 起始門檻為常規 |
+| ✅ 非糖尿病 subgroup 與 **FIND-CKD（NEJM 2026 已發表，eGFR 25–<90 收案）** 方向一致，但 Aledan 證據等級**遠低** | ❌ 因 Aledan 就放寬 eGFR ≥25 起始門檻為常規 |
 | ✅ 補強 Q04「eGFR 20–25 灰色地帶」的決策對話素材 | ❌ 把 K⁺「未升高」推為「無 hyperkalemia 風險」（單臂 cohort 無 placebo 對比） |
 
 → Aledan 是「**灰色地帶 real-world 觀察證據**」，不是 guideline-changing；目前 Q04 起始門檻（eGFR ≥25）與停藥門檻（CKD/T2D eGFR <15 / ESKD）**維持不變**。
@@ -152,7 +152,8 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
   5. Sarafidis P, et al. Clin J Am Soc Nephrol. 2023. PMID: 36927680.
   6. Solomon SD, et al. N Engl J Med. 2024. PMID: 39225278.
   7. Chimura M, et al. JACC Heart Fail. 2026. PMID: 41642173.
-  8. Bayer FIND-CKD topline press release. 2026-03-16.
+  8. Heerspink HJL, et al. (FIND-CKD). Finerenone in Persons with CKD without Diabetes. N Engl J Med. 2026. PMID: 42246672.（proteinuric 非糖尿病 CKD，eGFR 25–<90 收案；確認起始門檻 eGFR ≥25 延伸至非糖尿病族群）
+  10. Neuen BL, et al. (INFINITY IPD pooled). Lancet. 2026;407:2375-2386. PMID: 42248158.（效益跨 baseline eGFR 一致，支持 eGFR 門檻不因病因而異）
   9. **Aledan H, Abbood AS. 2026.** Efficacy and safety of finerenone in chronic kidney disease stages 3-4 in diabetic and non-diabetic patients with an eGFR 20-60 mL/min: a prospective cohort study. *Front Nephrol.* 6:1716452. **PMID: 42179848**. DOI: 10.3389/fneph.2026.1716452. *(v1.2 新增 — 單中心 cohort N=180, eGFR 20-25 subgroup n=65 + non-DM 22% 同見改善, Very Low certainty)*
 
 ---

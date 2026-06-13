@@ -8,7 +8,7 @@ last_updated: 2026-04-29
 next_review: 2027-04-29
 tags: [finerenone, elderly, frailty, kidney-transplant, dialysis, hepatic-impairment, pregnancy, IgA-nephropathy, non-diabetic-CKD, decision-note]
 description: "Finerenone 在老年（含 ≥75 歲）、frailty、腎臟移植受贈者、dialysis、肝功能不全、懷孕哺乳、兒童及非糖尿病 CKD（含 IgAN）等特殊族群的證據邊界，區分 RCT subgroup、post-hoc 與純外推。"
-quick_answer: "老年（含 ≥75 歲）有 phase 3 subgroup evidence 支持 CV 獲益一致，不需因年齡降劑量。Frailty 為 post-hoc 分析，非 dedicated RCT。腎臟移植受贈者為 off-label（pivotal trials 排除）。Dialysis 無直接 trial。Child-Pugh C / pregnancy / pediatric 避免使用。非糖尿病 CKD（含 IgAN）目前僅有小型 PSM 觀察性訊號，正式答案應等 FIND-CKD RCT。"
+quick_answer: "老年（含 ≥75 歲）有 phase 3 subgroup evidence 支持 CV 獲益一致，不需因年齡降劑量。Frailty 為 post-hoc 分析，非 dedicated RCT。腎臟移植受贈者為 off-label（pivotal trials 排除）。Dialysis 無直接 trial。Child-Pugh C / pregnancy / pediatric 避免使用。非糖尿病 CKD（含 IgAN）：FIND-CKD（2026, NEJM）已提供 RCT 級證據，其 prespecified glomerular subgroup（JAMA 2026；IgAN/FSGS/MN，亞洲 62%）顯示 eGFR slope 保護與降白蛋白尿，但屬 subgroup、primary 為 slope surrogate，且在台灣非糖尿病 CKD 仍非核准適應症。"
 seo_title: "Finerenone 特殊族群｜老年、移植、透析、懷孕處方指引"
 ---
 
@@ -24,7 +24,7 @@ seo_title: "Finerenone 特殊族群｜老年、移植、透析、懷孕處方指
 | Pregnancy / Lactation | 主要依非臨床毒理與仿單 | label-based |
 | Pediatric | 安全性/有效性未建立 | 無直接證據 |
 | T1D-CKD | FINE-ONE 已顯示 UACR surrogate benefit；尚非 label expansion | 新興 / 間接 |
-| 非糖尿病 CKD / IgAN | 僅有小型單中心 PSM observational signal；FIND-CKD RCT 為主要 anchor（待 fulltext） | **很低（hypothesis-generating only）** |
+| 非糖尿病 CKD / IgAN | FIND-CKD（NEJM 2026）+ 腎絲球次組（JAMA 2026）已提供 RCT 級 slope/albuminuria 證據 | **Moderate**（RCT，惟 primary 為 surrogate、glomerular 屬 subgroup；台灣非適應症內）|
 
 ---
 
@@ -83,8 +83,9 @@ FINE-ONE 2026 顯示 UACR surrogate benefit，但目前仍非既有 CKD/T2D indi
 
 | 來源 | 性質 | 說明 |
 |---|---|---|
-| **FIND-CKD（NCT05047263）** | Phase 3 RCT in non-diabetic CKD | **唯一可作為臨床決策 anchor 的證據**；目前僅 topline announce，待 fulltext（見 Q06 #07）|
-| **Zhang W et al. 2026 (PMID 42002725)** | 中國浙江單中心、回溯性 PSM cohort | N=28 vs 28（PSM 後）；12 月 ΔUP24 −393 vs +235 mg；Δ eGFR +3.4 vs −6.0 |
+| **FIND-CKD（Heerspink, *NEJM* 2026, PMID 42246672）** | Phase 3 RCT in proteinuric 非糖尿病 CKD（N=1,584） | **已正式發表**——eGFR slope 差 +0.7／年（P<0.001）、composite kidney-or-CV HR 0.77（0.60–0.99）。non-DM CKD 的主要決策 anchor（primary 為 slope surrogate；CV 不單獨宣稱）|
+| **FIND-CKD 腎絲球次組（Neuen, *JAMA* 2026, PMID 42246414）** | prespecified glomerular subgroup（N=903；IgAN 46%／FSGS 24%／MN 10%，亞洲 62%）| slope 差 +0.73；albuminuria −42%；composite（kidney failure 或 ≥40% eGFR↓）HR 0.74（0.57–0.97）。**IgAN/FSGS/MN 的首批 RCT-level supporting evidence；屬 subgroup、非各病因 dedicated RCT** |
+| **Zhang W et al. 2026 (PMID 42002725)** | 中國浙江單中心、回溯性 PSM cohort | N=28 vs 28（PSM 後）；12 月 ΔUP24 −393 vs +235 mg；Δ eGFR +3.4 vs −6.0。**證據等級遠低於上述 RCT，現以 FIND-CKD 為準** |
 | **個別 case series / mechanistic 推論** | — | 不應作為臨床決策依據 |
 
 #### Zhang 2026 的方法學限制（保守解讀）
@@ -134,7 +135,7 @@ Zhang 2026 報告 12 月 ΔeGFR +3.4 vs −6.0 mL/min（差距 **~9.4 mL/min/yr*
 | 情境 | 建議 |
 |---|---|
 | 非糖尿病 CKD / IgAN 想用 finerenone | **目前不建議作為 routine option**；應優先 RASi + SGLT2i 標準路徑 |
-| 病人/同事問「Zhang 2026 不是有效嗎？」 | 說明這是 N=56 PSM cohort，不能取代 RCT；正式答案要等 FIND-CKD fulltext |
+| 病人/同事問「Zhang 2026 不是有效嗎？」 | 說明這是小型 PSM cohort，不能取代 RCT；現以已發表的 FIND-CKD（NEJM 2026）+ 腎絲球次組（JAMA 2026）為準，PSM 僅 supporting |
 | 想參考使用 | 視為 off-label individualized decision，不是 standard of care |
 
 ---
@@ -171,7 +172,7 @@ Zhang 2026 報告 12 月 ΔeGFR +3.4 vs −6.0 mL/min（差距 **~9.4 mL/min/yr*
 | Pregnancy | 避免 |
 | Lactation | 不建議哺乳 |
 | Pediatric | 不適用 |
-| 非糖尿病 CKD / IgAN routine 使用 | 目前不建議；等 FIND-CKD RCT fulltext |
+| 非糖尿病 CKD / IgAN routine 使用 | FIND-CKD（NEJM 2026）已提供 RCT 級 slope/albuminuria 證據，但 primary 為 surrogate、且台灣非糖尿病 CKD 非核准適應症 → 仍以 RASi + SGLT2i 為標準路徑，finerenone 視個案 |
 
 ---
 
@@ -182,7 +183,7 @@ Zhang 2026 報告 12 月 ΔeGFR +3.4 vs −6.0 mL/min（差距 **~9.4 mL/min/yr*
 - KTR 的 graft survival、rejection、MACE、death 等 hard outcomes 幾乎空白
 - Finerenone 與 tacrolimus / cyclosporine 的直接 PK interaction 缺正式研究
 - Dialysis 族群缺乏直接 outcome trial
-- **非糖尿病 CKD / IgAN 之 hard outcome 效益**：FIND-CKD topline 已 announce 但未 fulltext；Zhang 2026 PSM cohort 為 hypothesis-generating only
+- **非糖尿病 CKD / IgAN 之 long-term hard outcome 效益**：FIND-CKD（NEJM 2026）已發表，但 primary endpoint 為 eGFR slope（surrogate）；長期 hard kidney failure / CV / mortality 仍待更長觀察。Zhang 2026 PSM cohort 為 hypothesis-generating only
 
 ### 中度不確定
 
