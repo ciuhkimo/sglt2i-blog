@@ -44,7 +44,7 @@ seo_title: "FIDELIO/FIGARO/FIDELITY＋FIND-CKD/INFINITY 解讀｜Finerenone 證�
 > - hyperkalemia 仍為 class effect；非糖尿病族群同樣需 K⁺ 監測。
 
 > **地區醫院腎臟科醫師視角：證據到了，適應症還沒**
-> FIND-CKD 對門診最實際的意義是：那些**非糖尿病的蛋白尿 CKD** 病人（IgAN、FSGS、membranous、高血壓腎病變），finerenone 現在第一次有了 phase 3 RCT、slope-based 的腎臟保護證據——但這還不是 non-DM CKD 的 long-term kidney failure outcome confirmation。另一個要提醒自己的是：**就 CKD 適應症而言，台灣目前核准仿單仍是「第二型糖尿病相關 CKD」**，FIND-CKD 所代表的非糖尿病 proteinuric CKD 尚非台灣 CKD 適應症內族群。所以比較精準的說法是「證據已往 non-DM CKD 前進，但仿單、指引與給付是否同步，仍須逐案查核最新 TFDA 仿單與健保署公告」：可以跟病人說明新證據方向，但實際開立是否屬 off-label、自費或符合給付，仍須回到當下最新規定與個別評估。
+> FIND-CKD 對門診最實際的意義是：那些**非糖尿病的蛋白尿 CKD** 病人（IgAN、FSGS、membranous、高血壓腎病變），finerenone 現在第一次有了 phase 3 RCT、slope-based 的腎臟保護證據——但這還不是 non-DM CKD 的 long-term kidney failure outcome confirmation。另一個要提醒自己的是：finerenone 在台灣仿單其實有**兩個適應症——T2D 相關 CKD 與心衰竭（LVEF≥40%）**；但**就 CKD（腎臟）適應症而言仍限第二型糖尿病相關 CKD**，FIND-CKD 所代表的非糖尿病 proteinuric CKD 尚非台灣 CKD 適應症內族群。所以比較精準的說法是「證據已往 non-DM CKD 前進，但仿單、指引與給付是否同步，仍須逐案查核最新 TFDA 仿單與健保署公告」：可以跟病人說明新證據方向，但實際開立是否屬 off-label、自費或符合給付，仍須回到當下最新規定與個別評估。
 
 ---
 
@@ -122,7 +122,7 @@ seo_title: "FIDELIO/FIGARO/FIDELITY＋FIND-CKD/INFINITY 解讀｜Finerenone 證�
 
 ### 台灣
 
-- **TFDA**：Kerendia 發證 2022-07-01；**CKD 適應症目前為 T2D-related CKD**（非糖尿病 CKD 尚非適應症內族群）。
+- **TFDA**：Kerendia（衛部藥輸字第028326號）核准**兩項適應症——T2D-related CKD 與心衰竭 LVEF≥40%**；惟**就 CKD 而言仍限 T2D-related CKD**，非糖尿病 CKD 尚非適應症內族群。
 - **健保**：給付是否正式生效及其條件，須以最新健保署公告／藥品給付規定為準。
 
 ---
