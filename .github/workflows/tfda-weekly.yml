@@ -1,0 +1,96 @@
+name: TFDA 醫藥監管週報草稿
+
+# Tier 1 自動化：每週自動抓取 TFDA 官方 RSS、初整成週報草稿，並開一個 draft PR 等醫師審閱。
+# 重要界線：本流程只「產草稿 + 開 PR」，不 push main、不自動發布。
+# 草稿一律 review_status: needs_physician_review（noindex、不列入列表/feed），需醫師審閱、
+# 翻 review_status → physician_reviewed 並 merge 後，才會由 Vercel 部署上線。
+
+on:
+  schedule:
+    # 每週一 00:00 UTC（= 台灣週一 08:00），涵蓋上一個整週（上週一至週日）
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+    inputs:
+      from:
+        description: '起日 YYYY-MM-DD（留空＝最近一週）'
+        required: false
+      to:
+        description: '迄日 YYYY-MM-DD（留空＝最近一週）'
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Compute week range
+        id: range
+        run: |
+          if [ -n "${{ github.event.inputs.to }}" ]; then
+            FROM="${{ github.event.inputs.from }}"
+            TO="${{ github.event.inputs.to }}"
+          else
+            FROM=$(date -u -d '-7 days' +%F)
+            TO=$(date -u -d '-1 day' +%F)
+          fi
+          echo "from=$FROM" >> "$GITHUB_OUTPUT"
+          echo "to=$TO" >> "$GITHUB_OUTPUT"
+          echo "週報區間：$FROM 至 $TO"
+
+      - name: Fetch TFDA + 產生草稿（--promote）
+        run: node scripts/fetch-tfda-updates.mjs --from "${{ steps.range.outputs.from }}" --to "${{ steps.range.outputs.to }}" --promote
+
+      - name: 計算 in-scope 項目數
+        id: scope
+        run: |
+          F="work/tfda/${{ steps.range.outputs.to }}/items.json"
+          if [ -f "$F" ]; then
+            N=$(node -e "const d=require('./'+process.argv[1]); console.log(d.filter(x=>x.include_in_public_weekly).length)" "$F")
+          else
+            N=0
+          fi
+          echo "count=$N" >> "$GITHUB_OUTPUT"
+          echo "in-scope 收錄候選：$N 則"
+
+      - name: 開 draft PR（僅當本週有 in-scope 項目）
+        if: steps.scope.outputs.count != '0'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ github.token }}
+          base: main
+          branch: tfda-weekly/${{ steps.range.outputs.to }}
+          delete-branch: true
+          add-paths: src/content/regulatory/*.md
+          commit-message: '醫藥監管週報草稿（自動）：${{ steps.range.outputs.from }} 至 ${{ steps.range.outputs.to }}'
+          title: '醫藥監管週報草稿｜${{ steps.range.outputs.from }} 至 ${{ steps.range.outputs.to }}'
+          body: |
+            自動抓取 TFDA 官方 RSS 產生的週報草稿（`review_status: needs_physician_review`，未公開）。
+
+            **收錄候選：${{ steps.scope.outputs.count }} 則。**
+
+            ### 審稿 checklist（合併前）
+            - [ ] 逐項核對官方原文連結可開、標題/日期相符
+            - [ ] 「可能影響」只寫「可能／需確認」，無過度延伸、無替主管機關下結論
+            - [ ] 法規措辭分清：預告／草案／正式生效不可混為一談
+            - [ ] 安全/回收項：批號等細節若在附件，已標「需查原文附件」未編造
+            - [ ] 補完 TL;DR 表格、`description`、`tags`，移除所有「（待審）」placeholder
+            - [ ] 通過 `npm run tfda:publish -- <slug>`（翻 review_status + 本地 commit）
+            - [ ] 確認 rendered 頁面後 push / merge → Vercel 上線
+
+            > 本 PR 由排程自動建立；分類與重要度僅供初判，臨床與法規意義以醫師審閱定稿為準。
+            > 不會自動合併、不會自動上線。

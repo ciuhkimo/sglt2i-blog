@@ -161,4 +161,26 @@ const ruralNephrology = defineCollection({
 	}),
 });
 
-export const collections = { sglt2i, patient, dialysis, blog, glp1ra, sexualHealth, finerenone, ckm, pa, ruralNephrology };
+// 台灣醫藥監管週報（TFDA regulatory weekly）
+// 與全站 first-person 臨床決策內容不同：這是策展彙整型專業更新欄位。
+// review_status gate：列表頁 / RSS / sitemap 只收 physician_reviewed；
+// needs_physician_review 草稿仍可由 URL 預覽，但加 noindex + 草稿 banner，不對外公開。
+const regulatory = defineCollection({
+	loader: glob({ base: './src/content/regulatory', pattern: '**/*.{md,mdx}' }),
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		last_updated: z.coerce.date(),
+		week_start: z.coerce.date().optional(),
+		week_end: z.coerce.date().optional(),
+		content_type: z.literal('regulatory_weekly').default('regulatory_weekly'),
+		review_status: z.enum(['needs_physician_review', 'physician_reviewed']).default('needs_physician_review'),
+		ai_assisted: z.boolean().default(true),
+		tags: z.array(z.string()),
+		audience: z.array(z.string()).default(['clinician', 'pharmacist', 'nurse', 'researcher']),
+		source_scope: z.array(z.string()).default([]),
+		seo_title: z.string().optional(),
+	}),
+});
+
+export const collections = { sglt2i, patient, dialysis, blog, glp1ra, sexualHealth, finerenone, ckm, pa, ruralNephrology, regulatory };

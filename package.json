@@ -11,7 +11,10 @@
     "preview": "astro preview",
     "astro": "astro",
     "verify:p0": "node scripts/verify-p0.mjs",
-    "build:verify": "npm run build && npm run verify:p0"
+    "build:verify": "npm run build && npm run verify:p0",
+    "tfda:fetch": "node scripts/fetch-tfda-updates.mjs",
+    "tfda:weekly": "node scripts/fetch-tfda-updates.mjs --weekly",
+    "tfda:publish": "node scripts/tfda-publish.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.3",

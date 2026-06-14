@@ -1,7 +1,7 @@
 import { OGImageRoute } from 'astro-og-canvas';
 import { getCollection } from 'astro:content';
 
-const [sglt2i, glp1ra, finerenone, ckm, pa, patient, dialysis, blog, sexualHealth, ruralNephrology] = await Promise.all([
+const [sglt2i, glp1ra, finerenone, ckm, pa, patient, dialysis, blog, sexualHealth, ruralNephrology, regulatory] = await Promise.all([
 	getCollection('sglt2i'),
 	getCollection('glp1ra'),
 	getCollection('finerenone'),
@@ -12,6 +12,7 @@ const [sglt2i, glp1ra, finerenone, ckm, pa, patient, dialysis, blog, sexualHealt
 	getCollection('blog'),
 	getCollection('sexualHealth'),
 	getCollection('ruralNephrology'),
+	getCollection('regulatory'),
 ]);
 
 type PageData = {
@@ -33,6 +34,7 @@ for (const e of dialysis) pages[`dialysis/${e.id}`] = { title: clean(e.data.titl
 for (const e of blog) pages[`blog/${e.id}`] = { title: clean(e.data.title), section: '臨床專題 ｜ Nephro Decisions' };
 for (const e of sexualHealth) pages[`sexual-health/${e.id}`] = { title: clean(e.data.title), section: '腎友與性 ｜ Nephro Decisions' };
 for (const e of ruralNephrology) pages[`rural-nephrology/${e.id}`] = { title: clean(e.data.title), section: '偏鄉腎臟照護 ｜ Nephro Decisions' };
+for (const e of regulatory) pages[`regulatory/${e.id}`] = { title: clean(e.data.title), section: '台灣醫藥監管週報 ｜ Nephro Decisions' };
 
 // Site-level pages
 pages['index'] = { title: 'Nephro Decisions', section: '腎臟科臨床決策知識庫｜台灣' };
@@ -55,6 +57,7 @@ pages['dialysis'] = { title: '透析衛教', section: 'Nephro Decisions' };
 pages['blog'] = { title: '臨床專題', section: 'Nephro Decisions' };
 pages['sexual-health'] = { title: '腎友與性', section: 'Nephro Decisions' };
 pages['rural-nephrology'] = { title: '偏鄉腎臟照護', section: 'Rural Nephrology ｜ Nephro Decisions' };
+pages['regulatory'] = { title: '台灣醫藥監管週報', section: 'TFDA 監管更新摘要 ｜ Nephro Decisions' };
 
 export const prerender = true;
 

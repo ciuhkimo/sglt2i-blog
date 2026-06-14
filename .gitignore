@@ -3,6 +3,9 @@ dist/
 # generated types
 .astro/
 
+# TFDA 監管週報腳本的內部草稿輸出（不得 commit／publish）
+work/tfda/
+
 # dependencies
 node_modules/
 

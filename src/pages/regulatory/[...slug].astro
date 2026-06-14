@@ -1,0 +1,22 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import RegulatoryLayout from '../../layouts/RegulatoryLayout.astro';
+
+// 草稿（needs_physician_review）仍建立路由，方便醫師以 URL 預覽；
+// 但 RegulatoryLayout 會對草稿加 noindex + 草稿 banner，且列表頁/RSS/sitemap 不收。
+export async function getStaticPaths() {
+	const posts = await getCollection('regulatory');
+	return posts.map((post) => ({
+		params: { slug: post.id },
+		props: post,
+	}));
+}
+type Props = CollectionEntry<'regulatory'>;
+
+const post = Astro.props;
+const { Content } = await render(post);
+---
+
+<RegulatoryLayout {...post.data}>
+	<Content />
+</RegulatoryLayout>
