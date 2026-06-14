@@ -10,7 +10,7 @@
  * Designed to be extended: add new check sections as new P0.5 items arrive.
  */
 
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -29,12 +29,6 @@ const URLS_TO_CHECK = [
 	'/patient/travel-dialysis-transplant/',
 	'/blog/rural-ckd5-vascular-access-timing/',
 	'/regulatory/',
-];
-
-// 醫藥監管週報草稿頁（needs_physician_review）：建路由供醫師預覽，但必須 noindex +
-// 不出現在已發布列表。新增一期未審草稿時把 URL 加進來，Check 9 會驗證 gate 生效。
-const REGULATORY_DRAFT_URLS = [
-	'/regulatory/2026-06-14-tfda-weekly/',
 ];
 
 let failures = 0;
@@ -277,45 +271,57 @@ for (const url of PIPE_LEAK_PAGES) {
 }
 
 // ============================================================
-// Check 9: 醫藥監管週報 — 草稿 gate（未審稿不可被發現）+ 專屬 RSS feed
+// Check 9: 醫藥監管週報 — 動態判定 draft/published（讀 content frontmatter）+ 專屬 RSS feed
+//   draft（needs_physician_review）：noindex + 草稿 banner + 不列入列表/feed
+//   published（physician_reviewed）：無 noindex + 在列表 + 在 feed
 // ============================================================
-console.log('\n## Check 9: /regulatory/ draft gate (noindex + 不列入列表/feed) + dedicated RSS\n');
+console.log('\n## Check 9: /regulatory/ 動態 draft/published gate + dedicated RSS\n');
 {
 	// 9a: 專屬 feed 存在且為合法 XML
 	const regRssPath = resolve(DIST, 'regulatory', 'rss.xml');
-	if (!existsSync(regRssPath)) {
+	const regRssRaw = existsSync(regRssPath) ? readFileSync(regRssPath, 'utf8') : '';
+	if (!regRssRaw) {
 		fail('dist/regulatory/rss.xml not found');
+	} else if (regRssRaw.startsWith('<?xml')) {
+		ok('/regulatory/rss.xml exists + valid <?xml declaration');
 	} else {
-		const regRss = readFileSync(regRssPath, 'utf8');
-		if (regRss.startsWith('<?xml')) ok('/regulatory/rss.xml exists + valid <?xml declaration');
-		else fail('/regulatory/rss.xml does not start with <?xml');
+		fail('/regulatory/rss.xml does not start with <?xml');
 	}
 
-	// 9b: listing 頁與 sitemap 內容，供 gate 比對
+	// 9b: 依 content frontmatter 的 review_status 動態驗證每期 gate
 	const listingHtml = readPage('/regulatory/') || '';
-	const sitemapPath = resolve(DIST, 'sitemap-0.xml');
-	const sitemap = existsSync(sitemapPath) ? readFileSync(sitemapPath, 'utf8') : '';
-	const regRssRaw = existsSync(resolve(DIST, 'regulatory', 'rss.xml'))
-		? readFileSync(resolve(DIST, 'regulatory', 'rss.xml'), 'utf8') : '';
-
-	for (const url of REGULATORY_DRAFT_URLS) {
+	const REG_DIR = resolve(__dirname, '..', 'src', 'content', 'regulatory');
+	const files = existsSync(REG_DIR) ? readdirSync(REG_DIR).filter((f) => f.endsWith('.md') || f.endsWith('.mdx')) : [];
+	for (const f of files) {
+		const slug = f.replace(/\.(md|mdx)$/, '');
+		const url = `/regulatory/${slug}/`;
+		const fm = readFileSync(resolve(REG_DIR, f), 'utf8');
+		const isDraft = /review_status:\s*needs_physician_review/.test(fm);
 		const html = readPage(url);
-		if (!html) { fail(`${url}: draft dist HTML not found`); continue; }
-		const slugPath = url; // e.g. /regulatory/2026-06-14-tfda-weekly/
+		if (!html) { fail(`${url}: dist HTML not found`); continue; }
 
 		const hasNoindex = /name="robots"\s+content="noindex/i.test(html);
-		const hasDraftBanner = /尚未經醫師審閱/.test(html);
-		const notInListing = !listingHtml.includes(`href="${slugPath}"`);
-		const notInFeed = !regRssRaw.includes(`nephrodecisions.com${slugPath}`) && !regRssRaw.includes(slugPath);
-		const notInSitemap = !sitemap.includes(`nephrodecisions.com${slugPath}`);
+		const inListing = listingHtml.includes(`href="${url}"`);
+		const inFeed = regRssRaw.includes(url);
 
-		if (hasNoindex && hasDraftBanner && notInListing && notInFeed) {
-			ok(`${url}: noindex + 草稿 banner + 未列入列表 + 未進 feed${notInSitemap ? ' + 未進 sitemap' : '（注意：仍在 sitemap，靠 noindex 去索引）'}`);
+		if (isDraft) {
+			const hasDraftBanner = /尚未經醫師審閱/.test(html);
+			if (hasNoindex && hasDraftBanner && !inListing && !inFeed) {
+				ok(`${url}: [draft] noindex + 草稿 banner + 未列入列表 + 未進 feed`);
+			} else {
+				if (!hasNoindex) fail(`${url}: [draft] 缺 noindex`);
+				if (!hasDraftBanner) fail(`${url}: [draft] 缺草稿 banner`);
+				if (inListing) fail(`${url}: [draft] 不應出現在已發布列表`);
+				if (inFeed) fail(`${url}: [draft] 不應出現在 feed`);
+			}
 		} else {
-			if (!hasNoindex) fail(`${url}: 缺 <meta name="robots" content="noindex">`);
-			if (!hasDraftBanner) fail(`${url}: 缺草稿 banner（尚未經醫師審閱）`);
-			if (!notInListing) fail(`${url}: 草稿出現在 /regulatory/ 已發布列表`);
-			if (!notInFeed) fail(`${url}: 草稿出現在 /regulatory/rss.xml`);
+			if (!hasNoindex && inListing && inFeed) {
+				ok(`${url}: [published] 無 noindex + 在列表 + 在 feed`);
+			} else {
+				if (hasNoindex) fail(`${url}: [published] 不應有 noindex`);
+				if (!inListing) fail(`${url}: [published] 應出現在列表`);
+				if (!inFeed) fail(`${url}: [published] 應出現在 feed`);
+			}
 		}
 	}
 }

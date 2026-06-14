@@ -5,7 +5,7 @@ last_updated: 2026-06-14
 week_start: 2026-06-08
 week_end: 2026-06-14
 content_type: regulatory_weekly
-review_status: needs_physician_review
+review_status: physician_reviewed
 ai_assisted: true
 tags:
   - TFDA
