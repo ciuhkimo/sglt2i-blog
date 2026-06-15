@@ -27,10 +27,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -69,9 +69,10 @@ jobs:
 
       - name: 開 draft PR（僅當本週有 in-scope 項目）
         if: steps.scope.outputs.count != '0'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ github.token }}
+          draft: true
           base: main
           branch: tfda-weekly/${{ steps.range.outputs.to }}
           delete-branch: true
