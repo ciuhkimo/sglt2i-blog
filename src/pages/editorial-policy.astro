@@ -3,12 +3,24 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_TITLE } from '../consts';
+import { organization } from '../lib/schema/organization';
+
+const pageLd = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'WebPage',
+	name: '編輯方針',
+	url: 'https://nephrodecisions.com/editorial-policy/',
+	description: 'Nephro Decisions 的編輯方針：產製流程、AI 使用透明度、證據標準、版本管理、勘誤與利益揭露。',
+	inLanguage: 'zh-Hant',
+	publisher: organization,
+});
 ---
 
 <!doctype html>
 <html lang="zh-Hant">
 	<head>
 		<BaseHead title={`編輯方針 | ${SITE_TITLE}`} description="Nephro Decisions 的編輯方針：產製流程、AI 使用透明度、證據標準、版本管理、勘誤與利益揭露。" />
+		<script type="application/ld+json" set:html={pageLd} />
 		<style>
 			main {
 				width: 720px;

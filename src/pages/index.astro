@@ -16,6 +16,7 @@ const sexualHealthNotes = await getCollection('sexualHealth');
 const patientNotes = await getCollection('patient');
 const dialysisNotes = await getCollection('dialysis');
 const blogNotes = await getCollection('blog');
+const ruralNephrologyNotes = await getCollection('ruralNephrology');
 
 const totalDecisionNotes = sglt2iNotes.length + glp1raNotes.length + finerenoneNotes.length + ckmNotes.length + paNotes.length;
 const totalAll = totalDecisionNotes + sexualHealthNotes.length + patientNotes.length + dialysisNotes.length + blogNotes.length;
@@ -92,6 +93,7 @@ const latestSexualHealth = getLatestDate(sexualHealthNotes);
 const latestPatient = getLatestDate(patientNotes);
 const latestDialysis = getLatestDate(dialysisNotes);
 const latestBlog = getLatestDate(blogNotes);
+const latestRural = getLatestDate(ruralNephrologyNotes);
 
 const groups = [
 	{
@@ -162,13 +164,13 @@ const groups = [
 			{
 				title: '偏鄉腎臟照護',
 				description: '南部偏鄉地區腎臟科視角，CKD 早期、CKD5 透析準備、HD/PD 在地照護、AKI 上轉、移植 shared care、CKM 與末期腎病安寧的完整 care continuum。',
-				count: 1,
+				count: ruralNephrologyNotes.length,
 				unit: '篇 hub',
 				href: '/rural-nephrology/',
 				color: '#f0f5ee',
 				accent: '#4a6a3a',
 				icon: '🏞️',
-				latest: new Date('2026-05-09'),
+				latest: latestRural,
 			},
 			{
 				title: '腎友與性',

@@ -3,7 +3,7 @@ question_id: Q8
 title: 腎上腺意外瘤合併高血壓 — 何時懷疑 PA、何時 workup、何時手術
 category: Workup-Decision
 version: v1.1
-status: Final Draft
+status: ""
 last_updated: 2026-05-14
 next_review: 2027-05-14
 seo_title: "腎上腺長瘤又高血壓怎麼辦？2023 ESE + 2025 ES 完整 workup 框架（PA / 嗜鉻細胞瘤 / MACS / 惡性鑑別）"

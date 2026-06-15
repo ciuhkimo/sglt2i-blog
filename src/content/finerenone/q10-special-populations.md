@@ -4,8 +4,8 @@ title: "Finerenone 於特殊族群的證據邊界與處方指引"
 category: "特殊族群"
 version: "v1.2"
 status: ""
-last_updated: 2026-04-29
-next_review: 2027-04-29
+last_updated: 2026-06-13
+next_review: 2027-06-13
 tags: [finerenone, elderly, frailty, kidney-transplant, dialysis, hepatic-impairment, pregnancy, IgA-nephropathy, non-diabetic-CKD, decision-note]
 description: "Finerenone 在老年（含 ≥75 歲）、frailty、腎臟移植受贈者、dialysis、肝功能不全、懷孕哺乳、兒童及非糖尿病 CKD（含 IgAN）等特殊族群的證據邊界，區分 RCT subgroup、post-hoc 與純外推。"
 quick_answer: "老年（含 ≥75 歲）有 phase 3 subgroup evidence 支持 CV 獲益一致，不需因年齡降劑量。Frailty 為 post-hoc 分析，非 dedicated RCT。腎臟移植受贈者為 off-label（pivotal trials 排除）。Dialysis 無直接 trial。Child-Pugh C / pregnancy / pediatric 避免使用。非糖尿病 CKD（含 IgAN）：FIND-CKD（2026, NEJM）已提供 RCT 級證據，其 prespecified glomerular subgroup（JAMA 2026；IgAN/FSGS/MN，亞洲 62%）顯示 eGFR slope 保護與降白蛋白尿，但屬 subgroup、primary 為 slope surrogate，且在台灣非糖尿病 CKD 仍非核准適應症。"

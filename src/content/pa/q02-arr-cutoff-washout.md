@@ -309,7 +309,7 @@ flowchart TD
 
 ## 跨 cluster 深化
 
-- [Finerenone Q08 — 監測與安全](/finerenone/q08-monitoring-safety/) — MR antagonist 家族監測原則
+- [Finerenone Q08 — 監測頻率](/finerenone/q08-monitoring-frequency/) — MR antagonist 家族監測原則
 - [SGLT2i Q01 — CKD 啟用時機](/sglt2i/q01-ckd-start-timing/) — 心腎代謝交界用藥
 - [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科 PA 篩檢與轉介視角
 

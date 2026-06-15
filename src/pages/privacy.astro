@@ -3,12 +3,24 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_TITLE } from '../consts';
+import { organization } from '../lib/schema/organization';
+
+const pageLd = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'WebPage',
+	name: '隱私權政策',
+	url: 'https://nephrodecisions.com/privacy/',
+	description: 'Nephro Decisions 隱私權政策：說明本站如何處理訪客資料、使用 Google Analytics、Buttondown 電子報訂閱與 Cookie。',
+	inLanguage: 'zh-Hant',
+	publisher: organization,
+});
 ---
 
 <!doctype html>
 <html lang="zh-Hant">
 	<head>
 		<BaseHead title={`隱私權政策 | ${SITE_TITLE}`} description="Nephro Decisions 隱私權政策：說明本站如何處理訪客資料、使用 Google Analytics、Buttondown 電子報訂閱與 Cookie。" />
+		<script type="application/ld+json" set:html={pageLd} />
 		<style>
 			main {
 				width: 720px;

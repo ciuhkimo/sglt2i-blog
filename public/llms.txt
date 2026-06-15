@@ -8,6 +8,7 @@
 - [GLP-1 RA Decision Notes](https://nephrodecisions.com/glp1ra/): 10 clinical decision questions on GLP-1 receptor agonists in CKD — FLOW trial, sequencing with SGLT2i, Taiwan NHI coverage.
 - [Finerenone Decision Notes](https://nephrodecisions.com/finerenone/): 11 clinical decision questions — mechanism, hyperkalemia management, FIDELIO/FIGARO/FIDELITY evidence, Taiwan NHI status.
 - [CKM Syndrome Decision Notes](https://nephrodecisions.com/ckm/): 15 clinical decision questions on Cardiovascular-Kidney-Metabolic syndrome — AHA 2023 staging, cardiorenal syndrome types, four-pillar integration, CV risk stratification.
+- [Primary Aldosteronism (PA) Decision Notes](https://nephrodecisions.com/pa/): 9 clinical decision questions on primary aldosteronism in Taiwan nephrology practice — screening, ARR cutoff & washout, confirmatory testing, AVS lateralization, surgery vs MRA, CKD-PA, atrial fibrillation, NHI coverage. Based on 2025 Endocrine Society, 2024 ESC HTN, Taipei Positional Paper, TAIPAI.
 
 ## Patient Education
 
@@ -19,6 +20,16 @@
 
 - [DKD Four-Pillar Therapy Guide 2026](https://nephrodecisions.com/blog/dkd-four-pillars-2026/): Comprehensive integration of ACEi/ARB + SGLT2i + Finerenone + GLP-1 RA with Taiwan NHI context.
 - [Taiwan ESRD 20-Year Trends](https://nephrodecisions.com/blog/taiwan-esrd-20y-clinical/): 2000-2022 dialysis epidemiology, mortality, transplant rates.
+- [VERVE-102: PCSK9 Base Editing — "New Era" Not Yet Here for CKD](https://nephrodecisions.com/blog/verve-102-ckd-new-era/): Critical appraisal of one-shot PCSK9 gene editing and the evidence gaps for kidney patients.
+- [KDIGO 2026 Anemia Guideline — 8 Actions for Dialysis Units + Taiwan Practice](https://nephrodecisions.com/blog/kdigo-2026-anemia-taiwan/): Immediately adoptable changes with Taiwan NHI context.
+
+## Rural Nephrology
+
+- [Rural Nephrology Series](https://nephrodecisions.com/rural-nephrology/): District-hospital nephrology in rural southern Taiwan — scope and referral boundaries for CKD, HD/PD, AKI, transplant shared care, and conservative / end-of-life kidney care.
+
+## Regulatory Watch
+
+- [Taiwan Drug & Device Regulatory Weekly](https://nephrodecisions.com/regulatory/): Weekly digest of TFDA recalls, approvals, and safety actions relevant to nephrology. Physician-reviewed before publication; unreviewed drafts are noindexed and excluded from listings/RSS.
 
 ## Trust & Editorial
 

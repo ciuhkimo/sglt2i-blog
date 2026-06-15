@@ -3,12 +3,24 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_TITLE } from '../consts';
+import { organization } from '../lib/schema/organization';
+
+const pageLd = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'WebPage',
+	name: '醫療免責聲明',
+	url: 'https://nephrodecisions.com/disclaimer/',
+	description: 'Nephro Decisions 醫療免責聲明：本站內容為臨床教育與決策輔助用途，不構成醫療建議，不建立醫病關係。',
+	inLanguage: 'zh-Hant',
+	publisher: organization,
+});
 ---
 
 <!doctype html>
 <html lang="zh-Hant">
 	<head>
 		<BaseHead title={`醫療免責聲明 | ${SITE_TITLE}`} description="Nephro Decisions 醫療免責聲明：本站內容為臨床教育與決策輔助用途，不構成醫療建議，不建立醫病關係。" />
+		<script type="application/ld+json" set:html={pageLd} />
 		<style>
 			main {
 				width: 720px;

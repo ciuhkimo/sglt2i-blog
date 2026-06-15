@@ -59,6 +59,7 @@ const breadcrumbLd = JSON.stringify({
 <html lang="zh-Hant">
 	<head>
 		<BaseHead title={seo_title || `${title} — 台灣醫藥監管週報`} description={description} />
+		<link rel="alternate" type="application/rss+xml" title="台灣醫藥監管週報" href="/regulatory/rss.xml" />
 		{isDraft && <meta name="robots" content="noindex, nofollow" />}
 		<script type="application/ld+json" set:html={jsonLd} />
 		{!isDraft && <script type="application/ld+json" set:html={breadcrumbLd} />}
