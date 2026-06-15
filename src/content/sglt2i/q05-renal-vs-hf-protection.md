@@ -355,3 +355,4 @@ SGLT2 抑制劑同時提供**腎保護與心臟保護**，兩者並非二擇一�
 - [Finerenone Q05 — HF+CKD 角色](/finerenone/q05-hf-ckd-role/)
 - [CKM Q06 — HF 藥物在 CKD 的門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
 - [CKM Q04 — CKD+HF 容量評估](/ckm/q04-volume-assessment/)
+- [台灣醫藥監管週報](/regulatory/) — 每週彙整食藥署 TFDA 藥品安全、回收與法規公告

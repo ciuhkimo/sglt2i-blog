@@ -123,7 +123,7 @@ seo_title: "FIDELIO/FIGARO/FIDELITY＋FIND-CKD/INFINITY 解讀｜Finerenone 證�
 ### 台灣
 
 - **TFDA**：Kerendia（衛部藥輸字第028326號）核准**兩項適應症——T2D-related CKD 與心衰竭 LVEF≥40%**；惟**就 CKD 而言仍限 T2D-related CKD**，非糖尿病 CKD 尚非適應症內族群。
-- **健保**：給付是否正式生效及其條件，須以最新健保署公告／藥品給付規定為準。
+- **健保**：給付是否正式生效及其條件，須以最新健保署公告／藥品給付規定為準。台灣 TFDA 仿單與健保給付的最新動態，可追蹤本站[醫藥監管週報](/regulatory/)（每週彙整食藥署公告）。
 
 ---
 
