@@ -31,7 +31,7 @@ seo_title: "Q12 eGFR <20 的 CKM 藥物策略（Advanced CKD） | CKM Syndrome �
 
 2. **SGLT2i 要分「起始門檻」與「跌破 20 後續用」。** KDIGO 2024 支持在 **eGFR ≥20** 時依適應症起始；若已起始，**即使跌破 20**，也可持續到 **不耐受或開始 KRT**。這不等於支持在 **eGFR <20 de novo initiation**。[3]
 
-3. **Finerenone 目前仍以 T2D + albuminuric CKD + eGFR >25 為核心適應範圍。** FIND-CKD 2026 只有 topline 正向結果；完整 peer-reviewed outcome data 尚未發表，因此還不足以把「非糖尿病 advanced CKD routine 使用 finerenone」當成已定案的新標準。[3,8-11]
+3. **Finerenone 目前仍以 T2D + albuminuric CKD + eGFR >25 為核心適應範圍。** FIND-CKD 已正式發表（NEJM 2026, PMID 42246672），primary eGFR slope endpoint 達標；但 primary 為 slope surrogate，且發表 ≠ label expansion，台灣 finerenone CKD 適應症仍限 T2D-related CKD，因此還不足以把「非糖尿病 advanced CKD routine 使用 finerenone」當成已定案的新標準。[3,8-11]
 
 4. **透析病人不應 routine 新起始 spironolactone 只為心衰或心血管保護。** ACHIEVE、ALCHEMIST 與更新系統性回顧/統合分析都不支持這樣做。[12-14]
 
@@ -49,7 +49,7 @@ Advanced CKD 的用藥邏輯，近年已從「到了低 eGFR 就一直撤藥」�
 
 - 把 **arbitrary eGFR threshold** 當成停 RASi 的唯一理由
 - 把 **SGLT2i 的 continuation evidence** 誤寫成 **<20 也可常規新起始**
-- 把 **FIND-CKD topline** 當成已完全改寫 finerenone 適應症
+- 把 **FIND-CKD（NEJM 2026, PMID 42246672）已正式發表** 當成已完全改寫 finerenone 適應症（發表 ≠ label expansion，non-DM CKD 仍非核准適應症、仍 investigational）
 - 在 **maintenance dialysis** 仍用早期小型研究外推 routine spironolactone
 - 把 **post hoc tirzepatide cardiorenal analysis** 當成 primary hard-endpoint superiority evidence
 
@@ -99,7 +99,7 @@ RASi 在 advanced CKD 的較準確結論是：**低 eGFR 本身不是停藥理�
 | **KDIGO 2024** | 建議對 **T2D + CKD + persistent albuminuria**、**eGFR >25**、且血鉀正常、已用最大耐受 RASi 的成人考慮 **nonsteroidal MRA**。[3] |
 | **Label / SmPC** | **eGFR <25 不建議新起始**；若病人已進展到 **ESRD / eGFR <15**，應停用。[8,9] |
 | **FIND-CKD trial design** | FIND-CKD 是首個 phase 3、納入 non-diabetic CKD 的 finerenone 試驗；設計針對不同非糖尿病 CKD 病因，主軸是 eGFR slope / CKD progression。[10] |
-| **FIND-CKD topline（2026-03）** | Bayer 官方宣布 primary endpoint 達標，顯示 finerenone 延緩 non-diabetic CKD progression；但**目前仍屬 topline / press release**，完整 peer-reviewed outcome dataset 未正式發表。[11] |
+| **FIND-CKD（NEJM 2026 正式發表）** | 已正式發表（Heerspink et al., NEJM 2026, PMID 42246672）。primary eGFR slope endpoint 達標（slope surrogate），顯示 finerenone 延緩 non-diabetic CKD progression；但發表 ≠ label expansion，non-diabetic CKD 在台灣仍非核准適應症、仍 investigational，long-term hard kidney-failure outcome 尚未確認。[11] |
 
 **修正版臨床語句：**
 - **新起始 finerenone**：仍以 **eGFR >25 + T2D + albuminuria** 為主要證據與 guideline/label 支撐區。
@@ -270,7 +270,7 @@ KRT 準備同步進行：
    → 不正確。KDIGO 支持的是 **eGFR ≥20 起始**、以及 **已起始者跌破 20 可續用**。[3]
 
 3. **「FIND-CKD 已經讓 finerenone 擴展到非糖尿病 CKD」**
-   → 目前只能寫成 **topline positive，完整 peer-reviewed outcome data 待發表**。[10,11]
+   → 不正確。FIND-CKD 已正式發表（NEJM 2026, PMID 42246672）、primary eGFR slope endpoint 達標，但**發表 ≠ label expansion**；非糖尿病 CKD 在台灣仍非核准適應症、仍 investigational，routine use 尚不成立，需待 guideline / label 更新。[10,11]
 
 4. **「透析 spironolactone 完全無效，所以所有 steroidal MRA 都該退出 low-GFR 心衰治療」**
    → 過頭。正確是：**在 maintenance dialysis 的 routine 新起始不支持**；但非透析、明確 HFrEF 的情境不等同於這個結論。[12-14]
@@ -287,7 +287,7 @@ KRT 準備同步進行：
 
 ### 高不確定
 - **eGFR <20 的 de novo SGLT2i initiation**：目前仍缺專門 randomized evidence。
-- **Finerenone 在 non-diabetic advanced CKD 的正式定位**：需等 FIND-CKD 完整發表與 guideline / label 更新。[10,11]
+- **Finerenone 在 non-diabetic advanced CKD 的正式定位**：FIND-CKD 已正式發表（NEJM 2026, PMID 42246672）、primary eGFR slope endpoint 達標，但 primary 為 slope surrogate、long-term hard kidney-failure outcome 尚未確認；正式定位仍需等 guideline / label 更新（發表 ≠ label expansion）。[10,11]
 - **KTR routine SGLT2i use**：仍待 RENAL LIFECYCLE 等 randomized data。[6]
 
 ### 中度不確定
@@ -308,7 +308,7 @@ KRT 準備同步進行：
 8. EMA. *Kerendia (finerenone) Summary of Product Characteristics.* 近版仿單：進展至 ESRD / eGFR <15 時應停用。
 9. Bayer / official product monograph. *KERENDIA (finerenone).* eGFR <25 不建議新起始。
 10. Heerspink HJL, et al. *Design and baseline characteristics of the FIND-CKD randomized trial.* **Nephrol Dial Transplant.** PMID: 38858818.
-11. Bayer. *Finerenone meets primary endpoint in pivotal Phase III FIND-CKD study in patients with non-diabetic CKD.* Press release, 2026-03-16. （topline，完整 peer-reviewed outcome data 待發表）
+11. Heerspink HJL, et al. *Finerenone in Patients with Chronic Kidney Disease without Diabetes (FIND-CKD).* **N Engl J Med.** 2026. PMID: 42246672. NCT05047263. （正式發表；primary eGFR slope endpoint 達標）｜先前 topline：Bayer press release, 2026-03-16（保留為歷史）
 12. ACHIEVE Investigators. *Spironolactone versus placebo in patients undergoing maintenance dialysis (ACHIEVE).* **Lancet.** 2025;406(10504):695-704. DOI: 10.1016/S0140-6736(25)01198-5.
 13. Rossignol P, et al. *Spironolactone in patients on chronic haemodialysis at high risk of adverse cardiovascular outcomes (ALCHEMIST).* **Lancet.** 2025;406(10504):705-718. DOI: 10.1016/S0140-6736(25)01194-8.
 14. Pyne L, et al. *Safety and efficacy of steroidal mineralocorticoid receptor antagonists in patients with kidney failure requiring dialysis: systematic review and meta-analysis of randomized controlled trials.* PMID: 40840478.

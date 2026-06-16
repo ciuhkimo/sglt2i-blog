@@ -38,7 +38,7 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 2. **Atrasentan（Vanrafia）目前是 FDA accelerated approval for proteinuria reduction in primary IgAN**，不是已完成 hard renal outcome 驗證。
 3. **Vanrafia 的正式禁忌不是『HF』**；目前 label 可直接確認的是 pregnancy 與 hypersensitivity，fluid retention / hepatotoxicity 為重要警語。
 4. **Baxdrostat 仍屬 resistant / uncontrolled HTN 的後期研發與審查階段**，不能寫成已可常規處方。
-5. **Finerenone 在非糖尿病 CKD 的擴展，目前仍是 FIND-CKD positive topline + planned filing**，不能寫成已完成 label expansion。
+5. **Finerenone 在非糖尿病 CKD 的擴展，FIND-CKD 已於 2026 在 NEJM 正式發表（PMID 42246672）、primary endpoint 達標**，但這是 trial publication，**不能寫成已完成 label expansion**。
 
 ---
 
@@ -53,7 +53,7 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 5. **Finerenone 的真正現況要分開寫**：
    - 已核准：**CKD associated with T2D**（美國、台灣）
    - 美國另已擴展：**HF with LVEF ≥40%**
-   - 仍未核准：**non-diabetic CKD**（FIND-CKD 僅 positive topline）
+   - 仍未核准：**non-diabetic CKD**（FIND-CKD 已於 NEJM 2026 正式發表、primary 達標，但仍未轉成 label expansion）
 
 ---
 
@@ -64,7 +64,8 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 - **已核准且有 hard outcome / label 支持**：例如 semaglutide（T2D+CKD）、finerenone（T2D-associated CKD；另美國已擴展至 HF with LVEF ≥40%）
 - **已核准但基於 surrogate endpoint**：例如 atrasentan in primary IgAN（proteinuria reduction）
 - **trial positive 但仍非該領域 label**：例如 tirzepatide in obesity-related HFpEF、tirzepatide cardiorenal post hoc analyses
-- **positive phase 3 / regulatory review / topline only**：例如 baxdrostat、finerenone in non-diabetic CKD
+- **positive phase 3（已發表）但尚未轉成該領域 label**：例如 finerenone in non-diabetic CKD（FIND-CKD, NEJM 2026, PMID 42246672）
+- **positive phase 3 / regulatory review / topline only**：例如 baxdrostat
 
 這會直接影響三件事：
 
@@ -82,7 +83,7 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 | **Tirzepatide** | SUMMIT、SURPASS-4 post hoc、SURPASS-CVOT + official labels | CKM 訊號強，但腎臟與 HFpEF 仍非已查核到的官方腎臟 / HFpEF label | 已核准 T2D；另有 obesity / OSA in obesity indications；非 kidney label | 常由 diabetes / obesity / HF pathway 先遇到 |
 | **Atrasentan (Vanrafia)** | ALIGN + FDA accelerated approval | primary IgAN、快速進展風險高、以蛋白尿下降為目前核准基礎 | 美國已核准；hard renal outcome confirmatory data 待完成 | nephrology-facing add-on 藥物 |
 | **Baxdrostat** | BrigHTN / BaxHTN + FDA Priority Review 接受 | aldosterone synthase inhibitor，對 uncontrolled / resistant HTN 有明顯降壓效果 | 審查中 / 尚未視為 routine-use drug | 先追蹤，不當作已可常規處方 |
-| **Finerenone** | official labels + FIND-CKD design / topline | 已核准 T2D-associated CKD；美國另已核准 HF with LVEF ≥40%；non-DM CKD 僅 positive topline | non-DM CKD 仍 investigational | 不能把 FIND-CKD 當已完成擴證 |
+| **Finerenone** | official labels + FIND-CKD（NEJM 2026, PMID 42246672）| 已核准 T2D-associated CKD；美國另已核准 HF with LVEF ≥40%；non-DM CKD：FIND-CKD 已正式發表、primary 達標 | non-DM CKD 仍 investigational | 不能把 FIND-CKD 當已完成擴證 |
 
 ---
 
@@ -345,21 +346,23 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 
 - FIND-CKD（ClinicalTrials.gov: **NCT05047263**）是 finerenone 在 **non-diabetic CKD** 的 phase 3 trial。
 - PubMed 可查到 design / baseline paper，明確指出這是 **first phase 3 trial of finerenone in CKD of non-diabetic aetiology**。
-- 2026-03 Bayer topline 宣布：
-  - **primary endpoint met**
-  - 對 primary efficacy outcome（eGFR slope）有 statistically significant improvement vs placebo
-  - 後續計畫送 FDA 擴展 non-diabetic CKD indication
+- 發表進程：2026-03 Bayer 先以 topline 宣布 primary endpoint met；**完整結果已於 2026 在 NEJM 正式發表**（Heerspink et al., *N Engl J Med* 2026, PMID 42246672）。
+- 已正式發表的關鍵結果：
+  - **primary endpoint met**：primary efficacy outcome（eGFR slope）相較 placebo 有 statistically significant improvement（差約 +0.7 mL/min/1.73 m²/年, P<0.001）
+  - composite kidney-or-CV：**HR 0.77（0.60–0.99）**
+  - **primary 為 eGFR slope surrogate，長期 hard kidney-failure outcome 尚未確認**
+  - 後續仍須送 FDA 擴展 non-diabetic CKD indication（發表 ≠ label expansion）
 
 ### 3. 這裡最重要的查核結論
 
 **目前可以寫：**
-- FIND-CKD 已出現正向 topline，代表 non-diabetic CKD 擴展有真實進展。
-- 但 **截至 2026-04-21，本次查核未看到已完成的 peer-reviewed primary results publication，也未看到官方 label expansion 已核准**。
+- FIND-CKD 完整結果**已於 2026 在 NEJM 正式發表**（PMID 42246672）、primary endpoint 達標，代表 non-diabetic CKD 擴展有真實證據進展。
+- 但 **正式發表 ≠ label expansion；截至本版，官方 label expansion 尚未核准，primary 為 eGFR slope surrogate，long-term hard kidney outcome 尚未確認**。
 
 **因此不能寫：**
 - finerenone 已正式核准 non-DM CKD
 - 可 routine 用於所有 albuminuric non-diabetic CKD
-- FIND-CKD 已足以取代 publication / regulatory review
+- FIND-CKD 正式發表已足以取代 regulatory review / label 更新
 
 ### 4. 台灣可近性
 
@@ -432,7 +435,7 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 
 ```text
 若是 finerenone in non-diabetic CKD
-→ 只能寫成 positive topline + pending publication / filing / review
+→ 寫成「FIND-CKD 已正式發表（NEJM 2026, PMID 42246672）、primary 達標，但仍 pending filing / label review」
 → 不能當成已完成擴證
 ```
 
@@ -443,14 +446,15 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 | **official hard-outcome / label-backed** | semaglutide in T2D+CKD；finerenone in T2D-associated CKD | 可以寫成「已成立、可落地」 |
 | **accelerated approval on surrogate** | atrasentan in primary IgAN | 可以用，但要保留 confirmatory uncertainty |
 | **secondary / post hoc signal** | tirzepatide kidney / cardiorenal analyses | 可以寫「有力訊號」，不要寫成正式腎臟適應症 |
-| **phase 3 positive / NDA review / topline** | baxdrostat；FIND-CKD | 只能寫「值得追蹤」，不能寫 routine use |
+| **phase 3 positive / NDA review / topline** | baxdrostat | 只能寫「值得追蹤」，不能寫 routine use |
+| **phase 3 已正式發表、surrogate primary、label 未更新** | FIND-CKD（finerenone in non-DM CKD, NEJM 2026, PMID 42246672）| 可寫「已發表、primary 達標」，但 non-DM CKD 仍 investigational、不可 routine use |
 
 #### 3. 與既有基礎治療整合時，不要本末倒置
 
 - **IgAN**：supportive care / RAS blockade / 適用時 SGLT2i 仍是地基；atrasentan 是 add-on，不是取代地基。
 - **T2D + CKD + obesity**：tirzepatide 可以大幅影響體重、代謝與 broader CKM 風險，但不應拿來取代已落地的腎保護藥。
 - **resistant HTN**：baxdrostat 若未來核准，才進入 add-on discussion；目前仍以既有 HTN / CKD 治療邏輯為主。
-- **non-diabetic CKD**：不要因 FIND-CKD topline 正向，就跳過 publication / peer review / label review。
+- **non-diabetic CKD**：FIND-CKD 雖已正式發表（NEJM 2026）、primary 達標，仍不要跳過 label review；發表 ≠ label expansion，routine use 尚不成立。
 
 ---
 
@@ -468,8 +472,8 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 4. **把 Baxdrostat 寫成已可 routine 處方的新一線藥物**
    - 目前較準確的是 advanced development + regulatory review
 
-5. **把 FIND-CKD topline 當成 finerenone 已完成 non-DM CKD 擴證**
-   - 這在 high-stakes note 會造成過度前移
+5. **把 FIND-CKD 正式發表當成 finerenone 已完成 non-DM CKD 擴證 / label expansion**
+   - FIND-CKD 已發表（NEJM 2026, PMID 42246672）、primary 達標，但發表 ≠ 擴證完成；這在 high-stakes note 會造成過度前移
 
 6. **把未直接驗證的台灣上市 / 健保 / 替代藥資訊寫成定論**
    - 尤其是 Vanrafia / Baxdrostat / Sparsentan 的本地可近性
@@ -498,7 +502,7 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 
 - ALIGN 後續腎功能資料與 confirmatory outcome updates
 - Baxdrostat 監管結論與後續 CKD program
-- FIND-CKD peer-reviewed full publication
+- FIND-CKD 發表後的 label / guideline 更新進程（full publication 已於 NEJM 2026 完成, PMID 42246672）
 - 各藥物在 KDIGO / ADA / HF guideline 的整合方式與排序
 
 ---
@@ -545,8 +549,9 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
    https://www.astrazeneca.com/media-centre/press-releases/2025/baxdrostat-new-drug-application-accepted-under-fda-priority-review-in-the-us-for-patients-with-hard-to-control-hypertension.html
 10. AstraZeneca. **BaxHTN phase 3 full results press release** (2025-08-30).
    https://www.astrazeneca.com/media-centre/press-releases/2025/baxdrostat-demonstrated-statistically-significant-clinically-meaningful-reduction-sbp-patients-hard-control-hypertension-baxhtn-phase-iii-trial.html
-11. Bayer. **FIND-CKD topline press release** (2026-03-16).
-   https://www.bayer.com/en/us/news-stories/kerendiar-meets-primary-endpoint
+11. Heerspink HJL, et al. **Finerenone in Patients with Chronic Kidney Disease without Diabetes (FIND-CKD).** N Engl J Med. 2026. PMID: **42246672** (NCT05047263; primary eGFR slope met, composite kidney-or-CV HR 0.77 [0.60–0.99]).
+   https://pubmed.ncbi.nlm.nih.gov/42246672/
+   - （歷史）Bayer. FIND-CKD topline press release (2026-03-16). https://www.bayer.com/en/us/news-stories/kerendiar-meets-primary-endpoint
 
 ### PubMed / journal articles
 12. Perkovic V, et al. **Effects of Semaglutide on Chronic Kidney Disease in Patients with Type 2 Diabetes.** N Engl J Med. 2024. PMID: **38785209**.

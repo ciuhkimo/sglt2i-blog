@@ -88,7 +88,7 @@ seo_title: "Steroidal vs Nonsteroidal MRA｜Finerenone 選擇時機比較"
 
 ### 中度不確定
 
-- Non-diabetic CKD（FIND-CKD topline positive，全文待刊）
+- Non-diabetic CKD（FIND-CKD 已正式發表：NEJM 2026, PMID 42246672；primary eGFR slope 達標）— 但 primary 為 eGFR slope surrogate，長期 hard kidney-failure outcome 尚未確認；非糖尿病 CKD 在台灣仍非核准適應症（美國亦僅核准 T2D-associated CKD + HF LVEF ≥40%，non-DM CKD 仍 investigational），發表 ≠ label expansion，尚不構成 routine use，需待 guideline / label 更新
 - 早期合併 finerenone + SGLT2i 的硬終點價值（CONFIDENCE 仍是 surrogate）
 
 ---
@@ -107,6 +107,7 @@ seo_title: "Steroidal vs Nonsteroidal MRA｜Finerenone 選擇時機比較"
   8. Pitt B, et al. N Engl J Med. 1999. PMID: 10471456.
   9. Zannad F, et al. N Engl J Med. 2011. PMID: 21073363.
   10. Williams B, et al. Lancet. 2015. PMID: 26414968.
+  11. Heerspink HJL, et al. FIND-CKD. N Engl J Med. 2026. PMID: 42246672.
 
 ---
 

@@ -8,7 +8,7 @@ last_updated: 2026-05-27
 next_review: 2026-08-27
 tags: [finerenone, SGLT2i, GLP-1RA, sequencing, combination, decision-note, DKD, NDKD, non-diabetic-CKD]
 description: "在已接受 max tolerated ACEi/ARB 的 DKD 病人，finerenone 如何與 SGLT2i 及 GLP-1 RA 排序與合併？依 KDIGO 2024、ADA 2026、CONFIDENCE 與 FIDELITY 查核修訂；v1.2 新增非糖尿病 CKD（NDKD）排序；v1.4 新增 rapid eGFR decliner 穩定性檢查（Yang 2026）；v1.5（2026-05-27）新增 FIVE-STAR secondary analysis（Tanaka 2026, PMID 42180819）— 慢性 SGLT2i 背景對 finerenone K⁺ 上升的衰減訊號 vs CONFIDENCE 不一致。"
-quick_answer: "預設仍以 SGLT2i 為 first add-on；符合 albuminuria / eGFR / K 條件時加 finerenone；GLP-1 RA 依 glycemic / obesity / ASCVD / direct kidney-outcome evidence 前移。ADA 2026 已新增：T2D + UACR ≥100 + eGFR 30-90 + RASi 的成人可考慮 SGLT2i + finerenone simultaneous initiation。NDKD（含 IgAN / FSGS）目前僅有 NMA-level surrogate 證據（Chen 2026），正式答案仍待 FIND-CKD fulltext。"
+quick_answer: "預設仍以 SGLT2i 為 first add-on；符合 albuminuria / eGFR / K 條件時加 finerenone；GLP-1 RA 依 glycemic / obesity / ASCVD / direct kidney-outcome evidence 前移。ADA 2026 已新增：T2D + UACR ≥100 + eGFR 30-90 + RASi 的成人可考慮 SGLT2i + finerenone simultaneous initiation。NDKD（含 IgAN / FSGS）的 FIND-CKD 已正式發表（NEJM 2026, PMID 42246672），primary eGFR slope 達標，但屬 surrogate-led，且台灣非糖尿病 CKD 仍非核准適應症、發表 ≠ label expansion。"
 seo_title: "Finerenone vs SGLT2i vs GLP-1 RA 排序策略｜DKD 合併用藥"
 ---
 
@@ -106,7 +106,7 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
 
 | 來源 | 性質 | 對排序問題的回答 |
 |---|---|---|
-| **FIND-CKD（NCT05047263）** | finerenone monotherapy phase 3 RCT in NDKD | 2026-03 已 announce topline positive；fulltext 待刊；此為**未來最重要的 anchor** |
+| **FIND-CKD（NCT05047263）** | finerenone monotherapy phase 3 RCT in NDKD | 已正式發表（Heerspink et al., NEJM 2026, PMID 42246672）；primary eGFR slope 達標（差約 +0.7 mL/min/1.73m²/年, P<0.001）、composite kidney-or-CV HR 0.77（0.60–0.99）；primary 為 slope surrogate，長期 hard kidney-failure outcome 尚未確認；發表 ≠ label expansion，此為 NDKD 之主要 anchor |
 | **Chen 2026 NMA**（PMID 42030206；Bayesian NMA, 18 RCTs） | 跨類別 indirect comparison | 提出 phenotype-driven framework：**蛋白尿主導 → nsMRA；eGFR 急遽下降主導 → SGLT2i** |
 | **DAPA-CKD / EMPA-KIDNEY 非糖亞群** | RCT subgroup | SGLT2i 在 NDKD 的 hard-outcome benefit 已建立（與 NMA 方向一致） |
 
@@ -133,7 +133,7 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
 | 典型 NDKD（如 IgAN）on RASi，要再加一線 | **預設 SGLT2i**（hard-outcome 證據最強）|
 | NDKD 蛋白尿仍持續高（UPCR ≥0.5 g/g）on RASi + SGLT2i | **可個別化考慮 finerenone**，但**屬 off-label**（台灣健保僅給付 T2D + DKD）|
 | 非典型 NDKD（FSGS、obesity GN 等） | 走 disease-specific guideline；不要直接套用 Chen 2026 framework |
-| 病人/同事問「Chen 2026 不是說 finerenone 在蛋白尿主導 NDKD 比較好？」 | 說明這是 indirect、surrogate-based NMA，不能取代未發表的 FIND-CKD RCT |
+| 病人/同事問「Chen 2026 不是說 finerenone 在蛋白尿主導 NDKD 比較好？」 | 說明這是 indirect、surrogate-based NMA；FIND-CKD RCT 已正式發表（NEJM 2026, PMID 42246672）提供直接證據，但 primary 為 eGFR slope surrogate，且台灣非糖尿病 CKD 仍屬 off-label |
 
 #### 與 Q10 的銜接
 
@@ -240,7 +240,7 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
 | **SGLT2i contraindicated / not tolerated** | **Finerenone and/or GLP-1 RA** | 依 albuminuria、K、eGFR、glycemia、weight、ASCVD 決定 |
 | **K 高正常（例如 4.8-5.0 mmol/L）** | **SGLT2i 先、finerenone 謹慎上** | U.S. label：K >5.0 不起始 |
 | **高殘餘風險、multiple indications 並存** | **Layered therapy** | 可朝多機轉整合，但不可誇稱為已被 four-pillars RCT 證實 |
-| **非糖尿病 CKD（NDKD，含 IgAN）** | **預設 SGLT2i；finerenone 屬 off-label** | Chen 2026 NMA 提供 phenotype-driven framework，但僅 surrogate；FIND-CKD fulltext 為未來主要 anchor |
+| **非糖尿病 CKD（NDKD，含 IgAN）** | **預設 SGLT2i；finerenone 屬 off-label** | Chen 2026 NMA 提供 phenotype-driven framework，但僅 surrogate；FIND-CKD 已正式發表（NEJM 2026, PMID 42246672；primary eGFR slope 達標）為主要 anchor，惟 primary 為 surrogate、台灣仍屬 off-label，發表 ≠ label expansion |
 
 ---
 
@@ -314,7 +314,7 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
 
 ### 待追蹤
 
-- **FIND-CKD**：2026-03-16 topline positive，完整發表待刊（NDKD finerenone 之主要 anchor）
+- **FIND-CKD**：已正式發表（Heerspink et al., NEJM 2026, PMID 42246672；primary eGFR slope 達標，P<0.001）（NDKD finerenone 之主要 anchor）；primary 為 slope surrogate，長期 hard kidney-failure outcome 尚未確認，發表 ≠ label expansion / routine use 尚不成立
 - **KDIGO 2026 Diabetes and CKD Guideline**：目前為 public review draft
 - **NDKD 之 head-to-head SGLT2i vs nsMRA RCT**：Chen 2026 NMA 已呼籲，目前無 dedicated trial
 - 未來若有 **combination / sequencing hard-outcome trial**，排序邏輯可能再改寫
@@ -340,6 +340,7 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
   10. Chen R, et al. Divergent renal benefits of SGLT2 inhibitors and mineralocorticoid receptor antagonists in non-diabetic kidney disease (Bayesian network meta-analysis). *Kidney Blood Press Res*. 2026. PMID: 42030206.
   11. Mohsen M, Yi TW, Faruque L, et al. Combination Treatment for Management of Chronic Kidney Disease and Type 2 Diabetes: A Review and Practical Guidance. *J Clin Endocrinol Metab*. 2026. PMID: 41973867.
   12. Tanaka A, Imai T, Vaduganathan M, et al. Randomized Trial of Finerenone on Urinary Albumin-to-Creatinine Ratio in Type 2 Diabetes Mellitus and CKD. *Kidney Int Rep*. 2026;11(7):106546. PMID: 42180819. DOI: 10.1016/j.ekir.2026.106546. *(FIVE-STAR secondary analysis by background therapy; N=97; K⁺ attenuation signal in chronic SGLT2i context)*
+  13. Heerspink HJL, et al. Finerenone in Patients with Proteinuric Non-diabetic Chronic Kidney Disease (FIND-CKD; NCT05047263). *N Engl J Med*. 2026. PMID: 42246672. *(Phase 3 RCT; primary eGFR slope met; composite kidney-or-CV HR 0.77 [0.60–0.99]; non-DM CKD remains investigational / non-approved indication)*
 
 ---
 
