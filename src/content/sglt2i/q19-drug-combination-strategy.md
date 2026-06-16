@@ -105,17 +105,17 @@ SGLT2i 已確立為 CKD 保護的核心治療，但現代腎臟科與心臟科�
 
 - **CONFIDENCE 為 phase 2**：主要終點為 UACR（替代終點），缺乏 hard outcomes（eGFR decline, ESKD, CV events）數據
 - **四柱療法的最佳啟動順序**：哪個先、哪個後？目前指南未完全統一
-- **非 T2D 患者**：非糖尿病 CKD 中 finerenone 的角色正在更新——FIND-CKD（NCT05047263）已為 Phase 3 completed 狀態，需追蹤正式發表與結果解讀後再更新建議
+- **非 T2D 患者**：非糖尿病 CKD 中 finerenone 的角色正在更新——FIND-CKD（NCT05047263）已正式發表（Heerspink, NEJM 2026, PMID 42246672）：proteinuric 非糖尿病 CKD 減緩 eGFR slope（primary 為 slope surrogate）；惟台灣 CKD 適應症仍限 T2D-related CKD，非糖尿病屬適應症外、臨床與監管轉化待後續
 - **腎功能嚴重減退（eGFR < 25）**：此族群的合用安全性數據有限
 
 ### 進行中的研究
 
 - **CONFIDENCE（NCT05254002，Phase 2，已完成）**：finerenone + empagliflozin 合用；正式 hard outcomes 驗證的 Phase 3 後續試驗，目前 ClinicalTrials.gov 上尚無已命名 / 已正式註冊的對應條目（⚠️「CONFIDENCE-2」名稱目前無法核實）
-- **FIND-CKD（NCT05047263，Phase 3，已完成）**：非 T2D CKD 中 finerenone 的角色；待正式發表與結果解讀
+- **FIND-CKD（NCT05047263，Phase 3）已正式發表（NEJM 2026, PMID 42246672）**：非 T2D proteinuric CKD finerenone 減緩 eGFR slope；非糖尿病 CKD 在台灣仍非適應症，長期 hard outcome 與監管轉化待後續
 
 ### 待追蹤項目
 
-- [ ] FIND-CKD（NCT05047263）正式發表與結果解讀（非 T2D CKD 中 finerenone 的角色）
+- [ ] FIND-CKD 結果之台灣適應症／給付轉化（試驗已發表 NEJM 2026, PMID 42246672；非糖尿病 CKD 適應症變更待後續）
 - [ ] CONFIDENCE（NCT05254002，Phase 2 completed）後續 hard-outcome 驗證試驗：待正式 Phase 3 trial 命名 / 註冊後追蹤
 - [ ] 台灣健保對 finerenone + SGLT2i 合用的給付規定
 - [ ] GLP-1 RA 在非肥胖 CKD 患者（BMI < 25）中的角色
@@ -127,7 +127,7 @@ SGLT2i 已確立為 CKD 保護的核心治療，但現代腎臟科與心臟科�
 - **Certainty Level**: Moderate（CONFIDENCE 為 phase 2；meta-analysis 支持 GLP-1 合用；ADA 2026 Rec 11.9 提升同步啟動的指引支持強度）
 - **Evidence Sources**: 5 篇（LOE A: 3〔CONFIDENCE NEJM 2025、FLOW NEJM 2024、Circulation 2024 GLP-1 meta-analysis〕；LOE B: 2〔FIDELITY Diabetes Care 2022 subgroup analysis、ADA 2026 引述 population-based cohort〕）+ official guidelines（KDIGO 2024、ADA 2026）
 - **Guideline Concordance**: 一致（KDIGO 2024 + ADA 2026 均支持多柱療法概念；ADA 2026 Rec 11.9 Grade B 新增同步起始條件）
-- **Next Review Date**: 2026-09-22（待 FIND-CKD 正式發表 / 待 CONFIDENCE 後續 hard-outcome Phase 3 trial 正式註冊或發表）
+- **Next Review Date**: 2026-09-22（FIND-CKD 已發表 NEJM 2026；待 CONFIDENCE 後續 hard-outcome Phase 3 trial 正式註冊或發表）
 - **Clinical Relevance**: ★★★★★
 
 ---

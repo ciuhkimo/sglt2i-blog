@@ -330,19 +330,6 @@ SGLT2 抑制劑同時提供**腎保護與心臟保護**，兩者並非二擇一�
 
 **臨床要點**: 不應延遲使用 SGLT2i，即使患者「只有 CKD 沒有心衰竭」或「只有心衰竭沒有明顯 CKD」。一藥雙效，同步啟動。
 
-### 審閱清單
-
-- [ ] 醫學倫理與事實準確性確認
-- [ ] 與相關科別（心臟科、內分泌科）審閱
-- [x] 納入最新指南（KDIGO 2024、ADA 2026、ESC 2021/2023）
-- [ ] 臨床實踐檢驗（與真實患者個案對照）
-- [ ] 患者教材翻譯確認（繁中→簡中 若需）
-
-- **準備者**: AI Decision Support System, SGLT2i Nephrology Project
-- **資料來源**: Evidence library (4 條目) + KDIGO/ADA/ESC 指南
-- **Clinical Relevance**: ★★★★★ (極高)
-- **Next Review Date**: 2026-09-17
-
 ## 相關筆記
 [Q01: CKD 病人何時應開始 SGLT2 inhibitor？](/sglt2i/q01-ckd-start-timing/)
 [Q06: Volume Status Assessment](/sglt2i/q06-volume-status-assessment/)
