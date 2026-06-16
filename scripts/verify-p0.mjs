@@ -327,6 +327,104 @@ console.log('\n## Check 9: /regulatory/ 動態 draft/published gate + dedicated 
 }
 
 // ============================================================
+// Check 10: 內部連結 slug 對得上 dist 路由（死連結 hard-fail）
+//   每個 content 內部連結 slug 必須對應一個 dist 路由。
+//   死連結 = reader 404 + 醫療站 E-E-A-T 傷害 → 擋 build。
+//   ALLOWLIST：蓄意排程、尚未上線的兄弟 Q-note（標記後不視為死連結）。
+// ============================================================
+console.log('\n## Check 10: 內部連結 slug 對得上 dist 路由（死連結 hard-fail）\n');
+{
+	// 列舉所有 dist 路由（含尾斜線）
+	const routes = new Set(['/']);
+	(function walk(dir) {
+		for (const e of readdirSync(dir, { withFileTypes: true })) {
+			const p = resolve(dir, e.name);
+			if (e.isDirectory()) walk(p);
+			else if (e.name === 'index.html') {
+				const rel = p.slice(DIST.length).replace(/\/index\.html$/, '').replace(/\\/g, '/');
+				routes.add(rel === '' ? '/' : rel + '/');
+			}
+		}
+	})(DIST);
+
+	// 蓄意排程、尚未上線的前向連結（標記後不擋）。Q13 上線後移除對應項。
+	const ALLOWLIST = new Set([
+		// '/pa/q13-macs-pa-overlap/',  // 範例：PA Q13 規劃中、尚未上線
+	]);
+
+	const CONTENT_DIR = resolve(__dirname, '..', 'src', 'content');
+	const mdFiles = [];
+	(function walkMd(dir) {
+		for (const e of readdirSync(dir, { withFileTypes: true })) {
+			const p = resolve(dir, e.name);
+			if (e.isDirectory()) walkMd(p);
+			else if (/\.(md|mdx)$/.test(e.name)) mdFiles.push(p);
+		}
+	})(CONTENT_DIR);
+
+	const linkRe = /(?:\]\(|href=["'])(\/[a-zA-Z0-9\-_/]+\/?)(?:[)"'])/g;
+	let brokenCount = 0;
+	const brokenByFile = {};
+	for (const f of mdFiles) {
+		const txt = readFileSync(f, 'utf8');
+		const relFile = f.slice(CONTENT_DIR.length + 1).replace(/\\/g, '/');
+		const seen = new Set();
+		let m;
+		while ((m = linkRe.exec(txt))) {
+			let u = m[1];
+			if (u.includes('.') || u.startsWith('/_') || u.startsWith('/#')) continue;
+			if (!u.endsWith('/')) u += '/';
+			if (routes.has(u) || ALLOWLIST.has(u) || seen.has(u)) continue;
+			seen.add(u);
+			(brokenByFile[relFile] ??= []).push(u);
+			brokenCount++;
+		}
+	}
+	if (brokenCount === 0) {
+		ok(`內部連結全對得上 dist 路由（掃 ${mdFiles.length} 檔 / ${routes.size} 路由，0 死連結）`);
+	} else {
+		for (const [file, urls] of Object.entries(brokenByFile)) {
+			fail(`${file}: 死連結 slug → ${urls.join(', ')}（修正或加 ALLOWLIST）`);
+		}
+	}
+}
+
+// ============================================================
+// Check 11: stale trial-status 候選（warn-only，不擋 build）
+//   grep 仍寫 topline/待發表 的 trial 提及，列為候選提示。
+//   修復端是人工：對照 vault trial-status-watchlist + PubMed 親驗。
+//   warn-only：合法前向/歷史敘述/baxdrostat 類別例不該擋 build。
+// ============================================================
+console.log('\n## Check 11: stale trial-status 候選（warn-only）\n');
+{
+	const CONTENT_DIR = resolve(__dirname, '..', 'src', 'content');
+	const mdFiles = [];
+	(function walkMd(dir) {
+		for (const e of readdirSync(dir, { withFileTypes: true })) {
+			const p = resolve(dir, e.name);
+			if (e.isDirectory()) walkMd(p);
+			else if (/\.(md|mdx)$/.test(e.name)) mdFiles.push(p);
+		}
+	})(CONTENT_DIR);
+
+	const staleRe = /(topline|待發表|待刊|尚未發表|全文待|positive topline|pending publication)/i;
+	const trialish = /[A-Z][A-Z0-9-]{2,}|試驗|phase ?3|RCT|NCT\d/;
+	const exclude = /已正式發表|已發表|歷史|先前 topline|未發表來源|press release|watchlist-ok/;
+	let warnCount = 0;
+	for (const f of mdFiles) {
+		const rel = f.slice(CONTENT_DIR.length + 1).replace(/\\/g, '/');
+		readFileSync(f, 'utf8').split('\n').forEach((ln, i) => {
+			if (staleRe.test(ln) && trialish.test(ln) && !exclude.test(ln)) {
+				console.log(`  ⚠️  ${rel}:${i + 1}  ${ln.trim().replace(/\s+/g, ' ').slice(0, 120)}`);
+				warnCount++;
+			}
+		});
+	}
+	if (warnCount === 0) console.log('  ✅ 無 stale trial-status 候選');
+	else console.log(`  → ${warnCount} 個候選；對照 trial-status-watchlist + PubMed 親驗（warn-only，不擋 build）`);
+}
+
+// ============================================================
 // Final summary
 // ============================================================
 console.log('\n---');
