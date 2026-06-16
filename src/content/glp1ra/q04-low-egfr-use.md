@@ -38,7 +38,7 @@ eGFR <30 的腎臟結局證據主要來自 FLOW 亞組（~11% eGFR <30，P-inter
 | **Chen JJ et al.** | 2022（JAMA Netw Open） | 台灣健保資料庫 CKD5/ESKD | GLP-1 RA vs DPP-4i 全因死亡 HR **0.79**（觀察性） | C |
 | **Orandi et al.** | 2025（CJASN） | 透析 GLP-1 RA 使用者 | 全因死亡 aHR **0.77**；waitlisting ↑66%（觀察性，非因果） | C |
 
-**Emerging**：SURPASS-CVOT（ASN 2025）very high-risk CKD 亞組（n=1,241）composite kidney HR 0.67——尚待正式同儕審查發表，且 comparator 為 dulaglutide 非 placebo。
+**Emerging**：SURPASS-CVOT 腎臟事件 pre-specified exploratory 分析已正式發表（Zoungas 2026, Lancet Diabetes Endocrinol, PMID 42114520）：tirzepatide vs dulaglutide（active comparator，非 placebo），N=13,165、major kidney events overall HR 0.77（0.68–0.88）、high-risk CKD 亞組 HR 0.79（0.64–0.96）。限 T2D+ASCVD 族群，不可直接外推 non-DM CKD。
 
 ### Guideline Recommendations
 
@@ -83,7 +83,7 @@ eGFR <30 的腎臟結局證據主要來自 FLOW 亞組（~11% eGFR <30，P-inter
 |--------|------|-----|-------------------|------|
 | 首選 | **Semaglutide SC** | ~3% 腎排，ESRD 無需調整 | FLOW 亞組 + FDA CKD indication | eGFR <30 亞組為假說生成性 |
 | 次選 | **Dulaglutide** | 大分子，不經腎濾 | AWARD-7 eGFR 15-30（n=112, HR 0.45） | Open-label，樣本小 |
-| 可考慮 | **Tirzepatide** | 蛋白水解清除 | SURPASS-4 eGFR <60 亞組；SURPASS-CVOT CKD 待發表 | Lean mass 流失風險更大 |
+| 可考慮 | **Tirzepatide** | 蛋白水解清除 | SURPASS-4 eGFR <60 亞組；SURPASS-CVOT 腎臟分析已發表（Zoungas 2026, overall HR 0.77 / high-risk CKD 0.79） | Lean mass 流失風險更大 |
 | 保守 | **Liraglutide** | ESRD 穩態 ↑49% | LEADER eGFR <30 underpowered；Idorn ESRD RCT（n=24） | ESRD 經驗有限，GI 較高 |
 | 避免 | **Exenatide** | 腎濾清除，AUC ↑337-624% | 不耐受 | eGFR <30 不應使用 |
 | 資料有限 | **Oral semaglutide** | 同 SC，不受腎功能影響 | 無 eGFR <30 結局資料 | 服藥限制為實務障礙 |
@@ -164,7 +164,7 @@ GLP-1 RA 熱量攝取減少 16-39%，體重減輕中 lean mass 流失 11-50%。C
 
 4. **GLP-1 RA + SGLT2i 在 eGFR <30 的加成不明**：理論互補但缺乏直接組合數據。FLOW baseline SGLT2i 使用者腎臟加成效果 not evident（事件少，evidence inconclusive, not negative）
 
-5. **SURPASS-CVOT CKD 亞組尚待正式發表**：若 HR 0.67 確認，tirzepatide 在晚期 CKD 定位將顯著提升
+5. **SURPASS-CVOT 腎臟分析已正式發表**（Zoungas 2026, PMID 42114520）：tirzepatide vs dulaglutide major kidney events overall HR 0.77、high-risk CKD HR 0.79；惟為 active-comparator（vs dulaglutide）非 placebo、限 T2D+ASCVD，晚期 CKD 定位提升但不可直接外推 non-DM CKD
 
 ### 進行中試驗
 
@@ -183,7 +183,7 @@ GLP-1 RA 熱量攝取減少 16-39%，體重減輕中 lean mass 流失 11-50%。C
   - Low-Moderate：透析患者使用（PK + 觀察性）
   - Very Low：eGFR <15 non-dialysis（幾乎只有 PK 推論）
   - High：Exenatide eGFR <30 應避免（PK 資料一致）
-- **Evidence Sources**: FLOW（NCT03819153）、AWARD-7（NCT01621178）、SURPASS-4、SURPASS-CVOT（ASN 2025, 待發表）、LEADER（NCT01179048）、Idorn 2016、Chen JJ 2022（JAMA Netw Open）、Orandi 2025（CJASN）、ADA 2025/2026、KDIGO 2026 draft、FDA Ozempic CKD indication（2025）、ERA CKJ 2024
+- **Evidence Sources**: FLOW（NCT03819153）、AWARD-7（NCT01621178）、SURPASS-4、SURPASS-CVOT（Zoungas 2026, Lancet Diab Endocrinol, PMID 42114520）、LEADER（NCT01179048）、Idorn 2016、Chen JJ 2022（JAMA Netw Open）、Orandi 2025（CJASN）、ADA 2025/2026、KDIGO 2026 draft、FDA Ozempic CKD indication（2025）、ERA CKJ 2024
 - **Trial Registration Cross-check**: TREASURE-CKD (NCT05536804)、DIALYSIS-TIR (NCT06042153)、NCT07017270
 - **Guideline Concordance**: ADA / KDIGO / FDA 方向一致（eGFR <30 多數 GLP-1 RA 可用）；台灣 TFDA 已核准 semaglutide CKD 適應症；健保給付門檻（HbA1c >8.5%、不可與 SGLT2i 併用）與國際指引存在落差
 - **Key References**:

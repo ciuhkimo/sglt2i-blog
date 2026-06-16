@@ -134,7 +134,7 @@ SGLT2i 已確立為 CKD 保護的核心治療，但現代腎臟科與心臟科�
 
 ## 相關筆記
 [Q20 Special Populations](/sglt2i/q20-special-populations/)：特殊族群的 SGLT2i 使用（含合併治療情境）
-[Q03 Initiation Criteria](/sglt2i/q03-initiation-criteria/)：SGLT2i 啟動條件與時機
+[Q01 CKD 起始時機](/sglt2i/q01-ckd-start-timing/)：SGLT2i 啟動條件與時機
 
 ---
 
