@@ -61,7 +61,7 @@ seo_title: "Finerenone 在台灣有健保給付嗎？自費價格、處方時機
 | 證據來源 | 核心結果 | 對台灣門診的意義 |
 |---|---|---|
 | **FIDELIO-DKD** | Kidney composite 17.8% vs 21.1%, HR 0.82 | 最接近高 UACR、高腎風險自費優先族群 |
-| **FIDELITY pooled** | Kidney HR 0.85；CV HR 0.86 | 支持較廣泛 T2D + CKD 的 cardiorenal benefit |
+| **FIDELITY pooled** | Kidney HR 0.77；CV HR 0.86 | 支持較廣泛 T2D + CKD 的 cardiorenal benefit |
 | **Asian FIDELITY subanalysis** | 效益大致保留；K >6.0 亞洲 4.6% vs 非亞洲 2.9% | 亞洲族群可用，但血鉀監測更務實 |
 | **CONFIDENCE** | Finerenone + empagliflozin UACR 降更多 | surrogate endpoint；非 hard outcome 定論 |
 
