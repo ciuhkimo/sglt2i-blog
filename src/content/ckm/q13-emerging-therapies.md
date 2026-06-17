@@ -65,7 +65,7 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 - **已核准但基於 surrogate endpoint**：例如 atrasentan in primary IgAN（proteinuria reduction）
 - **trial positive 但仍非該領域 label**：例如 tirzepatide in obesity-related HFpEF、tirzepatide cardiorenal post hoc analyses
 - **positive phase 3（已發表）但尚未轉成該領域 label**：例如 finerenone in non-diabetic CKD（FIND-CKD, NEJM 2026, PMID 42246672）
-- **positive phase 3 / regulatory review / topline only**：例如 baxdrostat
+- **positive phase 3（已正式發表）但藥物本身尚未核准、仍在法規審查**：例如 baxdrostat（BaxHTN, NEJM 2025；FDA priority review，PDUFA Q2 2026）
 
 這會直接影響三件事：
 
@@ -446,7 +446,7 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 | **official hard-outcome / label-backed** | semaglutide in T2D+CKD；finerenone in T2D-associated CKD | 可以寫成「已成立、可落地」 |
 | **accelerated approval on surrogate** | atrasentan in primary IgAN | 可以用，但要保留 confirmatory uncertainty |
 | **secondary / post hoc signal** | tirzepatide kidney / cardiorenal analyses | 可以寫「有力訊號」，不要寫成正式腎臟適應症 |
-| **phase 3 positive / NDA review / topline** | baxdrostat | 只能寫「值得追蹤」，不能寫 routine use |
+| **phase 3 positive（已發表）/ NDA 審查中** | baxdrostat（BaxHTN, NEJM 2025）| 只能寫「值得追蹤」，不能寫 routine use |
 | **phase 3 已正式發表、surrogate primary、label 未更新** | FIND-CKD（finerenone in non-DM CKD, NEJM 2026, PMID 42246672）| 可寫「已發表、primary 達標」，但 non-DM CKD 仍 investigational、不可 routine use |
 
 #### 3. 與既有基礎治療整合時，不要本末倒置
