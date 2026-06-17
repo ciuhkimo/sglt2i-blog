@@ -98,6 +98,7 @@ const latestRural = getLatestDate(ruralNephrologyNotes);
 const groups = [
 	{
 		title: '藥物決策',
+		id: 'group-drugs',
 		subtitle: '腎臟科核心藥物的臨床決策問題，從啟用到停藥的完整思路。',
 		cards: [
 			{
@@ -137,6 +138,7 @@ const groups = [
 	},
 	{
 		title: '臨床專區',
+		id: 'group-clinical',
 		subtitle: '針對特定臨床主題的系統性深度整理。',
 		cards: [
 			{
@@ -198,6 +200,7 @@ const groups = [
 	},
 	{
 		title: '衛教資源',
+		id: 'group-edu',
 		subtitle: '用白話中文，讓病人、家屬與護理團隊都能用的學習資源。',
 		cards: [
 			{
@@ -323,6 +326,37 @@ const groups = [
 			@keyframes pulse {
 				0%, 100% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.4); }
 				50% { box-shadow: 0 0 0 6px rgba(76, 175, 80, 0); }
+			}
+
+			/* Intent strip — 輕量受眾錨點列（非 door card、無 JS） */
+			.intent-strip {
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				gap: 0.6em 1.6em;
+				max-width: 760px;
+				margin: 0 auto 2.5em;
+				padding: 0.85em 1em;
+				border-top: 1px solid rgb(var(--gray-light));
+				border-bottom: 1px solid rgb(var(--gray-light));
+				font-size: 0.92em;
+			}
+			.intent-strip .intent-link {
+				color: var(--accent-dark);
+				text-decoration: none;
+				font-weight: 500;
+				white-space: nowrap;
+			}
+			.intent-strip .intent-link:hover {
+				text-decoration: underline;
+			}
+			@media (max-width: 600px) {
+				.intent-strip {
+					flex-direction: column;
+					align-items: center;
+					gap: 0.7em;
+					text-align: center;
+				}
 			}
 
 			/* Section groups */
@@ -618,8 +652,14 @@ const groups = [
 				)}
 			</section>
 
+			<nav class="intent-strip" aria-label="依需求快速導覽">
+				<a class="intent-link" href="#group-drugs">同業找臨床決策題　→</a>
+				<a class="intent-link" href="/patient/">病人與家屬看白話衛教　→</a>
+				<a class="intent-link" href="/about/">先認識作者、再決定信不信　→</a>
+			</nav>
+
 			{groups.map((group) => (
-				<section class="section-group">
+				<section class="section-group" id={group.id}>
 					<div class="section-group-header">
 						<h2>{group.title}</h2>
 						<p>{group.subtitle}</p>
