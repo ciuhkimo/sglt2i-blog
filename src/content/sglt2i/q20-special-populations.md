@@ -2,9 +2,9 @@
 question_id: Q20
 title: "特殊族群是否應持續使用 SGLT2i？（elderly / dialysis / transplant / frailty）"
 category: "整合與特殊族群 (Integration)"
-version: "v1.3"
+version: "v1.4"
 status: ""
-last_updated: 2026-05-12
+last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "SGLT2i 特殊族群：高齡、透析、移植、衰弱患者"
 description: "高齡、透析、腎移植、衰弱患者能否用 SGLT2i？本文整理各特殊族群的 RCT 證據強度、IgAN 最新指引建議、個別化風險效益評估與實務處方考量。"
@@ -79,7 +79,7 @@ tags:
   - 免疫抑制劑（CNI）+ SGLT2i 無已知重大藥物交互作用，但需監測腎功能
   - 泌尿生殖道感染風險：多數現有資料顯示未顯著增加，但需個別評估（反覆感染史者謹慎）
   - 圍術期（再移植）前暫停
-- **尚無 KTR 專屬 RCT（RENAL LIFECYCLE 進行中），使用屬 off-label（需與患者充分溝通）**
+- **已有 KTR dedicated RCT**（David-Neto et al., Transplantation 2026, PMID 42102257；CJASN 2026 N=51 mechanistic RCT）：短期 safety + mechanistic 已確認（GFR dip 為預期 hemodynamic、無 CNI 交互、無 GU 感染 cluster、無 graft rejection）；hard outcome（graft failure / death）仍待 dedicated outcome trial（RENAL LIFECYCLE 進行中），使用仍需個別化充分溝通
 
 **5. IgA 腎病（IgAN）患者** ⭐ 2025 年新增指引
 - **建議使用（Grade 2B）**：KDIGO 2025 IgAN 指南是首個針對 IgAN 明確推薦 SGLT2i 的主要國際指引
@@ -92,7 +92,7 @@ tags:
 
 ### 不建議做法
 
-- **透析患者（需透析的 ESKD）**：不建議常規使用——腎小管機轉失效，缺乏 RCT 證據；待 RENAL LIFECYCLE 結果。**2026 新增**：Frontiers CVM 2026 多中心回顧性世代研究首次聚焦 HF + ESKD 重疊族群，提供初步觀察性數據，但為回顧性設計、有 confounding 風險，**不改變「不建議常規使用」的立場**，仍需 RCT 確認
+- **透析患者（需透析的 ESKD）**：不建議常規**新啟動**。**DARE-ESKD-2（Kidney Int Rep 2026, PMID 41970273, N=80, 24 週）**為首個透析 dedicated RCT，primary NT-proBNP P=0.065 NS、全 secondary（KCCQ / 6MWTD / echo）NS、safety preserved → 24 週內無可證實 benefit，屬 individualized / research-setting。另 Frontiers CVM 2026 多中心回顧性 HF + ESKD cohort 提供初步觀察性訊號，但回顧性設計有 confounding，**不改變立場**；RENAL LIFECYCLE 等待後續
 - **腹膜透析**：案例系列有限，同樣不建議常規使用
 - **急性排斥期移植腎**：不建議使用（免疫/感染風險高）
 - **近期泌尿道/生殖道感染（< 4 週）的移植受者**：延後啟動

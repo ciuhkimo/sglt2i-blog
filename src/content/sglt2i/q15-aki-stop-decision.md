@@ -2,9 +2,9 @@
 question_id: Q15
 title: "AKI 發生時是否停用 SGLT2 Inhibitor？"
 category: "暫停與重啟 (Hold & Restart)"
-version: "v1.6"
+version: "v1.7"
 status: ""
-last_updated: 2026-05-12
+last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "AKI 時要停 SGLT2i 嗎？暫停指徵與重啟時機"
 description: "AKI 發生時應暫停 SGLT2i，但觀察性研究顯示 AKI 後重啟者長期預後較佳。本文涵蓋暫停指徵、重啟條件評估、post-AKI 研究證據與 eGFR<45 的特殊考量。"
@@ -149,7 +149,7 @@ AKI 恢復 + 血動穩定
 ## Uncertainty
 
 ### 已知的不確定性
-- 不同 AKI 病因（脫水性 vs 敗血症性 vs 缺血性）下繼續 vs 停用 SGLT2i 的比較數據不足
+- 不同 AKI 病因（脫水性 vs 敗血症性 vs 缺血性）下繼續 vs 停用 SGLT2i 的比較數據不足。**新證據（部分回答主問題）**：AHF 住院併發 KDIGO AKI 之 multicenter retrospective cohort（Kidney360 2023, PMID 37644648, N=3,305）顯示 AKI 期間 SGLT2i exposure 與較低 30 天死亡（aHR 0.45, 95% CI 0.23–0.87）相關、不延遲腎功能恢復 → 若 hemodynamic stable + 無 active sepsis + 無 IV vasopressor，KDIGO AKI 不必然 reflexive 停藥（retrospective cohort，待 NCT07273838 RCT 確認）
 - 最佳重啟時機缺乏 RCT 定論（目前依據為觀察性研究）
 - SGLT2i 在 AKI 期間的腎小管保護機制是否在嚴重 AKI 下仍有作用？
 - **AKI-specific decision 與 ICU acute-illness hold 要分開（2026 觀察）**：Sasaki 2026（PMID 42006531）顯示 ANZ ICU 入院時 SGLT2i 停藥率達 51.9%，主因是 EDKA 擔憂——但這不等於「因 AKI 而停藥」。臨床上應持續區分：(1) 急性疾病 / EDKA 風險 → 暫停屬合理；(2) 純粹 hemodynamically mediated eGFR dip → 不該等同 AKI 而停藥（與 Cherney 2026 meta-analysis 顯示 SGLT2i 反而降 AKI 風險 RR 0.80 一致）。台灣 ICU 端缺乏等價數據，仍應以「**stop reason 要明確分類**」為紀律。

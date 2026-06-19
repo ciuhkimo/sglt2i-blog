@@ -2,9 +2,9 @@
 question_id: Q13
 title: "Polyuria / 口渴 — 是否代表過度脫水？"
 category: "監測判讀 (Monitoring)"
-version: "v1.4"
+version: "v1.5"
 status: 已定稿
-last_updated: 2026-04-03
+last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "SGLT2i 多尿口渴是脫水嗎？體液評估與衛教"
 description: "SGLT2i 初期多尿與口渴多為暫時性滲透性利尿，數週後代償。本文解析體液代償機制、區分生理適應與真正脫水的評估方法、Sick Day Rules 衛教重點。"
@@ -37,6 +37,7 @@ SGLT2 抑制劑因其葡萄糖尿機制，使用初期患者常出現**多尿（
 | EMPA-KIDNEY（NCT03594110） | 2023 | CKD（DM+non-DM）：eGFR ≥20 to <45（不限 UACR），或 eGFR ≥45 to <90 且 UACR ≥200 mg/g | Primary composite HR 0.72（0.64–0.82）；整體安全性結果與 placebo broadly comparable；但 individual participant-level meta-analysis 顯示 serious volume depletion 在 empagliflozin 組略多，不宜視為完全無 volume signal *[⚠️ 同上：cardiorenal benefit background]* | A |
 | Masuda 機制研究（PMC，約 2020） | 2020 | 糖尿病 GK 大鼠（diabetic GK rats）*[⚠️ 非人體試驗；不得寫成「動物 + 人類」；若需人體機轉資料應另外引用 2022 human physiology study]* | SGLT2 抑制後滲透性利尿觸發代償機制：AVP 升高 + 口渴 + 腎集尿管保水，體液容積因此維持 | B |
 | Dekkers CCJ et al.（dapagliflozin plasma volume；PMID 31407856） | 2019 | T2DM 患者（直接測量：¹²⁵I-HSA；+ 匯整 phase 2b/3 臨床試驗 4,533 名） | Dapagliflozin 使 **estimated plasma volume（ePV）下降約 9.6%**（95% CI 9.0–10.2，24 週 vs placebo）；直接測量值（mPV）約 −9.0%；確立 SGLT2i 具輕度至中度 plasma volume contraction，與前期 Frontiers 2022 綜述方向一致，但本篇為直接量測人體資料，層級更高 *[⚠️ 此研究族群為 T2DM；進展期 CKD / frailty 患者外推仍有限]* | B |
+| **TOP-STAR**（J Diabetes Investig 2024, PMID 39292166）— 夜尿 RCT | 2024 | T2DM, N=80 | tofogliflozin（半衰期 5.4 hr）12 週**不顯著增加夜尿**（1.5→1.3 voids/night, P=0.297）→ 夜尿 mitigation 之 first-line 為**換短效（tofogliflozin）+ 晨間給藥**，而非反射性停藥；對老年 / LUTS 抱怨族群尤其適用 | A |
 
 ### Guideline Recommendations
 

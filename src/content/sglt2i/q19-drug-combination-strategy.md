@@ -2,9 +2,9 @@
 question_id: Q19
 title: "與 ACEi/ARB、Finerenone、GLP-1 RA 如何整合？"
 category: "整合與特殊族群 (Integration)"
-version: "v1.0"
+version: "v1.1"
 status: 已定稿
-last_updated: 2026-04-04
+last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "SGLT2i 與 RASi、Finerenone、GLP-1 RA 合併策略"
 description: "CKD 四柱療法如何排序？本文整理 SGLT2i 與 ACEi/ARB、Finerenone、GLP-1 RA 的整合策略，涵蓋 CONFIDENCE、FLOW 試驗證據與臨床啟動優先順序建議。"
@@ -107,6 +107,7 @@ SGLT2i 已確立為 CKD 保護的核心治療，但現代腎臟科與心臟科�
 - **四柱療法的最佳啟動順序**：哪個先、哪個後？目前指南未完全統一
 - **非 T2D 患者**：非糖尿病 CKD 中 finerenone 的角色正在更新——FIND-CKD（NCT05047263）已正式發表（Heerspink, NEJM 2026, PMID 42246672）：proteinuric 非糖尿病 CKD 減緩 eGFR slope（primary 為 slope surrogate）；惟台灣 CKD 適應症仍限 T2D-related CKD，非糖尿病屬適應症外、臨床與監管轉化待後續
 - **腎功能嚴重減退（eGFR < 25）**：此族群的合用安全性數據有限
+- **SGLT2i + GLP-1RA 同時啟動之 euDKA 風險**：一例 case report（Front Endocrinol 2025, PMID 41127515）報告新診斷 T2D 同時啟動 semaglutide + dapagliflozin 數日內發生 refractory euDKA（需 CVVHDF）。單一個案、證據力弱，但提示**新啟動雙減重藥時可考慮錯開時間**，並加強 ketone 監測衛教（尤其 GLP-1RA 之 GI 副作用致碳水攝取不足時）
 
 ### 進行中的研究
 

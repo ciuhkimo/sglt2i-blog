@@ -2,9 +2,9 @@
 question_id: Q09
 title: "手術或禁食前是否應延後開始 SGLT2 Inhibitor？"
 category: "風險評估 (Risk Assessment)"
-version: "v1.6"
+version: "v1.7"
 status: ""
-last_updated: 2026-05-12
+last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "SGLT2i 術前要停幾天？手術禁食停藥指引"
 description: "FDA 與 ADA 建議術前 3-4 天停用 SGLT2i 以避免 euglycemic DKA。本文比較各國停藥天數差異、SSTOP 原則、緊急手術處置流程與術後重啟條件。"
@@ -42,6 +42,7 @@ SGLT2 inhibitor 在圍術期使用的最大顧慮是 euglycemic DKA (eDKA) 的�
 | ACC | 2022 | 術前 3-4 天停藥，以降低 eDKA 與 UTI 風險 | 強 |
 | KDIGO | 2024 | PP 4.3.3：建議 elective surgery 前 planned discontinuation（PP wording 提及 48–72 hours；supporting text 引述 3–4 day evidence for SGLT2i）；KDIGO 明文 wording 不與 FDA/ADA 完全等同；supporting evidence is limited | 中等 |
 | APSF | 2025 | 重申 perioperative eDKA 風險；明確指出目前 perioperative SGLT2i management 缺乏 consensus，許多建議仍基於 limited case reports 與 pharmacokinetic reasoning | 中等 |
+| **SPAQI 多學科共識** | 2026 | Br J Anaesth（PMID 42067493）：modified Delphi + SR 提出 **risk-stratified** 圍術期管理——依是否糖尿病 + 共病 + 手術 / 飲食情境個別化，取代一律 3–4 天停藥；low-risk elective 可考慮 liberalize（APSF 2026 社論方向一致，惟為 newsletter 層級） | 中等（共識） |
 
 ## Clinical Decision
 

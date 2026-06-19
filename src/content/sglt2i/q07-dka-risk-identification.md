@@ -2,9 +2,9 @@
 question_id: Q07
 title: "如何辨識 DKA 高風險族群？"
 category: "風險評估 (Risk Assessment)"
-version: "v1.1"
+version: "v1.2"
 status: ""
-last_updated: 2026-05-12
+last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "SGLT2i 引發的 EDKA（euglycemic DKA）：辨識、鑑別與預防"
 description: "SGLT2i 可能引發 EDKA（euglycemic DKA，正常血糖型酮酸中毒），與一般 DKA 的關鍵差異在於血糖常 <250 mg/dL 而易延誤診斷。本文整理 SGLT2i DKA 高風險族群、與一般 DKA 的鑑別重點、處方前評估清單與停藥時機。"
@@ -78,6 +78,7 @@ EDKA（euglycemic diabetic ketoacidosis，正常血糖型酮酸中毒）與經�
 - 預計短期內接受手術
 - Poor glycemic control（HbA1c ≥8% 有術後資料支持）或近期 insulin reduction
 - 晚期 CKD 合併代謝性酸中毒 *[caution；為合理警訊，非已驗證的獨立高風險 category]*
+- **失智 / 認知障礙**（target-trial-emulation cohort, Diabetologia 2025, PMID 41204979：SGLT2i vs DPP4i 之 DKA 絕對風險增幅在失智族群更大，NNH 109 vs 785，homogeneity p=0.015）→ 為次要 safety endpoint、claims-based 需保守解讀，但此族群之 sick-day 衛教對象應以照護者 / 家屬為主（患者自我管理受限）
 
 **患者教育重點：**
 - Sick-day planning：acute illness 合併 reduced intake / dehydration、critical illness、prolonged fasting、計畫性手術前，依 sick-day plan 暫停 SGLT2i（「生病就停」過寬；以上具體情境為 FDA / KDIGO / ADA 明列者）

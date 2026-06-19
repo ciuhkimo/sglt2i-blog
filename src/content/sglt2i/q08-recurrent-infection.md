@@ -2,9 +2,9 @@
 question_id: Q08
 title: "Recurrent Infection 病人是否適合使用 SGLT2 Inhibitor？"
 category: "風險評估 (Risk Assessment)"
-version: "v1.0"
+version: "v1.1"
 status: 已定稿
-last_updated: 2026-04-01
+last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "反覆泌尿道或黴菌感染能用 SGLT2i 嗎？風險評估"
 description: "SGLT2i 增加生殖道黴菌感染風險約 3-4 倍，但 UTI 風險較不一致。本文涵蓋 GMI/UTI 風險分層、不同感染情境的啟用與停藥判斷、預防措施與監測建議。"
@@ -94,6 +94,7 @@ SGLT2 inhibitor 的機轉（增加尿糖排出）會增加泌尿生殖道感染�
 - CKD 特定族群（特別是 transplant recipients）的 UTI 風險是否因 SGLT2i 顯著增加，缺乏大規模 RCT 數據
 - eGFR 很低時（<20-30），尿糖排出減少，感染風險是否因此降低？
 - 最佳的預防策略（如 prophylactic antifungals）缺乏 RCT 證據
+- **感染風險為雙向、應分部位評估**：real-world SR/MA（J Diabetes Res 2025, PMID 41140367）顯示 SGLT2i 與較低 pneumonia（HR 0.61）/ pneumonia 死亡（HR 0.49）/ sepsis（HR 0.45）相關，105-RCT NMA 亦未見嚴重系統性感染增加 → 泌尿生殖道黴菌感染（class-wide ↑）與非泌尿道 / 系統性感染（中性至可能保護）應分開評估；反覆呼吸道 / 系統性感染不應視為 SGLT2i 禁忌（observational，因果待確認）
 
 ### ClinicalTrials.gov 補充：transplant trial eligibility 與 external validity
 
