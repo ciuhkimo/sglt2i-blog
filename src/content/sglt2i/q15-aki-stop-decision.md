@@ -33,9 +33,9 @@ Post-AKI use/reinitiation 在 observational studies 中與較佳 kidney outcomes
 
 | Trial / Analysis | Year | Population | Key Finding | LOE |
 |-------|------|-----------|-------------|-----|
-| Lancet 2022 collaborative placebo-controlled trials meta-analysis | 2022 | >90,000 人（13 major RCTs）*[⚠️ 核心來源為 Lancet 2022 collaborative meta-analysis，不宜標為「SMART-C 2024」；SMART-C 為計畫/合作聯盟名稱，正式發表年份為 2022]* | SGLT2i 降低 AKI 風險 **23%**（RR 0.77）；腎臟病進展保護 **37%**（RR 0.63） | A |
-| Kidney Medicine SR & Meta-Analysis | 2026 | 13 個 RCT、84,581 人（diverse populations；非 CKD-only）*[⚠️ 原標「CKD 患者」不夠精確；實為 diverse populations 做 subgroup，包含 T2DM、non-T2DM、pre-existing CKD 等]* | 整體 AKI RR **0.80**；pre-existing CKD 亞群 RR 0.70；T2DM RR 0.75；non-T2DM RR 0.88 | A |
-| 2025 AKI subgroup meta-analysis（另篇） | 2025 | CKD 患者亞群（eGFR 分層分析） | eGFR < 45 亞群：AKI 保護未達顯著差異（HR 1.04, 95% CI 0.50–2.17）*[⚠️ 來源為另篇 2025 meta-analysis，與 Kidney Medicine 2026 不同；本輪已在 PubMed 核實；兩篇不應混列]* | A |
+| Lancet 2022 collaborative placebo-controlled trials meta-analysis | 2022 | >90,000 人（13 major RCTs） | SGLT2i 降低 AKI 風險 **23%**（RR 0.77）；腎臟病進展保護 **37%**（RR 0.63） | A |
+| Kidney Medicine SR & Meta-Analysis | 2026 | 13 個 RCT、84,581 人（diverse populations，含 T2DM / non-T2DM / pre-existing CKD subgroup） | 整體 AKI RR **0.80**；pre-existing CKD 亞群 RR 0.70；T2DM RR 0.75；non-T2DM RR 0.88 | A |
+| 2025 AKI subgroup meta-analysis（另篇） | 2025 | CKD 患者亞群（eGFR 分層分析） | eGFR < 45 亞群：AKI 保護未達顯著差異（HR 1.04, 95% CI 0.50–2.17） | A |
 | Murphy et al.（Kidney360 2024）— post-AKI 觀察性世代 | 2024 | 糖尿病腎病（Veterans, DKD 族群） | AKI 後使用 SGLT2i 與較低 CKD 進展（aHR **0.72**，-28%）及 recurrent AKI（aHR **0.75**，-25%）相關 *[⚠️ 觀察的是 post-AKI re-use 益處；不是直接研究 active AKI 期間繼續使用的安全性]* | B |
 | Murphy et al.（Kidney International 2024）— post-AKI mortality cohort | 2024 | T2DM + AKI 後存活者（Veterans cohort） | Post-AKI 重啟 SGLT2i 與較低全因死亡率相關（aHR **0.63**） *[⚠️ 同上：observational；post-AKI use，非 active AKI 安全性研究]* | B |
 | Empagliflozin post-AKI survivors RCT（NCT05360615 相關） | 2025–2026 | AKI 後存活者，前瞻性 RCT | MAKE365 **未顯著改善**（35% vs 36%，P=0.82）；recurrent AKI incidence rate ratio **0.51（0.31–0.84）** *[⚠️ promising but not definitive：MAKE365 複合終點未達顯著；recurrent AKI 下降值得關注但尚非定論；具體 ClinicalTrials.gov 編號待再次核實]* | B |
@@ -59,7 +59,7 @@ Post-AKI use/reinitiation 在 observational studies 中與較佳 kidney outcomes
 1. **需要住院的 AKI**（符合 KDIGO AKI criteria 且合併 clinically significant acute illness / hypovolemia / hemodynamic instability）*[⚠️「Stage 1b」非 KDIGO 官方術語；KDIGO AKI staging 為 Stage 1/2/3，無 1b 分級]*
 2. **AKI 伴隨嚴重血容量不足**：低血壓、需要積極補液
 3. **敗血症相關 AKI**：體液狀態不穩定
-4. **造影劑使用前**（conditional）：依程序種類、volume status、AKI 風險、ketosis 風險及局部院內 protocol 個別評估 *[⚠️ 最新 elective coronary angiography 資料顯示，continue vs withhold SGLT2i 對 contrast-associated AKI 無顯著差異；目前無 definitive guideline 規定造影前一定要停；不宜寫成 blanket rule]*
+4. **造影劑使用前**（conditional）：依程序種類、volume status、AKI 風險、ketosis 風險及局部院內 protocol 個別評估（BELIEVE RCT 顯示 elective CAG 前 continue vs withhold 之 contrast-AKI 無顯著差異，無 definitive 停藥 guideline，不應一律停藥）
 5. **需要禁食或手術的情境**（與 Q16 相關）
 
 ### 不需要因為以下情況停藥

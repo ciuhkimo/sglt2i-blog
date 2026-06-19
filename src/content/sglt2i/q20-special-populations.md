@@ -17,7 +17,7 @@ tags:
 
 ## Why This Matters
 
-主要 RCT（DAPA-CKD、EMPA-KIDNEY、CREDENCE）並未正式排除高齡患者（eligibility 均為 age ≥18），但 very old / frail patients were underrepresented：DAPA-CKD 平均年齡 61.8 歲，EMPA-KIDNEY 平均 63.8 歲（≥70 歲約占 40%），CREDENCE 有預先指定 ≥70 歲年齡分層分析（⚠️「主要 RCT 均排除高齡 >75 歲」為過強陳述，應改為「代表性不足」而非「正式排除」）。腎臟移植受者與透析患者則確實被主要 RCT 排除在外。臨床醫師常面臨的問題是：看診時遇到一位 78 歲、輕度衰弱、腎臟移植後 5 年的糖尿病患者，到底「可以用」還是「應該避免」SGLT2i？
+主要 RCT（DAPA-CKD、EMPA-KIDNEY、CREDENCE）並未正式排除高齡患者（eligibility 均為 age ≥18），但 very old / frail patients were underrepresented：DAPA-CKD 平均年齡 61.8 歲，EMPA-KIDNEY 平均 63.8 歲（≥70 歲約占 40%），CREDENCE 有預先指定 ≥70 歲年齡分層分析。腎臟移植受者與透析患者則確實被主要 RCT 排除在外。臨床醫師常面臨的問題是：看診時遇到一位 78 歲、輕度衰弱、腎臟移植後 5 年的糖尿病患者，到底「可以用」還是「應該避免」SGLT2i？
 
 錯誤判斷（過度保守：放棄有效保護；過度積極：引發容量耗竭或感染）均對患者造成傷害。特殊族群的個別化評估是現代精準醫學的核心挑戰。
 
@@ -70,7 +70,7 @@ tags:
 - 若主要目標為症狀緩解（心衰竭），SGLT2i 仍可能有一定角色
 
 **4. 腎臟移植受者**
-- **可考慮使用（謹慎）**：Nat Commun 2024 TriNetX real-world study（diabetic KTx）提供初步 reassuring 數據（all-cause mortality aHR 0.32、MACE aHR 0.48）（⚠️ 核心族群為糖尿病移植受者，暴露定義為移植後前 3 個月，不宜直接外推至所有移植後時期）
+- **可考慮使用（謹慎）**：Nat Commun 2024 TriNetX real-world study（diabetic KTx）提供初步 reassuring 數據（all-cause mortality aHR 0.32、MACE aHR 0.48；限糖尿病移植受者、移植後前 3 個月，不宜外推至所有移植後時期）
 - 2025 transplant safety meta-analysis（PMID 41458393）進一步顯示 UTI、genital mycotic infection、urosepsis、allograft rejection 均無顯著增加，為安全性提供更廣族群的支持
 - **2026 新增**：Rodríguez-Espinosa et al.（Transplant Int 2026, PMID 41601587）報告非糖尿病 KTR 使用 SGLT2i 後 graft function 穩定化，提示腎保護效應可能**不限於糖尿病移植受者**（⚠️ 單中心回顧性觀察、Letter 格式，證據等級 C）
 - **2026 新增**：Cahuapaza-Gutierrez et al.（AJCD 2026, PMID 41860728）首篇心臟移植 SGLT2i SR/MA（312 vs 1,200），顯示 **BMI 顯著降低（MD -0.90, p=0.02）、SBP 顯著降低（MD -4.69, p<0.001）**；eGFR 與死亡率趨勢有利但未達顯著。UTI 未增加。支持 SGLT2i 在實體器官移植受者的心血管代謝獲益

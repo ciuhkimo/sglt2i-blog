@@ -34,9 +34,9 @@ tags:
 |-------|------|-----------|-------------|-----|
 | AJKD Consensus（改良德爾菲法） | 2023 | DM、CKD、CVD 患者 | 脫水性急性疾病時建議暫停；症狀緩解後 24-48h 重啟 | B |
 | Diabetes Care 國際共識 | 2019 | T1DM + SGLT inhibitors | eDKA 風險因子界定；急性疾病時停藥建議 | A |
-| PubMed Perspective（PMID 35801339） | 2022 | T2DM、HF、CKD + acute illness（perspective / viewpoint；非 patient cohort 或 RCT）*[⚠️ 本篇整合更新後證據，主張 routine sick-day blanket stopping policy 應重新檢視；列舉 low observed DKA rates、輕症可能不需自動停藥；不宜描述成「COVID-19 期間 T2DM 研究」]* | C（perspective） |
-| Early Admin SGLT2i Practical Guidance（PMID 40247631） | 2025 | 住院患者（practical review/guidance；非 formal multicenter consensus）*[⚠️ 來源類型為 review / practical guidance，不宜標成多機構共識]* | 急性 HF 住院可繼續/提早起始 SGLT2i；合併 loop diuretics 安全；感染/脫水/手術仍暫停；eGFR < 25(dapa)/< 20(empa) 不建議起始（pragmatic suggestion，非 KDIGO hard cutoff） | C（practical guidance） |
-| BMJ Open Quality 2025（PMID 41371913） | 2025 | DM + HF 使用者（多中心 QI 研究；已發表全文） | 基線時 5% 知道 sick day rules、12% 知道 UTI 風險；70% 不知道自己服什麼藥；衛教介入後自評信心顯著提升 *[⚠️ 主要族群為 DM/HF；非專門 CKD 研究]* | B（multicentre QI） |
+| PubMed Perspective（PMID 35801339） | 2022 | T2DM、HF、CKD + acute illness（perspective / viewpoint；非 patient cohort 或 RCT；主張 routine blanket stopping policy 應重新檢視，輕症可能不需自動停藥） | C（perspective） |
+| Early Admin SGLT2i Practical Guidance（PMID 40247631） | 2025 | 住院患者（practical review/guidance；非 formal multicenter consensus） | 急性 HF 住院可繼續/提早起始 SGLT2i；合併 loop diuretics 安全；感染/脫水/手術仍暫停；eGFR < 25(dapa)/< 20(empa) 不建議起始（pragmatic suggestion，非 KDIGO hard cutoff） | C（practical guidance） |
+| BMJ Open Quality 2025（PMID 41371913） | 2025 | DM + HF 使用者（多中心 QI 研究；已發表全文） | 基線時 5% 知道 sick day rules、12% 知道 UTI 風險；70% 不知道自己服什麼藥；衛教介入後自評信心顯著提升（主要族群為 DM/HF，非專門 CKD）| B（multicentre QI） |
 | IES2025 調查（Irish Endocrine Society） | 2025 | SGLT2i 使用者（DM、CKD、HF 門診）*[⚠️ Conference abstract；非 PubMed 全文]* | 61.25% 完全不知曉 sick day rules；CKD 門診 33%；HF 門診 20% | Very low（conference abstract） |
 
 ### Guideline Recommendations
@@ -115,7 +115,7 @@ tags:
 **IES 2025 meeting abstract（published in Endocrine Abstracts 2026；conference abstract 層級）**：
 - **61% 患者完全不知曉** sick day rules
 - CKD 門診知曉率 33%；HF 門診 20%；diabetes 39%
-*[⚠️ Conference abstract 層級（Endocrine Abstracts 2026），非 PubMed 全文論文；適合支持「衛教不足」的方向性觀察，不宜作為精確發生率依據]*
+（會議摘要層級〔Endocrine Abstracts 2026〕，僅支持「衛教不足」之方向性觀察）
 
 **建議**：
 1. **首次處方 SGLT2i 時**即告知 sick day rules（嘔吐/腹瀉/無法進食時暫停）
@@ -152,7 +152,7 @@ oral intake 正常、無紅旗徵兆）          無法進食、高 DKA risk、�
 - 高風險族群：T1DM、胰島素不足的 T2DM、低碳水化合物飲食者
 - 症狀：噁心、嘔吐、腹痛，但血糖可能正常（<250 mg/dL）
 - 診斷：高陰離子間隙代謝性酸中毒（pH<7.3）+ 酮血症
-- **非糖尿病 CKD/HF 患者**：大型試驗中 DKA 風險與 placebo 類似，risk appears very low *[⚠️ 不宜寫成「近乎無」；不等於絕對零風險]*
+- **非糖尿病 CKD/HF 患者**：大型試驗中 DKA 風險與 placebo 類似，risk appears very low（不等於絕對零風險）
 - **對 CKD G3-G4 的 T2DM 患者**：eDKA 風險相對較低，但仍需告知患者識別症狀
 
 ---

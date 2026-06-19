@@ -49,7 +49,7 @@ SGLT2 抑制劑因其葡萄糖尿機制，使用初期患者常出現**多尿（
 ### Sick Day Rules 知曉率調查
 | 研究 | 年份 | 核心發現 | LOE |
 |------|------|---------|-----|
-| IES2025（Irish Endocrine Society） | 2025 | 80 名 SGLT2i 使用者問卷：**61.25% 完全不知曉 Sick Day Rules**；CKD 門診知曉率僅 33%；HF 門診僅 20%。佐證衛教為優先任務。*[⚠️ Conference abstract 層級，非 PubMed 全文研究；數字已核實，但適合支持「衛教不足」觀察，不宜作核心決策依據]* | Very low（hypothesis-generating） |
+| IES2025（Irish Endocrine Society） | 2025 | 80 名 SGLT2i 使用者問卷：**61.25% 完全不知曉 Sick Day Rules**；CKD 門診知曉率僅 33%；HF 門診僅 20%。佐證衛教為優先任務。（會議摘要層級，僅支持「衛教不足」之方向性觀察）| Very low（hypothesis-generating） |
 
 ### 腎臟科專家立場聲明
 | 研究 | 年份 | 核心發現 | LOE |

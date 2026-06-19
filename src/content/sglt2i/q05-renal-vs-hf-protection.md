@@ -136,7 +136,7 @@ tags:
 #### 心臟保護 (Cardiac Protection) - 終點
 9. **結果**: 心肌收縮力↑、心衰竭住院↓、死亡率↓
 
-**關鍵洞察（綜合推論）**: 腎臟保護是「上游」事件，血液動力學改變是「中游」，心臟保護是「下游」。但所有這些改變同時發生，形成統一的器官保護網絡。*[⚠️ 此「上游→下游」框架為機制整合推論，有機轉研究支持，但非任何單一 RCT 或 guideline 的直接結論；不宜作為「腎臟先獲益、心臟才受益」的臨床因果推斷]*
+**關鍵洞察（綜合推論）**: 腎臟保護是「上游」事件，血液動力學改變是「中游」，心臟保護是「下游」。但所有這些改變同時發生，形成統一的器官保護網絡。（註：此「上游→下游」為機制整合推論，非單一 RCT/guideline 直接結論，不代表「腎臟先獲益、心臟才受益」的時序因果）
 
 ### 臨床實踐建議
 
@@ -326,7 +326,7 @@ SGLT2 抑制劑同時提供**腎保護與心臟保護**，兩者並非二擇一�
 
 1. **CKD 患者** → SGLT2i 降低主要腎複合終點風險（CREDENCE HR 0.70 [PMID 30990260]、DAPA-CKD HR 0.61 [PMID 32970396]、EMPA-KIDNEY HR 0.72 [PMID 36331190]），各試驗相對風險降低約 28–39%，依 trial 與 endpoint 而異。同時降低心衰竭住院與 CV death 風險。
 2. **HF 患者** → SGLT2i 減少心衰竭住院 / CV death（HR 0.74–0.82，依試驗不同）；最穩定的心血管效益是 HF hospitalization 與 CV death，對 MI / stroke 訊號不如前者一致。
-3. **CKD+HF 患者** → SGLT2i 為首選，同時兼顧兩器官。HFpEF / HFmrEF 的已確立效益以 HF hospitalization / CV death 為主；renal hard endpoint benefit 不如 HFrEF / CKD trials 一致。*[⚠️ 此 cross-phenotype 差異為 cross-trial 觀察性推論（EMPEROR-Reduced 腎複合 HR 0.50 顯著 vs DELIVER 腎複合 HR 1.08 未顯著），非 head-to-head RCT 直接比較；不宜寫成「HFrEF 腎保護明確優於 HFpEF」的確定性結論]*
+3. **CKD+HF 患者** → SGLT2i 為首選，同時兼顧兩器官。HFpEF / HFmrEF 的已確立效益以 HF hospitalization / CV death 為主；renal hard endpoint benefit 不如 HFrEF / CKD trials 一致。（註：此 cross-phenotype 差異為 cross-trial 比較〔EMPEROR-Reduced 腎複合 HR 0.50 vs DELIVER 1.08〕，非 head-to-head RCT）
 
 **臨床要點**: 不應延遲使用 SGLT2i，即使患者「只有 CKD 沒有心衰竭」或「只有心衰竭沒有明顯 CKD」。一藥雙效，同步啟動。
 

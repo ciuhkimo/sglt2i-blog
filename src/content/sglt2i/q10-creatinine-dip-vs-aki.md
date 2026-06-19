@@ -44,8 +44,8 @@ SGLT2 inhibitor 啟用後的初始 creatinine 上升是臨床最常見的「假�
 | Guideline | Year | Recommendation | Strength |
 |-----------|------|---------------|----------|
 | KDIGO | 2024 | SGLT2i initiation or use does not necessitate alteration of frequency of CKD monitoring；the reversible decrease in eGFR on initiation is generally not an indication to discontinue therapy。Among people with CKD who initiate hemodynamically active therapies（文中明確包含 SGLT2i），GFR reductions of **>30%** on subsequent testing exceed expected variability and warrant evaluation for other causes and close monitoring。**（以上均為 KDIGO 2024 官方原文所含內容，非僅 KDOQI commentary）** | 強烈建議（KDIGO 2024 官方） |
-| ADA | 2026 | Section 11（CKD and Risk Management）明確建議：SGLT2 inhibitors are recommended for people with eGFR ≥20 mL/min/1.73m² and T2DM；if tolerated, continue until dialysis。*⚠️ 「輕度 initial eGFR decline 為預期效果、不應單獨作為停藥依據」此精確措辭，目前未能直接核實為 ADA 2026 官方原句；應視為與 trial evidence / KDIGO 解讀一致的臨床推論，而非已逐字核實之 guideline statement。* | 強烈建議（官方 CKD section 明確支持 eGFR ≥20 使用與持續治療至透析） |
-| ESC | 2023 | 支持 SGLT2i 在 HF 患者的使用（focused update）。*⚠️ 「類似 ACEi/ARB 的初始效果，繼續治療即可」此措辭，目前未能直接核實為 ESC 2023 官方原句；應視為「與 trial/KDIGO 解讀一致的臨床推論」，而非已逐字核實之 guideline statement。* | 建議（方向一致；exact wording 待核實） |
+| ADA | 2026 | Section 11（CKD and Risk Management）明確建議：SGLT2 inhibitors are recommended for people with eGFR ≥20 mL/min/1.73m² and T2DM；if tolerated, continue until dialysis。（「輕度 initial eGFR decline 為預期效果、不應單獨作為停藥依據」為與 trial / KDIGO 解讀一致之臨床推論，非 ADA 官方逐字原句）| 強烈建議（官方 CKD section 明確支持 eGFR ≥20 使用與持續治療至透析） |
+| ESC | 2023 | 支持 SGLT2i 在 HF 患者的使用（focused update）。（「類似 ACEi/ARB 的初始效果，繼續治療即可」為與 trial / KDIGO 解讀一致之臨床推論，非 ESC 官方逐字原句）| 建議（方向一致；exact wording 待核實） |
 
 ---
 

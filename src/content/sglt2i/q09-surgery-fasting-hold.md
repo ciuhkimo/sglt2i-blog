@@ -39,7 +39,6 @@ SGLT2 inhibitor 在圍術期使用的最大顧慮是 euglycemic DKA (eDKA) 的�
 | ADA | 2026 | Metformin 及其他 oral glucose-lowering agents 手術當天停；SGLT2i 術前停 3–4 天；GLP-1 RA 採 personalized approach | 強 |
 | Anaesthesia 2025 multidisciplinary consensus on GLP-1/GIP agonists and SGLT2 inhibitors（Association of Anaesthetists / JBDS / UKCPA） | 2025 | SGLT2 inhibitors：omit on the day before surgery and the day of surgery（與 CPOC 2023 方向一致）；**非 3-day 規則** | 中等 |
 | CPOC | 2023 | SGLT2 inhibitors：omit on day before surgery; omit on day of surgery（**非「3 天前停」**，與 UK multidisciplinary consensus 2025 一致） | 中等 |
-| SAMBA | 2024 | ⚠️ PubMed 有登錄，但公開可見摘要未直接顯示「術前 3 天停藥」的 exact wording；在無法核實全文前，**不宜將 SAMBA 2024 歸入 "3-day" 陣營**。若讀者有全文，請核對後自行更新此列 | 待核實 |
 | ACC | 2022 | 術前 3-4 天停藥，以降低 eDKA 與 UTI 風險 | 強 |
 | KDIGO | 2024 | PP 4.3.3：建議 elective surgery 前 planned discontinuation（PP wording 提及 48–72 hours；supporting text 引述 3–4 day evidence for SGLT2i）；KDIGO 明文 wording 不與 FDA/ADA 完全等同；supporting evidence is limited | 中等 |
 | APSF | 2025 | 重申 perioperative eDKA 風險；明確指出目前 perioperative SGLT2i management 缺乏 consensus，許多建議仍基於 limited case reports 與 pharmacokinetic reasoning | 中等 |

@@ -44,9 +44,9 @@ tags:
 
 | Guideline | Year | Recommendation | Strength |
 |-----------|------|---------------|----------|
-| KDIGO | 2024 | SGLT2i 整體立場偏向持續使用，除非不耐受或進入 KRT；在 prolonged fasting、surgery、critical medical illness 或出現明顯 volume-related adverse effect 時，可暫時停用並於穩定後重啟。*⚠️ 「因 mild BP lowering 不應停藥、應先調整其他藥物」此精確表述為 KDIGO 精神推論，KDIGO 未有逐字對應句；sick-day rule 的直接證據亦有限，重啟計畫應清楚。* | 建議（方向已核實；specific wording = 推論） |
-| ADA | 2026 | **適用族群：T2DM + 老年 / 高風險**。ADA 指出 SGLT2i 在 older adults 通常可帶來重要益處，但可能造成 clinically significant volume depletion；frailty、高齡、容易 orthostasis 或合併利尿劑者需更仔細監測。*⚠️ 「優先調整其他降壓藥而非停 SGLT2i」此建議層級的明文表述未能直接核實；ADA 更強調 volume monitoring 與個別化評估，而非明文排除停藥。* | 建議（volume depletion 警語已核實；調藥優先序 = 合理推論） |
-| ESC | 2021（HF guideline）+ 2023（focused update） | HFrEF 中 SGLT2i 的 **Class I 地位**來自 **2021 ESC HF guideline**（Eur Heart J 2021;42:3599–3726）；**2023 focused update** 主要將 SGLT2i 推薦擴展至 HFmrEF / HFpEF 及其他新證據情境。血壓效果通常中性或有益，不是停藥主要理由。*⚠️「symptomatic hypotension 時優先減少非 HFrEF 指示降壓藥 / loop diuretic（無 congestion 前提）」屬 HF 低血壓 review / consensus 支持的實務邏輯（可引 2020 HF low-BP review 等），不宜掛在 2023 ESC focused update 名下。* | 建議（HFrEF Class I = 2021 guideline 已核實；低血壓操作優先序 = HF review 實務推論） |
+| KDIGO | 2024 | SGLT2i 整體立場偏向持續使用，除非不耐受或進入 KRT；在 prolonged fasting、surgery、critical medical illness 或出現明顯 volume-related adverse effect 時，可暫時停用並於穩定後重啟。 | 建議（方向已核實；specific wording = 推論） |
+| ADA | 2026 | **適用族群：T2DM + 老年 / 高風險**。ADA 指出 SGLT2i 在 older adults 通常可帶來重要益處，但可能造成 clinically significant volume depletion；frailty、高齡、容易 orthostasis 或合併利尿劑者需更仔細監測。 | 建議（volume depletion 警語已核實；調藥優先序 = 合理推論） |
+| ESC | 2021（HF guideline）+ 2023（focused update） | HFrEF 中 SGLT2i 的 **Class I 地位**來自 **2021 ESC HF guideline**（Eur Heart J 2021;42:3599–3726）；**2023 focused update** 主要將 SGLT2i 推薦擴展至 HFmrEF / HFpEF 及其他新證據情境。血壓效果通常中性或有益，不是停藥主要理由。 | 建議（HFrEF Class I = 2021 guideline 已核實；低血壓操作優先序 = HF review 實務推論） |
 
 ---
 
@@ -131,7 +131,7 @@ tags:
 - **DAPA-advKD（NCT05196347）**：Primary Completion 及 Study Completion 均為 2024-08-31（CT.gov 顯示已完成，Last Verified 2025-03）；目前可讀取的 ClinicalTrials.gov study-detail record 中未見 posted summary results；後續可追蹤是否上傳 results 或正式 paper *[⚠️ 不排除 results 已存在但本次讀取未能直接開啟，請以 CT.gov 官方頁面為準]*
 
 ### 機轉研究（非直接 BP dynamics）
-- **EMPA-SNS（NCT03912909）**：研究 empagliflozin 對 sympathetic nervous system activity 的影響；與 autonomic neuropathy–specific orthostatic BP dynamics 非完全等同，但屬最接近機轉研究之已登錄試驗。*[⚠️ CT.gov study record last verified 2022-09；status 顯示 Unknown / last known: Recruiting；估計 primary completion 2024-03-31，但 record 多年未更新，當前真實進度不明，不宜寫成「目前明確進行中」]*
+- **EMPA-SNS（NCT03912909）**：研究 empagliflozin 對 sympathetic nervous system activity 的影響；與 autonomic neuropathy–specific orthostatic BP dynamics 非完全等同，但屬最接近機轉研究之已登錄試驗（登錄狀態 Unknown，最新進度不明）。
 - *⚠️ 明確針對 autonomic neuropathy + orthostatic BP dynamics 的 CT.gov 登錄試驗，本次查核未能找到直接對應者*
 
 ### 待追蹤項目

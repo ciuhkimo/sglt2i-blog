@@ -33,9 +33,9 @@ KDIGO 2024 的立場：SGLT2i 啟動或使用通常不需要因此改變 CKD 監
 
 | Trial | Year | Population | Key Finding | LOE |
 |-------|------|-----------|-------------|-----|
-| EMPA-KIDNEY（NCT03594110） | 2023 | CKD（DM+non-DM）：eGFR ≥20 to <45（任何 UACR），或 eGFR ≥45 to <90 且 UACR ≥200 mg/g | Primary outcome（kidney disease progression or CV death）**HR 0.72（95% CI 0.64–0.82）**。*[⚠️「initial eGFR dip 可逆，不影響長期保護效益」此表述的直接依據為 KDIGO 2024 reversible dip 表述 + Herrington 2025「benefits irrespective of acute dip size」meta-analysis 結論，非 EMPA-KIDNEY 單一 trial 的直接陳述，不宜掛在本行；已移至 KDIGO/Herrington 相應 row 歸因。同理，「腎衰竭風險降低 34%」來自 Herrington 2025，亦不屬於本行。]* | A |
+| EMPA-KIDNEY（NCT03594110） | 2023 | CKD（DM+non-DM）：eGFR ≥20 to <45（任何 UACR），或 eGFR ≥45 to <90 且 UACR ≥200 mg/g | Primary outcome（kidney disease progression or CV death）**HR 0.72（95% CI 0.64–0.82）**。 | A |
 | DAPA-CKD main trial（NCT03036150） | 2020 | CKD ± DM：eGFR 25–75 且 UACR 200–5000 mg/g | Primary composite（50% eGFR decline / ESKD / renal/CV death）**HR 0.61（95% CI 0.51–0.72）** | A |
-| DAPA-CKD prespecified acute-dip post hoc analysis | 2022 | 同上（secondary analysis） | 2 週時 dapagliflozin 組 49.4% 出現 >10% acute eGFR dip（placebo 23.7%）；此 acute dip **不與較高後續 CKD progression 風險相關** *[⚠️ dip 數字與 safety 結論來自 2022 post-hoc analysis；long-term HR 0.61 屬 2020 主試驗，不宜混列於本行]* | A |
+| DAPA-CKD prespecified acute-dip post hoc analysis | 2022 | 同上（secondary analysis） | 2 週時 dapagliflozin 組 49.4% 出現 >10% acute eGFR dip（placebo 23.7%）；此 acute dip **不與較高後續 CKD progression 風險相關** | A |
 | CREDENCE main trial（NCT02065791） | 2019 | T2DM + albuminuric CKD：eGFR 30–<90，UACR 300–5000 mg/g | Primary composite HR **0.70（0.59–0.82）**；renal-specific composite HR **0.66（0.53–0.81）**；ESKD 風險↓32% | A |
 | CREDENCE acute-dip post-hoc analysis | 2021 | 同上（secondary analysis） | Canagliflozin 組約 45%、placebo 約 21% 出現 >10% acute eGFR drop；不同 dip 類別之間 long-term eGFR trajectories 與 overall / kidney safety profiles 大致相似 *[⚠️ dip 數字來自 2021 post-hoc analysis，非 2019 主試驗直接結果]* | A |
 | **Herrington et al. Empagliflozin IPD Meta-Analysis** | 2025（Lancet D&E, PMID 41082889）| N=**23,340**（EMPA-REG OUTCOME, EMPEROR-Reduced/Preserved, EMPA-KIDNEY）；off-treatment slope subset N=10,630 | **慢性 eGFR slope 改善 64%**；**off-treatment dip-free slope 同樣改善 64%**（排除初期 hemodynamic dip 後效益不變）；**kidney failure HR 0.66；AKI adverse events HR 0.73**；腎臟益處在不同 acute dip 預測大小下大致一致 | A |

@@ -45,7 +45,7 @@ SGLT2 inhibitor 從過去的「血糖藥物」已重新被定位為「器官保�
 | **KDIGO 2024** | 2024 | Non-T2DM + CKD with UACR≥200 or HF features（eGFR≥20）：use SGLT2i | Grade 1A |
 | **KDIGO 2024** | 2024 | CKD with eGFR 20–45 + UACR<200：suggest SGLT2i | Grade 2B |
 | **KDIGO 2024** | 2024 | Continue SGLT2i even if eGFR falls below 20（until dialysis/transplant）| **Practice Point 3.7.1**（非 graded recommendation） |
-| **ADA 2026** | 2026 | **T2DM + CKD** 且 eGFR≥20：recommend SGLT2i to reduce CKD progression and CV events；if tolerated, continue until an individual starts dialysis（Section 11: CKD and Risk Management）。⚠️ ADA 2026 的明確建議對象為 **type 2 diabetes + CKD**；non-diabetic CKD 的 guideline 依據應引用 **KDIGO 2024**，不宜共用 ADA 2026 citation | A（T2DM + CKD，eGFR≥20） |
+| **ADA 2026** | 2026 | **T2DM + CKD** 且 eGFR≥20：recommend SGLT2i to reduce CKD progression and CV events；if tolerated, continue until an individual starts dialysis（Section 11: CKD and Risk Management）。 | A（T2DM + CKD，eGFR≥20） |
 
 ---
 
