@@ -2,9 +2,9 @@
 question_id: Q17
 title: "SGLT2i Restart After AKI Recovery"
 category: "暫停與重啟 (Hold & Restart)"
-version: "v1.0"
+version: "v1.1"
 status: 已定稿
-last_updated: 2026-04-04
+last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "AKI 恢復後何時重啟 SGLT2i？條件與證據整理"
 description: "AKI 恢復後重啟 SGLT2i 可改善長期腎臟預後。本文提供重啟條件評估清單、觀察性研究與小型 RCT 證據摘要、個別化重啟框架與監測時間表。"
@@ -110,7 +110,7 @@ AKI 恢復追蹤（出院後門診）
 - 最佳重啟天數（AKI 後第幾天）尚無 RCT 直接比較
 - 非糖尿病 CKD 患者（單純 HF 或 IgA 腎病）AKI 後重啟的安全性資料較少
 - 重啟後短期肌酐升高的臨床意義（適應性 vs. 惡化）仍有爭議
-- 不同 AKI 病因（腎前性 vs. 腎性 vs. 對比劑腎病）對重啟時機的影響未充分研究
+- 不同 AKI 病因（腎前性 vs. 腎性 vs. 對比劑腎病）對重啟時機的影響未充分研究。**重啟後短期窗口（<3 個月）本身可能短暫升高 contrast-AKI 風險**——prospective cohort（Sci Rep 2024, PMID 39358407, N=306, PSM）顯示 short-term（<3 個月）SGLT2i 使用者 post-contrast AKI 顯著高於 non-user（P<0.05），與 chronic use（≥3 個月）之 class-wide AKI 保護（Pi 2025 SR/MA N=65,606, RR 0.78）形成 mirror
 
 ### 進行中的研究
 - **AKI-specific restart RCT 已有初步結果**：2025/2026 年已發表首篇直接針對 severe AKI 存活者的 randomized trial（N=200，empagliflozin vs 安慰劑，1 年追蹤）；主要終點 MAKE365 未達統計顯著，但再次 AKI 次要終點有改善訊號（IRR 0.51）。**尚缺乏大型、事先設定 restart timing 為主要比較變項的 RCT**；Yale 等機構 acute cardiorenal / AKI 相關 dapagliflozin 研究仍在進行或籌備中
@@ -121,6 +121,7 @@ AKI 恢復追蹤（出院後門診）
 - KDIGO 2025 更新：是否提供更具體的 AKI 後重啟建議
 - AKI 後重啟 SGLT2i 是否需要降低劑量或維持原劑量
 - SGLT2i 對多種藥物性腎毒性（NSAID、造影劑、aminoglycoside）的保護效應是否一致——可能影響重啟後併用藥物的安全性評估
+- **重啟後 <3 個月內若有 elective 造影**：可考慮造影前 hold 48 小時 + 充分水化，或將非緊急造影排在重啟 ≥4–12 週後（chronic-use 風險回歸 baseline 後）。此為單篇 prospective cohort（PSM, N=306）推論之 pragmatic 建議，非 RCT / guideline 固定 rule；緊急造影不適用，不應因此延後臨床必要造影
 
 ---
 

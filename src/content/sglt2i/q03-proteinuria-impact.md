@@ -2,9 +2,9 @@
 question_id: Q03
 title: "蛋白尿程度對 SGLT2 inhibitor 治療效益的影響"
 category: "啟用決策 (Initiation)"
-version: "v1.6"
+version: "v1.7"
 status: 已定稿
-last_updated: 2026-03-21
+last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "蛋白尿程度影響 SGLT2i 效益嗎？分層證據解析"
 description: "蛋白尿越多，SGLT2i 絕對效益越大，但正常白蛋白尿仍有相對獲益。本文涵蓋 SMART-C meta-analysis、CREDENCE 亞群分析與各 UACR 分層的臨床決策建議。"
@@ -46,6 +46,19 @@ tags:
 | **ADA Standards of Care** | 2025 | T2D + CKD 且 eGFR ≥20 時，推薦使用具證據支持的 SGLT2i（强推薦，不以 albuminuria 作為必要門檻）。Albuminuria 存在或 documented eGFR loss 代表較高 CKD progression risk，臨床上對此族群 absolute benefit 更大，應優先考慮啟用。 | 強 |
 | **ESC HF Guidelines** | 2023 | ESC HF focused update 的 SGLT2i 推薦以 HF phenotype / CKD-T2D cardiovascular risk 為進入條件，不以 albuminuria 程度作為 gatekeeping | 強（HF 適應症） |
 
+### 殘餘蛋白尿的 add-on 階梯（SGLT2i 為 foundational platform）
+
+SGLT2i 在蛋白尿管理中為 **foundational platform 而非終點**：RASi + SGLT2i 已 optimal 而蛋白尿仍 residual（UPCR >1 g/g）時，ERA（endothelin receptor antagonist）/ nsMRA add-on 可進一步降蛋白尿。
+
+| 證據 | PMID / 期刊 | 設計 | 關鍵結果 |
+|---|---|---|---|
+| **ALIGN**（atrasentan, ETA-selective ERA）| 42242268 / Lancet 2026 | Phase 3 RCT，N=404（main 340 + SGLT2i stratum 64），IgAN + UPC≥1.0 + eGFR≥30 + on RASi | Week-36 蛋白尿 −36%（robust）；key secondary eGFR @wk136 差 +2.4 mL/min, p=0.057（未達顯著）；total slope 差 +1.4/yr（顯著）；**SGLT2i stratum eGFR 差 +9.1（95% CI 3.0–15.2）**＝效益在已 on SGLT2i 者仍保留 |
+| Heerspink JASN crossover | 41904616 / JASN 2026 | crossover RCT，N=54，on maximal RASi+SGLT2i | atrasentan add-on UPCR −25.3%（95% CI −36.8 to −11.7, P<0.001）|
+| Shi ERA meta | 41525154 / CJASN 2026 | SR/MA，14 RCT，N=6,412 | ERA class：**ESKD RR 0.76（0.61–0.96，hard endpoint）**；完全緩解 RR 2.61；hypotension RR 1.92 |
+| Murtafa nsMRA meta | 42154418 / Int Urol Nephrol 2026 | SR/MA，4 RCT，N=1,835 | nsMRA+SGLT2i vs SGLT2i 單藥：ACR −33%（ROM 0.67）；≥50% reduction RR 1.76；**hyperkalemia RR 1.55** |
+
+> ⚠️ **重要 caveat**：ALIGN 自身 key secondary eGFR 結局 p=0.057（未達顯著）；硬腎臟終點益處主要來自 ERA class meta 的 ESKD RR 0.76 與 slope 分析，多數 add-on 數據為 surrogate endpoint（蛋白尿）。ERA 帶 fluid retention / hypotension、nsMRA 帶 hyperkalemia，啟動後需監測。
+
 ---
 
 ## Clinical Decision
@@ -71,6 +84,11 @@ tags:
    - 證據足夠支持啟用（CREDENCE HR 0.63；CREDENCE post hoc analysis 顯示腎病範圍組絕對 UACR 降低 341 mg/g，非 EMPA-REG）
    - 需要併用其他RAAS抑制劑療法
    - **特殊監測**：監測 eGFR 初期可逆下降、UACR 軌跡、以及 nephrotic syndrome 本身的感染風險（後者為 nephrotic syndrome 通用監測，非 SGLT2i 特有；需另外引用腎病症候群感染風險文獻支持）
+
+5. **RASi + SGLT2i optimal 後仍 residual 蛋白尿 → 評估 ERA / nsMRA add-on（個別化）**
+   - 條件：已 on maximally tolerated RASi + SGLT2i ≥ 3 個月、UPCR 仍 >1 g/g（或 UACR 持續高）、eGFR ≥ 30
+   - ERA（atrasentan）已於 IgAN 取得蛋白尿適應症；nsMRA（finerenone）於 T2D-CKD 有 add-on 證據（台灣給付狀態以最新仿單 / 健保公告為準）
+   - 監測：ERA → 體液滯留 / BP；nsMRA → 啟動 4 週內 + 每 3–6 月 K⁺
 
 ### 不建議做法 ❌
 

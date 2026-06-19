@@ -2,9 +2,9 @@
 question_id: Q04
 title: "eGFR 20–30 患者的 SGLT2i 啟用決策"
 category: "啟用決策 (Initiation)"
-version: "v1.5"
+version: "v1.6"
 status: 已定稿
-last_updated: 2026-03-21
+last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "eGFR 20-30 能否啟用 SGLT2i？CKD stage 4 證據"
 description: "KDIGO 2024 將 SGLT2i 啟用門檻下修至 eGFR≥20。本文整理 EMPA-KIDNEY、DAPA-CKD stage 4 亞組與 CJASN 2025 meta-analysis，解析低 eGFR 啟用的效益與風險。"
@@ -158,9 +158,15 @@ CKD stage 4（eGFR 20–30）患者是腎臟科臨床的主要族群。過去因
 4. **不同 SGLT2i 在 eGFR 20–30 的頭對頭比較**
    - 目前無直接 head-to-head RCT；empagliflozin / dapagliflozin 的選擇主要依 available evidence 與可及性決定
 
+5. **透析依賴 ESKD 之新啟動 — RCT-level 負向證據**
+   - DARE-ESKD-2（Barreto J … Sposito AC, *Kidney Int Rep* 2026, PMID 41970273；首個透析 dedicated RCT，N=80，24 週）primary NT-proBNP P=0.065 未達顯著、全 secondary（KCCQ / 6MWTD / echo）NS，**safety preserved 但 24 週內無可證實之 CV / volume / functional benefit**
+   - → 透析依賴 ESKD **新啟動** 應視為 individualized / research-setting 而非 routine；提示既往觀察性 benefit signal 可能含 healthy-user / immortal-time bias 而高估
+   - ⚠️ 本試驗為 already-dialysis 族群之**新啟動**，非 chronic user 進入 dialysis-onset 之續用決策（後者仍個別化）
+
 ### 近年新增證據與進行中的研究
 
 - **EMPA-KIDNEY long-term follow-up（2025 已發表）**：合併 active trial + post-trial 觀察期後，primary outcome HR 0.79；long-term follow-up 結果不再屬於「待發表」狀態。後續 albuminuria 與 eGFR subgroup 的詳細分層分析可持續追蹤。
+- **eGFR 10–30 dedicated 試驗（emerging，未發表）**：一篇 advanced-CKD 試驗（DAPA-advKD）於 ASN Kidney Week 2025 以會議摘要形式報告 eGFR slope 改善，尚未經同儕審查 / 正式發表；全文發表前不改變上述「eGFR<20 缺充分 RCT 直接證據」之立場（見已知不確定性第 1 點），列入待追蹤。
 - 追蹤 eGFR <20 族群的 prospective 研究及真實世界資料
 
 ---
