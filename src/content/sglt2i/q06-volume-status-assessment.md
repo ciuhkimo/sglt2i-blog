@@ -2,9 +2,9 @@
 question_id: Q06
 title: "SGLT2i 啟用時的體液狀態評估"
 category: "風險評估 (Risk Assessment)"
-version: "v1.1"
+version: "v1.2"
 status: 已定稿
-last_updated: 2026-03-23
+last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "SGLT2i 啟用前體液評估：脫水風險與利尿劑調整"
 description: "啟用 SGLT2i 前應評估體液狀態以避免低血壓與 AKI。本文涵蓋脫水風險辨識、利尿劑劑量調整策略、高風險族群監測要點與啟用前 checklist。"
@@ -346,6 +346,11 @@ SGLT2 inhibitors 具有 osmotic diuretic / natriuretic effect，並透過增加�
 - **問題**：肝硬化、肝衰竭合併 CKD，SGLT2i 是否安全？
 - **現況**：近期資料已不再是「文獻極少」。2025 pilot RCT 顯示 dapagliflozin 在 cirrhosis 中可改善 ascites，但 AKI 與感染較多；同年 systematic review / cohort data 提示選擇性族群可能有 ascites 益處，但 decompensation 風險仍存在。整體方向混合，尚無足以形成明文禁忌的高級別證據
 - **臨床啟示**：**不宜寫成 blanket contraindication**；decompensated cirrhosis / recurrent ascites 屬高不確定性情境，需 hepatology / nephrology 個別化評估；active decompensation 下不啟用是合理的 safety principle，但整體族群需逐案討論
+
+### 6. **AHF 住院期間啟動 SGLT2i 的時機**
+- **問題**：急性心衰竭住院、hemodynamic stable 患者，可否在住院期間即啟動 SGLT2i（而非等容量穩定後門診）？
+- **現況**：dedicated RCT **DAPA ACT HF-TIMI 68**（Circulation 2025, PMID 40884036, N=2,401）primary endpoint（2 個月 CV death / worsening HF）**HR 0.86, P=0.20 未達顯著**；但 **prespecified meta-analysis**（合併住院 HF in-hospital initiation 試驗）顯示顯著效益（CV death / worsening HF HR 0.71, P=0.012；全因死亡 HR 0.57, P=0.001）。Safety 可接受（symptomatic hypotension 3.6% vs 2.2%、worsening kidney function 5.9% vs 4.7%）。
+- **臨床啟示**：AHF 住院 **hemodynamic stable + eating-drinking + 無 active sepsis + 無 IV vasopressor** 者可考慮住院期間啟動；惟單一 dedicated RCT primary endpoint NS、效益主要來自 cumulative meta，屬「cumulative evidence supportive 但非單一 trial 證實」。**對 volume-unstable 門診患者『先矯正容量再評估』之既有原則不變**——此例外限定於住院、血流動力學穩定情境。
 
 ### 待追蹤項目
 - 隨著 2026-2027 年新的 SGLT2i 試驗資料發表（特別在極晚期 CKD 或特殊人群中），應更新利尿劑管理與監測建議
