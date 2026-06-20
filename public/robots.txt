@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+# 不提供內容供 Google Gemini 模型訓練 / Gemini·Vertex grounding 使用。
+# 此 token 不影響 Google Search 收錄與排名，亦不影響 AI Overviews / AI Mode 可見性（Google 官方明文）。
+# 決策（2026-06-20）：先採保護端（identity／IP），AIO 零損失；未來視 Gemini App 生態再評估是否開放。
+User-agent: Google-Extended
+Disallow: /
+
 Sitemap: https://nephrodecisions.com/sitemap-index.xml

@@ -4,8 +4,24 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import remarkGfm from 'remark-gfm';
 import { defineConfig } from 'astro/config';
+import { readFileSync, readdirSync } from 'node:fs';
 
 const buildDate = new Date();
+
+// 未審 regulatory 草稿：getStaticPaths 仍 build 路由供醫師 URL 預覽（RegulatoryLayout 已加 noindex），
+// 但必須排除於 sitemap，對齊「草稿不列入 sitemap / 列表 / RSS」政策。
+// @astrojs/sitemap 不解析 HTML 的 noindex meta，故在 build 時依 frontmatter 算出草稿 slug 供 filter 排除。
+const regulatoryDir = new URL('./src/content/regulatory/', import.meta.url);
+const draftRegulatorySlugs = new Set();
+for (const file of readdirSync(regulatoryDir)) {
+	if (!/\.mdx?$/.test(file)) continue;
+	const raw = readFileSync(new URL(file, regulatoryDir), 'utf-8');
+	const m = raw.match(/^review_status:\s*['"]?([\w-]+)/m);
+	const status = m ? m[1] : 'needs_physician_review'; // schema 預設＝未審
+	if (status !== 'physician_reviewed') {
+		draftRegulatorySlugs.add(file.replace(/\.mdx?$/, ''));
+	}
+}
 
 // rehype plugin: transform Shiki-rendered <pre data-language="mermaid"><code>...</code></pre>
 // → <div class="mermaid-container" data-mermaid-src="URL_ENCODED_DSL">
@@ -131,6 +147,13 @@ export default defineConfig({
 			rehypePlugins: [rehypeMermaidPreToDiv, rehypeWrapTablesAndThScope],
 		}),
 		sitemap({
+			filter(page) {
+				// 排除未審 regulatory 草稿（noindex、不對外公開）
+				for (const slug of draftRegulatorySlugs) {
+					if (page.includes(`/regulatory/${slug}`)) return false;
+				}
+				return true;
+			},
 			serialize(item) {
 				if (!item.lastmod) {
 					item.lastmod = buildDate.toISOString();
