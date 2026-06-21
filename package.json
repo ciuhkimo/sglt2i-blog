@@ -12,6 +12,7 @@
     "astro": "astro",
     "verify:p0": "node scripts/verify-p0.mjs",
     "build:verify": "npm run build && npm run verify:p0",
+    "check:content": "node scripts/check-internal-qa.mjs --verbose",
     "tfda:fetch": "node scripts/fetch-tfda-updates.mjs",
     "tfda:weekly": "node scripts/fetch-tfda-updates.mjs --weekly",
     "tfda:publish": "node scripts/tfda-publish.mjs"

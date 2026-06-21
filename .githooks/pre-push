@@ -1,0 +1,6 @@
+#!/bin/sh
+# pre-push: 上線（push → Vercel）前攔截 internal-QA 洩漏字串。
+# 啟用方式（每台機器一次）：git config core.hooksPath .githooks
+# 邏輯在 scripts/check-internal-qa.mjs（版控、可審計）。緊急繞過：git push --no-verify
+echo "▶ pre-push: 檢查 internal-QA 洩漏（src/content/）…"
+node "$(dirname "$0")/../scripts/check-internal-qa.mjs" || exit 1
