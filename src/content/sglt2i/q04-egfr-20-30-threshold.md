@@ -3,7 +3,7 @@ question_id: Q04
 title: "eGFR 20–30 患者的 SGLT2i 啟用決策"
 category: "啟用決策 (Initiation)"
 version: "v1.6"
-status: 已定稿
+status: ""
 last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "eGFR 20-30 能否啟用 SGLT2i？CKD stage 4 證據"

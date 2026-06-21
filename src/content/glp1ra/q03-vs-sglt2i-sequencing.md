@@ -3,7 +3,7 @@ question_id: Q03
 title: "GLP-1 RA vs SGLT2i：誰先上？能否合併？"
 category: "啟用決策 (Initiation)"
 version: "v1.1"
-status: 已定稿
+status: ""
 last_updated: 2026-04-08
 next_review: 2026-10-08
 tags:

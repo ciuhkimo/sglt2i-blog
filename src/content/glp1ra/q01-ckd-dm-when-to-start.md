@@ -3,7 +3,7 @@ question_id: Q01
 title: "CKD 合併 T2DM 病人，何時應加上 GLP-1 RA？"
 category: "啟用決策 (Initiation)"
 version: "v1.2"
-status: 已定稿
+status: ""
 last_updated: 2026-04-08
 next_review: 2026-10-08
 tags:

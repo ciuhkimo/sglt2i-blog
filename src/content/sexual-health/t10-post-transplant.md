@@ -3,7 +3,7 @@ question_id: T10
 title: "腎移植後的性功能與備孕：換腎後身體會怎麼變？"
 category: "病人衛教 (Patient Education)"
 version: v1.0
-status: 已發布
+status: ""
 last_updated: 2026-04-14
 next_review: 2026-10-14
 tags:

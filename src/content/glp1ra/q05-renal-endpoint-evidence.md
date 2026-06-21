@@ -3,7 +3,7 @@ question_id: Q05
 title: "GLP-1 RA 的腎臟終點證據有多強？"
 category: "啟用決策 (Initiation)"
 version: "v1.2"
-status: 已定稿
+status: ""
 last_updated: 2026-05-27
 next_review: 2026-11-27
 tags:

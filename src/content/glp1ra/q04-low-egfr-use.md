@@ -3,7 +3,7 @@ question_id: Q04
 title: "eGFR <30 或透析病人是否可使用 GLP-1 RA？"
 category: "啟用決策 (Initiation)"
 version: "v1.1"
-status: 已定稿
+status: ""
 last_updated: 2026-04-08
 next_review: 2026-10-08
 tags:

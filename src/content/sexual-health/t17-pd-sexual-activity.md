@@ -3,7 +3,7 @@ question_id: T17
 title: "腹膜透析可以有性生活嗎？"
 category: "病人衛教 (Patient Education)"
 version: v1.0
-status: 已發布
+status: ""
 last_updated: 2026-04-15
 next_review: 2026-10-15
 tags:

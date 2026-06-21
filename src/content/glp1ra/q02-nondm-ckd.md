@@ -3,7 +3,7 @@ question_id: Q02
 title: "GLP-1 RA 在 non-diabetic CKD 是否有腎保護角色？"
 category: "啟用決策 (Initiation)"
 version: "v1.1"
-status: 已定稿
+status: ""
 last_updated: 2026-04-08
 next_review: 2026-10-08
 tags:

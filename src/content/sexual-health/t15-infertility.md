@@ -3,7 +3,7 @@ question_id: T15
 title: "洗腎會不會不孕？透析對生育力的影響"
 category: "病人衛教 (Patient Education)"
 version: v1.0
-status: 已發布
+status: ""
 last_updated: 2026-04-15
 next_review: 2026-10-15
 tags:

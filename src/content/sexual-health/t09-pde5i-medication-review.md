@@ -3,7 +3,7 @@ question_id: T09
 title: "PDE5i 處方與 Medication Review：透析男性 ED 的藥物治療"
 category: "藥物治療 (Pharmacotherapy)"
 version: v1.0
-status: 已發布
+status: ""
 last_updated: 2026-04-14
 next_review: 2026-10-14
 tags:

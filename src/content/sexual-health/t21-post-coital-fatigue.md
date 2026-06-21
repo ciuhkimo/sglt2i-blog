@@ -3,7 +3,7 @@ question_id: T21
 title: "性生活後很累是因為洗腎嗎？"
 category: "病人衛教 (Patient Education)"
 version: v1.0
-status: 已發布
+status: ""
 last_updated: 2026-04-15
 next_review: 2026-10-15
 tags:

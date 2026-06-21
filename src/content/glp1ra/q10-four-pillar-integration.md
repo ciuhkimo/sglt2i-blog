@@ -3,7 +3,7 @@ question_id: Q10
 title: "GLP-1 RA + SGLT2i + finerenone + ACEi/ARB：四柱療法如何排序與整合？"
 category: "整合策略 (Integration)"
 version: "v1.2"
-status: 已定稿
+status: ""
 last_updated: 2026-05-27
 next_review: 2026-08-27
 tags:

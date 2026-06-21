@@ -3,7 +3,7 @@ question_id: Q09
 title: "胰臟炎、膽囊疾病風險——CKD 病人的考量？"
 category: "安全性與監測 (Safety & Monitoring)"
 version: v1.1
-status: 已定稿
+status: ""
 last_updated: 2026-04-10
 next_review: 2026-10-10
 tags:

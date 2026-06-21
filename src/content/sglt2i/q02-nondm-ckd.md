@@ -3,7 +3,7 @@ question_id: Q02
 title: "非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？"
 category: "啟用決策 (Initiation)"
 version: "v1.7"
-status: 查核修訂版
+status: ""
 last_updated: 2026-04-28
 next_review: 2026-09-17
 description: "非糖尿病 CKD 是否應使用 SGLT2i？KDIGO 2024 建議 eGFR≥20 且 UACR≥200 或合併心衰竭時啟用。涵蓋 DAPA-CKD、EMPA-KIDNEY 證據、IgA 腎病變亞組分析、臨床啟用流程與台灣實務。"

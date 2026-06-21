@@ -3,7 +3,7 @@ question_id: Q01
 title: "CKD 病人何時應開始 SGLT2 inhibitor？"
 category: "啟用決策 (Initiation)"
 version: "v1.4"
-status: 已定稿
+status: ""
 last_updated: 2026-04-04
 next_review: 2026-09-17
 seo_title: "CKD 何時開始 SGLT2i？啟用時機與 eGFR 門檻"

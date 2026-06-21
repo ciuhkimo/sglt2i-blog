@@ -3,7 +3,7 @@ question_id: Q03
 title: "蛋白尿程度對 SGLT2 inhibitor 治療效益的影響"
 category: "啟用決策 (Initiation)"
 version: "v1.7"
-status: 已定稿
+status: ""
 last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "蛋白尿程度影響 SGLT2i 效益嗎？分層證據解析"

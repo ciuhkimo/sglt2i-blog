@@ -3,7 +3,7 @@ question_id: T01
 title: "洗腎後還能有性生活嗎？勃起、性慾與月經怎麼辦"
 category: "病人衛教 (Patient Education)"
 version: v1.1
-status: 已發布
+status: ""
 last_updated: 2026-05-20
 next_review: 2026-10-14
 tags:

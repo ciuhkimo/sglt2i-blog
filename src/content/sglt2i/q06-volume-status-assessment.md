@@ -3,7 +3,7 @@ question_id: Q06
 title: "SGLT2i 啟用時的體液狀態評估"
 category: "風險評估 (Risk Assessment)"
 version: "v1.2"
-status: 已定稿
+status: ""
 last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "SGLT2i 啟用前體液評估：脫水風險與利尿劑調整"

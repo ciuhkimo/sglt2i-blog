@@ -3,7 +3,7 @@ question_id: Q07
 title: "體重下降在 CKD 病人是好事還是壞事？（obesity paradox）"
 category: "安全性與監測 (Safety & Monitoring)"
 version: "v1.1"
-status: 已定稿
+status: ""
 last_updated: 2026-04-10
 next_review: 2026-10-10
 tags:

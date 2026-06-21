@@ -3,7 +3,7 @@ question_id: Q08
 title: "Acute illness / 手術前後是否應停藥？"
 category: "安全性與監測 (Safety & Monitoring)"
 version: v1.1
-status: 已定稿
+status: ""
 last_updated: 2026-04-10
 next_review: 2026-10-10
 tags:

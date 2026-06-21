@@ -3,7 +3,7 @@ question_id: Q05
 title: "SGLT2i 的心臟保護 vs 腎臟保護"
 category: "啟用決策 (Initiation)"
 version: "v1.9"
-status: 已定稿
+status: ""
 last_updated: 2026-04-04
 next_review: 2026-09-17
 seo_title: "SGLT2i 護心還是護腎？心腎雙重保護機轉比較"

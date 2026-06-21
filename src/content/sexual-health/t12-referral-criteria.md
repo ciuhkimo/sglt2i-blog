@@ -3,7 +3,7 @@ question_id: T12
 title: "轉介時機：透析病人性功能問題何時該跨科合作"
 category: "臨床評估 (Clinical Assessment)"
 version: v1.0
-status: 已發布
+status: ""
 last_updated: 2026-04-15
 next_review: 2026-10-15
 tags:

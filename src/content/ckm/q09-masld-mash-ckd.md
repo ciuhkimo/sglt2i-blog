@@ -3,7 +3,7 @@ question_id: "Q09"
 title: "MASLD/MASH 與 CKD 的腎臟科共管"
 category: "代謝腎交互"
 version: "v1.2"
-status: "已定稿"
+status: ""
 last_updated: 2026-05-27
 next_review: 2026-08-27
 tags:

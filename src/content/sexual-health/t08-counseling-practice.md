@@ -3,7 +3,7 @@ question_id: T08
 title: "性生活諮詢實務：PLISSIT 模型在腎臟科門診的應用"
 category: "臨床評估 (Clinical Assessment)"
 version: v1.0
-status: 已發布
+status: ""
 last_updated: 2026-04-14
 next_review: 2026-10-14
 tags:

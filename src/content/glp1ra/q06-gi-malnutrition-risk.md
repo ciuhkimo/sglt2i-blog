@@ -3,7 +3,7 @@ question_id: Q06
 title: "GI 副作用導致營養不良風險——CKD/frail 病人如何處理？"
 category: "安全性與監測 (Safety & Monitoring)"
 version: "v1.1"
-status: 已定稿
+status: ""
 last_updated: 2026-04-09
 next_review: 2026-10-09
 tags:

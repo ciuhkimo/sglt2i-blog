@@ -3,7 +3,7 @@ question_id: T11
 title: "藥物影響性功能：透析病人的系統性藥物盤點與替換策略"
 category: "藥物治療 (Pharmacotherapy)"
 version: v1.0
-status: 已發布
+status: ""
 last_updated: 2026-04-15
 next_review: 2026-10-15
 tags:
