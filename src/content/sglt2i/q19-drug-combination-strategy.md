@@ -3,7 +3,7 @@ question_id: Q19
 title: "與 ACEi/ARB、Finerenone、GLP-1 RA 如何整合？"
 category: "整合與特殊族群 (Integration)"
 version: "v1.1"
-status: 已定稿
+status: ""
 last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "SGLT2i 與 RASi、Finerenone、GLP-1 RA 合併策略"

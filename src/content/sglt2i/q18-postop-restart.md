@@ -3,7 +3,7 @@ question_id: Q18
 title: "Postoperative SGLT2i Restart Timing"
 category: "暫停與重啟 (Hold & Restart)"
 version: "v1.0"
-status: 已定稿
+status: ""
 last_updated: 2026-04-04
 next_review: 2026-09-17
 seo_title: "術後何時重啟 SGLT2i？依手術類型的重啟建議"

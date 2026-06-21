@@ -3,7 +3,7 @@ question_id: Q10
 title: "Creatinine Dip vs AKI 如何判讀？"
 category: "監測判讀 (Monitoring)"
 version: "v1.6"
-status: 已定稿
+status: ""
 last_updated: 2026-04-30
 next_review: 2026-09-17
 seo_title: "SGLT2i 後肌酸酐上升：生理性 dip 還是 AKI？"

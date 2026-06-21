@@ -3,7 +3,7 @@ question_id: Q13
 title: "Polyuria / 口渴 — 是否代表過度脫水？"
 category: "監測判讀 (Monitoring)"
 version: "v1.5"
-status: 已定稿
+status: ""
 last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "SGLT2i 多尿口渴是脫水嗎？體液評估與衛教"

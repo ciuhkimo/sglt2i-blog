@@ -3,7 +3,7 @@ question_id: Q11
 title: "eGFR 下降 <30% 是否可接受？"
 category: "監測判讀 (Monitoring)"
 version: "v1.8"
-status: 已定稿
+status: ""
 last_updated: 2026-04-03
 next_review: 2026-09-17
 seo_title: "SGLT2i 後 eGFR 下降多少可接受？30% 閾值解析"

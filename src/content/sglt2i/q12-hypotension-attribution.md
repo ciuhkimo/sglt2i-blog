@@ -3,7 +3,7 @@ question_id: Q12
 title: "Hypotension 是來自 SGLT2i 還是其他藥？"
 category: "監測判讀 (Monitoring)"
 version: "v1.7"
-status: 已定稿
+status: ""
 last_updated: 2026-04-03
 next_review: 2026-09-17
 seo_title: "低血壓是 SGLT2i 造成的嗎？鑑別與藥物調整"

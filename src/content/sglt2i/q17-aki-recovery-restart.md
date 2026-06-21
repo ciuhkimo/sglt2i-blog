@@ -3,7 +3,7 @@ question_id: Q17
 title: "SGLT2i Restart After AKI Recovery"
 category: "暫停與重啟 (Hold & Restart)"
 version: "v1.1"
-status: 已定稿
+status: ""
 last_updated: 2026-06-19
 next_review: 2026-09-17
 seo_title: "AKI 恢復後何時重啟 SGLT2i？條件與證據整理"
