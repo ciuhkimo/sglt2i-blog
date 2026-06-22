@@ -7,7 +7,7 @@ status: ""
 last_updated: 2026-05-27
 next_review: 2026-08-27
 tags: [finerenone, SGLT2i, GLP-1RA, sequencing, combination, decision-note, DKD, NDKD, non-diabetic-CKD]
-description: "在已接受 max tolerated ACEi/ARB 的 DKD 病人，finerenone 如何與 SGLT2i 及 GLP-1 RA 排序與合併？依 KDIGO 2024、ADA 2026、CONFIDENCE 與 FIDELITY 查核修訂；v1.2 新增非糖尿病 CKD（NDKD）排序；v1.4 新增 rapid eGFR decliner 穩定性檢查（Yang 2026）；v1.5（2026-05-27）新增 FIVE-STAR secondary analysis（Tanaka 2026, PMID 42180819）— 慢性 SGLT2i 背景對 finerenone K⁺ 上升的衰減訊號 vs CONFIDENCE 不一致。"
+description: "在已接受 max tolerated ACEi/ARB 的 DKD 病人，finerenone 如何與 SGLT2i 及 GLP-1 RA 排序與合併？"
 quick_answer: "預設仍以 SGLT2i 為 first add-on；符合 albuminuria / eGFR / K 條件時加 finerenone；GLP-1 RA 依 glycemic / obesity / ASCVD / direct kidney-outcome evidence 前移。ADA 2026 已新增：T2D + UACR ≥100 + eGFR 30-90 + RASi 的成人可考慮 SGLT2i + finerenone simultaneous initiation。NDKD（含 IgAN / FSGS）的 FIND-CKD 已正式發表（NEJM 2026, PMID 42246672），primary eGFR slope 達標，但屬 surrogate-led，且台灣非糖尿病 CKD 仍非核准適應症、發表 ≠ label expansion。"
 seo_title: "Finerenone vs SGLT2i vs GLP-1 RA 排序策略｜DKD 合併用藥"
 ---

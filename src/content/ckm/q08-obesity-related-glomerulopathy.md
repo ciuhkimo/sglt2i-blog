@@ -1,6 +1,6 @@
 ---
 question_id: "Q08"
-title: "Obesity-Related Glomerulopathy（ORG）— 診斷與治療決策（查核修訂版）"
+title: "Obesity-Related Glomerulopathy（ORG）— 診斷與治療決策"
 category: "代謝腎交互"
 version: "v1.1"
 status: ""
@@ -21,7 +21,7 @@ tags:
   - verified
 description: "Obesity-Related Glomerulopathy（ORG）的臨床懷疑時機、免 biopsy 治療條件、與 primary FSGS/DKD 的實務鑑別。減重（lifestyle、GLP-1 RA、bariatric surgery）對 albuminuria 與腎預後的證據。"
 quick_answer: "肥胖、albuminuria/proteinuria、尿沉渣相對 bland、即使蛋白尿偏高仍常沒有明顯低白蛋白血症或水腫，是典型臨床輪廓；但這個輪廓不是病理診斷。"
-seo_title: "Q08 Obesity-Related Glomerulopathy（ORG）— 診斷與治療決策（查核修訂版） | CKM Syndrome 腎臟科臨床決策"
+seo_title: "Q08 Obesity-Related Glomerulopathy（ORG）— 診斷與治療決策 | CKM Syndrome 腎臟科臨床決策"
 ---
 
 **臨床問題**

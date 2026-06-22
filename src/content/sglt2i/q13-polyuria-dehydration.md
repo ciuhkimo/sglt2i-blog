@@ -45,7 +45,7 @@ SGLT2 抑制劑因其葡萄糖尿機制，使用初期患者常出現**多尿（
 |-----------|------|---------------|----------|
 | KDIGO | 2022（DM in CKD） | KDIGO 2022 Diabetes in CKD Guideline 實務建議：若病人有 hypovolemia 風險，可在開始 SGLT2i 前考慮降低 thiazide / loop diuretic 劑量；告知 volume depletion symptoms；開始後追蹤 volume status；必要時 reduce concomitant diuretic；提供 sick day protocol。*[⚠️ 「輕度多尿/口渴不需停藥」此精確句在 KDIGO 2024 CKD guideline 未直接核實；KDIGO 2024 主要討論 perioperative / critical illness 暫停 SGLT2i 與 DKA 風險；此處改引 KDIGO 2022 DM-in-CKD 的實務建議框架，來源更準確]* | Practice Point（2022） |
 | ADA | 2026 | **適用族群：T2DM + 老年**。ADA 強調 older adults 使用 SGLT2i 可能造成 clinically significant volume depletion；frailty 或 prone to orthostasis 者需更仔細評估。*[⚠️ 「多尿症狀屬良性；評估脫水應測體重、血壓、皮膚彈性；Grade B」此具體內容未在可取得的 ADA Standards 中直接核實；建議改為臨床實務建議，不掛成 ADA 明文 recommendation]* | 臨床參考（T2DM + older adults；具體 bedside checklist = 實務推論，非 ADA 明文） |
-| UK Kidney Association (UKKA) | 2021 *[⚠️ UKKA SGLT2 guideline v1 發布日期：20.10.21；非 2023]* | 啟動 SGLT2i 時應提供 sick day guidance；並提醒：DAPA-CKD 中 volume depletion event 較 placebo 多（5.9% vs 4.2%）；HF trials 整體 hypovolaemia-related adverse events 相近，但高劑量利尿劑次族群需注意；出現症狀時評估實際 volume status，而非自動停藥 | 建議（UKKA sick day guidance 已核實） |
+| UK Kidney Association (UKKA) | 2021 | 啟動 SGLT2i 時應提供 sick day guidance；並提醒：DAPA-CKD 中 volume depletion event 較 placebo 多（5.9% vs 4.2%）；HF trials 整體 hypovolaemia-related adverse events 相近，但高劑量利尿劑次族群需注意；出現症狀時評估實際 volume status，而非自動停藥 | 建議（UKKA sick day guidance 已核實） |
 
 ### Sick Day Rules 知曉率調查
 | 研究 | 年份 | 核心發現 | LOE |

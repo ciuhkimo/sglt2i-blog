@@ -7,7 +7,7 @@ status: ""
 last_updated: 2026-04-19
 next_review: 2027-04-19
 tags: [finerenone, nonsteroidal-MRA, hyperkalemia, potassium, decision-note, SGLT2i, monitoring]
-description: "Finerenone 使用期間 hyperkalemia 的實際風險、FIDELITY risk score、預防與處理策略，以及 SGLT2i 與 K binder 的角色定位。依 FDA/EMA/KDIGO/PubMed 查核修訂。"
+description: "Finerenone 使用期間 hyperkalemia 的實際風險、FIDELITY risk score、預防與處理策略，以及 SGLT2i 與 K binder 的角色定位。"
 quick_answer: "FIDELITY pooled analysis 顯示 finerenone 組 hyperkalemia-related AE 14.0% vs placebo 6.9%，但永久停藥僅 1.7%，且無 fatal hyperkalemia。關鍵是標準化監測：baseline 與起始後 4 週必查 K/eGFR，K >5.5 hold、K ≤5.0 時 10 mg restart。SGLT2i 有保護訊號但非保證書。"
 seo_title: "Finerenone 高血鉀管理｜風險評估、監測與處理流程"
 ---

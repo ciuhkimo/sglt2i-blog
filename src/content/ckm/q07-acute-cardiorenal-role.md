@@ -25,9 +25,8 @@ seo_title: "Q07 急性心腎症候群的腎臟科角色（Ward / ICU / 門診 de
 **臨床問題**
 
 第一型 CRS（acute HF → AKI）患者中，腎臟科何時該介入？如何鑑別「去充血中的功能性 creatinine rise」與 true AKI？Aggressive decongestion 的 renal safety 邊界在哪？Ultrafiltration / KRT 的啟動時機？住院期間 RAASi / ARNI / MRA / SGLT2i 的續用規則？
-**這是**查核修訂版****
 
-本版把「**正式 guideline / RCT 支持**」與「**實務門檻 / 專家共識**」明確分開。幾個原稿中較容易過度延伸的點已修正：
+以下把「**正式 guideline / RCT 支持**」與「**實務門檻 / 專家共識**」明確分開，並標出幾個容易過度延伸、需謹慎解讀的點：
 1. ESC 2023 **有討論 ADVOR 與 EMPULSE**，但**沒有**給 acetazolamide 一個獨立的 acute-HF Class IIa 建議，也**不是**把住院期 acute-HF SGLT2i initiation 寫成一條獨立的 acute-HF Class I recommendation。
 2. DICTATE-AHF 支持 **early dapagliflozin 的安全性與 GDMT optimization feasibility**，但**主要 hierarchical clinical endpoint 未達統計顯著**。
 3. KDIGO 2012 對 KRT 啟動採 **life-threatening indication + broader clinical context** 架構，**沒有**給一組普世固定的 K / pH cutoffs。

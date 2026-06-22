@@ -1,6 +1,6 @@
 ---
 question_id: "Q01"
-title: "CKM Syndrome 定義與分期（查核修訂版）"
+title: "CKM Syndrome 定義與分期"
 category: "定義與識別"
 version: "v1.3"
 status: ""
@@ -18,7 +18,7 @@ tags:
   - ADA-2026
 description: "CKM Syndrome（心腎代謝症候群）是什麼？AHA 2023 Stage 0-4 分期如何在腎臟科門診操作化？與 KDIGO CKD CGA 分類如何整合？本文拆解定義、分期邏輯與臨床決策差異。"
 quick_answer: ""
-seo_title: "CKM Syndrome 心腎代謝症候群定義與分期（查核修訂版） | 腎臟科臨床決策"
+seo_title: "CKM Syndrome 心腎代謝症候群定義與分期 | 腎臟科臨床決策"
 ---
 
 **臨床問題**

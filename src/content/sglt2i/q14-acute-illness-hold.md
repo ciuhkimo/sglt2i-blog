@@ -46,7 +46,7 @@ tags:
 | KDIGO | 2024 | 在 **prolonged fasting、surgery、critical medical illness** 期間，合理做法是暫時停用 SGLT2i（ketosis 風險較高）；恢復後應重啟。*[⚠️ KDIGO 2024 明確列出的是上述三種情境；「所有 acute dehydrating illness 一律停藥」為延伸推論，非 KDIGO 原文直接表述]* | Practice Point（2024） |
 | ADA | 2026 | SGLT2i 不建議作為住院中的控糖工具；但對 T2DM 合併 HF 住院者，若無禁忌且已自 acute illness recovery，可考慮 initiate or continue；severe illness、ketonemia/ketonuria、prolonged fasting、surgical procedures 應避免/暫停；排程手術前應停藥 3 天（ertugliflozin 4 天）。 | 建議（ADA 2026 hospital standards） |
 | UK Kidney Association (UKKA) | 2023 | 病人若出現 vomiting、diarrhoea、fever、restricted intake、dehydration、fasting 等情況時，應暫停 SGLT2i；恢復且 eating normally 後重啟；若超過 48 小時仍不適，應 seek medical advice。*[⚠️ UKKA 採 symptom-based wording，無「≥2 次」官方門檻；「two or more episodes」較常見於地方 NHS sick-day leaflets，不應歸為 UKKA 官方 threshold]* | 建議（UKKA sick day guidance） |
-| FDA | 2022（rev.） | Elective surgery 前：canagliflozin / dapagliflozin / empagliflozin 至少停 **3 天**；ertugliflozin 至少停 **4 天**，以降低 perioperative ketoacidosis 風險。（FDA 官方標示修訂）*[⚠️ 原 Endocrine Society 2023 row 移除：可查到的是 Endocrine Society 2022 inpatient hyperglycemia guideline，主軸為住院高血糖管理，並無明文「住院一律停 SGLT2i / 手術前 3–5 天停」的強規則；以 FDA 官方標示取代更準確]* | 官方標示（FDA）|
+| FDA | 2022（rev.） | Elective surgery 前：canagliflozin / dapagliflozin / empagliflozin 至少停 **3 天**；ertugliflozin 至少停 **4 天**，以降低 perioperative ketoacidosis 風險。（FDA 官方標示修訂） | 官方標示（FDA）|
 
 ---
 

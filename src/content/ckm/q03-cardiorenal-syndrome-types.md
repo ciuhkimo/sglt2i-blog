@@ -25,17 +25,6 @@ seo_title: "Q03 Cardiorenal Syndrome 分型（Type 1-5） | CKM Syndrome 腎臟�
 Ronco Type 1-5 CRS 的臨床決策差異是什麼？急性 vs 慢性如何區分？什麼時候 creatinine 上升是可接受的（functional rise / pseudo-WRF）、什麼時候需要升級處置？
 ---
 
-## 查核修訂重點
-
-- 移除未查證、且高度受地區政策與時間影響的台灣給付敘述。
-- 把「pseudo-WRF」從**固定百分比門檻**改成**情境 + 趨勢 + 併發症**的判讀框架；並區分：
-  1. acute HF 去鬱血（decongestion）時的 functional creatinine rise
-  2. ACEi/ARB/ARNI / SGLT2i 啟動後的 hemodynamic eGFR dip
-- 修正 Landmark trial 摘要，使其更貼近 PubMed 與 ClinicalTrials.gov 可追溯內容。
-- 補上官方指引、PubMed、ClinicalTrials.gov 的 references 與 NCT 編號。
-
----
-
 ## Why This Matters
 
 - Cardiorenal syndrome (CRS) 的核心不是「心臟不好 + 腎臟不好」，而是**心與腎的雙向病理生理耦合**；急性或慢性的一側失衡，都可能誘發另一側功能惡化。（R1-R3）

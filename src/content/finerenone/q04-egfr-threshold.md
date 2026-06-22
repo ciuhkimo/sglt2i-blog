@@ -7,7 +7,7 @@ status: ""
 last_updated: 2026-05-27
 next_review: 2026-08-27
 tags: [finerenone, nonsteroidal-MRA, eGFR, CKD-staging, decision-note, dosing]
-description: "Finerenone 的 eGFR 起始門檻、持續使用門檻與停藥門檻，以及 CKD/T2D 與 HF 兩種適應症的劑量差異。依 TFDA/FDA/EMA、PubMed、ClinicalTrials.gov 查核修訂。"
+description: "Finerenone 的 eGFR 起始門檻、持續使用門檻與停藥門檻，以及 CKD/T2D 與 HF 兩種適應症的劑量差異。"
 quick_answer: "eGFR ≥60 起始 20 mg QD、eGFR 25-<60 起始 10 mg QD、eGFR <25 不建議起始。治療中跌破 25 不等於必須停藥（CKD/T2D：eGFR ≥15 可續用；<15/ESKD 停藥）。eGFR 下降 >30% 時不要上調劑量，先排除可逆因素。"
 seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
 ---

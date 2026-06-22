@@ -38,8 +38,8 @@ Post-AKI use/reinitiation 在 observational studies 中與較佳 kidney outcomes
 | 2025 AKI subgroup meta-analysis（另篇） | 2025 | CKD 患者亞群（eGFR 分層分析） | eGFR < 45 亞群：AKI 保護未達顯著差異（HR 1.04, 95% CI 0.50–2.17） | A |
 | Murphy et al.（Kidney360 2024）— post-AKI 觀察性世代 | 2024 | 糖尿病腎病（Veterans, DKD 族群） | AKI 後使用 SGLT2i 與較低 CKD 進展（aHR **0.72**，-28%）及 recurrent AKI（aHR **0.75**，-25%）相關 *[⚠️ 觀察的是 post-AKI re-use 益處；不是直接研究 active AKI 期間繼續使用的安全性]* | B |
 | Murphy et al.（Kidney International 2024）— post-AKI mortality cohort | 2024 | T2DM + AKI 後存活者（Veterans cohort） | Post-AKI 重啟 SGLT2i 與較低全因死亡率相關（aHR **0.63**） *[⚠️ 同上：observational；post-AKI use，非 active AKI 安全性研究]* | B |
-| Empagliflozin post-AKI survivors RCT（NCT05360615 相關） | 2025–2026 | AKI 後存活者，前瞻性 RCT | MAKE365 **未顯著改善**（35% vs 36%，P=0.82）；recurrent AKI incidence rate ratio **0.51（0.31–0.84）** *[⚠️ promising but not definitive：MAKE365 複合終點未達顯著；recurrent AKI 下降值得關注但尚非定論；具體 ClinicalTrials.gov 編號待再次核實]* | B |
-| **Nakao & Bonventre NDT Review（Harvard）** | **2026**（Nephrol Dial Transplant, Jan 30; DOI 10.1093/ndt/gfaf132） | **文獻回顧** | **機轉整合：SGLT2i 降低小管代謝需求 → 增加缺血耐受；降低 ROS、NLRP3 發炎；管球回饋恢復；整體支持 AKI 保護概念** *[⚠️ Review article；機轉佐證與方向性支持，不作 primary outcome evidence；年份更正為 2026]* | C（review） |
+| Empagliflozin post-AKI survivors RCT（NCT05360615 相關） | 2025–2026 | AKI 後存活者，前瞻性 RCT | MAKE365 **未顯著改善**（35% vs 36%，P=0.82）；recurrent AKI incidence rate ratio **0.51（0.31–0.84）** *[⚠️ promising but not definitive：MAKE365 複合終點未達顯著；recurrent AKI 下降值得關注但尚非定論]* | B |
+| **Nakao & Bonventre NDT Review（Harvard）** | **2026**（Nephrol Dial Transplant, Jan 30; DOI 10.1093/ndt/gfaf132） | **文獻回顧** | **機轉整合：SGLT2i 降低小管代謝需求 → 增加缺血耐受；降低 ROS、NLRP3 發炎；管球回饋恢復；整體支持 AKI 保護概念** *[⚠️ Review article；機轉佐證與方向性支持，不作 primary outcome evidence]* | C（review） |
 | **Dong et al. CTS Target Trial Emulation** | **2025** | **台灣全國性健保資料庫，11,467 名 T2DM+CKD（eGFR <45），target trial emulation** | 持續使用 SGLT2i 組：HF HR **0.58**、AKI HR **0.53**、全因死亡率 HR **0.51**，均顯著低於停藥組 *[⚠️ Target trial emulation；非 RCT；提供重要方向性支持，不能取代 RCT 層級結論]* | B |
 
 ### Guideline Recommendations

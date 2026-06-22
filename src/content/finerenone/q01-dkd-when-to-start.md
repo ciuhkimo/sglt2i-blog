@@ -7,7 +7,7 @@ status: ""
 last_updated: 2026-05-27
 next_review: 2026-08-27
 tags: [finerenone, nonsteroidal-MRA, decision-note, DKD, albuminuria, cardiorenal]
-description: "Finerenone 在 T2D + albuminuric CKD 的啟動時機、治療定位（additive vs foundational）、劑量選擇與排序策略，依 KDIGO 2024、ADA 2026、FDA/EMA 仿單及 FIDELIO/FIGARO/FIDELITY 查核修訂。"
+description: "Finerenone 在 T2D + albuminuric CKD 的啟動時機、治療定位（additive vs foundational）、劑量選擇與排序策略。"
 quick_answer: "Finerenone 定位為「有條件的 foundational add-on」：對 T2D + persistent albuminuria（UACR ≥30 mg/g）+ eGFR ≥25 + serum K ≤5.0 + 已建立 RAS blockade 的患者，應主動納入 cardiorenal disease-modifying strategy，而非僅作為最後一步 rescue therapy。不能替代 ACEi/ARB 或 SGLT2i。"
 seo_title: "DKD 何時加 Finerenone？啟動時機、定位與劑量指引"
 ---

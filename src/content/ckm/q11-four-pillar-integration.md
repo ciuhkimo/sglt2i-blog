@@ -403,7 +403,7 @@ De Nicola 是義大利數據，**台灣本地 four-pillar inertia 無對應 coho
 
 ---
 
-## 台灣實務（2026-04 查核版）
+## 台灣實務（2026-04）
 
 ## 1. NHI：SGLT2i 在 CKD / HFmrEF 已有明確公告文字
 
