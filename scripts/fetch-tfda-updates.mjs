@@ -6,7 +6,7 @@
  *      輸出內部草稿（items.json / digest.md / weekly-draft.md）。
  *
  * 設計界線（對應 nephro-tfda-weekly 計畫書第 9 節）：
- *   - 只用官方來源（食藥署 RSS）。
+ *   - 只用官方來源（Tier 0/1 食藥署 RSS；Tier 2 衛福部 RSS，捕捉健保給付異動／醫藥政策）。
  *   - 不自動 commit、不自動 publish、不寫進 src/content/。
  *   - 分類與重要度只是「初步」提示，臨床意義與是否公開由醫師審閱定稿。
  *   - 不轉載公告全文：description 僅保留純文字摘要前段。
@@ -31,13 +31,21 @@ const REPO_ROOT = resolve(__dirname, '..');
 
 // 已驗證可解析、含 pubDate 的官方時序型 / 警訊型 feed。
 // 法規條文庫型 feed（rssLawMedical 等 lawContent）非時序流，刻意不納入週報掃描。
+//
+// Tier 0/1 — 食藥署（TFDA）：來源本身即藥品/醫材領域，採預設收錄門檻。
+// Tier 2（2026-06-26）— 衛福部（MOHW）：捕捉食藥署 feed 未涵蓋的「健保給付異動／醫藥政策」
+//   （重大新藥給付走衛福部新聞稿，健保署本身無乾淨 RSS）。MOHW 涵蓋全衛福部（疾管、長照、
+//   醫事人力等），故標 `strict:true`：僅在命中藥政核心關鍵字（CORE_REG_KW）或腎臟相關時
+//   才列入收錄候選，避免非腎臟藥政內容灌爆掃描清單。
 const FEEDS = [
-	{ key: 'announcement', label: '本署公告', url: 'https://www.fda.gov.tw/TC/rssAnnouncement.ashx' },
-	{ key: 'news', label: '本署新聞', url: 'https://www.fda.gov.tw/TC/rssNews.ashx' },
-	{ key: 'light_drug', label: '國外消費紅綠燈—藥品', url: 'https://www.fda.gov.tw/TC/rssLight_Drug.ashx' },
-	{ key: 'light_device', label: '國外消費紅綠燈—醫療器材', url: 'https://www.fda.gov.tw/TC/rssLight_MedicalDevice.ashx' },
-	{ key: 'law_amending', label: '修法專區', url: 'https://www.fda.gov.tw/TC/rssLawAmending.ashx' },
-	{ key: 'controlled', label: '管制藥品類', url: 'https://www.fda.gov.tw/TC/rssLawControlled.ashx' },
+	{ key: 'announcement', label: '食藥署本署公告', url: 'https://www.fda.gov.tw/TC/rssAnnouncement.ashx', agency: 'TFDA' },
+	{ key: 'news', label: '食藥署本署新聞', url: 'https://www.fda.gov.tw/TC/rssNews.ashx', agency: 'TFDA' },
+	{ key: 'light_drug', label: '食藥署國外消費紅綠燈—藥品', url: 'https://www.fda.gov.tw/TC/rssLight_Drug.ashx', agency: 'TFDA' },
+	{ key: 'light_device', label: '食藥署國外消費紅綠燈—醫療器材', url: 'https://www.fda.gov.tw/TC/rssLight_MedicalDevice.ashx', agency: 'TFDA' },
+	{ key: 'law_amending', label: '食藥署修法專區', url: 'https://www.fda.gov.tw/TC/rssLawAmending.ashx', agency: 'TFDA' },
+	{ key: 'controlled', label: '食藥署管制藥品類', url: 'https://www.fda.gov.tw/TC/rssLawControlled.ashx', agency: 'TFDA' },
+	{ key: 'mohw_focus', label: '衛福部焦點新聞', url: 'https://www.mohw.gov.tw/rss-16-1.html', agency: 'MOHW', strict: true },
+	{ key: 'mohw_announce', label: '衛福部公告訊息', url: 'https://www.mohw.gov.tw/rss-18-1.html', agency: 'MOHW', strict: true },
 ];
 
 const UA = 'Mozilla/5.0 (compatible; NephroDecisions-RegulatoryWeekly/0.1; +https://nephrodecisions.com)';
@@ -56,6 +64,11 @@ const CATEGORY_RULES = [
 	['law_policy', ['預告', '草案', '修正', '辦法', '規定', '公告']],
 ];
 const KIDNEY_KW = ['腎', '透析', '血液透析', '腹膜透析', 'CKD', '尿毒', '糖尿病', 'SGLT2', 'finerenone', '心腎', '球形吸附', '活性碳', 'AST-120', 'kremezin', '克裏美淨', '克裡美淨', '降磷', '磷結合', '鉀離子', '高血鉀', '紅血球生成', '達貝泊', '鐵劑', 'tacrolimus', '環孢', '排斥', '免疫抑制', '移植'];
+// Tier 2 strict-source 收錄門檻：廣域來源（如衛福部）僅在命中以下「藥政核心」關鍵字
+// （或腎臟相關）時才列入收錄候選，過濾疾管、長照、醫事人力等非藥政內容。
+const CORE_REG_KW = ['藥品', '藥物', '藥事', '學名藥', '生物相似', '新藥', '藥證', '仿單', '藥廠', '藥害', '疫苗', '生物製劑', '醫療器材', '醫材', '管制藥', '臨床試驗', '人體試驗', '查驗登記', '許可證', 'GMP', 'GDP', '回收', '警訊', '不良反應', '下架', '短缺', '專案輸入', '給付', '支付標準', '藥價', '核價', '共同擬訂'];
+// 健保給付異動：對臨床處方直接相關，列為高重要度。
+const NHI_PAYMENT_KW = ['給付', '支付標準', '藥價', '核價', '共同擬訂'];
 
 // ---- CLI 參數 -----------------------------------------------------------------
 function parseArgs(argv) {
@@ -131,7 +144,7 @@ function denoise(s) {
 	for (const n of AGENCY_NOISE) o = o.split(n).join('');
 	return o;
 }
-function classify(item) {
+function classify(item, feed = {}) {
 	const title = denoise(item.title);
 	const hay = denoise(`${item.title} ${item.descExcerpt}`);
 	const excluded = EXCLUDE_KW.some((k) => hay.includes(k)) &&
@@ -141,15 +154,24 @@ function classify(item) {
 		if (kws.some((k) => hay.includes(k))) { category = cat; break; }
 	}
 	const kidney = KIDNEY_KW.some((k) => hay.toLowerCase().includes(k.toLowerCase()));
+	const coreReg = CORE_REG_KW.some((k) => hay.includes(k));
+	const nhiPayment = NHI_PAYMENT_KW.some((k) => hay.includes(k));
 	const safetyOrDeadline = ['safety', 'supply'].includes(category) || /回收|警訊|短缺|截止|期限|生效/.test(hay);
-	let importance = 'medium';
-	if (excluded || category === 'other') importance = 'low';
-	else if (safetyOrDeadline || kidney) importance = 'high';
+	// 廣域來源（strict，如衛福部）：須命中藥政核心關鍵字，或腎臟相關且具法規類別，
+	// 才列收錄候選，避免非藥政內容（醫師訓練、長照、總額支付制度等）混入。
+	// 其餘來源（食藥署）沿用既有門檻：非排除且有明確類別。
+	const include = feed.strict
+		? (!excluded && (coreReg || (kidney && category !== 'other')))
+		: (!excluded && category !== 'other');
+	let importance;
+	if (!include) importance = 'low';
+	else if (safetyOrDeadline || kidney || nhiPayment) importance = 'high';
+	else importance = 'medium';
 	return {
 		category_primary: category,
 		kidney_relevance: kidney ? 'high' : 'low',
 		importance,
-		include_in_public_weekly: !excluded && category !== 'other',
+		include_in_public_weekly: include,
 		review_status: 'needs_physician_review',
 	};
 }
@@ -204,7 +226,7 @@ function buildWeeklyDraft(range, rows) {
 		'ai_assisted: true',
 		'tags:\n  - TFDA\n  - 醫藥監管',
 		'audience:\n  - clinician\n  - pharmacist\n  - nurse\n  - researcher',
-		'source_scope:\n' + FEEDS.map((f) => `  - 食藥署 ${f.label} RSS`).join('\n'),
+		'source_scope:\n' + FEEDS.map((f) => `  - ${f.label} RSS`).join('\n'),
 		'---',
 		'',
 		`# 台灣醫藥監管週報｜${range.from} 至 ${range.to}`,
@@ -259,7 +281,7 @@ async function main() {
 		if (oldest?.date && isoDate(oldest.date) >= range.from && items.length >= 20) {
 			console.error(`[note] ${feed.label}：最舊一則(${isoDate(oldest.date)})仍在區間內，feed 視窗(${items.length})可能截斷更舊項目`);
 		}
-		for (const it of windowed) rows.push({ ...it, feedKey: feed.key, feedLabel: feed.label, cls: classify(it) });
+		for (const it of windowed) rows.push({ ...it, feedKey: feed.key, feedLabel: feed.label, agency: feed.agency, cls: classify(it, feed) });
 	}
 	// 依 (cid,id) 或 link 去重
 	const seen = new Set();
@@ -272,7 +294,7 @@ async function main() {
 	const outDir = resolve(REPO_ROOT, 'work', 'tfda', range.to);
 	mkdirSync(outDir, { recursive: true });
 	writeFileSync(resolve(outDir, 'items.json'), JSON.stringify(deduped.map((r) => ({
-		title: r.title, link: r.link, published_date: isoDate(r.date), source_feed: r.feedLabel,
+		title: r.title, link: r.link, published_date: isoDate(r.date), source_feed: r.feedLabel, agency: r.agency,
 		cid: r.cid, id: r.id, ...r.cls, summary_excerpt: r.descExcerpt,
 	})), null, 2));
 	writeFileSync(resolve(outDir, 'digest.md'), buildDigest(range, deduped));
