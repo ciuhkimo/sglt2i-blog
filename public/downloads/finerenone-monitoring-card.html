@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>Finerenone 起始與監測卡</title>
+<style>
+  @page { size: A4; margin: 11mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    color: #1a1a1a; line-height: 1.3; margin: 0; font-size: 9.8pt;
+  }
+  .card { max-width: 188mm; margin: 0 auto; padding: 4mm 2mm; }
+  header.title { border-bottom: 2px solid #4a5699; padding-bottom: 5px; margin-bottom: 7px; }
+  header.title h1 { font-size: 14.5pt; margin: 0; color: #2b3566; }
+  header.title .reg { font-size: 8.4pt; color: #444; margin-top: 2px; }
+  header.title .reg b { color: #4a5699; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 14px; }
+  section { break-inside: avoid; }
+  h2 { font-size: 10pt; margin: 6px 0 3px; color: #2b3566;
+       border-left: 4px solid #4a5699; padding-left: 6px; }
+  ul { margin: 2px 0 4px; padding-left: 15px; }
+  li { margin: 1px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 2px 0 4px; font-size: 9.2pt; }
+  th, td { border: 1px solid #c9cddf; padding: 2px 5px; text-align: left; }
+  th { background: #eef0f7; }
+  .full { grid-column: 1 / -1; }
+  .safety { background: #f4f6fb; border: 1px solid #c9cddf; border-radius: 4px;
+            padding: 5px 8px; margin-top: 4px; font-size: 9.2pt; }
+  .safety b { color: #2b3566; }
+  .nhi { font-size: 9.4pt; margin-top: 4px; }
+  .score { background: #fbfbfe; border: 1px solid #c9cddf; border-radius: 4px; padding: 4px 8px; margin-top: 4px; }
+  .score table { font-size: 8.8pt; }
+  .checkbox { color: #4a5699; font-weight: 700; }
+  .warn { color: #b5360a; font-weight: 700; }
+  .up { color: #1d6a32; font-weight: 700; }
+  footer.src { font-size: 7.4pt; color: #555; margin-top: 8px; border-top: 1px solid #ddd; padding-top: 4px; }
+</style>
+</head>
+<body>
+<div class="card">
+
+  <header class="title">
+    <h1>Finerenone（Kerendia／可申達）起始與監測卡</h1>
+    <div class="reg">台灣 TFDA 仿單 <b>衛部藥輸字第 028326 號</b>　·　適應症：T2D 相關 CKD｜心衰竭 LVEF ≥40%
+      <span style="color:#b5360a">（CKD 適應症仍限 T2D 相關；非糖尿病蛋白尿 CKD 屬 off-label／自費）</span>　·　版本 2026-06</div>
+  </header>
+
+  <div class="grid">
+    <section>
+      <h2>① 誰可以起始（有條件 foundational add-on）</h2>
+      <ul>
+        <li><span class="checkbox">☐</span> T2D + persistent albuminuria（UACR ≥30 mg/g）</li>
+        <li><span class="checkbox">☐</span> eGFR ≥25</li>
+        <li><span class="checkbox">☐</span> serum K⁺ ≤5.0（最佳起始區 ≤4.8）</li>
+        <li><span class="checkbox">☐</span> 已用 max-tolerated RASi（ACEi 或 ARB）</li>
+        <li><b>加在 RASi + SGLT2i 之上，不替代它們</b></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>② 起始與目標劑量（依 eGFR）</h2>
+      <table>
+        <tr><th>eGFR</th><th>CKD/T2D 起始→目標</th><th>HF (LVEF≥40%) 起始→目標</th></tr>
+        <tr><td>≥60</td><td>20 mg → 20 mg</td><td>20 mg → 40 mg/day</td></tr>
+        <tr><td>25–&lt;60</td><td>10 mg → 20 mg</td><td>10 mg → 20 mg/day</td></tr>
+        <tr><td>&lt;25</td><td>不起始</td><td>不起始</td></tr>
+      </table>
+      <ul>
+        <li>HF 目標劑量依「<b>開始治療時的 eGFR</b>」定，不依之後門診 eGFR 改寫。</li>
+        <li>治療中 eGFR 跌破 25 <b>≠ 必停</b>：15–&lt;25 可考慮續用（更密切監測；無 RCT）；&lt;15／ESKD 才停。eGFR 降 &gt;30%：<b>不上調</b>，先排除可逆因素。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>③ K⁺ 起始閾值</h2>
+      <ul>
+        <li><b>≤4.8</b>：最佳起始區</li>
+        <li><b>4.8–5.0</b>：可起始，但前 4 週加密監測</li>
+        <li><b>&gt;5.0</b>：不起始</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>④ 監測時程（K⁺ + eGFR 同步）</h2>
+      <ul>
+        <li><b>仿單最低</b>：baseline → 起始後 4 週（重啟／加量後再 4 週）</li>
+        <li><b>實務節奏</b>（KDIGO／trial）：1 月 → 4 月 → 其後每 4 月</li>
+        <li><b>高風險</b>＊前 4 週內加做一次　<span style="font-size:8.4pt">＊eGFR 25–44／K⁺ 4.8–5.0／既往高血鉀／合併升鉀藥</span></li>
+      </ul>
+    </section>
+
+    <section class="full">
+      <h2>⑤ 劑量 × K⁺ 調整（含 hold / restart）</h2>
+      <table>
+        <tr><th>當前劑量</th><th>K⁺ ≤4.8</th><th>K⁺ &gt;4.8–5.5</th><th>K⁺ &gt;5.5</th></tr>
+        <tr><td><b>10 mg</b></td><td><span class="up">↑ 上調 20 mg</span>（若 eGFR 未降 &gt;30%）</td><td>維持 10 mg、找可逆原因</td><td><span class="warn">暫停</span>；K⁺ ≤5.0 以 10 mg 重啟</td></tr>
+        <tr><td><b>20 mg</b></td><td>維持 20 mg</td><td>維持 20 mg、找可逆原因</td><td><span class="warn">暫停</span>；K⁺ ≤5.0 以 10 mg 重啟</td></tr>
+      </table>
+      <ul>
+        <li><span class="warn">K⁺ &gt;5.5 → hold</span>：先處理可逆因素（飲食／併用藥／便秘／volume），必要時 diuretic／bicarbonate／licensed K binder；<span class="warn">反覆／難矯正 → 考慮永久停藥</span>。</li>
+        <li><b>勿與其他 MRA／K-sparing diuretic 併用</b>；升鉀藥（TMP-SMX、NSAIDs、K 補充劑／代鹽等）監測 K⁺、必要時暫停。strong CYP3A4 inhibitor 禁忌、避免葡萄柚。</li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="safety">
+    <b>效益與安全（FIDELITY pooled，供溝通用）</b>：腎臟複合終點 <b>HR 0.77</b>；高血鉀相關 AE 14.0% vs placebo 6.9%；<b>永久停藥僅 1.7%</b>；住院 0.9%；<b>致死性高血鉀 0</b>。→ 多數高血鉀在標準化監測 + hold/restart 下可管理。
+  </div>
+
+  <div class="score">
+    <b>FIDELITY 高血鉀風險分數（0–12，估「新發 K⁺ &gt;5.5」）</b>
+    <span style="font-size:8.6pt">分層：Low 0–3／Intermediate 4–6／High 7–12</span>
+    <table>
+      <tr><th>因子</th><th>分</th><th>因子</th><th>分</th></tr>
+      <tr><td>Serum K⁺ &gt;4.5</td><td>3</td><td>UACR &gt;1000 mg/g</td><td>2</td></tr>
+      <tr><td>既往 hyperkalemia</td><td>2</td><td>Hb &lt;12 g/dL</td><td>1</td></tr>
+      <tr><td>未用 SGLT2i</td><td>2</td><td>未用 thiazide</td><td>1</td></tr>
+      <tr><td>eGFR &lt;45</td><td>1</td><td></td><td></td></tr>
+    </table>
+  </div>
+
+  <div class="nhi"><b>台灣健保</b>：尚未納入健保，需<b>自費</b>；每月藥費約 <b>NT$2,250–2,700</b>（依院內公告為準、價格會變動）。<b>門診排序</b>：ACEi/ARB 最適化 → SGLT2i（已給付）→ 殘餘 albuminuria + K⁺ 穩定者討論 finerenone 自費 add-on。</div>
+
+  <footer class="src">
+    資料來源：nephrodecisions.com finerenone 決策筆記 q01／q03／q04／q08／q11 ＋ FDA 2025 PI／EMA SmPC（衛部藥輸字第028326號）＋ KDIGO 2024／ADA 2026 ＋ FIDELITY pooled。本卡為臨床速查，非醫療建議；實際處方以最新仿單、健保規定與個別臨床評估為準。｜小鎮醫生・腎臟科專科醫師｜版本 2026-06
+  </footer>
+
+</div>
+</body>
+</html>
