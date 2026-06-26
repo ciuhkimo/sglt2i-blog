@@ -55,7 +55,7 @@ All commands are run from the root of the project, from a terminal:
 
 ## 台灣醫藥監管週報（`/regulatory/`）
 
-每週整理食藥署（TFDA）與衛生福利部（MOHW）官方公告／新聞中，與腎臟科、藥品、醫療器材、臨床試驗、查驗登記、GMP/GDP、藥品安全、供應與健保給付異動相關的重點。
+每週整理食藥署（TFDA）與衛生福利部（MOHW）官方公告／新聞中，與腎臟科、藥品、醫療器材、臨床試驗、查驗登記、GMP/GDP、藥品安全、供應與健保給付異動相關的重點；並掃描 FDA／EMA 國際監管 feed，僅收錄與腎臟相關（kidney-relevant）的項目。
 
 **核心原則：機器跑到草稿，醫師審閱後才發布。** AI 只負責抓取、去重、初步分類與生成草稿；臨床／法規意義與是否公開，必須由醫師審閱定稿。草稿一律 `review_status: needs_physician_review`（noindex、不列入列表與 RSS）；翻成 `physician_reviewed` 並 push 後才會由 Vercel 上線。
 
@@ -64,7 +64,7 @@ All commands are run from the root of the project, from a terminal:
 - `src/content/regulatory/<YYYY-MM-DD>-tfda-weekly.md` — 每期週報（content collection）
 - `src/content.config.ts` — `regulatory` schema（含 `review_status` gate）
 - `src/layouts/RegulatoryLayout.astro`、`src/pages/regulatory/` — 版型、列表、單篇、專屬 RSS
-- `scripts/fetch-tfda-updates.mjs` — 抓取食藥署＋衛福部 RSS、初整、產草稿（Tier 2 衛福部來源套 `strict` 藥政關鍵字門檻）
+- `scripts/fetch-tfda-updates.mjs` — 抓取食藥署＋衛福部＋FDA/EMA RSS、初整、產草稿（Tier 2 衛福部套 `strict` 藥政關鍵字門檻；FDA/EMA 套 `intl` kidney-only 門檻）
 - `scripts/tfda-publish.mjs` — 發布前驗證 + 翻 `review_status` + 本地 commit
 - `.github/workflows/tfda-weekly.yml` — 每週自動抓取並開 draft PR
 - `scripts/verify-p0.mjs` Check 9 — 驗證草稿 gate（noindex、不外露）

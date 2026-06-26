@@ -6,7 +6,8 @@
  *      輸出內部草稿（items.json / digest.md / weekly-draft.md）。
  *
  * 設計界線（對應 nephro-tfda-weekly 計畫書第 9 節）：
- *   - 只用官方來源（Tier 0/1 食藥署 RSS；Tier 2 衛福部 RSS，捕捉健保給付異動／醫藥政策）。
+ *   - 只用官方來源（Tier 0/1 食藥署 RSS；Tier 2 衛福部 RSS〔健保給付／醫藥政策〕
+ *     ＋ FDA／EMA RSS〔國際監管，依 plan §4 僅收 kidney-relevant 項目〕）。
  *   - 不自動 commit、不自動 publish、不寫進 src/content/。
  *   - 分類與重要度只是「初步」提示，臨床意義與是否公開由醫師審閱定稿。
  *   - 不轉載公告全文：description 僅保留純文字摘要前段。
@@ -46,6 +47,11 @@ const FEEDS = [
 	{ key: 'controlled', label: '食藥署管制藥品類', url: 'https://www.fda.gov.tw/TC/rssLawControlled.ashx', agency: 'TFDA' },
 	{ key: 'mohw_focus', label: '衛福部焦點新聞', url: 'https://www.mohw.gov.tw/rss-16-1.html', agency: 'MOHW', strict: true },
 	{ key: 'mohw_announce', label: '衛福部公告訊息', url: 'https://www.mohw.gov.tw/rss-18-1.html', agency: 'MOHW', strict: true },
+	// Tier 2 國際（intl）：FDA／EMA 英文 feed。依 plan §4 僅收 kidney-relevant 項目
+	//（英文關鍵字 KIDNEY_KW_EN），並排除獸醫／食品（INTL_EXCLUDE_KW，如 EMA CVMP、FDA 食品召回）。
+	{ key: 'fda_medwatch', label: 'FDA MedWatch 安全警訊', url: 'https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml', agency: 'FDA', intl: true },
+	{ key: 'fda_press', label: 'FDA 新聞稿（核准／政策）', url: 'https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml', agency: 'FDA', intl: true },
+	{ key: 'ema_news', label: 'EMA 新聞與新聞稿', url: 'https://www.ema.europa.eu/en/news.xml', agency: 'EMA', intl: true },
 ];
 
 const UA = 'Mozilla/5.0 (compatible; NephroDecisions-RegulatoryWeekly/0.1; +https://nephrodecisions.com)';
@@ -69,6 +75,18 @@ const KIDNEY_KW = ['腎', '透析', '血液透析', '腹膜透析', 'CKD', '尿�
 const CORE_REG_KW = ['藥品', '藥物', '藥事', '學名藥', '生物相似', '新藥', '藥證', '仿單', '藥廠', '藥害', '疫苗', '生物製劑', '醫療器材', '醫材', '管制藥', '臨床試驗', '人體試驗', '查驗登記', '許可證', 'GMP', 'GDP', '回收', '警訊', '不良反應', '下架', '短缺', '專案輸入', '給付', '支付標準', '藥價', '核價', '共同擬訂'];
 // 健保給付異動：對臨床處方直接相關，列為高重要度。
 const NHI_PAYMENT_KW = ['給付', '支付標準', '藥價', '核價', '共同擬訂'];
+// 國際來源（FDA／EMA，英文）關鍵字。plan §4：國際僅收 kidney-relevant。
+const KIDNEY_KW_EN = ['kidney', 'renal', 'nephro', 'nephritis', 'nephropathy', 'nephrotic', 'dialysis', 'haemodialysis', 'hemodialysis', 'peritoneal', 'ckd', 'eskd', 'esrd', 'glomerul', 'proteinuria', 'albuminuria', 'egfr', 'finerenone', 'sglt2', 'dapagliflozin', 'empagliflozin', 'canagliflozin', 'tolvaptan', 'adpkd', 'polycystic kidney', 'hyperkalemia', 'hyperkalaemia', 'lupus nephritis', 'iga nephropathy', 'fsgs', 'roxadustat', 'darbepoetin', 'erythropoietin', 'phosphate binder', 'tacrolimus', 'belatacept'];
+// 國際排除：獸醫／動物（EMA CVMP、FDA 動物用藥）、菸／食品／化粧品／寵物。
+const INTL_EXCLUDE_KW = ['veterinary', 'cvmp', 'animal health', 'animal drug', 'animal food', 'tobacco', 'cosmetic', 'pet food', 'companion animal', 'canine', 'feline'];
+// 國際英文類別偵測（中文 CATEGORY_RULES 不命中英文時補用，case-insensitive）。
+const CATEGORY_RULES_EN = [
+	['safety', ['recall', 'safety alert', 'safety communication', 'warning', 'adverse', 'withdrawal', 'boxed warning', 'contraindicat', 'early alert']],
+	['medical_device', ['device', 'catheter', 'implant', 'infusion pump']],
+	['clinical_trial', ['clinical trial', 'phase 3', 'phase iii']],
+	['registration', ['approve', 'approval', 'authorisation', 'authorization', 'clears', 'cleared', 'new indication']],
+	['drug', ['drug', 'medicine', 'medicinal product', 'biologic', 'generic']],
+];
 
 // ---- CLI 參數 -----------------------------------------------------------------
 function parseArgs(argv) {
@@ -147,20 +165,32 @@ function denoise(s) {
 function classify(item, feed = {}) {
 	const title = denoise(item.title);
 	const hay = denoise(`${item.title} ${item.descExcerpt}`);
+	const hayLower = hay.toLowerCase();
 	const excluded = EXCLUDE_KW.some((k) => hay.includes(k)) &&
 		!CATEGORY_RULES.slice(0, 8).some(([, kws]) => kws.some((k) => title.includes(k)));
 	let category = 'other';
 	for (const [cat, kws] of CATEGORY_RULES) {
 		if (kws.some((k) => hay.includes(k))) { category = cat; break; }
 	}
-	const kidney = KIDNEY_KW.some((k) => hay.toLowerCase().includes(k.toLowerCase()));
+	// 國際來源為英文，中文 CATEGORY_RULES 不命中 → 補英文類別偵測（case-insensitive）。
+	if (category === 'other' && feed.intl) {
+		for (const [cat, kws] of CATEGORY_RULES_EN) {
+			if (kws.some((k) => hayLower.includes(k))) { category = cat; break; }
+		}
+	}
+	const kidney = KIDNEY_KW.some((k) => hayLower.includes(k.toLowerCase()))
+		|| (feed.intl && KIDNEY_KW_EN.some((k) => hayLower.includes(k)));
 	const coreReg = CORE_REG_KW.some((k) => hay.includes(k));
 	const nhiPayment = NHI_PAYMENT_KW.some((k) => hay.includes(k));
+	const intlExcluded = feed.intl && INTL_EXCLUDE_KW.some((k) => hayLower.includes(k));
 	const safetyOrDeadline = ['safety', 'supply'].includes(category) || /回收|警訊|短缺|截止|期限|生效/.test(hay);
-	// 廣域來源（strict，如衛福部）：須命中藥政核心關鍵字，或腎臟相關且具法規類別，
-	// 才列收錄候選，避免非藥政內容（醫師訓練、長照、總額支付制度等）混入。
-	// 其餘來源（食藥署）沿用既有門檻：非排除且有明確類別。
-	const include = feed.strict
+	// 收錄門檻三制：
+	//   國際（intl，FDA/EMA）— plan §4 僅收 kidney-relevant，且排除獸醫／食品。
+	//   廣域（strict，衛福部）— 須命中藥政核心詞，或腎臟相關且具類別；濾非藥政內容。
+	//   其餘（食藥署）— 非排除且有明確類別。
+	const include = feed.intl
+		? (!intlExcluded && kidney)
+		: feed.strict
 		? (!excluded && (coreReg || (kidney && category !== 'other')))
 		: (!excluded && category !== 'other');
 	let importance;
