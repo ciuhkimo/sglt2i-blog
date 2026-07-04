@@ -120,7 +120,7 @@ tags:
 ### 5.1 術後 persistent hyperkalemia（7.3%）三階梯
 
 1. **排查可逆因子**：停升鉀藥（ACEi/ARB/NSAID/TMP-SMX/K⁺ 補充）、適度 liberal sodium、排除 volume depletion。
-2. **fludrocortisone 起始橋接**：Tahir 2016（**PMID 27460219**, *BMC Endocr Disord*，術後 severe hyperkalemia case series）——可由 **0.05-0.1 mg/day 起始**，依 K⁺、BP、volume status 與腎功能個別滴定（部分個案需更高劑量）；**每 1-2 週監測**，過高會抑制對側甦醒、引發高血壓/水腫。不宜寫成固定或最高劑量。
+2. **fludrocortisone 起始橋接**：Tahir 2016（**PMID 27460219**, *BMC Endocr Disord*，術後 severe hyperkalemia case series）——可由 **0.05-0.1 mg/day 起始**，依 K⁺、BP、volume status 與腎功能個別滴定（部分個案需更高劑量）；**每 1-2 週監測**，過高會抑制對側甦醒、引發高血壓/水腫（0.05-0.1 mg/day 為起始劑量範圍，非固定劑量或劑量上限）。
 3. **長期 hypoaldosteronism 評估**：少數需長期 mineralocorticoid 補充。
 
 ### 5.2 風險預測（術前 counsel 用）
@@ -173,7 +173,7 @@ tags:
 - **Katsuragawa 2025 meta**（**PMID 41235994**, *Lancet Diab Endocrinol* 13(12):1041-1053；24 studies/6621 pt）：unsuppressed renin → CV events **HR 0.43**（0.23-0.80, low cert）；**≥5 yr HR 0.33**（0.19-0.57, mod cert）；**renal 無顯著 HR 0.95**（0.51-1.77, very low）；mortality HR 0.29（1 study, low）。多數研究 PRA cutoff **1.0**。作者結論明示：需前瞻研究才能確認「滴定至 renin 正常化可改善臨床結局」。
 
 > **⚠️ hedge — PRA cutoff + 硬終點強度**
-> ① **PRA cutoff 1 vs 2 無 RCT 直接比較**，PAMO 及多數研究用 1.0 → 應寫成「常用工作目標 PRA ≥1、非鐵律」，非指引固定 target。
+> ① **PRA cutoff 1 vs 2 無 RCT 直接比較**，PAMO 及多數研究用 1.0；PRA ≥1 宜視為常用工作目標、非鐵律，亦非指引固定 target。
 >
 > ② **renin-guided titration 無完成的硬終點 RCT** 證明優於 BP/K⁺ target：唯一直接試驗 **RETAME-PA**（Merabtine 2025, *BMJ Open*, **PMID 41419284**, NCT06108427）為 feasibility RCT（4 加拿大中心、58 人、open-label），**primary endpoint = 12 月達 unsuppressed renin（生化代理，非硬終點）**。機轉支持來自 **PATHWAY-2 mechanisms substudy**（Williams 2018, **PMID 29655877**：plasma renin/ARR 預測 spironolactone 降壓幅度）。Hundemer/Katsuragawa 為 **observational**；**SPAIN-ALDO（PMID 38225508）** suppressed vs unsuppressed renin 兩組 cardiometabolic 結局無差（HR 0.95 [0.52-1.73]），直接削弱「renin target = 改善硬結局」。→ 定性：**renin de-suppression 是現代最佳可用的治療到位 biomarker，但非 outcome-proven、非脫離臨床脈絡的單一硬指標**。
 
