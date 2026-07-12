@@ -7,7 +7,8 @@ import Header from '../../components/Header.astro';
 import { SITE_TITLE } from '../../consts';
 
 const allNotes = await getCollection('pa');
-const sorted = allNotes.sort((a, b) => a.data.question_id.localeCompare(b.data.question_id));
+const qNum = (id: string) => parseInt(id.replace(/\D/g, ''), 10);
+const sorted = allNotes.sort((a, b) => qNum(a.data.question_id) - qNum(b.data.question_id));
 ---
 
 <!doctype html>
@@ -32,6 +33,30 @@ const sorted = allNotes.sort((a, b) => a.data.question_id.localeCompare(b.data.q
 				color: rgb(var(--gray));
 				font-size: 1.05em;
 				margin-bottom: 2em;
+			}
+			.card-download {
+				display: block;
+				text-decoration: none;
+				border: 1px solid rgb(var(--gray-light));
+				border-left: 4px solid #d4913a;
+				border-radius: 6px;
+				padding: 0.8em 1em;
+				margin-bottom: 2em;
+				background: rgba(212, 145, 58, 0.06);
+				transition: background 0.15s;
+			}
+			.card-download:hover {
+				background: rgba(212, 145, 58, 0.12);
+			}
+			.card-download .cd-title {
+				font-weight: 700;
+				color: #b5711a;
+			}
+			.card-download .cd-sub {
+				display: block;
+				font-size: 0.82em;
+				color: rgb(var(--gray));
+				margin-top: 0.25em;
 			}
 			.note-list {
 				list-style: none;
@@ -74,9 +99,14 @@ const sorted = allNotes.sort((a, b) => a.data.question_id.localeCompare(b.data.q
 	</head>
 	<body>
 		<Header />
-		<main>
+		<main id="main-content">
 			<h1>Primary Aldosteronism 臨床決策筆記</h1>
-			<p class="subtitle">原發性醛固酮症在台灣腎臟科實務的決策問題。整合 2025 Endocrine Society、2024 ESC HTN guideline、2025 Taipei Positional Paper、TAIPAI Study Group 證據與健保實務。已上線 Q1（篩檢）、Q2（ARR 切點）、Q3（確認試驗）、Q4（AVS）、Q5（手術 vs MRA）、Q6（CKD-PA）、Q8（腎上腺意外瘤）、Q9（PA+AF）、Q11（健保）；Q7、Q10、Q12、Q13 後續發表。</p>
+			<p class="subtitle">原發性醛固酮症在台灣腎臟科實務的決策問題，從篩檢、診斷、治療到治療後追蹤與共病。整合 2025 Endocrine Society guideline、2024 ESC HTN guideline、2025 Taipei Positional Paper、TAIPAI Study Group 證據與健保實務。</p>
+
+			<a class="card-download" href="/patient/pa-hub/">
+				<span class="cd-title">👤 給病人看的版本：原發性醛固酮症完整指南</span>
+				<span class="cd-sub">高血壓背後的隱藏元兇——什麼是 PA、誰該檢查、怎麼診斷、有哪些治療（白話衛教 Hub）</span>
+			</a>
 
 			{sorted.length > 0 ? (
 				<ul class="note-list">

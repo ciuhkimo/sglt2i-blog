@@ -28,6 +28,8 @@ const patient = defineCollection({
 		last_updated: z.coerce.date(),
 		tags: z.array(z.string()),
 		seo_title: z.string().optional(),
+		about_condition: z.string().optional(),
+		disclaimer: z.string().optional(),
 	}),
 });
 

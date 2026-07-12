@@ -11,7 +11,10 @@ import { organization, organizationRef } from '../lib/schema/organization';
 
 type Props = CollectionEntry<'patient'>['data'];
 
-const { title, description, source_note, last_updated, tags, seo_title } = Astro.props;
+const { title, description, source_note, last_updated, tags, seo_title, about_condition, disclaimer } = Astro.props;
+
+const conditionName = about_condition || 'Chronic Kidney Disease';
+const disclaimerText = disclaimer || '本文提供腎臟病照護的衛教整理，不能取代個別醫囑。飲食、水分、運動與藥物調整，請依您的腎臟科醫療團隊建議。';
 
 const noteSlugMap: Record<string, string> = {
 	Q01: 'q01-ckd-start-timing',
@@ -58,7 +61,7 @@ const jsonLd = JSON.stringify({
 			},
 			about: {
 				'@type': 'MedicalCondition',
-				name: 'Chronic Kidney Disease',
+				name: conditionName,
 			},
 		},
 	],
@@ -194,7 +197,7 @@ const breadcrumbLd = JSON.stringify({
 					</div>
 				</div>
 				<div class="callout">
-					本文提供腎臟病照護的衛教整理，不能取代個別醫囑。飲食、水分、運動與藥物調整，請依您的腎臟科醫療團隊建議。
+					{disclaimerText}
 				</div>
 				<div class="print-btn-wrapper">
 					<ReadAloudButton />
