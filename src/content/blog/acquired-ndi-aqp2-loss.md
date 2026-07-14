@@ -6,6 +6,7 @@ target_audience: "腎臟科醫師、內科醫師、醫學生"
 last_updated: 2026-07-04
 tags: [尿崩症, NDI, acquired-NDI, AQP2, nephrogenic-diabetes-insipidus, lithium, hypokalemia, hypercalcemia, NF-kB, autophagy, polyuria, collecting-duct]
 seo_title: "後天性腎因性尿崩症（Acquired NDI）機轉：AQP2 loss、lithium／阻塞／內毒素／低血鉀／高血鈣"
+about_condition: "Nephrogenic Diabetes Insipidus"
 ---
 
 > **一句話**：多種後天性 nephrogenic diabetes insipidus（NDI）的共同末端機轉，是 collecting duct principal cell 的 **AQP2 減少**。其中 **lithium、ureteral obstruction、endotoxin** 主要走 **NF-κB／inflammatory-like signaling** 抑制 Aqp2 transcription；而 **hypokalemia、hypercalcemia** 更偏向 **autophagy-mediated AQP2 degradation**。

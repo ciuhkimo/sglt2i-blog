@@ -3,7 +3,7 @@ const today = new Date();
 ---
 
 <footer>
-	<p>&copy; {today.getFullYear()} Nephro Decisions. 保留所有權利。｜<a href="/editorial-policy/">編輯方針</a>｜<a href="/disclaimer/">醫療免責聲明</a>｜<a href="/privacy/">隱私權政策</a>｜<a href="/accessibility/">無障礙</a>｜<a href="/listen/">通勤收聽</a>｜<a href="/rss.xml">RSS</a>｜<a href="mailto:cayman.schools.2@icloud.com">聯絡信箱</a></p>
+	<p>&copy; {today.getFullYear()} Nephro Decisions. 保留所有權利。｜<a href="/editorial-policy/">編輯方針</a>｜<a href="/disclaimer/">醫療免責聲明</a>｜<a href="/privacy/">隱私權政策</a>｜<a href="/accessibility/">無障礙</a>｜<a href="/listen/">通勤收聽</a>｜<a href="/subscribe/">訂閱</a>｜<a href="/rss.xml">RSS</a>｜<a href="mailto:cayman.schools.2@icloud.com">聯絡信箱</a></p>
 </footer>
 
 <script>
@@ -20,9 +20,8 @@ const today = new Date();
 <script type="module">
 	(async () => {
 		// Mermaid DSL is stored URL-encoded in data-mermaid-src on each container
-		// (see astro.config.mjs::rehypeMermaidPreToDiv). The literal DSL never appears as
-		// readable text anywhere in the HTML — readability extractors / AI scrapers /
-		// string-match audits all miss it. At runtime we decode and render to SVG.
+		// (see astro.config.mjs::rehypeMermaidPreToDiv). At runtime we decode it and
+		// render to SVG; a <noscript> fallback provides the text description.
 		const containers = document.querySelectorAll('div.mermaid-container[data-mermaid-src]');
 		if (containers.length === 0) return;
 		const targets = [];

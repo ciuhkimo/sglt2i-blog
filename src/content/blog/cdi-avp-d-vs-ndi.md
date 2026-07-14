@@ -6,6 +6,7 @@ target_audience: "腎臟科醫師、內科醫師、醫學生"
 last_updated: 2026-07-04
 tags: [尿崩症, CDI, AVP-D, central-diabetes-insipidus, NDI, desmopressin, DDAVP, 高血鈉, hypernatremia, 水禁試驗, copeptin, polyuria]
 seo_title: "CDI（AVP-D）vs NDI 怎麼分？中央性尿崩症的高血鈉、desmopressin 反應與水禁試驗"
+about_condition: "Diabetes Insipidus"
 ---
 
 > **一句話**：CDI ＝ 中樞 AVP 不夠；病人**能喝水時血鈉可正常，不能喝水時很容易高血鈉**；DDAVP（desmopressin）通常有效。

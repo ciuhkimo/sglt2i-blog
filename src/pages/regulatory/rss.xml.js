@@ -19,7 +19,8 @@ export async function GET(context) {
 	return rss({
 		title: '台灣醫藥監管週報｜Nephro Decisions',
 		description: '每週整理 TFDA 與台灣醫藥監管中，和腎臟科、藥品、醫療器材、臨床試驗、查驗登記、GMP/GDP 與藥品安全相關的重點。AI 協助彙整、醫師審閱。',
-		site: context.site,
+		// channel <link> 指向 /regulatory/ 而非站根；item link 為絕對路徑不受 base 影響
+		site: new URL('/regulatory/', context.site).href,
 		items,
 	});
 }

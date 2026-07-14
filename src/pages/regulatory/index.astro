@@ -5,12 +5,47 @@ import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
 import { SITE_TITLE } from '../../consts';
+import { organization, organizationRef } from '../../lib/schema/organization';
 
 // 只列已醫師審閱的週報；needs_physician_review 草稿不對外公開。
 const all = await getCollection('regulatory');
 const sorted = all
 	.filter((p) => p.data.review_status === 'physician_reviewed')
 	.sort((a, b) => b.data.last_updated.valueOf() - a.data.last_updated.valueOf());
+
+const siteBase = 'https://nephrodecisions.com';
+const collectionLd = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@graph': [
+		organization,
+		{
+			'@type': 'CollectionPage',
+			'@id': `${siteBase}/regulatory/#collection`,
+			url: `${siteBase}/regulatory/`,
+			name: '台灣醫藥監管週報',
+			description:
+				'每週整理食藥署（TFDA）、衛福部（MOHW）官方公告，以及與腎臟科相關的 FDA／EMA 國際訊息中，和藥品、醫療器材、臨床試驗、查驗登記、GMP/GDP 與藥品安全相關的重點。醫師審閱後發布。',
+			isPartOf: organizationRef,
+			publisher: organizationRef,
+			mainEntity: {
+				'@type': 'ItemList',
+				itemListElement: sorted.map((post, i) => ({
+					'@type': 'ListItem',
+					position: i + 1,
+					url: `${siteBase}/regulatory/${post.id}/`,
+					name: post.data.title,
+				})),
+			},
+		},
+		{
+			'@type': 'BreadcrumbList',
+			itemListElement: [
+				{ '@type': 'ListItem', position: 1, name: '首頁', item: `${siteBase}/` },
+				{ '@type': 'ListItem', position: 2, name: '台灣醫藥監管週報', item: `${siteBase}/regulatory/` },
+			],
+		},
+	],
+});
 ---
 
 <!doctype html>
@@ -18,9 +53,10 @@ const sorted = all
 	<head>
 		<BaseHead
 			title={`台灣醫藥監管週報 | ${SITE_TITLE}`}
-			description="每週整理 TFDA 食藥署公告與新聞中，與腎臟科、藥品、醫療器材、臨床試驗、查驗登記、GMP/GDP 與藥品安全相關的重點，給臨床同行與照護團隊閱讀。以主管機關公告原文為準。"
+			description="每週整理食藥署（TFDA）、衛福部（MOHW）公告與腎臟科相關的 FDA／EMA 國際訊息中，與藥品、醫療器材、臨床試驗、查驗登記、GMP/GDP 與藥品安全相關的重點，給臨床同行與照護團隊閱讀。以主管機關公告原文為準。"
 		/>
 		<link rel="alternate" type="application/rss+xml" title="台灣醫藥監管週報" href="/regulatory/rss.xml" />
+		<script type="application/ld+json" set:html={collectionLd} />
 		<style>
 			main {
 				width: 720px;
@@ -93,7 +129,7 @@ const sorted = all
 		<main>
 			<h1>台灣醫藥監管週報</h1>
 			<p class="intro">
-				每週整理食藥署（TFDA）官方公告與新聞中，和腎臟科、藥品、醫療器材、臨床試驗、查驗登記、GMP/GDP、藥品安全與供應相關的重點，整理成給臨床同行與照護團隊閱讀的摘要。
+				每週整理食藥署（TFDA）與衛福部（MOHW）官方公告，以及與腎臟科相關的 FDA／EMA 國際訊息中，和藥品、醫療器材、臨床試驗、查驗登記、GMP/GDP、藥品安全與供應相關的重點，整理成給臨床同行與照護團隊閱讀的摘要。
 			</p>
 			<p class="scope-note">
 				這是專業更新欄位，不是公告全文轉載牆。機器負責掃描與初整，醫師負責判斷與發布；所有項目均附官方原文連結，<strong>實際作業以主管機關公告原文為準</strong>。

@@ -11,7 +11,11 @@ import { organization, organizationRef } from '../lib/schema/organization';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, category, target_audience, last_updated, description, seo_title, tags } = Astro.props;
+const { title, category, target_audience, last_updated, description, seo_title, tags, about_condition } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
+const ogSlug = Astro.url.pathname.replace(/^\/|\/$/g, '');
+const imageURL = new URL(`/og/${ogSlug}.png`, Astro.site).href;
 
 const jsonLd = JSON.stringify({
 	'@context': 'https://schema.org',
@@ -20,8 +24,13 @@ const jsonLd = JSON.stringify({
 		authorPerson,
 		{
 			'@type': ['MedicalWebPage', 'Article'],
+			'@id': `${canonicalURL}#article`,
+			url: canonicalURL,
+			mainEntityOfPage: canonicalURL,
 			headline: title,
 			name: title,
+			description: description || title,
+			image: imageURL,
 			datePublished: last_updated.toISOString(),
 			dateModified: last_updated.toISOString(),
 			author: authorPersonRef,
@@ -32,6 +41,9 @@ const jsonLd = JSON.stringify({
 				'@type': 'MedicalAudience',
 				audienceType: 'Clinician',
 			},
+			...(about_condition
+				? { about: { '@type': 'MedicalCondition', name: about_condition } }
+				: {}),
 		},
 	],
 });
