@@ -294,7 +294,7 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 
 ---
 
-## 5. CKD-PA Overlap（連 Q6（後續發表））
+## 5. CKD-PA Overlap（連 Q6）
 
 三段式思考：
 
@@ -309,25 +309,25 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 - ⚠️ **AMBER 適用範圍為 eGFR 25-45**，**不能外推到 eGFR <25 / dialysis**
 - 價值：**hyperkalemia mitigation strategy 在想保住 spironolactone 時可能可用**
 
-詳細 CKD-PA management → Q6（後續發表）。
+詳細 CKD-PA management → [Q6](/pa/q06-ckd-pa-treatment/)。
 
 ---
 
-## 6. PA-AF Overlap（連 Q9（後續發表））
+## 6. PA-AF Overlap（連 Q9）
 
 - **TAIPAI nationwide cohort**（PMID 32070205）：adrenalectomy 與較低 new-onset AF incidence 相關
 - **病因治療會改變長期 AF 發生風險**
 - 已存在 AF 的病人，現有資料**不足以證明 surgery 一定降低 AF burden / progression**
-- 節律 / 抗凝策略仍是 Q9（後續發表） 主場
+- 節律 / 抗凝策略仍是 [Q9](/pa/q09-pa-af/) 主場
 
 ---
 
-## 7. PA-Osteoporosis Overlap（連 Q12（後續發表））
+## 7. PA-Osteoporosis Overlap（連 Q12）
 
 - 台灣 population-based study：**PA fracture risk 增加**；女性 MRA-treated PA fracture risk 仍高於 EH
 - 兩種 targeted treatment（surgery 或 MRA）都可能改善 BMD / PTH
 - **PA + osteoporosis / fragility fracture → 偏向手術的加權因素**（surrogate / bone-health reasoning，**非 fracture-hard-endpoint RCT**）
-- DXA / FRAX / anti-osteoporosis management → Q12（後續發表）
+- DXA / FRAX / anti-osteoporosis management → [Q12](/pa/q12-pa-osteoporosis/)
 
 ---
 
@@ -388,13 +388,13 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 |---|---|
 | [Q1 PA 篩檢適應症](/pa/q01-screening-indication/) | 篩檢時機與適應症（前置） |
 | [Q11 PA 健保給付與自費價格](/pa/q11-taiwan-nhi-coverage/) | 健保條文 / 申報核刪 / 自費告知 |
-| Q3 Confirmation Test（後續發表） | 確診流程（前置） |
-| Q4 AVS / lateralization（後續發表） | AVS 適應症與 subtyping（前置 — 沒做完不能進 Q5 治療決策） |
-| Q6 PA + CKD treatment（後續發表） | severe CKD + PA 的詳細處理 |
-| Q7 Post-Treatment Monitoring（後續發表） | surgery / MRA 後追蹤主場 |
-| Q9 PA + AF（後續發表） | AF management / surgery 對 AF 的長期效果 |
-| Q10 Persistent HTN Post-Treatment（後續發表） | 術後 / MRA 後仍 HTN 的處理 |
-| Q12 PA + Osteoporosis（後續發表） | PA + osteoporosis 詳細 |
+| [Q3 Confirmation Test](/pa/q03-confirmation-test/) | 確診流程（前置） |
+| [Q4 AVS / lateralization](/pa/q04-lateralization-avs/) | AVS 適應症與 subtyping（前置 — 沒做完不能進 Q5 治療決策） |
+| [Q6 PA + CKD treatment](/pa/q06-ckd-pa-treatment/) | severe CKD + PA 的詳細處理 |
+| [Q7 Post-Treatment Monitoring](/pa/q07-post-treatment-monitoring/) | surgery / MRA 後追蹤主場 |
+| [Q9 PA + AF](/pa/q09-pa-af/) | AF management / surgery 對 AF 的長期效果 |
+| [Q10 Persistent HTN Post-Treatment](/pa/q10-persistent-post-treatment-htn/) | 術後 / MRA 後仍 HTN 的處理 |
+| [Q12 PA + Osteoporosis](/pa/q12-pa-osteoporosis/) | PA + osteoporosis 詳細 |
 
 ---
 

@@ -250,7 +250,7 @@ tags:
 
 ---
 
-## 6. PA + MACS Co-existence（Q13 後續發表）
+## 6. PA + MACS Co-existence（Q13）
 
 ### 6.1 數字 — 多源校準
 
@@ -283,7 +283,7 @@ Q8 層級只需提醒三件事：
 > **✅ **
 > 「對 **AVS interpretation 有實質干擾**；對術後 biochemical / clinical outcome 影響仍存研究間異質性。」
 
-**Cross-ref**：詳細 overlap 對 AVS / surgery / PASO interpretation 的影響 → Q13 MACS-PA Overlap（後續發表）。
+**Cross-ref**：詳細 overlap 對 AVS / surgery / PASO interpretation 的影響 → [Q13 MACS-PA Overlap](/pa/q13-macs-pa-overlap/)。
 
 ---
 
@@ -352,10 +352,10 @@ Q8 層級只需提醒三件事：
 |---|---|
 | [Q1 PA 篩檢適應症](/pa/q01-screening-indication/) | 「AI + HTN」為 PA case-detection 重要入口 |
 | [Q3 確認試驗（confirmatory test）選擇](/pa/q03-confirmation-test/) | ARR 後是否做 suppression test，由是否走 AVS / surgery 反推 |
-| [Q4 PA imaging 判讀](/pa/q04-lateralization-avs/)（後續發表）| CT unilateral adenoma 不等於可跳過 AVS；only very classic young unilateral 例外 |
+| [Q4 PA imaging 判讀](/pa/q04-lateralization-avs/)| CT unilateral adenoma 不等於可跳過 AVS；only very classic young unilateral 例外 |
 | [Q5 PA 治療策略 Surgery vs MRA](/pa/q05-surgery-vs-mra-treatment/) | 一旦 lateralized PA 確認，進入 surgery vs medical 主決策 |
 | [Q11 PA 健保給付](/pa/q11-taiwan-nhi-coverage/) | 給付細節與申報 |
-| Q13 MACS-PA Overlap（後續發表）| Q8 只負責提醒「PA+MACS 不罕見、應補 DST」；Q13 處理 overlap 對 AVS / surgery / PASO interpretation 的影響 |
+| [Q13 MACS-PA Overlap](/pa/q13-macs-pa-overlap/)| Q8 只負責提醒「PA+MACS 不罕見、應補 DST」；Q13 處理 overlap 對 AVS / surgery / PASO interpretation 的影響 |
 
 ---
 

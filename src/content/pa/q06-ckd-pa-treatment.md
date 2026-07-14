@@ -389,10 +389,10 @@ flowchart TD
 |---|---|
 | [Q11 PA 健保給付](/pa/q11-taiwan-nhi-coverage/) | spironolactone / eplerenone / finerenone / patiromer 詳細給付條件 |
 | [Q5 PA 治療策略 Surgery vs MRA](/pa/q05-surgery-vs-mra-treatment/) | 本 Q6 為其 CKD subgroup 深化 |
-| Q3 Confirmation Test（後續發表）| CKD 影響 ARR / confirmatory test 解讀 |
-| Q4 AVS / lateralization（後續發表）| CKD 不影響 AVS 適用；對比劑須 hydration |
-| Q7 Post-Treatment Monitoring（後續發表）| Acute eGFR dip 監測（1w/1m/3m/6m）|
-| Q10 Persistent HTN Post-Treatment（後續發表）| MRA-PA renin still suppressed → 上調 |
+| [Q3 Confirmation Test](/pa/q03-confirmation-test/)| CKD 影響 ARR / confirmatory test 解讀 |
+| [Q4 AVS / lateralization](/pa/q04-lateralization-avs/)| CKD 不影響 AVS 適用；對比劑須 hydration |
+| [Q7 Post-Treatment Monitoring](/pa/q07-post-treatment-monitoring/)| Acute eGFR dip 監測（1w/1m/3m/6m）|
+| [Q10 Persistent HTN Post-Treatment](/pa/q10-persistent-post-treatment-htn/)| MRA-PA renin still suppressed → 上調 |
 | Rural Nephrology Hub | Conservative kidney management (CKM) in PA-CKD |
 
 ---

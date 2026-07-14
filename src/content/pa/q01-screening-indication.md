@@ -31,7 +31,7 @@ tags:
 
 對台灣區域醫院腎臟科實務的雙軌策略：**第一軌**——下列 6 類絕對不能漏的「**必篩高風險族群**」；**第二軌**——新診斷且尚未複雜用藥的 HTN，可在資源允許下做 ARR + renin，朝 universal 靠齊。
 
-抽血前必須先把 K⁺ 補到 ≥4.0 mEq/L（避免低 K⁺ 抑制 aldosterone 造成偽陰性）；2025 ES 不再要求所有病人一律完整 washout——可採 **no withdrawal**（不撤藥直接抽）或 **minimal withdrawal**（至少停 MRA + ENaC inhibitor 4 週）；其他 diuretics 多屬 **ideal full withdrawal** 範圍，依臨床懷疑度與安全性決定是否停藥重測。陽性結果分流：**overt biochemical positivity**（自發 hypoK + PRA 明顯 suppressed + PAC：immunoassay >20 ng/dL 或 LC-MS/MS >15 ng/dL）可免做 confirmatory test，後續依**手術意願**分流——考慮手術 → CT ± AVS（confirmatory test 與 AVS 詳見後續發表）；不考慮手術 / 不適合手術 → 直接啟動 MRA 治療；中度陽性做 confirmation；陰性但臨床高度懷疑 → 補 K⁺ + minimal/full withdrawal 後重做。
+抽血前必須先把 K⁺ 補到 ≥4.0 mEq/L（避免低 K⁺ 抑制 aldosterone 造成偽陰性）；2025 ES 不再要求所有病人一律完整 washout——可採 **no withdrawal**（不撤藥直接抽）或 **minimal withdrawal**（至少停 MRA + ENaC inhibitor 4 週）；其他 diuretics 多屬 **ideal full withdrawal** 範圍，依臨床懷疑度與安全性決定是否停藥重測。陽性結果分流：**overt biochemical positivity**（自發 hypoK + PRA 明顯 suppressed + PAC：immunoassay >20 ng/dL 或 LC-MS/MS >15 ng/dL）可免做 confirmatory test，後續依**手術意願**分流——考慮手術 → CT ± AVS（confirmatory test 詳見 [Q3](/pa/q03-confirmation-test/)、AVS 詳見 [Q4](/pa/q04-lateralization-avs/)）；不考慮手術 / 不適合手術 → 直接啟動 MRA 治療；中度陽性做 confirmation；陰性但臨床高度懷疑 → 補 K⁺ + minimal/full withdrawal 後重做。
 
 ---
 
@@ -99,7 +99,7 @@ tags:
 ##### A4. HTN + Adrenal Incidentaloma
 
 - **PA prevalence**：4.4%（範圍 0.4-24.6%，2025 ES Table 3）
-- **臨床路徑**：incidentaloma 不是只篩 PA，應進入 **triple screen**（PA + Cushing 1-mg DST + pheo metanephrine；詳見後續發表的 Q8 腎上腺意外瘤專題）
+- **臨床路徑**：incidentaloma 不是只篩 PA，應進入 **triple screen**（PA + Cushing 1-mg DST + pheo metanephrine；詳見 [Q8 腎上腺意外瘤專題](/pa/q08-adrenal-incidentaloma-htn/)）
 - **2025 ES Recommendation 8** 明文要求
 
 ##### A5. HTN + OSA + 風險增強因子
@@ -136,7 +136,7 @@ tags:
 - HTN + **unexplained AF**（無結構性心臟病、無甲亢、無其他可解釋原因）→ ARR 不該再拖
 - HTN + AF early-onset / 反覆發作 / 合併 resistant HTN 或 hypoK → ARR 篩檢優先度更高
 - HTN + **cardioembolic stroke**（PA 11%）→ 也應主動篩
-- AF 詳細 management 詳見後續發表的 Q9 PA + AF 專題
+- AF 詳細 management 詳見 [Q9 PA + AF 專題](/pa/q09-pa-af/)
 
 ##### A7. Sustained BP >150/100 mmHg
 
@@ -169,7 +169,7 @@ tags:
 - Osteoporosis 門診中 PA prevalence：osteoporosis 組 5.2% vs 非 osteoporosis 0.9%（Salcuni 2017, **PMID 28794160**）
 - **Osteoporosis + HTN + hypercalciuria 同時**：PA **26.1%**
 - PA 與骨代謝：lower serum calcium、higher urinary calcium、higher PTH；治療後 calcium/PTH/urinary calcium 可改善（BMD 改善證據不穩定）（Wang 2022, **PMID 36387892**）
-- **臨床語句**：「在 HTN 病人若合併 unexplained osteoporosis、fragility fracture 或 hypercalciuria，可把 PA 納入 secondary osteoporosis 鑑別」（詳見後續發表的 Q12 PA + osteoporosis 專題）
+- **臨床語句**：「在 HTN 病人若合併 unexplained osteoporosis、fragility fracture 或 hypercalciuria，可把 PA 納入 secondary osteoporosis 鑑別」（詳見 [Q12 PA + osteoporosis 專題](/pa/q12-pa-osteoporosis/)）
 
 ##### B2. 家族性線索
 
@@ -212,7 +212,7 @@ tags:
 - **務實寫法**：至少補到正常範圍；若原本低 K⁺ 明顯，盡量靠 4.0
 - **若初次 ARR 陰性但有 hypokalemia → 補 K⁺ 後必須擇日重做**（2025 ES 明文規定）
 
-### 3.3 藥物影響（簡介；詳細 wash-out 策略詳見後續發表的 Q2 ARR cutoff / washout 專題）
+### 3.3 藥物影響（簡介；詳細 wash-out 策略詳見 [Q2 ARR cutoff / washout 專題](/pa/q02-arr-cutoff-washout/)）
 
 | 影響層級 | 藥物 | 機轉 |
 |---|---|---|
@@ -403,14 +403,14 @@ flowchart TD
 | Q | 連結內容 |
 |---|---|
 | [Q11 PA 健保給付與自費價格](/pa/q11-taiwan-nhi-coverage/) | 健保申報核刪、給付條文、自費告知 |
-| Q2 ARR cutoff / washout（後續發表）| ARR cutoff、washout 詳細策略、CKD 解讀調整 |
-| Q3 confirmation test（後續發表）| confirmatory test（saline / captopril / FUDST）、何時免 confirmation |
-| Q4 AVS / lateralization（後續發表）| AVS 適應症、subtyping |
-| Q5 治療策略 Surgery vs MRA（即將發表）| 手術 vs MRA、PASO outcome、Finerenone off-label disclaimer |
-| Q8 腎上腺意外瘤（後續發表）| triple screen（PA + Cushing + pheo）|
-| Q9 PA + AF（後續發表）| AF 為新 re-screen trigger、MRA 對 NOAF 預防 |
-| Q12 PA + osteoporosis（後續發表）| PA + osteoporosis workup、治療後 BMD 變化 |
-| Q13 MACS-PA overlap（後續發表）| incidentaloma + PA 同步加 1-mg DST |
+| [Q2 ARR cutoff / washout](/pa/q02-arr-cutoff-washout/)| ARR cutoff、washout 詳細策略、CKD 解讀調整 |
+| [Q3 confirmation test](/pa/q03-confirmation-test/)| confirmatory test（saline / captopril / FUDST）、何時免 confirmation |
+| [Q4 AVS / lateralization](/pa/q04-lateralization-avs/)| AVS 適應症、subtyping |
+| [Q5 治療策略 Surgery vs MRA](/pa/q05-surgery-vs-mra-treatment/)| 手術 vs MRA、PASO outcome、Finerenone off-label disclaimer |
+| [Q8 腎上腺意外瘤](/pa/q08-adrenal-incidentaloma-htn/)| triple screen（PA + Cushing + pheo）|
+| [Q9 PA + AF](/pa/q09-pa-af/)| AF 為新 re-screen trigger、MRA 對 NOAF 預防 |
+| [Q12 PA + osteoporosis](/pa/q12-pa-osteoporosis/)| PA + osteoporosis workup、治療後 BMD 變化 |
+| [Q13 MACS-PA overlap](/pa/q13-macs-pa-overlap/)| incidentaloma + PA 同步加 1-mg DST |
 
 ---
 
