@@ -271,8 +271,6 @@ flowchart TD
 
 ## 5. 家族性 / 兒童 PA 篩檢觸發點
 
-> 段落控制 200-400 字（依 prompt）
-
 **何時懷疑**：
 1. HTN <20 歲
 2. HTN + 一等親 PA
@@ -418,7 +416,7 @@ flowchart TD
 
 ## 10. Uncertainty / 待補充事項
 
-1. **過濾的引用錯誤**：早期 Gemini deep research 曾誤用兩個 PMID — PMID 8698750（誤標 GRA case series；正確為 PMID 34944634, Cheng 2021 TAIPAI）+ PMID 25340212（為 medRxiv ID 格式，不是 PubMed PMID；對應 Tsai CH et al. 2025 medRxiv preprint, 已有 PubMed PMID 41292622）。本文不引用前述兩筆假 PMID
+1. **引用查核**：文獻查找過程中曾出現兩個錯誤 PMID — PMID 8698750（誤標 GRA case series；正確為 PMID 34944634, Cheng 2021 TAIPAI）與 PMID 25340212（為 medRxiv ID 格式、非 PubMed PMID；對應 Tsai CH et al. 2025 medRxiv preprint，已有 PubMed PMID 41292622）；本文均不引用此二筆錯誤編號
 2. **台灣 30-60 萬潛在 PA / 萬餘人已診斷 估算**：分子（治療登錄個案）來自 TAIPAI 與 NHIRD 推估（Tsai CH et al. 2025 medRxiv preprint, PMID 41292622），分母（PA 預期數）為盛行率乘積，**非單一原始研究的精確數字**，僅作衛教用算術
 3. **Universal screening 在台灣的成本效益尚未本土評估**：目前僅日本、澳洲、中國的 cost-effectiveness 資料；不應將「ES 推薦 universal」直接等同「台灣應立即 universal」
 4. **HTN + AF 兩個 cohort 的數字並列**：PAPPHY (PMID 31834121) **unexplained AF + HTN 中 PA ~42%**（嚴格 subset，high-yield phenotype）；Nguyen 2022 (PMID 35518929) 較廣 cohort **HTN + AF 30%、cardioembolic stroke 11%**。本文兩者並列以呈現不同 inclusion 對應的不同臨床情境

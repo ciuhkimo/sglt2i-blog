@@ -8,12 +8,12 @@
 - [GLP-1 RA Decision Notes](https://nephrodecisions.com/glp1ra/): 10 clinical decision questions on GLP-1 receptor agonists in CKD — FLOW trial, sequencing with SGLT2i, Taiwan NHI coverage.
 - [Finerenone Decision Notes](https://nephrodecisions.com/finerenone/): 11 clinical decision questions — mechanism, hyperkalemia management, FIDELIO/FIGARO/FIDELITY evidence, Taiwan NHI status.
 - [CKM Syndrome Decision Notes](https://nephrodecisions.com/ckm/): 15 clinical decision questions on Cardiovascular-Kidney-Metabolic syndrome — AHA 2023 staging, cardiorenal syndrome types, four-pillar integration, CV risk stratification.
-- [Primary Aldosteronism (PA) Decision Notes](https://nephrodecisions.com/pa/): 9 clinical decision questions on primary aldosteronism in Taiwan nephrology practice — screening, ARR cutoff & washout, confirmatory testing, AVS lateralization, surgery vs MRA, CKD-PA, atrial fibrillation, NHI coverage. Based on 2025 Endocrine Society, 2024 ESC HTN, Taipei Positional Paper, TAIPAI.
+- [Primary Aldosteronism (PA) Decision Notes](https://nephrodecisions.com/pa/): 13 clinical decision questions on primary aldosteronism in Taiwan nephrology practice — screening, ARR cutoff & washout, confirmatory testing, AVS lateralization, surgery vs MRA, CKD-PA, post-treatment monitoring, adrenal incidentaloma, PA + atrial fibrillation, persistent post-treatment hypertension, NHI coverage, PA + osteoporosis, MACS-PA overlap. Based on 2025 Endocrine Society, 2024 ESC HTN, 2025 Taipei Positional Paper, TAIPAI.
 
 ## Patient Education
 
 - [Sexual Health & Kidney Disease](https://nephrodecisions.com/sexual-health/): 22 articles on sexual function, fertility, and intimacy for dialysis and transplant patients. Dual-path design (patient vs clinician).
-- [Patient Guides](https://nephrodecisions.com/patient/): Plain-language guides for CKD patients and families — SGLT2i basics, sick day rules, surgery prep, dialysis readiness.
+- [Patient Guides](https://nephrodecisions.com/patient/): Plain-language guides for CKD patients and families — SGLT2i basics, sick day rules, surgery prep, dialysis readiness, primary aldosteronism (PA) patient hub.
 - [Dialysis Nursing Education](https://nephrodecisions.com/dialysis/): 10 nursing-oriented dialysis care modules — vascular access, complications, nutrition, CKD-MBD, infection control.
 
 ## Clinical Topics (Blog)
@@ -22,6 +22,8 @@
 - [Taiwan ESRD 20-Year Trends](https://nephrodecisions.com/blog/taiwan-esrd-20y-clinical/): 2000-2022 dialysis epidemiology, mortality, transplant rates.
 - [VERVE-102: PCSK9 Base Editing — "New Era" Not Yet Here for CKD](https://nephrodecisions.com/blog/verve-102-ckd-new-era/): Critical appraisal of one-shot PCSK9 gene editing and the evidence gaps for kidney patients.
 - [KDIGO 2026 Anemia Guideline — 8 Actions for Dialysis Units + Taiwan Practice](https://nephrodecisions.com/blog/kdigo-2026-anemia-taiwan/): Immediately adoptable changes with Taiwan NHI context.
+- [Diabetes Insipidus: Central (AVP-D) vs Nephrogenic](https://nephrodecisions.com/blog/cdi-avp-d-vs-ndi/): Differentiating central (AVP-deficiency, AVP-D) from nephrogenic DI — water deprivation + desmopressin test, hypernatremia risk, sodium monitoring during treatment.
+- [Acquired Nephrogenic DI — AQP2 Loss](https://nephrodecisions.com/blog/acquired-ndi-aqp2-loss/): Shared final mechanism (collecting-duct AQP2 downregulation) across lithium, obstruction, endotoxin, hypokalemia, and hypercalcemia.
 
 ## Rural Nephrology
 
@@ -45,5 +47,6 @@
 - Author: 小鎮醫生 (pen name), board-certified nephrologist and internist
 - AI usage: Three-source triangulation (ChatGPT + Claude + Gemini) for literature review; physician makes all clinical judgments
 - Evidence sources: PubMed/PMID, ClinicalTrials.gov/NCT, KDIGO, ADA, AHA, ESC, TFDA, Taiwan NHI
-- Drug names: Generic names primary; Taiwan brand names (e.g., Forxiga/福適佳, Jardiance/恩排糖, Kerendia, Ozempic/善纖達) listed for identification only, not endorsement
+- Drug names: Generic names primary; Taiwan brand names (e.g., Forxiga/福適佳, Jardiance/恩排糖, Kerendia, Ozempic/胰妥讚) listed for identification only, not endorsement
 - No pharma sponsorship, no advertising, no affiliate links
+- Last updated: 2026-07-14

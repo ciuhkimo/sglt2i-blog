@@ -1,6 +1,6 @@
 ---
 title: "透析後反覆腹痛冒冷汗：別漏掉 Non-Occlusive Mesenteric Ischemia"
-description: "HD 病人洗後腹痛 + 冒冷汗的 splanchnic hypoperfusion / NOMI 識別與處置：5 步驟地區醫院工作流程、台灣 Kalimate 紅旗、Mesenteric duplex US PSV cutoffs、Papaverine 治療 protocol，整合 ChatGPT/Claude/Gemini Deep Research 與 Consensus 4 題 quantitative 數據。"
+description: "HD 病人洗後腹痛 + 冒冷汗的 splanchnic hypoperfusion / NOMI 識別與處置：5 步驟地區醫院工作流程、台灣 Kalimate 紅旗、Mesenteric duplex US PSV cutoffs、Papaverine 治療 protocol，整合最新實證與地區醫院可執行的判斷路徑。"
 category: "腎臟科血液透析併發症"
 target_audience: "腎臟科醫師、透析中心護理師、內科醫師"
 last_updated: 2026-05-03

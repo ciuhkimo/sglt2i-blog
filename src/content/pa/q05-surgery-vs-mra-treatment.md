@@ -412,7 +412,7 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 
 6. **Severe CKD + lateralized PA 的決策強度**：本文採「**反而常更值得認真考慮手術**」立場（基於 chronic MRA 在 advanced CKD 的 hyperkalemia 與 dose limitation）—— **此為整合 guideline + cohort renal data 的臨床推論，不是 RCT**
 
-7. **Chen 2019 ESRD effect size**：sHR 0.38 + P=0.007 已確認；**95% CI 在本輪可檢索片段中無法完整核對**，故未硬寫入主文
+7. **Chen 2019 ESRD effect size**：sHR 0.38（P=0.007）；原始文獻的 95% CI 未能完整取得，故主文不硬寫入信賴區間
 
 8. **截至 2026-05-09 本次查核**：未見取代 2025 ES 的新 PA-specific guideline；ES 自承每年覆閱
 
