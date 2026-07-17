@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>我的護腎換餐行動卡</title>
+<style>body{margin:0;padding:24px;background:#eef7f4}main{max-width:1100px;margin:auto}@media(max-width:720px){body{padding:10px}}</style>
+</head>
+<body><main>
+<style>
+  #kidney-meal-swap{--bg:#F4FAF8;--primary:#16877A;--text:#143A3A;--muted:#476967;--panel:#DDEFEA;--yellow:#F5B942;--danger:#E86B5B;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:var(--text);width:100%}
+  #kidney-meal-swap *{box-sizing:border-box}
+  #kidney-meal-swap .kms-shell{background:var(--bg);border:1px solid var(--panel);border-radius:20px;padding:24px}
+  #kidney-meal-swap h2,#kidney-meal-swap h3,#kidney-meal-swap p{margin-top:0}
+  #kidney-meal-swap .kms-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;margin-bottom:20px}
+  #kidney-meal-swap .kms-kicker{color:var(--primary);font-weight:700;margin-bottom:4px}
+  #kidney-meal-swap .kms-lead,#kidney-meal-swap .kms-note,#kidney-meal-swap .kms-small{color:var(--muted)}
+  #kidney-meal-swap .kms-privacy{background:var(--panel);border-radius:999px;padding:8px 12px;white-space:nowrap}
+  #kidney-meal-swap fieldset{border:0;padding:0;margin:0 0 20px;min-width:0}
+  #kidney-meal-swap legend{font-weight:700;margin-bottom:10px}
+  #kidney-meal-swap .kms-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  #kidney-meal-swap .kms-card{background:#fff;border:1px solid var(--panel);border-radius:16px;padding:16px;min-width:0}
+  #kidney-meal-swap .kms-card>strong{display:block;margin-bottom:8px}
+  #kidney-meal-swap label.kms-choice{display:flex;gap:10px;align-items:flex-start;margin:9px 0;cursor:pointer}
+  #kidney-meal-swap input{accent-color:var(--primary);margin-top:4px}
+  #kidney-meal-swap select{width:100%;min-height:44px;border:1px solid var(--muted);border-radius:10px;background:#fff;color:var(--text);padding:8px}
+  #kidney-meal-swap .kms-warning{border-left:5px solid var(--yellow);background:#fff8e6}
+  #kidney-meal-swap .kms-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+  #kidney-meal-swap button{border:1px solid var(--primary);border-radius:999px;min-height:44px;padding:9px 18px;font:inherit;cursor:pointer}
+  #kidney-meal-swap .kms-primary{background:var(--primary);color:#fff}
+  #kidney-meal-swap .kms-secondary{background:#fff;color:var(--primary)}
+  #kidney-meal-swap .kms-result{border-top:3px solid var(--primary);margin-top:24px;padding-top:20px}
+  #kidney-meal-swap .kms-result-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  #kidney-meal-swap .kms-result-card{background:var(--panel);border-radius:16px;padding:16px}
+  #kidney-meal-swap .kms-result-card h3{color:var(--primary)}
+  #kidney-meal-swap ul{margin:0;padding-left:1.2em}#kidney-meal-swap li+li{margin-top:8px}
+  #kidney-meal-swap .kms-urgent{background:#fff0ed;border:2px solid var(--danger);border-radius:16px;padding:16px;margin-bottom:14px}
+  #kidney-meal-swap [hidden]{display:none!important}
+  @media(max-width:720px){#kidney-meal-swap .kms-shell{padding:16px}#kidney-meal-swap .kms-head{display:grid}#kidney-meal-swap .kms-privacy{justify-self:start;white-space:normal}#kidney-meal-swap .kms-grid,#kidney-meal-swap .kms-result-grid{grid-template-columns:1fr}}
+  @media print{#kidney-meal-swap form,#kidney-meal-swap .kms-privacy,#kidney-meal-swap .kms-print-hide{display:none!important}#kidney-meal-swap .kms-shell{border:0;background:#fff;padding:0}#kidney-meal-swap .kms-result{display:block!important;border:0}}
+</style>
+
+<div id="kidney-meal-swap">
+  <section class="kms-shell" aria-labelledby="kms-title">
+    <header class="kms-head">
+      <div><p class="kms-kicker">護腎行動系列｜第 4 集</p><h2 id="kms-title">我的護腎換餐行動卡</h2><p class="kms-lead">不用計算營養素；勾選目前習慣，找出下一餐最容易換的一樣。</p></div>
+      <div class="kms-privacy">只在本機運作・不收集資料</div>
+    </header>
+    <form id="kms-form">
+      <fieldset><legend>一、這餐通常在哪裡吃？</legend><div class="kms-card">
+        <label class="kms-choice"><input type="radio" name="setting" value="home"><span>家裡</span></label>
+        <label class="kms-choice"><input type="radio" name="setting" value="outside"><span>外食或便當</span></label>
+        <label class="kms-choice"><input type="radio" name="setting" value="store"><span>便利商店</span></label>
+        <label class="kms-choice"><input type="radio" name="setting" value="breakfast"><span>早餐店</span></label>
+      </div></fieldset>
+
+      <fieldset><legend>二、目前最常出現的情況（可複選）</legend><div class="kms-grid">
+        <div class="kms-card"><strong>高鈉來源</strong>
+          <label class="kms-choice"><input type="checkbox" name="sodium" value="soup"><span>常把湯喝完</span></label>
+          <label class="kms-choice"><input type="checkbox" name="sodium" value="sauce"><span>常再加醬料或滷汁</span></label>
+          <label class="kms-choice"><input type="checkbox" name="sodium" value="processed"><span>常吃香腸、火腿、丸類或醃漬物</span></label>
+          <label class="kms-choice"><input type="checkbox" name="sodium" value="instant"><span>常吃泡麵、零食或冷凍調理食品</span></label>
+        </div>
+        <div class="kms-card"><strong>包裝標示</strong>
+          <label class="kms-choice"><input type="radio" name="label" value="full"><span>會看每份量、份數與每份鈉</span></label>
+          <label class="kms-choice"><input type="radio" name="label" value="front"><span>只看包裝正面或「清淡」字樣</span></label>
+          <label class="kms-choice"><input type="radio" name="label" value="none"><span>目前沒有看營養標示</span></label>
+        </div>
+        <div class="kms-card"><strong>餐點內容</strong>
+          <label class="kms-choice"><input type="checkbox" name="meal" value="staple"><span>有主食</span></label>
+          <label class="kms-choice"><input type="checkbox" name="meal" value="veg"><span>有蔬菜</span></label>
+          <label class="kms-choice"><input type="checkbox" name="meal" value="protein"><span>有蛋、豆、魚、肉或乳品等蛋白質來源</span></label>
+          <label class="kms-choice"><input type="checkbox" name="meal" value="oversize"><span>常選超大份或一次吃完整包多份量食品</span></label>
+        </div>
+        <div class="kms-card"><strong>醫療團隊曾交代（可複選）</strong>
+          <label class="kms-choice"><input type="checkbox" name="plan" value="potassium"><span>限制或調整鉀</span></label>
+          <label class="kms-choice"><input type="checkbox" name="plan" value="phosphorus"><span>限制或調整磷</span></label>
+          <label class="kms-choice"><input type="checkbox" name="plan" value="protein"><span>調整蛋白質</span></label>
+          <label class="kms-choice"><input type="checkbox" name="plan" value="fluid"><span>限制水分</span></label>
+          <label class="kms-choice"><input type="checkbox" name="plan" value="unsure"><span>不確定或沒有個人飲食計畫</span></label>
+        </div>
+      </div></fieldset>
+
+      <fieldset><legend>三、現在是否有需要先處理的警訊？</legend><div class="kms-card kms-warning">
+        <label class="kms-choice"><input type="checkbox" name="warning" value="heart"><span>心悸、胸悶、明顯肌無力或昏厥</span></label>
+        <label class="kms-choice"><input type="checkbox" name="warning" value="fluid"><span>呼吸困難、快速增加的水腫或短時間快速增重</span></label>
+        <label class="kms-choice"><input type="checkbox" name="warning" value="sick"><span>無法進食飲水、持續嘔吐或腹瀉</span></label>
+        <label class="kms-choice"><input type="checkbox" name="warning" value="hypo"><span>疑似低血糖且無法吞嚥、抽搐或失去意識</span></label>
+        <label class="kms-choice"><input type="checkbox" name="warning" value="none" data-exclusive="warning"><span>目前沒有以上警訊</span></label>
+      </div></fieldset>
+      <div class="kms-actions"><button type="submit" class="kms-primary">產生我的換餐卡</button><button type="button" id="kms-reset" class="kms-secondary">重設</button></div>
+      <p class="kms-small">本工具不計算鉀、磷、蛋白質或喝水量，也不能取代醫療診斷與個別營養處方。</p>
+    </form>
+
+    <section id="kms-result" class="kms-result" hidden aria-live="polite">
+      <h2>我的護腎換餐行動卡</h2>
+      <div id="kms-urgent" class="kms-urgent" hidden><h3>先處理現在的警訊</h3><p><strong>症狀正在發生時，請立即尋求醫療協助；必要時撥打 119，不要等待下一次回診。</strong></p><ul id="kms-urgent-list"></ul></div>
+      <div class="kms-result-grid">
+        <article class="kms-result-card"><h3>這餐先換</h3><ul id="kms-swap-list"></ul></article>
+        <article class="kms-result-card"><h3>買之前看</h3><ul id="kms-look-list"></ul></article>
+        <article class="kms-result-card"><h3>回診要問</h3><ul id="kms-ask-list"></ul></article>
+      </div>
+      <p class="kms-small">提醒：不要自行使用含鉀低鈉鹽，也不要自行進行極低蛋白、全面禁水果或全面禁乳品飲食。</p>
+      <div class="kms-actions kms-print-hide"><button type="button" id="kms-print" class="kms-primary">列印行動卡</button><button type="button" id="kms-edit" class="kms-secondary">回上方修改</button></div>
+    </section>
+  </section>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var root=document.getElementById("kidney-meal-swap");if(!root)return;
+  var form=root.querySelector("#kms-form"),result=root.querySelector("#kms-result"),urgent=root.querySelector("#kms-urgent");
+  function vals(name){return Array.prototype.map.call(root.querySelectorAll('input[name="'+name+'"]:checked'),function(x){return x.value;});}
+  function one(name){var x=root.querySelector('input[name="'+name+'"]:checked');return x?x.value:"";}
+  function unique(a,x){if(a.indexOf(x)<0)a.push(x);}
+  function render(id,items){var ul=root.querySelector(id);ul.replaceChildren();items.forEach(function(t){var li=document.createElement("li");li.textContent=t;ul.appendChild(li);});}
+  root.querySelectorAll('[data-exclusive="warning"]').forEach(function(ex){ex.addEventListener("change",function(){if(!ex.checked)return;root.querySelectorAll('input[name="warning"]').forEach(function(x){if(x!==ex)x.checked=false;});});});
+  root.querySelectorAll('input[name="warning"]:not([data-exclusive])').forEach(function(x){x.addEventListener("change",function(){if(x.checked)root.querySelector('[data-exclusive="warning"]').checked=false;});});
+  form.addEventListener("submit",function(e){e.preventDefault();var swaps=[],looks=[],asks=[];var sodium=vals("sodium"),meal=vals("meal"),plans=vals("plan"),warnings=vals("warning").filter(function(x){return x!=="none";});var label=one("label"),setting=one("setting");
+    if(sodium.indexOf("soup")>=0)unique(swaps,"湯先留一半以上，不用喝完；若有限水計畫，以醫療團隊交代為準。");
+    if(sodium.indexOf("sauce")>=0)unique(swaps,"醬料、滷汁或調味包先減半，味道用蔥、薑、蒜、醋或香料補足。");
+    if(sodium.indexOf("processed")>=0)unique(swaps,"把一份加工肉或醃漬物換成新鮮蛋、豆、魚或肉；若被交代限鉀或限磷，照個人計畫選。");
+    if(sodium.indexOf("instant")>=0)unique(swaps,"把一次泡麵、零食或冷凍調理食品換成較少加工的主食與配菜。");
+    if(swaps.length===0)unique(swaps,setting==="outside"?"點餐時主動說少醬、湯分開，先保留原本主食、蔬菜與蛋白質。":"下一餐先選一項原型食物，並少一個湯、醬或加工品。");
+    if(meal.indexOf("staple")<0)unique(swaps,"不要因怕腎病而完全拿掉主食；份量需依糖尿病、體重與活動量調整。");
+    if(meal.indexOf("protein")<0)unique(swaps,"不要自行把蛋白質全部拿掉；請確認適合自己的種類與份量。");
+    if(meal.indexOf("oversize")>=0)unique(swaps,"先改成一般份量；多份量包裝分次吃，不要把『一包』當成『一份』。");
+    if(label!=="full"){unique(looks,"先找『每一份量』與『本包裝含幾份』。");unique(looks,"再看『每份鈉』，乘上實際吃的份數；同類產品直接比較。");}else unique(looks,"維持查看每份量、包裝份數與每份鈉的習慣。");
+    unique(looks,"若醫療團隊交代限鉀或限磷，再查看含鉀鹽與磷酸鹽等添加物。");
+    if(plans.indexOf("unsure")>=0||plans.length===0)unique(asks,"我的血鉀、血磷、腎功能與尿蛋白，需要限制哪些食物？");
+    if(plans.indexOf("potassium")>=0)unique(asks,"我的限鉀範圍、可吃份量，以及含鉀低鈉鹽是否安全？");
+    if(plans.indexOf("phosphorus")>=0)unique(asks,"我應優先減少哪些磷添加物，哪些乳品、豆類或全穀仍可保留？");
+    if(plans.indexOf("protein")>=0)unique(asks,"我的蛋白質與熱量目標是多少？如何避免肌少或體重下降？");
+    if(plans.indexOf("fluid")>=0)unique(asks,"我的每日水分與湯品上限是多少？生病時怎麼調整？");
+    if(asks.length===0)unique(asks,"把一天飲食紀錄與最近檢驗帶回診，確認鉀、磷、蛋白質和水分的個人版本。");
+    var urgentLabels={heart:"心悸、胸悶、明顯肌無力或昏厥",fluid:"呼吸困難、快速水腫或短時間快速增重",sick:"無法進食飲水、持續嘔吐或腹瀉",hypo:"疑似嚴重低血糖；若無法吞嚥，不要強行餵食"};
+    render("#kms-swap-list",swaps.slice(0,4));render("#kms-look-list",looks.slice(0,4));render("#kms-ask-list",asks.slice(0,4));render("#kms-urgent-list",warnings.map(function(x){return urgentLabels[x];}).filter(Boolean));urgent.hidden=warnings.length===0;result.hidden=false;result.scrollIntoView({behavior:"smooth",block:"start"});
+  });
+  root.querySelector("#kms-reset").addEventListener("click",function(){form.reset();result.hidden=true;urgent.hidden=true;form.scrollIntoView({behavior:"smooth",block:"start"});});
+  root.querySelector("#kms-print").addEventListener("click",function(){window.print();});
+  root.querySelector("#kms-edit").addEventListener("click",function(){form.scrollIntoView({behavior:"smooth",block:"start"});});
+})();
+</script>
+
+</main></body>
+</html>

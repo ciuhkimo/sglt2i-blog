@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>我的護腎用藥與追蹤清單</title><style>body{margin:0;padding:24px;background:#eef7f4}main{max-width:1100px;margin:auto}@media(max-width:720px){body{padding:10px}}</style></head><body><main>
+<style>
+#kidney-medication-followup{--bg:#F4FAF8;--p:#16877A;--t:#143A3A;--m:#476967;--panel:#DDEFEA;--warn:#F5B942;--danger:#E86B5B;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:var(--t);width:100%}#kidney-medication-followup *{box-sizing:border-box}.kmf-shell{background:var(--bg);border:1px solid var(--panel);border-radius:20px;padding:24px}.kmf-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;margin-bottom:20px}.kmf-kicker{color:var(--p);font-weight:700;margin:0 0 4px}.kmf-lead,.kmf-note,.kmf-small{color:var(--m)}#kidney-medication-followup h2,#kidney-medication-followup h3,#kidney-medication-followup p{margin-top:0}.kmf-privacy{background:var(--panel);padding:8px 12px;border-radius:999px;white-space:nowrap}#kidney-medication-followup fieldset{border:0;padding:0;margin:0 0 20px;min-width:0}#kidney-medication-followup legend{font-weight:700;margin-bottom:10px}.kmf-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.kmf-card{background:#fff;border:1px solid var(--panel);border-radius:16px;padding:16px}.kmf-card>strong{display:block;margin-bottom:8px}.kmf-choice{display:flex;gap:10px;align-items:flex-start;margin:9px 0;cursor:pointer}.kmf-choice input{accent-color:var(--p);margin-top:4px}.kmf-warning{background:#fff8e6;border-left:5px solid var(--warn)}.kmf-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}#kidney-medication-followup button{border:1px solid var(--p);border-radius:999px;min-height:44px;padding:9px 18px;font:inherit;cursor:pointer}.kmf-primary{background:var(--p);color:#fff}.kmf-secondary{background:#fff;color:var(--p)}.kmf-result{border-top:3px solid var(--p);margin-top:24px;padding-top:20px}.kmf-result-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.kmf-result-card{background:var(--panel);border-radius:16px;padding:16px}.kmf-result-card h3{color:var(--p)}#kidney-medication-followup ul{margin:0;padding-left:1.2em}#kidney-medication-followup li+li{margin-top:8px}.kmf-urgent{background:#fff0ed;border:2px solid var(--danger);border-radius:16px;padding:16px;margin-bottom:14px}#kidney-medication-followup [hidden]{display:none!important}@media(max-width:720px){.kmf-shell{padding:16px}.kmf-head{display:grid}.kmf-privacy{justify-self:start;white-space:normal}.kmf-grid,.kmf-result-grid{grid-template-columns:1fr}}@media print{#kidney-medication-followup form,.kmf-privacy,.kmf-print-hide{display:none!important}.kmf-shell{background:#fff;border:0;padding:0}.kmf-result{display:block!important;border:0}}
+</style>
+<div id="kidney-medication-followup"><section class="kmf-shell" aria-labelledby="kmf-title">
+<header class="kmf-head"><div><p class="kmf-kicker">護腎行動系列｜第 5 集</p><h2 id="kmf-title">我的護腎用藥與追蹤清單</h2><p class="kmf-lead">整理要問、要帶、要驗的項目；不判定停藥，也不計算劑量。</p></div><div class="kmf-privacy">只在本機運作・不收集資料</div></header>
+<form id="kmf-form">
+<fieldset><legend>一、目前可能使用的產品（可複選）</legend><div class="kmf-card">
+<label class="kmf-choice"><input type="checkbox" name="product" value="rx"><span>醫師處方藥</span></label>
+<label class="kmf-choice"><input type="checkbox" name="product" value="otc"><span>自己買的止痛、退燒、感冒或胃藥</span></label>
+<label class="kmf-choice"><input type="checkbox" name="product" value="herb"><span>中草藥、偏方或來路不明產品</span></label>
+<label class="kmf-choice"><input type="checkbox" name="product" value="supplement"><span>維生素、保健品或運動補充品</span></label>
+<label class="kmf-choice"><input type="checkbox" name="product" value="topical"><span>貼布、藥膏或其他外用藥</span></label>
+</div></fieldset>
+<fieldset><legend>二、我的用藥與追蹤狀況</legend><div class="kmf-grid">
+<div class="kmf-card"><strong>我是否說得出藥名與用途？</strong>
+<label class="kmf-choice"><input type="radio" name="knowledge" value="yes"><span>知道藥名、用途與吃法</span></label>
+<label class="kmf-choice"><input type="radio" name="knowledge" value="partial"><span>只記得品牌、顏色或部分用途</span></label>
+<label class="kmf-choice"><input type="radio" name="knowledge" value="no"><span>不清楚，需要整理</span></label></div>
+<div class="kmf-card"><strong>最近的用藥情況</strong>
+<label class="kmf-choice"><input type="radio" name="behavior" value="follow"><span>依指示使用；有疑問會先詢問</span></label>
+<label class="kmf-choice"><input type="radio" name="behavior" value="forget"><span>偶爾漏服，不清楚漏吃怎麼辦</span></label>
+<label class="kmf-choice"><input type="radio" name="behavior" value="change"><span>曾自行停藥、加減藥或雙倍補吃</span></label></div>
+<div class="kmf-card"><strong>生病日計畫</strong>
+<label class="kmf-choice"><input type="radio" name="sick" value="written"><span>有書面計畫，知道何時聯絡、暫停與重啟</span></label>
+<label class="kmf-choice"><input type="radio" name="sick" value="vague"><span>只知道「生病可能要停藥」，但不清楚細節</span></label>
+<label class="kmf-choice"><input type="radio" name="sick" value="none"><span>目前沒有個人計畫</span></label></div>
+<div class="kmf-card"><strong>我知道最近日期或已有紀錄（可複選）</strong>
+<label class="kmf-choice"><input type="checkbox" name="followup" value="egfr"><span>肌酸酐／eGFR</span></label>
+<label class="kmf-choice"><input type="checkbox" name="followup" value="uacr"><span>UACR／尿蛋白</span></label>
+<label class="kmf-choice"><input type="checkbox" name="followup" value="k"><span>血鉀或其他安全檢驗</span></label>
+<label class="kmf-choice"><input type="checkbox" name="followup" value="next"><span>下一次抽血、驗尿或回診日期</span></label></div>
+</div></fieldset>
+<fieldset><legend>三、現在是否有需要立即處理的警訊？</legend><div class="kmf-card kmf-warning">
+<label class="kmf-choice"><input type="checkbox" name="warning" value="urine"><span>尿量明顯減少或幾乎沒有尿</span></label>
+<label class="kmf-choice"><input type="checkbox" name="warning" value="breath"><span>呼吸困難、快速水腫或短時間快速增重</span></label>
+<label class="kmf-choice"><input type="checkbox" name="warning" value="dehydrate"><span>持續嘔吐腹瀉、無法進食飲水、昏厥或混亂</span></label>
+<label class="kmf-choice"><input type="checkbox" name="warning" value="heart"><span>胸悶、心悸或明顯肌無力</span></label>
+<label class="kmf-choice"><input type="checkbox" name="warning" value="bleed"><span>黑便、吐血或其他明顯出血</span></label>
+<label class="kmf-choice"><input type="checkbox" name="warning" value="allergy"><span>臉、嘴唇或舌頭腫脹，或呼吸困難</span></label>
+<label class="kmf-choice"><input type="checkbox" name="warning" value="hypo"><span>疑似低血糖且無法吞嚥、抽搐或失去意識</span></label>
+<label class="kmf-choice"><input type="checkbox" name="warning" value="none" data-exclusive="warning"><span>目前沒有以上警訊</span></label>
+</div></fieldset>
+<div class="kmf-actions"><button type="submit" class="kmf-primary">產生我的清單</button><button type="button" id="kmf-reset" class="kmf-secondary">重設</button></div><p class="kmf-small">本工具不辨識藥丸、不提供停藥或劑量指示，也不能取代醫師或藥師評估。</p>
+</form>
+<section id="kmf-result" class="kmf-result" hidden aria-live="polite"><h2>我的護腎用藥與追蹤清單</h2>
+<div id="kmf-urgent" class="kmf-urgent" hidden><h3>先處理現在的警訊</h3><p><strong>症狀正在發生時，立即尋求醫療協助；必要時撥打 119，不要等待下一次回診。</strong></p><ul id="kmf-urgent-list"></ul></div>
+<div class="kmf-result-grid"><article class="kmf-result-card"><h3>吃之前先問</h3><ul id="kmf-ask-list"></ul></article><article class="kmf-result-card"><h3>回診要帶</h3><ul id="kmf-bring-list"></ul></article><article class="kmf-result-card"><h3>下次要驗／追</h3><ul id="kmf-track-list"></ul></article></div>
+<p class="kmf-small">提醒：不要依這張清單自行停藥、加藥或雙倍補吃。若藥物因急性疾病暫停，必須確認何時重新開始。</p><div class="kmf-actions kmf-print-hide"><button type="button" id="kmf-print" class="kmf-primary">列印清單</button><button type="button" id="kmf-edit" class="kmf-secondary">回上方修改</button></div></section>
+</section></div>
+<script>
+(function(){"use strict";var root=document.getElementById("kidney-medication-followup");if(!root)return;var form=root.querySelector("#kmf-form"),result=root.querySelector("#kmf-result"),urgent=root.querySelector("#kmf-urgent");function vals(n){return Array.prototype.map.call(root.querySelectorAll('input[name="'+n+'"]:checked'),function(x){return x.value;});}function one(n){var x=root.querySelector('input[name="'+n+'"]:checked');return x?x.value:"";}function add(a,x){if(a.indexOf(x)<0)a.push(x);}function render(id,a){var ul=root.querySelector(id);ul.replaceChildren();a.forEach(function(t){var li=document.createElement("li");li.textContent=t;ul.appendChild(li);});}
+root.querySelectorAll('[data-exclusive="warning"]').forEach(function(ex){ex.addEventListener("change",function(){if(ex.checked)root.querySelectorAll('input[name="warning"]').forEach(function(x){if(x!==ex)x.checked=false;});});});root.querySelectorAll('input[name="warning"]:not([data-exclusive])').forEach(function(x){x.addEventListener("change",function(){if(x.checked)root.querySelector('[data-exclusive="warning"]').checked=false;});});
+form.addEventListener("submit",function(e){e.preventDefault();var products=vals("product"),follow=vals("followup"),warnings=vals("warning").filter(function(x){return x!=="none";}),knowledge=one("knowledge"),behavior=one("behavior"),sick=one("sick"),ask=[],bring=[],track=[];
+if(products.indexOf("otc")>=0)add(ask,"這項止痛、退燒或感冒藥有哪些成分？是否包含 NSAID 或與其他產品重複？");if(products.indexOf("herb")>=0||products.indexOf("supplement")>=0)add(ask,"這項草藥或保健品的完整成分、劑量與腎臟／藥物交互作用是否安全？");if(products.indexOf("topical")>=0)add(ask,"這項貼布或藥膏的成分、使用面積與天數是否適合？");if(knowledge!=="yes")add(ask,"請把每一項產品的藥名、成分、用途、劑量與使用時間寫清楚。");if(behavior==="forget")add(ask,"漏服時應怎麼處理？不要自行用雙倍補吃。");if(behavior==="change")add(ask,"我曾自行停藥、加減藥或雙倍補吃；請協助重新確認安全用法。");if(sick!=="written")add(ask,"嘔吐、腹瀉、發燒或吃不下時，哪些藥需聯絡或暫停？何時重新開始？");if(ask.length===0)add(ask,"新藥開始前，確認腎功能是否需要調整劑量、間隔或安全檢驗。");
+add(bring,"所有處方藥的藥袋、清單或手機照片。");if(products.some(function(x){return x!=="rx";}))add(bring,"所有成藥、草藥、保健品與外用藥的外盒或成分照片。");add(bring,"曾發生的不舒服、漏服或自行調整紀錄。");if(sick==="written")add(bring,"個人生病日與重新用藥計畫。");
+if(follow.indexOf("egfr")<0)add(track,"確認最近一次肌酸酐／eGFR 與下一次日期。");if(follow.indexOf("uacr")<0)add(track,"確認最近一次 UACR／尿蛋白與下一次日期。");if(follow.indexOf("k")<0)add(track,"詢問目前藥物是否需要追蹤血鉀或其他安全檢驗。");if(follow.indexOf("next")<0)add(track,"離開診間前把下次抽血、驗尿與回診日期寫下來。");if(track.length===0)add(track,"維持既定追蹤；開始、停用或調整藥物後，確認是否需要提前複檢。");
+var labels={urine:"尿量明顯減少或幾乎沒有尿",breath:"呼吸困難、快速水腫或短時間快速增重",dehydrate:"持續嘔吐腹瀉、無法進食飲水、昏厥或混亂",heart:"胸悶、心悸或明顯肌無力",bleed:"黑便、吐血或其他明顯出血",allergy:"嚴重過敏症狀",hypo:"疑似嚴重低血糖；若無法吞嚥，不要強行餵食"};render("#kmf-ask-list",ask.slice(0,5));render("#kmf-bring-list",bring.slice(0,5));render("#kmf-track-list",track.slice(0,5));render("#kmf-urgent-list",warnings.map(function(x){return labels[x];}).filter(Boolean));urgent.hidden=warnings.length===0;result.hidden=false;result.scrollIntoView({behavior:"smooth",block:"start"});});
+root.querySelector("#kmf-reset").addEventListener("click",function(){form.reset();result.hidden=true;urgent.hidden=true;form.scrollIntoView({behavior:"smooth",block:"start"});});root.querySelector("#kmf-print").addEventListener("click",function(){window.print();});root.querySelector("#kmf-edit").addEventListener("click",function(){form.scrollIntoView({behavior:"smooth",block:"start"});});})();
+</script>
+
+</main></body></html>

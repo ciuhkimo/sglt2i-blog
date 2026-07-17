@@ -1,0 +1,31 @@
+護腎行動系列 衛教影片與互動工具 — 第三方元件授權聲明
+================================================================
+
+本系列影片為 HTML / CSS / GSAP 動畫 composition 算圖之無聲 MP4。
+內容著作（旁白稿、分鏡、版面編排與教學設計）為作者所有。
+
+影片製作與網頁互動工具使用下列開源元件，均依其授權條款使用，
+各元件之著作權仍歸原作者所有：
+
+- Noto Sans TC
+  SIL Open Font License 1.1 (OFL)
+  © Google / Noto Project
+  https://fonts.google.com/noto/specimen/Noto+Sans+TC
+
+- Lucide icons
+  ISC License
+  © Lucide Contributors
+  https://lucide.dev
+
+- GSAP (GreenSock Animation Platform)
+  GreenSock 標準「No Charge」授權（含商業使用）
+  © GreenSock, Inc.
+  https://gsap.com/community/licensing/
+
+本站僅重製最終成品（無聲影片與自我檢查互動工具），
+不再散布上述元件之原始檔或原始字型／圖示資產。
+
+互動工具（本目錄下 ep1–ep5.html）為純 HTML / CSS / JavaScript，
+不於執行階段載入任何外部資源。
+
+更新日期：2026-07-17

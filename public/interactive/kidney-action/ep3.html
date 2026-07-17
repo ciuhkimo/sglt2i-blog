@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的三高護腎行動卡</title>
+  <style>
+    html { background: #F4FAF8; color: #143A3A; }
+    body { margin: 0; padding: 24px; }
+    main { margin: 0 auto; max-width: 1180px; }
+    @media (max-width: 720px) { body { padding: 10px; } }
+  </style>
+</head>
+<body>
+  <main>
+<style>
+  #triple-high-kidney-action {
+    --tha-bg: #F4FAF8;
+    --tha-primary: #16877A;
+    --tha-text: #143A3A;
+    --tha-muted: #476967;
+    --tha-panel: #DDEFEA;
+    --tha-warn: #F5B942;
+    --tha-danger: #E86B5B;
+    --tha-white: #FFFFFF;
+    color: var(--tha-text);
+    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    width: 100%;
+  }
+
+  #triple-high-kidney-action * {
+    box-sizing: border-box;
+  }
+
+  #triple-high-kidney-action .tha-shell {
+    background: var(--tha-bg);
+    border: 1px solid var(--tha-panel);
+    border-radius: 20px;
+    padding: 24px;
+  }
+
+  #triple-high-kidney-action .tha-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 16px;
+    align-items: start;
+    margin-bottom: 20px;
+  }
+
+  #triple-high-kidney-action h2,
+  #triple-high-kidney-action h3,
+  #triple-high-kidney-action p {
+    margin-top: 0;
+  }
+
+  #triple-high-kidney-action .tha-kicker {
+    color: var(--tha-primary);
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  #triple-high-kidney-action .tha-lead,
+  #triple-high-kidney-action .tha-note {
+    color: var(--tha-muted);
+  }
+
+  #triple-high-kidney-action .tha-privacy {
+    background: var(--tha-panel);
+    border-radius: 999px;
+    color: var(--tha-text);
+    padding: 8px 12px;
+    white-space: nowrap;
+  }
+
+  #triple-high-kidney-action .tha-section {
+    border: 0;
+    margin: 0 0 20px;
+    min-width: 0;
+    padding: 0;
+  }
+
+  #triple-high-kidney-action .tha-section > legend {
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  #triple-high-kidney-action .tha-grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #triple-high-kidney-action .tha-panel {
+    background: var(--tha-white);
+    border: 1px solid var(--tha-panel);
+    border-radius: 16px;
+    min-width: 0;
+    padding: 16px;
+  }
+
+  #triple-high-kidney-action .tha-panel > strong,
+  #triple-high-kidney-action .tha-panel > label:first-child {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  #triple-high-kidney-action .tha-choice {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  #triple-high-kidney-action .tha-choice input {
+    accent-color: var(--tha-primary);
+    flex: 0 0 auto;
+    margin-top: 4px;
+  }
+
+  #triple-high-kidney-action select {
+    background: var(--tha-white);
+    border: 1px solid var(--tha-muted);
+    border-radius: 10px;
+    color: var(--tha-text);
+    min-height: 44px;
+    padding: 8px 10px;
+    width: 100%;
+  }
+
+  #triple-high-kidney-action .tha-warning-box {
+    background: color-mix(in srgb, var(--tha-warn) 20%, var(--tha-white));
+    border-left: 5px solid var(--tha-warn);
+  }
+
+  #triple-high-kidney-action .tha-actions {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  #triple-high-kidney-action button {
+    border: 1px solid var(--tha-primary);
+    border-radius: 999px;
+    cursor: pointer;
+    font: inherit;
+    min-height: 44px;
+    padding: 9px 18px;
+  }
+
+  #triple-high-kidney-action .tha-primary-button {
+    background: var(--tha-primary);
+    color: var(--tha-white);
+  }
+
+  #triple-high-kidney-action .tha-secondary-button {
+    background: var(--tha-white);
+    color: var(--tha-primary);
+  }
+
+  #triple-high-kidney-action .tha-smallprint {
+    color: var(--tha-muted);
+    margin: 14px 0 0;
+  }
+
+  #triple-high-kidney-action .tha-result {
+    border-top: 3px solid var(--tha-primary);
+    margin-top: 24px;
+    padding-top: 20px;
+  }
+
+  #triple-high-kidney-action .tha-result-grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  #triple-high-kidney-action .tha-result-card {
+    background: var(--tha-panel);
+    border-radius: 16px;
+    min-width: 0;
+    padding: 16px;
+  }
+
+  #triple-high-kidney-action .tha-result-card h3 {
+    color: var(--tha-primary);
+    margin-bottom: 10px;
+  }
+
+  #triple-high-kidney-action .tha-result-card ul,
+  #triple-high-kidney-action .tha-urgent ul {
+    margin: 0;
+    padding-left: 1.2em;
+  }
+
+  #triple-high-kidney-action .tha-result-card li + li,
+  #triple-high-kidney-action .tha-urgent li + li {
+    margin-top: 8px;
+  }
+
+  #triple-high-kidney-action .tha-urgent {
+    background: color-mix(in srgb, var(--tha-danger) 15%, var(--tha-white));
+    border: 2px solid var(--tha-danger);
+    border-radius: 16px;
+    margin-bottom: 14px;
+    padding: 16px;
+  }
+
+  #triple-high-kidney-action .tha-urgent h3 {
+    color: var(--tha-text);
+    margin-bottom: 8px;
+  }
+
+  #triple-high-kidney-action [hidden] {
+    display: none !important;
+  }
+
+  @media (max-width: 720px) {
+    #triple-high-kidney-action .tha-shell {
+      border-radius: 14px;
+      padding: 16px;
+    }
+
+    #triple-high-kidney-action .tha-header,
+    #triple-high-kidney-action .tha-grid,
+    #triple-high-kidney-action .tha-result-grid {
+      grid-template-columns: 1fr;
+    }
+
+    #triple-high-kidney-action .tha-privacy {
+      justify-self: start;
+      white-space: normal;
+    }
+
+    #triple-high-kidney-action .tha-actions button {
+      flex: 1 1 140px;
+    }
+  }
+
+  @media print {
+    #triple-high-kidney-action .tha-shell {
+      background: var(--tha-white);
+      border: 0;
+      padding: 0;
+    }
+
+    #triple-high-kidney-action form,
+    #triple-high-kidney-action .tha-privacy,
+    #triple-high-kidney-action .tha-print-hide {
+      display: none !important;
+    }
+
+    #triple-high-kidney-action .tha-result {
+      border-top: 0;
+      display: block !important;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    #triple-high-kidney-action .tha-result-card {
+      break-inside: avoid;
+    }
+  }
+</style>
+
+<div id="triple-high-kidney-action">
+  <section class="tha-shell" aria-labelledby="tha-title">
+    <header class="tha-header">
+      <div>
+        <p class="tha-kicker">護腎行動系列｜第 3 集</p>
+        <h2 id="tha-title">我的三高護腎行動卡</h2>
+        <p class="tha-lead">勾選目前情況，整理成這週能做、下次要問、回診要帶的行動。</p>
+      </div>
+      <div class="tha-privacy" aria-label="隱私說明">只在本機運作・不收集資料</div>
+    </header>
+
+    <form id="tha-form" novalidate>
+      <fieldset class="tha-section">
+        <legend>一、醫療人員曾告訴我或目前正在治療的狀況（可複選）</legend>
+        <div class="tha-panel">
+          <label class="tha-choice" for="tha-condition-bp">
+            <input id="tha-condition-bp" name="condition" type="checkbox" value="bp">
+            <span>高血壓</span>
+          </label>
+          <label class="tha-choice" for="tha-condition-glucose">
+            <input id="tha-condition-glucose" name="condition" type="checkbox" value="glucose">
+            <span>高血糖或糖尿病</span>
+          </label>
+          <label class="tha-choice" for="tha-condition-lipid">
+            <input id="tha-condition-lipid" name="condition" type="checkbox" value="lipid">
+            <span>高血脂</span>
+          </label>
+          <label class="tha-choice" for="tha-condition-unsure">
+            <input id="tha-condition-unsure" name="condition" type="checkbox" value="unsure" data-exclusive="condition">
+            <span>我不確定，需要看報告或詢問醫療人員</span>
+          </label>
+          <label class="tha-choice" for="tha-condition-none">
+            <input id="tha-condition-none" name="condition" type="checkbox" value="none" data-exclusive="condition">
+            <span>目前沒有被告知以上狀況</span>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="tha-section">
+        <legend>二、我的日常控制與追蹤</legend>
+        <div class="tha-grid">
+          <div class="tha-panel">
+            <strong>居家血壓習慣</strong>
+            <label class="tha-choice" for="tha-bp-722">
+              <input id="tha-bp-722" name="bp_habit" type="radio" value="722">
+              <span>我會依醫療建議做「722」：連續 7 天、早起與睡前各量 2 次</span>
+            </label>
+            <label class="tha-choice" for="tha-bp-partial">
+              <input id="tha-bp-partial" name="bp_habit" type="radio" value="partial">
+              <span>我有量，但時間或次數不固定</span>
+            </label>
+            <label class="tha-choice" for="tha-bp-none">
+              <input id="tha-bp-none" name="bp_habit" type="radio" value="none">
+              <span>我目前沒有居家血壓紀錄</span>
+            </label>
+            <label class="tha-choice" for="tha-bp-plan">
+              <input id="tha-bp-plan" name="bp_habit" type="radio" value="plan">
+              <span>我不確定是否需要量，或醫療人員另有安排</span>
+            </label>
+          </div>
+
+          <div class="tha-panel">
+            <strong>用藥情況</strong>
+            <label class="tha-choice" for="tha-med-good">
+              <input id="tha-med-good" name="med_habit" type="radio" value="good">
+              <span>我會按醫囑使用，忘記或不舒服時會先詢問</span>
+            </label>
+            <label class="tha-choice" for="tha-med-forget">
+              <input id="tha-med-forget" name="med_habit" type="radio" value="forget">
+              <span>我偶爾忘記，或不清楚漏吃時怎麼辦</span>
+            </label>
+            <label class="tha-choice" for="tha-med-change">
+              <input id="tha-med-change" name="med_habit" type="radio" value="change">
+              <span>數字變好或身體不舒服時，我曾自行停藥或加減藥</span>
+            </label>
+            <label class="tha-choice" for="tha-med-none">
+              <input id="tha-med-none" name="med_habit" type="radio" value="none">
+              <span>目前沒有三高相關長期用藥</span>
+            </label>
+          </div>
+
+          <div class="tha-panel">
+            <label for="tha-a1c-status">最近一次 HbA1c（糖化血色素）的檢查日期</label>
+            <select id="tha-a1c-status" name="a1c_status">
+              <option value="unanswered">請選擇</option>
+              <option value="known">我知道或有記錄</option>
+              <option value="unknown">我不知道／找不到</option>
+              <option value="not_applicable">醫療人員目前未安排或不適用</option>
+            </select>
+            <p class="tha-note">HbA1c 反映一段時間的血糖趨勢；個人目標需由醫療團隊評估。</p>
+          </div>
+
+          <div class="tha-panel">
+            <label for="tha-ldl-status">最近一次 LDL-C（低密度膽固醇）的檢查日期</label>
+            <select id="tha-ldl-status" name="ldl_status">
+              <option value="unanswered">請選擇</option>
+              <option value="known">我知道或有記錄</option>
+              <option value="unknown">我不知道／找不到</option>
+              <option value="not_applicable">醫療人員目前未安排或不適用</option>
+            </select>
+            <p class="tha-note">LDL-C 目標會依心血管、腎臟與其他風險個別決定。</p>
+          </div>
+
+          <div class="tha-panel">
+            <strong>體重或腰圍趨勢</strong>
+            <label class="tha-choice" for="tha-trend-regular">
+              <input id="tha-trend-regular" name="trend_habit" type="radio" value="regular">
+              <span>我有用相同方式持續記錄，看長期變化</span>
+            </label>
+            <label class="tha-choice" for="tha-trend-sometimes">
+              <input id="tha-trend-sometimes" name="trend_habit" type="radio" value="sometimes">
+              <span>偶爾有量，但沒有固定記錄</span>
+            </label>
+            <label class="tha-choice" for="tha-trend-none">
+              <input id="tha-trend-none" name="trend_habit" type="radio" value="none">
+              <span>目前沒有觀察體重或腰圍趨勢</span>
+            </label>
+            <label class="tha-choice" for="tha-trend-urgent">
+              <input id="tha-trend-urgent" name="trend_habit" type="radio" value="urgent">
+              <span>最近快速增重，而且伴隨水腫或呼吸困難</span>
+            </label>
+          </div>
+
+          <div class="tha-panel">
+            <strong>我已準備帶回診的資料（可複選）</strong>
+            <label class="tha-choice" for="tha-bring-bp">
+              <input id="tha-bring-bp" name="bring" type="checkbox" value="bp">
+              <span>居家血壓紀錄</span>
+            </label>
+            <label class="tha-choice" for="tha-bring-labs">
+              <input id="tha-bring-labs" name="bring" type="checkbox" value="labs">
+              <span>最近的抽血、驗尿或健檢報告</span>
+            </label>
+            <label class="tha-choice" for="tha-bring-meds">
+              <input id="tha-bring-meds" name="bring" type="checkbox" value="meds">
+              <span>所有藥物、保健品與草藥清單或照片</span>
+            </label>
+            <label class="tha-choice" for="tha-bring-questions">
+              <input id="tha-bring-questions" name="bring" type="checkbox" value="questions">
+              <span>想問醫療人員的問題</span>
+            </label>
+            <label class="tha-choice" for="tha-bring-none">
+              <input id="tha-bring-none" name="bring" type="checkbox" value="none" data-exclusive="bring">
+              <span>還沒有準備</span>
+            </label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="tha-section">
+        <legend>三、現在是否有急症警訊？（可複選）</legend>
+        <div class="tha-panel tha-warning-box">
+          <label class="tha-choice" for="tha-warning-chest">
+            <input id="tha-warning-chest" name="warning" type="checkbox" value="chest">
+            <span>胸痛</span>
+          </label>
+          <label class="tha-choice" for="tha-warning-breath">
+            <input id="tha-warning-breath" name="warning" type="checkbox" value="breath">
+            <span>呼吸困難</span>
+          </label>
+          <label class="tha-choice" for="tha-warning-faint">
+            <input id="tha-warning-faint" name="warning" type="checkbox" value="faint">
+            <span>昏厥或意識混亂</span>
+          </label>
+          <label class="tha-choice" for="tha-warning-stroke">
+            <input id="tha-warning-stroke" name="warning" type="checkbox" value="stroke">
+            <span>突然單側無力或言語不清</span>
+          </label>
+          <label class="tha-choice" for="tha-warning-fluid">
+            <input id="tha-warning-fluid" name="warning" type="checkbox" value="fluid">
+            <span>快速增重，且伴隨水腫或呼吸困難</span>
+          </label>
+          <label class="tha-choice" for="tha-warning-hypo">
+            <input id="tha-warning-hypo" name="warning" type="checkbox" value="hypo">
+            <span>疑似低血糖，而且無法吞嚥、抽搐或失去意識</span>
+          </label>
+          <label class="tha-choice" for="tha-warning-none">
+            <input id="tha-warning-none" name="warning" type="checkbox" value="none" data-exclusive="warning">
+            <span>目前沒有以上警訊</span>
+          </label>
+        </div>
+      </fieldset>
+
+      <div class="tha-actions">
+        <button class="tha-primary-button" type="submit">產生我的行動卡</button>
+        <button class="tha-secondary-button" id="tha-reset" type="button">重設</button>
+      </div>
+      <p class="tha-smallprint">本工具不需輸入數值、不做風險評分，也不能取代醫療診斷或個別治療建議。</p>
+    </form>
+
+    <section class="tha-result" id="tha-result" aria-live="polite" aria-labelledby="tha-result-title" hidden>
+      <h2 id="tha-result-title">我的三高護腎行動卡</h2>
+      <div class="tha-urgent" id="tha-urgent" role="alert" hidden>
+        <h3>現在先處理急症警訊</h3>
+        <p><strong>若勾選的症狀正在發生，立即撥打 119 或前往急診，不要等待下次回診。</strong></p>
+        <ul id="tha-urgent-list"></ul>
+      </div>
+      <div class="tha-result-grid">
+        <article class="tha-result-card">
+          <h3>我這週先做</h3>
+          <ul id="tha-do-list"></ul>
+        </article>
+        <article class="tha-result-card">
+          <h3>下次確認</h3>
+          <ul id="tha-confirm-list"></ul>
+        </article>
+        <article class="tha-result-card">
+          <h3>回診帶</h3>
+          <ul id="tha-bring-list"></ul>
+        </article>
+      </div>
+      <p class="tha-smallprint">提醒：數字變好常代表治療正在發揮作用。請勿因單次數值自行停藥、加藥或減藥；若不舒服或忘記用藥，先詢問醫療人員。</p>
+      <div class="tha-actions tha-print-hide">
+        <button class="tha-primary-button" id="tha-print" type="button">列印行動卡</button>
+        <button class="tha-secondary-button" id="tha-edit" type="button">回上方修改</button>
+      </div>
+    </section>
+  </section>
+</div>
+
+<script>
+  (function () {
+    "use strict";
+
+    var root = document.getElementById("triple-high-kidney-action");
+    if (!root) return;
+
+    var form = root.querySelector("#tha-form");
+    var result = root.querySelector("#tha-result");
+    var urgentBox = root.querySelector("#tha-urgent");
+    var urgentList = root.querySelector("#tha-urgent-list");
+    var doList = root.querySelector("#tha-do-list");
+    var confirmList = root.querySelector("#tha-confirm-list");
+    var bringList = root.querySelector("#tha-bring-list");
+
+    function checkedValues(name) {
+      return Array.prototype.map.call(
+        root.querySelectorAll('input[name="' + name + '"]:checked'),
+        function (input) { return input.value; }
+      );
+    }
+
+    function selectedValue(name) {
+      var input = root.querySelector('input[name="' + name + '"]:checked');
+      return input ? input.value : "unanswered";
+    }
+
+    function selectValue(id) {
+      var select = root.querySelector("#" + id);
+      return select ? select.value : "unanswered";
+    }
+
+    function addUnique(list, text) {
+      if (list.indexOf(text) === -1) list.push(text);
+    }
+
+    function renderList(element, items) {
+      element.replaceChildren();
+      items.forEach(function (text) {
+        var item = document.createElement("li");
+        item.textContent = text;
+        element.appendChild(item);
+      });
+    }
+
+    function enforceExclusive(groupName) {
+      var inputs = root.querySelectorAll('input[name="' + groupName + '"]');
+      Array.prototype.forEach.call(inputs, function (input) {
+        input.addEventListener("change", function () {
+          if (!input.checked) return;
+          var isExclusive = input.hasAttribute("data-exclusive");
+          Array.prototype.forEach.call(inputs, function (peer) {
+            if (peer === input) return;
+            if (isExclusive || peer.hasAttribute("data-exclusive")) peer.checked = false;
+          });
+        });
+      });
+    }
+
+    function makeActionCard() {
+      var conditions = checkedValues("condition");
+      var bpHabit = selectedValue("bp_habit");
+      var medHabit = selectedValue("med_habit");
+      var trendHabit = selectedValue("trend_habit");
+      var a1cStatus = selectValue("tha-a1c-status");
+      var ldlStatus = selectValue("tha-ldl-status");
+      var prepared = checkedValues("bring");
+      var warnings = checkedValues("warning").filter(function (value) { return value !== "none"; });
+      var urgentLabels = {
+        chest: "胸痛",
+        breath: "呼吸困難",
+        faint: "昏厥或意識混亂",
+        stroke: "突然單側無力或言語不清",
+        fluid: "快速增重，且伴隨水腫或呼吸困難",
+        hypo: "疑似嚴重低血糖且無法吞嚥、抽搐或失去意識；不要強行餵食，立即求助"
+      };
+      var bringLabels = {
+        bp: "居家血壓紀錄",
+        labs: "最近的抽血、驗尿或健檢報告",
+        meds: "所有藥物、保健品與草藥清單或照片",
+        questions: "想問醫療人員的問題"
+      };
+      var doItems = [];
+      var confirmItems = [];
+      var bringItems = [];
+      var hasCondition = conditions.some(function (value) {
+        return value === "bp" || value === "glucose" || value === "lipid";
+      });
+
+      if (trendHabit === "urgent" && warnings.indexOf("fluid") === -1) warnings.push("fluid");
+
+      if (warnings.length) {
+        addUnique(doItems, "先停止一般自我管理安排；症狀正在發生時立即撥 119 或前往急診。");
+      }
+
+      if (bpHabit === "722") {
+        addUnique(doItems, "依醫療建議維持 722 血壓紀錄，觀察平均與長期變化，不用單次數字自行改藥。");
+      } else if (bpHabit === "partial" || bpHabit === "none") {
+        addUnique(doItems, "若醫療人員建議居家量血壓：量前先坐著休息 5 分鐘，依 722 連續 7 天、早起與睡前各量 2 次並記錄。");
+      } else {
+        addUnique(confirmItems, "詢問自己是否需要居家量血壓、正確量法與適合的紀錄頻率。");
+      }
+
+      if (medHabit === "forget") {
+        addUnique(doItems, "用鬧鐘、藥盒或固定生活事件提醒用藥；把『漏吃怎麼辦』寫進下次提問。");
+        addUnique(confirmItems, "向醫師或藥師確認各項藥物的用途，以及漏吃時的正確處理方式。");
+      } else if (medHabit === "change") {
+        addUnique(doItems, "先不要自行停藥、加藥、減藥或用雙倍劑量補吃；盡快聯絡醫師或藥師確認。");
+        addUnique(confirmItems, "說明曾自行調整的藥物、原因與不舒服的情形，請醫療團隊一起修正計畫。");
+      } else if (medHabit === "good") {
+        addUnique(doItems, "照醫囑持續用藥；若有不舒服或疑問，先記下來並詢問，不自行調整。");
+      } else if (medHabit === "unanswered" && hasCondition) {
+        addUnique(confirmItems, "確認目前所有三高相關藥物的用途、吃法與注意事項。");
+      }
+
+      if (trendHabit === "sometimes" || trendHabit === "none" || trendHabit === "unanswered") {
+        addUnique(doItems, "用相同方式持續記錄體重或腰圍，觀察趨勢；體重不是『第三高』，也不是越低越好。");
+      } else if (trendHabit === "regular") {
+        addUnique(doItems, "維持相同條件的體重或腰圍紀錄，回診時一起看長期趨勢。");
+      }
+
+      if (conditions.indexOf("unsure") !== -1 || conditions.length === 0) {
+        addUnique(confirmItems, "帶健檢或門診報告，確認自己是否有高血壓、高血糖或高血脂。");
+      } else if (conditions.indexOf("none") !== -1) {
+        addUnique(confirmItems, "下次健檢時確認血壓、血糖與血脂，以及個人的追蹤間隔。");
+      }
+
+      if (a1cStatus === "unknown" || (a1cStatus === "unanswered" && conditions.indexOf("glucose") !== -1)) {
+        addUnique(confirmItems, "確認最近一次 HbA1c 的日期、結果與個人化目標；目標不是人人相同。");
+      }
+
+      if (ldlStatus === "unknown" || (ldlStatus === "unanswered" && conditions.indexOf("lipid") !== -1)) {
+        addUnique(confirmItems, "確認最近一次 LDL-C 的日期、結果與個人化目標；不要套用別人的數字。");
+      }
+
+      prepared.forEach(function (value) {
+        if (bringLabels[value]) addUnique(bringItems, bringLabels[value]);
+      });
+
+      if ((bpHabit === "722" || bpHabit === "partial") && prepared.indexOf("bp") === -1) {
+        addUnique(bringItems, "居家血壓紀錄（紙本、手機或血壓計記憶皆可）");
+      }
+      if ((hasCondition || medHabit === "forget" || medHabit === "change") && prepared.indexOf("meds") === -1) {
+        addUnique(bringItems, "完整用藥清單，包含保健品、草藥與自行購買的藥");
+      }
+      if ((a1cStatus === "known" || ldlStatus === "known") && prepared.indexOf("labs") === -1) {
+        addUnique(bringItems, "記有 HbA1c、LDL-C 日期的檢查或健檢報告");
+      }
+      if (bringItems.length === 0) {
+        addUnique(bringItems, "最近的健檢、抽血或驗尿報告");
+        addUnique(bringItems, "所有藥物、保健品與草藥清單或照片");
+        addUnique(bringItems, "想問醫療人員的問題");
+      }
+
+      if (doItems.length === 0) {
+        addUnique(doItems, "維持量測、按時用藥與持續追蹤；把不舒服或疑問先記下來。");
+      }
+      if (confirmItems.length === 0) {
+        addUnique(confirmItems, "與醫療團隊確認血壓、HbA1c、LDL-C 與體重趨勢的個人化目標和追蹤時間。");
+      }
+
+      renderList(doList, doItems.slice(0, 4));
+      renderList(confirmList, confirmItems.slice(0, 4));
+      renderList(bringList, bringItems.slice(0, 5));
+      renderList(urgentList, warnings.map(function (value) { return urgentLabels[value]; }).filter(Boolean));
+      urgentBox.hidden = warnings.length === 0;
+      result.hidden = false;
+      result.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    enforceExclusive("condition");
+    enforceExclusive("bring");
+    enforceExclusive("warning");
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      makeActionCard();
+    });
+
+    root.querySelector("#tha-reset").addEventListener("click", function () {
+      form.reset();
+      result.hidden = true;
+      urgentBox.hidden = true;
+      form.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    root.querySelector("#tha-print").addEventListener("click", function () {
+      window.print();
+    });
+
+    root.querySelector("#tha-edit").addEventListener("click", function () {
+      form.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }());
+</script>
+
+  </main>
+</body>
+</html>

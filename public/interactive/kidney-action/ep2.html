@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>我的腎功能報告雙指標小幫手｜護腎行動系列第 2 集</title>
+</head>
+<body style="margin:0;background:#f4faf8">
+<div id="kidney-report-guide" lang="zh-TW">
+  <style>
+    #kidney-report-guide {
+      --krg-bg: #f4faf8;
+      --krg-surface: #ffffff;
+      --krg-pale: #ddefea;
+      --krg-primary: #16877a;
+      --krg-ink: #143a3a;
+      --krg-muted: #476967;
+      --krg-line: #a9c7c1;
+      --krg-warn: #f5b942;
+      --krg-alert: #e86b5b;
+      --krg-soft-alert: #fff0ed;
+      color: var(--krg-ink);
+      background: var(--krg-bg);
+      font-family: "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+      line-height: 1.6;
+      padding: 0;
+    }
+
+    #kidney-report-guide * { box-sizing: border-box; }
+    #kidney-report-guide button,
+    #kidney-report-guide input,
+    #kidney-report-guide select { font: inherit; }
+
+    #kidney-report-guide .krg-shell {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 18px 48px;
+    }
+
+    #kidney-report-guide .krg-hero {
+      position: relative;
+      overflow: hidden;
+      border-top: 10px solid var(--krg-primary);
+      border-radius: 18px;
+      background: var(--krg-surface);
+      padding: 34px clamp(22px, 5vw, 58px);
+      box-shadow: 0 12px 36px rgba(20, 58, 58, 0.08);
+    }
+
+    #kidney-report-guide .krg-eyebrow {
+      color: var(--krg-primary);
+      font-size: 0.94rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+    }
+
+    #kidney-report-guide h1 {
+      margin: 8px 0 10px;
+      max-width: 850px;
+      font-size: clamp(2rem, 5.5vw, 4.4rem);
+      line-height: 1.12;
+      letter-spacing: -0.035em;
+    }
+
+    #kidney-report-guide .krg-lead {
+      max-width: 800px;
+      margin: 0;
+      color: var(--krg-muted);
+      font-size: clamp(1.05rem, 2vw, 1.32rem);
+    }
+
+    #kidney-report-guide .krg-formula {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 22px;
+      padding: 12px 18px;
+      border-radius: 12px;
+      background: var(--krg-primary);
+      color: white;
+      font-weight: 850;
+      font-size: 1.18rem;
+    }
+
+    #kidney-report-guide .krg-three {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin: 18px 0 26px;
+    }
+
+    #kidney-report-guide .krg-three div {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      min-height: 68px;
+      border: 1px solid var(--krg-line);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.75);
+      padding: 12px 14px;
+      font-weight: 750;
+    }
+
+    #kidney-report-guide .krg-three span {
+      display: inline-grid;
+      place-items: center;
+      flex: 0 0 36px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--krg-primary);
+      color: white;
+      font-weight: 900;
+    }
+
+    #kidney-report-guide .krg-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+      gap: 20px;
+      align-items: start;
+    }
+
+    #kidney-report-guide .krg-panel {
+      border: 1px solid var(--krg-line);
+      border-radius: 16px;
+      background: var(--krg-surface);
+      padding: clamp(18px, 3vw, 28px);
+    }
+
+    #kidney-report-guide .krg-panel h2 {
+      margin: 0 0 6px;
+      font-size: clamp(1.35rem, 3vw, 2rem);
+      line-height: 1.25;
+    }
+
+    #kidney-report-guide .krg-panel-intro {
+      margin: 0 0 20px;
+      color: var(--krg-muted);
+    }
+
+    #kidney-report-guide fieldset {
+      border: 0;
+      padding: 0;
+      margin: 0 0 22px;
+    }
+
+    #kidney-report-guide legend {
+      width: 100%;
+      margin-bottom: 12px;
+      padding-bottom: 7px;
+      border-bottom: 2px solid var(--krg-pale);
+      color: var(--krg-ink);
+      font-size: 1.08rem;
+      font-weight: 850;
+    }
+
+    #kidney-report-guide .krg-fields {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    #kidney-report-guide .krg-field-full { grid-column: 1 / -1; }
+
+    #kidney-report-guide label.krg-label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 760;
+    }
+
+    #kidney-report-guide .krg-hint {
+      display: block;
+      margin-top: 5px;
+      color: var(--krg-muted);
+      font-size: 0.88rem;
+    }
+
+    #kidney-report-guide input[type="number"],
+    #kidney-report-guide input[type="date"],
+    #kidney-report-guide select {
+      width: 100%;
+      min-height: 48px;
+      border: 1.5px solid var(--krg-line);
+      border-radius: 10px;
+      background: white;
+      color: var(--krg-ink);
+      padding: 9px 11px;
+    }
+
+    #kidney-report-guide input:focus,
+    #kidney-report-guide select:focus,
+    #kidney-report-guide button:focus-visible {
+      outline: 3px solid rgba(22, 135, 122, 0.22);
+      outline-offset: 2px;
+      border-color: var(--krg-primary);
+    }
+
+    #kidney-report-guide .krg-checks {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 9px 14px;
+    }
+
+    #kidney-report-guide .krg-check {
+      display: flex;
+      gap: 9px;
+      align-items: flex-start;
+      border-radius: 10px;
+      padding: 8px 10px;
+      background: var(--krg-bg);
+    }
+
+    #kidney-report-guide .krg-check input {
+      width: 19px;
+      height: 19px;
+      margin-top: 3px;
+      accent-color: var(--krg-primary);
+    }
+
+    #kidney-report-guide .krg-previous {
+      margin-top: 10px;
+      border: 1px dashed var(--krg-line);
+      border-radius: 12px;
+      background: var(--krg-bg);
+      padding: 14px;
+    }
+
+    #kidney-report-guide .krg-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    #kidney-report-guide button {
+      min-height: 46px;
+      border: 1.5px solid var(--krg-primary);
+      border-radius: 10px;
+      cursor: pointer;
+      padding: 10px 18px;
+      font-weight: 850;
+    }
+
+    #kidney-report-guide .krg-primary-btn {
+      background: var(--krg-primary);
+      color: white;
+    }
+
+    #kidney-report-guide .krg-secondary-btn {
+      background: white;
+      color: var(--krg-primary);
+    }
+
+    #kidney-report-guide .krg-result-placeholder {
+      display: grid;
+      place-items: center;
+      min-height: 290px;
+      border: 2px dashed var(--krg-line);
+      border-radius: 14px;
+      color: var(--krg-muted);
+      text-align: center;
+      padding: 30px;
+    }
+
+    #kidney-report-guide .krg-result-placeholder strong {
+      display: block;
+      color: var(--krg-ink);
+      font-size: 1.25rem;
+    }
+
+    #kidney-report-guide .krg-status {
+      border-left: 8px solid var(--krg-primary);
+      border-radius: 12px;
+      background: var(--krg-pale);
+      padding: 17px 18px;
+      margin-bottom: 14px;
+    }
+
+    #kidney-report-guide .krg-status[data-level="follow"] {
+      border-left-color: var(--krg-warn);
+      background: #fff8e7;
+    }
+
+    #kidney-report-guide .krg-status[data-level="priority"] {
+      border-left-color: var(--krg-alert);
+      background: var(--krg-soft-alert);
+    }
+
+    #kidney-report-guide .krg-status[data-level="missing"] {
+      border-left-color: var(--krg-muted);
+      background: #eef4f2;
+    }
+
+    #kidney-report-guide .krg-status-label {
+      display: inline-block;
+      margin-bottom: 5px;
+      color: var(--krg-primary);
+      font-size: 0.86rem;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+    }
+
+    #kidney-report-guide .krg-status[data-level="follow"] .krg-status-label { color: #946300; }
+    #kidney-report-guide .krg-status[data-level="priority"] .krg-status-label { color: #a53f34; }
+    #kidney-report-guide .krg-status[data-level="missing"] .krg-status-label { color: var(--krg-muted); }
+
+    #kidney-report-guide .krg-status h3 {
+      margin: 0 0 5px;
+      font-size: 1.32rem;
+      line-height: 1.3;
+    }
+
+    #kidney-report-guide .krg-status p { margin: 0; }
+
+    #kidney-report-guide .krg-result-cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin: 14px 0;
+    }
+
+    #kidney-report-guide .krg-result-card {
+      min-height: 142px;
+      border: 1px solid var(--krg-line);
+      border-radius: 12px;
+      background: white;
+      padding: 14px;
+    }
+
+    #kidney-report-guide .krg-result-card .krg-chip {
+      display: inline-block;
+      border-radius: 999px;
+      background: var(--krg-pale);
+      color: var(--krg-primary);
+      padding: 3px 9px;
+      font-size: 0.82rem;
+      font-weight: 900;
+    }
+
+    #kidney-report-guide .krg-result-card h4 {
+      margin: 8px 0 4px;
+      font-size: 1.12rem;
+    }
+
+    #kidney-report-guide .krg-result-card p {
+      margin: 0;
+      color: var(--krg-muted);
+      font-size: 0.94rem;
+    }
+
+    #kidney-report-guide .krg-note {
+      margin-top: 12px;
+      border-radius: 10px;
+      background: var(--krg-bg);
+      padding: 12px 14px;
+    }
+
+    #kidney-report-guide .krg-note strong { color: var(--krg-primary); }
+
+    #kidney-report-guide .krg-questions {
+      margin: 16px 0 0;
+      border-radius: 12px;
+      background: var(--krg-primary);
+      color: white;
+      padding: 16px 18px;
+    }
+
+    #kidney-report-guide .krg-questions h3 { margin: 0 0 8px; }
+    #kidney-report-guide .krg-questions ol { margin: 0; padding-left: 1.4em; }
+
+    #kidney-report-guide .krg-safety {
+      margin-top: 20px;
+      border: 1.5px solid var(--krg-warn);
+      border-radius: 14px;
+      background: #fffaf0;
+      padding: 18px;
+    }
+
+    #kidney-report-guide .krg-safety h2 {
+      margin: 0 0 6px;
+      font-size: 1.25rem;
+    }
+
+    #kidney-report-guide .krg-safety p { margin: 6px 0 0; }
+    #kidney-report-guide [hidden] { display: none !important; }
+
+    @media (max-width: 820px) {
+      #kidney-report-guide .krg-grid { grid-template-columns: 1fr; }
+      #kidney-report-guide .krg-three { grid-template-columns: 1fr; }
+      #kidney-report-guide .krg-fields,
+      #kidney-report-guide .krg-checks { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 520px) {
+      #kidney-report-guide .krg-shell { padding-inline: 10px; }
+      #kidney-report-guide .krg-result-cards { grid-template-columns: 1fr; }
+      #kidney-report-guide .krg-actions button { width: 100%; }
+    }
+
+    @media print {
+      #kidney-report-guide { background: white; }
+      #kidney-report-guide .krg-form-panel,
+      #kidney-report-guide .krg-three,
+      #kidney-report-guide .krg-print-hide { display: none !important; }
+      #kidney-report-guide .krg-grid { grid-template-columns: 1fr; }
+      #kidney-report-guide .krg-panel { border: 0; padding: 0; }
+      #kidney-report-guide .krg-hero { box-shadow: none; }
+    }
+  </style>
+
+  <main class="krg-shell">
+    <section class="krg-hero" aria-labelledby="krg-title">
+      <div class="krg-eyebrow">護腎行動系列｜第 2 集</div>
+      <h1 id="krg-title">我的腎功能報告<br>雙指標小幫手</h1>
+      <p class="krg-lead">協助您在健檢報告找到 eGFR 與 UACR／尿蛋白、看懂兩個線索，並整理下一步要問醫療人員的問題。</p>
+      <div class="krg-formula" aria-label="eGFR 加 UACR">eGFR <span aria-hidden="true">＋</span> UACR</div>
+    </section>
+
+    <section class="krg-three" aria-label="三個使用步驟">
+      <div><span>1</span> 找到本次兩項結果</div>
+      <div><span>2</span> 對照分類與檢查類型</div>
+      <div><span>3</span> 記日期、準備問醫師</div>
+    </section>
+
+    <div class="krg-grid">
+      <section class="krg-panel krg-form-panel" aria-labelledby="krg-form-title">
+        <h2 id="krg-form-title">輸入報告上的資料</h2>
+        <p class="krg-panel-intro">不知道的欄位可以留白或選「找不到」。本工具不會自行把肌酸酐換算成 eGFR。</p>
+
+        <form id="krg-form" novalidate>
+          <fieldset>
+            <legend>本次檢查</legend>
+            <div class="krg-fields">
+              <div>
+                <label class="krg-label" for="krg-current-date">檢查日期（選填）</label>
+                <input id="krg-current-date" type="date">
+              </div>
+              <div>
+                <label class="krg-label" for="krg-egfr">eGFR</label>
+                <input id="krg-egfr" type="number" min="0" max="200" step="0.1" inputmode="decimal" placeholder="例如 78">
+                <span class="krg-hint">單位通常是 mL/min/1.73 m²；找不到可留白。</span>
+              </div>
+              <div class="krg-field-full">
+                <label class="krg-label" for="krg-urine-type">報告上的尿液檢查類型</label>
+                <select id="krg-urine-type">
+                  <option value="none">找不到／未檢查</option>
+                  <option value="uacr">UACR／ACR／尿白蛋白肌酸酐比</option>
+                  <option value="dipstick">尿蛋白試紙（－、±、1+、2+…）</option>
+                  <option value="other">UPCR／PCR／24 小時尿蛋白或其他</option>
+                </select>
+              </div>
+              <div id="krg-uacr-wrap" hidden>
+                <label class="krg-label" for="krg-uacr">UACR 數值</label>
+                <input id="krg-uacr" type="number" min="0" max="100000" step="0.1" inputmode="decimal" placeholder="例如 42">
+              </div>
+              <div id="krg-uacr-unit-wrap" hidden>
+                <label class="krg-label" for="krg-uacr-unit">UACR 單位</label>
+                <select id="krg-uacr-unit">
+                  <option value="mg-g">mg/g</option>
+                  <option value="mg-mmol">mg/mmol</option>
+                </select>
+              </div>
+              <div id="krg-dipstick-wrap" class="krg-field-full" hidden>
+                <label class="krg-label" for="krg-dipstick">尿蛋白試紙結果</label>
+                <select id="krg-dipstick">
+                  <option value="unknown">不知道</option>
+                  <option value="negative">陰性（－）</option>
+                  <option value="trace">微量（±／trace）</option>
+                  <option value="1plus">1+</option>
+                  <option value="2plus">2+</option>
+                  <option value="3plus">3+ 以上</option>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>是否要加入前一次結果？</legend>
+            <label class="krg-check">
+              <input id="krg-has-previous" type="checkbox">
+              <span>我要加入前一次報告，協助排列時間</span>
+            </label>
+            <div id="krg-previous-wrap" class="krg-previous" hidden>
+              <div class="krg-fields">
+                <div>
+                  <label class="krg-label" for="krg-prev-date">前次日期</label>
+                  <input id="krg-prev-date" type="date">
+                </div>
+                <div>
+                  <label class="krg-label" for="krg-prev-egfr">前次 eGFR</label>
+                  <input id="krg-prev-egfr" type="number" min="0" max="200" step="0.1" inputmode="decimal" placeholder="選填">
+                </div>
+                <div>
+                  <label class="krg-label" for="krg-prev-uacr">前次 UACR</label>
+                  <input id="krg-prev-uacr" type="number" min="0" max="100000" step="0.1" inputmode="decimal" placeholder="選填">
+                </div>
+                <div>
+                  <label class="krg-label" for="krg-prev-uacr-unit">前次 UACR 單位</label>
+                  <select id="krg-prev-uacr-unit">
+                    <option value="mg-g">mg/g</option>
+                    <option value="mg-mmol">mg/mmol</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>這次檢查前後，是否有可能影響結果的狀況？（選填）</legend>
+            <div class="krg-checks">
+              <label class="krg-check"><input type="checkbox" name="krg-factor" value="發燒或感染"><span>發燒或感染</span></label>
+              <label class="krg-check"><input type="checkbox" name="krg-factor" value="泌尿道症狀、明顯血尿或月經"><span>泌尿道症狀、明顯血尿或月經</span></label>
+              <label class="krg-check"><input type="checkbox" name="krg-factor" value="劇烈運動"><span>劇烈運動</span></label>
+              <label class="krg-check"><input type="checkbox" name="krg-factor" value="脫水、嘔吐或腹瀉"><span>脫水、嘔吐或腹瀉</span></label>
+            </div>
+          </fieldset>
+
+          <div class="krg-actions krg-print-hide">
+            <button class="krg-primary-btn" type="submit">看懂這份報告</button>
+            <button class="krg-secondary-btn" id="krg-demo" type="button">載入示範</button>
+            <button class="krg-secondary-btn" id="krg-reset" type="button">重新填寫</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="krg-panel" aria-labelledby="krg-result-title">
+        <h2 id="krg-result-title">整理結果</h2>
+        <p class="krg-panel-intro">顏色代表後續關注程度，不是疾病診斷。</p>
+
+        <div id="krg-result-placeholder" class="krg-result-placeholder">
+          <div><strong>先輸入報告資料</strong>完成後會顯示兩項解釋、時間提醒與門診問題。</div>
+        </div>
+
+        <div id="krg-result" aria-live="polite" hidden>
+          <div id="krg-status" class="krg-status" data-level="missing">
+            <span id="krg-status-label" class="krg-status-label"></span>
+            <h3 id="krg-status-title"></h3>
+            <p id="krg-status-copy"></p>
+          </div>
+
+          <div class="krg-result-cards">
+            <article class="krg-result-card">
+              <span class="krg-chip">抽血線索</span>
+              <h4 id="krg-egfr-title"></h4>
+              <p id="krg-egfr-copy"></p>
+            </article>
+            <article class="krg-result-card">
+              <span class="krg-chip">尿液線索</span>
+              <h4 id="krg-urine-title"></h4>
+              <p id="krg-urine-copy"></p>
+            </article>
+          </div>
+
+          <div id="krg-timeline" class="krg-note"></div>
+          <div id="krg-factor-note" class="krg-note" hidden></div>
+
+          <section class="krg-questions">
+            <h3>帶去門診的三個問題</h3>
+            <ol>
+              <li>這次的 eGFR 與尿液結果，是否需要複檢？</li>
+              <li>建議何時再檢查？需要加驗 UACR 嗎？</li>
+              <li>這次是否可能受到急性病況、藥物或檢驗公式影響？</li>
+            </ol>
+          </section>
+
+          <div class="krg-actions krg-print-hide">
+            <button class="krg-secondary-btn" id="krg-print" type="button">列印／存成 PDF</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="krg-safety" aria-labelledby="krg-safety-title">
+      <h2 id="krg-safety-title">重要安全提醒</h2>
+      <p>本工具只協助辨識與整理健檢報告，不提供診斷，也不能用單次結果判定慢性腎臟病。不同實驗室的單位、公式與參考值可能不同；孕期、急性疾病或肌肉量特殊者尤其需要專業判讀。請勿依本工具自行停藥、調藥或改變飲水量。</p>
+      <p><strong>若報告標示危急值，請依醫療院所指示立即聯絡。</strong>若有呼吸困難、明顯水腫、尿量大減、持續嘔吐或意識改變，應直接尋求醫療協助。</p>
+    </section>
+  </main>
+
+  <script>
+    (() => {
+      const root = document.getElementById('kidney-report-guide');
+      if (!root || root.dataset.ready === 'true') return;
+      root.dataset.ready = 'true';
+
+      const $ = (id) => root.querySelector('#' + id);
+      const form = $('krg-form');
+      const urineType = $('krg-urine-type');
+      const uacrWrap = $('krg-uacr-wrap');
+      const uacrUnitWrap = $('krg-uacr-unit-wrap');
+      const dipstickWrap = $('krg-dipstick-wrap');
+      const hasPrevious = $('krg-has-previous');
+      const previousWrap = $('krg-previous-wrap');
+      const result = $('krg-result');
+      const placeholder = $('krg-result-placeholder');
+
+      function numberOrNull(input) {
+        if (!input.value.trim()) return null;
+        const value = Number(input.value);
+        return Number.isFinite(value) && value >= 0 ? value : null;
+      }
+
+      function formatValue(value) {
+        return Number.isInteger(value) ? String(value) : value.toFixed(1);
+      }
+
+      function eGFRInfo(value) {
+        if (value === null) return { title: '未找到 eGFR', copy: '目前缺少過濾功能線索；請在報告尋找 eGFR，不要只輸入肌酸酐。', abnormal: null, priority: false };
+        if (value >= 90) return { title: `G1｜${formatValue(value)}`, copy: 'eGFR 為 90 以上；此分類單獨不能診斷或排除 CKD，仍要看 UACR 與其他腎損傷證據。', abnormal: false, priority: false };
+        if (value >= 60) return { title: `G2｜${formatValue(value)}`, copy: 'eGFR 為 60–89；單獨出現不等於 CKD，仍要搭配尿液結果與長期變化。', abnormal: false, priority: false };
+        if (value >= 45) return { title: `G3a｜${formatValue(value)}`, copy: 'eGFR 為 45–59，是需要醫療人員確認原因並安排追蹤的訊號。', abnormal: true, priority: false };
+        if (value >= 30) return { title: `G3b｜${formatValue(value)}`, copy: 'eGFR 為 30–44，需要更密切的醫療評估與追蹤。', abnormal: true, priority: false };
+        if (value >= 15) return { title: `G4｜${formatValue(value)}`, copy: 'eGFR 為 15–29；不要只等下一次健檢，請儘快安排醫療評估。', abnormal: true, priority: true };
+        return { title: `G5｜${formatValue(value)}`, copy: 'eGFR 低於 15；請依報告或院所指示儘快聯絡醫療團隊。這不等於只看一次數字就一定需要透析。', abnormal: true, priority: true };
+      }
+
+      function uacrToMgG(value, unit) {
+        return unit === 'mg-mmol' ? value * 8.84 : value;
+      }
+
+      function uacrInfo(value, unit) {
+        if (value === null) return { title: '尚未輸入 UACR', copy: '請輸入報告上的數值；如果只有尿蛋白試紙，請改選對應檢查類型。', abnormal: null, priority: false, category: null };
+        const mgG = uacrToMgG(value, unit);
+        const unitLabel = unit === 'mg-mmol' ? 'mg/mmol' : 'mg/g';
+        if (mgG < 30) return { title: `A1｜${formatValue(value)} ${unitLabel}`, copy: '正常至輕度增加。本次 UACR 未達 30 mg/g 對應門檻；仍需與 eGFR、風險及其他檢查一起看。', abnormal: false, priority: false, category: 'A1' };
+        if (mgG < 300) return { title: `A2｜${formatValue(value)} ${unitLabel}`, copy: '中度增加，是需要確認與複檢的白蛋白滲漏訊號。', abnormal: true, priority: false, category: 'A2' };
+        return { title: `A3｜${formatValue(value)} ${unitLabel}`, copy: '重度增加；不要只等下一次健檢，請儘快安排醫療評估。', abnormal: true, priority: true, category: 'A3' };
+      }
+
+      function dipstickInfo(value) {
+        const labels = {
+          unknown: ['試紙結果不清楚', '可帶著原始報告詢問醫療人員，必要時確認是否需定量 UACR。'],
+          negative: ['尿蛋白試紙陰性', '陰性不等於 UACR 一定小於 30；高風險者仍可詢問是否需要 UACR。'],
+          trace: ['尿蛋白試紙微量', '這是需要確認的線索，可詢問是否以定量 UACR 複檢。'],
+          '1plus': ['尿蛋白試紙 1+', '試紙陽性不能直接換算成 UACR 分類，請和醫療人員確認定量檢查。'],
+          '2plus': ['尿蛋白試紙 2+', '試紙陽性不能直接換算成 UACR 分類，請和醫療人員確認定量檢查。'],
+          '3plus': ['尿蛋白試紙 3+ 以上', '請儘快與醫療人員確認；試紙結果仍需結合定量檢查與臨床狀況。']
+        };
+        const [title, copy] = labels[value] || labels.unknown;
+        return { title, copy, abnormal: value !== 'negative' && value !== 'unknown', priority: value === '3plus' };
+      }
+
+      function urineInfo(type, uacrValue, uacrUnit, dipstickValue) {
+        if (type === 'uacr') return uacrInfo(uacrValue, uacrUnit);
+        if (type === 'dipstick') return dipstickInfo(dipstickValue);
+        if (type === 'other') return { title: '目前不是 UACR', copy: 'UPCR、PCR 或 24 小時尿蛋白不能直接當成 UACR 分類；請由醫療人員依檢查目的判讀。', abnormal: null, priority: false };
+        return { title: '未找到尿液結果', copy: '目前只有抽血線索；請在報告找尿蛋白，並詢問是否需要定量 UACR。', abnormal: null, priority: false };
+      }
+
+      function addCalendarMonths(date, months) {
+        const target = new Date(date.getTime());
+        const day = target.getDate();
+        target.setDate(1);
+        target.setMonth(target.getMonth() + months);
+        const lastDay = new Date(target.getFullYear(), target.getMonth() + 1, 0).getDate();
+        target.setDate(Math.min(day, lastDay));
+        return target;
+      }
+
+      function timelineMessage(data, egfr, urine) {
+        const currentAbnormal = egfr.abnormal === true || (data.urineType === 'uacr' && urine.abnormal === true);
+        if (!data.hasPrevious) {
+          return currentAbnormal
+            ? '<strong>時間提醒：</strong>目前只有一次異常紀錄。一次異常不能判定為慢性腎臟病；請依病況與醫療建議安排複檢。'
+            : '<strong>時間提醒：</strong>單次結果只是快照。請保存日期，未來才能和歷次結果一起看。';
+        }
+
+        if (!data.currentDate || !data.previousDate) {
+          return '<strong>時間提醒：</strong>已加入前次數值，但缺少完整日期；請補上日期或帶兩份報告給醫療人員確認。';
+        }
+
+        const currentDate = new Date(data.currentDate + 'T12:00:00');
+        const previousDate = new Date(data.previousDate + 'T12:00:00');
+        if (previousDate >= currentDate) {
+          return '<strong>時間提醒：</strong>前次日期應早於本次日期，請重新確認。';
+        }
+
+        const prevEgfrAbnormal = data.previousEgfr !== null && data.previousEgfr < 60;
+        const currentEgfrAbnormal = data.egfr !== null && data.egfr < 60;
+        const prevUacrAbnormal = data.previousUacr !== null && uacrToMgG(data.previousUacr, data.previousUacrUnit) >= 30;
+        const currentUacrAbnormal = data.urineType === 'uacr' && data.uacr !== null && uacrToMgG(data.uacr, data.uacrUnit) >= 30;
+        const sameMarkerPersistent = (prevEgfrAbnormal && currentEgfrAbnormal) || (prevUacrAbnormal && currentUacrAbnormal);
+        const spansThreeMonths = currentDate >= addCalendarMonths(previousDate, 3);
+
+        const valueParts = [];
+        if (data.previousEgfr !== null && data.egfr !== null) valueParts.push(`eGFR：${formatValue(data.previousEgfr)} → ${formatValue(data.egfr)}`);
+        if (data.previousUacr !== null && data.urineType === 'uacr' && data.uacr !== null) valueParts.push(`UACR：${formatValue(data.previousUacr)} ${data.previousUacrUnit === 'mg-mmol' ? 'mg/mmol' : 'mg/g'} → ${formatValue(data.uacr)} ${data.uacrUnit === 'mg-mmol' ? 'mg/mmol' : 'mg/g'}`);
+        const values = valueParts.length ? `<br><span>${valueParts.join('；')}</span>` : '';
+
+        if (sameMarkerPersistent && spansThreeMonths) {
+          return `<strong>時間提醒：</strong>同類異常訊號跨越至少 3 個曆月，達到「慢性時間條件」的提示；是否屬於慢性腎臟病，仍需醫師整合病史與其他檢查判定。${values}`;
+        }
+        if (sameMarkerPersistent) {
+          return `<strong>時間提醒：</strong>兩次都有同類異常，但目前尚未跨越 3 個曆月，資料不足以確認慢性。複檢時間仍依病況決定。${values}`;
+        }
+        return `<strong>時間提醒：</strong>兩次結果已排列，但不能由本工具自行判定改善或惡化；不同院所、單位或 eGFR 公式也可能影響比較。${values}`;
+      }
+
+      function classifyStatus(data, egfr, urine) {
+        const missingEgfr = data.egfr === null;
+        const missingUrine = data.urineType === 'none';
+        const incompleteUacr = data.urineType === 'uacr' && data.uacr === null;
+
+        if (missingEgfr || missingUrine || incompleteUacr) {
+          const missing = [];
+          if (missingEgfr) missing.push('eGFR');
+          if (missingUrine) missing.push('尿液檢查');
+          if (incompleteUacr) missing.push('UACR 數值');
+          return { level: 'missing', label: '資料未完整', title: `還缺：${missing.join('、')}`, copy: '先補齊能找到的資料；若報告沒有 UACR，可詢問醫療人員是否需要加驗。' };
+        }
+
+        if (egfr.priority || urine.priority) {
+          return { level: 'priority', label: '優先處理', title: '請儘快安排醫療評估', copy: '不要只等下一次例行健檢。請帶著完整報告，依院所指示或與醫療人員聯絡。' };
+        }
+
+        if (egfr.abnormal === true || urine.abnormal === true || data.urineType === 'other' || data.urineType === 'dipstick') {
+          return { level: 'follow', label: '需要確認', title: '請和醫療人員討論複檢', copy: '這是需要追蹤或進一步確認的線索，不是由本工具做出的疾病診斷。' };
+        }
+
+        return { level: 'info', label: '本次整理', title: '本次未見這兩項常用警訊', copy: '這不代表永遠沒問題，也不能排除其他腎損傷證據；仍應依個人風險與醫療建議定期追蹤。' };
+      }
+
+      function updateConditionalFields() {
+        const type = urineType.value;
+        const showUacr = type === 'uacr';
+        uacrWrap.hidden = !showUacr;
+        uacrUnitWrap.hidden = !showUacr;
+        dipstickWrap.hidden = type !== 'dipstick';
+        $('krg-uacr').required = showUacr;
+        previousWrap.hidden = !hasPrevious.checked;
+      }
+
+      function readData() {
+        return {
+          currentDate: $('krg-current-date').value,
+          egfr: numberOrNull($('krg-egfr')),
+          urineType: urineType.value,
+          uacr: numberOrNull($('krg-uacr')),
+          uacrUnit: $('krg-uacr-unit').value,
+          dipstick: $('krg-dipstick').value,
+          hasPrevious: hasPrevious.checked,
+          previousDate: $('krg-prev-date').value,
+          previousEgfr: numberOrNull($('krg-prev-egfr')),
+          previousUacr: numberOrNull($('krg-prev-uacr')),
+          previousUacrUnit: $('krg-prev-uacr-unit').value,
+          factors: Array.from(root.querySelectorAll('input[name="krg-factor"]:checked')).map((input) => input.value)
+        };
+      }
+
+      function renderResult(data) {
+        const egfr = eGFRInfo(data.egfr);
+        const urine = urineInfo(data.urineType, data.uacr, data.uacrUnit, data.dipstick);
+        const status = classifyStatus(data, egfr, urine);
+
+        $('krg-status').dataset.level = status.level;
+        $('krg-status-label').textContent = status.label;
+        $('krg-status-title').textContent = status.title;
+        $('krg-status-copy').textContent = status.copy;
+        $('krg-egfr-title').textContent = egfr.title;
+        $('krg-egfr-copy').textContent = egfr.copy;
+        $('krg-urine-title').textContent = urine.title;
+        $('krg-urine-copy').textContent = urine.copy;
+        $('krg-timeline').innerHTML = timelineMessage(data, egfr, urine);
+
+        const factorNote = $('krg-factor-note');
+        if (data.factors.length) {
+          factorNote.hidden = false;
+          factorNote.innerHTML = `<strong>可能影響本次結果的狀況：</strong>${data.factors.join('、')}。這些因素不代表可以忽略異常，請告訴醫療人員，由其決定是否及何時複檢。`;
+        } else {
+          factorNote.hidden = true;
+          factorNote.textContent = '';
+        }
+
+        placeholder.hidden = true;
+        result.hidden = false;
+        result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        updateConditionalFields();
+        if (!form.reportValidity()) return;
+        renderResult(readData());
+      });
+
+      urineType.addEventListener('change', updateConditionalFields);
+      hasPrevious.addEventListener('change', updateConditionalFields);
+
+      $('krg-demo').addEventListener('click', () => {
+        const today = new Date();
+        const previous = addCalendarMonths(today, -4);
+        const iso = (date) => date.toISOString().slice(0, 10);
+        $('krg-current-date').value = iso(today);
+        $('krg-egfr').value = '78';
+        urineType.value = 'uacr';
+        $('krg-uacr').value = '64';
+        $('krg-uacr-unit').value = 'mg-g';
+        hasPrevious.checked = true;
+        $('krg-prev-date').value = iso(previous);
+        $('krg-prev-egfr').value = '82';
+        $('krg-prev-uacr').value = '48';
+        $('krg-prev-uacr-unit').value = 'mg-g';
+        updateConditionalFields();
+        renderResult(readData());
+      });
+
+      $('krg-reset').addEventListener('click', () => {
+        form.reset();
+        updateConditionalFields();
+        result.hidden = true;
+        placeholder.hidden = false;
+        $('krg-current-date').focus();
+      });
+
+      $('krg-print').addEventListener('click', () => window.print());
+      updateConditionalFields();
+    })();
+  </script>
+</div>
+
+
+</body>
+</html>
