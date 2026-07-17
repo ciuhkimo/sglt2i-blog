@@ -6,7 +6,7 @@ import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
 import { SITE_TITLE } from '../../consts';
 
-const allArticles = await getCollection('patient');
+const allArticles = (await getCollection('patient')).filter((a) => !a.data.unlisted);
 const sorted = allArticles.sort((a, b) =>
 	b.data.last_updated.valueOf() - a.data.last_updated.valueOf()
 );

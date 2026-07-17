@@ -30,6 +30,7 @@ const patient = defineCollection({
 		seo_title: z.string().optional(),
 		about_condition: z.string().optional(),
 		disclaimer: z.string().optional(),
+		unlisted: z.boolean().optional(),
 	}),
 });
 

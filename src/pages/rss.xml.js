@@ -57,7 +57,7 @@ export async function GET(context) {
 			description: note.data.title,
 			categories: note.data.tags,
 		})),
-		...patient.map((note) => ({
+		...patient.filter((note) => !note.data.unlisted).map((note) => ({
 			title: note.data.title,
 			pubDate: note.data.last_updated,
 			link: `/patient/${note.id}/`,
