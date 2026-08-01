@@ -2,10 +2,10 @@
 question_id: "Q11"
 title: "CKM 四柱整合策略（RASi + SGLT2i + Finerenone + GLP-1 RA）"
 category: "整合藥物策略"
-version: "v1.3"
+version: "v1.4"
 status: ""
-last_updated: 2026-05-27
-next_review: 2026-08-27
+last_updated: 2026-08-01
+next_review: 2026-11-01
 tags:
   - CKM-syndrome
   - cardiorenal-metabolic
@@ -26,7 +26,7 @@ seo_title: "Q11 CKM 四柱整合策略（RASi + SGLT2i + Finerenone + GLP-1 RA�
 
 RASi、SGLT2i、finerenone、GLP-1 RA 四柱療法的起始順序為何？
 CONFIDENCE 之後，「同時啟動」是否已成 standard？
-FIND-CKD 完成後，finerenone 是否已可視為跨越 DKD 邊界？
+FIND-CKD 主結果與 INFINITY 合併分析發表後，finerenone 的適用範圍延伸到哪裡？
 台灣 NHI 僅能穩定落地部分柱時，如何實務操作？
 ---
 
@@ -36,13 +36,22 @@ FIND-CKD 完成後，finerenone 是否已可視為跨越 DKD 邊界？
 2. **CONFIDENCE 支持「finerenone + empagliflozin 初始合併」可降低 albuminuria，且短期安全性可接受；但這是 surrogate endpoint（UACR）證據，不等於已證實硬終點 additivity。**
 3. **ADA 2026 的正式語氣是 “can be considered”，不是 universal standard，更不是所有 CKD/T2D 都必須 simultaneous initiation。**
 4. **finerenone 在 HFmrEF/HFpEF 有 FINEARTS-HF 支持，但這不等於可取代 HFrEF 中 steroidal MRA 的既有證據基礎。**
-5. **FIND-CKD 已完成，但截至本次查核，ClinicalTrials.gov 顯示尚未 posted results；因此不能把 finerenone 直接外推為已跨越 DKD 邊界。**
+5. **FIND-CKD 主結果（*N Engl J Med* 2026-06）與 INFINITY 三試驗 IPD 合併分析（*Lancet* 2026-06）已發表：在納入試驗的族群中，finerenone 的腎臟與心血管效益不因 CKD 病因、血糖狀態、基線 eGFR、albuminuria 或是否併用 SGLT2i 而異，non-diabetic CKD 已不再只是探索階段；但三項試驗基線 eGFR 下限均為 25 mL/min/1.73m²，仍不可外推至更低 eGFR。**
 6. **台灣目前最可落地的公費主軸仍是 RASi + SGLT2i；finerenone 為 TFDA 核准，但在最新 NHI 給付規定總表中未查得 Kerendia/finerenone；GLP-1 RA 則仍有「不得與 SGLT-2 抑制劑併用」的健保給付限制。**
 7. **De Nicola 2026 KIR（N=4,523 義大利 ND-CKD 多中心前瞻 cohort）量化 6 個月 therapeutic inertia：RASi 85% / SGLT2i 90% / GLP-1 RA 92% / finerenone 96%，gradient 與 pillar novelty 成正比。Four-pillar integration 問題首先是 initiation gap，其次才是 sequencing logic。**
 
 ---
 
-## 本版修正重點（相較 v1.0）
+## 版本修正重點
+
+### v1.4 修正（2026-08-01）：FIND-CKD 主結果與 INFINITY 已發表
+
+- v1.3 撰寫時，FIND-CKD 僅見試驗完成、未見結果公開，故當時的結論是「不能把 finerenone 外推為已跨越 DKD 邊界」。
+- 該前提已不成立：FIND-CKD 主結果於 2026-06 發表於 *N Engl J Med*，INFINITY 三試驗 IPD 合併分析於 2026-06 發表於 *Lancet*。
+- 本版改寫 Executive Answer 第 5 點、第 3.2 節、常見錯誤做法與 Uncertainty；新增第 7 節整合性文獻。
+- 新的外推邊界改為兩條：**基線 eGFR 下限 25**、**與 SGLT2i 併用的硬終點 additivity 未證實**。
+
+### v1.3 以前的修正（相較 v1.0）
 
 ### 已修正的過強敘述
 - 原先把 **simultaneous initiation** 寫得接近「新標準答案／已成 standard」；本版改為：
@@ -50,11 +59,9 @@ FIND-CKD 完成後，finerenone 是否已可視為跨越 DKD 邊界？
   - **主要依據為 albuminuria surrogate endpoint**
   - **尚非所有族群的 universal default**
 
-### 已修正的外推
-- 原先把 **FIND-CKD 完成** 近似寫成 finerenone 已跨越 DKD 邊界；本版改為：
-  - **試驗已完成**
-  - **但截至本次查核未見 ClinicalTrials.gov posted results**
-  - **因此不能當作已證實 non-diabetic CKD hard outcome evidence**
+#### 已修正的外推（v1.3 立場，已由 v1.4 更新）
+- v1.3 時的表述為「試驗已完成、但未見結果公開，因此不能當作已證實 non-diabetic CKD hard outcome evidence」。
+- **v1.4 更新**：主結果與合併分析均已正式發表，此限制解除；改以基線 eGFR 下限與 additivity 未證實作為新的邊界。
 
 ### 已修正的台灣政策段落
 - 以 **NHI 正式公告與最新版給付規定總表** 重寫：
@@ -135,7 +142,7 @@ ADA 2026《Chronic Kidney Disease and Risk Management》明確寫到：
 
 ---
 
-## 3. Finerenone 的邊界：FINEARTS-HF 有幫助，但 FIND-CKD 尚不能宣判
+## 3. Finerenone 的邊界：FINEARTS-HF 與 FIND-CKD／INFINITY 之後
 
 ### 3.1 FINEARTS-HF：HFmrEF/HFpEF 的角色變強
 FINEARTS-HF 納入 **LVEF ≥40%** 的 symptomatic HF 病人。
@@ -152,16 +159,28 @@ FINEARTS-HF 納入 **LVEF ≥40%** 的 symptomatic HF 病人。
 - FINEARTS-HF **不是 HFrEF trial**
 - 因此**不能**用它去取代 HFrEF 既有的 steroidal MRA 證據體系
 
-### 3.2 FIND-CKD：已完成，但目前仍不能說「跨越 DKD 邊界」
-FIND-CKD（non-diabetic CKD, phase 3）在 ClinicalTrials.gov 顯示為 **Completed**，
-且目前可確認：
-- 研究對象是 **non-diabetic CKD**
-- primary efficacy outcome 設計為 **total eGFR slope**
-- **截至本次查核，ClinicalTrials.gov 顯示 “No Results Posted”**
+### 3.2 FIND-CKD 與 INFINITY：證據已跨出 DKD，但仍有明確邊界
 
-### 因此目前可接受的說法
-- **FIND-CKD 代表 finerenone 正在向 non-diabetic CKD 探索**
-- **但目前不能把它當作 routine evidence 來支持「已跨越 DKD 邊界」**
+FIND-CKD（non-diabetic CKD, phase 3；NCT05047263）主結果已於 2026-06 正式發表於 *N Engl J Med*（Heerspink 等，PMID 42246672）。隨後 INFINITY 以 FIDELIO-DKD、FIGARO-DKD、FIND-CKD 三項隨機雙盲安慰劑對照試驗的 individual participant data 進行合併分析（*Lancet* 2026;407(10546):2375–2386，PMID 42248158，n=14,574；平均 eGFR 56.4 mL/min/1.73m²，中位 UACR 567.4 mg/g）：
+
+| 結局 | 事件率（finerenone vs placebo，每 1000 人年） | HR (95% CI) |
+|---|---|---|
+| 複合腎結局（kidney failure 或持續 ≥57% eGFR 下降） | 22.3 vs 28.8 | 0.76 (0.68–0.86) |
+| Kidney failure（單獨） | — | 0.85 (0.74–0.99) |
+| 複合 CV 結局（HF 住院或 CV 死亡） | 19.1 vs 23.9 | 0.80 (0.70–0.91) |
+| HF 住院 | — | 0.78 (0.66–0.92) |
+| CV 死亡 | — | 0.82 (0.67–0.999) |
+| 全因死亡 | — | 0.88 (0.79–0.99) |
+
+- 腎複合結局的治療效應**不因血糖狀態、CKD 病因、基線 eGFR、albuminuria，或是否使用 SGLT2i 而異**。
+- 安全性：hyperkalaemia 在 finerenone 組較常見，但**因高血鉀住院的絕對發生率低**。
+- 作者的結論用語是「支持 finerenone 作為 CKD 的 foundational therapy」，且原文自身限定於「在所研究的族群中」。本文引述此為作者立場，不逕自升級為指引級建議。
+
+### 因此本版可接受的說法
+
+- **可說**：finerenone 的腎臟與心血管效益，在已納入試驗的族群中跨病因、跨血糖狀態、跨 eGFR 與 albuminuria 分層一致；non-diabetic CKD 已有 phase 3 主結果與合併分析支撐，不再只是「探索階段」。
+- **不可說**：三項試驗的基線 eGFR 下限均為 25 mL/min/1.73m²，**不能外推至 eGFR < 25**，也不能用來回答 eGFR < 20 的用藥策略。
+- **不可說**：「效應不因是否使用 SGLT2i 而異」屬次族群一致性，**不等於已證實兩藥在硬終點上的 additivity**；後者目前仍只有 CONFIDENCE 的 UACR surrogate 證據。
 
 ---
 
@@ -392,12 +411,23 @@ De Nicola 是義大利數據，**台灣本地 four-pillar inertia 無對應 coho
 
 ---
 
+## 7. 2026 年中新增的整合性文獻（v1.4 新增）
+
+以下四篇不改變本題結論，作為排序邏輯與在地實作的補充引用：
+
+- **風險導向的組合治療實施框架**：Yeung EK 等提出 who／why／when／how 的分層實施框架，可作為「先加哪一柱、對誰加」的結構化思路（*Clin J Am Soc Nephrol* 2026-06-23，PMID 42335037）。
+- **CKM 連續體上的分階段優先序**：Stefanakis K 等回顧新型抗糖尿病藥物在 CKM 連續體各階段的定位與優先順序（*Endocr Rev* 2026-07-13，PMID 42440116）。
+- **亞洲族群的 finerenone 實作**：Yamanouchi M 等從證據到實作討論亞洲 T2DM 合併白蛋白尿 CKD 的 finerenone 使用，較貼近台灣族群特性（*Diabetes Metab J* 2026-07，PMID 42444359；文獻類型為 review）。
+- **CONFIDENCE 的 HbA1c 次分析**：McGill JB 等報告 finerenone 與 empagliflozin 同時起始對 albuminuria 的效果不因基線 HbA1c 而異（*Diabetes Obes Metab* 2026-06-15，PMID 42297748）。仍屬 UACR surrogate，不改變第 1 節的立場。
+
+---
+
 ## 6. 不建議的錯誤做法
 
 1. **把 CONFIDENCE 寫成「simultaneous initiation 已成 universal standard」**
 2. **把 surrogate endpoint（UACR）當作已等同 hard outcome additivity**
 3. **把 FINEARTS-HF 外推到 HFrEF 替代 steroidal MRA**
-4. **把 FIND-CKD「已完成」寫成「已證實 non-diabetic CKD 可 routine 使用 finerenone」**
+4. **把 INFINITY 的「跨病因、跨血糖狀態一致」寫成「任何 eGFR、任何 CKD 都可 routine 使用 finerenone」**（合併分析基線 eGFR 下限為 25；「與 SGLT2i 併用無交互作用」是次族群一致性，不等於硬終點 additivity）
 5. **加藥後不安排 2–4 週的 K/Cr/eGFR 追蹤**
 6. **在台灣直接把 GLP-1 RA + SGLT2i 視為可穩定公費併用**
 
@@ -509,7 +539,7 @@ Albuminuric T2D + CKD
 ### 高度不確定
 - **simultaneous finerenone + SGLT2i 的 hard outcome additivity**
 - **完整四柱 simultaneous initiation 的長期安全性與最佳監測節奏**
-- **finerenone 在 non-diabetic CKD 的最終定位**（待 FIND-CKD 結果）
+- **finerenone 在 eGFR < 25 的定位**（FIDELIO-DKD／FIGARO-DKD／FIND-CKD 三試驗基線 eGFR 下限均為 25，INFINITY 未涵蓋更低區間）
 
 ### 中度不確定
 - **GLP-1 RA 最佳加入時機**：第二柱、第三柱、還是按 phenotype 提前
@@ -517,7 +547,7 @@ Albuminuric T2D + CKD
 - **台灣本地四柱 cost-effectiveness 與實際 adherence**
 
 ### 待追蹤
-- FIND-CKD 結果公布 / full publication
+- FIND-CKD 次族群分析；non-diabetic CKD 是否納入 TFDA 適應症與 NHI 給付
 - ADA 2027 / KDIGO 更新
 - NHI 是否新增 finerenone 給付條文
 - NHI 是否放寬 GLP-1 RA 與 SGLT2i 的併用限制
@@ -573,12 +603,10 @@ Albuminuric T2D + CKD
    - DOI: `10.1056/NEJMoa2403347`
    - PMID: `38785209`
 
-8. **FIND-CKD design / registry status**
-   - Heerspink HJL, et al. Nephrol Dial Transplant. 2025.
-   - DOI: `10.1093/ndt/gfae132`
-   - PMID: `38858818`
-   - ClinicalTrials.gov: `NCT05047263`
-   - Registry status at this review: **Completed / No Results Posted**
+8. **FIND-CKD（設計與主結果）與 INFINITY 合併分析**（v1.4 更新）
+   - 設計：Heerspink HJL, et al. *Nephrol Dial Transplant*. 2025. DOI: `10.1093/ndt/gfae132`；PMID: `38858818`；ClinicalTrials.gov: `NCT05047263`
+   - 主結果：Heerspink HJL, et al. Finerenone in Persons with Chronic Kidney Disease without Diabetes. *N Engl J Med*. 2026 Jun 4. PMID: `42246672`
+   - INFINITY（FIDELIO-DKD + FIGARO-DKD + FIND-CKD 之 individual participant data pooled analysis）：Neuen BL, et al. *Lancet*. 2026;407(10546):2375–2386. DOI: `10.1016/S0140-6736(26)01009-3`；PMID: `42248158`；PROSPERO CRD420251269149；資助：Bayer
 
 9. **Mohsen 2026 — Combination Treatment Algorithm**（v1.2 新增）
    - Mohsen M, Yi TW, Faruque L, et al. Combination Treatment for Management of CKD and T2D: A Review and Practical Guidance. *J Clin Endocrinol Metab*. 2026.
