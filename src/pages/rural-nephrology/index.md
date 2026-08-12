@@ -148,6 +148,7 @@ Rural Nephrology Hub（本頁）
 ├── ✅ 偏鄉醫院做得了器官捐贈嗎？一位腎臟科醫師的制度分析（已上線）
 ├── ✅ CKD 第五期該何時準備透析管路？南部偏鄉腎臟科的觀察（已上線）
 ├── ✅ 偏鄉腎臟科醫師到底在做什麼？（已上線）
+├── ✅ 台灣腎臟科醫師都在哪裡？縣市人力地圖的四個判讀陷阱（已上線）
 ├── 🔄 偏鄉 HD：哪些能在地處理？哪些一定要轉？（待寫）
 ├── 🔄 AKI 在偏鄉：什麼時候可以觀察？什麼時候不能等？（待寫）
 ├── 🔄 偏鄉 PD：哪些可以在地追蹤？哪些必須回醫學中心？（待寫）
@@ -202,6 +203,8 @@ Composite case 已高度去識別；未提及具體機構、地理鄉鎮、可�
 
 ### 既有 Rural Nephrology 文章
 
+- [偏鄉腎臟科醫師到底在做什麼？地區醫院腎臟科的角色與能力邊界](https://nephrodecisions.com/rural-nephrology/01-rural-nephrology-role/)
+- [台灣腎臟科醫師都在哪裡？全國密度不低，但縣市平均看不見偏鄉](https://nephrodecisions.com/rural-nephrology/02-nephrology-workforce-distribution/)
 - [偏鄉醫院做得了器官捐贈嗎？一位腎臟科醫師的制度分析](https://nephrodecisions.com/blog/rural-organ-donation-challenges/)
 - [CKD 第五期該何時準備透析管路？南部偏鄉腎臟科的觀察](https://nephrodecisions.com/blog/rural-ckd5-vascular-access-timing/)
 
