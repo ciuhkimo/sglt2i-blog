@@ -211,3 +211,4 @@ GLP-1 RA 熱量攝取減少 16-39%，體重減輕中 lean mass 流失 11-50%。C
 - [Finerenone Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/)
 - [SGLT2i Q04 — eGFR 20-30 門檻](/sglt2i/q04-egfr-20-30-threshold/)
 - [CKM Q12 — eGFR <20 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)
+- [糖尿病腎病變與透析照護（護理版）](/dialysis/edu-09-diabetes-dialysis/) — 透析病人的血糖管理與 SGLT2i／GLP-1 RA 續用考量

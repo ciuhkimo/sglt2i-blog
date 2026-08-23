@@ -181,6 +181,8 @@ seo_title: "腎友生活指南：CKD、透析、腎移植的飲食運動工作�
 - [腎友與性](/sexual-health/)
 - [透析衛教——護理版](/dialysis/)
 - [慢性腎臟病與透析準備](/patient/ckd-assessment-dialysis-prep/)
+- [看腎臟科前要準備什麼？](/patient/clinic-visit-prep/)
+- [洗腎病人可以旅行嗎？](/patient/travel-dialysis-transplant/)
 
 ---
 

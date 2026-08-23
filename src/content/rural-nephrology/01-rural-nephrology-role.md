@@ -326,3 +326,4 @@ spoke_id: rural-nephrology-role
 - [GLP-1 RA 決策筆記](/glp1ra/) — 偏鄉糖尿病整合管理之一環（NHI 規範為糖尿病用藥、非 CKD-specific reimbursement）
 - [腎友與性](/sexual-health/) — 跨領域共照延伸
 - [Patient 衛教資源](/patient/) — 病人版進入點
+- [老年透析病人的特殊考量](/dialysis/edu-16-elderly-dialysis/) — 衰弱評估、保守治療與預立醫療照護計畫的實務面

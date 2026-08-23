@@ -277,3 +277,4 @@ Non-responder 結果代表高風險（~75% 需 RRT），但不等於立即透析
 - [CKM Q07 — 急性心腎症候群（RRT timing）](/ckm/q07-acute-cardiorenal-role/)
 - [SGLT2i Q15 — AKI Stop Decision](/sglt2i/q15-aki-stop-decision/)
 - [給病人與家屬的 AKI 說明](/patient/kidney-function-drop/)
+- [加護病房裡的「腎臟體檢」：利尿劑壓力測試是什麼？（病人版）](/blog/fst-septic-aki-patient/) — 同主題的病人與家屬版本

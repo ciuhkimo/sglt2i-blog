@@ -280,3 +280,4 @@ seo_title: "洗腎掉髮與頭皮毛囊炎：鑑別診斷與 ESRD 安全用藥"
 
 - [透析衛教](/dialysis/)
 - [給病人與家屬](/patient/)
+- [腎友皮膚癢、乾燥、掉髮：常見原因與何時要就醫](/patient/skin-itch-hair-loss/) — 搔癢與掉髮併述的病人衛教版

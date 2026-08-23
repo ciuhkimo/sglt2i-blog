@@ -55,7 +55,10 @@ const allEntries: RecentEntry[] = [
 	...ckmNotes.map((e) => ({ collection: 'ckm', entry: e })),
 	...paNotes.map((e) => ({ collection: 'pa', entry: e })),
 	...sexualHealthNotes.map((e) => ({ collection: 'sexualHealth', entry: e })),
-	...patientNotes.map((e) => ({ collection: 'patient', entry: e })),
+	// 「最近更新」與 /patient/ 列表頁、主 RSS 對齊：unlisted 的影片集數不進候選。
+	// 否則上新系列時會洗版（2026-07-19 上 PA 五集，7 格被 EP1–EP4 佔掉 4 格）。
+	// 系列 hub 本身不是 unlisted，仍會以一則出現。
+	...patientNotes.filter((e) => !e.data.unlisted).map((e) => ({ collection: 'patient', entry: e })),
 	...dialysisNotes.map((e) => ({ collection: 'dialysis', entry: e })),
 	...blogNotes.map((e) => ({ collection: 'blog', entry: e })),
 	...ruralNephrologyNotes.map((e) => ({ collection: 'ruralNephrology', entry: e })),

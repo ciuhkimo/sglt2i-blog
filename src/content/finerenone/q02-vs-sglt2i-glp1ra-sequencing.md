@@ -366,3 +366,4 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
 - [GLP-1 RA Q03 — 與 SGLT2i 排序](/glp1ra/q03-vs-sglt2i-sequencing/) — 第四柱與第一柱的 sequencing 拆解
 - [CKM Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/) — RASi + SGLT2i + Finerenone + GLP-1 RA 完整整合
 - [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地腎臟科 DKD 多藥啟動與滴定視角
+- [GLP-1 RA Q02 — 非糖尿病 CKD 是否有腎保護角色](/glp1ra/q02-nondm-ckd/) — 排序決策在非糖尿病族群的證據邊界
