@@ -17,9 +17,13 @@ const patientNotes = await getCollection('patient');
 const dialysisNotes = await getCollection('dialysis');
 const blogNotes = await getCollection('blog');
 const ruralNephrologyNotes = await getCollection('ruralNephrology');
+// 醫藥監管週報：只取已經醫師審閱的期別，未審草稿不上首頁（與 listing/RSS/sitemap 的 gate 一致）。
+const regulatoryNotes = (await getCollection('regulatory')).filter(
+	(e) => e.data.review_status === 'physician_reviewed',
+);
 
 const totalDecisionNotes = sglt2iNotes.length + glp1raNotes.length + finerenoneNotes.length + ckmNotes.length + paNotes.length;
-const totalAll = totalDecisionNotes + sexualHealthNotes.length + patientNotes.length + dialysisNotes.length + blogNotes.length + ruralNephrologyNotes.length;
+const totalAll = totalDecisionNotes + sexualHealthNotes.length + patientNotes.length + dialysisNotes.length + blogNotes.length + ruralNephrologyNotes.length + regulatoryNotes.length;
 
 // 「最近更新」: 合併所有 collection、按 last_updated 排序、取最新 7 篇
 type RecentEntry = {
@@ -40,6 +44,8 @@ const collectionMeta: Record<string, { label: string; icon: string; pathPrefix: 
 	patient: { label: '給病人與家屬', icon: '👨‍👩‍👧', pathPrefix: '/patient/' },
 	dialysis: { label: '透析衛教', icon: '🏥', pathPrefix: '/dialysis/' },
 	blog: { label: '臨床專題', icon: '📋', pathPrefix: '/blog/' },
+	ruralNephrology: { label: '偏鄉腎臟照護', icon: '🏞️', pathPrefix: '/rural-nephrology/' },
+	regulatory: { label: '醫藥監管週報', icon: '📜', pathPrefix: '/regulatory/' },
 };
 
 const allEntries: RecentEntry[] = [
@@ -52,6 +58,8 @@ const allEntries: RecentEntry[] = [
 	...patientNotes.map((e) => ({ collection: 'patient', entry: e })),
 	...dialysisNotes.map((e) => ({ collection: 'dialysis', entry: e })),
 	...blogNotes.map((e) => ({ collection: 'blog', entry: e })),
+	...ruralNephrologyNotes.map((e) => ({ collection: 'ruralNephrology', entry: e })),
+	...regulatoryNotes.map((e) => ({ collection: 'regulatory', entry: e })),
 ].map(({ collection, entry }) => {
 	const meta = collectionMeta[collection];
 	const data: any = entry.data;
@@ -94,6 +102,7 @@ const latestPatient = getLatestDate(patientNotes);
 const latestDialysis = getLatestDate(dialysisNotes);
 const latestBlog = getLatestDate(blogNotes);
 const latestRural = getLatestDate(ruralNephrologyNotes);
+const latestRegulatory = getLatestDate(regulatoryNotes);
 
 const groups = [
 	{
@@ -173,6 +182,17 @@ const groups = [
 				accent: '#4a6a3a',
 				icon: '🏞️',
 				latest: latestRural,
+			},
+			{
+				title: '醫藥監管週報',
+				description: '每週彙整食藥署與衛福部的藥品、醫材安全訊息與法規異動，只收與腎臟科實務相關的項目。醫師審閱後才發布。',
+				count: regulatoryNotes.length,
+				unit: '期',
+				href: '/regulatory/',
+				color: '#f5f1e8',
+				accent: '#8a6a34',
+				icon: '\u{1F4DC}',
+				latest: latestRegulatory,
 			},
 			{
 				title: '腎友與性',
