@@ -7,6 +7,9 @@ about_condition: "Chronic Kidney Disease"
 disclaimer: "本頁提供慢性腎臟病的衛教影片與互動工具，內容供一般民眾衛教參考，不能取代醫師或營養師的個別建議。鉀、磷、蛋白質等飲食限制應依您的檢驗結果與營養狀態個別調整。"
 tags: [護腎行動, 慢性腎臟病, CKD, 病人衛教, 衛教影片, 護腎飲食, 低鈉]
 unlisted: true
+video_src: "/videos/kidney-action/ep4.mp4"
+video_poster: "/videos/kidney-action/ep4-poster.jpg"
+video_duration: "PT75S"
 ---
 
 [← 護腎行動系列總覽](/patient/kidney-action-series/)　·　第 4 集 / 共 5 集

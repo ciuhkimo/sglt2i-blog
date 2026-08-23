@@ -7,6 +7,9 @@ about_condition: "Chronic Kidney Disease"
 disclaimer: "本頁提供慢性腎臟病的衛教影片與互動工具，內容供一般民眾衛教參考，不能取代醫師或藥師的個別建議。任何藥物的停用、調整或重啟，特別是生病期間，都應取得屬於您自己的醫囑計畫。"
 tags: [護腎行動, 慢性腎臟病, CKD, 病人衛教, 衛教影片, 安全用藥, NSAID, sick-day]
 unlisted: true
+video_src: "/videos/kidney-action/ep5.mp4"
+video_poster: "/videos/kidney-action/ep5-poster.jpg"
+video_duration: "PT75S"
 ---
 
 [← 護腎行動系列總覽](/patient/kidney-action-series/)　·　第 5 集 / 共 5 集

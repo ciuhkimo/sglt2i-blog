@@ -11,7 +11,7 @@ import { organization, organizationRef } from '../lib/schema/organization';
 
 type Props = CollectionEntry<'patient'>['data'];
 
-const { title, description, source_note, last_updated, tags, seo_title, about_condition, disclaimer } = Astro.props;
+const { title, description, source_note, last_updated, tags, seo_title, about_condition, disclaimer, video_src, video_poster, video_duration } = Astro.props;
 
 const conditionName = about_condition || 'Chronic Kidney Disease';
 const disclaimerText = disclaimer || '本文提供腎臟病照護的衛教整理，不能取代個別醫囑。飲食、水分、運動與藥物調整，請依您的腎臟科醫療團隊建議。';
@@ -45,6 +45,25 @@ const jsonLd = JSON.stringify({
 	'@graph': [
 		organization,
 		authorPerson,
+		// 衛教影片頁才有：VideoObject。無聲短片，內容以畫面文字呈現，
+		// 頁面另附完整文字版，故 description 直接沿用頁面 description。
+		...(video_src
+			? [
+					{
+						'@type': 'VideoObject',
+						name: title,
+						description,
+						thumbnailUrl: video_poster ? new URL(video_poster, Astro.site).href : undefined,
+						contentUrl: new URL(video_src, Astro.site).href,
+						embedUrl: new URL(Astro.url.pathname, Astro.site).href,
+						uploadDate: last_updated.toISOString(),
+						duration: video_duration,
+						publisher: organizationRef,
+						isFamilyFriendly: true,
+						inLanguage: 'zh-Hant-TW',
+					},
+				]
+			: []),
 		{
 			'@type': ['MedicalWebPage', 'Article'],
 			headline: title,

@@ -7,6 +7,9 @@ about_condition: "Chronic Kidney Disease"
 disclaimer: "本頁為 SGLT2i（俗稱排糖藥）的心腎保護衛教影片，內容供一般民眾衛教參考，不能取代醫師的個別診療。是否啟用、暫停或重啟這類藥物，以及劑量與監測，請依您的醫療團隊與個別病況決定，切勿自行調整處方。"
 tags: [SGLT2i, 排糖藥, 心腎保護, 慢性腎臟病, CKD, 病人衛教, 衛教影片]
 unlisted: true
+video_src: "/videos/sglt2i-series/06.mp4"
+video_poster: "/videos/sglt2i-series/06-poster.png"
+video_duration: "PT39S"
 ---
 
 [← SGLT2i 心腎保護衛教系列](/patient/sglt2i-series/)　·　第 6 集 / 共 10 集

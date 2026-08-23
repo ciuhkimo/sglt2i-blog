@@ -7,6 +7,9 @@ about_condition: "Chronic Kidney Disease"
 disclaimer: "本頁提供慢性腎臟病的衛教影片與互動工具，內容供一般民眾衛教參考，不能取代醫師的個別診療。影片中的自我檢查不是診斷，也不會計算疾病風險分數；是否需要檢查請依您的醫療團隊建議。"
 tags: [護腎行動, 慢性腎臟病, CKD, 病人衛教, 衛教影片, 腎功能篩檢]
 unlisted: true
+video_src: "/videos/kidney-action/ep1.mp4"
+video_poster: "/videos/kidney-action/ep1-poster.jpg"
+video_duration: "PT75S"
 ---
 
 [← 護腎行動系列總覽](/patient/kidney-action-series/)　·　第 1 集 / 共 5 集

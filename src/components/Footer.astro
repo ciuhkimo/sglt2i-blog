@@ -17,7 +17,57 @@ const today = new Date();
 	});
 </script>
 
-<script type="module">
+<!--
+	GA4 最小事件集（2026-08-23 site audit 第 3 期）。
+	緣起：站上長期只有 pageview、0 個事件，導致「先跑 4 週數據再決定 lead magnet 與
+	door cards」的前提不成立——四週都在空轉。這裡只接三個轉換漏斗必要的事件，
+	不做細部行為追蹤：訂閱送出、lead magnet 下載、影片首次播放。
+	全部走既有的 GA4 property，不新增第三方追蹤。
+-->
+<script>
+	(() => {
+		// 本地 gtag shim：直接推 dataLayer，不依賴 window.gtag。
+		// 2026-08-23 瀏覽器實測抓到的坑：BaseHead 的 GA4 bootstrap 經 Astro 打包後是
+		// module scope，`function gtag(){}` 不會掛上 window。若寫成
+		// `if (typeof window.gtag === 'function')` 會靜默 no-op，事件永遠送不出去。
+		// 這裡推的是真正的 arguments 物件，與官方 snippet 完全一致。
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			window.dataLayer.push(arguments);
+		}
+		const track = (name, params) => gtag('event', name, params || {});
+
+		// 1. 訂閱表單送出（Buttondown 表單，送出後會離開本頁）
+		document.querySelectorAll('form[action*="buttondown.com"]').forEach((form) => {
+			form.addEventListener('submit', () => {
+				track('subscribe_submit', { page_path: location.pathname });
+			});
+		});
+
+		// 2. lead magnet 下載（/downloads/ 底下的資源）
+		document.querySelectorAll('a[href^="/downloads/"]').forEach((a) => {
+			a.addEventListener('click', () => {
+				track('lead_magnet_download', {
+					file_name: a.getAttribute('href').split('/').pop(),
+					page_path: location.pathname,
+				});
+			});
+		});
+
+		// 3. 衛教影片首次播放（每頁每支影片只記一次，避免暫停/續播灌量）
+		document.querySelectorAll('video').forEach((v) => {
+			let fired = false;
+			v.addEventListener('play', () => {
+				if (fired) return;
+				fired = true;
+				const src = v.currentSrc || v.querySelector('source')?.getAttribute('src') || '';
+				track('video_play', { video_file: src.split('/').pop(), page_path: location.pathname });
+			});
+		});
+	})();
+</script>
+
+<script>
 	(async () => {
 		// Mermaid DSL is stored URL-encoded in data-mermaid-src on each container
 		// (see astro.config.mjs::rehypeMermaidPreToDiv). At runtime we decode it and
@@ -40,7 +90,7 @@ const today = new Date();
 		});
 		if (targets.length === 0) return;
 		try {
-			const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs');
+			const { default: mermaid } = await import('mermaid');
 			mermaid.initialize({ startOnLoad: false, theme: 'default', securityLevel: 'loose' });
 			await mermaid.run({ nodes: targets });
 		} catch (e) {

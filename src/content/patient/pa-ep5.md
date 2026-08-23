@@ -7,6 +7,9 @@ about_condition: "Primary Aldosteronism"
 disclaimer: "本頁為原發性醛固酮症（PA）的衛教影片，內容供一般民眾衛教參考，不能取代醫師的個別診療。是否需要篩檢、如何檢查與治療，請依您的醫療團隊與個別病況決定；抽血檢查前請勿自行停用降壓藥。"
 tags: [PA, 原發性醛固酮症, 病人衛教, 高血壓, 腎上腺, 衛教影片]
 unlisted: true
+video_src: "/videos/pa-series/05.mp4"
+video_poster: "/videos/pa-series/05-poster.png"
+video_duration: "PT49S"
 ---
 
 [← 原發性醛固酮症（PA）衛教影片系列](/patient/pa-series/)　·　第 5 集 / 共 5 集

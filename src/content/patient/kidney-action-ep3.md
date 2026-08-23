@@ -7,6 +7,9 @@ about_condition: "Chronic Kidney Disease"
 disclaimer: "本頁提供慢性腎臟病的衛教影片與互動工具，內容供一般民眾衛教參考，不能取代醫師的個別診療。用藥與目標值請依您的醫療團隊建議，數字變好也不要自行停藥或改藥。"
 tags: [護腎行動, 慢性腎臟病, CKD, 病人衛教, 衛教影片, 高血壓, 糖尿病, 血脂]
 unlisted: true
+video_src: "/videos/kidney-action/ep3.mp4"
+video_poster: "/videos/kidney-action/ep3-poster.jpg"
+video_duration: "PT75S"
 ---
 
 [← 護腎行動系列總覽](/patient/kidney-action-series/)　·　第 3 集 / 共 5 集

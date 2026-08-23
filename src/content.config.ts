@@ -31,6 +31,11 @@ const patient = defineCollection({
 		about_condition: z.string().optional(),
 		disclaimer: z.string().optional(),
 		unlisted: z.boolean().optional(),
+		// 衛教影片頁：有這三欄時 PatientLayout 會額外輸出 VideoObject structured data。
+		// video_duration 用 ISO 8601（例：PT39S），數值以 ffprobe 實測為準、不用描述裡的概數。
+		video_src: z.string().optional(),
+		video_poster: z.string().optional(),
+		video_duration: z.string().optional(),
 	}),
 });
 

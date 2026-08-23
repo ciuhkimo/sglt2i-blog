@@ -202,7 +202,28 @@ for (const url of MERMAID_PAGES_WITH_DIAGRAM) {
 for (const url of MERMAID_RENDERER_SAMPLES) {
 	const html = readPage(url);
 	if (!html) continue;
-	const hasScript = /mermaid@11/.test(html) && /Mermaid 臨床決策流程圖/.test(html);
+	// 驗「renderer 存在」的不變量，不綁實作來源。
+	// 2026-08-23 兩次調整：
+	//  ① 原本測 /mermaid@11/ —— 那其實是在測 jsdelivr CDN 網址字串，自 host 後消失。
+	//  ② renderer 改由 Astro/Vite 打包成外部 chunk，標記不再出現在 HTML 內。
+	// 故改為：跟著頁面引用的 Footer script chunk 進去，驗容器選取器 + a11y aria-label，
+	// 並額外確認沒有殘留無法被瀏覽器解析的 bare specifier（import('mermaid')）。
+	const scriptRefs = [...html.matchAll(/src="(\/_astro\/[^"]+\.js)"/g)].map((m) => m[1]);
+	let rendererSrc = '';
+	for (const ref of scriptRefs) {
+		const f = resolve(DIST, ref.replace(/^\//, ''));
+		if (existsSync(f)) rendererSrc += readFileSync(f, 'utf8');
+	}
+	const probe = html + rendererSrc;
+	const bareSpecifier = /import\(\s*['"]mermaid['"]\s*\)/.test(probe);
+	const hasScript =
+		/mermaid-container\[data-mermaid-src\]/.test(probe) &&
+		/Mermaid 臨床決策流程圖/.test(probe) &&
+		!bareSpecifier;
+	if (bareSpecifier) {
+		fail(`${url}: renderer 殘留 bare specifier import('mermaid')，瀏覽器無法解析（圖會靜默失敗）`);
+		continue;
+	}
 	if (hasScript) ok(`${url}: Mermaid renderer script + aria-label string present`);
 	else fail(`${url}: Mermaid renderer script or aria-label missing`);
 }
