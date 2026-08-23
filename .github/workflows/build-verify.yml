@@ -1,0 +1,41 @@
+name: Build & Verify
+
+# 品質 gate 的 CI 版本。緣起：2026-08-23 site audit 第 3 期查出全站沒有任何 CI 跑
+# build 或 verify——品質完全依賴本地 `.githooks/pre-push`（core.hooksPath=.githooks）。
+# 換一台機器、或一次 `git push --no-verify`，防護就整個消失。
+#
+# 界線：本 workflow 只驗證，不 build 產物上傳、不部署、不寫 repo。
+# 部署仍由 Vercel 依 main 分支自行處理，兩者互不干擾。
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install deps
+        run: npm ci
+
+      # build + verify-p0（65 項檢核；Check 10 死連結為 hard-fail）
+      - name: Build & verify-p0
+        run: npm run build:verify
+
+      # internal-QA：BLOCK 層失敗即 exit 1（與 pre-push hook 同一支腳本、同一判準）
+      - name: Internal-QA gate
+        run: npm run check:content
