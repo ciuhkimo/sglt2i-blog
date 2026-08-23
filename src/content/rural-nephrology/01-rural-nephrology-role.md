@@ -21,7 +21,7 @@ spoke_id: rural-nephrology-role
 
 > **一句話結論**：偏鄉腎臟科**不是醫學中心的縮小版，也不是二流腎臟科**，而是在不同資源條件下扮演 **在地的專科錨石（specialty anchor）**：穩定病人的長期 follow-up 在地完成、跨領域與跨機構共照當整合者、知道何時上轉是獨特價值（distinct value）。誠實標明 4 層 clinical boundary（可以在地完成 / 適合 shared care / 必須上轉 / 需要長照與家庭支持）比承諾「什麼都能做」更接近專業。
 
-> **本文位置**：本文是 [`/rural-nephrology/` 偏鄉腎臟照護 hub](https://nephrodecisions.com/rural-nephrology/) 下 spoke #1。Hub 從 8 個 care 階段勾勒 cluster 全貌；本文從**醫師角色與能力邊界**切入，回答「下轉腎臟科 / 地區醫院腎臟科 / 偏鄉腎臟科是什麼？」這類入口問題。
+> **本文位置**：本文是 [`/rural-nephrology/` 偏鄉腎臟照護 hub](/rural-nephrology/) 下 spoke #1。Hub 從 8 個 care 階段勾勒 cluster 全貌；本文從**醫師角色與能力邊界**切入，回答「下轉腎臟科 / 地區醫院腎臟科 / 偏鄉腎臟科是什麼？」這類入口問題。
 
 ---
 
@@ -52,7 +52,7 @@ spoke_id: rural-nephrology-role
 
 但同樣要誠實：偏鄉腎臟科有明確的**能力天花板限制（capability ceiling）**。AVF/AVG 手術、PD catheter 置放、renal biopsy、AVS、kidney transplant evaluation、複雜 cardiorenal/hepatorenal、refractory 高血鉀、嚴重 PD 腹膜炎、suspected rejection——這些**必須**透過外院、醫學中心或移植中心資源。**知道何時上轉是獨特價值之一，不是劣勢**。
 
-> 此立場已在 hub 文章鋪陳：[偏鄉腎臟照護｜不只是洗腎，而是從 CKD 到末期腎病的長期照顧](https://nephrodecisions.com/rural-nephrology/)
+> 此立場已在 hub 文章鋪陳：[偏鄉腎臟照護｜不只是洗腎，而是從 CKD 到末期腎病的長期照顧](/rural-nephrology/)
 
 ---
 
@@ -314,15 +314,15 @@ spoke_id: rural-nephrology-role
 ## 延伸閱讀
 
 ### Hub
-- [偏鄉腎臟照護｜不只是洗腎，而是從 CKD 到末期腎病的長期照顧](https://nephrodecisions.com/rural-nephrology/)（cluster hub）
+- [偏鄉腎臟照護｜不只是洗腎，而是從 CKD 到末期腎病的長期照顧](/rural-nephrology/)（cluster hub）
 
 ### 既有 Rural seed
-- [CKD 第五期該何時準備透析管路？南部偏鄉腎臟科的觀察](https://nephrodecisions.com/blog/rural-ckd5-vascular-access-timing/)
-- [偏鄉醫院做得了器官捐贈嗎？](https://nephrodecisions.com/blog/rural-organ-donation-challenges/)
+- [CKD 第五期該何時準備透析管路？南部偏鄉腎臟科的觀察](/blog/rural-ckd5-vascular-access-timing/)
+- [偏鄉醫院做得了器官捐贈嗎？](/blog/rural-organ-donation-challenges/)
 
 ### 跨 cluster
-- [SGLT2i 決策筆記](https://nephrodecisions.com/sglt2i/) — 在偏鄉的 SGLT2i 啟動與 sick-day rule 實務（已有全國 Early CKD / Pre-ESRD 計畫給付規則）
-- [Finerenone 決策筆記](https://nephrodecisions.com/finerenone/) — DKD 第三柱（健保給付狀態以最新正式公告為準）
-- [GLP-1 RA 決策筆記](https://nephrodecisions.com/glp1ra/) — 偏鄉糖尿病整合管理之一環（NHI 規範為糖尿病用藥、非 CKD-specific reimbursement）
-- [腎友與性](https://nephrodecisions.com/sexual-health/) — 跨領域共照延伸
-- [Patient 衛教資源](https://nephrodecisions.com/patient/) — 病人版進入點
+- [SGLT2i 決策筆記](/sglt2i/) — 在偏鄉的 SGLT2i 啟動與 sick-day rule 實務（已有全國 Early CKD / Pre-ESRD 計畫給付規則）
+- [Finerenone 決策筆記](/finerenone/) — DKD 第三柱（健保給付狀態以最新正式公告為準）
+- [GLP-1 RA 決策筆記](/glp1ra/) — 偏鄉糖尿病整合管理之一環（NHI 規範為糖尿病用藥、非 CKD-specific reimbursement）
+- [腎友與性](/sexual-health/) — 跨領域共照延伸
+- [Patient 衛教資源](/patient/) — 病人版進入點

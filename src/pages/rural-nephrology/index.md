@@ -61,7 +61,7 @@ CKD G1-G3a 的篩檢、家醫科共照、用藥監測、心血管風險管理、
 
 CKD G4-G5 的 ESKD Life-Plan、modality discussion（HD / PD / transplant / conservative）、瘻管建置時機、轉介路徑安排。這是地區醫院腎臟科的**核心策略價值**——[KDOQI 2019 update](https://pubmed.ncbi.nlm.nih.gov/32778223/) 強調 **ESKD Life-Plan** 與 **eGFR 15-20 / progressive CKD** 啟動通路規劃；偏鄉實務可把「**提早約 6 個月**」當作管路與轉介鏈的安全窗，但**執行端必然在外院**。**在偏鄉，CKD G3b–G4 的重點不是等到 eGFR 進入個位數才開始談透析，而是用 eGFR trend、albuminuria、comorbidity 與 kidney failure risk equation (KFRE) 來決定何時進入密集追蹤、modality education 與通路規劃**。
 
-> 詳見：[CKD 第五期該何時準備透析管路？南部偏鄉腎臟科的觀察](https://nephrodecisions.com/blog/rural-ckd5-vascular-access-timing/)
+> 詳見：[CKD 第五期該何時準備透析管路？南部偏鄉腎臟科的觀察](/blog/rural-ckd5-vascular-access-timing/)
 
 ### 3. HD 的在地照護與限制
 
@@ -204,25 +204,25 @@ Composite case 已高度去識別；未提及具體機構、地理鄉鎮、可�
 
 ### 既有 Rural Nephrology 文章
 
-- [偏鄉腎臟科醫師到底在做什麼？地區醫院腎臟科的角色與能力邊界](https://nephrodecisions.com/rural-nephrology/01-rural-nephrology-role/)
-- [台灣腎臟科醫師都在哪裡？全國密度不低，但縣市平均看不見偏鄉](https://nephrodecisions.com/rural-nephrology/02-nephrology-workforce-distribution/)
-- [偏鄉醫院增聘一位專科醫師：腎臟科還是心臟科？](https://nephrodecisions.com/blog/rural-hospital-nephrology-vs-cardiology-recruitment/)
-- [偏鄉醫院做得了器官捐贈嗎？一位腎臟科醫師的制度分析](https://nephrodecisions.com/blog/rural-organ-donation-challenges/)
-- [CKD 第五期該何時準備透析管路？南部偏鄉腎臟科的觀察](https://nephrodecisions.com/blog/rural-ckd5-vascular-access-timing/)
+- [偏鄉腎臟科醫師到底在做什麼？地區醫院腎臟科的角色與能力邊界](/rural-nephrology/01-rural-nephrology-role/)
+- [台灣腎臟科醫師都在哪裡？全國密度不低，但縣市平均看不見偏鄉](/rural-nephrology/02-nephrology-workforce-distribution/)
+- [偏鄉醫院增聘一位專科醫師：腎臟科還是心臟科？](/blog/rural-hospital-nephrology-vs-cardiology-recruitment/)
+- [偏鄉醫院做得了器官捐贈嗎？一位腎臟科醫師的制度分析](/blog/rural-organ-donation-challenges/)
+- [CKD 第五期該何時準備透析管路？南部偏鄉腎臟科的觀察](/blog/rural-ckd5-vascular-access-timing/)
 
 ### 病人與家屬導向
 
-- [腎友生活指南：飲食、運動、工作與日常照護總整理](https://nephrodecisions.com/patient/kidney-life-guide/)
-- [認識慢性腎臟病與透析準備](https://nephrodecisions.com/patient/ckd-assessment-dialysis-prep/)
+- [腎友生活指南：飲食、運動、工作與日常照護總整理](/patient/kidney-life-guide/)
+- [認識慢性腎臟病與透析準備](/patient/ckd-assessment-dialysis-prep/)
 
 ### 透析照護專題
 
-- [血管通路照護：瘻管、人工血管、導管](https://nephrodecisions.com/dialysis/edu-03-vascular-access/)
-- [透析中常見不適與緊急處理](https://nephrodecisions.com/dialysis/edu-05-hd-complications/)
+- [血管通路照護：瘻管、人工血管、導管](/dialysis/edu-03-vascular-access/)
+- [透析中常見不適與緊急處理](/dialysis/edu-05-hd-complications/)
 
 ### 台灣 ESRD 流行病學
 
-- [台灣末期腎臟病二十年趨勢分析（2000-2022）](https://nephrodecisions.com/blog/taiwan-esrd-20y-clinical/)
+- [台灣末期腎臟病二十年趨勢分析（2000-2022）](/blog/taiwan-esrd-20y-clinical/)
 
 ---
 

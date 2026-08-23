@@ -280,7 +280,7 @@ seo_title: "偏鄉醫院該增聘腎臟科還是心臟科醫師？邊際效益�
 - 財團法人國家衛生研究院、台灣腎臟醫學會，《2024 台灣腎病年報》第二章表 3、第三章表 15。2022 年透析盛行患者 88,555 人；新發透析患者透析前一年就醫腎臟科比率 90.2%。
 
 **本站延伸閱讀**
-- [台灣腎臟科醫師都在哪裡？全國密度不低，但縣市平均看不見偏鄉](https://nephrodecisions.com/rural-nephrology/02-nephrology-workforce-distribution/)
-- [台灣心臟科人力分布：中心不算少，團隊卻很集中](https://nephrodecisions.com/blog/taiwan-cardiology-workforce-rural-access/)
+- [台灣腎臟科醫師都在哪裡？全國密度不低，但縣市平均看不見偏鄉](/rural-nephrology/02-nephrology-workforce-distribution/)
+- [台灣心臟科人力分布：中心不算少，團隊卻很集中](/blog/taiwan-cardiology-workforce-rural-access/)
 
 本文為個人整理與觀察，不代表任何機構立場，亦不構成醫療建議或人事決策依據。作者為腎臟科醫師，利益關係已於文首揭露。

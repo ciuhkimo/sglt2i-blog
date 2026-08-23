@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import ReadAloudButton from '../components/ReadAloudButton.astro';
+import SubscribeCTA from '../components/SubscribeCTA.astro';
 import { authorPerson, authorPersonRef } from '../lib/schema/authorPerson';
 import { organization, organizationRef } from '../lib/schema/organization';
 
@@ -275,6 +276,8 @@ const breadcrumbLd = JSON.stringify({
 				<p class="editor-note">
 					編輯註：本週報由 AI 協助彙整官方公開公告與新聞，再由腎臟科專科醫師審閱、篩選與定稿。臨床與實務解讀以人工審閱版本為準；所有項目均附官方原文連結，請以原文為準。
 				</p>
+
+				<SubscribeCTA />
 
 				<div class="print-footer">
 					<p>Nephro Decisions｜https://nephrodecisions.com{Astro.url.pathname}｜台灣醫藥監管週報，AI 協助彙整、醫師審閱。本文不構成醫療或法規建議。</p>

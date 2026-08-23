@@ -21,7 +21,7 @@ spoke_id: rural-nephrology-workforce-distribution
 > [!note] 一句話結論
 > 台灣腎臟科的問題**不是全國總量不足**，而是分布不均——而且**縣市平均本身就是錯誤的分析單位**。全國腎臟科醫師密度 67.9／百萬人口，在國際上不算低；但台灣同時是東北亞區域中接受治療的末期腎病盛行率最高的地區（3,679／百萬人口）。真正的落差發生在縣市**以下**：醫療次區域、值班備援（FTE 而非人頭）、醫療生活圈與小人口地區的配置邏輯。任何用「每十萬人口幾位醫師」單一數字做的偏鄉人力判斷，在這四個地方都會系統性失真。
 
-> **本文位置**：本文是 [`/rural-nephrology/` 偏鄉腎臟照護 hub](https://nephrodecisions.com/rural-nephrology/) 下的資源分配面 spoke，處理「人在哪裡」這一層；[偏鄉腎臟科醫師到底在做什麼？](https://nephrodecisions.com/rural-nephrology/01-rural-nephrology-role) 處理的是「人到位之後能做什麼」。兩篇合起來才是完整的偏鄉腎臟照護能力圖像。
+> **本文位置**：本文是 [`/rural-nephrology/` 偏鄉腎臟照護 hub](/rural-nephrology/) 下的資源分配面 spoke，處理「人在哪裡」這一層；[偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role) 處理的是「人到位之後能做什麼」。兩篇合起來才是完整的偏鄉腎臟照護能力圖像。
 
 ---
 
@@ -42,7 +42,7 @@ spoke_id: rural-nephrology-workforce-distribution
 > [!important] 這組數字真正的意思
 > 台灣的腎臟科醫師密度不低，**但工作負荷同時是區域最重的**。所以「密度看起來還行」不能推論成「人力充裕」——分母（人口）正常，分子（醫師）正常，中間那個被省略的變數（每位醫師實際照顧的透析與 CKD 病人數）才是壓力來源。這一點在偏鄉會被進一步放大，理由在第 5 到第 8 節。
 
-關於台灣末期腎病負擔的長期趨勢，另見 [台灣末期腎臟病二十年趨勢分析（2000–2022）](https://nephrodecisions.com/blog/taiwan-esrd-20y-clinical)。
+關於台灣末期腎病負擔的長期趨勢，另見 [台灣末期腎臟病二十年趨勢分析（2000–2022）](/blog/taiwan-esrd-20y-clinical)。
 
 ---
 
@@ -208,7 +208,7 @@ spoke_id: rural-nephrology-workforce-distribution
 
 這五件事任何一件出問題，服務就會中斷；而它們在「每十萬人口幾位醫師」這個指標裡完全不可見。這也是為什麼**偏鄉的第 2 位腎臟科醫師，其邊際效益遠高於都會醫院的第 20 位**——前者是把「會中斷」變成「不會中斷」，後者是把「不會中斷」變成「更寬裕」。
 
-關於偏鄉如何在有限備援下處理需要時程規劃的臨床決策，可參考 [CKD 第五期該何時準備透析管路？](https://nephrodecisions.com/blog/rural-ckd5-vascular-access-timing)。
+關於偏鄉如何在有限備援下處理需要時程規劃的臨床決策，可參考 [CKD 第五期該何時準備透析管路？](/blog/rural-ckd5-vascular-access-timing)。
 
 ---
 
@@ -313,7 +313,7 @@ spoke_id: rural-nephrology-workforce-distribution
 >
 > 附帶一提：該研究報告的介入性與電生理醫師占比是**院級中位數**（64%、15%），不能直接乘上 57.4 回推密度；上表的 36.8 與 8.8 是研究本身直接報告的密度值。
 
-心臟科的完整分析另見：[台灣心臟科人力分布：中心不算少，團隊卻很集中](https://nephrodecisions.com/blog/taiwan-cardiology-workforce-rural-access/)。該文有一個值得放回來對照的發現：**把本文的方法套到心臟科，兩個科別算出來的縣市壓力指數相關係數高達 0.99**——即使需求端用了完全不同的模型。這正是第 4 節那句「供給端沒有任何腎臟科專屬資訊」最直接的實證。
+心臟科的完整分析另見：[台灣心臟科人力分布：中心不算少，團隊卻很集中](/blog/taiwan-cardiology-workforce-rural-access/)。該文有一個值得放回來對照的發現：**把本文的方法套到心臟科，兩個科別算出來的縣市壓力指數相關係數高達 0.99**——即使需求端用了完全不同的模型。這正是第 4 節那句「供給端沒有任何腎臟科專屬資訊」最直接的實證。
 
 ---
 
@@ -373,7 +373,7 @@ spoke_id: rural-nephrology-workforce-distribution
 
 **人力密度指標真正影響的是第二層與第三層**。第一層在多數縣市都撐得住；第四層取決於社區網絡而非專科醫師數。所以看到「某縣市壓力指數高」時，該問的具體問題是：那裡的 Pre-ESRD 收案還接得住嗎？緊急透析半夜找得到人嗎？——而不是抽象地問「缺幾位醫師」。
 
-如果問題進一步變成「那我們醫院該增聘哪一科」，那是另一個層次的計算：見 [偏鄉醫院增聘一位專科醫師：腎臟科還是心臟科？](https://nephrodecisions.com/blog/rural-hospital-nephrology-vs-cardiology-recruitment/)。該文的重點是**第 2 位腎臟科醫師的邊際效益大於第 1 位**——買到的不是產能，是連續性。
+如果問題進一步變成「那我們醫院該增聘哪一科」，那是另一個層次的計算：見 [偏鄉醫院增聘一位專科醫師：腎臟科還是心臟科？](/blog/rural-hospital-nephrology-vs-cardiology-recruitment/)。該文的重點是**第 2 位腎臟科醫師的邊際效益大於第 1 位**——買到的不是產能，是連續性。
 
 ---
 
