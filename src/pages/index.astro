@@ -19,7 +19,7 @@ const blogNotes = await getCollection('blog');
 const ruralNephrologyNotes = await getCollection('ruralNephrology');
 
 const totalDecisionNotes = sglt2iNotes.length + glp1raNotes.length + finerenoneNotes.length + ckmNotes.length + paNotes.length;
-const totalAll = totalDecisionNotes + sexualHealthNotes.length + patientNotes.length + dialysisNotes.length + blogNotes.length;
+const totalAll = totalDecisionNotes + sexualHealthNotes.length + patientNotes.length + dialysisNotes.length + blogNotes.length + ruralNephrologyNotes.length;
 
 // 「最近更新」: 合併所有 collection、按 last_updated 排序、取最新 7 篇
 type RecentEntry = {

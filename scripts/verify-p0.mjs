@@ -425,6 +425,58 @@ console.log('\n## Check 11: stale trial-status 候選（warn-only）\n');
 }
 
 // ============================================================
+// Check 12: llms.txt 時效與覆蓋率（warn-only，不擋 build）
+//   緣起：llms.txt 於 2026-07-14 audit 修過時效，2026-08-23 audit 再次發現停在舊日期，
+//   且完全未收 29 個新內容檔。手動維護已連續兩期失守 → 機械化為檢核。
+//   warn-only（零誤殺優先）：llms.txt 是人工策展摘要，不是完整索引，
+//   「某頁沒被列」本來就可能是刻意的；只在「整個 collection 掛零」或「日期落後」時提示。
+// ============================================================
+console.log('\n## Check 12: llms.txt 時效與覆蓋率（warn-only）\n');
+{
+	const llmsPath = resolve(DIST, 'llms.txt');
+	if (!existsSync(llmsPath)) {
+		console.log('  ⚠️  dist/llms.txt 不存在');
+	} else {
+		const llms = readFileSync(llmsPath, 'utf8');
+		const CONTENT_DIR = resolve(__dirname, '..', 'src', 'content');
+		const dm = llms.match(/Last updated:\s*(\d{4}-\d{2}-\d{2})/);
+		const llmsDate = dm ? dm[1] : null;
+
+		let newest = null;
+		let newestFile = '';
+		const missingCollections = [];
+		for (const c of readdirSync(CONTENT_DIR, { withFileTypes: true })) {
+			if (!c.isDirectory() || c.name.startsWith('_')) continue;
+			const dir = resolve(CONTENT_DIR, c.name);
+			let represented = llms.includes(`nephrodecisions.com/${c.name}/`);
+			let published = 0;
+			for (const e of readdirSync(dir, { withFileTypes: true })) {
+				if (!e.isFile() || !/\.(md|mdx)$/.test(e.name) || e.name.startsWith('_')) continue;
+				const raw = readFileSync(resolve(dir, e.name), 'utf8');
+				const rs = raw.match(/^review_status:\s*(\S+)/m);
+				if (rs && rs[1].replace(/['"]/g, '') !== 'physician_reviewed') continue; // 未審草稿不算公開
+				published++;
+				const lu = raw.match(/^last_updated:\s*['"]?(\d{4}-\d{2}-\d{2})/m);
+				if (lu && (!newest || lu[1] > newest)) { newest = lu[1]; newestFile = `${c.name}/${e.name}`; }
+			}
+			if (published > 0 && !represented) missingCollections.push(`${c.name} (${published} 篇)`);
+		}
+
+		let warn = 0;
+		if (!llmsDate) {
+			console.log('  ⚠️  llms.txt 找不到 "Last updated: YYYY-MM-DD" 欄位'); warn++;
+		} else if (newest && llmsDate < newest) {
+			console.log(`  ⚠️  llms.txt 時效落後：標示 ${llmsDate}，但最新內容為 ${newest}（${newestFile}）`); warn++;
+		}
+		if (missingCollections.length) {
+			console.log(`  ⚠️  llms.txt 完全未收錄的 collection：${missingCollections.join('、')}`); warn++;
+		}
+		if (warn === 0) console.log(`  ✅ llms.txt 時效 ${llmsDate} 不落後於最新內容 ${newest}；所有 collection 皆有收錄`);
+		else console.log('  → 手動更新 public/llms.txt（warn-only，不擋 build）');
+	}
+}
+
+// ============================================================
 // Final summary
 // ============================================================
 console.log('\n---');

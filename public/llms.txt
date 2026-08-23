@@ -16,6 +16,13 @@
 - [Patient Guides](https://nephrodecisions.com/patient/): Plain-language guides for CKD patients and families — SGLT2i basics, sick day rules, surgery prep, dialysis readiness, primary aldosteronism (PA) patient hub.
 - [Dialysis Nursing Education](https://nephrodecisions.com/dialysis/): 10 nursing-oriented dialysis care modules — vascular access, complications, nutrition, CKD-MBD, infection control.
 
+### Patient Video Series (self-hosted, silent, text-on-screen)
+
+- [護腎行動系列 / Kidney Action](https://nephrodecisions.com/patient/kidney-action-series/): 5 short videos on recognizing early CKD — hub + EP1-EP5.
+- [SGLT2i 心腎保護系列](https://nephrodecisions.com/patient/sglt2i-series/): 10 short videos explaining SGLT2 inhibitors before discussing them with your physician — hub + EP1-EP10.
+- [PA 衛教影片系列](https://nephrodecisions.com/patient/pa-series/): 5 short videos on primary aldosteronism, from whether to screen through post-treatment follow-up — hub + EP1-EP5.
+- [PA 病人總覽 / PA Patient Hub](https://nephrodecisions.com/patient/pa-hub/): Primary aldosteronism explained for patients — a treatable and frequently missed cause of hypertension.
+
 ## Clinical Topics (Blog)
 
 - [DKD Four-Pillar Therapy Guide 2026](https://nephrodecisions.com/blog/dkd-four-pillars-2026/): Comprehensive integration of ACEi/ARB + SGLT2i + Finerenone + GLP-1 RA with Taiwan NHI context.
@@ -24,10 +31,13 @@
 - [KDIGO 2026 Anemia Guideline — 8 Actions for Dialysis Units + Taiwan Practice](https://nephrodecisions.com/blog/kdigo-2026-anemia-taiwan/): Immediately adoptable changes with Taiwan NHI context.
 - [Diabetes Insipidus: Central (AVP-D) vs Nephrogenic](https://nephrodecisions.com/blog/cdi-avp-d-vs-ndi/): Differentiating central (AVP-deficiency, AVP-D) from nephrogenic DI — water deprivation + desmopressin test, hypernatremia risk, sodium monitoring during treatment.
 - [Acquired Nephrogenic DI — AQP2 Loss](https://nephrodecisions.com/blog/acquired-ndi-aqp2-loss/): Shared final mechanism (collecting-duct AQP2 downregulation) across lithium, obstruction, endotoxin, hypokalemia, and hypercalcemia.
+- [Taiwan Cardiology Workforce Distribution](https://nephrodecisions.com/blog/taiwan-cardiology-workforce-rural-access/): Cardiology density is adequate nationally but heart-failure teams are concentrated; institutional analysis from a nephrologist's perspective.
+- [Rural Hospital Recruitment: Nephrology or Cardiology?](https://nephrodecisions.com/blog/rural-hospital-nephrology-vs-cardiology-recruitment/): Clinical necessity and recruitment difficulty are two different questions, with explicit falsifiable conditions.
 
 ## Rural Nephrology
 
 - [Rural Nephrology Series](https://nephrodecisions.com/rural-nephrology/): District-hospital nephrology in rural southern Taiwan — scope and referral boundaries for CKD, HD/PD, AKI, transplant shared care, and conservative / end-of-life kidney care.
+- [Where Are Taiwan's Nephrologists?](https://nephrodecisions.com/rural-nephrology/02-nephrology-workforce-distribution/): National nephrologist density is not low, but county-level averages hide rural gaps — why the county is the wrong unit of analysis.
 
 ## Regulatory Watch
 
@@ -49,4 +59,4 @@
 - Evidence sources: PubMed/PMID, ClinicalTrials.gov/NCT, KDIGO, ADA, AHA, ESC, TFDA, Taiwan NHI
 - Drug names: Generic names primary; Taiwan brand names (e.g., Forxiga/福適佳, Jardiance/恩排糖, Kerendia, Ozempic/胰妥讚) listed for identification only, not endorsement
 - No pharma sponsorship, no advertising, no affiliate links
-- Last updated: 2026-07-14
+- Last updated: 2026-08-23
