@@ -7,7 +7,7 @@ status: ""
 last_updated: 2026-07-04
 next_review: 2027-07-04
 seo_title: "PA 治療後怎麼追蹤？K⁺/eGFR 監測排程 + eGFR dip 判讀 + renin 治癒指標（2025 ES + PASO/PAMO）"
-description: "PA 治療後監測依治療臂分流：手術 arm（停 MRA/K⁺ + 1週→2-4週→3月→6月）vs MRA arm（2-4週→3月→6月→穩定 q6-12月 + renin 監測）；術後 persistent hyperkalemia 7.3% 三階梯處置；eGFR dip 約 5-15 mL/min 多為 hemodynamic unmasking、>30% 為 MAKE-associated risk signal；renin de-suppression 為生化治癒現代指標（工作目標 PRA ≥1，非 outcome-proven）。"
+description: "原發性醛固酮症治療後的追蹤要依手術或藥物分流：兩條路各自的回診時程、術後高血鉀與腎功能下降怎麼判讀，以及腎素回升代表什麼。"
 quick_answer: "PA 治療後分兩臂追蹤：(1) 手術後 → 立即停 MRA/停 K⁺ 補充/liberal sodium，1 週→2-4 週→3 月→6 月→其後 q6 月查 K⁺/eGFR/BP，PASO 3 月初評/6-12 月終評；persistent hyperkalemia 7.3% [Park 2015, PMID 25766046]，高風險者（age≥53、HTN≥9.5yr、tumor≥1.95cm、preop eGFR 低；CSI<0.47 [Shariq 2018, PMID 29129366]）→ fludrocortisone 0.05-0.1 mg/day 起始橋接、依情況個別滴定。(2) MRA arm → 起始/加量後 2-4 週查 K⁺/eGFR（最關鍵）→ 3 月→6 月→穩定 q6-12 月 + renin。滴定追求 renin 由 suppressed 轉 unsuppressed；PRA ≥1.0 為常用工作切點、非 ES 固定 target，2025 ES 的加量建議限「血壓仍未控制且 renin 仍 suppressed」者。eGFR 早期掉約 5-15 mL/min 多為 hemodynamic unmasking（非驗證門檻）[Wu 2011]；>30% 為 MAKE-associated risk signal 需排查 AKI/volume/藥物 [Chen 2024, PMID 38051943]，10/20/30% 處置門檻無共識。renin de-suppression 為生化治癒現代指標 [Hundemer 2018；Katsuragawa 2025, PMID 41235994]，惟硬終點證據為 observational。"
 tags:
   - PA

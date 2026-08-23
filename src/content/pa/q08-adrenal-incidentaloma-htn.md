@@ -7,7 +7,7 @@ status: ""
 last_updated: 2026-05-14
 next_review: 2027-05-14
 seo_title: "腎上腺長瘤又高血壓怎麼辦？2023 ESE + 2025 ES 完整 workup 框架（PA / 嗜鉻細胞瘤 / MACS / 惡性鑑別）"
-description: "健檢發現腎上腺意外瘤合併高血壓的 workup 決策：2023 ESE 影像紅線（≤10 HU benign / ≥4 cm + HU >20 → MDT）+ PA 篩檢只在合併 HTN/hypokalemia + DST 為全 AI 基本盤 + PA-MACS overlap 約 1/4（TAIPAI Hung 2023 26.4% / pooled 21.9%）+ ACC biopsy 紅線 + 地區醫院腎臟科可執行範圍誠實標明。整合 2023 ESE Fassnacht、2025 ES Adler、2023 Sconfienza meta、2025 Huang TAIPAI+meta。"
+description: "健檢發現腎上腺意外瘤又合併高血壓，接下來該怎麼查？影像上哪些數值可判定良性、哪些要轉多科團隊，什麼情況該加篩原發性醛固酮症，以及地區醫院腎臟科能做到哪裡。"
 quick_answer: "AI + HTN 三步：(1) 先看 non-contrast CT — homogeneous ≤10 HU 多 benign（不需追影像）; 11-20 HU + <4 cm 補影像 / 12 月 repeat; ≥4 cm + 不均質或 HU >20 走 MDT + malignancy 評估。(2) Functional workup：1-mg DST 是 ALL AI 必做（post-DST cortisol >1.8 µg/dL = MACS）; ARR 只在合併 HTN 或 unexplained hypokalemia 做; metanephrines 只在影像不像典型 benign 才做（2023 ESE 修正 — 與舊版 AACE 2009 不同）。(3) Surgery：functional tumor（pheo / overt Cushing / lateralized PA）+ 影像高度可疑惡性（≥4 cm 且不均質）+ MACS+共病+單側 → MDT 個案化。地區醫院腎臟科可做第一線 workup + 監測，AVS / adrenalectomy / 複雜 PET 多需轉介。"
 tags:
   - PA

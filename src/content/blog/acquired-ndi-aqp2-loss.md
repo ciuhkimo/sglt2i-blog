@@ -1,6 +1,6 @@
 ---
 title: "後天性腎因性尿崩症（Acquired NDI）：AQP2 loss 的共同機轉——lithium、阻塞、內毒素、低血鉀、高血鈣"
-description: "多種後天性 nephrogenic diabetes insipidus（NDI）的共同末端機轉，是 collecting duct principal cell 的 AQP2 減少。lithium、ureteral obstruction、endotoxin 主要走 NF-κB／inflammatory-like signaling 抑制 Aqp2 transcription；hypokalemia、hypercalcemia 則偏向 autophagy-mediated AQP2 degradation。整理早期分子訊號、臨床帶回重點與一表總覽。"
+description: "鋰鹽、尿路阻塞、內毒素、低血鉀與高血鈣造成的後天性腎因性尿崩症，末端機轉都是集尿管 AQP2 減少。整理各成因的分子路徑差異與臨床帶回重點。"
 category: "臨床議題"
 target_audience: "腎臟科醫師、內科醫師、醫學生"
 last_updated: 2026-07-04

@@ -1,6 +1,6 @@
 ---
 title: "偏鄉腎臟科醫師到底在做什麼？地區醫院腎臟科的角色與能力邊界"
-description: "南部偏鄉地區腎臟科視角，誠實標明 HD/PD/AKI/移植後共照在地能做什麼、必須上轉什麼、適合 shared care 什麼。整合 KDIGO 2024 CKD referral、KDOQI 2019 vascular access、KDIGO 2009 transplant care、KDIGO 2015 conservative care 與台灣 pre-ESRD P4P 實證；台灣移植跨院 shared care 公開標準化資料有限，以原移植中心為主之 prudent practice 描述。"
+description: "南部偏鄉地區醫院的腎臟科實際能做什麼、什麼必須上轉、什麼適合與醫學中心共照——血液透析、腹膜透析、急性腎損傷與移植後追蹤的能力邊界。"
 category: "Rural Nephrology"
 target_audience: "腎臟科醫師、基層醫師、病人與家屬、醫療管理者"
 last_updated: 2026-05-18
