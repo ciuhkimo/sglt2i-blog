@@ -180,3 +180,4 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
 - [GLP-1 RA Q04 — Low eGFR use](/glp1ra/q04-low-egfr-use/) — 第四柱在低 eGFR 的使用 cutoff
 - [CKM Q12 — Low eGFR CKM strategy](/ckm/q12-low-egfr-ckm-strategy/) — eGFR <30 時 CKM 多藥取捨
 - [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地 eGFR titration 與轉診時機
+- [Finerenone 起始與監測卡（A4 可列印）](/finerenone/monitoring-card/) — 起始條件、依 eGFR 劑量、K⁺ 調整與 hold／restart、監測時程，一頁速查

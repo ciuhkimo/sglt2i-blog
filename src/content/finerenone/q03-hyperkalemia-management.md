@@ -213,3 +213,4 @@ Finerenone 使用中
 - [GLP-1 RA Q01 — CKD + DM 何時啟動](/glp1ra/q01-ckd-dm-when-to-start/) — 第四柱啟動不影響 K，多藥背景
 - [CKM Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/) — 多藥下的 K 平衡與監測整合
 - [偏鄉腎臟科醫師到底在做什麼？](/rural-nephrology/01-rural-nephrology-role/) — 在地 K 監測 logistics 與轉診門檻
+- [Finerenone 起始與監測卡（A4 可列印）](/finerenone/monitoring-card/) — 起始條件、依 eGFR 劑量、K⁺ 調整與 hold／restart、監測時程，一頁速查

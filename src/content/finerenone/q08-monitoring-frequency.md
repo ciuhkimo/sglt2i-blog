@@ -176,3 +176,4 @@ Cherney / Alicic / Bonaca 於 2026 年 *Mayo Clin Proc* 發表跨類別整合性
 - [Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)
 - [eGFR 門檻](/finerenone/q04-egfr-threshold/)
 - [RAASi 劑量調整](/finerenone/q09-raasi-dose-adjustment/)
+- [Finerenone 起始與監測卡（A4 可列印）](/finerenone/monitoring-card/) — 起始條件、依 eGFR 劑量、K⁺ 調整與 hold／restart、監測時程，一頁速查

@@ -148,3 +148,4 @@ seo_title: "Finerenone 在台灣有健保給付嗎？自費價格、處方時機
 - [排序與合併](/finerenone/q02-vs-sglt2i-glp1ra-sequencing/)
 - [特殊族群](/finerenone/q10-special-populations/)
 - [GLP-1 RA Q01 — 台灣實務](/glp1ra/q01-ckd-dm-when-to-start/)
+- [Finerenone 起始與監測卡（A4 可列印）](/finerenone/monitoring-card/) — 起始條件、依 eGFR 劑量、K⁺ 調整與 hold／restart、監測時程，一頁速查

@@ -1,0 +1,141 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import SubscribeCTA from '../../components/SubscribeCTA.astro';
+import { SITE_TITLE } from '../../consts';
+import { authorPerson, authorPersonRef } from '../../lib/schema/authorPerson';
+import { organization, organizationRef } from '../../lib/schema/organization';
+
+// 速查卡的 landing page。列印版本身（/downloads/…html）刻意保持成純列印物：
+// 沒有導覽、沒有 canonical、沒有後續動作，不適合兼任 landing。
+const CARD_URL = '/downloads/finerenone-monitoring-card.html';
+const CARD_VERSION = '2026-06';
+const lastUpdated = new Date('2026-08-24');
+
+const title = 'Finerenone 起始與監測卡（A4 可列印）';
+const description =
+	'一頁速查：finerenone 的起始條件、依 eGFR 的劑量、K⁺ 閾值與 hold／restart 規則、監測時程。給門診與病房實際要下決定的時候用，A4 一頁可列印。';
+
+const jsonLd = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@graph': [
+		organization,
+		authorPerson,
+		{
+			'@type': ['MedicalWebPage', 'WebPage'],
+			name: title,
+			headline: title,
+			description,
+			datePublished: '2026-06-26',
+			dateModified: lastUpdated.toISOString(),
+			author: authorPersonRef,
+			reviewedBy: authorPersonRef,
+			publisher: organizationRef,
+			lastReviewed: lastUpdated.toISOString().split('T')[0],
+			medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Physician' },
+			about: { '@type': 'MedicalCondition', name: 'Chronic Kidney Disease' },
+		},
+	],
+});
+
+const breadcrumbLd = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{ '@type': 'ListItem', position: 1, name: '首頁', item: 'https://nephrodecisions.com/' },
+		{ '@type': 'ListItem', position: 2, name: 'Finerenone 決策筆記', item: 'https://nephrodecisions.com/finerenone/' },
+		{ '@type': 'ListItem', position: 3, name: title, item: 'https://nephrodecisions.com/finerenone/monitoring-card/' },
+	],
+});
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+	<head>
+		<BaseHead title={`${title} | ${SITE_TITLE}`} description={description} />
+		<script type="application/ld+json" set:html={jsonLd} />
+		<script type="application/ld+json" set:html={breadcrumbLd} />
+		<style>
+			main { width: 720px; max-width: calc(100% - 2em); margin: auto; padding: 3em 1em; }
+			h1 { font-size: 1.9em; margin-bottom: 0.3em; line-height: 1.3; }
+			.meta { color: rgb(var(--gray)); font-size: 0.92em; margin-bottom: 1.6em; }
+			h2 { font-size: 1.25em; margin-top: 2em; margin-bottom: 0.6em; }
+			.lede { font-size: 1.05em; line-height: 1.8; }
+			ul { line-height: 1.9; padding-left: 1.2em; }
+			.cta {
+				display: block; margin: 2em 0; padding: 1.1em 1.3em;
+				background: #eef0f8; border: 1px solid #c6cbe4; border-radius: 8px;
+				text-decoration: none; color: inherit;
+			}
+			.cta:hover { background: #e4e8f5; }
+			.cta-title { display: block; font-weight: 700; font-size: 1.08em; color: #2b3566; }
+			.cta-sub { display: block; margin-top: 0.35em; font-size: 0.9em; color: rgb(var(--gray-dark)); }
+			.preview { background: #fafafa; border: 1px solid #e5e5e5; border-radius: 6px; padding: 1em 1.2em; }
+			.preview ol { line-height: 1.9; padding-left: 1.3em; margin: 0; }
+			.note { font-size: 0.9em; color: rgb(var(--gray-dark)); border-left: 3px solid #c6cbe4; padding-left: 0.9em; }
+			.related { line-height: 2; }
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main id="main-content">
+			<h1>Finerenone 起始與監測卡</h1>
+			<p class="meta">A4 一頁可列印 · 卡片版本 {CARD_VERSION} · 本頁更新 2026-08-24</p>
+
+			<p class="lede">
+				這張卡是給<strong>門診或病房當下要做決定</strong>的時候用的：病人適不適合起始 finerenone、
+				這個 eGFR 該給多少劑量、K⁺ 到多少要減量或停、下一次抽血排在什麼時候。
+				決策筆記適合坐下來讀，這張卡適合貼在手邊。
+			</p>
+
+			<h2>適用對象</h2>
+			<ul>
+				<li>腎臟科、新陳代謝科、心臟科與內科醫師</li>
+				<li>需要在門診／病房快速確認 finerenone 起始條件與 K⁺ 監測節奏的臨床人員</li>
+			</ul>
+			<p class="note">
+				這張卡不是給病人自行判斷用藥的工具。是否起始、劑量與監測請由醫療團隊依個別病況決定。
+			</p>
+
+			<h2>卡片內容</h2>
+			<div class="preview">
+				<ol>
+					<li>誰可以起始（有條件的 foundational add-on）</li>
+					<li>起始與目標劑量（依 eGFR 分段）</li>
+					<li>K⁺ 起始閾值</li>
+					<li>監測時程（K⁺ 與 eGFR 同步排）</li>
+					<li>劑量 × K⁺ 的調整表，含 hold 與 restart</li>
+				</ol>
+			</div>
+
+			<a class="cta" href={CARD_URL} target="_blank" rel="noopener" data-placement="landing_primary">
+				<span class="cta-title">🖨 開啟列印版（A4，新分頁）</span>
+				<span class="cta-sub">瀏覽器列印即可，或選「另存為 PDF」</span>
+			</a>
+
+			<h2>臨床依據與範圍</h2>
+			<ul>
+				<li>台灣 TFDA 仿單（衛部藥輸字第 028326 號）：CKD 適應症限 T2D 相關；心衰竭 LVEF ≥40%</li>
+				<li>非糖尿病蛋白尿 CKD 屬 off-label／自費，卡片內已標明</li>
+				<li>證據面整合 FIDELIO-DKD、FIGARO-DKD、FIDELITY，並對照 KDIGO 與 ADA 建議</li>
+			</ul>
+			<p class="note">
+				法規與給付狀態會變動。卡片版本為 {CARD_VERSION}；實際處方前請以最新仿單與健保公告為準。
+			</p>
+
+			<h2>想看完整推理，往這裡</h2>
+			<p class="related">
+				卡片只給結論。每一條背後的證據、爭議與例外，在決策筆記裡：<br />
+				<a href="/finerenone/q01-dkd-when-to-start/">Q01 — DKD 什麼時候該起始</a><br />
+				<a href="/finerenone/q03-hyperkalemia-management/">Q03 — 高血鉀怎麼處理</a><br />
+				<a href="/finerenone/q04-egfr-threshold/">Q04 — eGFR 門檻</a><br />
+				<a href="/finerenone/q08-monitoring-frequency/">Q08 — 監測頻率</a><br />
+				<a href="/finerenone/">← 回 Finerenone 決策筆記總覽</a>
+			</p>
+
+			<SubscribeCTA />
+		</main>
+		<Footer />
+	</body>
+</html>
