@@ -107,6 +107,13 @@ const latestBlog = getLatestDate(blogNotes);
 const latestRural = getLatestDate(ruralNephrologyNotes);
 const latestRegulatory = getLatestDate(regulatoryNotes);
 
+// 偏鄉專題橫跨兩個 collection：2 篇在 ruralNephrology、3 篇在 blog（題材落在 blog 但
+// 由 hub 收錄）。只算 ruralNephrologyNotes.length 會低估成 2，低報 cluster 規模也讓
+// freshness 訊號不準（2026-08-24 外部稽核指出）。用 series 欄位推導，不 hardcode。
+const ruralSeriesBlog = blogNotes.filter((e) => e.data.series === 'rural-nephrology');
+const ruralSeriesCount = ruralNephrologyNotes.length + ruralSeriesBlog.length;
+const latestRuralSeries = getLatestDate([...ruralNephrologyNotes, ...ruralSeriesBlog]);
+
 const groups = [
 	{
 		title: '藥物決策',
@@ -178,13 +185,13 @@ const groups = [
 			{
 				title: '偏鄉腎臟照護',
 				description: '南部偏鄉地區腎臟科視角，CKD 早期、CKD5 透析準備、HD/PD 在地照護、AKI 上轉、移植 shared care、CKM 與末期腎病安寧的完整 care continuum。',
-				count: ruralNephrologyNotes.length,
-				unit: '篇 hub',
+				count: ruralSeriesCount,
+				unit: '篇專題',
 				href: '/rural-nephrology/',
 				color: '#f0f5ee',
 				accent: '#4a6a3a',
 				icon: '🏞️',
-				latest: latestRural,
+				latest: latestRuralSeries,
 			},
 			{
 				title: '醫藥監管週報',
@@ -684,9 +691,9 @@ const groups = [
 
 			<nav class="intent-strip" aria-label="依需求快速導覽">
 				<span class="intent-lead">這站同時給同業與病人，先帶你到對的地方：</span>
-				<a class="intent-link" href="#group-drugs">同業找臨床決策題　→</a>
-				<a class="intent-link" href="/patient/">病人與家屬看白話衛教　→</a>
-				<a class="intent-link" href="/about/">先認識作者、再決定信不信　→</a>
+				<a class="intent-link" href="#group-drugs" data-audience="clinician">同業找臨床決策題　→</a>
+				<a class="intent-link" href="/patient/" data-audience="patient">病人與家屬看白話衛教　→</a>
+				<a class="intent-link" href="/about/" data-audience="trust">先認識作者、再決定信不信　→</a>
 			</nav>
 
 			{groups.map((group) => (

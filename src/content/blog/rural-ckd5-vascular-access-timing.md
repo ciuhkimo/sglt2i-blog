@@ -3,6 +3,7 @@ title: "CKD 第五期該何時準備透析管路？南部偏鄉腎臟科的觀�
 description: "2006 KDOQI 傳統建議 AVF 透析前 6 個月置放；2019 KDOQI update 改為個別化 ESKD Life-Plan；KDIGO 2024 引入 KFRE 切點。從南部偏鄉地區腎臟科視角，談 CKD 4-5 管路建置時機、broken chain 的隱性成本、在地能做與不能做的誠實邊界。"
 category: "臨床議題"
 target_audience: "腎臟科醫師、透析照護團隊、CKD 第五期病人與家屬、偏鄉醫療人員"
+series: "rural-nephrology"
 last_updated: 2026-05-06
 tags: [CKD-5, vascular-access, AVF, AVG, DLC, dialysis-preparation, 偏鄉醫療, 南部偏鄉, 地區醫院, KDOQI, KDIGO, ESKD-Life-Plan]
 seo_title: "CKD 第五期該何時準備透析管路？南部偏鄉腎臟科的觀察"

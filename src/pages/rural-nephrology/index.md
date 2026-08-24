@@ -3,7 +3,7 @@ layout: ../../layouts/RuralNephrologyHubLayout.astro
 title: "偏鄉腎臟照護｜不只是洗腎，而是從 CKD 到末期腎病的長期照顧"
 description: "南部偏鄉地區腎臟科視角，談 CKD 早期辨識、CKD5 透析準備、HD/PD 在地照護、AKI 上轉、腎臟移植 shared care、conservative kidney management 與末期腎病安寧的完整 care continuum。clinical boundary 與 referral threshold 的誠實清單。"
 category: "Rural Nephrology"
-last_updated: 2026-05-09
+last_updated: 2026-08-24
 tags:
   - 偏鄉醫療
   - rural-nephrology
@@ -158,6 +158,15 @@ Rural Nephrology Hub（本頁）
 ├── 🔄 末期腎病安寧照護：偏鄉為什麼更需要討論？（待寫）
 └── 🔄 Conservative Kidney Management 在台灣偏鄉的可能性（待寫）
 ```
+
+### 子系列：偏鄉醫療人力與制度
+
+上面的 care continuum 談的是「一個病人在偏鄉會遇到什麼」；這條子系列談的是**上游**——為什麼偏鄉的照護量能長這樣，以及一家地區醫院能怎麼調整。
+
+- [台灣腎臟科醫師都在哪裡？全國密度不低，但縣市平均看不見偏鄉](/rural-nephrology/02-nephrology-workforce-distribution/) — 縣市平均是錯誤的分析單位，四個判讀陷阱
+- [偏鄉醫院增聘一位專科醫師：腎臟科還是心臟科？](/blog/rural-hospital-nephrology-vs-cardiology-recruitment/) — 必要性與招募難度是兩個方向相反的問題
+
+延伸對照（純心臟科題材，不納入本專題）：[台灣心臟科人力分布：中心不算少，團隊卻很集中](/blog/taiwan-cardiology-workforce-rural-access/)——把同一套指標套到另一科，用來檢驗縣市級指標到底有沒有科別解析度。
 
 ---
 

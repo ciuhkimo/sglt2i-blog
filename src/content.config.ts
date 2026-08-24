@@ -82,6 +82,10 @@ const blog = defineCollection({
 		tags: z.array(z.string()),
 		seo_title: z.string().optional(),
 		about_condition: z.string().optional(),
+		// 跨 collection 的專題歸屬。有些系列文章因題材落在 /blog/ 而不在自己的
+		// collection 裡（例：偏鄉專題有 2 篇在 ruralNephrology、3 篇在 blog），
+		// 導致首頁計數低估。用這個欄位讓計數可推導，不要 hardcode 數字。
+		series: z.string().optional(),
 	}),
 });
 

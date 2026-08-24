@@ -55,7 +55,9 @@ const jsonLd = JSON.stringify({
 						description,
 						thumbnailUrl: video_poster ? new URL(video_poster, Astro.site).href : undefined,
 						contentUrl: new URL(video_src, Astro.site).href,
-						embedUrl: new URL(Astro.url.pathname, Astro.site).href,
+						// 不填 embedUrl：schema.org 定義它是「指向該影片播放器的 URL」，
+						// 不是 watch page 自己。本站用原生自 host <video>、沒有獨立 embed player，
+						// 已有正確的 contentUrl 就夠。（2026-08-24 外部稽核指出，為我方前一版的語意錯誤）
 						uploadDate: last_updated.toISOString(),
 						duration: video_duration,
 						publisher: organizationRef,

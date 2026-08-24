@@ -69,8 +69,11 @@ const ogImageURL = image ? new URL(image, Astro.url) : new URL(ogImagePath, Astr
 <meta property="og:image:height" content="630" />
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={ogImageURL} />
+<!-- Twitter/X Cards：官方範例用 name=（og:* 才用 property=）。
+     2026-08-24 外部稽核：歷史上 parser 兩者都吃，所以原本的 property= 並未讓分享卡失效；
+     改成 name= 是 compatibility hardening，避免只找 meta[name] 的第三方工具誤判為缺漏。 -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={Astro.url} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImageURL} />

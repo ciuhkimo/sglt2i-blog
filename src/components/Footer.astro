@@ -38,18 +38,42 @@ const today = new Date();
 		const track = (name, params) => gtag('event', name, params || {});
 
 		// 1. 訂閱表單送出（Buttondown 表單，送出後會離開本頁）
+		// 語意是「送出嘗試」，不等於訂閱成功。Buttondown 若日後提供成功 callback／
+		// redirect，再另設 subscribe_success，不要拿這個事件當成功數看。
 		document.querySelectorAll('form[action*="buttondown.com"]').forEach((form) => {
 			form.addEventListener('submit', () => {
 				track('subscribe_submit', { page_path: location.pathname });
 			});
 		});
 
-		// 2. lead magnet 下載（/downloads/ 底下的資源）
+		// 2. lead magnet 資源開啟（/downloads/ 底下的資源）
+		// ⚠️ 事件名是 resource_open 不是 download：目前唯一的資源是 .html 列印卡，
+		// 點下去是「在新分頁開啟」而非下載。用 download 命名會讓 GA4 產生
+		// measurement error（2026-08-24 外部稽核指出，為我方前一版的命名錯誤）。
+		// 未來真的提供 PDF 時，另送 download_pdf。
 		document.querySelectorAll('a[href^="/downloads/"]').forEach((a) => {
 			a.addEventListener('click', () => {
-				track('lead_magnet_download', {
-					file_name: a.getAttribute('href').split('/').pop(),
+				const href = a.getAttribute('href');
+				const name = href.split('/').pop();
+				const dot = name.lastIndexOf('.');
+				track('resource_open', {
+					resource_name: dot > 0 ? name.slice(0, dot) : name,
+					resource_format: dot > 0 ? name.slice(dot + 1).toLowerCase() : 'unknown',
 					page_path: location.pathname,
+					placement: a.closest('[data-placement]')?.dataset.placement || 'inline',
+				});
+			});
+		});
+
+		// 2b. 首頁受眾分流點擊。door cards 要不要做取決於這個數字，
+		// 但原本完全沒量 → 「等四週再依 GA4 決定」等於空轉。
+		// 判斷門檻用 sample size，不是固定天數。
+		document.querySelectorAll('a[data-audience]').forEach((a) => {
+			a.addEventListener('click', () => {
+				track('audience_route_click', {
+					audience: a.dataset.audience,
+					placement: 'homepage_intent',
+					destination: a.getAttribute('href'),
 				});
 			});
 		});
