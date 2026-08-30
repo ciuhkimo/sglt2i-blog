@@ -35,7 +35,13 @@ const today = new Date();
 		function gtag() {
 			window.dataLayer.push(arguments);
 		}
-		const track = (name, params) => gtag('event', name, params || {});
+		// 自訂事件也帶 traffic_type，讓 GA4 的內部流量篩選器對事件同樣生效
+		// （config 層的參數理論上會沿用，這裡明寫一份避免依賴實作細節）。
+		const track = (name, params) => {
+			const p = Object.assign({}, params || {});
+			if (window.__ndInternal) p.traffic_type = 'internal';
+			gtag('event', name, p);
+		};
 
 		// 1. 訂閱表單送出（Buttondown 表單，送出後會離開本頁）
 		// 語意是「送出嘗試」，不等於訂閱成功。Buttondown 若日後提供成功 callback／

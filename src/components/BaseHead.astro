@@ -31,7 +31,31 @@ const ogImageURL = image ? new URL(image, Astro.url) : new URL(ogImagePath, Astr
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
-	gtag('config', 'G-Y6L20JKVXJ');
+
+	// 內部流量標記（2026-08-30）。緣起：站上原本完全沒有內部流量排除，
+	// 作者審稿與上線驗證的瀏覽都會混進正式數據；8/24 一次 GA4 異常偵測
+	// 促成這次修正。標記後仍需在 GA4 後台建「內部流量」資料篩選器才會實際排除
+	// （篩選器不追溯既有資料，且預設是「測試」狀態，要手動改成「啟用」）。
+	//
+	// 判定為內部的三種情況：
+	//   1. localhost / 127.0.0.1 / *.local  → 開發與 preview
+	//   2. 網址帶 ?nd_internal=1            → 一次性標記，並記住這台瀏覽器
+	//   3. 這台瀏覽器先前標記過             → localStorage
+	// 解除：任一頁加 ?nd_internal=0
+	window.__ndInternal = (function () {
+		try {
+			var h = location.hostname;
+			if (h === 'localhost' || h === '127.0.0.1' || h === '[::1]' || h.slice(-6) === '.local') return true;
+			var q = new URLSearchParams(location.search).get('nd_internal');
+			if (q === '1') { localStorage.setItem('nd_internal', '1'); return true; }
+			if (q === '0') { localStorage.removeItem('nd_internal'); return false; }
+			return localStorage.getItem('nd_internal') === '1';
+		} catch (e) {
+			return false;
+		}
+	})();
+
+	gtag('config', 'G-Y6L20JKVXJ', window.__ndInternal ? { traffic_type: 'internal' } : {});
 </script>
 
 <!-- Google Search Console -->
