@@ -35,8 +35,13 @@
       "permanent": true
     },
     {
-      "source": "/notes/:path*",
-      "destination": "/sglt2i/:path*",
+      "source": "/notes",
+      "destination": "/sglt2i/",
+      "permanent": true
+    },
+    {
+      "source": "/notes/(.*)",
+      "destination": "/sglt2i/$1",
       "permanent": true
     },
     {

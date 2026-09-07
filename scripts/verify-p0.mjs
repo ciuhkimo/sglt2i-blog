@@ -253,20 +253,48 @@ if (!existsSync(rssPath)) {
 }
 
 // ============================================================
-// Check 7: sitemap exists + has lastmod
+// Check 7: sitemap exists + 內容頁都有 lastmod
 // ============================================================
-console.log('\n## Check 7: /sitemap-0.xml exists + URLs have lastmod\n');
+// 2026-09-08 起 astro.config.mjs 以 frontmatter 的 last_updated 產生 lastmod。
+// 首頁與法律頁沒有日期來源，刻意不給 lastmod —— Google 明文建議寧可省略，
+// 也不要給假值（先前的 buildDate fallback 讓全站每次部署都宣告更新過）。
+// 故改為白名單制：只有這些路徑可以缺 lastmod，內容頁掉了仍然 fail。
+const STATIC_NO_LASTMOD = new Set([
+	'/',
+	'/about/',
+	'/accessibility/',
+	'/disclaimer/',
+	'/editorial-policy/',
+	'/finerenone/monitoring-card/',
+	'/listen/',
+	'/privacy/',
+	'/subscribe/',
+]);
+console.log('\n## Check 7: /sitemap-0.xml exists + 內容頁 URL 有 lastmod\n');
 const sitemapPath = resolve(DIST, 'sitemap-0.xml');
 if (!existsSync(sitemapPath)) {
 	fail('dist/sitemap-0.xml not found');
 } else {
 	const sitemap = readFileSync(sitemapPath, 'utf8');
-	const locCount = countMatches(sitemap, /<loc>/g);
-	const lastmodCount = countMatches(sitemap, /<lastmod>/g);
-	if (locCount > 0 && lastmodCount === locCount) {
-		ok(`sitemap-0.xml has ${locCount} URLs, all with <lastmod>`);
+	const blocks = sitemap.match(/<url>[\s\S]*?<\/url>/g) ?? [];
+	const missing = [];
+	let withLastmod = 0;
+	for (const block of blocks) {
+		const loc = block.match(/<loc>([^<]+)<\/loc>/)?.[1];
+		if (!loc) continue;
+		if (/<lastmod>/.test(block)) {
+			withLastmod++;
+			continue;
+		}
+		const path = new URL(loc).pathname;
+		if (!STATIC_NO_LASTMOD.has(path)) missing.push(path);
+	}
+	if (blocks.length === 0) {
+		fail('sitemap-0.xml: 沒有任何 <url> 節點');
+	} else if (missing.length === 0) {
+		ok(`sitemap-0.xml has ${blocks.length} URLs, ${withLastmod} with <lastmod>（${blocks.length - withLastmod} 個靜態頁依白名單放行）`);
 	} else {
-		fail(`sitemap-0.xml: ${locCount} <loc>, ${lastmodCount} <lastmod> (mismatch)`);
+		fail(`sitemap-0.xml: ${missing.length} 個內容頁缺 <lastmod> → ${missing.join(', ')}（補 frontmatter last_updated，或確認是否該進 STATIC_NO_LASTMOD）`);
 	}
 }
 
