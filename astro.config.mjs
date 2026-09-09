@@ -22,6 +22,21 @@ const unlistedPatientSlugs = new Set();
 	}
 }
 
+// 未審 regulatory 草稿：getStaticPaths 仍 build 路由供醫師 URL 預覽（RegulatoryLayout 已加 noindex），
+// 但必須排除於 sitemap，對齊「草稿不列入 sitemap / 列表 / RSS」政策。
+// @astrojs/sitemap 不解析 HTML 的 noindex meta，故在 build 時依 frontmatter 算出草稿 slug 供 filter 排除。
+const regulatoryDir = new URL('./src/content/regulatory/', import.meta.url);
+const draftRegulatorySlugs = new Set();
+for (const file of readdirSync(regulatoryDir)) {
+	if (!/\.mdx?$/.test(file)) continue;
+	const raw = readFileSync(new URL(file, regulatoryDir), 'utf-8');
+	const m = raw.match(/^review_status:\s*['"]?([\w-]+)/m);
+	const status = m ? m[1] : 'needs_physician_review'; // schema 預設＝未審
+	if (status !== 'physician_reviewed') {
+		draftRegulatorySlugs.add(file.replace(/\.mdx?$/, ''));
+	}
+}
+
 // sitemap lastmod：以內容 frontmatter 的 last_updated 為準。
 // @astrojs/sitemap 不會替內容頁產生 lastmod，先前的 fallback 會把 build 時間蓋到全站每一頁，
 // 等於每次部署都宣告全站都更新過。Google 明文：lastmod 不準確就整體忽略，
@@ -40,24 +55,32 @@ for (const dirent of readdirSync(contentRoot, { withFileTypes: true })) {
 		const iso = new Date(`${m[1]}T00:00:00Z`).toISOString();
 		const slug = file.replace(/\.mdx?$/, '');
 		lastmodByPath.set(`/${dirent.name}/${slug}/`, iso);
-		// 列表頁的 lastmod ＝該 collection 內最新的一篇
+		// 列表頁的 lastmod ＝該 collection 中「實際會出現在列表上」的最新一篇。
+		// 未審草稿與 unlisted 集數不進列表（regulatory/index.astro、patient/index.astro 都有過濾），
+		// 若納進聚合，發布一篇草稿就會推進列表頁的 lastmod、而列表其實沒變 ——
+		// 那正是本次要消除的假訊號。重用上面兩個既有 Set，不另寫一份判定。
+		const hiddenFromListing =
+			(dirent.name === 'regulatory' && draftRegulatorySlugs.has(slug)) ||
+			(dirent.name === 'patient' && unlistedPatientSlugs.has(slug));
+		if (hiddenFromListing) continue;
 		const prev = lastmodByCollection.get(dirent.name);
 		if (!prev || iso > prev) lastmodByCollection.set(dirent.name, iso);
 	}
 }
 
-// 未審 regulatory 草稿：getStaticPaths 仍 build 路由供醫師 URL 預覽（RegulatoryLayout 已加 noindex），
-// 但必須排除於 sitemap，對齊「草稿不列入 sitemap / 列表 / RSS」政策。
-// @astrojs/sitemap 不解析 HTML 的 noindex meta，故在 build 時依 frontmatter 算出草稿 slug 供 filter 排除。
-const regulatoryDir = new URL('./src/content/regulatory/', import.meta.url);
-const draftRegulatorySlugs = new Set();
-for (const file of readdirSync(regulatoryDir)) {
-	if (!/\.mdx?$/.test(file)) continue;
-	const raw = readFileSync(new URL(file, regulatoryDir), 'utf-8');
-	const m = raw.match(/^review_status:\s*['"]?([\w-]+)/m);
-	const status = m ? m[1] : 'needs_physician_review'; // schema 預設＝未審
-	if (status !== 'physician_reviewed') {
-		draftRegulatorySlugs.add(file.replace(/\.mdx?$/, ''));
+// 自帶 frontmatter 的路由頁（目前只有 src/pages/rural-nephrology/index.md）。
+// 這類 hub 不在 content collection 裡，只靠 collection 聚合會發出比頁面自身宣告更舊的日期
+// （實測：頁面寫 2026-08-24，聚合值卻是 2026-08-12）。放在 collection 掃描之後寫入 lastmodByPath，
+// 讓路由自身的宣告優先於聚合值。
+const pagesRoot = new URL('./src/pages/', import.meta.url);
+for (const dirent of readdirSync(pagesRoot, { withFileTypes: true })) {
+	if (!dirent.isDirectory()) continue;
+	for (const file of readdirSync(new URL(`${dirent.name}/`, pagesRoot))) {
+		if (!/^index\.mdx?$/.test(file)) continue;
+		const raw = readFileSync(new URL(`${dirent.name}/${file}`, pagesRoot), 'utf-8');
+		const m = raw.match(/^last_updated:\s*['"]?(\d{4}-\d{2}-\d{2})/m);
+		if (!m) continue;
+		lastmodByPath.set(`/${dirent.name}/`, new Date(`${m[1]}T00:00:00Z`).toISOString());
 	}
 }
 
