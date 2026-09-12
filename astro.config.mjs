@@ -6,7 +6,21 @@ import remarkGfm from 'remark-gfm';
 import { defineConfig } from 'astro/config';
 import { readFileSync, readdirSync } from 'node:fs';
 
-const buildDate = new Date();
+// unlisted 影片集數：已排除於 /patient/ 列表、首頁「最近更新」與主 RSS（見 index.astro、patient/index.astro），
+// 代表站台自己認定它們不是主要目的地。sitemap 先前仍送出它們，等於同時對 Google 說「請收錄」
+// 與「這不重要」。矛盾訊號會拉低整份 sitemap 的可信度，故一併排除，改以系列 hub 作為索引入口。
+// 集數頁本身照常 build，仍可直接分享連結。
+const unlistedPatientSlugs = new Set();
+{
+	const dir = new URL('./src/content/patient/', import.meta.url);
+	for (const file of readdirSync(dir)) {
+		if (!/\.mdx?$/.test(file)) continue;
+		const raw = readFileSync(new URL(file, dir), 'utf-8');
+		if (/^unlisted:\s*true\s*$/m.test(raw)) {
+			unlistedPatientSlugs.add(file.replace(/\.mdx?$/, ''));
+		}
+	}
+}
 
 // 未審 regulatory 草稿：getStaticPaths 仍 build 路由供醫師 URL 預覽（RegulatoryLayout 已加 noindex），
 // 但必須排除於 sitemap，對齊「草稿不列入 sitemap / 列表 / RSS」政策。
@@ -20,6 +34,53 @@ for (const file of readdirSync(regulatoryDir)) {
 	const status = m ? m[1] : 'needs_physician_review'; // schema 預設＝未審
 	if (status !== 'physician_reviewed') {
 		draftRegulatorySlugs.add(file.replace(/\.mdx?$/, ''));
+	}
+}
+
+// sitemap lastmod：以內容 frontmatter 的 last_updated 為準。
+// @astrojs/sitemap 不會替內容頁產生 lastmod，先前的 fallback 會把 build 時間蓋到全站每一頁，
+// 等於每次部署都宣告全站都更新過。Google 明文：lastmod 不準確就整體忽略，
+// 且會連帶壓低抓取優先度。故改為逐頁真實日期；查不到的頁面寧可不給，也不給假值。
+const contentRoot = new URL('./src/content/', import.meta.url);
+const lastmodByPath = new Map();
+const lastmodByCollection = new Map();
+for (const dirent of readdirSync(contentRoot, { withFileTypes: true })) {
+	if (!dirent.isDirectory()) continue;
+	const dir = new URL(`${dirent.name}/`, contentRoot);
+	for (const file of readdirSync(dir)) {
+		if (!/\.mdx?$/.test(file)) continue;
+		const raw = readFileSync(new URL(file, dir), 'utf-8');
+		const m = raw.match(/^last_updated:\s*['"]?(\d{4}-\d{2}-\d{2})/m);
+		if (!m) continue;
+		const iso = new Date(`${m[1]}T00:00:00Z`).toISOString();
+		const slug = file.replace(/\.mdx?$/, '');
+		lastmodByPath.set(`/${dirent.name}/${slug}/`, iso);
+		// 列表頁的 lastmod ＝該 collection 中「實際會出現在列表上」的最新一篇。
+		// 未審草稿與 unlisted 集數不進列表（regulatory/index.astro、patient/index.astro 都有過濾），
+		// 若納進聚合，發布一篇草稿就會推進列表頁的 lastmod、而列表其實沒變 ——
+		// 那正是本次要消除的假訊號。重用上面兩個既有 Set，不另寫一份判定。
+		const hiddenFromListing =
+			(dirent.name === 'regulatory' && draftRegulatorySlugs.has(slug)) ||
+			(dirent.name === 'patient' && unlistedPatientSlugs.has(slug));
+		if (hiddenFromListing) continue;
+		const prev = lastmodByCollection.get(dirent.name);
+		if (!prev || iso > prev) lastmodByCollection.set(dirent.name, iso);
+	}
+}
+
+// 自帶 frontmatter 的路由頁（目前只有 src/pages/rural-nephrology/index.md）。
+// 這類 hub 不在 content collection 裡，只靠 collection 聚合會發出比頁面自身宣告更舊的日期
+// （實測：頁面寫 2026-08-24，聚合值卻是 2026-08-12）。放在 collection 掃描之後寫入 lastmodByPath，
+// 讓路由自身的宣告優先於聚合值。
+const pagesRoot = new URL('./src/pages/', import.meta.url);
+for (const dirent of readdirSync(pagesRoot, { withFileTypes: true })) {
+	if (!dirent.isDirectory()) continue;
+	for (const file of readdirSync(new URL(`${dirent.name}/`, pagesRoot))) {
+		if (!/^index\.mdx?$/.test(file)) continue;
+		const raw = readFileSync(new URL(`${dirent.name}/${file}`, pagesRoot), 'utf-8');
+		const m = raw.match(/^last_updated:\s*['"]?(\d{4}-\d{2}-\d{2})/m);
+		if (!m) continue;
+		lastmodByPath.set(`/${dirent.name}/`, new Date(`${m[1]}T00:00:00Z`).toISOString());
 	}
 }
 
@@ -152,12 +213,25 @@ export default defineConfig({
 				for (const slug of draftRegulatorySlugs) {
 					if (page.includes(`/regulatory/${slug}`)) return false;
 				}
+				// 排除 unlisted 影片集數，與列表／首頁／RSS 的既有處置一致
+				for (const slug of unlistedPatientSlugs) {
+					if (page.endsWith(`/patient/${slug}/`)) return false;
+				}
 				return true;
 			},
 			serialize(item) {
-				if (!item.lastmod) {
-					item.lastmod = buildDate.toISOString();
+				if (item.lastmod) return item;
+				const path = new URL(item.url).pathname;
+				const own = lastmodByPath.get(path);
+				if (own) {
+					item.lastmod = own;
+					return item;
 				}
+				// collection 列表頁（/patient/、/sglt2i/ …）取該 collection 最新一篇
+				const asCollection = path.replace(/^\/|\/$/g, '');
+				const newest = lastmodByCollection.get(asCollection);
+				if (newest) item.lastmod = newest;
+				// 其餘（首頁、法律頁等）不給 lastmod，勝過給假值
 				return item;
 			},
 		}),
