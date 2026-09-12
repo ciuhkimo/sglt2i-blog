@@ -59,4 +59,4 @@
 - Evidence sources: PubMed/PMID, ClinicalTrials.gov/NCT, KDIGO, ADA, AHA, ESC, TFDA, Taiwan NHI
 - Drug names: Generic names primary; Taiwan brand names (e.g., Forxiga/福適佳, Jardiance/恩排糖, Kerendia, Ozempic/胰妥讚) listed for identification only, not endorsement
 - No pharma sponsorship, no advertising, no affiliate links
-- Last updated: 2026-08-23
+- Last updated: 2026-09-06
