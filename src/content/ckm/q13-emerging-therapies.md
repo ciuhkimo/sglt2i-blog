@@ -2,10 +2,10 @@
 question_id: "Q13"
 title: "CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finerenone 擴展）"
 category: "整合藥物策略"
-version: "v1.3"
+version: "v1.4"
 status: ""
-last_updated: 2026-05-27
-next_review: 2026-08-27
+last_updated: 2026-09-12
+next_review: 2026-12-12
 tags:
   - CKM-syndrome
   - cardiorenal-metabolic
@@ -65,7 +65,7 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 - **已核准但基於 surrogate endpoint**：例如 atrasentan in primary IgAN（proteinuria reduction）
 - **trial positive 但仍非該領域 label**：例如 tirzepatide in obesity-related HFpEF、tirzepatide cardiorenal post hoc analyses
 - **positive phase 3（已發表）但尚未轉成該領域 label**：例如 finerenone in non-diabetic CKD（FIND-CKD, NEJM 2026, PMID 42246672）
-- **positive phase 3（已正式發表）但藥物本身尚未核准、仍在法規審查**：例如 baxdrostat（BaxHTN, NEJM 2025；FDA priority review，PDUFA Q2 2026）
+- **已核准，但核准的適應症不是腎臟科想用的那一個**：例如 baxdrostat（美國 2026-05-15 核准，適應症為高血壓；BaxHTN 的納入條件本身就要求 eGFR ≥45）
 
 這會直接影響三件事：
 
@@ -75,15 +75,15 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 
 ---
 
-## 證據與狀態總覽（2026-04）
+## 證據與狀態總覽（2026-09）
 
-| 藥物 | 最高可直接驗證證據 | 目前最成立的敘述 | 2026-04 狀態 | 腎臟科實務定位 |
+| 藥物 | 最高可直接驗證證據 | 目前最成立的敘述 | 2026-09 狀態 | 腎臟科實務定位 |
 |------|------------------|------------------|-------------|---------------|
 | **Semaglutide** | FLOW + FDA CKD label | T2D+CKD 可降低 major kidney events / CV death 風險 | 已落地，不再只是 pipeline | 作為 GLP-1 renal comparator |
 | **Tirzepatide** | SUMMIT、SURPASS-4 post hoc、SURPASS-CVOT + official labels | CKM 訊號強，但腎臟與 HFpEF 仍非已查核到的官方腎臟 / HFpEF label | 已核准 T2D；另有 obesity / OSA in obesity indications；非 kidney label | 常由 diabetes / obesity / HF pathway 先遇到 |
-| **Atrasentan (Vanrafia)** | ALIGN + FDA accelerated approval | primary IgAN、快速進展風險高、以蛋白尿下降為目前核准基礎 | 美國已核准；hard renal outcome confirmatory data 待完成 | nephrology-facing add-on 藥物 |
-| **Baxdrostat** | BrigHTN / BaxHTN + FDA Priority Review 接受 | aldosterone synthase inhibitor，對 uncontrolled / resistant HTN 有明顯降壓效果 | 審查中 / 尚未視為 routine-use drug | 先追蹤，不當作已可常規處方 |
-| **Finerenone** | official labels + FIND-CKD（NEJM 2026, PMID 42246672）| 已核准 T2D-associated CKD；美國另已核准 HF with LVEF ≥40%；non-DM CKD：FIND-CKD 已正式發表、primary 達標 | non-DM CKD 仍 investigational | 不能把 FIND-CKD 當已完成擴證 |
+| **Atrasentan (Vanrafia／穩腎優)** | ALIGN + FDA accelerated approval + 台灣許可證 | primary IgAN、快速進展風險高、以蛋白尿下降為目前核准基礎 | 美國已核准；**台灣 2026-06-22 核准**（衛部藥輸字第029157號）；hard renal outcome confirmatory data 待完成 | nephrology-facing add-on 藥物；台灣已可取得 |
+| **Baxdrostat (Baxfendy)** | BrigHTN / BaxHTN + 美國核准仿單 | aldosterone synthase inhibitor，對 uncontrolled / resistant HTN 有明顯降壓效果 | 美國 2026-05-15 核准，適應症為**高血壓**；台灣查無許可證 | 不是腎臟科適應症；仿單載明 eGFR <45 起始未建立、最常見不良反應為高血鉀 |
+| **Finerenone** | official labels + FIND-CKD（NEJM 2026, PMID 42246672）| 已核准 T2D-associated CKD；**美國與台灣仿單均已含 HF with LVEF ≥40%**；non-DM CKD：FIND-CKD 已正式發表、primary 達標 | non-DM CKD 仍 investigational | 不能把 FIND-CKD 當已完成擴證 |
 
 ---
 
@@ -309,23 +309,32 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 
 ### 3. Regulatory status
 
-- 截至本次查核可見：**U.S. NDA accepted under FDA Priority Review**（2025-12），實際監管行動以官方公告為準。
-- 台灣 TFDA 公開資料未顯示已核准適應症。
-- 因此目前較準確的寫法是：
-  - **advanced regulatory stage with peer-reviewed phase 3 data**
-  - **not yet a routine nephrology prescription drug**
+- **美國：已核准。** 商品名 **BAXFENDY**，NDA 219878，AstraZeneca AB，核准日 **2026-05-15**（Drugs@FDA 申請案紀錄）。
+- **核准的適應症是高血壓，不是腎臟病**：aldosterone synthase inhibitor，**與其他降壓藥併用**，用於其他藥物控制不佳的成人高血壓，以降低血壓。仿單並載明「There are no controlled trials demonstrating risk reduction of these events with BAXFENDY」。
+- **台灣：查無許可證。** 依 2026-09-10 版 TFDA 西藥許可證資料集（83,483 筆）查詢，baxdrostat 與 Baxfendy 均無命中。**是否已進入送件或審查程序不在該資料集範圍內，本版不下定論。**
+- 因此現在較準確的寫法不再是「還沒核准所以不能用」，而是：
+  - **已有核准適應症，但那個適應症是高血壓**
+  - **腎臟科場景（CKD、PA、合併 RAS blockade 或 MRA）都不在核准基礎內**
 
-### 4. 腎臟科實務定位
+### 4. 核准仿單裡與腎臟科直接相關的三件事
 
-如果未來核准，最可能的場景是：
+核准之後，caveat 的來源從「還沒核准」換成仿單自己寫的內容，這反而更具體：
+
+- **最常見不良反應就是高血鉀**。仿單列出的 most common adverse reaction（發生率 ≥5% 且高於安慰劑）只有一項：hyperkalemia。
+- **eGFR 會下降，且看起來是血流動力學性的**。第 12 週 placebo-corrected 的平均 eGFR 下降為 2 mg 組 8.0、1 mg 組 7.1 mL/min/1.73m²；仿單記載下降在第 12 週左右趨於平台，停藥後平均 eGFR 回升，並自述 suggesting a hemodynamic effect on renal function。
+- **eGFR <45 起始沒有資料**。仿單 §8.6 明文：eGFR <45 mL/min/1.73m² 起始使用的安全性與療效未建立；eGFR ≥45 不需調整劑量，除非評估有高血鉀風險。這與 BaxHTN 的納入條件一致——該試驗要求 eGFR ≥45 且血鉀介於 3.5 至 <5.0 mEq/L。
+
+### 5. 腎臟科實務定位
+
+可能會遇到它的場景仍然是：
 - resistant / uncontrolled HTN
 - aldosterone-driven phenotype
 - CKD 合併多重降壓藥仍控制不佳
 
 但在目前這個時間點：
-- **不能寫成已可常規處方**
+- **核准適應症是高血壓，不是 CKD**。用在 CKD 病人身上不等於超出適應症，但**支持它的試驗族群 eGFR ≥45、基線平均 eGFR 85**，越往下走越沒有資料
 - **不能把 phase 3 positive 直接當成真實世界定位已確立**
-- 對 CKD 病人仍應保留 **K⁺ / eGFR monitoring** 思維，尤其若與 RAS blockade / MRA / other K-raising drugs 交疊時
+- 對 CKD 病人仍應保留 **K⁺ / eGFR monitoring** 思維，尤其若與 RAS blockade / MRA / other K-raising drugs 交疊時。仿單自己就把高血鉀列為最常見不良反應
 
 ---
 
@@ -366,7 +375,7 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 
 ### 4. 台灣可近性
 
-- **Kerendia（finerenone）在台灣官方可直接確認的適應症**：T2D-associated CKD
+- **Kerendia（可申達）在台灣官方可直接確認的適應症有兩條**：T2D-associated CKD，以及**心衰竭且 LVEF ≥40%**（衛部藥輸字第028325、028326號）
 - **non-diabetic CKD**：目前仍應視為 **off-label / investigational extension under review**
 
 ---
@@ -381,19 +390,22 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
   - obesity / overweight with comorbidity
   - OSA in obesity
 
-#### 2. Finerenone（Kerendia）
-- 台灣官方產品頁可直接對上許可證資訊與適應症：
+#### 2. Finerenone（Kerendia／可申達）
+- 台灣許可證與適應症可直接對上，**現行仿單有兩條適應症**：
   - T2D-associated CKD
+  - 心衰竭且 LVEF ≥40%
+- 許可證字號：衛部藥輸字第028325號（10 mg）、第028326號（20 mg）
+
+#### 3. Atrasentan（Vanrafia／穩腎優）
+- **台灣已核准**：穩腎優 0.75 毫克膜衣錠，**衛部藥輸字第029157號**，發證日 2026-06-22。
+- 適應症逐字為：適用於具有疾病惡化風險（UPCR ≥1.5 g/g）之原發性免疫球蛋白 A 腎病變成人病人，用以減少蛋白尿。
+- 與美國 accelerated approval 的基礎一致，仍是**蛋白尿 surrogate**，confirmatory hard renal outcome 未完成。核准不改變這一點。
 
 ### B. 本次未以台灣官方來源直接確認者
 
-#### 1. Atrasentan（Vanrafia）
-- 本次查核重點確認到的是 **美國 FDA approval**。
-- **台灣 TFDA 是否已核准 / 何時核准**，本版不寫成定論。
-
-#### 2. Baxdrostat
-- 本次查核重點確認到的是 **美國 NDA Priority Review**。
-- 台灣上市與否、本土時程，本版不寫成定論。
+#### 1. Baxdrostat
+- **依 2026-09-10 版 TFDA 西藥許可證資料集查詢，查無 baxdrostat／Baxfendy 許可證。**
+- 但**該資料集只涵蓋已發證的許可證**，是否已送件或在審查中不在其範圍內，本版不下定論。
 
 #### 3. Sparsentan 相關台灣可近性
 - 原稿中「台灣 2025 上市可替代」這類寫法，**本版移除**。
@@ -429,8 +441,9 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 
 ```text
 若是 baxdrostat
-→ 2026-04 仍應視為 advanced pipeline / regulatory-review drug
-→ 不作 routine prescription planning
+→ 美國已核准，但適應症是高血壓，不是 CKD、也不是 PA
+→ 支持它的試驗要求 eGFR ≥45、血鉀 <5.0；仿單最常見不良反應是高血鉀
+→ 可以寫「已核准的降壓新機轉」，不要寫成腎臟科的新武器
 ```
 
 ```text
@@ -446,14 +459,14 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 | **official hard-outcome / label-backed** | semaglutide in T2D+CKD；finerenone in T2D-associated CKD | 可以寫成「已成立、可落地」 |
 | **accelerated approval on surrogate** | atrasentan in primary IgAN | 可以用，但要保留 confirmatory uncertainty |
 | **secondary / post hoc signal** | tirzepatide kidney / cardiorenal analyses | 可以寫「有力訊號」，不要寫成正式腎臟適應症 |
-| **phase 3 positive（已發表）/ NDA 審查中** | baxdrostat（BaxHTN, NEJM 2025）| 只能寫「值得追蹤」，不能寫 routine use |
+| **已核准，但核准適應症不在本科** | baxdrostat（高血壓適應症，2026-05-15 美國核准）| 可寫「已核准的降壓選項」，不能寫成 CKD 或 PA 的治療 |
 | **phase 3 已正式發表、surrogate primary、label 未更新** | FIND-CKD（finerenone in non-DM CKD, NEJM 2026, PMID 42246672）| 可寫「已發表、primary 達標」，但 non-DM CKD 仍 investigational、不可 routine use |
 
 #### 3. 與既有基礎治療整合時，不要本末倒置
 
 - **IgAN**：supportive care / RAS blockade / 適用時 SGLT2i 仍是地基；atrasentan 是 add-on，不是取代地基。
 - **T2D + CKD + obesity**：tirzepatide 可以大幅影響體重、代謝與 broader CKM 風險，但不應拿來取代已落地的腎保護藥。
-- **resistant HTN**：baxdrostat 若未來核准，才進入 add-on discussion；目前仍以既有 HTN / CKD 治療邏輯為主。
+- **resistant HTN**：baxdrostat 已在美國核准為高血壓 add-on，但納入試驗的族群 eGFR ≥45、血鉀 <5.0；用在 CKD 共照族群前，既有 HTN / CKD 治療邏輯仍是主軸。
 - **non-diabetic CKD**：FIND-CKD 雖已正式發表（NEJM 2026）、primary 達標，仍不要跳過 label review；發表 ≠ label expansion，routine use 尚不成立。
 
 ---
@@ -476,7 +489,8 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
    - FIND-CKD 已發表（NEJM 2026, PMID 42246672）、primary 達標，但發表 ≠ 擴證完成；這在 high-stakes note 會造成過度前移
 
 6. **把未直接驗證的台灣上市 / 健保 / 替代藥資訊寫成定論**
-   - 尤其是 Vanrafia / Baxdrostat / Sparsentan 的本地可近性
+   - 本版已以 TFDA 許可證資料集確認 Vanrafia 台灣已核准、baxdrostat 查無許可證；**但「有許可證」不等於「有健保給付」**，給付條件本版仍不下定論
+   - Sparsentan 的本地可近性同樣未查，維持不寫
 
 7. **用「第五柱」這種總結性語言掩蓋異質證據層級**
    - CKM 確實在擴張，但不同藥物目前站的位置差很多
@@ -488,9 +502,10 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 ### 高度不確定
 
 - **Atrasentan 是否能以 confirmatory hard renal outcome 完成 accelerated → full approval transition**
-- **Baxdrostat 在正式核准後的真實定位**（尤其 CKD / 高 K 風險場景）
+- **Baxdrostat 核准之後的真實定位**（尤其 eGFR <45、合併 MRA 或 RAS blockade 的高血鉀風險場景——這些都不在核准基礎的試驗族群內）
 - **Tirzepatide dedicated kidney-outcome pathway** 目前仍不足
-- **台灣對 Vanrafia、Baxdrostat 的正式核准與可近性時程**
+- **台灣對 baxdrostat 的送件或審查進度**（許可證資料集查無，但送件狀態不在該資料集範圍）
+- **Vanrafia 在台灣的健保給付條件**（許可證已確認，給付未查）
 
 ### 中度不確定
 
@@ -501,7 +516,7 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 ### 待追蹤
 
 - ALIGN 後續腎功能資料與 confirmatory outcome updates
-- Baxdrostat 監管結論與後續 CKD program
+- Baxdrostat 核准後的 CKD program 與長期腎功能資料（仿單目前只有 12 週的 eGFR 變化）
 - FIND-CKD 發表後的 label / guideline 更新進程（full publication 已於 NEJM 2026 完成, PMID 42246672）
 - 各藥物在 KDIGO / ADA / HF guideline 的整合方式與排序
 
@@ -509,9 +524,9 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
 
 ## Verification-Needed Items（本版刻意保留）
 
-1. **台灣 TFDA / MCP 是否已有 Vanrafia 正式許可證**
-2. **台灣 Baxdrostat 是否已進入任何正式申請或臨床可近性路徑**
-3. **台灣 NHI 對 tirzepatide / finerenone 的最新給付條件**
+1. ~~台灣 TFDA / MCP 是否已有 Vanrafia 正式許可證~~ → **已確認：衛部藥輸字第029157號，2026-06-22 發證**
+2. **台灣 Baxdrostat 是否已進入任何正式申請程序**（許可證資料集查無已發證許可證；送件狀態不在該資料集範圍）
+3. **台灣 NHI 對 tirzepatide / finerenone / Vanrafia 的最新給付條件**
 4. **FIND-CKD 完整論文發表後的 subgroup / potassium / eGFR slope 細節**
 5. **Tirzepatide 後續是否出現新的正式 cardiorenal label expansion**
 
@@ -545,44 +560,50 @@ seo_title: "Q13 CKM 新興治療（tirzepatide、atrasentan、baxdrostat、finer
    https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215341s009lbl.pdf
 8. Bayer Taiwan. **Kerendia 台灣產品頁 / 許可證與適應症**.
    https://www.bayer.com.tw/zh-hant/kerendia
-9. AstraZeneca. **Baxdrostat NDA accepted under FDA Priority Review** (2025-12-02).
+9. U.S. FDA. **Drugs@FDA — BAXFENDY (baxdrostat), NDA 219878, AstraZeneca AB, approved 2026-05-15**.
+   https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219878
+10. U.S. FDA. **BAXFENDY prescribing information**（適應症、hyperkalemia、eGFR 段落與 §8.6 Renal Impairment 均引自本檔）.
+   https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/219878Orig1s000lbl.pdf
+11. 衛生福利部食品藥物管理署. **西藥、醫療器材、含藥化粧品許可證資料集**（2026-09-10 版；本文 Vanrafia、Kerendia 許可證字號與適應症，以及 baxdrostat 查無許可證之結論，均以本資料集為準）.
+   https://data.fda.gov.tw/
+12. （歷史）AstraZeneca. **Baxdrostat NDA accepted under FDA Priority Review** (2025-12-02).
    https://www.astrazeneca.com/media-centre/press-releases/2025/baxdrostat-new-drug-application-accepted-under-fda-priority-review-in-the-us-for-patients-with-hard-to-control-hypertension.html
-10. AstraZeneca. **BaxHTN phase 3 full results press release** (2025-08-30).
+13. AstraZeneca. **BaxHTN phase 3 full results press release** (2025-08-30).
    https://www.astrazeneca.com/media-centre/press-releases/2025/baxdrostat-demonstrated-statistically-significant-clinically-meaningful-reduction-sbp-patients-hard-control-hypertension-baxhtn-phase-iii-trial.html
-11. Heerspink HJL, et al. **Finerenone in Patients with Chronic Kidney Disease without Diabetes (FIND-CKD).** N Engl J Med. 2026. PMID: **42246672** (NCT05047263; primary eGFR slope met, composite kidney-or-CV HR 0.77 [0.60–0.99]).
+14. Heerspink HJL, et al. **Finerenone in Patients with Chronic Kidney Disease without Diabetes (FIND-CKD).** N Engl J Med. 2026. PMID: **42246672** (NCT05047263; primary eGFR slope met, composite kidney-or-CV HR 0.77 [0.60–0.99]).
    https://pubmed.ncbi.nlm.nih.gov/42246672/
    - （歷史）Bayer. FIND-CKD topline press release (2026-03-16). https://www.bayer.com/en/us/news-stories/kerendiar-meets-primary-endpoint
 
 ### PubMed / journal articles
-12. Perkovic V, et al. **Effects of Semaglutide on Chronic Kidney Disease in Patients with Type 2 Diabetes.** N Engl J Med. 2024. PMID: **38785209**.
+15. Perkovic V, et al. **Effects of Semaglutide on Chronic Kidney Disease in Patients with Type 2 Diabetes.** N Engl J Med. 2024. PMID: **38785209**.
    https://pubmed.ncbi.nlm.nih.gov/38785209/
-13. Heerspink HJL, et al. **Effects of tirzepatide versus insulin glargine on kidney outcomes in type 2 diabetes in the SURPASS-4 trial.** PMID: **36152639**.
+16. Heerspink HJL, et al. **Effects of tirzepatide versus insulin glargine on kidney outcomes in type 2 diabetes in the SURPASS-4 trial.** PMID: **36152639**.
    https://pubmed.ncbi.nlm.nih.gov/36152639/
-14. SUMMIT trial publication. **Tirzepatide in obesity-related HFpEF**. N Engl J Med. 2024.
+17. SUMMIT trial publication. **Tirzepatide in obesity-related HFpEF**. N Engl J Med. 2024.
    https://pubmed.ncbi.nlm.nih.gov/39555826/
-15. Nissen SE, et al. **Cardiorenal Outcomes With Tirzepatide Compared With Dulaglutide in Patients With Diabetes and Cardiovascular Disease: A Post Hoc Analysis of the SURPASS-CVOT Randomized Clinical Trial.** JAMA Cardiol. 2026. doi: **10.1001/jamacardio.2026.0767**.
+18. Nissen SE, et al. **Cardiorenal Outcomes With Tirzepatide Compared With Dulaglutide in Patients With Diabetes and Cardiovascular Disease: A Post Hoc Analysis of the SURPASS-CVOT Randomized Clinical Trial.** JAMA Cardiol. 2026. doi: **10.1001/jamacardio.2026.0767**.
    https://jamanetwork.com/journals/jamacardiology/fullarticle/2847048
-16. Heerspink HJL, et al. **Atrasentan in Patients with IgA Nephropathy.** N Engl J Med. 2025. PMID: **39460694**.
+19. Heerspink HJL, et al. **Atrasentan in Patients with IgA Nephropathy.** N Engl J Med. 2025. PMID: **39460694**.
    https://pubmed.ncbi.nlm.nih.gov/39460694/
-17. Heerspink HJL, et al. **Atrasentan and renal events in patients with type 2 diabetes and chronic kidney disease (SONAR).** Lancet. 2019. PMID: **30995972**.
+20. Heerspink HJL, et al. **Atrasentan and renal events in patients with type 2 diabetes and chronic kidney disease (SONAR).** Lancet. 2019. PMID: **30995972**.
    https://pubmed.ncbi.nlm.nih.gov/30995972/
-18. Flack JM, et al. **Efficacy and Safety of Baxdrostat in Uncontrolled and Resistant Hypertension.** N Engl J Med. 2025. PMID: **40888730**.
+21. Flack JM, et al. **Efficacy and Safety of Baxdrostat in Uncontrolled and Resistant Hypertension.** N Engl J Med. 2025. PMID: **40888730**.
    https://pubmed.ncbi.nlm.nih.gov/40888730/
-19. Heerspink HJL, et al. **Design and baseline characteristics of FIND-CKD.** PMID: **38858818**.
+22. Heerspink HJL, et al. **Design and baseline characteristics of FIND-CKD.** PMID: **38858818**.
    https://pubmed.ncbi.nlm.nih.gov/38858818/
-25. Zoungas S, D'Alessio D, Pavo I, et al. **A comparison of the effects of tirzepatide and dulaglutide on major kidney events in people with type 2 diabetes: pre-specified exploratory analyses of the SURPASS-CVOT trial.** Lancet Diabetes Endocrinol. 2026 May 11 (Epub ahead of print). PMID: **42114520**. DOI: **10.1016/S2213-8587(26)00032-X**.
+28. Zoungas S, D'Alessio D, Pavo I, et al. **A comparison of the effects of tirzepatide and dulaglutide on major kidney events in people with type 2 diabetes: pre-specified exploratory analyses of the SURPASS-CVOT trial.** Lancet Diabetes Endocrinol. 2026 May 11 (Epub ahead of print). PMID: **42114520**. DOI: **10.1016/S2213-8587(26)00032-X**.
    https://pubmed.ncbi.nlm.nih.gov/42114520/
 
 ### ClinicalTrials.gov
-20. **SUMMIT** — NCT04847557.
+23. **SUMMIT** — NCT04847557.
    https://clinicaltrials.gov/study/NCT04847557
-21. **SURPASS-CVOT** — NCT04255433.
+24. **SURPASS-CVOT** — NCT04255433.
    https://clinicaltrials.gov/study/NCT04255433
-22. **ALIGN** — NCT04573478.
+25. **ALIGN** — NCT04573478.
    https://clinicaltrials.gov/study/NCT04573478
-23. **BaxHTN** — NCT06034743.
+26. **BaxHTN** — NCT06034743.
    https://clinicaltrials.gov/study/NCT06034743
-24. **FIND-CKD** — NCT05047263.
+27. **FIND-CKD** — NCT05047263.
    https://clinicaltrials.gov/study/NCT05047263
 
 ---

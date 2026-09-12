@@ -271,7 +271,7 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 
 **原則**：PA treatment 不是把一般 HTN 藥全停掉，而是**把 MRA 放回病因治療主軸，其他藥退到輔助角色**。
 
-### 4.6 未來治療：Aldosterone Synthase Inhibitor（preview）
+### 4.6 Aldosterone Synthase Inhibitor：已核准，但核准的不是 PA
 
 **Baxdrostat** 是 aldosterone synthase (CYP11B2) 選擇性抑制劑——機轉與 MRA 不同（MRA 是受體拮抗，ASI 是上游酵素抑制），但兩者最終都在 aldosterone signaling 軸上作用。
 
@@ -287,8 +287,12 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 
 - **不能寫成 PA 的標準治療** — BaxHTN protocol-level 排除 PA，沒有 PA-specific biochemical remission 或 long-term cardiorenal data。
 - **不能寫成 adrenalectomy 或 spironolactone/eplerenone 的替代** — 適應症不同；adrenalectomy 對 lateralized PA 仍是 etiology-curing；MRA 仍是雙側病變或不適合手術的主軸。
-- **可以寫成「未來方向之一」** — 機轉上對 aldosterone excess 高度相關，phase 3 已有正式 BP-lowering data；但 PA-targeted efficacy、subtype-specific role、surgery-sparing potential 都尚未建立。
-- **截至本次查核可見**：台灣 TFDA 公開資料未顯示已核准適應症；US NDA accepted under FDA Priority Review (2025-12)，實際監管行動以官方公告為準。
+- **可以寫成「已核准的降壓新機轉，但 PA 定位未建立」** — 機轉上對 aldosterone excess 高度相關，phase 3 已有正式 BP-lowering data，美國也已核准高血壓適應症；但 PA-targeted efficacy、subtype-specific role、surgery-sparing potential 都尚未建立。
+- **監管狀態（2026-09-12）**：
+  - **美國已核准**。商品名 **BAXFENDY**，NDA 219878，核准日 **2026-05-15**。**核准的適應症是高血壓**——與其他降壓藥併用，用於其他藥物控制不佳的成人。**不是 PA 適應症。**
+  - 核准仿單與 PA 共照直接相關的兩點：最常見不良反應為**高血鉀**；**eGFR <45 起始的安全性與療效未建立**（BaxHTN 本身即要求 eGFR ≥45、血鉀 <5.0）。
+  - **台灣查無許可證**（2026-09-10 版 TFDA 西藥許可證資料集）。是否已送件不在該資料集範圍，不下定論。
+  - **核准並未改變上面四條結論**：BaxHTN by protocol 排除 PA 病人，核准基礎裡沒有任何 PA-specific 資料。
 
 詳細 emerging therapy 定位見 [CKM Q13 — 新興治療（含 ASI、口服 GLP-1RA、retatrutide）](/ckm/q13-emerging-therapies/)。
 
