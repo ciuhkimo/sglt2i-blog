@@ -2,9 +2,9 @@
 question_id: "Q09"
 title: "MASLD/MASH 與 CKD 的腎臟科共管"
 category: "代謝腎交互"
-version: "v1.2"
+version: "v1.3"
 status: ""
-last_updated: 2026-05-27
+last_updated: 2026-09-12
 next_review: 2026-08-27
 tags:
   - CKM-syndrome
@@ -80,6 +80,13 @@ seo_title: "Q09 MASLD/MASH 與 CKD 的腎臟科共管 | CKM Syndrome 腎臟科�
 ### 3. Rezdiffra 的腎臟安全性
 原版對 eGFR <30 / dialysis 的結論太像已知事實。
 **修正後：** mild/moderate renal impairment 無需調整；**severe CKD / dialysis 直接證據有限，避免過度外推**。
+
+>**2026-09-12 更新：FIB-4 的施作頻率已有指引建議**
+> 2026 AHA/ACC/ADA/ASN CKM 指引（PMID 42263157）給了明確頻率：
+> - **COR 1, LOE B-NR**：CKM 症候群合併糖尿病，或具 ≥2 項心代謝風險因子者，**每 1–2 年**計算 FIB-4
+> - **COR 2a, LOE C-LD**：因 prediabetes 而屬 CKM stage 1 者，**每 2–3 年**計算 FIB-4
+>
+> 這是頻率建議，**不改變下面關於 FIB-4 在透析族群限制的結論**。指引並未針對透析病人另訂 FIB-4 條文。
 
 ### 4. FIB-4 / FibroScan 在透析病人的使用
 原版方向對，但需補上 guideline / recent data 的 caveat。
@@ -463,6 +470,7 @@ Stable CKD patient
 依臨床情境分流：
 
 - 想看**肥胖驅動 CKD** → [Q08 — Obesity-Related Glomerulopathy](/ckm/q08-obesity-related-glomerulopathy/)（診斷標準 / 生檢 / 治療）
+- 想看**指引層的門檻與建議等級** → [Q16 — 2026 AHA/ACC/ADA/ASN CKM 指引](/ckm/q16-2026-ckm-guideline/)（CKD 用藥門檻表、進展期續用、台美落差）
 - 想看 **CKM 四柱整合** → [Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/)（GLP-1 RA 在 metabolic-renal 的位置）
 - 想看 **CKM Biomarkers** → [Q15 — CKM Biomarkers 解讀](/ckm/q15-ckm-biomarkers/)（NT-proBNP / Troponin / UACR / Cystatin C 在 CKD 的陷阱）
 

@@ -2,9 +2,9 @@
 question_id: "Q06"
 title: "HF 藥物在 CKD 的使用門檻（BB、MRA、ARNI、H-ISDN、SGLT2i）"
 category: "心腎交互"
-version: "v1.2"
+version: "v1.3"
 status: ""
-last_updated: 2026-04-29
+last_updated: 2026-09-12
 next_review: 2027-04-29
 tags:
   - CKM-syndrome
@@ -82,6 +82,25 @@ CKD 3b-5 會放大臨床上對以下問題的焦慮：
 | **Finerenone** | 現在已是 **FDA-approved for HF with LVEF ≥40%**；但**不是 HFrEF guideline pillar 的替代品** | HF indication 下：**K⁺ >5.0 不要起始；eGFR <25 不建議起始**；eGFR ≥60 通常 20 mg 起始、target 40 mg；eGFR 25-<60 通常 10 mg 起始、target 20 mg | 依 potassium table 調整 / 暫停；**K⁺ ≥5.5 時要 down-titrate 或 hold** | eGFR 掉下來後是否續用要看 K⁺ 與耐受性；**不要把 HF 標示與舊的 DKD-only 寫法混在一起** |
 | **Hydralazine / ISDN** | 腎功能幾乎不是這組藥的限制點 | **無固定 eGFR / K⁺ gate** | 症狀性低血壓、嚴重頭痛、依從性很差 | 對低 eGFR / dialysis 最「腎中性」；**RAAS/ARNI 不可行時是替代路徑** |
 | **SGLT2i** | HFrEF pillar；在 HFmrEF/HFpEF 也有穩定 HF-event benefit；還能幫忙降低 hyperkalemia burden | **Guideline（KDIGO）看 eGFR ≥20**；但 **product label 要看單一藥**（dapagliflozin vs empagliflozin 不完全一樣） | volume depletion、酮酸中毒風險情境、開始 KRT / dialysis | **KDIGO：一旦起始，即使 eGFR <20 也可續用，直到不耐受或 KRT**；但不要把 guideline floor 寫成每個產品 label 的固定門檻 |
+
+### 2026 指引對「CKD 合併 HF」給的四條門檻（2026-09-12 新增）
+
+2026 AHA/ACC/ADA/ASN CKM 指引（PMID 42263157）第 6.3.3 節把這組情境寫成帶建議等級的條文。上表是實務操作視角，下表是指引視角，**兩者互補**：
+
+| 情境 | 指引建議 | eGFR 門檻 | COR / LOE |
+|---|---|---|---|
+| CKD + **HFrEF** | 起始 ARNI；無法用 ARNI 則用其他 RASi | **≥30** | 1 / A |
+| CKD + HF（**任何 EF**）| 起始 SGLT2i | **≥20** | 1 / A |
+| CKD + T2D + **UACR ≥30** + HF **LVEF >40%**（HFmrEF/HFpEF）| 起始 nsMRA 是合理的 | **≥25** | **2a** / B-R |
+| CKD + **HFrEF** | 新型口服鉀結合劑「may be reasonable」，**目的是降低高血鉀風險以維持 RAAS 抑制** | **>30** | **2b** / B-R |
+
+三點提醒：
+
+- **注意後兩條的等級**。nsMRA 在 HFmrEF/HFpEF 是 **COR 2a**、鉀結合劑是 **COR 2b**，都不是 COR 1。寫進病歷或衛教時不宜講得比指引強。
+- **nsMRA 那條有四個條件同時成立才適用**：CKD、T2D、UACR ≥30、LVEF >40%，加上 eGFR ≥25。少一個都不是這條。
+- **鉀結合劑的定位是「讓 RAAS 抑制得以維持」**，不是獨立的心衰竭治療。這與本篇稍後談 DIALIZE-Outcomes 的結論不衝突——那談的是透析族群的硬終點，是不同的問題。
+
+指引的完整門檻表與台灣給付落差見 [Q16 — 2026 CKM 指引：腎臟科要改什麼](/ckm/q16-2026-ckm-guideline/)。
 
 ---
 
@@ -535,6 +554,7 @@ DIALIZE-Outcomes 沒有證明 SZC 在 maintenance hemodialysis 能改善 arrhyth
 依臨床情境分流：
 
 - 想看 **cardiorenal 分型** → [Q03 — Cardiorenal Syndrome 分型](/ckm/q03-cardiorenal-syndrome-types/)（Type 1-5 急慢性決策）
+- 想看**指引層的門檻與建議等級** → [Q16 — 2026 AHA/ACC/ADA/ASN CKM 指引](/ckm/q16-2026-ckm-guideline/)（CKD 用藥門檻表、進展期續用、台美落差）
 - 想看**利尿策略** → [Q05 — Cardiorenal 利尿策略](/ckm/q05-diuretic-strategy/)（DOSE-AHF / CARRESS-HF / ADVOR）
 - 想看 **CKM 四柱整合** → [Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/)（RASi + SGLT2i + Finerenone + GLP-1 RA 起始順序）
 - 想看 **advanced CKD 藥物策略** → [Q12 — eGFR <20 CKM 藥物策略](/ckm/q12-low-egfr-ckm-strategy/)

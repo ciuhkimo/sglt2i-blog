@@ -2,9 +2,9 @@
 question_id: "Q12"
 title: "eGFR <20 的 CKM 藥物策略（Advanced CKD）"
 category: "整合藥物策略"
-version: "v1.1"
+version: "v1.2"
 status: ""
-last_updated: 2026-04-22
+last_updated: 2026-09-12
 next_review: 2027-04-22
 tags:
   - CKM-syndrome
@@ -42,6 +42,17 @@ seo_title: "Q12 eGFR <20 的 CKM 藥物策略（Advanced CKD） | CKM Syndrome �
 7. **台灣 NHI 與國際指引不能混寫。** 2025 起 CKD 給付的 SGLT2i 起始條件是 **eGFR 25–60 + uACR 200–5000 + 先有穩定 ACEi/ARB**，且 **使用後若 eGFR <15 應停藥**；這是給付規範，不等同於 KDIGO 的 continuation logic。[7]
 
 ---
+
+>**2026-09-12 更新：續用邏輯已獲美國指引正式背書**
+> 本篇的立場原本依 KDIGO 2024 與 STOP-ACEi 建立。2026 AHA/ACC/ADA/ASN CKM 指引（PMID 42263157）第 6.5 節給了對應的正式建議：
+>
+> **COR 2a, LOE B-R**——已在使用腎臟保護藥物、且 eGFR 跌破各藥起始門檻者，**在安全耐受的前提下繼續使用是合理的**。
+>
+> 指引明列的起始門檻為 **RASi ≥30、SGLT2i ≥20、finerenone ≥25**，並說明多個大型試驗允許 eGFR 跌破門檻後、甚至開始透析後繼續用藥，觀察到持續效益且未見明顯增加的不良反應。
+>
+> **這是增強不是改寫**：下面依 KDIGO 2024 與 STOP-ACEi 所做的分層論述全部維持。指引同時記載兩項限制——FIDELITY 中 CKD G4 次族群的心血管終點方向一致但**未達統計顯著**，且 **CKD G4 使用 finerenone 者高血鉀較頻繁**。
+>
+> 指引另外明文表示：**eGFR <15 的血壓、血脂、血糖目標值是不確定的**，依賴臨床判斷與醫病共同決策；**腎移植族群不在該指引涵蓋範圍**。
 
 ## Why This Matters
 
@@ -334,6 +345,7 @@ KRT 準備同步進行：
 依臨床情境分流：
 
 - 想看 **HF 藥物在 CKD 門檻** → [Q06 — HF 藥物在 CKD 的使用門檻](/ckm/q06-hf-drugs-ckd-thresholds/)
+- 想看**指引層的門檻與建議等級** → [Q16 — 2026 AHA/ACC/ADA/ASN CKM 指引](/ckm/q16-2026-ckm-guideline/)（CKD 用藥門檻表、進展期續用、台美落差）
 - 想看 **CKM 四柱整合** → [Q11 — CKM 四柱整合策略](/ckm/q11-four-pillar-integration/)
 - 想看 **CV 風險分層** → [Q14 — CV 風險分層](/ckm/q14-cv-risk-stratification/)（PREVENT / KDIGO heat map）
 

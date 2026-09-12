@@ -2,9 +2,9 @@
 question_id: "Q11"
 title: "CKM 四柱整合策略（RASi + SGLT2i + Finerenone + GLP-1 RA）"
 category: "整合藥物策略"
-version: "v1.4"
+version: "v1.5"
 status: ""
-last_updated: 2026-08-01
+last_updated: 2026-09-12
 next_review: 2026-11-01
 tags:
   - CKM-syndrome
@@ -114,6 +114,20 @@ CONFIDENCE 顯示，在 **T2D + CKD + albuminuria + 已使用 RASi** 的人群�
 - **不能把 CONFIDENCE 視為：已完成四柱策略的最終證明。**
 
 ---
+
+>**2026-09-12 新增：同時起始與 add-on 是兩個不同問題，門檻也不同**
+> 本篇談的是**同時起始**（simultaneous initiation），ADA 2026 的條件是 T2D + UACR ≥100 + eGFR 30–90 + 已在 RASi 上。
+>
+> 2026 AHA/ACC/ADA/ASN CKM 指引（PMID 42263157）第 5.5.4 節談的是另一個問題：**在一線治療之上加藥**。它的門檻是：
+>
+> | 加哪個藥 | 條件 | eGFR | COR / LOE |
+> |---|---|---|---|
+> | **nsMRA** | CKD + T2D + **UACR ≥30**，已用 ACEi/ARB 與 SGLT2i | **≥25** | 1 / A |
+> | **GLP-1-based therapy** | CKD + T2D + **UACR ≥100**，已用 ACEi/ARB 與 SGLT2i | 未另訂 | 1 / B-R |
+>
+> **最容易記錯的一點：nsMRA 的 add-on 門檻是 UACR ≥30，不是 ≥100。** ≥100 是 GLP-1-based therapy 的門檻，以及 ADA 對「同時起始」的門檻。三個數字分屬三個不同問題。
+>
+> 完整門檻表與台灣給付落差見 [Q16 — 2026 CKM 指引：腎臟科要改什麼](/ckm/q16-2026-ckm-guideline/)。
 
 ## 2. ADA 2026：正式文字是 “can be considered”
 
@@ -636,6 +650,7 @@ Albuminuric T2D + CKD
 依臨床情境分流：
 
 - 想看**分期框架** → [Q01 — CKM Syndrome 定義與分期](/ckm/q01-ckm-definition-staging/)（Stage 0-4 完整定義）
+- 想看**指引層的門檻與建議等級** → [Q16 — 2026 AHA/ACC/ADA/ASN CKM 指引](/ckm/q16-2026-ckm-guideline/)（CKD 用藥門檻表、進展期續用、台美落差）
 - 想看 **HF 藥物在 CKD 門檻** → [Q06 — HF 藥物在 CKD 的使用門檻](/ckm/q06-hf-drugs-ckd-thresholds/)（BB、MRA、ARNI、H-ISDN、SGLT2i）
 - 想看**新興治療** → [Q13 — CKM 新興治療](/ckm/q13-emerging-therapies/)（tirzepatide、atrasentan、baxdrostat）
 - 想看 **CV 風險分層** → [Q14 — CV 風險分層](/ckm/q14-cv-risk-stratification/)（PREVENT / KDIGO heat map）

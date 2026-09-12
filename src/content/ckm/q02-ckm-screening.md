@@ -2,9 +2,9 @@
 question_id: "Q02"
 title: "CKM 篩檢與識別"
 category: "定義與識別"
-version: "v1.2"
+version: "v1.3"
 status: ""
-last_updated: 2026-05-12
+last_updated: 2026-09-12
 next_review: 2027-04-22
 tags:
   - CKM-syndrome
@@ -42,6 +42,7 @@ seo_title: "Q02 CKM 篩檢與識別 | CKM Syndrome 腎臟科臨床決策"
 4. **更新 AHA 2026 狀態**：
    - 原文寫「AHA 2026 預計發表首部整合性 CKM 臨床實作指引」；
    - 目前應改為：**AHA 2026 CKM Health Implementation Guide 已發布**。
+   - ⚠️ **2026-09-12 補充：這份與四學會聯合指引是兩份不同文件，不要混稱。** AHA 的 Health Implementation Guide 是實作導引；**2026 AHA/ACC/ADA/ASN CKM 指引**（Circulation 2026;154(4):e50-e158，PMID 42263157）是帶 COR/LOE 的臨床實作指引，於 2026-06-09 發布，並取代與擴充 2013 AHA/ACC/TOS 肥胖處置指引。本篇引用的篩檢頻率與分期原則以後者為準，詳見 [Q16 — 2026 CKM 指引：腎臟科要改什麼](/ckm/q16-2026-ckm-guideline/)。
 
 5. **修正 PREVENT 外部效度敘述**：
    - 原文寫「台灣/東亞尚無已發表驗證論文」過度絕對；
@@ -256,6 +257,7 @@ PREVENT 不適用於已知 CVD 的 secondary prevention；KFRE 也不應外推�
 - 想看**分期框架** → [Q01 — CKM Syndrome 定義與分期](/ckm/q01-ckm-definition-staging/)（Stage 0-4 完整定義）
 - 想看 **CV 風險分層** → [Q14 — CV 風險分層](/ckm/q14-cv-risk-stratification/)（PREVENT / KDIGO heat map 取代 Framingham/ASCVD）
 - 想看**篩檢工具陷阱** → [Q15 — CKM Biomarkers 解讀](/ckm/q15-ckm-biomarkers/)（NT-proBNP / Troponin / UACR / Cystatin C 在 CKD 的陷阱）
+- 想看**指引層的門檻與建議等級** → [Q16 — 2026 AHA/ACC/ADA/ASN CKM 指引](/ckm/q16-2026-ckm-guideline/)（CKD 用藥門檻表、篩檢頻率、台美落差）
 
 ---
 

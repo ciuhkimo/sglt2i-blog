@@ -2,9 +2,9 @@
 question_id: "Q01"
 title: "CKM Syndrome 定義與分期"
 category: "定義與識別"
-version: "v1.3"
+version: "v1.4"
 status: ""
-last_updated: 2026-06-05
+last_updated: 2026-09-12
 next_review: 2027-04-22
 tags:
   - CKM-syndrome
@@ -47,6 +47,13 @@ CKM syndrome 是 AHA 於 2023 年提出的整合式風險架構，用來把 **ad
 ---
 
 ## Key Evidence
+
+> **2026-09-12 更新：分期已進入正式指引**
+> 本篇的分期框架源自 **AHA 2023 presidential advisory**。2026-06-09 發布的 **AHA/ACC/ADA/ASN CKM 指引**（Circulation 2026;154(4):e50-e158，PMID 42263157）把分期寫成帶建議等級的條文：
+>
+> **COR 1, LOE B-NR**——青少年（<18 歲）與成人（≥18 歲）皆應以評估代謝風險因子、腎功能（計算 eGFR，**CKM stage ≥2 另加 UACR**）與 CVD 狀態來進行 CKM 分期。
+>
+> 對腎臟科的實務意義是：**stage ≥2 的病人，eGFR 與 UACR 兩者都要有，不是二擇一**。門檻表與篩檢頻率見 [Q16](/ckm/q16-2026-ckm-guideline/)。
 
 ### CKM Stage 0–4 定義（查核後版本）
 
@@ -229,6 +236,7 @@ AHA 的 **PREVENT** 是 primary prevention 風險工具，不是 CKM 分期本�
 依臨床情境分流：
 
 - 想看**治療整合** → [Q11 — 四柱整合策略](/ckm/q11-four-pillar-integration/)（RASi + SGLT2i + Finerenone + GLP-1 RA 起始順序）
+- 想看**指引層的門檻與建議等級** → [Q16 — 2026 AHA/ACC/ADA/ASN CKM 指引](/ckm/q16-2026-ckm-guideline/)（CKD 用藥門檻表、進展期續用、台美落差）
 - 想看**心腎共病** → [Q03 — Cardiorenal Syndrome 分型](/ckm/q03-cardiorenal-syndrome-types/)（Type 1-5 急慢性決策）
 - 想看 **CV 風險** → [Q14 — CV 風險分層](/ckm/q14-cv-risk-stratification/)（PREVENT / KDIGO heat map 取代 Framingham/ASCVD）
 
