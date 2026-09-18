@@ -7,7 +7,7 @@
 - [SGLT2i Decision Notes](https://nephrodecisions.com/sglt2i/): 20 clinical decision questions on SGLT2 inhibitors in CKD — initiation, monitoring, hold/restart, special populations. Based on KDIGO 2024, DAPA-CKD, EMPA-KIDNEY, CREDENCE.
 - [GLP-1 RA Decision Notes](https://nephrodecisions.com/glp1ra/): 10 clinical decision questions on GLP-1 receptor agonists in CKD — FLOW trial, sequencing with SGLT2i, Taiwan NHI coverage.
 - [Finerenone Decision Notes](https://nephrodecisions.com/finerenone/): 11 clinical decision questions — mechanism, hyperkalemia management, FIDELIO/FIGARO/FIDELITY evidence, Taiwan NHI status.
-- [CKM Syndrome Decision Notes](https://nephrodecisions.com/ckm/): 15 clinical decision questions on Cardiovascular-Kidney-Metabolic syndrome — AHA 2023 staging, cardiorenal syndrome types, four-pillar integration, CV risk stratification.
+- [CKM Syndrome Decision Notes](https://nephrodecisions.com/ckm/): 16 clinical decision questions on Cardiovascular-Kidney-Metabolic syndrome — AHA 2023 staging, the 2026 multisociety CKM guideline, cardiorenal syndrome types, four-pillar integration, CV risk stratification, emerging therapies (tirzepatide, atrasentan, atacicept, baxdrostat).
 - [Primary Aldosteronism (PA) Decision Notes](https://nephrodecisions.com/pa/): 13 clinical decision questions on primary aldosteronism in Taiwan nephrology practice — screening, ARR cutoff & washout, confirmatory testing, AVS lateralization, surgery vs MRA, CKD-PA, post-treatment monitoring, adrenal incidentaloma, PA + atrial fibrillation, persistent post-treatment hypertension, NHI coverage, PA + osteoporosis, MACS-PA overlap. Based on 2025 Endocrine Society, 2024 ESC HTN, 2025 Taipei Positional Paper, TAIPAI.
 
 ## Patient Education
@@ -59,4 +59,4 @@
 - Evidence sources: PubMed/PMID, ClinicalTrials.gov/NCT, KDIGO, ADA, AHA, ESC, TFDA, Taiwan NHI
 - Drug names: Generic names primary; Taiwan brand names (e.g., Forxiga/福適佳, Jardiance/恩排糖, Kerendia, Ozempic/胰妥讚) listed for identification only, not endorsement
 - No pharma sponsorship, no advertising, no affiliate links
-- Last updated: 2026-09-12
+- Last updated: 2026-09-18
