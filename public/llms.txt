@@ -40,6 +40,7 @@
 
 - [Rural Nephrology Series](https://nephrodecisions.com/rural-nephrology/): District-hospital nephrology in rural southern Taiwan — scope and referral boundaries for CKD, HD/PD, AKI, transplant shared care, and conservative / end-of-life kidney care.
 - [Where Are Taiwan's Nephrologists?](https://nephrodecisions.com/rural-nephrology/02-nephrology-workforce-distribution/): National nephrologist density is not low, but county-level averages hide rural gaps — why the county is the wrong unit of analysis.
+- [Does a Rural Hospital Need Its Own CRRT?](https://nephrodecisions.com/rural-nephrology/03-rural-crrt-local-or-transfer/): Rural hospitals with an ICU should build local CRRT capability, but the reason for transfer comes first — a 2×2 transfer framework, and what the hospital must provide when introducing the service.
 
 ## Regulatory Watch
 

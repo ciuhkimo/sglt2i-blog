@@ -3,7 +3,7 @@ layout: ../../layouts/RuralNephrologyHubLayout.astro
 title: "偏鄉腎臟照護｜不只是洗腎，而是從 CKD 到末期腎病的長期照顧"
 description: "南部偏鄉地區腎臟科視角，談 CKD 早期辨識、CKD5 透析準備、HD/PD 在地照護、AKI 上轉、腎臟移植 shared care、conservative kidney management 與末期腎病安寧的完整 care continuum。clinical boundary 與 referral threshold 的誠實清單。"
 category: "Rural Nephrology"
-last_updated: 2026-08-24
+last_updated: 2026-10-09
 tags:
   - 偏鄉醫療
   - rural-nephrology
@@ -115,7 +115,7 @@ AKI 在偏鄉**不是「全上轉」**。**可在地初步處理**：明確 prer
 - Renal biopsy
 - AVS（PA workup）
 - Kidney transplant evaluation
-- Severe acute care（CRRT、複雜 cardiorenal/hepatorenal、refractory 高血鉀）
+- Severe acute care：院內尚未建立能力時的 CRRT、複雜 cardiorenal/hepatorenal、refractory 高血鉀
 - 嚴重移植排斥 / IS 大幅調整
 - 嚴重 PD 腹膜炎 （需拔管）/ UF failure 評估
 

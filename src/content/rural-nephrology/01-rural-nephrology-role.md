@@ -3,7 +3,7 @@ title: "偏鄉腎臟科醫師到底在做什麼？地區醫院腎臟科的角色
 description: "南部偏鄉地區醫院的腎臟科實際能做什麼、什麼必須上轉、什麼適合與醫學中心共照——血液透析、腹膜透析、急性腎損傷與移植後追蹤的能力邊界。"
 category: "Rural Nephrology"
 target_audience: "腎臟科醫師、基層醫師、病人與家屬、醫療管理者"
-last_updated: 2026-05-18
+last_updated: 2026-10-09
 tags:
   - 偏鄉醫療
   - rural-nephrology
@@ -74,7 +74,7 @@ spoke_id: rural-nephrology-role
 - **目前無法執行**：CRRT、ICU level KRT、HDF / online HDF / nocturnal HD、plasma exchange、其他特殊血液淨化技術
 - 特殊耗材 / 試劑可近性受限
 
-> CRRT 與 ICU-level KRT 的可行性，**不只是有沒有機器**——需要 24/7 ICU 量能、訓練完整的護理與醫療團隊、品質治理體系。若機構未建立完整 setup，應列為「待建立能力」或上轉項目，而非僅為「未具備設備」。
+> CRRT 與 ICU-level KRT 的可行性，**不只是有沒有機器**——需要 24/7 ICU 量能、訓練完整的護理與醫療團隊、品質治理體系。若機構未建立完整 setup，應列為「待建立能力」或上轉項目，而非僅為「未具備設備」。建置與轉診怎麼分界，見〈[台灣這麼小，偏鄉醫院還需要自己的 CRRT 嗎？](/rural-nephrology/03-rural-crrt-local-or-transfer/)〉。
 
 ### 3.2 PD（腹膜透析）
 
@@ -106,7 +106,7 @@ spoke_id: rural-nephrology-role
 
 **必須上轉的 trigger**：
 
-- 需 RRT 但血行動力學極度不穩 / ARDS / 需 ECMO
+- 需 RRT 但血行動力學極度不穩（院內尚未建立 CRRT 能力時）/ ARDS / 需 ECMO
 - 需 kidney biopsy
 - 需血漿置換、targeted therapy、pulse 類固醇、化學治療
 - 複雜 cardiorenal / hepatorenal syndrome 需多科專家
@@ -215,7 +215,7 @@ spoke_id: rural-nephrology-role
 |---|---|---|
 | ✅ **可以在地完成** | CKD outpatient follow-up、穩定 HD 維持、穩定移植 IS 追蹤、輕度 AKI 初步處置、跨科衛教 | 地區醫院腎臟科 |
 | 🔄 **適合 shared care** | 移植後 IS 維持期 follow-up、PD 多數在地 + 特殊回 PD center、conservative pathway 在地 + 安寧外接 | 地區醫院 + 醫中 |
-| ⬆️ **必須上轉** | AVF/AVG 手術、kidney biopsy、AVS、嚴重 PD 腹膜炎、suspected rejection、CRRT、複雜 cardiorenal、refractory 高血鉀 | 醫中 / 移植中心 |
+| ⬆️ **必須上轉** | AVF/AVG 手術、kidney biopsy、AVS、嚴重 PD 腹膜炎、suspected rejection、CRRT（院內尚未建立能力時）、複雜 cardiorenal、refractory 高血鉀 | 醫中 / 移植中心 |
 | 👨‍👩‍👧 **需要長照 / 社工 / 家庭支持** | 弱勢腎友、獨居長者、conservative pathway、palliative care | 跨團隊(地區 + 長照 + 社工 + 家屬) |
 
 > 上表不是完整臨床指引，**實際決策仍取決於病人病情、在地資源、檢驗與轉診可近性**。
