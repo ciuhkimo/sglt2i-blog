@@ -290,7 +290,9 @@ function buildWeeklyDraft(range, rows) {
 		'',
 		`掃描 ${FEEDS.length} 個官方 RSS；以下為非目標範圍、初判排除（${excluded.length} 則）：`,
 		'',
-		...excluded.slice(0, 20).map((r) => `- ${isoDate(r.date)} ${r.title}（${r.feedLabel}）`),
+		// 2026-10-09：移除 .slice(0, 20) 截斷。被排除的項目若不留完整紀錄，來源 RSS 視窗滾過後
+		// 就無法事後覆驗（9/12 實證：重跑時衛福部焦點新聞最舊只到 09-01，漏掉該期最重要的一則）。
+		...excluded.map((r) => `- ${isoDate(r.date)} ${r.title}（${r.feedLabel}）`),
 		'',
 		'> 本檔為腳本自動初整草稿，分類與重要度僅供參考，所有「可能影響」與是否公開均待醫師審閱定稿。',
 	];

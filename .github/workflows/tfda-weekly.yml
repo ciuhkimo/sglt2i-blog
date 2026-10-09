@@ -1,9 +1,23 @@
-name: TFDA 醫藥監管週報草稿
+name: TFDA 監管週報資料存檔
 
-# Tier 1 自動化：每週自動抓取 TFDA 官方 RSS、初整成週報草稿，並開一個 draft PR 等醫師審閱。
-# 重要界線：本流程只「產草稿 + 開 PR」，不 push main、不自動發布。
-# 草稿一律 review_status: needs_physician_review（noindex、不列入列表/feed），需醫師審閱、
-# 翻 review_status → physician_reviewed 並 merge 後，才會由 Vercel 部署上線。
+# Tier 1 自動化（2026-10-09 改版：解耦「抓取」與「發佈」）
+#
+# 改版前：抓取 → 寫 src/content/regulatory/ 草稿 → 開 draft PR 等醫師審閱。
+#   問題不是 PR 數量，是資料會腐壞。每週產生一張待處理 PR，人沒空就積壓
+#   （2026-09-07 ~ 10-04 共積了 4 張、一個月）；而來源 RSS 視窗會滾過，
+#   草稿事後就無法一手核對。被排除的項目更是連紀錄都不留——work/tfda/ 同時被
+#   .gitignore 與 PR 的 add-paths 兩道獨立阻擋，CI 跑完即消失。
+#   2026-09-12 已實證後果：重跑驗證時衛福部焦點新聞最舊只到 09-01，
+#   反而漏掉該期最重要的健保給付那一則。
+#
+# 改版後：抓取結果（含**完整**未收錄清單）直接 commit 進 tfda-archive/，
+#   不開 PR、不寫內容目錄。發佈改為人工流程：需要時在本機跑
+#   `node scripts/fetch-tfda-updates.mjs --from X --to Y --promote`，
+#   逐則一手核對，再走既有發佈 routine（build:verify → 精確 stage → tfda:publish → push）。
+#
+# 重要界線（比改版前更嚴格）：
+#   本流程只寫 tfda-archive/，**完全不碰 src/content/**、不發布、不翻 review_status。
+#   改版前它會把草稿寫進內容目錄（雖為 needs_physician_review／noindex）；現在連那一步都沒有。
 
 on:
   schedule:
@@ -20,10 +34,13 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+
+concurrency:
+  group: tfda-archive
+  cancel-in-progress: false
 
 jobs:
-  draft:
+  archive:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -50,48 +67,60 @@ jobs:
           fi
           echo "from=$FROM" >> "$GITHUB_OUTPUT"
           echo "to=$TO" >> "$GITHUB_OUTPUT"
-          echo "週報區間：$FROM 至 $TO"
+          echo "存檔區間：$FROM 至 $TO"
 
-      - name: Fetch TFDA + 產生草稿（--promote）
-        run: node scripts/fetch-tfda-updates.mjs --from "${{ steps.range.outputs.from }}" --to "${{ steps.range.outputs.to }}" --promote
+      - name: Fetch TFDA（不帶 --promote：不寫 src/content/）
+        run: node scripts/fetch-tfda-updates.mjs --from "${{ steps.range.outputs.from }}" --to "${{ steps.range.outputs.to }}"
 
-      - name: 計算 in-scope 項目數
-        id: scope
+      - name: 複製到 tfda-archive/（work/tfda/ 本身仍是 gitignored 的暫存輸出）
+        id: copy
         run: |
-          F="work/tfda/${{ steps.range.outputs.to }}/items.json"
-          if [ -f "$F" ]; then
-            N=$(node -e "const d=require('./'+process.argv[1]); console.log(d.filter(x=>x.include_in_public_weekly).length)" "$F")
-          else
-            N=0
+          SRC="work/tfda/${{ steps.range.outputs.to }}"
+          DST="tfda-archive/${{ steps.range.outputs.to }}"
+          if [ ! -d "$SRC" ]; then
+            echo "::error::抓取未產生輸出目錄 $SRC"
+            exit 1
           fi
-          echo "count=$N" >> "$GITHUB_OUTPUT"
-          echo "in-scope 收錄候選：$N 則"
+          mkdir -p "$DST"
+          cp "$SRC"/items.json "$SRC"/digest.md "$SRC"/weekly-draft.md "$DST"/
+          TOTAL=$(node -e "console.log(require('./'+process.argv[1]).length)" "$DST/items.json")
+          INSCOPE=$(node -e "console.log(require('./'+process.argv[1]).filter(x=>x.include_in_public_weekly).length)" "$DST/items.json")
+          echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
+          echo "inscope=$INSCOPE" >> "$GITHUB_OUTPUT"
+          echo "存檔：$DST（共 $TOTAL 則，其中 in-scope 收錄候選 $INSCOPE 則）"
 
-      - name: 開 draft PR（僅當本週有 in-scope 項目）
-        if: steps.scope.outputs.count != '0'
-        uses: peter-evans/create-pull-request@v7
-        with:
-          token: ${{ github.token }}
-          draft: true
-          base: main
-          branch: tfda-weekly/${{ steps.range.outputs.to }}
-          delete-branch: true
-          add-paths: src/content/regulatory/*.md
-          commit-message: '醫藥監管週報草稿（自動）：${{ steps.range.outputs.from }} 至 ${{ steps.range.outputs.to }}'
-          title: '醫藥監管週報草稿｜${{ steps.range.outputs.from }} 至 ${{ steps.range.outputs.to }}'
-          body: |
-            自動抓取 TFDA 官方 RSS 產生的週報草稿（`review_status: needs_physician_review`，未公開）。
+      - name: Commit & push（只 stage 本週存檔路徑）
+        run: |
+          DST="tfda-archive/${{ steps.range.outputs.to }}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$DST"
+          if git diff --cached --quiet; then
+            echo "本週存檔內容與既有版本相同，無需 commit。"
+            exit 0
+          fi
+          git commit -m "TFDA 資料存檔（自動）：${{ steps.range.outputs.from }} 至 ${{ steps.range.outputs.to }}（${{ steps.copy.outputs.total }} 則，in-scope ${{ steps.copy.outputs.inscope }}）" \
+                     -m "僅存檔抓取結果，未寫入 src/content/、未發布。發佈需人工一手核對後走既有 routine。"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "push 第 $i 次失敗，重試…"
+            sleep 5
+          done
+          echo "::error::push 連續三次失敗"
+          exit 1
 
-            **收錄候選：${{ steps.scope.outputs.count }} 則。**
-
-            ### 審稿 checklist（合併前）
-            - [ ] 逐項核對官方原文連結可開、標題/日期相符
-            - [ ] 「可能影響」只寫「可能／需確認」，無過度延伸、無替主管機關下結論
-            - [ ] 法規措辭分清：預告／草案／正式生效不可混為一談
-            - [ ] 安全/回收項：批號等細節若在附件，已標「需查原文附件」未編造
-            - [ ] 補完 TL;DR 表格、`description`、`tags`，移除所有「（待審）」placeholder
-            - [ ] 通過 `npm run tfda:publish -- <slug>`（翻 review_status + 本地 commit）
-            - [ ] 確認 rendered 頁面後 push / merge → Vercel 上線
-
-            > 本 PR 由排程自動建立；分類與重要度僅供初判，臨床與法規意義以醫師審閱定稿為準。
-            > 不會自動合併、不會自動上線。
+      - name: 摘要
+        run: |
+          {
+            echo "### TFDA 資料存檔"
+            echo ""
+            echo "- 區間：\`${{ steps.range.outputs.from }}\` 至 \`${{ steps.range.outputs.to }}\`"
+            echo "- 抓到 **${{ steps.copy.outputs.total }}** 則，其中 in-scope 收錄候選 **${{ steps.copy.outputs.inscope }}** 則"
+            echo "- 路徑：\`tfda-archive/${{ steps.range.outputs.to }}/\`"
+            echo ""
+            echo "本流程不開 PR、不寫 \`src/content/\`、不發布。要出刊時在本機跑："
+            echo ""
+            echo '```'
+            echo "node scripts/fetch-tfda-updates.mjs --from <起日> --to <迄日> --promote"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,74 @@
+# TFDA 監管掃描 digest｜2026-09-14 至 2026-09-20
+
+掃描來源 11 個官方 RSS；區間內收錄候選 6 則、排除 12 則。
+
+## registration（3）
+
+- [low・建議排除] 2026-09-18 Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 14-17 September 2026
+  - EMA 新聞與新聞稿｜原文：https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026
+  - 摘要：12 new medicines recommended for approvalEMA’s human medicines committee (CHMP) recommended 12 medicines for approval at its September 2026 meeting.The committee recommended…, CHMP statistics Key figures from the September 2026&nbsp;CHMP&nb
+- [low・建議排除] 2026-09-17 FDA Approves First Gene Therapy for Pediatric Patients with Sanfilippo Syndrome Type A
+  - FDA 新聞稿（核准／政策）｜原文：https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-pediatric-patients-sanfilippo-syndrome-type
+  - 摘要：The U.S. Food and Drug Administration today approved Fayuvi (rebisufligene etisparvovec-hopf), the first treatment for pediatric patients with mucopolysaccharidosis type IIIA (MPS IIIA), also known as Sanfilippo syndrome type A.
+- [medium] 2026-09-15 ''飛利浦''病患監視器安全訊息
+  - 食藥署國外消費紅綠燈—醫療器材｜原文：https://www.fda.gov.tw/tc/csmnewsContent.aspx?mid=270&id=8016
+  - 摘要：''飛利浦''病患監視器安全訊息 &#8220;飛利浦&#8221; 病患監視器 安全訊息 許可證字號： 衛部醫器輸字第 034602 號 產品英文名稱： &#8220; Philips&#8221; IntelliVue Patient Monitor 受影響規格 / 型號 / 批號，及其 UDI-DI ： 型號 產品編號 UDI-DI MX750 866471 00884838083332 AD75 （ 顯示器） 867130 00884838088009 其餘原文訊息所
+
+## safety（5）
+
+- [low・建議排除] 2026-09-18 Sodium Chloride Flush Recall: Spectra Medical Removes Sodium Chloride Injection USP Ampules
+  - FDA MedWatch 安全警訊｜原文：https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/sodium-chloride-flush-recall-spectra-medical-removes-sodium-chloride-injection-usp-ampules
+  - 摘要：Spectra Medical Devices is removing Sodium Chloride Flush products that were manufactured by Huons Co,. Ltd.
+- [high] 2026-09-16 預告廢止「公告違反藥事法第三十九條、第四十六條、第五十三條、第七十五條規定者，其違規市售品及庫存品回收之處理事宜」
+  - 食藥署本署公告｜原文：https://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31732
+  - 摘要：預告廢止「公告違反藥事法第三十九條、第四十六條、第五十三條、第七十五條規定者，其違規市售品及庫存品回收之處理事宜」 發文日期：中華民國115年9月16日 發文字號：衛授食字第1151401181號 附件：廢止理由及「公告違反藥事法第三十九條、第四十六條、第五十三條、第七十五條規定者，其違規市售品及庫存品回收之處理事宜」之PDF檔各1份 主旨：預告廢止「公告違反藥事法第三十九條、第四十六條、第五十三條、第七十五條規定者，其違規市售品及庫存品回收之處理事宜」。 依據：行政程序法第
+- [high] 2026-09-16 預告訂定「違反藥事法第四十六條、第五十三條及第七十五條規定，與業者依風險評估並經中央衛生主管機關認定應回收之藥品處理規定」草案
+  - 食藥署本署公告｜原文：https://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31731
+  - 摘要：預告訂定「違反藥事法第四十六條、第五十三條及第七十五條規定，與業者依風險評估並經中央衛生主管機關認定應回收之藥品處理規定」草案 發文日期：中華民國115年9月16日 發文字號：衛授食字第1151402194號 附件：「違反藥事法第四十六條、第五十三條及第七十五條規定，與業者依風險評估並經中央衛生主管機關認定應回收之藥品處理規定」草案PDF擋1份 主旨：預告訂定「違反藥事法第四十六條、第五十三條及第七十五條規定，與業者依風險評估並經中央衛生主管機關認定應回收之藥品處理規定」草案
+- [high] 2026-09-16 預告修正「藥品回收處理辦法」部分條文草案
+  - 食藥署本署公告｜原文：https://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31730
+  - 摘要：預告修正「藥品回收處理辦法」部分條文草案 發文日期：中華民國115年9月16日 發文字號：衛授食字第1151401127號 附件：「藥品回收處理辦法」部分條文修正草案總說明及條文對照表之PDF檔1份 主旨：預告修正「藥品回收處理辦法」部分條文草案。 依據：行政程序法第一百五十一條第二項準用第一百五十四條第一項。 公告事項： 一、修正機關：衛生福利部。 二、修正依據：藥事法第八十條第三項。 三、「藥品回收處理辦法」部分條文修正草案總說明及條文對照表如附件。本案另載於行政院公報資
+- [low・建議排除] 2026-09-15 Esophageal pH Monitoring Capsule Recall: Medtronic and Given Imaging Remove Esophageal pH Monitoring Capsule Delivery Device
+  - FDA MedWatch 安全警訊｜原文：https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/esophageal-ph-monitoring-capsule-recall-medtronic-and-given-imaging-remove-esophageal-ph-monitoring
+  - 摘要：The Medtronic and Given Imaging Bravo CF esophageal pH monitoring capsule can fail to attach to the esophagus or detach from its delivery device.
+
+## other（1）
+
+- [low・建議排除] 2026-09-18 Nitric Oxide Delivery System Correction: NOxBOX Updates Use Instructions for NOxBOXi Nitric Oxide Delivery System
+  - FDA MedWatch 安全警訊｜原文：https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/nitric-oxide-delivery-system-correction-noxbox-updates-use-instructions-noxboxi-nitric-oxide
+  - 摘要：The NOxBOX NOxBOXi System may leak oxygen during inhaled nitric oxide therapy
+
+## law_policy（6）
+
+- [low・建議排除] 2026-09-18 中秋食品安全把關 食藥署攜手地方稽查合格率逾99%
+  - 食藥署本署新聞｜原文：https://www.fda.gov.tw/tc/newsContent.aspx?cid=4&id=t634692
+  - 摘要：&nbsp;&ensp;&nbsp;&ensp;食藥署說明，本次稽查涵蓋食品製造、販售及餐飲場所，查核項目包括食品業者登錄、食品良好衛生規範（GHP）準則、食品業者保存來源文件、產品責任保險、食品添加物使用及管理、定型化契約及食品標示等；另於傳統市場、超商、超市及量販店等販售通路，抽驗月餅成品、餡料及烤肉食材等應景產品。本次共查核298家食品製造、販售及餐飲業者，其中296家符合規定；抽驗697件應景食品，696件檢驗合格；另查核747件產品標示，744件符合規定，各項合格率
+- [low・建議排除] 2026-09-16 敬請支持「115年身心障礙者生活狀況及需求調查」
+  - 衛福部公告訊息｜原文：https://www.mohw.gov.tw/cp-18-87986-1.html
+  - 摘要：敬請支持 115年身心障礙者生活狀況及需求調查 衛生福利部訂於115年9月至116年1月辦理「115年身心障礙者生活狀況及需求調查」，懇請受訪民眾支持與配合 本調查係依據身心障礙者權益保障法規定，每5年辦理一次之指定統計調查。調查主要目的為蒐集我國身心障礙者之基本資料、居住狀況、外出及交通狀況、起居生活狀況、經濟狀況、工作現況、健康及醫療照顧、休閒、社會參與及自我決定，以及家庭主要照護者等資料。 本調查係由衛生福利部委託典通股份有限公司辦理，調查方式採實地訪查，調查期間為11
+- [low・建議排除] 2026-09-16 公告116年度「植牙科專科醫師訓練機構認定計畫」
+  - 衛福部公告訊息｜原文：https://www.mohw.gov.tw/cp-18-87984-1.html
+  - 摘要：一、依據牙醫專科醫師分科及甄審辦法第9條規定辦理。 二、旨揭訓練機構認定作業說明如下： (一)申請資格：具備訓練牙醫師成為口腔顎面外科、贋復補綴牙科及牙周病科專科醫師之準醫學中心以上醫院。 (二)申請期間自115年10月1日起至115年11月10日止。 (三)審核方式、計畫執行及其它注意事項，詳如旨揭計畫。 申請時應檢備文件電子檔及指定檔案格式，於115年11月10日下午5時前以電子郵件方式寄予本部委託單位 （財團法人醫院評鑑暨醫療品質策進會，下稱醫策會；dendr@jct.
+- [low・建議排除] 2026-09-16 預告訂定「社區支持服務之內容及執行方式」
+  - 衛福部公告訊息｜原文：https://www.mohw.gov.tw/cp-18-87979-1.html
+  - 摘要：依據：行政程序法第一百五十四條第一項。
+- [low・建議排除] 2026-09-14 公開徵求補助辦理115年度「布建兒童(青少年)專業精神醫療團隊及心智病房計畫」
+  - 衛福部公告訊息｜原文：https://www.mohw.gov.tw/cp-18-87928-1.html
+  - 摘要：一、申請期限：公告日起至115年10月12日止 二、申請方式：詳細資訊請見需求說明書
+- [low・建議排除] 2026-09-14 公告徵求辦理116-117年度「矯正機關整合性藥癮治療服務暨品質提升計畫」
+  - 衛福部公告訊息｜原文：https://www.mohw.gov.tw/cp-18-87923-1.html
+  - 摘要：一、申請期限：自公告日起20個日曆天（即115年10月5日前），以本部收文日期為憑，逾時不予受理。 二、申請方式： (一)符合申請資格之機構於申請期限內，以正式公文書，將計畫書（1式8份，格式如附件1，其中1份請勿裝訂，並含電子檔1份。請於計畫書送出前，逕依本計畫說明書規定應載明於計畫書之事項，檢視所提計畫書之完整性）及應檢附文件，以郵遞或專人送達本部（受文者：衛生福利部；地址：11558臺北市南港區忠孝東路6段488號）。 (二)請於信封封面敘明申請116年度「矯正機關整合
+
+## drug（2）
+
+- [medium] 2026-09-16 公告「ICH M12：藥物交互作用研究指引(Drug Interaction Studies)」及「ICH M12：藥物交互作用研究指引問答集(Drug Interaction Studies Q&As)」。
+  - 食藥署本署公告｜原文：https://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31733
+  - 摘要：公告「ICH M12：藥物交互作用研究指引(Drug Interaction Studies)」及「ICH M12：藥物交互作用研究指引問答集(Drug Interaction Studies Q&As)」。 發文日期：中華民國 115 年 9 月 14 日 發文字號： FDA 藥字第 1151409299 號 附件： ICH M12 ：藥物交互作用研究指引 1 份及 ICH M12 ：藥物交互作用研究指引問答集 1 份 主旨：公告「 ICH M12 ：藥物交互作用研究指引 
+- [low・建議排除] 2026-09-15 FDA Launches Expedited IND Pilot, Begins Accepting Applications
+  - FDA 新聞稿（核准／政策）｜原文：https://www.fda.gov/news-events/press-announcements/fda-launches-expedited-ind-pilot-begins-accepting-applications
+  - 摘要：The U.S. Food and Drug Administration today announced the final design of the Expedited Investigational New Drug (IND) Pilot.
+
+## controlled_drug（1）
+
+- [medium] 2026-09-14 公告修正管制藥品品項(增列Ethyl N-formyl-N-(1-phenylethyl)glycinate等2項管制藥品)
+  - 食藥署管制藥品類｜原文：https://www.fda.gov.tw/TC/newsContent.aspx?cid=3&id=31728

@@ -1,0 +1,54 @@
+# TFDA 監管掃描 digest｜2026-09-07 至 2026-09-13
+
+掃描來源 11 個官方 RSS；區間內收錄候選 4 則、排除 8 則。
+
+## safety（6）
+
+- [low・建議排除] 2026-09-13 Centric Compounding Issues Nationwide Recall of Glutathione, Myer’s Cocktail, and Tri-Immune Boost Due to Elevated Endotoxin Levels
+  - FDA MedWatch 安全警訊｜原文：https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/centric-compounding-issues-nationwide-recall-glutathione-myers-cocktail-and-tri-immune-boost-due
+  - 摘要：FOR IMMEDIATE RELEASE – 9/9/2026 – Houston, Texas, Centric Compounding is voluntarily recalling 6 lots of Glutathione 200mg/mL, Myer’s Cocktail, and Tri-Immune Boost injectable vials to the consumer level. The products have been found to be
+- [low・建議排除] 2026-09-10 Epidural Kit Correction: Medical Action Industries Issues Correction for Epidural Kits Containing Spectra Medical Devices Lidocaine Ampules
+  - FDA MedWatch 安全警訊｜原文：https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/epidural-kit-correction-medical-action-industries-issues-correction-epidural-kits-containing-spectra
+  - 摘要：Medical Action Industries is correcting epidural kits containing recalled Huons Co. sodium chloride ampules.
+- [high] 2026-09-10 公告修正「醫療器材回收處理辦法 」第四條、第十四條
+  - 食藥署本署公告｜原文：https://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31726
+  - 摘要：公告修正「醫療器材回收處理辦法 」第四條、第十四條 發文日期：中華民國115年9月10日 發文字號：衛授食字第1151604557號 修正「醫療器材回收處理辦法 」第四條、第十四條。 附修正「醫療器材回收處理辦法 」第四條、第十四條 ]]>
+- [high] 2026-09-09 有關PIERRE FABRE MEDICAMENT藥品恩考芬尼胶囊（批號5G2T3、5G2T4）警訊，國內並未輸入該批號藥品。
+  - 食藥署國外消費紅綠燈—藥品｜原文：https://www.fda.gov.tw/tc/csmnewsContent.aspx?mid=269&id=8006
+  - 摘要：有關PIERRE FABRE MEDICAMENT藥品恩考芬尼胶囊（批號5G2T3、5G2T4）警訊，國內並未輸入該批號藥品。 中國NMPA於115年8月26日發布藥品警訊，說明PIERRE FABRE MEDICAMENT之藥品「恩考芬尼胶囊（Encorafenib Capsules）」（批號5G2T3、5G2T4），使用未經核准重大製程變更之原料藥，故發布警訊一案。經查，案內警訊藥品無輸入我國，故評估我國藥品不受影響，請民眾放心。 &nbsp; 經查，衛生福利部核准「迫癌
+- [low・建議排除] 2026-09-08 BMC Medical Co., Ltd. Recalls Luna G3 APAP (Model LG3600) Devices with Firmware G3-2.00.76 Configured with G3 A20-31.cfg
+  - FDA MedWatch 安全警訊｜原文：https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bmc-medical-co-ltd-recalls-luna-g3-apap-model-lg3600-devices-firmware-g3-20076-configured-g3-a20
+  - 摘要：On July 15, 2026, BMC Medical Co., Ltd. (BMC), Beijing, China, retrospectively reported to the US Food and Drug Administration (FDA) a recall of 20,160 Luna G3 APAP (Model LG3600) devices distributed in the United States due to firmware def
+- [high] 2026-09-07 有關瑞士諾華製藥（香港）有限公司藥品Tykerb Tablets 250mg（批號RD0944）回收警訊，國內並未輸入該批號藥品。
+  - 食藥署國外消費紅綠燈—藥品｜原文：https://www.fda.gov.tw/tc/csmnewsContent.aspx?mid=269&id=8003
+  - 摘要：有關瑞士諾華製藥（香港）有限公司藥品Tykerb Tablets 250mg（批號RD0944）回收警訊，國內並未輸入該批號藥品。 香港衛生署於115年8月28日發布警訊，說明瑞士諾華製藥（香港）有限公司之藥品「Tykerb Tablets 250mg」（批號RD0944），有溶離度不符合規格之情形，故啟動回收一案。經查，案內警訊藥品無輸入我國，故評估我國藥品不受影響，請民眾放心。 &nbsp; 經查，衛生福利部核准「泰嘉錠 250 毫克膜衣錠（衛署藥輸字第024878號）」
+
+## registration（1）
+
+- [low・建議排除] 2026-09-11 Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 8-10 September 2026
+  - EMA 新聞與新聞稿｜原文：https://www.ema.europa.eu/en/news/meeting-highlights-committee-veterinary-medicinal-products-cvmp-8-10-september-2026
+  - 摘要：CVMP opinions on veterinary medicinal products&nbsp;The Committee adopted a positive opinion for a marketing authorisation for Cirbloc, for the active immunisation of&nbsp;pigs from…
+
+## law_policy（2）
+
+- [low・建議排除] 2026-09-11 訂定「營養師通訊執行業務辦法」
+  - 衛福部公告訊息｜原文：https://www.mohw.gov.tw/cp-18-87906-1.html
+  - 摘要：旨揭辦法資訊請見附件下載，亦可至本部衛生福利法規檢索系統網頁「 最新動態 」項下搜尋。
+- [low・建議排除] 2026-09-11 敬請支持「115年兒童及少年生活狀況調查」
+  - 衛福部公告訊息｜原文：https://www.mohw.gov.tw/cp-18-87901-1.html
+  - 摘要：敬請支持 115年兒童及少年生活狀況調查 衛生福利部訂於115年9月至11月辦理115年「兒童及少年生活狀況調查」，懇請受訪民眾及學校支持與配合 本調查係依據兒童及少年福利與權益保障法第13條規定，每4年辦理一次，目的在於了解兒童與少年之生活狀況及需求，以作為政府研訂社會福利政策、修訂相關法規之參考依據。 本調查由衛生福利部委託典通股份有限公司辦理，學齡前兒童調查方式採實地訪查兒童父母或主要照顧者，國小兒童調查方式係由兒童將問卷攜回請父母或主要照顧者填寫，國中、高中(職)及五
+
+## controlled_drug（1）
+
+- [high] 2026-09-11 公告修正管制藥品品項(增列Ethyl N-formyl-N-(1-phenylethyl)glycinate等2項管制藥品)
+  - 食藥署本署公告｜原文：https://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31728
+  - 摘要：公告修正管制藥品品項(增列Ethyl N-formyl-N-(1-phenylethyl)glycinate等2項管制藥品) 行政院 115 年 9 月 11 日院臺衛字第 1151023362 號公告，並自 115 年 9 月 15 日生效。 公告修正管制藥品品項說明如下 : ( 一 ) 增列N-甲醯基-N-(1-苯乙基)甘胺酸乙酯（Ethyl N-formyl-N-(1-phenylethyl)glycinate）為第四級管制藥品原料藥。 ( 二 ) 增列依托咪酯酸（Et
+
+## other（2）
+
+- [low・建議排除] 2026-09-10 食藥署舉辦2026年「APEC食品輸銷經驗分享研討會」
+  - 食藥署本署新聞｜原文：https://www.fda.gov.tw/tc/newsContent.aspx?cid=4&id=t634665
+  - 摘要：&ensp;&ensp;&ensp;&ensp;隨著國際食品貿易日益頻繁，各國持續強化進口食品安全管理及相關法規要求，業者須因應不同市場的法規制度、輸入程序及查驗要求，妥善規劃產品外銷。本次研討會透過各國制度及實務經驗分享，協助業者深入瞭解主要輸銷市場的管理要求，作為產品輸銷及市場布局的重要參考。 &ensp;&ensp;&ensp;&ensp;食藥署表示，本次研討會透過建立國內外產官學交流平台，促進國際食品法規、輸銷實務及清真市場等資訊交流。未來，食藥署將持續深化國際合作與
+- [low・建議排除] 2026-09-07 泰國醫衛高層代表團回訪衛福部資訊處，共商FHIR Box落地、醫療AI聯邦學習與跨國學術合作
+  - 衛福部公告訊息｜原文：https://www.mohw.gov.tw/cp-18-87814-1.html
+  - 摘要：衛生福利部資訊處李建璋處長於 8 月 20 日接見泰國智慧醫療參訪團。本次泰方代表團包括瑪希敦大學拉瑪鐵菩提醫院（Faculty of Medicine, Ramathibodi Hospital）及泰國私立醫院協會（Private Hospital Association of Thailand）高層代表，此行係針對今（2026）年 6 月 14 日至 17 日李建璋處長應泰國貿易經濟辦事處邀請赴泰考察醫療機構後之正式回訪，象徵台泰在智慧醫療與健康資訊領域建立起長期且緊密的
