@@ -1,6 +1,6 @@
 # Nephro Decisions
 
-> 台灣腎臟科臨床決策知識庫。由腎臟科專科醫師主導，AI 輔助文獻研究與多輪交替審稿。不接受藥廠贊助、無廣告、無 affiliate。
+> 台灣腎臟科臨床決策知識庫。由腎臟科專科醫師決定題目與臨床判斷，AI 工具協助文獻搜尋與證據整理；重要主張回查原始研究、官方指引或主管機關原文，經醫師審閱核定後發布。不接受藥廠贊助、無廣告、無 affiliate。
 
 ## Core Clinical Decision Notes
 
@@ -57,7 +57,7 @@
 
 - Language: Traditional Chinese (zh-Hant), Taiwan context
 - Author: 小鎮醫生 (pen name), board-certified nephrologist and internist
-- AI usage: Three-source triangulation (ChatGPT + Claude + Gemini) for literature review; physician makes all clinical judgments
+- AI usage: AI tools assist literature search, evidence synthesis and drafting; key claims are checked against primary studies, official guidelines or regulatory documents, with a second review round when needed; the physician makes all clinical judgments and approves before publication
 - Evidence sources: PubMed/PMID, ClinicalTrials.gov/NCT, KDIGO, ADA, AHA, ESC, TFDA, Taiwan NHI
 - Drug names: Generic names primary; Taiwan brand names (e.g., Forxiga/福適佳, Jardiance/恩排糖, Kerendia, Ozempic/胰妥讚) listed for identification only, not endorsement
 - No pharma sponsorship, no advertising, no affiliate links

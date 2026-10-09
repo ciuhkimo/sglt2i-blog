@@ -84,31 +84,30 @@ const pageLd = JSON.stringify({
 			<h2>作者與責任</h2>
 			<p>所有內容由「小鎮醫生」（腎臟科專科醫師、內科專科醫師；學歷：台灣大學醫學系）主導撰寫、審閱與拍板。作者身分為筆名，但編輯責任由本人承擔。</p>
 
-			<h2>產製流程（7 步驟）</h2>
+			<h2>產製流程</h2>
+			<p>由醫師決定題目與臨床問題，運用 AI 工具協助文獻搜尋、證據整理與草稿製作。重要主張回查原始研究、官方指引或主管機關原文，必要時增加第二輪查核。內容經醫師審閱與核定後發布。</p>
 			<table>
 				<thead>
 					<tr><th>步驟</th><th>執行者</th><th>做什麼</th></tr>
 				</thead>
 				<tbody>
-					<tr><td>1. 臨床題目</td><td>醫師</td><td>從臨床困境提出具體決策問題</td></tr>
-					<tr><td>2. 題目結構釐清</td><td>ChatGPT / Claude</td><td>拆解 sub-questions、釐清族群</td></tr>
-					<tr><td>3. 提示詞建構</td><td>ChatGPT Deep Research</td><td>為三源產生一致的研究 prompt</td></tr>
-					<tr><td>4. 三源文獻研究</td><td>ChatGPT + Claude + Gemini</td><td>各自獨立產出完整文獻回顧</td></tr>
-					<tr><td>5. Synthesis + Decision Note</td><td>Claude Code</td><td>交叉比對三源，整合為結構化 note（v1.0）</td></tr>
-					<tr><td>6. 雙重審閱</td><td>醫師 + ChatGPT Pro</td><td>醫師做臨床判斷；ChatGPT Pro 做獨立查核修訂（v1.1）</td></tr>
-					<tr><td>7. 定稿上架</td><td>醫師</td><td>拍板、標註版本與更新日</td></tr>
+					<tr><td>1. 臨床題目</td><td>醫師</td><td>從臨床情境決定題目，提出具體決策問題與臨床看法</td></tr>
+					<tr><td>2. 文獻搜尋與證據整理</td><td>醫師 + AI 工具</td><td>運用 AI 工具協助搜尋文獻、整理證據</td></tr>
+					<tr><td>3. 整合與草稿</td><td>Claude Code</td><td>整合為結構化文章，並負責網站更新</td></tr>
+					<tr><td>4. 回查原始資料</td><td>Claude Code（必要時增加第二輪查核）</td><td>重要主張回查原始研究、官方指引或主管機關原文</td></tr>
+					<tr><td>5. 審閱與核定</td><td>醫師</td><td>審閱、核定後發布，標示最後更新日期</td></tr>
 				</tbody>
 			</table>
 
 			<h2>AI 使用透明度</h2>
-			<p>本站的 AI 使用不是「AI 寫、醫師潤稿」，而是<strong>多工具角色分工</strong>：</p>
+			<p>本站的 AI 使用不是「AI 寫、醫師潤稿」，而是<strong>角色分工</strong>：</p>
 			<ul>
 				<li><strong>臨床判斷與最終決策</strong>：醫師</li>
-				<li><strong>多源文獻研究</strong>：ChatGPT + Claude + Gemini 三源平行，降低單一 AI bias</li>
-				<li><strong>結構化整合</strong>：Claude Code 負責交叉比對與草稿產製</li>
-				<li><strong>獨立查核</strong>：ChatGPT Pro 作為第二審閱者，產出 v1.1 查核修訂版</li>
+				<li><strong>文獻搜尋與證據整理</strong>：AI 工具協助；使用哪個工具依題目與當時的工具條件決定</li>
+				<li><strong>整合與網站更新</strong>：目前使用 Claude Code</li>
+				<li><strong>查核</strong>：重要主張回查原始研究、官方指引與主管機關原文；必要時增加第二輪查核</li>
 			</ul>
-			<p>AI 不做臨床判斷；醫師不做機械性的三源比對。每篇文章的 v1.0 與 v1.1 版本差異記錄在該篇的修訂歷史中。</p>
+			<p>AI 不做臨床判斷；所有內容經醫師審閱與核定後才發布。</p>
 
 			<h2>證據標準</h2>
 			<ul>
@@ -120,17 +119,17 @@ const pageLd = JSON.stringify({
 
 			<h2>版本管理</h2>
 			<ul>
-				<li>每篇文章標註版本號（v1.0、v1.1）與最後更新日期</li>
-				<li>v1.0 為 Claude Code 初版；v1.1 為 ChatGPT Pro 獨立查核修訂版</li>
+				<li>每頁標示最後更新日期；決策筆記類文章另標註版本號</li>
+				<li>版本號反映內容修訂（新證據、指引更新或更正），不代表由哪個工具處理</li>
 				<li>重要指引更新或新 RCT 發表時進行版本更新</li>
-				<li>每篇 frontmatter 記錄 next_review 日期作為內部治理參考</li>
+				<li>決策筆記類文章另記錄下次檢視日期，作為內部治理參考</li>
 			</ul>
 
 			<h2>勘誤政策</h2>
 			<p>發現錯誤請來信 <a href="mailto:cayman.schools.2@icloud.com">cayman.schools.2@icloud.com</a>。原則：</p>
 			<ul>
-				<li>事實錯誤會盡快修正，版本號進位（v1.1 → v1.2）</li>
-				<li>重大修正會在文章修訂歷史中註記改了什麼</li>
+				<li>事實錯誤會盡快修正；有版本號的文章，版本號進位（例如 v1.1 → v1.2）</li>
+				<li>事實更正會在文內註明改了什麼</li>
 				<li>若錯誤影響臨床建議，會透過 newsletter 通知訂閱者</li>
 			</ul>
 
@@ -149,7 +148,7 @@ const pageLd = JSON.stringify({
 			<p>編輯、合作、學術討論：<a href="mailto:cayman.schools.2@icloud.com">cayman.schools.2@icloud.com</a></p>
 
 			<div class="meta">
-				最後更新：2026-04-22 ｜ <a href="/about/">關於本站</a> ｜ <a href="/about/#disclaimer">免責聲明</a>
+				最後更新：2026-10-09 ｜ <a href="/about/">關於本站</a> ｜ <a href="/about/#disclaimer">免責聲明</a>
 			</div>
 		</main>
 		<Footer />
