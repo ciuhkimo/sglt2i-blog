@@ -526,6 +526,40 @@ console.log('\n## Check 12: llms.txt 時效與覆蓋率（warn-only）\n');
 }
 
 // ============================================================
+// Check 13: Obsidian callout 語法未轉換、原樣露出（全站 hard-fail）
+//   緣起：本站 markdown pipeline 只有 remark-gfm、沒有 callout plugin，`> [!warning]` 會原樣
+//   印給讀者看。2026-08-12 上線的兩頁因此壞了一個月（9/12 才發現），而 build／CI／schema
+//   全部偵測不到——它在 markdown 層完全合法。
+//   掃全站而非抽樣：當時壞掉的兩頁就不在任何抽樣清單裡。
+//   先剝 script/style/noscript（壓縮 JS 可能出現 `[!e]`），再剝 pre/code（刻意示範語法不算）。
+// ============================================================
+console.log('\n## Check 13: Obsidian callout 語法未轉換（全站掃描，hard-fail）\n');
+{
+	const pages = [];
+	(function walk(dir) {
+		for (const e of readdirSync(dir, { withFileTypes: true })) {
+			const p = resolve(dir, e.name);
+			if (e.isDirectory()) walk(p);
+			else if (e.name === 'index.html') pages.push(p);
+		}
+	})(DIST);
+
+	const calloutRe = /\[!([a-zA-Z][a-zA-Z0-9-]*)\][+-]?/g;
+	let leakPages = 0;
+	for (const p of pages) {
+		const visible = stripScriptsAndStyles(readFileSync(p, 'utf8'))
+			.replace(/<pre[\s\S]*?<\/pre>/gi, '')
+			.replace(/<code[\s\S]*?<\/code>/gi, '');
+		const hits = visible.match(calloutRe);
+		if (!hits) continue;
+		leakPages++;
+		const rel = p.slice(DIST.length).replace(/index\.html$/, '').replace(/\\/g, '/');
+		fail(`${rel}: ${hits.length} 處未轉換的 callout（${[...new Set(hits)].slice(0, 5).join(' ')}）→ 改用一般 blockquote／粗體`);
+	}
+	if (leakPages === 0) ok(`全站 ${pages.length} 頁，0 頁露出 callout 語法`);
+}
+
+// ============================================================
 // Final summary
 // ============================================================
 console.log('\n---');

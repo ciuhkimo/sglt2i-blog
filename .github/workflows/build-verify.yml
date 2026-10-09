@@ -32,7 +32,7 @@ jobs:
       - name: Install deps
         run: npm ci
 
-      # build + verify-p0（65 項檢核；Check 10 死連結為 hard-fail）
+      # build + verify-p0（Check 10 死連結、Check 13 callout 語法露出為 hard-fail）
       - name: Build & verify-p0
         run: npm run build:verify
 
