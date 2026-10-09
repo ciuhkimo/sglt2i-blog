@@ -2,9 +2,9 @@
 question_id: "Q13"
 title: "CKM 新興治療（tirzepatide、atrasentan、atacicept、baxdrostat、finerenone 擴展等）"
 category: "整合藥物策略"
-version: "v1.6"
+version: "v1.7"
 status: ""
-last_updated: 2026-09-18
+last_updated: 2026-10-09
 next_review: 2026-12-18
 tags:
   - CKM-syndrome
@@ -20,7 +20,7 @@ tags:
   - finerenone
   - IgAN
   - pipeline
-description: "2022-2026 重塑 CKM 版圖的新治療（tirzepatide、atrasentan、atacicept、baxdrostat、finerenone 擴展適應症，另含 orforglipron、retatrutide 等 pipeline）：核准狀態、證據分層、腎臟科使用情境與台灣可近性。"
+description: "2022-2026 重塑 CKM 版圖的新治療（tirzepatide、atrasentan、atacicept、baxdrostat、finerenone 擴展適應症，orforglipron 已核准減重適應症，retatrutide 仍在 phase 3）：核准狀態、證據分層、腎臟科使用情境與台灣可近性。"
 quick_answer: ""
 seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdrostat、finerenone | 腎臟科臨床決策"
 ---
@@ -79,15 +79,17 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 
 ---
 
-## 證據與狀態總覽（2026-09）
+## 證據與狀態總覽（2026-10）
 
-| 藥物 | 最高可直接驗證證據 | 目前最成立的敘述 | 2026-09 狀態 | 腎臟科實務定位 |
+| 藥物 | 最高可直接驗證證據 | 目前最成立的敘述 | 2026-10 狀態 | 腎臟科實務定位 |
 |------|------------------|------------------|-------------|---------------|
 | **Semaglutide** | FLOW + FDA CKD label | T2D+CKD 可降低 major kidney events / CV death 風險 | 已落地，不再只是 pipeline | 作為 GLP-1 renal comparator |
 | **Tirzepatide** | SUMMIT、SURPASS-4 post hoc、SURPASS-CVOT + official labels | CKM 訊號強，但腎臟與 HFpEF 仍非已查核到的官方腎臟 / HFpEF label | 已核准 T2D；另有 obesity / OSA in obesity indications；非 kidney label | 常由 diabetes / obesity / HF pathway 先遇到 |
 | **Atrasentan (Vanrafia／穩腎優)** | ALIGN + FDA accelerated approval + 台灣許可證 | primary IgAN、快速進展風險高、以蛋白尿下降為目前核准基礎 | 美國已核准；**台灣 2026-06-22 核准**（衛部藥輸字第029157號）；hard renal outcome confirmatory data 待完成 | nephrology-facing add-on 藥物；台灣已可取得 |
-| **Atacicept (Trutakna)** | ORIGIN 3 第 36 週期中分析（NEJM, PMID 41196369）+ FDA 核准仿單 | primary IgAN、以蛋白尿下降為核准基礎的 BAFF／APRIL 雙抑制劑 | 美國 2026-07-07 accelerated approval（BLA 761486）；**截至 2026-09-15，TFDA 已發證許可證資料查無紀錄**；104 週 confirmatory 資料 2026-09-15 由廠商公告、尚未同儕審查 | 與 atrasentan 同層級的 IgAN add-on；屬免疫抑制劑，多一層感染與疫苗時程考量 |
-| **Baxdrostat (Baxfendy)** | BrigHTN / BaxHTN + 美國核准仿單 | aldosterone synthase inhibitor，對 uncontrolled / resistant HTN 有明顯降壓效果 | 美國 2026-05-15 核准，適應症為**高血壓**；截至 2026-09-15，TFDA 已發證許可證資料查無紀錄 | 不是腎臟科適應症；仿單載明 eGFR <45 起始未建立、最常見不良反應為高血鉀 |
+| **Atacicept (Trutakna)** | ORIGIN 3 第 36 週期中分析（NEJM, PMID 41196369）+ FDA 核准仿單 | primary IgAN、以蛋白尿下降為核准基礎的 BAFF／APRIL 雙抑制劑 | 美國 2026-07-07 accelerated approval（BLA 761486）；**截至 2026-10-08，TFDA 已發證許可證資料查無紀錄**；104 週 confirmatory 資料 2026-09-15 由廠商公告、尚未同儕審查 | 與 atrasentan 同層級的 IgAN add-on；屬免疫抑制劑，多一層感染與疫苗時程考量 |
+| **Baxdrostat (Baxfendy)** | BrigHTN / BaxHTN + 美國核准仿單 | aldosterone synthase inhibitor，對 uncontrolled / resistant HTN 有明顯降壓效果 | 美國 2026-05-15 核准，適應症為**高血壓**；截至 2026-10-08，TFDA 已發證許可證資料查無紀錄 | 不是腎臟科適應症；仿單載明 eGFR <45 起始未建立、最常見不良反應為高血鉀 |
+| **Orforglipron (Foundayo)** | ATTAIN-1（NEJM, PMID 40960239）+ 美國核准仿單 | 口服小分子 GLP-1 RA，已取得減重適應症；**沒有 T2D 適應症、沒有腎臟適應症** | 美國 2026-04-01 核准（NDA 220934），適應症為**成人肥胖／過重合併共病的減重與長期維持**；截至 2026-10-08，TFDA 已發證許可證資料查無紀錄 | 可能改變 GLP-1 RA 的給藥途徑門檻；無 dedicated renal outcome data |
+| **Retatrutide** | 三個 phase 2 試驗（PMID 37366315／37385280／38858523）| GIP／GLP-1／glucagon triple agonist，減重與肝脂訊號強，**腎臟 hard endpoint 尚未產生** | **尚未核准**（美、台皆查無已核准紀錄）；phase 3 進行中，含帶腎臟複合終點的 TRIUMPH-Outcomes | 現階段不是臨床選項；追蹤 TRIUMPH-Outcomes |
 | **Finerenone** | official labels + FIND-CKD（NEJM 2026, PMID 42246672）| 已核准 T2D-associated CKD；**美國與台灣仿單均已含 HF with LVEF ≥40%**；non-DM CKD：FIND-CKD 已正式發表、primary 達標 | non-DM CKD 仍 investigational | 不能把 FIND-CKD 當已完成擴證 |
 
 ---
@@ -185,7 +187,11 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 ### 1. 目前可直接確認的 official status
 
 - Orforglipron 是 **口服、小分子、非胜肽 GLP-1 receptor agonist**；不需空腹、不需特殊飲水條件。
-- 截至 **2026-05**（本節之查核窗，**本次改版未重新核對**），美國 FDA / 台灣 TFDA 公開資料皆未顯示已核准適應症；屬於臨床試驗階段藥物。pipeline 藥物的法規狀態變動快，引用前請以最新官方資料覆核。
+- **美國 FDA 已於 2026-04-01 核准**，品名 **FOUNDAYO**（NDA 220934，Eli Lilly），屬 Type 1 新分子實體。
+- 核准適應症：**配合低熱量飲食與增加身體活動，用於成人肥胖、或成人過重且合併至少一項體重相關共病，以減少過多體重並長期維持**。
+- 仿單明列 limitation of use：**不建議與另一種 GLP-1 receptor agonist 併用**。
+- 核准用法：口服每日一次、可與食物併服，錠劑整顆吞服。起始 **0.8 mg**，每滿 30 天可視反應與耐受度往上一階（2.5 → 5.5 → 9 → 14.5 → 17.2 mg），**最高 17.2 mg/日**；每日不超過一錠。
+- ⚠️ **劑量不要直接把試驗數字搬到處方上**：ATTAIN-1 用的是 investigational formulation 的 6／12／36 mg，而仿單的療效章節是把那些劑量**換算成 FOUNDAYO 的 equivalent dosages** 後呈現（核准規格以 base 計算，EQ 0.8–17.2 mg）。「試驗 36 mg」與「仿單 17.2 mg」是同一件事的兩種表示，不是兩種不同強度。
 
 ### 2. 關鍵試驗：ATTAIN-1（obesity, non-diabetic）
 
@@ -200,41 +206,66 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 - 次要 endpoint：waist circumference、SBP、TG、non-HDL-C 皆顯著改善。
 - 安全性：**胃腸道副作用為主，多為輕中度**；因副作用停藥比例 5.3–10.3%（placebo 2.7%）。
 
-### 3. Regulatory status
+### 3. Regulatory status：已核准，但核准的不是你以為的那件事
 
-- 截至本次查核可見公開資料，**仍未取得 FDA 或 TFDA 正式減重 / T2D 適應症核准**。
-- 後續 ATTAIN-2（obesity with T2D, Lancet 2025）與 ACHIEVE 系列（T2D efficacy）資料已陸續發表，但**腎臟 hard endpoint 仍闕如**。
+- **美國已核准的是減重適應症**。這支藥**沒有 T2D 適應症、沒有任何腎臟適應症、也沒有 dedicated renal outcome trial**。
+- 台灣：**截至 2026-10-08，TFDA 已發證許可證資料查無 orforglipron／Foundayo 紀錄**。該資料集只涵蓋已發證許可證，**不涵蓋送件或審查中狀態**，因此這裡只能寫「查無許可證」，不能寫成「沒有在申請」。
+- 後續 ATTAIN-2（obesity with T2D）與 ACHIEVE 系列（T2D efficacy）資料已陸續發表，但**腎臟 hard endpoint 仍闕如**。
 
 ### 4. 腎臟科實務定位
 
 - Orforglipron 目前**沒有 dedicated renal outcome data**。
-- 可以說：「**未來可能改變 GLP-1 RA 的 access barrier**（口服 vs 注射）」。
-- 不能說：「已證明腎保護」、「可取代 semaglutide / tirzepatide 在 CKD 的角色」。
+- 可以說：「**這是第一個取得減重適應症的口服小分子 GLP-1 RA，可能改變給藥途徑這一層的門檻**」。
+- 不能說：「已證明腎保護」、「可取代 semaglutide / tirzepatide 在 CKD 的角色」、「核准了就可以用在 CKD 病人身上當腎臟治療」。
+- ⚠️ **「美國已核准」與「台灣病人拿得到」是兩件事**；在台灣查無許可證的情況下，門診遇到的多半是病人自己問起、或在國外取得後回診追蹤。
 - 腎臟科最可能的接觸場景：T2D + obesity 病人由糖尿病門診或減重門診先啟動，腎臟科端負責 renal trajectory monitoring。
 
 ---
 
-## Retatrutide（GIP + GLP-1 + glucagon triple agonist，phase 2 early signal）
+## Retatrutide（GIP + GLP-1 + glucagon triple agonist，尚未核准）
 
 ### 1. 機轉與發展階段
 
-- Retatrutide 是 **first-in-class** 的 triple hormone receptor agonist（GIP / GLP-1 / glucagon）。
-- 截至 **2026-05**（本節之查核窗，**本次改版未重新核對**），phase 2 完整資料已發表，**phase 3 / CVOT / dedicated CKD trial 仍進行中**（TRANSCEND-CKD 為其中一項）。
+- Retatrutide 是作用於 GIP／GLP-1／glucagon 三個受體的 triple hormone receptor agonist。
+- **尚未取得美國核准**：截至 2026-10-08，Drugs@FDA 查無 retatrutide 的已核准申請紀錄；ClinicalTrials.gov 另登錄一筆 **pre-approval expanded access**（NCT07629401），與未核准狀態一致。
+- 台灣：**截至 2026-10-08，TFDA 已發證許可證資料查無紀錄**。同前，這是「查無許可證」不是「沒有在申請」。
+- Phase 2 資料已完整發表（見下節），**phase 3 計畫已全面展開**：
+  - **TRIUMPH-1～4**：肥胖，以及巢式的 OSA、膝 OA 子計畫，另含合併 CVD 族群（整體逾 5,800 人）
+  - **TRANSCEND-T2D-1／-2**：T2D（-2 為與 semaglutide 的 open-label 對照）
+  - **TRIUMPH-Outcomes（NCT06383390）**：腎臟科最該追蹤的一項。n=10,000、BMI ≥27 且合併 ASCVD 和／或 CKD、event-driven；主要終點包含一個**腎臟複合終點——ESKD、eGFR 持續下降 ≥40%、心血管死亡或腎臟死亡**。primary completion 預計 **2029-02**
+  - 另有一項 T2D 合併中度至重度腎功能不全的 phase 3（NCT06297603，n=320），**終點是血糖控制、不是腎臟結果**
 
-### 2. Phase 2 關鍵數字（資料整合自 2026 review）
+### 2. Phase 2 關鍵數字（逐項對應到各自的原始試驗）
 
-- 48 週 12 mg：**體重下降 24.2%**；63% 達 ≥20% 減重。
-- T2D 族群：**HbA1c 降 2.02%**；27% 達 HbA1c < 5.7% normoglycemia。
-- DEXA 顯示 **脂肪量下降 23.2%**（試驗自身數據；本版不與 bariatric surgery 做跨研究比較）。
-- MASLD：**肝脂下降 82.4%**；86% 病人達肝脂正常化。
-- 系統血流動力學：SBP 下降 **8.79 mmHg**；UACR 顯著下降。
-- 副作用：與 incretin class 一致；**dose-dependent chronotropic effect**（心率上升）需注意。
+這幾組數字來自**族群、時間點、終點都不同**的三個 phase 2 試驗與其子研究，**不可互相搬用**。
+
+**肥胖（無糖尿病），n=338，48 週**（PMID 37366315）
+- 48 週體重變化：12 mg **−24.2%**、8 mg **−22.8%**、placebo −2.1%（最小平方平均）。
+- 48 週達 ≥5%／≥10%／≥15% 減重：12 mg **100%／93%／83%**；placebo 27%／9%／2%。
+- **劑量依賴性心率上升於 24 週達高峰後回落**；腸胃道不良事件為主，多為輕中度，較低起始劑量可部分減輕。
+
+**T2D，n=281，24／36 週**（PMID 37385280）
+- 24 週 HbA1c 變化：12 mg（起始 2 mg）**−2.02%**（SE 0.11）；placebo −0.01%、dulaglutide 1.5 mg −1.41%。
+- 36 週體重下降：12 mg **16.94%**、8 mg 慢速調升 16.81%。
+
+**T2D 體組成子研究（DXA），36 週**（PMID 40609566）
+- 總脂肪量下降：8 mg pooled **26.1%**、12 mg **23.2%**、dulaglutide 2.6%、placebo 4.5%。
+- ⚠️ **8 mg 的脂肪量下降幅度大於 12 mg**。只引 12 mg 的數字會讓人誤以為劑量越高越強。
+- 該子研究完成 baseline 與 36 週 DXA 的只有 103 人，**不是主試驗全體**。
+
+**MASLD 子研究（phase 2a），n=98，24 週**（PMID 38858523）
+- 肝脂相對變化：12 mg **−82.4%**、8 mg −81.4%、placebo +0.3%。
+- 24 週肝脂回到正常（<5%）：12 mg **86%**、8 mg 79%、placebo 0%。
+- ⚠️ 這是 **24 週的子研究**，不是 48 週主試驗的終點。
+
+本節只保留能回到上述原始試驗的數字。**血壓與 UACR 不在此列**——retatrutide 目前沒有可直接引用的一手腎臟或血壓終點數據。
 
 ### 3. 腎臟科實務定位
 
-- 在 hard renal outcome 出爐前，**不能寫成 CKD 治療藥**。
-- 機轉上對 CKM continuum（obesity + MASLD + BP + UACR）有跨領域影響，是值得追蹤的方向。
-- 對腎臟科目前的意義：**未來幾年要密切追蹤 phase 3 / dedicated CKD outcome trial**；現階段不適合於門診主動建議或臨床決策依據。
+- **尚未核准，在 hard renal outcome 出爐前不能寫成 CKD 治療藥**。
+- 機轉上對 CKM continuum（體重 + 肝脂 + 代謝）有跨領域影響，是值得追蹤的方向；但**腎臟端目前是空白，不是「訊號偏弱」而是「還沒有」**。
+- 對腎臟科目前的意義：盯 **TRIUMPH-Outcomes** 的腎臟複合終點（預計 2029-02）。那一天之前，這支藥在門診**不構成建議依據**。
+- ⚠️ 若看到以 retatrutide 與其他減重藥做跨試驗比較的整理，**先確認比較的是同一時間點、同一族群、同一終點**；這支藥的數字特別容易被不同子研究混著引用。
 
 ---
 
@@ -656,7 +687,7 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
    https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219878
 10. U.S. FDA. **BAXFENDY prescribing information**（適應症、hyperkalemia、eGFR 段落與 §8.6 Renal Impairment 均引自本檔）.
    https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/219878Orig1s000lbl.pdf
-11. 衛生福利部食品藥物管理署. **西藥、醫療器材、含藥化粧品許可證資料集**。本文的 Vanrafia、Kerendia 許可證字號與適應症逐字內容，以及 baxdrostat 與 atacicept 查無許可證之結論，**均取自同一版本：2026-09-15 版，經 CSV 解析為 72,057 筆紀錄**（檔案行數較多，因欄位含跨行引號，行數不等於筆數）。查詢有效性以 finerenone、atrasentan、tirzepatide、semaglutide、spironolactone、belimumab、eculizumab 七項 positive control 全數命中驗證，其中 belimumab 為同類 anti-BAFF 生物製劑對照。**該資料集僅涵蓋已發證許可證（含已註銷），不涵蓋送件中或審查中案件。**
+11. 衛生福利部食品藥物管理署. **西藥、醫療器材、含藥化粧品許可證資料集**。本文的 Vanrafia、Kerendia 許可證字號與適應症逐字內容取自 **2026-09-15 版（CSV 解析為 72,057 筆）**；baxdrostat、atacicept、orforglipron、retatrutide **查無許可證**之結論已於 **2026-10-08 版（CSV 解析為 72,074 筆）重新確認**。（檔案行數較多，因欄位含跨行引號，行數不等於筆數。）查詢有效性以 finerenone、atrasentan、tirzepatide、semaglutide、spironolactone、belimumab 六項 positive control 全數命中驗證，其中 belimumab 為同類 anti-BAFF 生物製劑對照。**該資料集僅涵蓋已發證許可證（含已註銷），不涵蓋送件中或審查中案件。**
    https://data.fda.gov.tw/
 12. （歷史）AstraZeneca. **Baxdrostat NDA accepted under FDA Priority Review** (2025-12-02).
    https://www.astrazeneca.com/media-centre/press-releases/2025/baxdrostat-new-drug-application-accepted-under-fda-priority-review-in-the-us-for-patients-with-hard-to-control-hypertension.html
@@ -672,6 +703,10 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
    https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761486Orig1s000lbl.pdf
 31. U.S. FDA. **FDA Approves New Treatment to Reduce Proteinuria in Adults with Primary Immunoglobulin A Nephropathy**（官方核准公告）.
    https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-new-treatment-reduce-proteinuria-adults-primary-immunoglobulin-nephropathy
+40. U.S. FDA. **Drugs@FDA — FOUNDAYO (orforglipron), NDA 220934, Eli Lilly and Company；ORIG 申請狀態 AP、日期 2026-04-01；submission class Type 1 新分子實體**。核准規格為 EQ 0.8／2.5／5.5／9／14.5／17.2 mg base 口服錠。本文核准日、申請號與規格取自 Drugs@FDA 的 openFDA 結構化資料（取用日 2026-10-09）.
+   https://api.fda.gov/drug/drugsfda.json?search=application_number:%22NDA220934%22
+41. U.S. FDA. **FOUNDAYO prescribing information**（本文適應症逐字、limitation of use「不建議與另一種 GLP-1 receptor agonist 併用」、起始 0.8 mg 與最高 17.2 mg/日之調升方式，以及 §14 載明療效資料來自 investigational formulation、以 FOUNDAYO 的 equivalent dosages 呈現，均引自本檔；仿單版本日 2026-07-29，經 openFDA drug/label 取用，取用日 2026-10-09）.
+   https://api.fda.gov/drug/label.json?search=openfda.generic_name:%22orforglipron%22
 32. Vera Therapeutics. **ORIGIN 3 兩年最終療效分析公告**（2026-09-15；本文 104 週 eGFR slope、複合終點與 sBLA 規劃均引自本公告，該資料尚未同儕審查）.
    https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-trutaknatm-atacicept-vymj-stabilized
 
@@ -699,6 +734,16 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
    https://pubmed.ncbi.nlm.nih.gov/41406444/
 38. Wharton S, et al. **ATTAIN-1（orforglipron, obesity）.** *N Engl J Med.* 2025-09-16. PMID: **40960239**（N=3,127；phase 3、multinational、double-blind）.
    https://pubmed.ncbi.nlm.nih.gov/40960239/
+42. Jastreboff AM, Kaplan LM, Frías JP, et al. **Triple-Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial.** *N Engl J Med.* 2023;389(6):514-526. PMID: **37366315**. DOI: **10.1056/NEJMoa2301972**（NCT04881760；n=338；48 週 12 mg −24.2%、8 mg −22.8%；≥5/10/15% 達成率 100/93/83%；心率上升於 24 週達高峰後回落）.
+   https://pubmed.ncbi.nlm.nih.gov/37366315/
+43. Rosenstock J, Frias J, Jastreboff AM, et al. **Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial conducted in the USA.** *Lancet.* 2023;402(10401):529-544. PMID: **37385280**. DOI: **10.1016/S0140-6736(23)01053-X**（NCT04867785；n=281；24 週 HbA1c 12 mg −2.02%、placebo −0.01%、dulaglutide 1.5 mg −1.41%；36 週體重 12 mg −16.94%）.
+   https://pubmed.ncbi.nlm.nih.gov/37385280/
+44. Sanyal AJ, Kaplan LM, Frias JP, et al. **Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial.** *Nat Med.* 2024;30(7):2037-2048. PMID: **38858523**. DOI: **10.1038/s41591-024-03018-2**（NCT04881760 子研究；n=98；24 週肝脂 12 mg −82.4%、8 mg −81.4%、placebo +0.3%；肝脂 <5% 達成 12 mg 86%、8 mg 79%、placebo 0%）.
+   https://pubmed.ncbi.nlm.nih.gov/38858523/
+45. Coskun T, Wu Q, Schloot NC, et al. **Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial.** *Lancet Diabetes Endocrinol.* 2025;13(8):674-684. PMID: **40609566**. DOI: **10.1016/S2213-8587(25)00092-0**（NCT04867785 子研究；36 週總脂肪量 8 mg pooled −26.1%、12 mg −23.2%、dulaglutide −2.6%、placebo −4.5%；完成 baseline 與 36 週 DXA 者 103 人）.
+   https://pubmed.ncbi.nlm.nih.gov/40609566/
+46. Giblin K, Kaplan LM, Somers VK, et al. **Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.** *Diabetes Obes Metab.* 2025;28(1):83-93. PMID: **41090431**. DOI: **10.1111/dom.70209**（本文 TRIUMPH-1～4 之設計與逾 5,800 人規模引自本檔）.
+   https://pubmed.ncbi.nlm.nih.gov/41090431/
 39. Network meta-analysis（incretin 類 AKI 安全訊號）. *Int J Mol Sci.* 2026. PMID: **42123715**（本文引用其 high-dose tirzepatide AKI 之 NMA 統計訊號；NMA 非 dedicated randomized safety endpoint）.
    https://pubmed.ncbi.nlm.nih.gov/42123715/
 33. Lafayette R, Barbour SJ, Brenner RM, et al. **A Phase 3 Trial of Atacicept in Patients with IgA Nephropathy (ORIGIN 3).** N Engl J Med. 2026;394(7):647-657. PMID: **41196369**. DOI: **10.1056/NEJMoa2510198**（第 36 週期中分析，n=203；UPCR 組間差 41.8 個百分點，95% CI 28.9–52.3）.
@@ -720,6 +765,13 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 27. **FIND-CKD** — NCT05047263.
    https://clinicaltrials.gov/study/NCT05047263
 36. **ORIGIN 3** — NCT04716231（試驗編號依 Trutakna 核准仿單 §14 所載）.
+47. **ATTAIN-1**（orforglipron, obesity）— NCT05869903.
+48. **Retatrutide phase 2 obesity** — NCT04881760；**retatrutide phase 2 T2D** — NCT04867785.
+49. **TRIUMPH-Outcomes** — NCT06383390（phase 3、event-driven、n=10,000；BMI ≥27 且合併 ASCVD 和／或 CKD；主要終點含 ESKD／eGFR 持續下降 ≥40%／心血管死亡或腎臟死亡之腎臟複合終點；primary completion 預計 2029-02；查核日狀態 active, not recruiting）.
+   https://clinicaltrials.gov/study/NCT06383390
+50. **TRANSCEND-T2D-1** — NCT06354660；**TRANSCEND-T2D-2** — NCT06260722（與 semaglutide 之 open-label 對照）.
+51. **Retatrutide，T2D 合併中度至重度腎功能不全** — NCT06297603（phase 3、n=320；**終點為血糖控制，非腎臟結果**）.
+52. **Retatrutide pre-approval expanded access** — NCT07629401（與尚未核准狀態一致）.
    https://clinicaltrials.gov/study/NCT04716231
 
 ---
