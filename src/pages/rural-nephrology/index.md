@@ -165,7 +165,7 @@ Rural Nephrology Hub（本頁）
 
 - [台灣腎臟科醫師都在哪裡？全國密度不低，但縣市平均看不見偏鄉](/rural-nephrology/02-nephrology-workforce-distribution/) — 縣市平均是錯誤的分析單位，四個判讀陷阱
 - [偏鄉醫院增聘一位專科醫師：腎臟科還是心臟科？](/blog/rural-hospital-nephrology-vs-cardiology-recruitment/) — 必要性與招募難度是兩個方向相反的問題
-- [台灣這麼小，偏鄉醫院還需要自己的 CRRT 嗎？](/rural-nephrology/03-rural-crrt-local-or-transfer/) — 應在地建置，但轉診原因優先；以及基層有阻力時院方的責任
+- [台灣這麼小，偏鄉醫院還需要自己的 CRRT 嗎？](/rural-nephrology/03-rural-crrt-local-or-transfer/) — 有加護病房的偏鄉醫院應在地建置，但轉診原因優先；以及導入時院方要承擔的責任
 
 延伸對照（純心臟科題材，不納入本專題）：[台灣心臟科人力分布：中心不算少，團隊卻很集中](/blog/taiwan-cardiology-workforce-rural-access/)——把同一套指標套到另一科，用來檢驗縣市級指標到底有沒有科別解析度。
 
