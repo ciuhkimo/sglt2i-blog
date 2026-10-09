@@ -1,5 +1,6 @@
 {
   "buildCommand": "npm run build",
+  "trailingSlash": true,
   "redirects": [
     {
       "source": "/:path*",
@@ -51,6 +52,11 @@
     },
     {
       "source": "/feed",
+      "destination": "/rss.xml",
+      "permanent": true
+    },
+    {
+      "source": "/feed/",
       "destination": "/rss.xml",
       "permanent": true
     }
