@@ -25,7 +25,7 @@
 
 ## Clinical Topics (Blog)
 
-- [Influenza Vaccination in Advanced CKD](https://nephrodecisions.com/blog/influenza-vaccination-advanced-ckd/): Patient and family guide to influenza vaccination in CKD G4/G5 and dialysis, kidney-safety evidence limits, Taiwan 2026–2027 eligibility, and the rural-care perspective on preventing severe illness. Policy cutoff: 2026-10-03.
+- [Influenza Vaccination in Advanced CKD](https://nephrodecisions.com/blog/influenza-vaccination-advanced-ckd/): Patient and family guide to influenza vaccination in CKD G4/G5 and dialysis, kidney-safety evidence limits, Taiwan 2026–2027 eligibility, and the rural-care perspective on preventing severe illness. Policy cutoff: 2026-10-09.
 - [CKD G5 and Local PRP: Dialysis Risk and Cross-Specialty Safety Checks](https://nephrodecisions.com/blog/ckd-g5-prp-injection-dialysis-risk/): Evidence scope, procedure safeguards, and uncertainty around dialysis initiation after local musculoskeletal PRP in advanced CKD. For clinician discussion, not individual medical advice.
 - [DKD Four-Pillar Therapy Guide 2026](https://nephrodecisions.com/blog/dkd-four-pillars-2026/): Comprehensive integration of ACEi/ARB + SGLT2i + Finerenone + GLP-1 RA with Taiwan NHI context.
 - [Taiwan ESRD 20-Year Trends](https://nephrodecisions.com/blog/taiwan-esrd-20y-clinical/): 2000-2022 dialysis epidemiology, mortality, transplant rates.
