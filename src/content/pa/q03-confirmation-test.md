@@ -70,7 +70,7 @@ quick_answer: "ARR 陽性後先判斷能否『跳過確診』：同時符合自�
 > 以下三個數字用途不同、不可混為一談（2017 TSA 共識 PMID 28735660 + Wu CH 2019 PMID 31216359）：
 > - **診斷切點**：post-SIT PAC **>10 ng/dL**（2017 TSA 共識正式印刷值、國際慣用；Song CONPASS 另用 >8、post-CCT >11，皆非 TAIPAI 專屬）。
 > - **「>16 ng/dL」**：2017 TSA 共識中**引述 TAIPAI study group 未發表資料**、列為 highest positive predictive value 的附帶敘述（出現在坐位 SIT 討論脈絡）——**屬未發表來源、非正式診斷切點**，勿當成 TAIPAI 標準診斷或手術 cutoff 沿用。
-> - **術後療效預測**：post-SIT PAC **>25 ng/dL → 腎上腺切除術後良好療效 PPV 86%**（Wu CH 2019, PMID 31216359；該研究中 post-SIT PAC、非 post-CCT PAC 才獨立預測 clinical success）——這是**「預測手術療效」非「診斷」**。
+> - **術後療效預測**：post-SIT PAC **>25 ng/dL → 腎上腺切除術後良好療效 PPV 86%**（Wu CH 2019, PMID 31216359；該研究中 post-SIT PAC、非 post-CCT PAC 才獨立預測 clinical success）——這是<strong>「預測手術療效」非「診斷」</strong>。
 
 > **比較表的兩個判讀盲區**
 > 1. **SIT 姿勢**：臥位消除重力對交感的刺激 → 對 Ang II 仍有殘餘敏感度的 APA 可能假性抑制（漏診）；故坐位 SIT（SSST）近年取代臥位為主流。
@@ -219,7 +219,7 @@ flowchart TD
 
 - **確認試驗的 cutoff 與 sens／spec 精確值**因檢驗方法（免疫分析法 vs LC-MS/MS）與各 lab protocol 而異，一律以個別實驗室參考值為準，勿把單中心數字當普世標準。
 - **Stowasser 反方 commentary 的單側 PA 之 SSST sensitivity 精確數值**：本文僅引用其論點（以治療反應為 reference standard 會壓低 SSST 表觀 sensitivity），未引用未經一手核實的精確數字。
-- **「post-SIT PAC >16 ng/dL」**屬 2017 TSA 共識引述之 TAIPAI 未發表資料（highest PPV），非正式診斷切點；診斷用 >10、術後療效預測用已發表的 >25。
+- <strong>「post-SIT PAC >16 ng/dL」</strong>屬 2017 TSA 共識引述之 TAIPAI 未發表資料（highest PPV），非正式診斷切點；診斷用 >10、術後療效預測用已發表的 >25。
 - **SSST 是否仍需要**：最新爭議（Leung 2025／Stowasser 2026）顯示學界對 routine confirmation 的必要性尚未定論；SSST 與 CCT 在個體層面可 discordant，群體效能相當不代表可互換。
 - **健保代碼／點數**：保守不寫，與 [Q11](/pa/q11-taiwan-nhi-coverage/) cross-check、申報前以最新系統版本為準。
 

@@ -8,7 +8,7 @@ last_updated: 2026-05-12
 next_review: 2027-05-11
 seo_title: "PA + CKD 怎麼治療？eGFR 三段式 + 手術後 acute eGFR dip 完整框架（2025 ES + TAIPAI + Chen JY 2024）"
 description: "原發性醛固酮症合併慢性腎臟病的治療：依 eGFR 分三段調整 spironolactone、單側病灶的手術評估、術後腎功能短期下降該如何解讀，以及高血鉀時的處理選項。"
-quick_answer: "PA-CKD 三段式 eGFR 決策：≥60 一般 spironolactone 12.5-25 mg/day + lateralized 走手術；30-60 spironolactone 12.5 mg QOD-QD 慢慢滴 + 1-2 週查 K⁺/Cr + lateralized 仍優先手術；<30 + lateralized **反而更該考慮手術**（chronic MRA hyperK + dose limit；clinical inference 非 RCT），術前 counsel acute eGFR dip 16.6% [Chen JY 2024 PMID 38051943]；<30 + bilateral / 不可手術 → patiromer-enabled spironolactone（AMBER eGFR 25-45 紅線，不外推 <25/dialysis）or amiloride 替代。Finerenone 在 PA off-label，僅 60 人 8 週 pilot RCT（eGFR ≥60，BP 非劣 + K⁺ 較佳），**不外推 PA 優於 spironolactone**。"
+quick_answer: "PA-CKD 三段式 eGFR 決策：≥60 一般 spironolactone 12.5-25 mg/day + lateralized 走手術；30-60 spironolactone 12.5 mg QOD-QD 慢慢滴 + 1-2 週查 K⁺/Cr + lateralized 仍優先手術；<30 + lateralized 反而更該考慮手術（chronic MRA hyperK + dose limit；clinical inference 非 RCT），術前 counsel acute eGFR dip 16.6% [Chen JY 2024 PMID 38051943]；<30 + bilateral / 不可手術 → patiromer-enabled spironolactone（AMBER eGFR 25-45 紅線，不外推 <25/dialysis）or amiloride 替代。Finerenone 在 PA off-label，僅 60 人 8 週 pilot RCT（eGFR ≥60，BP 非劣 + K⁺ 較佳），不外推 PA 優於 spironolactone。"
 tags:
   - PA
   - decision-note
@@ -72,7 +72,7 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
   - MRA-treated PA eGFR slope **−1.6 mL/min/yr** vs EH **−0.9**（P<0.001）
   - MRA-PA incident CKD **aHR 1.63 [1.33-1.99]** vs EH
   - Surgical PA vs EH **無顯著差異**
-- → **MRA 治療不夠 aggressive（renin 未解除抑制）**的 PA，腎臟預後仍劣於 EH
+- → <strong>MRA 治療不夠 aggressive（renin 未解除抑制）</strong>的 PA，腎臟預後仍劣於 EH
 
 ### 2.3 CKD 對 PA 確診的影響
 

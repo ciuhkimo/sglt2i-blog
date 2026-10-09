@@ -31,7 +31,7 @@ tags:
 |-------------|------|-----------|-------------|-----|
 | SGLT2i in Frail/Elderly Meta-analysis（Age and Ageing 2024） | 2024 | DAPA-HF、DELIVER、EMPEROR 等，依年齡 / 衰弱分層 | 高齡及衰弱患者中 SGLT2i 療效一致維持；DAPA-HF ≥75 歲族群 primary outcome HR 0.68（95% CI 0.53–0.88）；DELIVER 顯示在不同年齡層（含 ≥75 歲，across the age spectrum）效益一致，預先定義安全終點未見顯著差異〔**PMID 38287703 / DOI 10.1093/ageing/afad254**〕 | A |
 | SGLT2i in Kidney Transplant Recipients（Nature Communications 2024） | 2024 | 糖尿病腎臟移植受者（TriNetX real-world platform；⚠️ 核心族群為 diabetic KTx，暴露定義為移植後前 3 個月內使用） | all-cause mortality aHR 0.32、MACE aHR 0.48、MAKE aHR 0.52〔**PMID 39567483 / DOI 10.1038/s41467-024-54171-8**〕 | B |
-| **Transplant Safety Meta-analysis（F1000Research 2025）** | **2025** | **腎臟移植受者（多研究合併）** | **UTI、genital mycotic infection、urosepsis、allograft rejection 均無顯著增加〔**PMID 41458393 / DOI 10.12688/f1000research.162502.1**〕** | **B** |
+| **Transplant Safety Meta-analysis（F1000Research 2025）** | **2025** | **腎臟移植受者（多研究合併）** | <strong>UTI、genital mycotic infection、urosepsis、allograft rejection 均無顯著增加〔</strong>PMID 41458393 / DOI 10.12688/f1000research.162502.1<strong>〕</strong> | **B** |
 | **SGLT2i in Non-DM KTR（Transplant Int 2026）** | **2026** | **非糖尿病腎臟移植受者（單中心回顧性觀察）** | **SGLT2i 使用後 graft function 穩定化，提示腎保護效應可能不限於糖尿病族群〔PMID 41601587 / DOI 10.3389/ti.2025.15872〕** | **C** |
 | **SGLT2i in Heart Transplant SR/MA（AJCD 2026）** | **2026** | **心臟移植受者（5 項回顧性世代研究，312 SGLT2i vs 1,200 對照）** | **eGFR 無顯著差異（MD 3.96, p=0.22）；BMI 顯著降低（MD -0.90, p=0.02）；SBP 顯著降低（MD -4.69 mmHg, p<0.001）；死亡率趨勢有利但未達顯著（RR 0.64, p=0.26）；UTI 未增加〔PMID 41860728 / DOI 10.1007/s40256-026-00792-x〕** | **B** |
 | SGLT2i in Dialysis/ESKD（Current Hypertension Reports 2024） | 2024 | ESKD 透析患者（narrative review） | 所有 landmark RCT 均排除透析患者；缺乏 landmark randomized outcome evidence（已有 PK 研究、小型 exploratory trial、HD/PD observational data，但不足支持 routine use）〔**PMID 38913113 / DOI 10.1007/s11906-024-01314-3**〕 | C |
@@ -92,7 +92,7 @@ tags:
 
 ### 不建議做法
 
-- **透析患者（需透析的 ESKD）**：不建議常規**新啟動**。**DARE-ESKD-2（Kidney Int Rep 2026, PMID 41970273, N=80, 24 週）**為首個透析 dedicated RCT，primary NT-proBNP P=0.065 NS、全 secondary（KCCQ / 6MWTD / echo）NS、safety preserved → 24 週內無可證實 benefit，屬 individualized / research-setting。另 Frontiers CVM 2026 多中心回顧性 HF + ESKD cohort 提供初步觀察性訊號，但回顧性設計有 confounding，**不改變立場**；RENAL LIFECYCLE 等待後續
+- **透析患者（需透析的 ESKD）**：不建議常規**新啟動**。<strong>DARE-ESKD-2（Kidney Int Rep 2026, PMID 41970273, N=80, 24 週）</strong>為首個透析 dedicated RCT，primary NT-proBNP P=0.065 NS、全 secondary（KCCQ / 6MWTD / echo）NS、safety preserved → 24 週內無可證實 benefit，屬 individualized / research-setting。另 Frontiers CVM 2026 多中心回顧性 HF + ESKD cohort 提供初步觀察性訊號，但回顧性設計有 confounding，**不改變立場**；RENAL LIFECYCLE 等待後續
 - **腹膜透析**：案例系列有限，同樣不建議常規使用
 - **急性排斥期移植腎**：不建議使用（免疫/感染風險高）
 - **近期泌尿道/生殖道感染（< 4 週）的移植受者**：延後啟動

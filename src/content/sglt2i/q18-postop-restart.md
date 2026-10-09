@@ -65,7 +65,7 @@ tags:
 
 **依手術類型的重啟時間建議：**
 
-> ⚠️ **以下為 pragmatic / expert-informed algorithm，供臨床參考；非 KDIGO / ADA / FDA 或已發表 RCT 直接驗證之固定天數建議。**核心依據是「conditions-based restart」（上述必要條件清單），而非「calendar-based restart」。不同機構 / 指南對各類型手術的具體天數有差異。
+> ⚠️ <strong>以下為 pragmatic / expert-informed algorithm，供臨床參考；非 KDIGO / ADA / FDA 或已發表 RCT 直接驗證之固定天數建議。</strong>核心依據是「conditions-based restart」（上述必要條件清單），而非「calendar-based restart」。不同機構 / 指南對各類型手術的具體天數有差異。
 
 | 手術類型 | 參考重啟時機（pragmatic 估計） | 備注 |
 |---------|-----------|------|

@@ -107,7 +107,7 @@ KDIGO 2026 把 HD 的 anemia management 從「ESA 為主、鐵為輔」翻轉成
 
 ## HIF-PHi：三個 agent 不能合在一起講
 
-KDIGO 2026 對 HIF-PHi 的整體立場是**「conditional alternative，ESA 仍 first-line」**——這個立場本身是 evidence-concordant。但**三個 agent 的安全 profile 不一樣**，臨床上必須分開看。
+KDIGO 2026 對 HIF-PHi 的整體立場是<strong>「conditional alternative，ESA 仍 first-line」</strong>——這個立場本身是 evidence-concordant。但**三個 agent 的安全 profile 不一樣**，臨床上必須分開看。
 
 ### Agent-by-agent 安全 profile
 

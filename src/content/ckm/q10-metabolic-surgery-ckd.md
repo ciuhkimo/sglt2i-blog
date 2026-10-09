@@ -235,7 +235,7 @@ seo_title: "Q10 Metabolic Surgery 對 CKD 的影響（轉介、術前評估、�
    → 不正確。SG 後 immunosuppressant exposure 仍可能明顯改變，**不能省略 TDM**。[23]
 
 3. **「Creatinine-based eGFR 術後系統性高估真實 GFR」**
-   → 原文過度簡化。更正確的寫法是：**術後 GFR 估算會受到 baseline GFR、體型改變、indexing 與公式本身影響；在 preserved kidney function 患者，常低估 measured GFR 的下降幅度。**因此要結合 cystatin C / combined equation 與臨床情境解讀。[14]
+   → 原文過度簡化。更正確的寫法是：<strong>術後 GFR 估算會受到 baseline GFR、體型改變、indexing 與公式本身影響；在 preserved kidney function 患者，常低估 measured GFR 的下降幅度。</strong>因此要結合 cystatin C / combined equation 與臨床情境解讀。[14]
 
 4. **「GLP-1 RA 一律術前停 7 天」**
    → 已過時。現行多學會共識是 **risk-based individualized approach**；多數病人可繼續使用。[21]

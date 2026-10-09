@@ -280,7 +280,7 @@ Q8 層級只需提醒三件事：
 - **Araujo-Castro 2023 Spanish**：surgical outcomes 兩組無顯著差異
 - 另有日本多中心資料支持 ACS 會影響 AVS interpretation，但**不等於 AVS 完全失效**
 
-> **✅ **
+> <strong>✅ </strong>
 > 「對 **AVS interpretation 有實質干擾**；對術後 biochemical / clinical outcome 影響仍存研究間異質性。」
 
 **Cross-ref**：詳細 overlap 對 AVS / surgery / PASO interpretation 的影響 → [Q13 MACS-PA Overlap](/pa/q13-macs-pa-overlap/)。

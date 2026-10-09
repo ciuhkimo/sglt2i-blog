@@ -560,6 +560,48 @@ console.log('\n## Check 13: Obsidian callout 語法未轉換（全站掃描，ha
 }
 
 // ============================================================
+// Check 14: 粗體未渲染（字面 **）＋ 裸網址吞掉後方中文（全站 hard-fail）
+//   緣起（2026-10-09 截圖才發現）：`**…。**後` 這類 CJK 標點緊鄰 ** 的寫法，CommonMark 不視為粗體，
+//   20 個上線頁面露出字面星號；frontmatter 欄位（如 quick_answer）被 layout 當純文字輸出時同樣會露出。
+//   同時發現 `（https://…）。中文` 的裸網址被 GFM autolink 吞進後方中文，連結整個壞掉（href 帶全形標點）。
+//   (a) 可見文字含 ** → fail（先剝 script/style/noscript/pre/code）
+//   (b) 外部 href 含全形標點 （）。；，、 → fail（中文路徑本身合法，例如 TFDA 許可證頁，故只抓標點）
+// ============================================================
+console.log('\n## Check 14: 粗體未渲染（字面 **）＋ 裸網址吞掉後方中文（全站，hard-fail）\n');
+{
+	const pages = [];
+	(function walk(dir) {
+		for (const e of readdirSync(dir, { withFileTypes: true })) {
+			const p = resolve(dir, e.name);
+			if (e.isDirectory()) walk(p);
+			else if (e.name === 'index.html') pages.push(p);
+		}
+	})(DIST);
+
+	let badPages = 0;
+	for (const p of pages) {
+		const raw = readFileSync(p, 'utf8');
+		const rel = p.slice(DIST.length).replace(/index\.html$/, '').replace(/\\/g, '/');
+		const visible = stripScriptsAndStyles(raw)
+			.replace(/<pre[\s\S]*?<\/pre>/gi, '')
+			.replace(/<code[\s\S]*?<\/code>/gi, '')
+			.replace(/<[^>]+>/g, '');
+		const stars = (visible.match(/\*\*/g) || []).length;
+		const badHrefs = [];
+		for (const m of raw.matchAll(/href="(https?:\/\/[^"]+)"/g)) {
+			let u = m[1];
+			try { u = decodeURIComponent(u); } catch { /* keep raw */ }
+			if (/[（）。；，、]/.test(u)) badHrefs.push(u.slice(0, 80));
+		}
+		if (stars === 0 && badHrefs.length === 0) continue;
+		badPages++;
+		if (stars) fail(`${rel}: ${stars} 個字面 **（粗體未渲染；改 <strong> 或調整標點位置；frontmatter 純文字欄位勿用 **）`);
+		for (const u of badHrefs) fail(`${rel}: 外部連結吞進後方文字 → ${u}（裸網址請包成 <https://…>）`);
+	}
+	if (badPages === 0) ok(`全站 ${pages.length} 頁，0 個字面 **、0 個吞字連結`);
+}
+
+// ============================================================
 // Final summary
 // ============================================================
 console.log('\n---');

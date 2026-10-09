@@ -69,7 +69,7 @@ seo_title: "偏鄉醫院做得了器官捐贈嗎？法規、流程與制度分�
 
 ## 務實的做法：donation-ready transfer network
 
-偏鄉最有效的策略不是追求「在地摘取、在地移植」，而是建立一條**「donation-ready 轉運網絡」**：
+偏鄉最有效的策略不是追求「在地摘取、在地移植」，而是建立一條<strong>「donation-ready 轉運網絡」</strong>：
 
 ```
 潛在個案出現

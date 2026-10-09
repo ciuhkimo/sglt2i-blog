@@ -56,7 +56,7 @@ SGLT2 inhibitor 啟用後的初始 creatinine 上升是臨床最常見的「假�
 **鑑別診斷框架（三步驟）**：
 
 **Step 1：判斷時間關係**
-- 在 SGLT2i 啟用後**早期（約 2 週至 2 個月內）**出現 eGFR 下降，優先考慮生理性 dip
+- 在 SGLT2i 啟用後<strong>早期（約 2 週至 2 個月內）</strong>出現 eGFR 下降，優先考慮生理性 dip
 - 超過此早期時間窗仍持續下降（未穩定），或合併明確 AKI 誘因 / oliguria / 臨床不穩定 → 應積極排除 true AKI
 
 **Step 2：評估下降幅度**
