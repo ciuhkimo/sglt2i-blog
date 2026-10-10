@@ -177,17 +177,19 @@ Triphasic CT 預設是 hepatic protocol，radiologist 可能聚焦肝臟病灶�
 
 ### Lab algorithm 細節
 
+下表數據多來自急性腸繫膜缺血（AMI）整體的研究，NOMI 專屬的診斷數據很少。
+
 | Marker | 性能 | 臨床意義 |
 |---|---|---|
-| **Lactate >2 mmol/L** | HR 4.1 for irreversible ischemia | 警覺，加速進影像 |
-| **Lactate >7.68 mmol/L** | 單一回溯性研究的預後分界（Winzer 2020，n=35 接受動脈內 papaverine）：AUC 0.79，高於此值者 30 天內 15/17 死亡 | 提示預後差，**不是**放棄血管擴張治療、改直接開刀的門檻（見下方治療段）|
-| **Serum I-FABP** | Pooled sens **74–80%** / spec **85–90%** / AUC **0.86**（Reintam Blaser 2023 meta）| Promising 但不能單獨決策 |
-| **Serum I-FABP cutoff** | ⭐ **3.1 ng/mL**（Kanda 2011 multicenter, sens 79% / spec 91%）| 最常被 cited 的可操作數字 |
-| **Urinary I-FABP** | ⭐ Sens **~88%** / spec ~79%（Salim 2017）| 替代選項；採尿較簡便 |
-| **Plasma Citrulline** | ⭐ AUC **僅 0.46–0.68**（Nuzzo 2021 + Reintam Blaser 2023）| **Low diagnostic value**——不應單獨依賴 |
-| **D-dimer** | Sens up to 96% / spec **40–50%** | **Rule-out 用，不能 rule-in** |
+| **Lactate >2 mmol/L** | 與不可逆腸缺血相關，HR 4.1（WSES 2022 引用的 AMI 研究，不是 NOMI 專屬門檻）| 警覺，儘速安排影像評估 |
+| **Lactate >7.68 mmol/L** | 探索性預後分界（Winzer 2020，回溯性，n=35 接受動脈內 papaverine）：AUC 0.79，高於此值者 30 天內 15/17 死亡 | 提示預後差，**不是**治療無效或直接開刀的門檻（見下方治療段）|
+| **Serum I-FABP** | 敏感度 73.9%／特異度 90.5%（Reintam Blaser 2023 統合分析，16 項研究）| 不能單獨決策 |
+| **Serum I-FABP 3.1 ng/mL** | Kanda 2011 研究使用的切點（急腹症 361 人；陽性／陰性概似比 3.01／0.29）| 受檢測方法與族群影響，不是通用臨床門檻 |
+| **Urinary I-FABP** | 敏感度 87.9%／特異度 78.9%（Reintam Blaser 2023 統合分析，4 項研究）| 替代選項；採尿較簡便，但研究數少 |
+| **Plasma Citrulline** | AUROC 0.68（Nuzzo 2021，診斷 AMI；該研究未納入 NOMI）| 診斷效能有限，不宜直接外推到 NOMI |
+| **D-dimer** | 敏感度 87.9%／特異度 69.2%（Reintam Blaser 2023 統合分析，11 項研究）| 不能單獨排除或確診 NOMI；需整合臨床與影像 |
 
-> **重點**：沒有 single golden lab marker。**所有 biomarker 都同樣不能單獨 rule-out NOMI**。Lab 是 severity adjunct + 影像時機決定器。
+> **重點**：目前沒有單一檢驗可可靠確診或排除 NOMI。檢驗數值與趨勢可輔助評估灌流及病情嚴重度；若臨床懷疑，不應等待 lactate 升高或達到特定門檻才安排 CTA。
 
 ---
 
@@ -335,16 +337,16 @@ Winzer 2020 在 35 位接受動脈內 papaverine 的病人中，用治療前數�
 | 指標 | 分界 |
 |---|---|
 | Lactate | **>7.68 mmol/L**（AUC 0.79；高於此值 15/17 死亡，低於此值 10/18 存活）|
-| pH | **<7.31**（原文摘要寫 7.31、內文寫 7.32）|
+| pH | **<7.32**（正文及表 4；摘要寫 <7.31）|
 | Base excess | **<-4.55** |
 | Noradrenaline 需求 | 治療前需求較高（原文分界值未標明時間單位，本文不引用）|
 
 這組數字怎麼用：
 
-- 它是**預後分界**，不是「改直接開刀」的門檻。原作者的結論是及早診斷、及早做血管攝影與動脈內治療；同一研究的保守治療組 30 天死亡率 96.8%（31 位只有 1 位存活）。
+- 它是**探索性的預後分界**，不是治療無效或「改直接開刀」的門檻。原作者的結論是及早診斷、及早做血管攝影與動脈內治療；同一研究的保守治療組 30 天死亡率 96.8%（31 位只有 1 位存活）。
 - 證據強度有限：單一研究、回溯性、n=35，分界值未經外部驗證。
-- 另一個前瞻性研究的方向不同：Rittgerodt 2022（n=42，動脈內 prostaglandin）的病人基線 lactate 中位數 9.2 mmol/L，24 小時內 lactate 下降 >2 mmol/L 的有 52.4%，而且基線 lactate 較高是「24 小時內 lactate 下降 >2 mmol/L」的獨立預測因子；有下降者 28 天死亡率 59%，沒有下降者 85%。
-- 開刀的判斷依據仍是腹膜炎徵象或腸壞死（見下方「同步必做」），和 lactate 分界是兩件事。
+- 研究終點不同的補充證據：Rittgerodt 2022（前瞻性，n=42，動脈內 prostaglandin）的病人基線 lactate 中位數 9.2 mmol/L，24 小時內 lactate 下降 >2 mmol/L 的有 52.4%；基線 lactate 較高是「24 小時內 lactate 下降 >2 mmol/L」的獨立預測因子。達到此下降幅度者 28 天死亡率 59%，未達者（包括有下降但不足 2 mmol/L 的人）85%。這篇的終點是 lactate 變化，不能解讀成 lactate 越高預後越好，也不推翻 Winzer 的死亡風險關聯。
+- 是否緊急手術，應整合腹膜炎、穿孔、疑似或確定腸壞死，以及整體病況持續惡化等徵象，由外科團隊判斷，不能只靠單一 lactate 分界（WSES 2022）。
 
 #### 同步必做
 
@@ -576,7 +578,8 @@ Winzer 2020 在 35 位接受動脈內 papaverine 的病人中，用治療前數�
 
 ## 更正紀錄
 
-- **2026-10-10**：原文把 lactate >7.68 mmol/L、pH <7.31、base excess <-4.55 寫成「futility threshold」，並建議達到時考慮直接開腹。回到原始研究核對後，這組數字出自單一回溯性研究（Winzer 2020，n=35），原作者描述的是與 30 天死亡相關的預後分界，並沒有提出改直接開腹的建議。該段已改寫，並補上一篇結果方向不同的前瞻性研究；同時更正該研究在參考文獻中的卷期頁碼。
+- **2026-10-10**：原文把 lactate >7.68 mmol/L、pH <7.31、base excess <-4.55 寫成「futility threshold」，並建議達到時考慮直接開腹。回到原始研究核對後，這組數字出自單一回溯性研究（Winzer 2020，n=35），原作者描述的是與 30 天死亡相關的預後分界，並沒有提出改直接開腹的建議。該段已改寫為探索性預後分界，pH 分界依正文及表 4 改為 <7.32，並補上一篇終點不同的前瞻性研究作為補充；同時更正該研究在參考文獻中的卷期頁碼。
+- **2026-10-10**：同日更正檢驗表。D-dimer 原寫「Rule-out 用」，改為不能單獨排除或確診，數字原本無法回溯出處，改用 Reintam Blaser 2023 統合分析；I-FABP 的敏感度與特異度原本混接不同研究，改回 Reintam Blaser 2023 統合分析的原始數字；citrulline 原寫「AUC 0.46–0.68」，其中 0.46 是 Youden index 而非 AUC，已更正；I-FABP 3.1 ng/mL 原標為可操作數字，改為研究使用的切點；lactate >2 mmol/L 補註為 AMI 研究的數據。
 
 ---
 
