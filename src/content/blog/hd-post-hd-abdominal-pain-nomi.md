@@ -3,7 +3,7 @@ title: "透析後反覆腹痛冒冷汗：別漏掉 Non-Occlusive Mesenteric Isch
 description: "HD 病人洗後腹痛 + 冒冷汗的 splanchnic hypoperfusion / NOMI 識別與處置：5 步驟地區醫院工作流程、台灣 Kalimate 紅旗、Mesenteric duplex US PSV cutoffs、Papaverine 治療 protocol，整合最新實證與地區醫院可執行的判斷路徑。"
 category: "腎臟科血液透析併發症"
 target_audience: "腎臟科醫師、透析中心護理師、內科醫師"
-last_updated: 2026-05-03
+last_updated: 2026-10-10
 tags: [血液透析, HD, NOMI, mesenteric-ischemia, 過度脫水, dry-weight, IDH, 腸缺血, papaverine, Kalimate, 健保, 台灣, ultrafiltration, 透析併發症]
 seo_title: "HD 透析後腹痛冒冷汗：NOMI 識別與地區醫院工作流程"
 ---
@@ -180,7 +180,7 @@ Triphasic CT 預設是 hepatic protocol，radiologist 可能聚焦肝臟病灶�
 | Marker | 性能 | 臨床意義 |
 |---|---|---|
 | **Lactate >2 mmol/L** | HR 4.1 for irreversible ischemia | 警覺，加速進影像 |
-| **Lactate >7.68 mmol/L** | ⭐ **生化 futility threshold**（三源確認）| Papaverine 反應率顯著下降，考慮直接 laparotomy |
+| **Lactate >7.68 mmol/L** | 單一回溯性研究的預後分界（Winzer 2020，n=35 接受動脈內 papaverine）：AUC 0.79，高於此值者 30 天內 15/17 死亡 | 提示預後差，**不是**放棄血管擴張治療、改直接開刀的門檻（見下方治療段）|
 | **Serum I-FABP** | Pooled sens **74–80%** / spec **85–90%** / AUC **0.86**（Reintam Blaser 2023 meta）| Promising 但不能單獨決策 |
 | **Serum I-FABP cutoff** | ⭐ **3.1 ng/mL**（Kanda 2011 multicenter, sens 79% / spec 91%）| 最常被 cited 的可操作數字 |
 | **Urinary I-FABP** | ⭐ Sens **~88%** / spec ~79%（Salim 2017）| 替代選項；採尿較簡便 |
@@ -328,16 +328,23 @@ NOMI 的核心治療不是 surgery（除非 bowel necrosis），而是 **selecti
 | **Tapering** | **必須**漸減（避免突然停藥引發 rebound vasospasm）|
 | **Repeat angiography** | 確認 vasospasm resolution 後才停 |
 
-#### Futility thresholds（⭐ 三源確認）
+#### 治療前預後指標（單一回溯性研究）
 
-任一達到 = papaverine 反應率顯著下降，考慮**直接 laparotomy**：
+Winzer 2020 在 35 位接受動脈內 papaverine 的病人中，用治療前數值對 30 天死亡做 Cox 迴歸，再以 Youden index 找最佳分界：
 
-| 指標 | Cutoff |
+| 指標 | 分界 |
 |---|---|
-| Lactate | **>7.68 mmol/L** |
-| pH | **<7.31** |
+| Lactate | **>7.68 mmol/L**（AUC 0.79；高於此值 15/17 死亡，低於此值 10/18 存活）|
+| pH | **<7.31**（原文摘要寫 7.31、內文寫 7.32）|
 | Base excess | **<-4.55** |
-| 高劑量 catecholamine 需求 | qualitative |
+| Noradrenaline 需求 | 治療前需求較高（原文分界值未標明時間單位，本文不引用）|
+
+這組數字怎麼用：
+
+- 它是**預後分界**，不是「改直接開刀」的門檻。原作者的結論是及早診斷、及早做血管攝影與動脈內治療；同一研究的保守治療組 30 天死亡率 96.8%（31 位只有 1 位存活）。
+- 證據強度有限：單一研究、回溯性、n=35，分界值未經外部驗證。
+- 另一個前瞻性研究的方向不同：Rittgerodt 2022（n=42，動脈內 prostaglandin）的病人基線 lactate 中位數 9.2 mmol/L，24 小時內 lactate 下降 >2 mmol/L 的有 52.4%，而且基線 lactate 較高是「24 小時內 lactate 下降 >2 mmol/L」的獨立預測因子；有下降者 28 天死亡率 59%，沒有下降者 85%。
+- 開刀的判斷依據仍是腹膜炎徵象或腸壞死（見下方「同步必做」），和 lactate 分界是兩件事。
 
 #### 同步必做
 
@@ -567,6 +574,12 @@ NOMI 的核心治療不是 surgery（除非 bowel necrosis），而是 **selecti
 
 ---
 
+## 更正紀錄
+
+- **2026-10-10**：原文把 lactate >7.68 mmol/L、pH <7.31、base excess <-4.55 寫成「futility threshold」，並建議達到時考慮直接開腹。回到原始研究核對後，這組數字出自單一回溯性研究（Winzer 2020，n=35），原作者描述的是與 30 天死亡相關的預後分界，並沒有提出改直接開腹的建議。該段已改寫，並補上一篇結果方向不同的前瞻性研究；同時更正該研究在參考文獻中的卷期頁碼。
+
+---
+
 ## 主要參考文獻
 
 ### Mortality / Epidemiology
@@ -591,7 +604,8 @@ NOMI 的核心治療不是 surgery（除非 bowel necrosis），而是 **selecti
 ### Treatment / Papaverine
 - Stahl K, Rittgerodt N, Busch M, et al. Nonocclusive Mesenteric Ischemia and Interventional Local Vasodilatory Therapy: A Meta-Analysis and Systematic Review. *J Intensive Care Med.* 2019;35:128-139
 - Takiguchi T, et al. Vasodilator Therapy and Mortality in Nonocclusive Mesenteric Ischemia: A Nationwide Observational Study. *Crit Care Med.* 2020;48:e98-e106
-- Winzer R, et al. Local Intra-arterial Vasodilator Infusion in NOMI Significantly Increases Survival Rate. *Cardiovasc Intervent Radiol.* 2020;43:728-736
+- Winzer R, Fedders D, Backes M, et al. Local Intra-arterial Vasodilator Infusion in Non-Occlusive Mesenteric Ischemia Significantly Increases Survival Rate. *Cardiovasc Intervent Radiol.* 2020;43(8):1148-1155. PMID: 32444922
+- Rittgerodt N, Pape T, Busch M, et al. Predictors of response to intra-arterial vasodilatory therapy of non-occlusive mesenteric ischemia in patients with severe shock: results from a prospective observational study. *Crit Care.* 2022;26:92. PMID: 35379286
 - Lam A, et al. ACR Appropriateness Criteria Radiologic Management of Mesenteric Ischemia: 2022 Update. *J Am Coll Radiol.* 2022;19(11S):S433-S444
 
 ### HD Prescription / Volume Management
