@@ -91,14 +91,24 @@
 
 本目錄**不在 Astro content collection 內，不會被建成任何頁面**。
 
-## 要出刊時怎麼做
+## 要出刊時怎麼做（2026-10-11 起）
+
+起稿改由 AI 助理每週日整理上週日至週六的官方公告，交給醫師；本目錄的自動存檔
+轉為**覆蓋率對照**用，不再是草稿來源。起稿者不得推送到本 repo。
 
 ```bash
-# 1. 在本機重跑指定區間並產生內容草稿
-node scripts/fetch-tfda-updates.mjs --from <起日> --to <迄日> --promote
+# 1. 在本機重抓同一區間，作為覆蓋率對照（不加 --promote，輸出在 gitignored 的 work/tfda/）
+node scripts/fetch-tfda-updates.mjs --from <起日> --to <迄日>
 
-# 2. 逐則回官方原文一手核對、改寫草稿
-# 3. 走既有發佈 routine
+# 2. 起稿的每一則回官方原文一手核對；與 work/tfda/<迄日>/items.json 交叉比對，
+#    雙方各自漏掉的項目都要補判（收錄或列入「本期掃描但未收錄」）
+# 3. 寫成 src/content/regulatory/<迄日>-tfda-weekly.md（review_status: needs_physician_review）
 npm run build:verify
+npm run tfda:publish -- <slug> --dry-run   # 只驗證，不翻狀態
+
+# 4. 本機預覽給醫師；醫師明確核可後才翻狀態、commit、push
 npm run tfda:publish -- <slug>
+git push
 ```
+
+沒有收到核可就保留草稿，不把沉默當成同意。
