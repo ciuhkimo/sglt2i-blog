@@ -2,10 +2,10 @@
 question_id: T04
 title: "洗腎後硬不起來怎麼辦？腎臟科醫師解析原因與治療"
 category: "病人衛教 (Patient Education)"
-version: v1.0
+version: v1.1
 status: ""
-last_updated: 2026-04-14
-next_review: 2026-10-14
+last_updated: 2026-10-14
+next_review: 2027-04-14
 tags:
   - 腎友與性
   - PED
@@ -29,9 +29,9 @@ schema: FAQPage, MedicalWebPage
 
 ### 勃起功能障礙在腎衰竭與透析族群很常見
 
-勃起功能障礙不是你一個人的問題。PubMed 的系統性回顧與統合分析顯示，末期腎臟病男性不論接受哪種腎臟替代治療，ED 都很常見；其中透析族群的 pooled prevalence 約 **79%**，腎移植族群仍約 **59%**。另一篇後續統合分析也指出，腎移植後整體勃起功能通常比透析時改善，但不一定完全恢復。[^1][^2]
+勃起功能障礙不是你一個人的問題。PubMed 的系統性回顧與統合分析顯示，末期腎臟病男性不論接受哪種腎臟替代治療，ED 都很常見；其中透析族群的 pooled prevalence 約 **79%**，腎移植族群仍約 **59%**。另一篇統合分析比較病人移植前後，顯示腎移植後勃起功能整體有改善，但研究品質偏低，原本 ED 就很嚴重的人改善並不明顯。[^1][^2]
 
-臨床上，這類問題常沒有被主動談到。一項 PubMed 調查顯示，**96.4%** 的受訪腎臟照護專業人員表示，他們只在**不到一半**的新病人中主動談到性功能問題。這也代表：如果你有困擾，往往需要自己先開口。[^4]
+臨床上，這類問題常沒有被主動談到。一項針對荷蘭腎臟科醫師的調查顯示，**96.4%** 的受訪醫師表示，他們只在**不到一半**的新病人中主動談到性功能問題。這也代表：如果你有困擾，往往需要自己先開口。[^4]
 
 ### 原因通常不只一個
 
@@ -73,12 +73,12 @@ ED 常常不是單一原因造成。NIDDK 指出，臨床評估通常會看 **�
 
 #### 這類藥物是否真的有在透析族群研究過？
 
-有。除了前述 PubMed 小型試驗外，ClinicalTrials.gov 也可查到專門針對血液透析男性 ED 的試驗註冊，例如：
+有，但研究規模都不大。
 
-- **NCT00654017**：A Study Evaluating the Efficacy and Safety of Sildenafil in Patients With Erectile Dysfunction Receiving Hemodialysis
-- **NCT01352507**：A Study of Tadalafil and Sildenafil in Men With Erectile Dysfunction Receiving Hemodialysis
+- **sildenafil**：前述血液透析男性的安慰劑對照試驗顯示改善[^11]；ClinicalTrials.gov 也可查到一項專門針對血液透析男性 ED 的 sildenafil 試驗註冊（NCT00654017，收案 100 人，已完成，但註冊頁未公布結果）。[^13]
+- **tadalafil**：一項 58 位血液透析男性的隨機分組試驗，和安慰劑比較，每 3 天吃 5 mg、連續 4 週，勃起功能分數改善，未見重大副作用。[^17] 另有兩個 30 人左右的小型研究，使用每週約 2 次、每次 5 mg 以下的低劑量，也觀察到改善。[^18][^19]
 
-這表示：這個問題並不是「沒人研究過」，但臨床上仍要個別評估，而不是自己買藥試。[^13]
+這些研究都只追蹤 1–3 個月，用的也都是低劑量。這表示：這個問題並不是「沒人研究過」，但臨床上仍要個別評估，不要自己買藥試，也不要自行加量。
 
 > ⛔ **禁忌**：**絕對禁忌：這幾種藥不能一起用**
 > **PDE5 抑制劑（如 sildenafil、tadalafil）絕對不能和以下藥物併用：**
@@ -111,7 +111,7 @@ NIDDK 明確提醒：**不要在沒有先和醫療專業人員討論前，自行
 
 **Q5：換腎之後會完全恢復嗎？**
 
-**不一定完全恢復，但常有改善機會。** 統合分析顯示，腎移植後 ED 仍常見（約 **59%**），不過整體勃起功能通常比透析期間改善。若移植後仍有困擾，一樣值得主動和移植團隊或泌尿科討論。[^1][^2]
+**不一定完全恢復，但常有改善機會。** 統合分析顯示，腎移植後 ED 仍常見（約 **59%**），不過比較移植前後，整體勃起功能多半有改善（研究品質偏低）。若移植後仍有困擾，一樣值得主動和移植團隊或泌尿科討論。[^1][^2]
 
 ## 什麼時候該跟醫師討論
 
@@ -140,16 +140,16 @@ NIDDK 明確提醒：**不要在沒有先和醫療專業人員討論前，自行
 
 - [腎友與性完整指南](/sexual-health/t02-hub-complete-guide/)
 - [透析男性性功能門診評估框架](/sexual-health/t06-male-assessment-framework/)
-- PDE5i 藥物治療：劑量、禁忌與交互作用
-- 腎移植後的性功能與備孕
-- 哪些藥物會影響性功能？
+- [PDE5i 藥物治療：劑量、禁忌與交互作用](/sexual-health/t09-pde5i-medication-review/)
+- [腎移植後的性功能與備孕](/sexual-health/t10-post-transplant/)
+- [哪些藥物會影響性功能？](/sexual-health/t11-drug-induced-sd/)
 
 ## 參考資料
 
 [^1]: Pyrgidis N, et al. *Prevalence of Erectile Dysfunction in Patients With End-Stage Renal Disease: A Systematic Review and Meta-Analysis.* PubMed 顯示：renal transplant recipients 的 pooled prevalence 約 59%，dialysis patients 約 79%。https://pubmed.ncbi.nlm.nih.gov/33221161/
-[^2]: Rahman IA, et al. *Effects of renal transplantation on erectile dysfunction.* PubMed / PMC 摘要顯示：renal transplantation improves erectile function and increases testosterone level. https://pubmed.ncbi.nlm.nih.gov/33320719/
+[^2]: Pyrgidis N, et al. *Renal Transplantation Improves Erectile Function in Patients with End-Stage Renal Disease: A Systematic Review and Meta-Analysis.* J Urol. 2021;205:1009-1017. 20 篇研究、1,695 位腎移植受者，移植後勃起功能改善，但證據品質為低或極低。https://pubmed.ncbi.nlm.nih.gov/33320719/
 [^3]: NIDDK. *Diagnosis of Erectile Dysfunction.* 2024 更新；指出 ED 評估常涵蓋 blood vessel、nervous system、hormonal problems。https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction/diagnosis
-[^4]: van Ek GF, et al. *Discussing Sexual Dysfunction With Chronic Kidney Disease Patients: Practice Patterns in the Office of the Nephrologist.* PubMed 摘要顯示：96.4% 受訪者表示，在不到一半的新病人中主動討論 sexual dysfunction。https://pubmed.ncbi.nlm.nih.gov/26633081/
+[^4]: van Ek GF, et al. *Discussing Sexual Dysfunction With Chronic Kidney Disease Patients: Practice Patterns in the Office of the Nephrologist.* 荷蘭腎臟科醫師問卷（回覆率 34.5%）：96.4% 受訪者表示，在不到一半的新病人中主動討論 sexual dysfunction。https://pubmed.ncbi.nlm.nih.gov/26633081/
 [^5]: NIDDK. *Treatment for Erectile Dysfunction.* 說明 lifestyle changes、counseling、review current medicines、PDE5 inhibitors、VED 與就醫警訊。https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction/treatment
 [^6]: Suzuki E, et al. *Chronic kidney disease and erectile dysfunction.* PubMed / PMC 摘要指出：hyperprolactinemia、low serum testosterone 與 CKD 中的 ED 有關。https://pmc.ncbi.nlm.nih.gov/articles/PMC4220354/
 [^7]: Navaneethan SD, et al. *Prevalence and correlates of self-reported sexual dysfunction in CKD.* PubMed 摘要指出：increasing age、diabetes mellitus、depression 在 CKD 族群與 sexual dysfunction 一致相關。https://pubmed.ncbi.nlm.nih.gov/20801572/
@@ -158,10 +158,19 @@ NIDDK 明確提醒：**不要在沒有先和醫療專業人員討論前，自行
 [^10]: DailyMed. *SILDENAFIL tablets, for oral use.* 說明 renal dialysis is not expected to accelerate clearance as sildenafil is highly protein bound and not eliminated in urine. https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=f5113b5e-9087-4397-86bc-5ea10413c429&type=pdf
 [^11]: Seibel I, et al. *Efficacy of oral sildenafil in hemodialysis patients with erectile dysfunction.* PubMed 摘要顯示：improvement was observed in 85% of sildenafil patients vs 9.5% of placebo. https://pubmed.ncbi.nlm.nih.gov/12397048/
 [^12]: DailyMed. *TADALAFIL tablets, for oral use.* Hemodialysis / CrCl <30 mL/min 時，按需使用最大 5 mg / 72 小時；once-daily use not recommended。https://www.dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=aba646fe-70c2-1abb-e053-2995a90aa16d&type=pdf
-[^13]: ClinicalTrials.gov. NCT00654017；NCT01352507。可查到針對血液透析男性 ED 的 sildenafil / tadalafil 相關試驗註冊。https://clinicaltrials.gov/study/NCT00654017 ； https://clinicaltrials.gov/study/NCT01352507
+[^13]: ClinicalTrials.gov. NCT00654017：sildenafil 用於血液透析男性 ED 的多中心、雙盲、安慰劑對照試驗（巴西，收案 100 人，2005 年完成；註冊頁未公布結果）。https://clinicaltrials.gov/study/NCT00654017
 [^14]: DailyMed. *Sildenafil tablets* contraindication: concomitant use of organic nitrates in any form because of risk of hypotension. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2892f4b-f5ba-42f5-b373-310241f4efa7
 [^15]: Medsafe. *Nicorandil 10 mg and 20 mg Tablets / DOMASYS Standard.* Concomitant use of nicorandil and PDE5 inhibitors (e.g., sildenafil, tadalafil, vardenafil) is contraindicated because of risk of severe hypotension. https://www.medsafe.govt.nz/profs/datasheet/n/nicorandiltab.pdf
 [^16]: DailyMed / EMA. Sildenafil 併用 alpha-blockers 可能導致 symptomatic hypotension；label 建議從較低劑量開始並由醫師評估。https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?audience=consumer&setid=e22902bd-e5a8-4df6-ae77-8a0a1484cc50 ; https://www.ema.europa.eu/en/documents/product-information/viagra-epar-product-information_en.pdf
+[^17]: Ozgur BC, Keseroglu BB. *Efficacy of Adjusted Dose Tadalafil for Treating Erectile Dysfunction in Patients on Chronic Hemodialysis.* Arch Esp Urol. 2022;75:400-404. 58 位血液透析男性，tadalafil 5 mg 每 3 天一次 vs 安慰劑，4 週。https://pubmed.ncbi.nlm.nih.gov/35983809/
+[^18]: Bolat MS, et al. *The efficacy of low-dose tadalafil in patients undergoing hemodialysis with end-stage renal disease.* Ren Fail. 2017;39:582-587. 回溯性研究，30 位血液透析男性，tadalafil 5 mg 每週 2 次，3 個月。https://pubmed.ncbi.nlm.nih.gov/28742406/
+[^19]: Dehghani M, et al. *Comparison of the efficacy of tadalafil in three different groups: patients on hemodialysis, first kidney transplant recipients, and second kidney transplant recipients.* Int J Organ Transplant Med. 2023;14(1):28-34. 血液透析組 31 人，tadalafil 2.5 mg 每 72 小時起、最高 5 mg，3 個月。https://www.ijotm.com/ojs/index.php/IJOTM/article/view/883
+
+---
+
+## 更正紀錄
+
+- **2026-10-14**：原文把 ClinicalTrials.gov 上的 NCT01352507 列為「血液透析男性的 tadalafil 與 sildenafil 試驗」。回到註冊頁核對後，這其實是在中國一般 ED 男性進行的用藥偏好試驗，而且排除了透析病人，已移除，改列已發表的血液透析 tadalafil 研究。另更正一篇腎移植統合分析的作者與標題，刪除原摘要中沒有的「睪固酮上升」敘述，並把移植後改善的描述改為較保守的說法；同時更正一項醫師調查的對象描述。
 
 ---
 
