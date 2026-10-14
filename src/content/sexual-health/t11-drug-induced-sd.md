@@ -167,7 +167,7 @@ tags:
 
 ## References
 
-1. Bailie GR, et al. Sexual dysfunction and medication use in the DOPPS. *Nephrol Dial Transplant*. 2007;22(4):1163-70. PMID: **17284436**
+1. Bailie GR, et al. Sexual dysfunction in dialysis patients treated with antihypertensive or antidepressive medications: results from the DOPPS. *Nephrol Dial Transplant*. 2007;22(4):1163-70. PMID: **17284436**
 2. Pyrgidis N, et al. Prevalence of erectile dysfunction in patients with end-stage renal disease: a systematic review and meta-analysis. *J Sex Med*. 2021;18(1):113-20. PMID: **33221161**
 3. Montejo AL, et al. Incidence of sexual dysfunction associated with antidepressant agents. *J Clin Psychiatry*. 2001;62(Suppl 3):10-21. PMID: **11229449**
 4. Ko DT, et al. Beta-blocker therapy and symptoms of depression, fatigue, and sexual dysfunction. *JAMA*. 2002;288(3):351-7. PMID: **12117400**
@@ -188,7 +188,7 @@ tags:
 
 ## 更正紀錄
 
-- **2026-10-15**：更正 4 筆參考文獻（Pyrgidis 的期刊與標題；beta-blocker 回顧的第一作者、期刊與 PMID；Cochrane 抗憂鬱藥回顧的 PMID；bupropion 試驗的期刊，並更正為 CKD 男性的單盲試驗）。原「DOPPS 優先級」表把 spironolactone、opioids、gabapentinoids、metoclopramide／抗精神病藥列在 DOPPS 訊號欄，但 DOPPS 只分析降壓藥與抗憂鬱藥，已改為分欄標示，並補上 DOPPS 中周邊 alpha-blocker 的實際數據。nebivolol 的數字改回原始統合分析（ED 發生率 RR 0.95、無顯著差異）；女性盛行率改用正確出處；gabapentin 透析後補充劑量依仿單改為 125–350 mg；eplerenone 的男乳症敘述依仿單更正；RALES、spironolactone 男乳症、alpha-blocker 射精障礙的數字依原文更正；無法找到出處的數字已刪除。藥物檢視流程與 PDE5i 起始建議不變。
+- **2026-10-15**：更正 5 筆參考文獻（DOPPS 原始研究的標題；Pyrgidis 的期刊與標題；beta-blocker 回顧的第一作者、期刊與 PMID；Cochrane 抗憂鬱藥回顧的 PMID；bupropion 試驗的期刊，並更正為 CKD 男性的單盲試驗）。原「DOPPS 優先級」表把 spironolactone、opioids、gabapentinoids、metoclopramide／抗精神病藥列在 DOPPS 訊號欄，但 DOPPS 只分析降壓藥與抗憂鬱藥，已改為分欄標示，並補上 DOPPS 中周邊 alpha-blocker 的實際數據。nebivolol 的數字改回原始統合分析（ED 發生率 RR 0.95、無顯著差異）；女性盛行率改用正確出處；gabapentin 透析後補充劑量依仿單改為 125–350 mg；eplerenone 的男乳症敘述依仿單更正；RALES、spironolactone 男乳症、alpha-blocker 射精障礙的數字依原文更正；無法找到出處的數字已刪除。藥物檢視流程與 PDE5i 起始建議不變。
 
 ---
 
