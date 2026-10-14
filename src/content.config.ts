@@ -86,6 +86,9 @@ const blog = defineCollection({
 		// collection 裡（例：偏鄉專題有 2 篇在 ruralNephrology、3 篇在 blog），
 		// 導致首頁計數低估。用這個欄位讓計數可推導，不要 hardcode 數字。
 		series: z.string().optional(),
+		// 病人向文章有些因題材放在 /blog/（例：流感疫苗篇），/patient/ 只讀
+		// patient collection 就看不到它們。設 true 讓 /patient/ 一併列出，URL 不變。
+		patient_index: z.boolean().optional(),
 	}),
 });
 

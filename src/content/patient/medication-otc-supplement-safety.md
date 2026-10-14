@@ -196,6 +196,7 @@ CKD G3-G5 未透析、血液透析（HD）、腹膜透析（PD）的成人病人
 
 - [腎友生活指南（Hub）](/patient/kidney-life-guide/)
 - [腎功能不好到底怎麼吃？](/patient/diet-ckd-basics/)
+- [晚期慢性腎臟病可以打流感疫苗嗎？](/blog/influenza-vaccination-advanced-ckd/)
 - [SGLT2i 決策筆記](/sglt2i/)（生病日暫停規則）
 - [Finerenone 決策筆記](/finerenone/)（高血鉀管理）
 - [透析衛教——護理版](/dialysis/)

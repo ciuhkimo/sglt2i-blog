@@ -3,6 +3,7 @@ title: "洗腎時掉頭髮、頭皮長疹子怎麼辦？"
 description: "洗腎（血液透析）患者常見的掉髮與頭皮問題解說。了解原因、日常照護方法、保健品注意事項，以及什麼時候該就醫。"
 category: "病人衛教"
 target_audience: "病人與家屬"
+patient_index: true
 last_updated: 2026-04-08
 tags: [血液透析, 掉髮, 頭皮, 病人衛教, 洗腎]
 seo_title: "洗腎掉頭髮、頭皮長疹子怎麼辦？原因與照護方法"

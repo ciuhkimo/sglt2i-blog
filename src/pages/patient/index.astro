@@ -6,8 +6,14 @@ import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
 import { SITE_TITLE } from '../../consts';
 
-const allArticles = (await getCollection('patient')).filter((a) => !a.data.unlisted);
-const sorted = allArticles.sort((a, b) =>
+const patientArticles = (await getCollection('patient'))
+	.filter((a) => !a.data.unlisted)
+	.map((a) => ({ href: `/patient/${a.id}/`, data: a.data }));
+// 放在 /blog/ 的病人向文章（frontmatter patient_index: true），連回原 URL
+const blogPatientArticles = (await getCollection('blog'))
+	.filter((a) => a.data.patient_index)
+	.map((a) => ({ href: `/blog/${a.id}/`, data: a.data }));
+const sorted = [...patientArticles, ...blogPatientArticles].sort((a, b) =>
 	b.data.last_updated.valueOf() - a.data.last_updated.valueOf()
 );
 ---
@@ -85,7 +91,7 @@ const sorted = allArticles.sort((a, b) =>
 				<ul class="article-list">
 					{sorted.map((article) => (
 						<li>
-							<a class="article-link" href={`/patient/${article.id}/`}>
+							<a class="article-link" href={article.href}>
 								<span class="article-title">{article.data.title}</span>
 								<p class="article-desc">{article.data.description}</p>
 								<div class="article-meta">

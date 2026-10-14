@@ -3,6 +3,7 @@ title: "加護病房裡的「腎臟體檢」：利尿劑壓力測試是什麼？
 description: "家人因敗血症住進加護病房，腎功能變差需要洗腎嗎？利尿劑壓力測試（FST）可在 2 小時內幫助醫師評估腎臟的恢復能力。了解測試流程、結果意義與常見迷思。"
 category: "病人衛教"
 target_audience: "病人與家屬"
+patient_index: true
 last_updated: 2026-04-08
 tags: [FST, AKI, 敗血症, 洗腎, 病人衛教, 加護病房]
 seo_title: "加護病房腎功能測試：利尿劑壓力測試（FST）家屬須知"

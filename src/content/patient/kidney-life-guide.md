@@ -183,6 +183,7 @@ seo_title: "腎友生活指南：CKD、透析、腎移植的飲食運動工作�
 - [慢性腎臟病與透析準備](/patient/ckd-assessment-dialysis-prep/)
 - [看腎臟科前要準備什麼？](/patient/clinic-visit-prep/)
 - [洗腎病人可以旅行嗎？](/patient/travel-dialysis-transplant/)
+- [晚期慢性腎臟病可以打流感疫苗嗎？](/blog/influenza-vaccination-advanced-ckd/)
 
 ---
 
