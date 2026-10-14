@@ -53,9 +53,9 @@ seo_title: "Q15 CKM Biomarkers 解讀（NT-proBNP、Troponin、UACR、Cystatin C
 
 ---
 
-## 本次查核後的關鍵修正
+## 重點與容易講錯的地方
 
-### 保留且確認的重點
+### 重點
 - 4UDMI：myocardial injury = troponin >99th percentile URL；acute injury = rise/fall；stable elevation 可視為 chronic myocardial injury。[1]
 - ESC 2021：NT-proBNP 非急性 <125、急性 <300 具有 rule-out 價值。[2]
 - CKD 下 hs-cTnT、NT-proBNP 背景值常上升；CRIC 研究提出 CKD-specific 99th percentiles：**hs-cTnT 126 ng/L、NT-proBNP 3592 pg/mL**。[5]
@@ -65,21 +65,16 @@ seo_title: "Q15 CKM Biomarkers 解讀（NT-proBNP、Troponin、UACR、Cystatin C
 - KDIGO 2024：UACR positive test 需確認；doubling on repeat testing 超過 expected variability。[11]
 - eGFR 與 albuminuria 在大型 CKD-PC meta-analysis 中，與 **10 個不良結果** 有強烈關聯，不是只有 kidney outcome 才重要。[12]
 
-### 已修正或降級的重點
-- **原稿把「≥20% change」寫得太像 4UDMI 的硬性統一規則。**
-  現改為：4UDMI 的核心是 **rise/fall**；而 **≤20% stable variation** 是 chronic injury 的重要判讀概念。對 CKD 病人而言，**20% rise** 常作為臨床實務上的警訊，但不是可脫離臨床脈絡、單獨診斷 MI 的 magic number。[1,3]
+### 容易講錯的地方
+- **「≥20% change」常被寫得像 4UDMI 的硬性統一規則。**
+  實際上：4UDMI 的核心是 **rise/fall**；而 **≤20% stable variation** 是 chronic injury 的重要判讀概念。對 CKD 病人而言，**20% rise** 常作為臨床實務上的警訊，但不是可脫離臨床脈絡、單獨診斷 MI 的 magic number。[1,3]
 
-- **原稿的台灣健保給付限制敘述，本次未找到足夠穩固的官方來源逐條核實。**
-  因此已**移除**，不再把它寫成事實陳述。
+- **KTR 的 operational cutoffs（如 NT-proBNP >470 / hs-cTnT >12 觸發 echo）**：找不到足夠直接、可重現的原始依據，不宜當作通用規則。
 
-- **原稿的 KTR operational cutoffs（如 NT-proBNP >470 / hs-cTnT >12 觸發 echo）本次未找到足夠直接、可重現的原始依據。**
-  已**移除**，避免把可能來自單中心/二手整理的 threshold 寫成通用規則。
-
-- **原稿的「UACR repeat 95% CI 約 50%」改為較穩健的 KDIGO 表述。**
+- **「UACR repeat 95% CI 約 50%」不夠精準。**
   KDIGO 2024 指出 urine albumin biological variation 可超過 60%，臨床上以 **doubling on repeat testing** 當作超過實驗/生物變異的較穩健訊號。[11]
 
-- **原稿對 FGF23 / galectin-3 / copeptin / hs-CRP 的 routine 使用建議過度延伸。**
-  本版刪除這些非核心 biomarker 的 routine recommendation，避免超出目前 guideline-supported clinical utility。
+- **FGF23 / galectin-3 / copeptin / hs-CRP 不宜 routine 使用**：超出目前 guideline-supported clinical utility。
 
 ---
 
@@ -87,7 +82,7 @@ seo_title: "Q15 CKM Biomarkers 解讀（NT-proBNP、Troponin、UACR、Cystatin C
 
 ### 1) Troponin：CKD 中先分清楚 injury 還是 infarction
 
-| 概念 | 查核後表述 |
+| 概念 | 建議表述 |
 |---|---|
 | **Myocardial injury** | 任何 cTn 超過 99th percentile URL。[1] |
 | **Acute myocardial injury** | serial testing 出現 rise and/or fall。[1] |
@@ -178,7 +173,7 @@ KDIGO 2024 重點：
 
 ---
 
-## Clinical Decision（查核後可採用版）
+## Clinical Decision
 
 ### A. 懷疑 ACS / NSTEMI
 1. 先抽 **baseline hs-cTn**。
@@ -244,7 +239,7 @@ KDIGO 2024 重點：
 
 ---
 
-## References（本次查核使用）
+## References
 
 1. Thygesen K, et al. **Fourth Universal Definition of Myocardial Infarction (2018)**. Circulation. 2018;138:e618-e651. PMID: 30571511.
 2. McDonagh TA, et al. **2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure**. Eur Heart J. 2021. Official ESC guideline.

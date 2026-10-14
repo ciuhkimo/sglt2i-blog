@@ -25,10 +25,10 @@ seo_title: "Q06 HF 藥物在 CKD 的使用門檻（BB、MRA、ARNI、H-ISDN、SG
 
 CKD 3b-5 與透析患者合併 HF 時，Beta-blocker、Steroidal/Nonsteroidal MRA、ARNI、Hydralazine/ISDN、SGLT2i 的 **新起始門檻、停藥/暫停條件、以及 eGFR 再下降後的續用思路** 應如何區分？
 
-**本版原則：只用權威網站、PubMed、ClinicalTrials.gov 做查核。**
+**資料來源：權威網站、PubMed、ClinicalTrials.gov。**
 ---
 
-## 本次查核後先講結論
+## 先講結論
 
 1. **Finerenone 不能再只用舊的 DKD 框架來寫。**
    自 2025 年起，FDA 標示已納入 **heart failure with LVEF ≥40%**；但這 **不代表它已取代 steroidal MRA 成為 HFrEF 的標準 pillar**。對 HFrEF 而言，現行 guideline-supported pillar 仍是 **spironolactone / eplerenone**。Finerenone 在 HFrEF 的專屬 outcome evidence 仍在補（如 FINALITY-HF）。
@@ -462,7 +462,7 @@ DIALIZE-Outcomes 沒有證明 SZC 在 maintenance hemodialysis 能改善 arrhyth
 - 強調 **kidney function trajectory、QoL、symptom burden** 應作為次要終點
 - 影響未來 HF/CKD 試驗設計（如 FIND-CKD、FINALITY-HF 後續）
 
-> **本版立場**：KDIGO 2026 共識與本題 v1.1 的核心結論 **完全一致**。新增本段為強化權威背書，**不改變既有用藥決策框架**，但建議引用本文件回應臨床上「該不該因為 small dip 停藥」的疑問。
+> **本文立場**：KDIGO 2026 共識與本題 v1.1 的核心結論 **完全一致**。新增本段為強化權威背書，**不改變既有用藥決策框架**，但建議引用本文件回應臨床上「該不該因為 small dip 停藥」的疑問。
 
 **新增參考**：
 - Lam CSP, et al. *JACC Heart Fail*. 2026;14(4):102943. PMID: 41793402. DOI: [10.1016/j.jchf.2026.102943](https://doi.org/10.1016/j.jchf.2026.102943)
@@ -495,7 +495,7 @@ DIALIZE-Outcomes 沒有證明 SZC 在 maintenance hemodialysis 能改善 arrhyth
 
 ---
 
-## 已查核來源（供日後回看）
+## 參考來源
 
 ### Authoritative / guideline / label
 - FDA Kerendia label (2025 HF indication):

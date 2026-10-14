@@ -20,16 +20,14 @@ seo_title: "DKD 何時加 Finerenone？啟動時機、定位與劑量指引"
 
 ---
 
-## 本次查核後的主要修正
+## 容易講錯的地方
 
-| 原稿重點 | 查核後結果 | 處理 |
-|---|---|---|
-| KDIGO 2024 = K ≤4.8 為 guideline 門檻 | KDIGO 的正式文字是 **normal serum potassium concentration**；≤4.8 主要來自 trial-based monitoring algorithm 與 label/pragmatic practice，不應寫成 KDIGO 的硬性文字門檻。 | 已改寫 |
-| CONFIDENCE 組合治療可降低 hyperkalemia，且可解釋為 SGLT2i 排鉀保護 | 專門的 secondary analysis 指出 **180 天內未顯著降低 hyperkalemia 風險**；因此不能把合併療法視為「保鉀解法」。 | 已改寫 |
-| 台灣自費金額約 NT$2,700/月 | 自費價格高度依醫院與時間而變動，本次以 authority-based audit 無法穩定驗證；不保留精確價格數字。 | 已移除 |
-| FIND-CKD 僅列為未來待追蹤 | **已正式發表（NEJM 2026, PMID 42246672）**：proteinuric 非糖尿病 CKD 達 eGFR slope primary（差 +0.7／年, P<0.001）；惟 primary 為 surrogate、長期 hard outcome 待續、台灣非適應症 | 已更新 |
-| EMA HF indication 僅寫「pending」 | 2026-01 已有 **CHMP positive opinion**，但目前公開 EPAR/SmPC 仍以 CKD with T2D 為現行適應症；EC 最終變更後的公開 SmPC 尚未在本次查核時點完整反映。 | 已更新 |
-| 個別 trial 的 N 與 pooled analysis N 混寫 | 已統一為 **individual trial 用 randomized N；FIDELITY 用 pooled analysis N**。 | 已修正 |
+| 常見說法 | 證據怎麼說 |
+|---|---|
+| KDIGO 2024 以 K ≤4.8 為 guideline 門檻 | KDIGO 的正式文字是 **normal serum potassium concentration**；≤4.8 主要來自 trial-based monitoring algorithm 與 label/pragmatic practice，不應寫成 KDIGO 的硬性文字門檻。 |
+| CONFIDENCE 組合治療可降低 hyperkalemia，可解釋為 SGLT2i 排鉀保護 | 專門的 secondary analysis 指出 **180 天內未顯著降低 hyperkalemia 風險**；因此不能把合併療法視為「保鉀解法」。 |
+| FIND-CKD 還只是未來待追蹤的試驗 | **已正式發表（NEJM 2026, PMID 42246672）**：proteinuric 非糖尿病 CKD 達 eGFR slope primary（差 +0.7／年, P<0.001）；惟 primary 為 surrogate、長期 hard outcome 待續、台灣非適應症 |
+| EMA 的 HF 適應症仍在 pending | 2026-01 已有 **CHMP positive opinion**；截至 2026-05-27，公開 EPAR/SmPC 仍以 CKD with T2D 為現行適應症。 |
 
 ---
 
@@ -46,14 +44,14 @@ seo_title: "DKD 何時加 Finerenone？啟動時機、定位與劑量指引"
 
 ### Guidelines and regulatory status
 
-| Source | 查核後重點 | 臨床意義 |
+| Source | 重點 | 臨床意義 |
 |---|---|---|
 | **KDIGO 2024** | Suggest 使用具 proven kidney / CV benefit 的 nsMRA 於 **T2D、eGFR >25、normal serum K、albuminuria >30 mg/g、且已用 max tolerated RASi** 的成人；並明載 nsMRA 可加在 **RASi + SGLT2i** 之上。 | finerenone 的 sweet spot 是 **albuminuric residual risk despite SOC**。 |
 | **ADA 2026** | 對 **CKD + albuminuria**，nsMRA 被列為用來降低 CKD progression 與 CV events 的治療選項；並新增「在 selected adults 可考慮與 SGLT2i simultaneous initiation」的表述。 | parallel start 從「研究概念」進入 guideline-supported option。 |
 | **FDA label（7/2025）** | **K >5.0 不可啟動**；eGFR ≥60 起始 20 mg、25-<60 起始 10 mg、<25 不建議啟動；4 週追蹤 K/eGFR。美國 label 另新增 HF（LVEF ≥40%）適應症與 40 mg strength，但 **DKD dosing 仍是 10/20 mg，target 20 mg**。 | DKD 臨床不要把 HF 的 40 mg regimen 直接搬來用。 |
 | **EMA current public SmPC / EPAR** | 目前公開適應症仍為 **CKD (with albuminuria) associated with T2D**；明載不應與 **other MRAs** 或 **potassium-sparing diuretics** 併用；若進展至 ESRD / eGFR <15 則停藥。 | EU 公開 label 仍是 CKD-with-T2D 為主；避免 co-MRA。 |
 | **TFDA** | Kerendia 10 mg / 20 mg 於 **2022-07-01** 核准，許可證字號 **衛部藥輸字第028325、028326號**。 | 台灣 regulatory approval 已確認。 |
-| **NHIA public documents** | 本次查核可見公開議程與會議文件持續討論 finerenone 健保給付條件，但**未查得已生效之正式收載實施公告**。 | 臨床上目前**不宜假設已可健保給付**。 |
+| **NHIA public documents** | 公開議程與會議文件曾討論 finerenone 健保給付條件，但**截至 2026-10-15 仍未收載**（見 [Q11](/finerenone/q11-taiwan-nhi-coverage/)）。 | 臨床上目前**不宜假設已可健保給付**。 |
 
 ### Supporting / subgroup evidence
 
@@ -223,7 +221,7 @@ T2D + CKD 病人就診
 ## 台灣監管與可近性
 
 - **TFDA**：可申達（Kerendia）10 mg / 20 mg 已於 **2022-07-01** 核准，用於 T2D 相關 CKD 成人患者；官方 assessment report 可查得適應症、起始劑量與許可證字號。
-- **健保（NHIA）**：本次查核可見公開議程、HTA 補充資料與公開會議文件均顯示 finerenone 曾進入給付討論，但截至本次查核時點，**未驗證到已生效的正式收載實施公告**；因此「目前不應假設已可健保給付」的方向是合理的。
+- **健保（NHIA）**：公開議程、HTA 補充資料與會議文件顯示 finerenone 曾進入給付討論，但**截至 2026-10-15 仍未收載**（見 [Q11](/finerenone/q11-taiwan-nhi-coverage/)）；臨床上目前不應假設可健保給付。
 
 ---
 
@@ -244,7 +242,7 @@ T2D + CKD 病人就診
 
 - **FIND-CKD（Heerspink, NEJM 2026, PMID 42246672）已正式發表**：finerenone 在 proteinuric 非糖尿病 CKD 減緩 eGFR slope（差 +0.7／年, P<0.001）、composite kidney-or-CV HR 0.77（0.60–0.99）——「何時起始」的適應範圍首次擴及非糖尿病 CKD；INFINITY（Neuen, Lancet 2026, PMID 42248158）pooled 後跨 T2D 與非糖尿病 albuminuric CKD 方向一致。惟 primary 為 slope surrogate，且**台灣 CKD 適應症目前仍限 T2D-related CKD**（非糖尿病屬適應症外、監管變更待後續）。
 - **FINE-ONE（T1D + CKD）**：2026 已有 surrogate positive publication，但目前仍屬 current label 之外的延伸證據，不應直接等同於 T2D-associated DKD 的 routine indication。
-- **EMA HF indication**：2026-01 已有 CHMP positive opinion，但目前公開 EPAR/SmPC 仍未在本次查核時點完全反映 EC 最終核定後的更新版本。
+- **EMA HF indication**：2026-01 已有 CHMP positive opinion，但截至 2026-05-27，公開 EPAR/SmPC 尚未完全反映 EC 最終核定後的更新版本。
 - **台灣 NHIA**：若未來有正式收載公告，臨床門檻、治療排序與可近性都可能實質改變。
 
 ---

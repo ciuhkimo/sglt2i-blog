@@ -12,7 +12,7 @@ quick_answer: "HFrEF 仍以 spironolactone/eplerenone 為主；HFmrEF/HFpEF（LV
 seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
 ---
 
-## 查核後結論
+## 結論
 
 1. **HFrEF（LVEF <40%）**：仍應以 **steroidal MRA（spironolactone / eplerenone）** 為主；finerenone **不應 routine 取代**。HFrEF 專屬 outcome trial 仍在進行中。
 2. **HFmrEF/HFpEF（LVEF ≥40%）**：finerenone 已有 **FINEARTS-HF** 硬終點陽性結果，且已取得 **美國 / 歐盟 / 台灣** HF 標示。
@@ -25,7 +25,7 @@ seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
 
 ## Regulatory status（2026-04-19）
 
-| 地區 | 查核結果 | 實務意義 |
+| 地區 | 現況 | 實務意義 |
 |---|---|---|
 | **美國** | FDA 於 **2025-07-11** 核准 HF with LVEF ≥40%；現行 label 含 **10/20/40 mg** | HF on-label |
 | **歐盟** | EC 於 **2026-03-26** 完成決定；EMA SmPC 已含 HF with LVEF ≥40% 與 40 mg | 已核准 |
@@ -83,7 +83,7 @@ seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
 
 ## Dual-MRA：不建議
 
-| 來源 | 查核結果 |
+| 來源 | 結果 |
 |---|---|
 | **TFDA 仿單** | 避免併服 Kerendia 與保鉀型利尿劑及其他 MRA |
 | **EMA SmPC** | finerenone should not be given concomitantly with other MRAs |
@@ -133,7 +133,7 @@ seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
 | Advanced CKD（G4–G5、dialysis）| 證據仍極有限 | finerenone 在 eGFR <25 仍不建議起始（與現行 USPI/SmPC 一致） |
 | 試驗設計建議 | kidney function trajectory、QoL、symptom burden 應為次要終點 | 影響未來 finerenone HF 試驗設計（如 FINALITY-HF 後續分析） |
 
-> **本版立場**：KDIGO 2026 共識與 Q05 v1.1 的核心結論 **完全一致**——finerenone 不取代 HFrEF 標準 sMRA、不應因 small eGFR dip 中止、advanced CKD 仍有證據缺口。新增本段為強化權威背書，**不改變既有臨床決策框架**。
+> **本文立場**：KDIGO 2026 共識與 Q05 v1.1 的核心結論 **完全一致**——finerenone 不取代 HFrEF 標準 sMRA、不應因 small eGFR dip 中止、advanced CKD 仍有證據缺口。新增本段為強化權威背書，**不改變既有臨床決策框架**。
 
 ---
 

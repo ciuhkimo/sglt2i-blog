@@ -18,7 +18,6 @@ tags:
   - GLP-1-RA
   - SGLT2i
   - biopsy-indication
-  - verified
 description: "Obesity-Related Glomerulopathy（ORG）的臨床懷疑時機、免 biopsy 治療條件、與 primary FSGS/DKD 的實務鑑別。減重（lifestyle、GLP-1 RA、bariatric surgery）對 albuminuria 與腎預後的證據。"
 quick_answer: "肥胖、albuminuria/proteinuria、尿沉渣相對 bland、即使蛋白尿偏高仍常沒有明顯低白蛋白血症或水腫，是典型臨床輪廓；但這個輪廓不是病理診斷。"
 seo_title: "Q08 Obesity-Related Glomerulopathy（ORG）— 診斷與治療決策 | CKM Syndrome 腎臟科臨床決策"
@@ -68,7 +67,7 @@ seo_title: "Q08 Obesity-Related Glomerulopathy（ORG）— 診斷與治療決策
 
 ---
 
-## 查核後的證據分層
+## 證據分層
 
 | 問題 | 直接 ORG 證據 | 外推證據 | 臨床權重 |
 |---|---|---|---|
@@ -399,7 +398,7 @@ Nasr 2024 的 secondary oxalate nephropathy cohort 顯示：
 
 ---
 
-### E. 治療階梯（查核後版）
+### E. 治療階梯
 
 #### Tier 1 — Foundation（幾乎所有 ORG phenotype 都應做）
 - **ACEi 或 ARB**：使用到可耐受劑量
@@ -505,7 +504,7 @@ Nasr 2024 的 secondary oxalate nephropathy cohort 顯示：
 
 ---
 
-## 查核來源（可追溯）
+## 參考來源
 
 ### A. 權威 / 官方來源
 1. **KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD**

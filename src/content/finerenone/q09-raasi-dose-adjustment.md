@@ -12,7 +12,7 @@ quick_answer: "不建議為了加上 finerenone 而預防性降低 ACEi/ARB 劑�
 seo_title: "Finerenone + ACEi/ARB 劑量調整｜高血鉀處置優先順序"
 ---
 
-## 查核後最重要的 4 點修正
+## 最重要的 4 個重點
 
 1. **不建議為了加上 finerenone 而預防性先降 ACEi/ARB。** CKD-T2D pivotal trials 驗證的是「單一 ACEi 或 ARB 的最高可耐受標示劑量 + finerenone」；protocol 用語是 **preferably without adjustments**。
 2. **K >5.5 mmol/L 時，應先依標籤暫停 finerenone**，而不是把 binder 或降 ACEi/ARB 排在更前面。

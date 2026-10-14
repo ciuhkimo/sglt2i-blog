@@ -23,9 +23,9 @@ seo_title: "Q04 CKD + HF 的容量評估 | CKM Syndrome 腎臟科臨床決策"
 **臨床問題**
 
 CKD 合併 HF 的病人，什麼時候「太乾」vs「太濕」？如何用多模態工具（bedside signs、CXR、LUS、IVC/VExUS、BCM/bioimpedance、natriuretic peptides、daily weight）整合判斷？
-**查核說明**
+**資料來源說明**
 
-本版已依權威 guideline / conference report、PubMed、ClinicalTrials.gov 重查。原稿中未被主流 guideline 支持或證據層級不足的說法，已刪除或降級處理；特別修正了 **NT-proBNP CKD 校正式**、**Tsai 2015 的族群定位**、以及 **STRONG-HF 的詮釋**。
+本文依權威 guideline / conference report、PubMed、ClinicalTrials.gov 整理；未被主流 guideline 支持或證據層級不足的說法不列入。
 ---
 
 ## Executive Bottom Line
@@ -123,9 +123,9 @@ CKD 合併 HF 的病人，什麼時候「太乾」vs「太濕」？如何用多�
 - **GUIDE-IT** 告訴我們：在高風險 HFrEF，**NT-proBNP-guided therapy 並未優於 usual care** 改善 outcome。
 - **STRONG-HF** 則支持 acute HF 出院後 **高強度近端追蹤 + 快速 GDMT up-titration** 可以改善 outcome；它不是「NT-proBNP 精準決定乾濕目標」的證據。
 
-**查核後修正**：
-- 原稿中的 **「eGFR 45–60 +15%、30–45 +25%、<30 +35%」** 這種 CKD 校正公式，**不是 major guideline 普遍採納的標準公式**，本版已移除。
-- 原稿中的 **「偏離基線的動態倍增才有臨床意義」** 也過於武斷；目前較穩健的說法是：**serial trend 有價值，但 advanced CKD / dialysis 沒有 universally validated percentage-change rule 可單獨決策。**
+**容易講錯的地方**：
+- **「eGFR 45–60 +15%、30–45 +25%、<30 +35%」** 這種 CKD 校正公式，**不是 major guideline 普遍採納的標準公式**，不建議使用。
+- **「偏離基線的動態倍增才有臨床意義」** 過於武斷；目前較穩健的說法是：**serial trend 有價值，但 advanced CKD / dialysis 沒有 universally validated percentage-change rule 可單獨決策。**
 
 **判讀定位**：
 - 可用，但要 **看 baseline、看 trajectory、看場景、看 concordant evidence**。

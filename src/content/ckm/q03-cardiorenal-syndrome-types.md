@@ -191,7 +191,7 @@ CRS Type [1-5], [dominant phenotype], [current priority], [escalation status]
 
 ---
 
-## References（查核來源）
+## References
 
 ### 官方網站 / 指引
 - **R4.** Heidenreich PA, et al. **2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure.** Official guideline. DOI: 10.1016/j.cardfail.2022.02.010.

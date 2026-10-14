@@ -35,7 +35,7 @@ Loop diuretic + thiazide + acetazolamide + SGLT2i 的 sequential nephron blockad
 
 ## Key Evidence
 
-### ADHF decongestion landmark trials（查核後版本）
+### ADHF decongestion landmark trials
 
 | Trial | Year | n | Intervention | Key Result |
 |-------|------|---:|-------------|------------|
@@ -49,7 +49,7 @@ Loop diuretic + thiazide + acetazolamide + SGLT2i 的 sequential nephron blockad
 
 ---
 
-## Sequential Nephron Blockade：實務優先序（查核後）
+## Sequential Nephron Blockade：實務優先序
 
 ### 1) 第一線仍是 IV loop diuretic，不要起始就 underdose
 
@@ -194,7 +194,7 @@ Loop diuretic + thiazide + acetazolamide + SGLT2i 的 sequential nephron blockad
 
 ---
 
-## Clinical Decision（查核後建議版）
+## Clinical Decision
 
 ### 建議做法
 
@@ -237,17 +237,17 @@ Loop diuretic + thiazide + acetazolamide + SGLT2i 的 sequential nephron blockad
 
 ---
 
-## 本次查核後的主要修正
+## 容易講錯的地方
 
-- 把初始 IV loop 建議由「≥2× home PO」修正為較符合 ACC 路徑與 DOSE/住院 HF 實務的 **1–2.5× home oral equivalent**。
-- 把 ADVOR 改寫為：**改善 3 日去充血、縮短住院，但未證明 3 個月硬終點改善**。
-- 把 CLOROTIC 的 safety 描述改成：**creatinine rise / impaired renal function 與 hypokalemia 風險明顯增加**。
-- 把 DICTATE-AHF 改成 **240 randomized（238 analyzed）且 primary endpoint 未達顯著**。
-- 把「Cr↑ 可以接受的固定百分比 cutoff」改成 **以 decongestion trajectory + AKI red flags 為核心判讀**，不再用單一百分比硬切。
+- 初始 IV loop 劑量：較符合 ACC 路徑與 DOSE／住院 HF 實務的是 **1–2.5× home oral equivalent**，而不是一律「≥2× home PO」。
+- ADVOR：**改善 3 日去充血、縮短住院，但未證明 3 個月硬終點改善**。
+- CLOROTIC 的 safety：**creatinine rise / impaired renal function 與 hypokalemia 風險明顯增加**。
+- DICTATE-AHF：**240 randomized（238 analyzed），primary endpoint 未達顯著**。
+- Cr↑ 沒有可接受的固定百分比 cutoff，應**以 decongestion trajectory + AKI red flags 為核心判讀**。
 
 ---
 
-## 查核來源（Authority websites / PubMed / ClinicalTrials.gov）
+## 參考來源（Authority websites / PubMed / ClinicalTrials.gov）
 
 ### Authority websites
 - ACC Heart Failure Hospitalization Pathway Toolkit (includes inpatient loop dosing table and hospitalization trajectory framework): <https://www.acc.org/~/media/46BFF67D37B14272BE0970ADD6F6B705.pdf>

@@ -190,7 +190,7 @@ FIND-CKD（non-diabetic CKD, phase 3；NCT05047263）主結果已於 2026-06 正
 - 安全性：hyperkalaemia 在 finerenone 組較常見，但**因高血鉀住院的絕對發生率低**。
 - 作者的結論用語是「支持 finerenone 作為 CKD 的 foundational therapy」，且原文自身限定於「在所研究的族群中」。本文引述此為作者立場，不逕自升級為指引級建議。
 
-### 因此本版可接受的說法
+### 因此本文採用的說法
 
 - **可說**：finerenone 的腎臟與心血管效益，在已納入試驗的族群中跨病因、跨血糖狀態、跨 eGFR 與 albuminuria 分層一致；non-diabetic CKD 已有 phase 3 主結果與合併分析支撐，不再只是「探索階段」。
 - **不可說**：三項試驗的基線 eGFR 下限均為 25 mL/min/1.73m²，**不能外推至 eGFR < 25**，也不能用來回答 eGFR < 20 的用藥策略。
@@ -490,13 +490,11 @@ De Nicola 是義大利數據，**台灣本地 four-pillar inertia 無對應 coho
   - 用以降低持續 eGFR 下降、ESKD、CV death、non-fatal MI、HF hospitalization 風險
 - 起始劑量如上（依 eGFR）
 
-### 本次查核到的 NHI 給付狀態
-- 在 **最新版藥品給付規定內容（整份帶走）115.03.23 更新** 中，
-  - 搜尋 **Kerendia**：**未見**
-  - 搜尋 **finerenone**：**未見**
+### NHI 給付狀態
+- **藥品給付規定（115.03.23 更新版）**中，搜尋 **Kerendia**、**finerenone** 皆**未見**；2026-10-15 健保用藥品項查詢亦查無（見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)）。
 
-### 因此本版採用的實務表述
-- **截至本次查核，NHI 對 finerenone 的正式給付條文未在最新版總表中確認。**
+### 實務表述
+- **NHI 目前沒有 finerenone 的給付條文。**
 - 實務上應先視為：
   - **TFDA 核准可開立**
   - **NHI 給付未確認／多半需自費**
@@ -578,7 +576,7 @@ Albuminuric T2D + CKD
 
 ---
 
-## Source Audit Trail（本次查核使用）
+## 參考來源
 
 ### Official / Guideline
 1. **ADA 2026 – 11. Chronic Kidney Disease and Risk Management**
@@ -597,7 +595,7 @@ Albuminuric T2D + CKD
    - 附件 2：CKD / HFmrEF 修訂對照表
 
 4. **最新版藥品給付規定內容（整份帶走）115.03.23 更新**
-   - 查核 Kerendia / finerenone：未見正式給付條文
+   - Kerendia / finerenone：未見正式給付條文
    - GLP-1 RA 章節可查到「不得與 SGLT-2 抑制劑併用」
 
 ### PubMed / ClinicalTrials.gov

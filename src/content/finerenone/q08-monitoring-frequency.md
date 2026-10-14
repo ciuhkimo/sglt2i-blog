@@ -12,7 +12,7 @@ quick_answer: "最低安全要求：baseline 抽 K + eGFR，起始後 4 週必�
 seo_title: "Finerenone 監測頻率｜K 與 eGFR 追蹤時間表"
 ---
 
-## 查核後結論
+## 結論
 
 - **最低安全要求（label-based）**：Baseline 抽 **K + serum creatinine/eGFR**；起始後 **4 週** 必追；**重啟、加量或其他劑量調整後 4 週** 再追；其後定期監測。
 - **實務預設節奏（KDIGO + FIDELIO/FIGARO）**：**1 個月、4 個月，其後每 4 個月** 同步追蹤 K 與腎功能。

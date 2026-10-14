@@ -29,15 +29,15 @@ seo_title: "Q09 MASLD/MASH 與 CKD 的腎臟科共管 | CKM Syndrome 腎臟科�
 哪些 CKD 病人需要進入 MASLD/MASH case-finding pathway？篩檢工具怎麼選（FIB-4 vs elastography）？透析病人做 FibroScan 有哪些 pitfall？跨器官治療（SGLT2i、semaglutide、finerenone、resmetirom）如何排優先順序？腎臟科與肝科 shared care 該怎麼落地？
 ---
 
-## 查核說明
+## 資料來源說明
 
-**> 本版依「會改變臨床動作的陳述」優先查核，重點放在：**
+**本文優先確認會改變臨床動作的陳述，重點放在：**
 
 1. 指南的 screening / case-finding pathway
 2. FIB-4 / VCTE 的門檻與 CKD/HD pitfall
 3. FDA 核准適應症與藥物標籤
 4. 主要 trial / meta-analysis / ClinicalTrials.gov 試驗身分>
-> 已移除或弱化下列未做完整在地查核的內容：
+> 以下內容缺乏完整在地資料，本文不下定論：
 > - 台灣健保給付 / 自費可近性
 > - 以 CKD 單獨作為強制篩檢 trigger 的說法
 > - 對 advanced CKD / dialysis 的過度外推
@@ -65,21 +65,21 @@ seo_title: "Q09 MASLD/MASH 與 CKD 的腎臟科共管 | CKM Syndrome 腎臟科�
 
 ---
 
-## 查核後修訂重點
+## 容易講錯的地方
 
 ### 1. CKM 的說法
-原本「AHA 2023 CKM framework 把肝臟正式納入心腎代謝軸」這句太強。
-**修正後：** CKM 沒有正式改成含 liver 的縮寫，但後續研究支持把 MASLD 視為重要的 CKM 風險放大器。
+「AHA 2023 CKM framework 把肝臟正式納入心腎代謝軸」這句太強。
+**較精準的說法：** CKM 沒有正式改成含 liver 的縮寫，但後續研究支持把 MASLD 視為重要的 CKM 風險放大器。
 
 ### 2. Semaglutide 的說法
-不能再把所有 semaglutide 效果混成同一個 label。
-**修正後：**
+不能把所有 semaglutide 效果混成同一個 label：
+
 - **Wegovy**：MASH / F2–F3（accelerated approval）
 - **Ozempic**：T2D + CKD 腎臟與 CV death 風險降低
 
 ### 3. Rezdiffra 的腎臟安全性
-原版對 eGFR <30 / dialysis 的結論太像已知事實。
-**修正後：** mild/moderate renal impairment 無需調整；**severe CKD / dialysis 直接證據有限，避免過度外推**。
+對 eGFR <30 / dialysis 的結論常被寫得太像已知事實。
+**較精準的說法：** mild/moderate renal impairment 無需調整；**severe CKD / dialysis 直接證據有限，避免過度外推**。
 
 >**2026-09-12 更新：FIB-4 的施作頻率已有指引建議**
 > 2026 AHA/ACC/ADA/ASN CKM 指引（PMID 42263157）給了明確頻率：
@@ -89,8 +89,7 @@ seo_title: "Q09 MASLD/MASH 與 CKD 的腎臟科共管 | CKM Syndrome 腎臟科�
 > 這是頻率建議，**不改變下面關於 FIB-4 在透析族群限制的結論**。指引並未針對透析病人另訂 FIB-4 條文。
 
 ### 4. FIB-4 / FibroScan 在透析病人的使用
-原版方向對，但需補上 guideline / recent data 的 caveat。
-**修正後：**
+使用上的限制：
 - FIB-4 不可用於 acute illness
 - 在 HD 病人，AST/ALT 偏低可能讓 FIB-4 **假性偏低**
 - TE / VCTE 受 volume status 影響，建議 **post-dialysis、euvolemic** 條件下執行
@@ -101,7 +100,7 @@ seo_title: "Q09 MASLD/MASH 與 CKD 的腎臟科共管 | CKM Syndrome 腎臟科�
 
 ### 1) MASLD → CKD 的流行病學
 
-| 證據類型 | 查核後重點 |
+| 證據類型 | 重點 |
 |---|---|
 | **Global epidemiology** | MASLD 成人盛行率約 **38%**；可實務上寫成 **30–40%** |
 | **Updated meta-analysis** | NAFLD / MASLD 與 incident CKD stage ≥3 長期風險增加約 **1.45-fold** |
@@ -142,7 +141,7 @@ seo_title: "Q09 MASLD/MASH 與 CKD 的腎臟科共管 | CKM Syndrome 腎臟科�
 
 ---
 
-### 3) 跨器官治療證據（查核後版本）
+### 3) 跨器官治療證據
 
 | 治療 | 對 MASH / fibrosis | 對 CKD / cardiorenal | 實務定位 |
 |---|---|---|---|
@@ -170,7 +169,7 @@ seo_title: "Q09 MASLD/MASH 與 CKD 的腎臟科共管 | CKM Syndrome 腎臟科�
 
 ## Guidelines：現在到底怎麼說？
 
-| 來源 | 查核後可確定的內容 | 不能講太滿的內容 |
+| 來源 | 可確定的內容 | 不能講太滿的內容 |
 |---|---|---|
 | **AASLD 2023 Practice Guidance** | 不建議 general population screening；對高風險個體做 **advanced fibrosis case-finding**；FIB-4 ≥1.3 後做 secondary NIT；acute illness 不用 FIB-4 | **CKD 單獨** 不是明列 trigger |
 | **AASLD 2025 semaglutide update** | 針對 semaglutide 在 **F2–F3 MASH** 的選人與監測給出實務建議 | 不是把 CKD 變成新 screening trigger |
@@ -422,7 +421,7 @@ Stable CKD patient
 
 ---
 
-## 查核來源（權威網站 / PubMed / ClinicalTrials.gov）
+## 參考來源（權威網站 / PubMed / ClinicalTrials.gov）
 
 ### 權威網站 / 指南 / 官方標籤
 - AHA 2023 Presidential Advisory: **Cardiovascular-Kidney-Metabolic (CKM) Health**
@@ -447,7 +446,7 @@ Stable CKD patient
 - Suksai et al. 2025: dynamic post-dialysis changes in liver stiffness
 - **Kreutz R, Canbay A, Haluzik M, Januszewicz A, Mendive JM, Sarafidis P, Schattenberg JM. 2026.** Assessment and management of cardiovascular-kidney-liver metabolic-syndrome in the primary care setting: A multidisciplinary consensus statement. *Eur J Intern Med.* 2026 Apr 27 (Epub);106902. **PMID: 42049588**. DOI: 10.1016/j.ejim.2026.106902. *(v1.2 新增 — CKLMS framework 提案, 非主辦學會 consensus)*
 
-### ClinicalTrials.gov（試驗身分查核）
+### ClinicalTrials.gov（試驗身分）
 - **NCT03900429** — MAESTRO-NASH
 - **NCT05500222** — MAESTRO-NASH-OUTCOMES
 - **NCT04822181** — ESSENCE

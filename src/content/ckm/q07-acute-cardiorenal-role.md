@@ -83,7 +83,7 @@ seo_title: "Q07 急性心腎症候群的腎臟科角色（Ward / ICU / 門診 de
 
 - **Spot urine Na 50–70 mmol/L** 是 **expert consensus / pragmatic response target**，不是絕對切點。[11,28]
 - **NGAL / KIM-1 / TIMP-2·IGFBP7** 目前可作 research / selected adjunct，**不是** acute cardiorenal ward/ICU 的 routine discriminator。[10,11]
-- **FeUrea、BUN/Cr ratio** 在 acute HF + loop diuretic 情境下的鑑別價值有限，本版不再把它們寫成主要判斷依據。
+- **FeUrea、BUN/Cr ratio** 在 acute HF + loop diuretic 情境下的鑑別價值有限，不宜當作主要判斷依據。
 
 #### ⚠️ 不要混淆兩種「creatinine rise」情境（v1.2 補充）
 
@@ -135,7 +135,7 @@ seo_title: "Q07 急性心腎症候群的腎臟科角色（Ward / ICU / 門診 de
 | **IDEAL-ICU**[23] | 2018 | 488 | septic shock + severe AKI | early vs delayed **無明顯獲益** | septic AKI 亦不支持 routine early KRT |
 | **STARRT-AKI**[24] | 2020 | 3019 | 多中心全球 ICU | accelerated vs standard **無 mortality 差異**；accelerated 組 90-day dialysis dependence 較多 | 最廣泛的 modern RCT，不支持只因「AKI stage 高」就提早 KRT |
 
-### 6) Guideline / authority summary — 這次真正查核後的版本
+### 6) Guideline / authority summary
 
 | 議題 | 目前較準確的寫法 |
 |------|------------------|
@@ -198,7 +198,7 @@ seo_title: "Q07 急性心腎症候群的腎臟科角色（Ward / ICU / 門診 de
 
 ---
 
-## 2) Diuretic escalation：本版改成「evidence-informed pragmatic ladder」
+## 2) Diuretic escalation：evidence-informed pragmatic ladder
 
 > 這不是某一條 guideline 原文，而是把 AHA 2022 的「加強 loop 或加第二利尿劑」與 ADVOR / CLOROTIC 的 RCT 實際證據整合成可操作版本。[1,2,12,13]
 
@@ -271,9 +271,9 @@ KDIGO 2012 支持在以下情境 **emergent** 啟動 KRT：[3]
 
 ---
 
-## 5) Evidence-informed nephrology consult triggers（修正版）
+## 5) Evidence-informed nephrology consult triggers
 
-> 原稿這段改寫為「**evidence-informed pragmatic SOP**」，不再寫成「依某兩個模型整合」。
+> 這是 **evidence-informed pragmatic SOP**，不是依某兩個模型整合而成的規則。
 
 ### 建議提早會診腎臟科的情境
 1. **Baseline CKD 脆弱**
@@ -382,7 +382,7 @@ KDIGO 2012 支持在以下情境 **emergent** 啟動 KRT：[3]
 
 ---
 
-## 查核來源（文末索引）
+## 參考來源（文末索引）
 
 ### Official / authority
 1. McDonagh TA, et al. **2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure**. *Eur Heart J*. 2023;44:3627-3639.（官方 ESC / OUP）

@@ -26,9 +26,9 @@ seo_title: "Q10 Metabolic Surgery 對 CKD 的影響（轉介、術前評估、�
 **臨床問題**
 
 何時轉介 metabolic / bariatric surgery（MBS）？CKD / 透析 / 移植候選人是否有較特殊的 BMI 與術式考量？術前腎功能如何評估？術後腎臟結局、腎結石 / enteric hyperoxaluria 風險、與 GLP-1 RA 的取捨如何處理？
-**查核原則**
+**資料來源說明**
 
-本版優先採用 **官方/權威網站、PubMed、ClinicalTrials.gov**。無法由這三類來源穩定支持的敘述，已刪除、降階處理，或改寫為「不確定」。
+本文優先採用 **官方/權威網站、PubMed、ClinicalTrials.gov**；無法由這三類來源穩定支持的敘述不列入，或標示為「不確定」。
 ---
 
 ## Why This Matters
@@ -64,7 +64,7 @@ seo_title: "Q10 Metabolic Surgery 對 CKD 的影響（轉介、術前評估、�
 | **Nasr 2008** | Biopsy-proven oxalate nephropathy after RYGB；多數患者快速進展到嚴重腎衰竭 / ESKD | RYGB 後 unexplained AKI 不能漏掉 oxalate nephropathy。[15] |
 | **Matlaga 2009** | Kidney stone **OR 1.71**；stone surgery **OR 3.65** after RYGB | RYGB stone burden 不只是「多一些結石」，還可能增加後續 intervention。[16] |
 | **Thongprayoon 2016** | Meta-analysis：RYGB stone risk 增加；restrictive procedures 風險較低 | 舊 meta 支持「bypass 風險高於 restrictive」，但不能據此把 SG 說成零風險。[17] |
-| **Laurenius 2023** | Scandinavian registry：RYGB **HR 6.16**、SG **HR 6.33**、BPD/DS **HR 10.16** for stones | 新 registry 顯示 **SG 也會增加 stone risk**；原稿把 SG 寫成保護性或近乎無風險，證據不足。[18] |
+| **Laurenius 2023** | Scandinavian registry：RYGB **HR 6.16**、SG **HR 6.33**、BPD/DS **HR 10.16** for stones | 新 registry 顯示 **SG 也會增加 stone risk**；SG 不應寫成保護性或近乎無風險。[18] |
 | **Sørensen 2025** | SG subgroup nephrolithiasis aHR **1.33 (0.73–2.40)**；RYGB aHR **1.74 (1.58–1.93)** | 不同 cohort 對 SG 風險大小估計不一，但方向至少不是「可忽略不計」。[12] |
 
 ---
@@ -150,7 +150,7 @@ seo_title: "Q10 Metabolic Surgery 對 CKD 的影響（轉介、術前評估、�
 
 ---
 
-### 4. 術前用藥：本版修正重點
+### 4. 術前用藥：容易講錯的地方
 
 #### GLP-1 RA
 **不要再寫成「一律 Day -7 停 weekly GLP-1」**。
@@ -163,7 +163,7 @@ seo_title: "Q10 Metabolic Surgery 對 CKD 的影響（轉介、術前評估、�
 
 #### 其他腎臟相關藥物
 - **Metformin、ACEi / ARB、利尿劑**：建議依 **local perioperative protocol + anesthesia + nephrology** 個別化處理
-- 本版**刻意不再保留原稿的一刀切固定日程**，因為那不是本次指定來源能穩定支持的 universal rule
+- **不建議採用一刀切的固定停藥日程**，目前沒有權威來源支持這種 universal rule
 
 #### NSAIDs
 - CKD / transplant / peri-op volume depletion 族群原則上 **避免 routine 使用**
@@ -226,7 +226,7 @@ seo_title: "Q10 Metabolic Surgery 對 CKD 的影響（轉介、術前評估、�
 
 ---
 
-## 不建議再保留的舊說法（本版已修正）
+## 常見但不正確的說法
 
 1. **「LSG 幾乎沒有腎結石 / oxalate 風險」**
    → 不正確。SG 的風險通常低於 bypass concerns，但不是零；不同大型 cohort 對風險大小估計不一，方向至少不能寫成「保護性」。 [12][18]

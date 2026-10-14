@@ -25,7 +25,7 @@ seo_title: "Q12 eGFR <20 的 CKM 藥物策略（Advanced CKD） | CKM Syndrome �
 **臨床問題**
 
 當 eGFR 接近或低於 20 mL/min/1.73m² 時，哪些 CKM 藥物應續用、哪些不應 reflex 停藥、哪些不宜新起始、哪些只適合研究場景？
-## 先講查核後結論
+## 先講結論
 
 1. **RASi 不應因 eGFR 掉到 <20 或 <30 就自動停。** STOP-ACEi 並未顯示停藥可改善 3 年 eGFR；次分析甚至提示停藥組 kidney failure / KRT 風險較高。[1,2] KDIGO 2024 也明確寫到：eGFR 降到 <30 不是停 ACEi/ARB 的理由；真正考慮減停藥的是 symptomatic hypotension、無法控制的高血鉀，或為減輕 kidney failure 的 uremic symptoms（eGFR <15）。[3]
 
@@ -66,7 +66,7 @@ Advanced CKD 的用藥邏輯，近年已從「到了低 eGFR 就一直撤藥」�
 
 ---
 
-## Key Evidence（查核後整理）
+## Key Evidence
 
 ### 1) RASi：不是「續用到 KRT」的口號，而是「不要因低 eGFR 本身就停」
 
@@ -83,7 +83,7 @@ RASi 在 advanced CKD 的較準確結論是：**低 eGFR 本身不是停藥理�
 
 ### 2) SGLT2i：起始門檻與續用門檻必須拆開寫
 
-| 類別 | 查核後結論 |
+| 類別 | 結論 |
 |---|---|
 | **起始（guideline-supported initiation）** | KDIGO 2024：對 CKD 成人，若 **eGFR ≥20** 且 **uACR ≥200 mg/g**，或有 **heart failure**，建議使用 SGLT2i；另對 **eGFR 20–45 且 uACR <200 mg/g** 為較弱建議（2B）。[3] |
 | **續用（continuation after decline）** | **一旦已起始**，即使 eGFR 跌破 20，也可合理續用，直到 **不耐受** 或 **KRT 開始**。[3] |
@@ -105,7 +105,7 @@ RASi 在 advanced CKD 的較準確結論是：**低 eGFR 本身不是停藥理�
 
 ### 3) Finerenone / ns-MRA：目前仍不能直接外推到所有 eGFR <20 病人
 
-| 證據/規範 | 查核後重點 |
+| 證據/規範 | 重點 |
 |---|---|
 | **KDIGO 2024** | 建議對 **T2D + CKD + persistent albuminuria**、**eGFR >25**、且血鉀正常、已用最大耐受 RASi 的成人考慮 **nonsteroidal MRA**。[3] |
 | **Label / SmPC** | **eGFR <25 不建議新起始**；若病人已進展到 **ESRD / eGFR <15**，應停用。[8,9] |
@@ -121,7 +121,7 @@ RASi 在 advanced CKD 的較準確結論是：**低 eGFR 本身不是停藥理�
 
 ### 4) Steroidal MRA（spironolactone/eplerenone）在 maintenance dialysis：目前不支持 routine 新起始
 
-| 研究 | 查核後重點 |
+| 研究 | 重點 |
 |---|---|
 | **ACHIEVE（Lancet 2025）** | 2538 位 maintenance dialysis 病人；spironolactone 25 mg/d 與 placebo 比較，primary composite **HR 0.92 (0.78–1.09), p=0.35**；trial 因 futility 提前停止，未證實有益。[12] |
 | **ALCHEMIST（Lancet 2025）** | 644 位 chronic hemodialysis 高風險病人；primary outcome **HR 1.00 (0.73–1.36), p=0.98**，無顯著 benefit。[13] |
@@ -135,7 +135,7 @@ RASi 在 advanced CKD 的較準確結論是：**低 eGFR 本身不是停藥理�
 
 ### 5) GLP-1 RA / GIP-GLP-1：證據要分成「直接腎臟 hard outcomes」與「CVOT/post hoc」
 
-| 研究/指引 | 查核後重點 |
+| 研究/指引 | 重點 |
 |---|---|
 | **KDIGO 2024** | 在 T2D + CKD 病人，若 metformin/SGLT2i 後仍未達 glycemic targets，或無法使用這些藥物，建議 long-acting GLP-1 RA；並優先選有 documented CV benefit 的藥物。[3] |
 | **FLOW（semaglutide）** | 3533 位 T2D + CKD（eGFR **25–75**，依 albuminuria 分層納入）；primary kidney outcome **HR 0.76**，annual eGFR slope 差異 **+1.16 mL/min/1.73m²/年**，MACE **HR 0.82**，all-cause mortality **HR 0.80**。[15] |
@@ -152,7 +152,7 @@ RASi 在 advanced CKD 的較準確結論是：**低 eGFR 本身不是停藥理�
 
 ### 6) Kidney transplant recipients（KTR）：目前仍屬個案化區域
 
-| 證據 | 查核後重點 |
+| 證據 | 重點 |
 |---|---|
 | **French prospective multicenter cohort（347 KTR）** | 97% 使用 dapagliflozin；UTI **6.6%**、genital mycosis **0.6%**，整體停藥率 **15.6%**；停藥主因為 graft dysfunction、intercurrent infection、UTI、GI symptoms。eGFR <30 的 KTR 停藥率較高。[19] |
 | **RENAL LIFECYCLE（ongoing）** | 會補上 transplant recipients 的 randomized data gap，目前尚未有 definitive RCT outcome data。[6] |
@@ -167,7 +167,7 @@ KTR 的 SGLT2i 使用，目前比較合理的說法是：**有希望，但還不
 
 ---
 
-## Clinical Decision（查核後決策版）
+## Clinical Decision
 
 ### A. Non-dialysis、eGFR 15–19 的病人
 
@@ -208,7 +208,7 @@ KTR 的 SGLT2i 使用，目前比較合理的說法是：**有希望，但還不
 
 ### B. 一旦開始 KRT / maintenance dialysis
 
-| 藥物類別 | 續用 | 新起始 | 查核後備註 |
+| 藥物類別 | 續用 | 新起始 | 備註 |
 |---|---|---|---|
 | **RASi** | 個案化 | 個案化 | 不是自動全停，也不是自動全留；看 BP、hyperkalemia、residual kidney function、HF indication。KDIGO 2024 的 CKD 續用邏輯主要到 **KRT 前**。[3] |
 | **SGLT2i** | **否（標準照護）** | **否（標準照護）** | KDIGO 2024 continuation 邏輯到 **KRT initiated** 為止；dialysis use 目前主要屬 trial domain（如 RENAL LIFECYCLE）。[3,6] |
@@ -228,7 +228,7 @@ KTR 的 SGLT2i 使用，目前比較合理的說法是：**有希望，但還不
 
 ---
 
-## 實務版流程圖（查核後）
+## 實務版流程圖
 
 ```text
 eGFR 15–19，尚未 KRT

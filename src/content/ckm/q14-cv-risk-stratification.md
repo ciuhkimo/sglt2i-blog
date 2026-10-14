@@ -1,6 +1,6 @@
 ---
 question_id: "Q14"
-title: "CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker）— 查核修正版"
+title: "CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker）"
 category: "風險與預後"
 version: "v1.2"
 status: ""
@@ -18,7 +18,7 @@ tags:
   - CAC
 description: "傳統 CV risk calculator 在 CKD 常失準。整合 KDIGO 2024 heat map、AHA PREVENT、CAC 評分與心臟 biomarker，建立腎臟科可操作的 CV 風險分層流程。"
 quick_answer: "1. 先用 KDIGO 2024 的 CGA / heat map 定位，再決定要不要進 calculator。"
-seo_title: "Q14 CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker）— 查核修正版 | CKM Syndrome 腎臟科臨床決策"
+seo_title: "Q14 CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker）| CKM Syndrome 腎臟科臨床決策"
 ---
 
 **臨床問題**
@@ -49,9 +49,9 @@ seo_title: "Q14 CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker�
 
 ---
 
-## 這次查核後的關鍵修正
+## 容易講錯的地方
 
-### 已修正的高風險錯誤
+### 高風險錯誤
 
 - **KDIGO heat map 不是 9 格**，而是 **G1/G2/G3a/G3b/G4/G5 × A1/A2/A3** 的 **6 × 3 grid**。
 - **G1A3 / G2A3 並非 KDIGO red**；在 nomenclature figure 中屬於 **orange / high risk**。
@@ -64,11 +64,11 @@ seo_title: "Q14 CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker�
 - **hs-cTnT 126 ng/L 與 NT-proBNP 3592 pg/mL 不應寫成通用 CKD 診斷 cutoff。**
   這兩個數字來自 **ambulatory CRIC CKD cohort 的 99th percentile**，可視為 **cohort-derived reference limits / proposed CKD-adapted context values**，不等於急性照護場景的 universal diagnostic threshold。
 
-### 已刪除或降級處理的內容
+### 其他不建議的寫法
 
-- 移除 **「A3 一律就是 red / very-high risk」** 的寫法。
-- 移除 **將 PREVENT 搭配舊 PCE 7.5% 門檻直接使用** 的寫法。
-- 刪除部分 **查核不足或對決策價值有限** 的 biomarker claims（例如將單一 exploratory marker 寫成 routine tool）。
+- **「A3 一律就是 red / very-high risk」**：不正確（G1A3／G2A3 屬 orange／high risk）。
+- **將 PREVENT 搭配舊 PCE 7.5% 門檻直接使用**：門檻已改用 PREVENT-ASCVD 分級。
+- **把單一 exploratory biomarker 寫成 routine tool**：證據不足，決策價值有限。
 
 ---
 
@@ -456,7 +456,7 @@ FGF23 在 CKD 與 HF risk 的關聯已有資料，例如 CRIC/相關 cohort 顯�
 
 ---
 
-## 查核來源（Authoritative websites / PubMed / ClinicalTrials.gov）
+## 參考來源（Authoritative websites / PubMed / ClinicalTrials.gov）
 
 ### Authoritative websites
 1. **KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease**
@@ -482,7 +482,7 @@ FGF23 在 CKD 與 HF risk 的關聯已有資料，例如 CRIC/相關 cohort 顯�
 13. **SHARP** — Study of Heart and Renal Protection. ClinicalTrials.gov ID: **NCT00125593**
 14. **CANTOS** — Cardiovascular Risk Reduction Study. ClinicalTrials.gov ID: **NCT01327846**
 
-> 註：ClinicalTrials.gov 的交叉查核主要用於確認文中命名 landmark trials 的 registry identity 與 study framing；本版 decision note 的核心演算法仍以 **KDIGO / AHA / ACC 官方文件與 PubMed 研究證據** 為主。
+> 註：ClinicalTrials.gov 主要用於確認文中 landmark trials 的 registry identity 與 study framing；本文的核心演算法仍以 **KDIGO / AHA / ACC 官方文件與 PubMed 研究證據** 為主。
 
 ---
 

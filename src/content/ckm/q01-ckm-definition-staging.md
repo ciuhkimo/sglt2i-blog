@@ -24,13 +24,11 @@ seo_title: "CKM Syndrome 心腎代謝症候群定義與分期 | 腎臟科臨床�
 **臨床問題**
 
 AHA 2023 提出的 CKM（Cardiovascular-Kidney-Metabolic）Syndrome Stage 0–4 分期系統，如何在腎臟科門診中操作化？與既有 KDIGO CKD CGA 分類如何整合而非取代？
-**本版查核修正重點**
+**容易講錯的地方**
 
-- **Stage 1** 改回 AHA 主軸：以「過多/功能不良脂肪組織」為核心，不再把單一次 prediabetes 數值直接寫成固定分期條件。
-- **PREVENT 高風險** 保留為「risk-equivalent」概念；`10 年風險 ≥20%` 僅作**實務操作門檻**，不宣稱為所有 AHA 文件一致規定。
-- **ADA** 更新為 **2026** 版，而非 2025 版。
-- **台灣 SGLT2i 健保給付** 改寫為官方條件與官方估計受惠人數。
-- 移除未標準化的 **CKD stage–specific NT-proBNP 固定 cut-off**，改成「症狀/結構性心臟病/影像/serial trend」整合判讀。
+- **Stage 1** 的 AHA 主軸是「過多/功能不良脂肪組織」，單一次 prediabetes 數值不是固定分期條件。
+- **PREVENT 高風險** 是「risk-equivalent」概念；`10 年風險 ≥20%` 只是**實務操作門檻**，並非所有 AHA 文件一致規定。
+- **CKD stage–specific NT-proBNP 固定 cut-off** 沒有標準化，應以「症狀/結構性心臟病/影像/serial trend」整合判讀。
 ---
 
 ## Why This Matters
@@ -55,7 +53,7 @@ CKM syndrome 是 AHA 於 2023 年提出的整合式風險架構，用來把 **ad
 >
 > 對腎臟科的實務意義是：**stage ≥2 的病人，eGFR 與 UACR 兩者都要有，不是二擇一**。門檻表與篩檢頻率見 [Q16](/ckm/q16-2026-ckm-guideline/)。
 
-### CKM Stage 0–4 定義（查核後版本）
+### CKM Stage 0–4 定義
 
 | 分期 | 核心定義 | 臨床指標（實務化） | 腎臟科映射 |
 |------|----------|-------------------|-----------|
@@ -115,7 +113,7 @@ AHA 的 **PREVENT** 是 primary prevention 風險工具，不是 CKM 分期本�
 - 若門診需要一個 **pragmatic threshold** 來觸發更積極處置，可把 **10 年 total CVD risk ≥20%** 視為「高 predicted risk」的操作門檻；但此做法應明確標示為 **implementation choice**，不是 AHA 的唯一硬性分界。[7]
 ### Guideline / Policy Summary
 
-| 來源 | 年份 | 經查核後可保留的重點 | 臨床意義 |
+| 來源 | 年份 | 重點 | 臨床意義 |
 |---|---:|---|---|
 | **AHA CKM advisory / implementation materials** | 2023 / 2026 | 定義 CKM stage 0–4；在 CKD/diabetes/HTN/metabolic syndrome 應用 **eGFR + UACR** 做 kidney health screening；Stage 3 可包含 subclinical CVD、very high-risk CKD、或 high predicted risk | CKM 的上位概念與 staging scaffold |
 | **KDIGO CKD Guideline** | 2024 | CKD 以 **Cause + GFR + Albuminuria (CGA)** 分類；需 **≥3 個月 chronicity**；異常需重複驗證；**ACR doubling** 超出實驗變異需評估；**eGFR 變化 >20%** 或啟動血流動力學藥物後 **>30%** 需評估；使用 **KFRE** 決定轉介/共照/KRT planning | 腎臟科真正的分層主幹 |
@@ -124,7 +122,7 @@ AHA 的 **PREVENT** 是 primary prevention 風險工具，不是 CKM 分期本�
 
 ### Supporting Evidence — Landmark Trials
 
-| Trial | 年份 | N | 經查核後建議保留的關鍵結果 |
+| Trial | 年份 | N | 關鍵結果 |
 |---|---:|---:|---|
 | **DAPA-CKD** | 2020 | 4,304 | Primary composite（≥50% eGFR decline、ESKD、renal/CV death）**HR 0.61**；效益在有無 T2D 皆一致 |
 | **EMPA-KIDNEY** | 2022 | 6,609 | Kidney disease progression or CV death **HR 0.72** |

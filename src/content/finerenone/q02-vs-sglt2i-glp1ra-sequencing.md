@@ -24,7 +24,7 @@ seo_title: "Finerenone vs SGLT2i vs GLP-1 RA 排序策略｜DKD 合併用藥"
 
 ---
 
-## 經查核後的 evidence hierarchy
+## Evidence hierarchy
 
 ### 1) SGLT2i：預設 first add-on
 
@@ -48,7 +48,7 @@ seo_title: "Finerenone vs SGLT2i vs GLP-1 RA 排序策略｜DKD 合併用藥"
 
 ## 合併使用證據矩陣
 
-| 配對 | 核心證據 | 已被支持的內容 | 尚未被證實的內容 | 經查核後底線 |
+| 配對 | 核心證據 | 已被支持的內容 | 尚未被證實的內容 | 底線 |
 |---|---|---|---|---|
 | **Finerenone + SGLT2i** | **CONFIDENCE**（NEJM 2025; PMID 40470996）+ **FIDELITY-SGLT2 subgroup**（PMID 35972218）+ **FIVE-STAR secondary analysis**（Tanaka 2026 KIR; PMID 42180819）| 同步起始可比任一單藥帶來更大的 **UACR 下降**；FIDELITY 分析中 finerenone 效果未見明顯交互作用；Tanaka 顯示 **finerenone 加在慢性 SGLT2i 背景上時 K⁺ 上升幅度被衰減**（N=97, Low certainty） | **硬終點 additivity / superiority**、最佳長期 sequencing、K⁺ 衰減訊號的 mechanism 與重現性（CONFIDENCE secondary 與 Tanaka 訊號不一致）| **Selected patients 可考慮、且 ADA 2026 已納入**；但仍屬 **surrogate-led** combination evidence |
 | **Finerenone + GLP-1 RA** | **FIDELIO-DKD GLP-1RA subgroup**（PMID 34580995）+ **FIDELITY GLP-1RA subgroup**（PMID 36193847）+ **CONFIDENCE baseline GLP-1RA analysis**（PMID 40968755） | finerenone 效益未因背景 GLP-1RA 而消失 | **Dedicated finerenone + GLP-1RA randomized hard-outcome trial** | **Reasonable but exploratory** |

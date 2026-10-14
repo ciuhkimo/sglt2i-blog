@@ -25,28 +25,27 @@ seo_title: "Q02 CKM 篩檢與識別 | CKM Syndrome 腎臟科臨床決策"
 腎臟科門診應如何系統性辨識並分層 CKM syndrome 病人？最低資料集（minimum dataset）是什麼？何時啟動 shared care？
 ---
 
-## 本次查核後的主要修正
+## 容易講錯的地方
 
-1. **修正 CKM stage 的開場框架**：原文把「腎臟科門診病人幾乎定義上落在 CKM stage 2–4」寫得太絕對。較精準的說法是：
+1. **CKM stage 的開場框架**：「腎臟科門診病人幾乎定義上落在 CKM stage 2–4」寫得太絕對。較精準的說法是：
    - **AHA 2026** 明確指出 CKM staging framework 對「幾乎所有 CKD 病人」都相關；
    - 但 **stage 2 / 3 / 4 仍須依 CKD 風險層級、是否已有 subclinical/clinical CVD、以及 PREVENT 是否適用** 來區分，不能一概而論。
 
-2. **移除「PREVENT ≥20% = 官方 CKM stage 3 cut-point」寫法**：
+2. **「PREVENT ≥20% = 官方 CKM stage 3 cut-point」並不正確**：
    - 官方 AHA CKM implementation guide 只寫到 **「high predicted 10-year CVD risk using PREVENT」可視為 stage 3 risk equivalent**；
-   - 我本次查核到的官方材料**沒有提供一個通用、固定的百分比 cut-point** 可直接當作 CKM stage 3 的標準門檻。
+   - 官方材料**沒有提供一個通用、固定的百分比 cut-point** 可直接當作 CKM stage 3 的標準門檻。
 
-3. **下修 NT-proBNP in CKD 的確定性**：
-   - 原文把 CKD-adjusted NT-proBNP 百分比上調寫得偏像 universal rule；
+3. **NT-proBNP in CKD 的確定性不宜高估**：
+   - CKD-adjusted NT-proBNP 百分比上調常被寫得像 universal rule；
    - 較精準的定位應是：**這是 HF/HFpEF algorithm 應用時可參考的 expert-consensus–derived adjustment**，不是所有腎臟科病人的 mandatory screening threshold。
 
-4. **更新 AHA 2026 狀態**：
-   - 原文寫「AHA 2026 預計發表首部整合性 CKM 臨床實作指引」；
-   - 目前應改為：**AHA 2026 CKM Health Implementation Guide 已發布**。
+4. **AHA 2026 的狀態**：
+   - **AHA 2026 CKM Health Implementation Guide 已發布**，不是「預計發表」。
    - ⚠️ **2026-09-12 補充：這份與四學會聯合指引是兩份不同文件，不要混稱。** AHA 的 Health Implementation Guide 是實作導引；**2026 AHA/ACC/ADA/ASN CKM 指引**（Circulation 2026;154(4):e50-e158，PMID 42263157）是帶 COR/LOE 的臨床實作指引，於 2026-06-09 發布，並取代與擴充 2013 AHA/ACC/TOS 肥胖處置指引。本篇引用的篩檢頻率與分期原則以後者為準，詳見 [Q16 — 2026 CKM 指引：腎臟科要改什麼](/ckm/q16-2026-ckm-guideline/)。
 
-5. **修正 PREVENT 外部效度敘述**：
-   - 原文寫「台灣/東亞尚無已發表驗證論文」過度絕對；
-   - 較安全寫法是：**台灣/東亞在地校正與實作研究仍有限，故 PREVENT 在本地主要作為輔助風險溝通工具，而非單獨決策器。**
+5. **PREVENT 的外部效度**：
+   - 「台灣/東亞尚無已發表驗證論文」過度絕對；
+   - 較安全的說法是：**台灣/東亞在地校正與實作研究仍有限，故 PREVENT 在本地主要作為輔助風險溝通工具，而非單獨決策器。**
 
 ---
 
@@ -187,7 +186,7 @@ PREVENT 不適用於已知 CVD 的 secondary prevention；KFRE 也不應外推�
 
 - **CKM label 本身是否能獨立改善 hard outcomes**：目前沒有直接 RCT；真正有結局證據的是其下游風險辨識與 targeted therapy。
 - **CKD-specific natriuretic peptide / hs-cTn 統一閾值**：目前仍未標準化，尤其在 stable nephrology clinic、advanced CKD、dialysis。
-- **PREVENT 在 CKM stage 3 的數字 cut-point**：官方 AHA implementation guide 有「high predicted risk」概念，但本次查核到的官方材料**未提供通用固定百分比**。
+- **PREVENT 在 CKM stage 3 的數字 cut-point**：官方 AHA implementation guide 有「high predicted risk」概念，但官方材料**未提供通用固定百分比**。
 
 ### 中度不確定
 
@@ -203,7 +202,7 @@ PREVENT 不適用於已知 CVD 的 secondary prevention；KFRE 也不應外推�
 
 ---
 
-## 經查核後可直接採用的一分鐘框架
+## 可直接採用的一分鐘框架
 
 1. **先補齊 minimum dataset**：BMI、腰圍、標準化 BP、血糖、血脂、creatinine/eGFR、UACR；必要時加 cystatin C。
 2. **先確認 chronicity，再正式分期**：單次異常 ≠ confirmed CKD / CKM。
