@@ -2,21 +2,16 @@
 question_id: T06
 title: "透析男性性功能障礙門診評估框架"
 category: "臨床評估 (Clinical Assessment)"
-version: v1.0
+version: v1.1
 status: ""
-last_updated: 2026-04-14
-next_review: 2026-10-14
-verification_scope:
-  - authoritative-websites
-  - PubMed
-  - ClinicalTrials.gov
+last_updated: 2026-10-15
+next_review: 2027-04-15
 tags:
   - 腎友與性
   - decision-note
   - male-SD
   - dialysis
   - erectile-dysfunction
-  - verified
 ---
 
 > 本文為以現有 evidence、guideline 與 product label 為基礎的**透析門診評估框架**。目前無任何主要學會發布透析專屬的性功能障礙評估演算法。
@@ -32,7 +27,7 @@ tags:
 
 ---
 
-## 3. Evidence Anchors（分層）
+## Evidence Anchors（分層）
 
 ### A. 相對穩固（可直接進臨床思考）
 1. **盛行率高**
@@ -58,13 +53,13 @@ tags:
 2. **「透析當日避免 PDE5i」**
    - 比較像 pragmatic caution，非 formal rule。
 3. **cabergoline 降 prolactin 後是否能改善 ED**
-   - 現有資料不足以支持 routine use。
+   - 唯一的小型前瞻性研究顯示 prolactin 下降但 ED 未改善，不支持 routine use。
 4. **ICSM 2024 對 CKD/透析族群的特異建議**
-   - 本輪查核未能確認到足夠穩固且可直接引用的 dialysis-specific recommendation。
+   - 目前沒有找到足夠穩固、可直接引用的 dialysis-specific recommendation。
 
 ---
 
-## 4. Key Evidence（查核後摘要）
+## Key Evidence
 
 ### Landmark Studies / Reviews
 
@@ -78,7 +73,7 @@ tags:
 | Seibel | 2002 | RCT | HD men | Sildenafil 比 placebo 改善 erectile response | Moderate |
 | Ozgur | 2022 | RCT | HD men | Tadalafil 5 mg every 3 days 有效且耐受性可接受 | Moderate |
 | Vecchio (Cochrane) | 2010 | Systematic review | CKD sexual dysfunction | 僅 15 studies / 352 participants，整體證據量很小 | High (for "small evidence base") |
-| Elbardisi | 2021 | RCT | CKD men with hyperprolactinemia | Cabergoline 可降 prolactin，但是否改善 ED 不足以支持 routine use | Low–Moderate |
+| Elbardisi | 2021 | Prospective study（無對照組） | Advanced CKD men（HD／PD／未透析；26 名高泌乳素者接受 cabergoline） | Cabergoline 使 prolactin 下降，但 ED 與早洩沒有改善；不支持 routine use | Low |
 
 ### Guideline / Official-source Takeaways
 
@@ -93,7 +88,7 @@ tags:
 
 ---
 
-## 5. Clinical Decision Context
+## Clinical Decision Context
 
 **這份 note 要幫你回答的不是「要不要立刻開藥」而已，而是：**
 
@@ -111,9 +106,9 @@ tags:
 
 ---
 
-## 6. Initial Assessment（先分流再深挖）
+## Initial Assessment（先分流再深挖）
 
-### 6.1 先確認主問題不是「統稱性功能障礙」
+### 先確認主問題不是「統稱性功能障礙」
 請先分開問：
 - erection：硬度夠不夠、維持多久、能否完成性交
 - libido：有沒有性慾下降
@@ -122,7 +117,7 @@ tags:
 - fertility concern：是否有生育需求
 - distress：這件事對病人或伴侶造成多大困擾
 
-### 6.2 先抓 red flags
+### 先抓 red flags
 以下任一項出現，先不要直接進入一般 ED 門診流程：
 
 - unstable angina / decompensated heart failure / recent ACS or stroke / symptomatic severe arrhythmia
@@ -136,7 +131,7 @@ tags:
 
 ---
 
-## 7. Structured History（建議 7 步）
+## Structured History（建議 7 步）
 
 ### Step 1. 症狀表型
 - 何時開始
@@ -200,7 +195,7 @@ tags:
 
 ---
 
-## 8. Medication Review（查核後保留版）
+## Medication Review
 
 > **重要原則**：  
 > 不要看到 ED 就機械式停藥。  
@@ -220,9 +215,9 @@ tags:
 
 ---
 
-## 9. Laboratory / Hormonal Assessment（查核後保守版）
+## Laboratory / Hormonal Assessment
 
-### 9.1 核心檢驗
+### 核心檢驗
 建議第一輪至少考慮：
 
 - **Early-morning total testosterone**（建議重複 2 次確認）
@@ -232,7 +227,7 @@ tags:
 - basic chemistry（依門診脈絡）
 - 若症狀或病史指向甲狀腺問題，再做 TSH / FT4
 
-### 9.2 什麼時候要進一步看 androgen axis
+### 什麼時候要進一步看 androgen axis
 在以下情境，建議不要只看單一 total T：
 
 - total T 接近低值邊界
@@ -247,23 +242,23 @@ tags:
 - LH / FSH（幫助 primary vs secondary pattern）
 - prolactin（selected patients）
 
-### 9.3 Testosterone 的解讀原則
+### Testosterone 的解讀原則
 - 不是看到 total T <300 ng/dL 就直接治療
 - 要同時有：
   1. consistent symptoms / signs
   2. repeated low testosterone
   3. 適當的 assay / appropriate timing
 
-### 9.4 Prolactin
+### Prolactin
 - 建議在 **明顯 libido 低下、hypogonadal picture、galactorrhea、headache、visual symptoms 或懷疑藥物引起高 PRL** 時才做
 - 單一數值不宜直接當成 MRI 的硬規則
 - 若 prolactin 顯著升高，請先確認藥物、再依臨床情境決定 pituitary workup
 
 ---
 
-## 10. Cardiovascular Safety Review（開 PDE5i 前一定做）
+## Cardiovascular Safety Review（開 PDE5i 前一定做）
 
-### 10.1 先把 ED 當成 CV risk signal
+### 先把 ED 當成 CV risk signal
 透析病人本來就是高心血管風險族群；若再出現 ED，更應觸發：
 
 - symptom review（胸痛、喘、運動誘發不適）
@@ -272,7 +267,7 @@ tags:
 - CAD / PAD / HF / arrhythmia history
 - 近期 ACS / hospitalization / unstable symptoms 確認
 
-### 10.2 何時先不要開 PDE5i
+### 何時先不要開 PDE5i
 以下情境，先處理 cardiac stability / medication conflict：
 
 - unstable cardiac symptoms
@@ -281,7 +276,7 @@ tags:
 - severe hypotension tendency / recent recurrent syncope
 - 尚未釐清的 exertional symptoms
 
-### 10.3 關於 sexual activity readiness
+### 關於 sexual activity readiness
 可用很簡單的臨床語言判斷：
 - 若連一般中等強度活動都會誘發症狀，先不要直接進入 ED 藥物處方流程
 - 若平地快走 / 爬樓梯等中等活動可耐受且無症狀，通常較接近可進一步討論 treatment 的狀態  
@@ -289,27 +284,27 @@ tags:
 
 ---
 
-## 11. PDE5 Inhibitors（查核後修正版）
+## PDE5 Inhibitors
 
 > **總原則**：  
 > PDE5i 仍是大多數 ED 的第一線藥物類別，但在 dialysis 患者要把  
 > **hemodynamic stability、drug interaction、dose adjustment、真實目標** 一起納入。
 
-### 11.1 Absolute / major contraindications
+### Absolute / major contraindications
 - **Organic nitrates / nitric oxide donors**
 - **Nicorandil**
 - 對藥物成分已知嚴重過敏
 - 未穩定的 cardiovascular 狀態
 
-### 11.2 Agent-specific notes
+### Agent-specific notes
 
-| 藥物 | 查核後建議 | 備註 |
+| 藥物 | 建議 | 備註 |
 |---|---|---|
 | **Sildenafil** | severe renal impairment 可考慮 **25 mg 起始** | HD 小型 RCT 有效；label 指出 dialysis 不會明顯加速清除 |
 | **Tadalafil** | hemodialysis：**maximum 5 mg，不得超過每 72 小時 1 次** | 不建議 severe renal impairment 當作 daily use |
 | **Vardenafil** | **renal dialysis: avoid / not recommended** | 現行 label 為「未在 dialysis 評估，不建議使用」 |
 
-### 11.3 實務上怎麼開始比較穩
+### 實務上怎麼開始比較穩
 - 先從 **低劑量** 開始
 - 第一次用藥可考慮安排在 **非透析時段**，或至少選在病人 hemodynamically 穩定、較不容易 post-dialysis hypotension 的時間
 - 這是 pragmatic strategy，不是 formal hard rule
@@ -319,7 +314,7 @@ tags:
   - 失敗不代表藥物一定無效
   - 需回來做 tolerability / efficacy reassessment
 
-### 11.4 若 PDE5i 不適合或無效
+### 若 PDE5i 不適合或無效
 下一步不是只剩「加大劑量」：
 - 先回頭確認 diagnosis
 - 看 depression / sleep / medication / relationship contributors
@@ -328,7 +323,7 @@ tags:
 
 ---
 
-## 12. Suggested Clinic Workflow（門診最小可行版）
+## Suggested Clinic Workflow（門診最小可行版）
 
 ### Visit 1（10–15 min）
 - [ ] 主動開場，正常化提問
@@ -357,7 +352,7 @@ tags:
 
 ---
 
-## 13. Referral Triggers
+## Referral Triggers
 
 | 情境 | 建議轉介 |
 |---|---|
@@ -370,10 +365,10 @@ tags:
 
 ---
 
-## 14. Context-Dependent / Fragile Areas（不要寫成定論）
+## Context-Dependent / Fragile Areas（不要寫成定論）
 
 1. **透析當日是否避免 PDE5i**
-   - 沒有在本輪查核中找到 major guideline / label 的一律禁令。
+   - 目前沒有 major guideline 或仿單一律禁止。
    - 可作為對容易 intradialytic/post-dialysis hypotension 患者的實務性提醒。
 
 2. **TRT 在 dialysis 男性是否常規有益**
@@ -391,20 +386,20 @@ tags:
 
 ---
 
-## 15. Verification-Needed Items（本輪未完成或不宜硬寫）
+## 證據不足、不宜寫成硬規則的說法
 
-以下內容本輪未完成足夠權威來源逐條核定，**暫不應寫成高風險硬規則**：
+以下說法常見於臨床流傳或二手資料，但目前沒有足夠權威來源支持，**不應寫成硬規則**：
 
-- [ ] 「PRL >100 就 MRI」的固定 threshold
-- [ ] 「FT4 一定要在 heparin ≥10 h 後抽」的固定採檢規則
-- [ ] 「HbA1c 在 HD/ESA 下會低估，因此應用 glycated albumin 取代」作為普遍規則
-- [ ] direct free testosterone assay 一律不能用的絕對化說法
-- [ ] ICSM 2024 對 CKD / dialysis 的特異建議與所謂「腎保護」主張
-- [ ] volume overload 與 ED 之間可操作的臨床 threshold
+- 「PRL >100 就 MRI」的固定 threshold
+- 「FT4 一定要在 heparin ≥10 h 後抽」的固定採檢規則
+- 「HbA1c 在 HD/ESA 下會低估，因此應用 glycated albumin 取代」作為普遍規則
+- direct free testosterone assay 一律不能用的絕對化說法
+- ICSM 2024 對 CKD / dialysis 的特異建議與所謂「腎保護」主張
+- volume overload 與 ED 之間可操作的臨床 threshold
 
 ---
 
-## 16. One-Minute Decision Framework
+## One-Minute Decision Framework
 
 1. **先分型，不要把所有 complaint 都叫 ED。**
 2. **先排 red flags：unstable CV、nitrates/nicorandil、pituitary / urologic warning signs。**
@@ -416,7 +411,7 @@ tags:
 
 ---
 
-## 17. References Checked（本輪實際核對到的主幹來源）
+## References
 
 ### PubMed
 1. Pyrgidis N, et al. 2021. PMID: **33221161**
@@ -426,7 +421,7 @@ tags:
 5. Seibel I, et al. sildenafil in HD. 2002. PMID: **12397048**
 6. Ozgur BC, et al. tadalafil 5 mg q3d in HD. 2022. PMID: **35983809**
 7. Vecchio M, et al. Cochrane review. 2010. PMID: **21154382**
-8. Elbardisi H, et al. cabergoline / hyperprolactinemia in CKD. 2021. PMID: **34089536**
+8. Elbardisi H, et al. Endocrine contribution to the sexual dysfunction in patients with advanced CKD and the role of hyperprolactinemia. *Andrologia*. 2021;53(8):e14135. PMID: **34089536**
 9. van Ek GF, et al. nephrologist survey. 2015. PMID: **26633081**
 10. Princeton IV Consensus. 2024. PMID: **38148297**
 11. KDIGO 2024 CKD Guideline. PMID: **38490803**
@@ -446,7 +441,13 @@ tags:
 
 ---
 
-<div class="callout callout-caution"><p><strong>醫療免責聲明</strong><br>本文是經查核後的臨床評估框架，不是正式 guideline 原文。對於高風險用藥、轉介門檻、影像檢查與 testosterone treatment，仍應結合病人個別狀況與最新原始文件判斷。</p></div>
+## 更正紀錄
+
+- **2026-10-15**：Elbardisi 2021 原列為 RCT，回到原文核對後是沒有對照組的前瞻性研究（26 名高泌乳素者接受 cabergoline），且 ED 與早洩沒有改善，已更正研究設計並寫明結果。另移除文中的編輯作業用語與章節編號殘留；評估流程與用藥建議不變。
+
+---
+
+<div class="callout callout-caution"><p><strong>醫療免責聲明</strong><br>本文是依現有文獻、指引與仿單整理的臨床評估框架，不是正式 guideline 原文。對於高風險用藥、轉介門檻、影像檢查與 testosterone treatment，仍應結合病人個別狀況與最新原始文件判斷。</p></div>
 ---
 
 ## 延伸閱讀

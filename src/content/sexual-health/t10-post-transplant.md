@@ -2,10 +2,10 @@
 question_id: T10
 title: "腎移植後的性功能與備孕：換腎後身體會怎麼變？"
 category: "病人衛教 (Patient Education)"
-version: v1.0
+version: v1.1
 status: ""
-last_updated: 2026-04-14
-next_review: 2026-10-14
+last_updated: 2026-10-15
+next_review: 2027-04-15
 tags:
   - 腎友與性
   - PED
@@ -24,7 +24,7 @@ schema: FAQPage, MedicalWebPage
 
 ## 一句話回答
 
-換腎後性功能和生育力通常會改善，但大約一半的人仍有不同程度的困擾；想懷孕必須等至少一年、調整抗排斥藥，並由移植科和婦產科一起照顧。
+換腎後性功能和生育力通常會改善，但仍有不少人有困擾（男性約六成仍有不同程度的勃起困難）；想懷孕必須等至少一年、調整抗排斥藥，並由移植科和婦產科一起照顧。
 
 ---
 
@@ -34,21 +34,21 @@ schema: FAQPage, MedicalWebPage
 
 長期洗腎讓體內累積毒素，干擾荷爾蒙的正常運作，很多人因此性慾下降、男性勃起困難、女性月經不來。成功換腎後，腎臟開始正常清除毒素，荷爾蒙軸在數週到數個月內逐步恢復：
 
-- 男性的睪固酮 (testosterone) 會上升，泌乳素 (prolactin) 會下降，性慾改善幅度通常比勃起功能改善更明顯。
-- 女性通常在移植後 2 到 3 個月恢復月經，排卵功能也會跟著恢復。
+- 男性：統合分析比較移植前後，勃起功能整體有改善，但研究品質偏低，原本勃起困難就很嚴重的人改善並不明顯。[^2]
+- 女性：月經和排卵等生育功能通常會在移植後逐步恢復。[^4][^5]
 - 整體而言，不管男女，疲勞減輕、體力恢復，都有助於性生活品質的改善。
 
-**但改善不等於完全恢復。** 研究顯示，換腎後仍有大約一半的男性有不同程度的勃起困難，女性也有超過半數仍有性功能方面的困擾。原因包括：長期洗腎造成的血管病變已經不可逆、糖尿病或高血壓等共病持續存在、部分抗排斥藥的副作用、手術對骨盆血流的微小影響，以及心理壓力。
+**但改善不等於完全恢復。** 統合分析顯示，腎移植受者仍有約六成有不同程度的勃起困難；[^1][^3] 女性的研究比較少。原因可能包括：長期洗腎造成的血管病變已經不可逆、糖尿病或高血壓等共病持續存在、部分抗排斥藥的副作用、手術對骨盆血流的微小影響，以及心理壓力。
 
-如果換腎後仍有性方面的困擾，請主動告訴移植團隊。威而鋼類藥物在腎移植病人中是安全的。
+如果換腎後仍有性方面的困擾，請主動告訴移植團隊。威而鋼類藥物適不適合，要由醫師依心臟狀況、正在使用的藥物（特別是硝酸鹽類）和腎功能評估。
 
 ### 懷孕需要謹慎規劃
 
-換腎後生育力的恢復速度可能超出預期，女性有時在術後幾週就恢復排卵。這代表如果沒有做好避孕，可能會在還不適合懷孕的時候意外懷孕。
+換腎後生育力可能比預期更早恢復。這代表如果沒有做好避孕，可能會在還不適合懷孕的時候意外懷孕。
 
 換腎後的第一年是移植腎最需要穩定的時期。某些抗排斥藥（特別是 mycophenolate，商品名 CellCept / 山喜多）對胎兒有嚴重的致畸風險，可能造成流產或先天缺陷。
 
-**所有主要國際指引都建議：至少等換腎一年以上，而且要在移植腎功能穩定、抗排斥藥已經調整為對胎兒安全的組合之後，才能嘗試懷孕。**
+**主要國際建議多半是：至少等換腎一年以上，而且要在移植腎功能穩定、抗排斥藥已經調整為對胎兒安全的組合之後，才能嘗試懷孕。**
 
 ### 抗排斥藥的調整
 
@@ -66,7 +66,7 @@ schema: FAQPage, MedicalWebPage
 
 **Q2：換腎後勃起功能障礙會好嗎？**
 
-很多男性換腎後 ED 會改善，尤其是性慾的恢復最明顯。但研究顯示仍有大約一半的人有不同程度的 ED。如果改善不理想，威而鋼 (sildenafil) 或犀利士 (tadalafil) 在腎移植病人身上是安全且有效的，不需要因為換過腎就不敢用，但要先和醫師討論。
+很多男性換腎後勃起功能會改善，但統合分析顯示仍有約六成有不同程度的 ED。[^1][^2] 如果改善不理想，可以和醫師討論威而鋼（sildenafil）或犀利士（tadalafil）；換過腎不代表不能用，但要先確認心臟狀況、有沒有在用硝酸鹽類藥物，以及目前的腎功能。
 
 更多 ED 的處理方式可以參考：[洗腎男性 ED 怎麼辦？](/sexual-health/t04-male-ed/)
 
@@ -80,7 +80,7 @@ schema: FAQPage, MedicalWebPage
 4. 沒有近期排斥紀錄
 5. 已經把有風險的藥物換掉
 
-在好的條件下，活產率可達 73-87%。整個過程需要移植腎臟科和高危險妊娠專科一起照顧。
+統合分析中，腎移植後懷孕的活產率約 73–78%；但早產（約 43–46%）和子癇前症（約 21–27%）比一般孕婦常見。[^4][^5][^6] 整個過程需要移植腎臟科和高危險妊娠專科一起照顧。
 
 **Q4：抗排斥藥要換嗎？**
 
@@ -109,9 +109,9 @@ schema: FAQPage, MedicalWebPage
 
 ## 重點整理
 
-1. **換腎後性功能和生育力會改善，但大約一半的人仍有困擾**——請主動告訴醫療團隊
+1. **換腎後性功能和生育力會改善，但仍有不少人有困擾**——請主動告訴醫療團隊
 2. **避孕要從換腎後馬上開始**——生育力恢復速度可能比你想像得快
-3. **想懷孕一定要提前規劃**——至少換腎一年後、腎功能穩定、藥物已調整，大多數人可以安全生下健康的寶寶
+3. **想懷孕一定要提前規劃**——至少換腎一年後、腎功能穩定、藥物已調整；多數懷孕能順利活產，但早產與妊娠高血壓的風險較高，需要高危險妊娠團隊一起照顧
 
 ---
 
@@ -119,16 +119,24 @@ schema: FAQPage, MedicalWebPage
 
 - [洗腎男性 ED 怎麼辦？](/sexual-health/t04-male-ed/)
 - [女性腎友的月經、性慾與懷孕](/sexual-health/t05-female-menstruation-fertility/)
+- [腎移植後何時恢復性生活？](/sexual-health/t22-post-transplant-resumption/)
+- [不孕症](/sexual-health/t15-infertility/)
+- [CKM Q10 — Metabolic Surgery](/ckm/q10-metabolic-surgery-ckd/)
+- [Finerenone Q10 — 特殊族群](/finerenone/q10-special-populations/)
+
+---
+
+## 更正紀錄
+
+- **2026-10-15**：補上參考資料。移植後勃起困難的比例原寫「大約一半」，依兩篇統合分析改為約六成；懷孕活產率原寫「73–87%」，依三篇統合分析改為約 73–78%，並補上早產與子癇前症的比例；刪除沒有出處的「睪固酮會上升」「性慾恢復最明顯」等敘述；威而鋼類藥物改為由醫師評估後使用的說法；合併重複的延伸閱讀。
 
 ---
 
 > **醫療免責聲明**：本文僅供衛教參考，不能取代醫師的個別化建議。藥物調整、懷孕時機等決策都必須由您的醫療團隊根據個別情況判斷。
 
----
-
-## 延伸閱讀
-
-- [腎移植後何時恢復性生活？](/sexual-health/t22-post-transplant-resumption/)
-- [不孕症](/sexual-health/t15-infertility/)
-- [CKM Q10 — Metabolic Surgery](/ckm/q10-metabolic-surgery-ckd/)
-- [Finerenone Q10 — 特殊族群](/finerenone/q10-special-populations/)
+[^1]: Pyrgidis N, et al. *Prevalence of Erectile Dysfunction in Patients With End-Stage Renal Disease: A Systematic Review and Meta-Analysis.* J Sex Med. 2021;18:113-120. 腎移植受者的 ED 盛行率約 59%。https://pubmed.ncbi.nlm.nih.gov/33221161/
+[^2]: Pyrgidis N, et al. *Renal Transplantation Improves Erectile Function in Patients with End-Stage Renal Disease: A Systematic Review and Meta-Analysis.* J Urol. 2021;205:1009-1017. 20 篇研究、1,695 位腎移植受者；移植後勃起功能改善，但證據品質為低或極低，原本嚴重 ED 者未見改善。https://pubmed.ncbi.nlm.nih.gov/33320719/
+[^3]: Pizzol D, et al. *Prevalence of erectile dysfunction in patients with chronic kidney disease: a systematic review and meta-analysis.* Int J Impot Res. 2021;33:508-515. 腎移植族群的 ED 盛行率約 64%。https://pubmed.ncbi.nlm.nih.gov/32358511/
+[^4]: Deshpande NA, et al. *Pregnancy outcomes in kidney transplant recipients: a systematic review and meta-analysis.* Am J Transplant. 2011;11:2388-2404. 4,706 次懷孕；活產率 73.5%、早產 45.6%、子癇前症 27.0%。https://pubmed.ncbi.nlm.nih.gov/21794084/
+[^5]: Shah S, et al. *Pregnancy outcomes in women with kidney transplant: Metaanalysis and systematic review.* BMC Nephrol. 2019;20:24. 6,712 次懷孕；活產率 72.9%、早產 43.1%、子癇前症 21.5%。https://pubmed.ncbi.nlm.nih.gov/30674290/
+[^6]: Mustafa MS, et al. *Pregnancy outcomes in renal transplant recipients: A systematic review and meta-analysis.* Womens Health (Lond). 2024;20:17455057241277520. 7,708 次懷孕；活產 78.5%、早產 45.3%、子癇前症 20.9%。https://pubmed.ncbi.nlm.nih.gov/39287599/

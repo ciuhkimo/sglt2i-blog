@@ -38,6 +38,8 @@ const BLOCK = [
   { re: /Claude\s*立場/, label: '審稿語言「Claude 立場」' },
   { re: /自行更新此|請核對後/, label: '審稿語言（請讀者自行更新/核對後）' },
   { re: /\[(TODO|FIXME|待查|待補|待確認)/i, label: '編輯佔位 [TODO]/[待查]…' },
+  // 2026-10-15：T06 的「References Checked（本輪實際核對到的主幹來源）」掛了半年沒被攔下；加入時全站 0 命中
+  { re: /References Checked/i, label: '查核作業標題「References Checked」' },
 ];
 
 const WARN = [
@@ -45,6 +47,8 @@ const WARN = [
   { re: /查核修訂|查核版/, label: '內部狀態標籤「查核修訂/查核版」（reader-facing，清乾淨後可升 BLOCK）' },
   { re: /未能(直接)?核實|無法核實|本次查核|本輪[^。\n]{0,8}核實/, label: '審稿過程語言（未能核實/本次查核 → 清乾淨後可升 BLOCK）' },
   { re: /待核實/, label: '「待核實」（逐句判斷：reader caveat vs 內部 QA 狀態）' },
+  // 2026-10-15 加入：原規則只抓「本次查核」，抓不到「查核後」「本輪」系列。加入時全站 45 處（多在 ckm／finerenone 的段落標題），清乾淨後可升 BLOCK
+  { re: /經?查核後|本輪(查核|檢索|未完成|實際)|Verification-Needed/i, label: '審稿過程語言（查核後／本輪… → 清乾淨後可升 BLOCK）' },
   { re: /不宜(寫成|標成|標為|描述成|混列|掛在)/, label: '「不宜寫成X」（多為合法作者 caveat，逐句確認非 bracketed 編輯註）' },
 ];
 
