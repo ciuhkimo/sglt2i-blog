@@ -128,11 +128,11 @@ tags:
 3. **老年（≥80 歲）/ frailty CKD 患者**的安全閾值：此族群在主要 RCT 中代表性不足；整體 RCT evidence 對 orthostatic hypotension 風險偏向無顯著增加，但 volume depletion 風險仍需個別評估
 
 ### 已完成 / 待發表研究
-- **DAPA-advKD（NCT05196347）**：Primary Completion 及 Study Completion 均為 2024-08-31（CT.gov 顯示已完成，Last Verified 2025-03）；目前可讀取的 ClinicalTrials.gov study-detail record 中未見 posted summary results；後續可追蹤是否上傳 results 或正式 paper *[⚠️ 不排除 results 已存在但本次讀取未能直接開啟，請以 CT.gov 官方頁面為準]*
+- **DAPA-advKD（NCT05196347）**：Primary Completion 及 Study Completion 均為 2024-08-31（ClinicalTrials.gov 顯示已完成）；截至 2026-10-15 尚未上傳結果（紀錄最後更新 2025-03-13），後續追蹤是否有正式發表
 
 ### 機轉研究（非直接 BP dynamics）
 - **EMPA-SNS（NCT03912909）**：研究 empagliflozin 對 sympathetic nervous system activity 的影響；與 autonomic neuropathy–specific orthostatic BP dynamics 非完全等同，但屬最接近機轉研究之已登錄試驗（登錄狀態 Unknown，最新進度不明）。
-- *⚠️ 明確針對 autonomic neuropathy + orthostatic BP dynamics 的 CT.gov 登錄試驗，本次查核未能找到直接對應者*
+- *截至 2026-10-15，ClinicalTrials.gov 上未見明確針對 autonomic neuropathy + orthostatic BP dynamics 的 SGLT2i 登錄試驗*
 
 ### 待追蹤項目
 - ADA 2026 對老年患者低血壓管理是否有進一步分層建議

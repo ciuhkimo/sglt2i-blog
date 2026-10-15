@@ -111,7 +111,7 @@ SGLT2i 已確立為 CKD 保護的核心治療，但現代腎臟科與心臟科�
 
 ### 進行中的研究
 
-- **CONFIDENCE（NCT05254002，Phase 2，已完成）**：finerenone + empagliflozin 合用；正式 hard outcomes 驗證的 Phase 3 後續試驗，目前 ClinicalTrials.gov 上尚無已命名 / 已正式註冊的對應條目（⚠️「CONFIDENCE-2」名稱目前無法核實）
+- **CONFIDENCE（NCT05254002，Phase 2，已完成）**：finerenone + empagliflozin 合用；以 hard outcomes 為主要終點的合用 Phase 3 後續試驗，截至 2026-10-15 ClinicalTrials.gov 上未見註冊
 - **FIND-CKD（NCT05047263，Phase 3）已正式發表（NEJM 2026, PMID 42246672）**：非 T2D proteinuric CKD finerenone 減緩 eGFR slope；非糖尿病 CKD 在台灣仍非適應症，長期 hard outcome 與監管轉化待後續
 
 ### 待追蹤項目

@@ -11,7 +11,7 @@ tags:
   - PED
   - 病人衛教
 seo_title: "洗腎後硬不起來怎麼辦？腎臟科醫師解析原因與治療"
-meta_description: "透析男性勃起功能障礙很常見。本文依權威網站、PubMed 與 ClinicalTrials.gov 查核後，整理常見原因、可與醫師討論的治療選項、PDE5 抑制劑用法重點、禁忌與就醫時機。"
+meta_description: "透析男性勃起功能障礙很常見。本文依權威網站、PubMed 與 ClinicalTrials.gov，整理常見原因、可與醫師討論的治療選項、PDE5 抑制劑用法重點、禁忌與就醫時機。"
 target_keywords:
   - 洗腎 陽痿
   - 洗腎 威而鋼

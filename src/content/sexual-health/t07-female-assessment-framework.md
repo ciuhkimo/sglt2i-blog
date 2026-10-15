@@ -239,7 +239,7 @@ UK Kidney Association 2019 建議：
 | **AMH 解讀** | 研究結果彼此矛盾；不應把 AMH 當成 dialysis 女性 fertility decision 的單一依據 |
 | **Pregnancy outcome counseling** | 強烈依賴 observational cohorts 與 registry；適合 counseling，不適合過度精準保證 |
 | **Contraception in CKD/dialysis** | CKD-specific direct comparative evidence 很少；實務多由 CDC official classification + nephrology / obstetric consensus 共同支撐 |
-| **ClinicalTrials.gov 註冊研究** | 可見相關研究題目，但本次查核未檢出足以改變現行 practice 的 female-dialysis-SRH completed therapeutic evidence |
+| **ClinicalTrials.gov 註冊研究** | 可見相關研究題目，但截至 2026-04 未見足以改變現行 practice 的 female-dialysis-SRH completed therapeutic evidence |
 
 <div class="callout callout-tip"><p><strong>反向紅旗</strong>：月經恢復、健康改善、或透析 intensification 之後，生育力可能回升；這時應立即重談 contraception，而不是等病人自己提。</p></div>
 
