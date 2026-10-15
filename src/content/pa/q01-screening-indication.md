@@ -209,7 +209,7 @@ tags:
 
 - 教科書建議：補到 **≥4.0 mEq/L** 再測
 - 2025 ES 用語：至少回到 **laboratory reference range**
-- **務實寫法**：至少補到正常範圍；若原本低 K⁺ 明顯，盡量靠 4.0
+- **務實做法**：至少補到正常範圍；若原本低 K⁺ 明顯，盡量靠 4.0
 - **若初次 ARR 陰性但有 hypokalemia → 補 K⁺ 後必須擇日重做**（2025 ES 明文規定）
 
 ### 3.3 藥物影響（簡介；詳細 wash-out 策略詳見 [Q2 ARR cutoff / washout 專題](/pa/q02-arr-cutoff-washout/)）

@@ -98,7 +98,7 @@ flowchart TD
 ### 3.2 Adrenalectomy 對 ESRD / Mortality / MACE / AF 的 outcome
 
 > **⚠️ 證據層級嚴格區分**
-> 下列為 **hard endpoint** 但證據層級為 **observational**（沒有 spironolactone vs adrenalectomy head-to-head RCT）。寫法應為「**觀察性研究一致顯示手術較優**」，不是「RCT 證實」。
+> 下列為 **hard endpoint** 但證據層級為 **observational**（沒有 spironolactone vs adrenalectomy head-to-head RCT）。應該說「**觀察性研究一致顯示手術較優**」，不是「RCT 證實」。
 
 | Outcome                 | Comparator                                                                        | Effect size                    | 來源                                                        |
 | ----------------------- | --------------------------------------------------------------------------------- | ------------------------------ | --------------------------------------------------------- |

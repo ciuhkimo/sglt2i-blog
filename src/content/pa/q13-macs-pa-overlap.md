@@ -61,7 +61,7 @@ quick_answer: "PA 合併 MACS（mild autonomous cortisol secretion）的統合�
 | Lamas 2024（PMID 39594996） | DST + AVS available n=225 | 43.6% |
 | Wada 2026（PMID 41638657） | CT adrenal nodule ≥10 mm + DST n=872 | 32.4% |
 
-**可對外的寫法**：PA 合併 MACS 約占五分之一；selected tertiary／adrenal-nodule／AVS cohorts 常見 20–30%，但已驗研究約 15% 到 40% 以上。TAIPAI 各出版 cohort 可能部分重疊，不能當成多次完全獨立的 replication；Hung 2023 的 26.4% 分母是 image–AVS subgroup（246），不是總收案（327）。
+**整體來說**：PA 合併 MACS 約占五分之一；selected tertiary／adrenal-nodule／AVS cohorts 常見 20–30%，但已發表研究的範圍約 15% 到 40% 以上。TAIPAI 各出版 cohort 可能部分重疊，不能當成多次完全獨立的 replication；Hung 2023 的 26.4% 分母是 image–AVS subgroup（246），不是總收案（327）。
 
 ---
 
