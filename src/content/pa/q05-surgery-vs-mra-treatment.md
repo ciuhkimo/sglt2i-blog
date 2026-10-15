@@ -24,7 +24,7 @@ tags:
 > **原發性醛固酮（Primary aldosteronism, PA）** 治療策略的核心：Lateralized unilateral PA + 可手術 candidate → **腹腔鏡單側腎上腺切除為 gold standard**（biochemical complete success ~94%，但 clinical complete success 僅 ~37%）。Bilateral / 不可手術 / 拒手術 → **spironolactone first-line**（12.5-25 mg/day 起始，依 K⁺/Cr/BP/renin 滴定；不耐受 → eplerenone 25-50 mg BID 自費）。**Severe CKD（eGFR <30）+ lateralized PA 反而常讓手術更值得認真考慮**（chronic MRA 有 hyperkalemia + dose limitation 問題）。**Finerenone 在 PA 為 off-label**：機轉外推合理，但 hard endpoint 不存在；TW 不在 PA 給付，自費。**沒有 spironolactone vs adrenalectomy head-to-head RCT**；長期 outcome 優勢來自 observational TAIPAI cohort。
 
 > **📝 文件層級分辨**
-> **指引建議** ≠ **臨床實務** ≠ **政策現況（NHI coverage）**。本文以 2025 Endocrine Society Clinical Practice Guideline (Adler GK et al., **PMID 40658480**) 為主軸；2024 TSA treatment guideline (Tseng CS et al., **PMID 37328332**) 為在地實作對照。截至本次查核可見（2026-05-09），TW NHI 對 eplerenone 的給付限 post-MI HF / NYHA II 以上 + LVEF ≤30%；finerenone 在 PA 未確認有正式生效之給付條文。
+> **指引建議** ≠ **臨床實務** ≠ **政策現況（NHI coverage）**。本文以 2025 Endocrine Society Clinical Practice Guideline (Adler GK et al., **PMID 40658480**) 為主軸；2024 TSA treatment guideline (Tseng CS et al., **PMID 37328332**) 為在地實作對照。截至 2026-05-09，TW NHI 對 eplerenone 的給付限 post-MI HF / NYHA II 以上 + LVEF ≤30%；finerenone 截至 2026-10-15 仍未納入健保給付（見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)）。
 
 ---
 
@@ -123,8 +123,8 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 | K⁺ 校正 | adrenalectomy 較完整 |
 | ARR / PRA 正常化 | adrenalectomy 較直接 |
 | arterial stiffness | adrenalectomy 改善 |
-| LV remodeling | 兩者都改善；unilateral PA studies 中 adrenalectomy LVMI 降幅通常更大（**近期 systematic review / meta-analysis 方向上支持此敘述；本 note 未列具體 citation，建議讀者另查**） |
-| QoL | comparative studies 多數傾向 adrenalectomy 改善較快、幅度較大；6 個月 meta-analysis 未達顯著差異（**citation 待補**） |
+| LV remodeling | 兩者都改善；unilateral PA studies 中 adrenalectomy LVMI 降幅通常更大（Chang YC 2026 統合分析，10 篇、1,197 人，PMID 41490461；Marzano 2025 MATCH 統合分析，17 篇、1,696 人，PMID 40557482；差距不大） |
+| QoL | comparative studies 多數傾向 adrenalectomy 改善較快、幅度較大；6 個月 meta-analysis 未達顯著差異（Wever 2026 系統性回顧，15 篇研究，其中 5 篇、347 人納入統合分析，PMID 42090114） |
 | BMD / PTH | 兩者都可能改善 calcium / PTH / urinary calcium；direct comparative BMD data 不足；**fracture-hard-endpoint RCT 不存在** |
 
 ### 3.4 手術 acute eGFR dip 與術前 counsel
@@ -136,7 +136,7 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 - **臨床意義**：dip >30% 與 incident **MAKE 風險上升**相關（**HR 2.18, 95% CI 1.04-4.57**）
 - **CV composite outcome 無顯著差異**
 - **機轉**：很大一部分是揭露 aldosterone-driven hyperfiltration 校正後的真實腎功能（不是手術直接傷腎）；常在數月後趨平穩
-- **counsel 紀律**：術前必須講「Cr 可能上升、eGFR 可能掉」**不能等術後才告知**；（這個部分我覺得要這樣講）有些患者在開完刀後會出現真實的腎功能，下降的eGFR有點像是被開完刀之後校正回歸的狀態，這個才是實際上真實的腎功能。（不過我覺得這個應該由轉介竹後的醫師去解釋比較恰當）。
+- **術前告知**：術前必須講「Cr 可能上升、eGFR 可能掉」，**不能等術後才告知**。可以這樣說明：有些病人開完刀後 eGFR 下降，是醛固酮造成的高過濾被移除後，顯露出原本真實的腎功能。術後的詳細解釋，我認為由轉介後的手術端醫師說明較恰當。
 
 ### 3.5 Long-term recurrence
 
@@ -147,7 +147,7 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 **意義**：
 - 術後「一次正常」不等於永久痊癒
 - 病理型態非 classical APA 時更要 long-term follow-up
-- **沒有原始 PASO cohort 的正式 hard-endpoint extension paper**（截至 2026-05 查核）；Tetti 2024 是最接近長期補強
+- **沒有原始 PASO cohort 的正式 hard-endpoint extension paper**（截至 2026-05）；Tetti 2024 是最接近長期補強
 
 ### 3.6 手術禁忌、高風險族群
 
@@ -222,7 +222,7 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 
 **Karashima 2016**（PMID 26606875）：comparison study 補強 — eplerenone 在 PA 降壓有效、抗雄性素副作用低，需 BID
 
-**TW NHI 給付（2025 查核）**：
+**TW NHI 給付（2025 年資料）**：
 - **限於 spironolactone 無法耐受** + 適應症 **post-MI HF** 或 **NYHA II 以上慢性 HF + LVEF ≤30%**
 - **PA 屬 off-label，自費**
 - **公開自費價格**：50-mg tablet ~NT$37-39/顆（依院所）；BID 月費常落數千元
@@ -234,16 +234,16 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 - **機轉外推合理**（FIDELITY 整合分析 [FIDELIO-DKD + FIGARO-DKD] 顯示 finerenone 在 T2D-CKD 的 hyperK safety profile，但**未與 spironolactone 直接 head-to-head 比較**；不能外推為 PA superiority）
 - **但 PA-specific hard endpoint 證據不存在**
 
-**PA-specific 證據（截至 2026-05 查核）**：
+**PA-specific 證據（截至 2026-05）**：
 - 一個 pilot RCT（bilateral PA, finerenone 20 mg/day vs spironolactone 50 mg/day）
 - 一個 multicenter prospective study
-- **NCT05924620**：ClinicalTrials.gov 顯示為 **Completed, phase 4, randomized open-label parallel assignment, actual enrollment 60**；本 note **未納入已發表 hard-endpoint peer-reviewed result**
+- **NCT05924620**：ClinicalTrials.gov 顯示為 **Completed, phase 4, randomized open-label parallel assignment, actual enrollment 60**；**截至 2026-05 未見已發表的 hard-endpoint 結果**
 - **全部停留在短期 BP / biochemical surrogate 層次** — **沒有 ESRD、MACE、AF、mortality** 等 hard endpoint
 - **沒有 finerenone 與 adrenalectomy 的 outcome comparison**
 
-**TW NHI 給付（2025 查核）**：
-- NHIA 共擬會議對 **T2D-CKD 適應症** 的審議文件**存在**
-- **截至本次查核未確認有正式生效之 PA 給付條文**
+**TW NHI 給付**：
+- NHIA 共擬會議曾審議 **T2D-CKD 適應症**（第 70、79 次），皆未形成納入給付結論
+- **截至 2026-10-15 仍未納入健保給付**（任何適應症；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)）
 - 在 PA 屬 **off-label，自費**
 - **公開自費價格**：20-mg tablet ~NT$90/顆；月費 ~NT$2520（依院所）
 
@@ -341,7 +341,7 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 | -------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------ | ----------------------- |
 | Spironolactone             | **全給付**                                                                                    | 最常用                            |                         |
 | Eplerenone（NHIA 2.9.1）   | 限使用於**對 spironolactone 無法耐受**之 (1) 心肌梗塞後之心衰竭病人；(2) NYHA II 級(含)以上之慢性心衰竭且 **LVEF ≤30%** 成人患者。**PA 使用屬 off-label** | 公開自費 ~NT$37-39/50 mg/顆         |                         |
-| Finerenone                 | NHIA 共擬會議對 **T2D-CKD** 審議文件存在；**截至本次查核未確認有正式生效之 PA 給付條文**                                  | 公開自費 ~NT$90/20 mg/顆；月 ~NT$2520 |                         |
+| Finerenone                 | **截至 2026-10-15 未納入健保給付**（任何適應症；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)）                                  | 公開自費 ~NT$90/20 mg/顆；月 ~NT$2520 |                         |
 | Laparoscopic adrenalectomy | 給付（含住院）                                                                                    | 高階耗材另自費                        |                         |
 | Amiloride                  | 全給付                                                                                        | 不常用                            |                         |
 | Patiromer (K-binder)       | 健保給付規定查 [Q11](/pa/q11-taiwan-nhi-coverage/)                                                | hyperkalemia mitigation        |                         |
@@ -404,21 +404,19 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 
 ## 11. Uncertainty / 待補充事項
 
-1. **PMID 校正紀錄**：Karagiannis 2008 RCT 正確 PMID 為 **18312153**（*Expert Opin Pharmacother*；早期 reference 曾誤寫為 16567587 / Verdecchia ambulatory BP editorial）；次要相關 paper PMID 17018542（NDT 2006 case-report letter）。AMBER (Agarwal 2019) 正確 PMID 為 **31533906**（早期曾誤寫為 31006504）。
+1. **沒有 spironolactone vs adrenalectomy head-to-head RCT**；長期 outcome 優勢來自 observational TAIPAI cohort（IPTW + time-varying analysis 但仍非 RCT）
 
-2. **沒有 spironolactone vs adrenalectomy head-to-head RCT**（公開文獻檢索一致確認）；長期 outcome 優勢來自 observational TAIPAI cohort（IPTW + time-varying analysis 但仍非 RCT）
+2. **沒有原始 PASO cohort 的 hard-endpoint extension publication**（截至 2026-05-09）；最接近長期補強為 **Tetti M 2024**（PMID 38318706）long-term recurrence study
 
-3. **沒有原始 PASO cohort 的 hard-endpoint extension publication**（截至 2026-05-09 查核）；最接近長期補強為 **Tetti M 2024**（PMID 38318706）long-term recurrence study
+3. **Finerenone in PA 進入 pilot 階段**（NCT05924620 + 1 pilot RCT + 1 multicenter prospective study），但仍**無 hard endpoint**；台灣健保未給付（截至 2026-10-15）
 
-4. **Finerenone in PA 進入 pilot 階段**（NCT05924620 + 1 pilot RCT + 1 multicenter prospective study），但仍**無 hard endpoint**；TW PA 給付條文未確認生效
+4. **2025 ES renin target 紀律**：未指定固定 PRA cut-off；門診實務常用 **PRA ≥1 ng/mL/h** 為 convention（**不是 guideline mandate**）
 
-5. **2025 ES renin target 紀律**：未指定固定 PRA cut-off；門診實務常用 **PRA ≥1 ng/mL/h** 為 convention（**不是 guideline mandate**）
+5. **Severe CKD + lateralized PA 的決策強度**：本文採「**反而常更值得認真考慮手術**」立場（基於 chronic MRA 在 advanced CKD 的 hyperkalemia 與 dose limitation）—— **此為整合 guideline + cohort renal data 的臨床推論，不是 RCT**
 
-6. **Severe CKD + lateralized PA 的決策強度**：本文採「**反而常更值得認真考慮手術**」立場（基於 chronic MRA 在 advanced CKD 的 hyperkalemia 與 dose limitation）—— **此為整合 guideline + cohort renal data 的臨床推論，不是 RCT**
+6. **Chen 2019 ESRD effect size**：sHR 0.38（P=0.007）；原始文獻的 95% CI 未能取得，主文不列信賴區間
 
-7. **Chen 2019 ESRD effect size**：sHR 0.38（P=0.007）；原始文獻的 95% CI 未能完整取得，故主文不硬寫入信賴區間
-
-8. **截至 2026-05-09 本次查核**：未見取代 2025 ES 的新 PA-specific guideline；ES 自承每年覆閱
+7. **截至 2026-05-09**：未見取代 2025 ES 的新 PA-specific guideline；ES 自承每年覆閱
 
 ---
 
@@ -455,14 +453,20 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 18. **Hundemer GL, Curhan GC, Yozamp N, et al.** Cardiometabolic outcomes and mortality in medically treated primary aldosteronism: a retrospective cohort study. *Lancet Diabetes Endocrinol* 2018;6(1):51-59. **PMID 29129576**
 19. **Hundemer GL, Curhan GC, Yozamp N, et al.** Renal Outcomes in Medically and Surgically Treated Primary Aldosteronism. *Hypertension* 2018;72(3):658-666. **PMID 29987110**
 
+### 心臟重塑與生活品質
+
+20. **Chang YC, Chen UL, Hung CS, et al.** Evaluating the impact of adrenalectomy and mineralocorticoid receptor antagonists for primary aldosteronism on left ventricular remodeling: a systematic review and meta-analysis. *Eur J Endocrinol* 2026;194(1):S1-S13. **PMID 41490461**
+21. **Marzano L, Zoccatelli F, Pizzolo F, Friso S.** Adrenalectomy Versus Medical Therapy in Primary Aldosteronism: A Meta-Analysis of Long-Term Cardiac Remodeling and Function (MATCH Study). *Hypertension* 2025;82(8):e142-e153. **PMID 40557482**
+22. **Wever M, Basile C, Bobbio E, et al.** Quality of life in primary aldosteronism, medical vs surgical treatment: a systematic review and meta-analysis. *J Endocrinol Invest* 2026;49(9):2305-2313. **PMID 42090114**
+
 ### Off-Label / 待觀察
 
-20. **NCT05924620**. Finerenone vs Spironolactone in Patients With Primary Aldosteronism. ClinicalTrials.gov. Status: **Completed**（phase 4, randomized open-label parallel assignment, actual enrollment 60；截至 2026-05-09 查核未見已發表 hard-endpoint peer-reviewed result）
+23. **NCT05924620**. Efficacy and Safety of Finerenone in Patients With Primary Aldosteronism. ClinicalTrials.gov. Status: **Completed**（phase 4, randomized open-label parallel assignment, actual enrollment 60；截至 2026-05-09 未見已發表 hard-endpoint peer-reviewed result）
 
 ### 健保條文
 
 - NHIA 公開給付規範：**Eplerenone（2.9.1）**：限使用於**對 spironolactone 無法耐受**之 (1) 心肌梗塞後之心衰竭病人；(2) NYHA II 級(含)以上之慢性心衰竭且 LVEF ≤30% 成人患者
-- NHIA 共同擬訂會議文件：**finerenone（Kerendia）納入健保審議案（T2D-CKD）**
+- NHIA 共同擬訂會議文件：**finerenone（Kerendia）納入健保審議案（T2D-CKD）**；截至 2026-10-15 未納入給付
 - 公開醫院自費價格範例：eplerenone 50 mg ~NT$37-39/顆；finerenone 20 mg ~NT$90/顆
 - **以最新版健保署支付標準查詢系統與貴院申報指引為準**
 

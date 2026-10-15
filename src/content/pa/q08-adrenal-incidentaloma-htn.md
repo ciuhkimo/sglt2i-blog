@@ -34,7 +34,7 @@ tags:
 > 三件事先做完再決定：(1) **影像紅線判讀** — homogeneous ≤10 HU 多 benign；≥4 cm 且不均質或 HU >20 走 MDT；(2) **functional workup 紀律** — DST 為全 AI 必做，ARR 只在合併 HTN/hypokalemia，metanephrines 只在影像不典型；(3) **PA-MACS overlap 約 1/4** — 走 PA workup 時主動補 DST，AVS interpretation 與術後預期都受影響。
 
 > **📝 文件層級分辨**
-> **指引建議** ≠ **臨床實務** ≠ **政策現況（NHI coverage）**。本文以 2023 ESE Clinical Practice Guideline on Adrenal Incidentaloma (Fassnacht et al., **PMID 37318239**) 為主軸；2025 Endocrine Society PA Guideline (Adler GK et al., **PMID 40658480**) 為 PA framework 對照；2023 AI functioning prevalence meta-analysis (Sconfienza, **PMID 36718682**) 為流病基準；2025 TAIPAI MACS-PA cohort + meta-analysis (Huang C et al., **PMID 40069399**) + 2023 TAIPAI ACS subtype/postop analysis (Hung K et al., **PMID 37800679**) 為 overlap 主軸 evidence。截至本次查核可見（2026-05-12），台灣 NHI 對腎上腺 CT / ARR / DST 屬一般 endocrine workup；AVS / laparoscopic adrenalectomy 通常在醫學中心執行；申報前以最新支付標準查詢系統為準。
+> **指引建議** ≠ **臨床實務** ≠ **政策現況（NHI coverage）**。本文以 2023 ESE Clinical Practice Guideline on Adrenal Incidentaloma (Fassnacht et al., **PMID 37318239**) 為主軸；2025 Endocrine Society PA Guideline (Adler GK et al., **PMID 40658480**) 為 PA framework 對照；2023 AI functioning prevalence meta-analysis (Sconfienza, **PMID 36718682**) 為流病基準；2025 TAIPAI MACS-PA cohort + meta-analysis (Huang C et al., **PMID 40069399**) + 2023 TAIPAI ACS subtype/postop analysis (Hung K et al., **PMID 37800679**) 為 overlap 主軸 evidence。截至 2026-05-12，台灣 NHI 對腎上腺 CT / ARR / DST 屬一般 endocrine workup；AVS / laparoscopic adrenalectomy 通常在醫學中心執行；申報前以最新支付標準查詢系統為準。
 
 ---
 
@@ -58,7 +58,7 @@ tags:
 
 ### 2.2 Functioning AI sub-prevalence — Sconfienza 2023 meta-analysis
 
-**PMID 36718682** | Meta-analysis, 36 studies（authors-reported total sample ≈16,000；建議以全文核對精確 N）
+**PMID 36718682** | Meta-analysis, 36 studies
 
 | Subtype | Pooled prevalence (95% CI) |
 |---|---|
@@ -289,13 +289,13 @@ Q8 層級只需提醒三件事：
 
 ## 7. NHI 實務 Quick Reference（連 [Q11](/pa/q11-taiwan-nhi-coverage/)）
 
-> ⚠️ **截至本次查核可見；申報前以最新版健保署藥品 / 醫令給付規定查詢系統為準。**
+> ⚠️ **以下為 2026-05 整理；申報前以最新版健保署藥品 / 醫令給付規定查詢系統為準。**
 
-| 項目 | 門診/住院實務（截至本次查核可見）|
+| 項目 | 門診/住院實務 |
 |---|---|
 | **Adrenal CT / MRI** | 臨床指徵下通常循一般影像給付路徑 |
 | **ARR / DST / metanephrines** | 屬一般 endocrine / lab workup；實際醫令以院內申報與支付標準查詢系統為準 |
-| **AVS** | 若病人考慮手術且需 lateralization，通常在醫學中心執行；申報細節以最新支付標準查核 |
+| **AVS** | 若病人考慮手術且需 lateralization，通常在醫學中心執行；申報細節以最新支付標準為準 |
 | **Laparoscopic adrenalectomy** | 腹腔鏡腎上腺切除已有健保支付路徑；實際適用項目、申報條件與是否需轉醫學中心，申報前仍以最新版支付標準查詢系統與院內申報規範為準 |
 | **FDG-PET/CT** | **非 routine**；屬有限適應症給付，通常在 malignancy staging selected cases 才有角色 |
 
@@ -361,12 +361,12 @@ Q8 層級只需提醒三件事：
 
 ## 10. Uncertainty / 待補充事項
 
-1. **AI + HTN 中 PA 確切 prevalence**：無高品質統一估計；嚴格 prospective cohort 約 4%，meta 全 AI pooled 4.4%；**不寫「5-15%」**
+1. **AI + HTN 中 PA 確切 prevalence**：無高品質統一估計；嚴格 prospective cohort 約 4%，meta 全 AI pooled 4.4%；本文不採用常見的「5-15%」說法
 2. **PA + MACS 對術後 outcome 影響**：Hung 2023 TAIPAI（↓ biochemical success）vs Araujo-Castro 2023 Spanish（兩組相似）vs Wada 2026 Japan（AVS interpretation 受影響但不失敗）—**研究間異質性**，本文以「對 AVS interpretation 有實質干擾，術後 outcome 仍有研究間異質性」為立場
 3. **post-DST cortisol cutoff ≥2.65 µg/dL（TAIPAI NODM risk）vs 1.8 µg/dL（MACS 診斷）**：屬不同概念，本文以 1.8 µg/dL 為 MACS 診斷主軸
 4. **2025 Taipei Positional Paper (PMID 40991208)**：主軸是 universal PA screening framework，不是 AI-specific；本文引用時明確區分
 5. **AI 自然史在 active management 後**：Elhassan 2019 (PMID 31234202) 主要為 conservative-managed NFAT/MACE；積極治療族群數據較少
-6. **截至 2026-05-12 查核**：未見取代 2023 ESE adrenal incidentaloma guideline 的新版立場
+6. **截至 2026-05-12**：未見取代 2023 ESE adrenal incidentaloma guideline 的新版立場
 
 ---
 
@@ -399,13 +399,13 @@ Q8 層級只需提醒三件事：
 
 - NHIA 公開支付標準 / 申報指引（最新版查詢系統）
 - 腹腔鏡腎上腺切除術已收載；複雜單側／雙側 2025 年底仍在收載作業進度
-- AVS 通常在醫學中心執行；申報以最新支付標準查核
+- AVS 通常在醫學中心執行；申報以最新支付標準為準
 - FDG-PET 屬有限適應症給付，非 incidentaloma routine workup
 - **以最新版健保署支付標準查詢系統與貴院申報指引為準**
 
 ---
 
-> **品質聲明**：本決策備忘錄遵守 (1) 核心 PMID 已逐項核對；仍涉及健保 / 醫令可近性之條目，申報前須以最新版查詢系統與院內申報為準；(2) 影像 cutoff 嚴格依 2023 ESE wording；(3) Functional workup 紀律分流（DST 為全 AI / ARR 為 AI+HTN/hypokalemia / metanephrines 為 atypical imaging — 不寫成「全 AI 全 panel」）；(4) MACS-PA overlap 數字 multi-source 對照（不單用 TAIPAI 26.4%；PMID 歸屬正確為 Hung 2023 不是 Lu YC 2024）；(5) ACC biopsy 紅線必標；(6) 4 cm 不是「必切」絕對句；(7) 「腎上腺意外瘤都篩 PA」立場 nuance（incidentaloma framework vs PA framework）；(8) 作者範圍誠實——區域醫院腎臟科可執行 ARR / DST / 第一線 metanephrines + 追蹤，**不執行 AVS / adrenalectomy / 複雜 PET 解讀**。
+> **閱讀說明**：(1) 涉及健保 / 醫令可近性的條目，申報前以最新版查詢系統與院內申報為準；(2) 影像 cutoff 依 2023 ESE 原文；(3) Functional workup 分流：DST 為全 AI、ARR 為 AI+HTN/hypokalemia、metanephrines 為 atypical imaging，不是「全 AI 全 panel」；(4) MACS-PA overlap 數字採多個來源對照，不單用 TAIPAI 26.4%（Hung 2023）；(5) 疑似 ACC 不做 biopsy；(6) 4 cm 不是「必切」的絕對界線；(7) 「腎上腺意外瘤都篩 PA」要區分 incidentaloma 與 PA 兩套框架；(8) 作者執業範圍：區域醫院腎臟科可執行 ARR / DST / 第一線 metanephrines + 追蹤，**不執行 AVS / adrenalectomy / 複雜 PET 解讀**。
 
 ---
 

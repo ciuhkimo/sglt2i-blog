@@ -188,7 +188,7 @@ flowchart TD
 
 ## 8. 台灣健保／實務
 
-> **截至本次查核可見；確切代碼與點數以健保署「醫療服務給付項目及支付標準」現行版本為準。**
+> **以下為 2026-06 整理；確切代碼與點數以健保署「醫療服務給付項目及支付標準」現行版本為準。**
 
 - **SIT 與 CCT 為台灣兩大主流確認試驗**（2017 TSA 共識 Wu VC et al., J Formos Med Assoc 2017;116(12):993-1005, PMID 28735660）。CCT 純門診；SIT 多在日間病房／住院。
 - **FST、口服鈉負荷在台灣極少使用**：FST 因 fludrocortisone 取得困難、須多日監測；口服鈉負荷因 24 小時尿收集與依從性問題。本文對此二者係依公開文獻與醫學中心常規，非作者個人例行操作。
@@ -218,10 +218,10 @@ flowchart TD
 ## 10. Uncertainty／待補充事項
 
 - **確認試驗的 cutoff 與 sens／spec 精確值**因檢驗方法（免疫分析法 vs LC-MS/MS）與各 lab protocol 而異，一律以個別實驗室參考值為準，勿把單中心數字當普世標準。
-- **Stowasser 反方 commentary 的單側 PA 之 SSST sensitivity 精確數值**：本文僅引用其論點（以治療反應為 reference standard 會壓低 SSST 表觀 sensitivity），未引用未經一手核實的精確數字。
+- **Stowasser 反方 commentary 的單側 PA 之 SSST sensitivity 精確數值**：本文僅引用其論點（以治療反應為 reference standard 會壓低 SSST 表觀 sensitivity），因無法取得原文確認，未引用其精確數字。
 - <strong>「post-SIT PAC >16 ng/dL」</strong>屬 2017 TSA 共識引述之 TAIPAI 未發表資料（highest PPV），非正式診斷切點；診斷用 >10、術後療效預測用已發表的 >25。
 - **SSST 是否仍需要**：最新爭議（Leung 2025／Stowasser 2026）顯示學界對 routine confirmation 的必要性尚未定論；SSST 與 CCT 在個體層面可 discordant，群體效能相當不代表可互換。
-- **健保代碼／點數**：保守不寫，與 [Q11](/pa/q11-taiwan-nhi-coverage/) cross-check、申報前以最新系統版本為準。
+- **健保代碼／點數**：本文不列，見 [Q11](/pa/q11-taiwan-nhi-coverage/)；申報前以最新系統版本為準。
 
 ---
 

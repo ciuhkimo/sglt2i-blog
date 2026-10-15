@@ -154,7 +154,7 @@ ARR 是分數：分子 = PAC（醛固酮），分母 = 腎素。兩大陷阱都�
 ### 4.3 2025 ES「不停藥／最小停藥」的精確用語
 
 - **建議 3 技術註解**（藥物洗脫）：條件式建議（2 | ⊕⊕OO，低證據）。允許先不停藥驗，**非無條件免停藥**；陰性在中高風險者仍須停藥重驗。
-- **「用藥下腎素仍被壓抑」可作 captopril 試驗的 proxy（表 8）**：ES 原文為「may serve as a proxy for the captopril challenge test」、且判讀屬機率式（probabilistic）。在 ACEi/ARB 下腎素仍壓 + PAC 高 = 與 captopril 陽性同方向的強支持訊號，但**不寫成「等同陽性」**。
+- **「用藥下腎素仍被壓抑」可作 captopril 試驗的 proxy（表 8）**：ES 原文為「may serve as a proxy for the captopril challenge test」、且判讀屬機率式（probabilistic）。在 ACEi/ARB 下腎素仍壓 + PAC 高 = 與 captopril 陽性同方向的強支持訊號，但**不等同陽性**。
 - **建議 4 免確認試驗**（2 | ⊕OOO，極低證據）：頑固性高血壓或高血壓+低 K⁺ + PRA <0.2（或 DRC <2）+ PAC >20 ng/dL（免疫分析法）/>15（LC-MS/MS）→ 不建議再做抑制試驗。
 - **整份指引 10 項全為條件式建議、證據低～極低** → 勿把「條件式 + 極低證據」講成「強烈建議免停藥」。
 
@@ -204,7 +204,7 @@ ARR 是分數：分子 = PAC（醛固酮），分母 = 腎素。兩大陷阱都�
 
 **孕婦**：ARR 孕期不可靠（RAAS 生理活化 + progesterone 抗礦物皮質素）→ 偽陰；診斷靠「壓抑的腎素 + 高醛固酮」，生理鹽水／fludrocortisone 確認試驗孕期禁用。**孕期 PA 應轉介**。
 
-**糖尿病／用 SGLT2i／finerenone**：SGLT2i 用 >2 個月對 ARR 影響極小、no-washout 下多可不停（Sawamura 2020, PMID 33256676；ES 完整洗脫仍列 2 週）。**finerenone：已有 pilot RCT（Hu 2025, PMID 39804908）與 real-world switch study（Uslar 2025, PMID 40378185）短期資料，但無 ARR 篩檢判讀研究、亦無 PA hard-outcome 證據 → 篩檢情境保守視同 MRA 處理**（對齊 [Q9 — PA + 心房顫動](/pa/q09-pa-af/)／[Q11 — Taiwan NHI Coverage](/pa/q11-taiwan-nhi-coverage/) 已驗結論）。
+**糖尿病／用 SGLT2i／finerenone**：SGLT2i 用 >2 個月對 ARR 影響極小、no-washout 下多可不停（Sawamura 2020, PMID 33256676；ES 完整洗脫仍列 2 週）。**finerenone：已有 pilot RCT（Hu 2025, PMID 39804908）與 real-world switch study（Uslar 2025, PMID 40378185）短期資料，但無 ARR 篩檢判讀研究、亦無 PA hard-outcome 證據 → 篩檢情境保守視同 MRA 處理**（與 [Q9 — PA + 心房顫動](/pa/q09-pa-af/)／[Q11 — Taiwan NHI Coverage](/pa/q11-taiwan-nhi-coverage/) 的結論一致）。
 
 ---
 
@@ -235,7 +235,7 @@ flowchart TD
 
 ## 9. 台灣健保／申報實務
 
-> 以本次查核可見為準；申報前以健保署最新版支付標準與審查注意事項查詢系統為準。
+> 以下為 2026-06 整理；申報前以健保署最新版支付標準與審查注意事項查詢系統為準。
 
 - ARR 篩檢 = **PAC（醛固酮）+ 腎素（PRA 或 DRC）** 兩項生化檢驗；給付通常需明確臨床指徵 + 病歷佐證。
 - **病歷指徵記載建議**（提高過件 + 臨床正當性）：頑固性高血壓（≥3 種足量降壓藥含利尿劑仍未達標）／高血壓 + 自發或利尿劑相關低 K⁺／腎上腺意外瘤／早發或家族性高血壓。
@@ -265,11 +265,11 @@ flowchart TD
 
 ## 11. Uncertainty／待補充事項
 
-- **2025 ES 表 5/6/8 與建議 3／4 的逐字 wording**：本文以指引內容與跨來源一致為據；正式引用前建議再核 ES 原文 PDF。
-- **finerenone 在 PA**：已有 pilot RCT（Hu 2025）與 real-world 短期資料（Uslar 2025），但無 ARR 篩檢判讀／hard-outcome 證據 → 保守視同 MRA，勿超寫。
+- **2025 ES 表 5/6/8 與建議 3／4**：本文為整理後的中文摘要，逐字內容以 ES 原文（PMID 40658480）為準。
+- **finerenone 在 PA**：已有 pilot RCT（Hu 2025）與 real-world 短期資料（Uslar 2025），但無 ARR 篩檢判讀／hard-outcome 證據 → 保守視同 MRA，不宜外推。
 - **TAIPAI 21 天／初始 ARR >35**：屬臨床實務流傳，未見正式文獻明列；列此供實務參考。
 - **DRC↔PRA 換算係數、台灣各實驗室單位**：刻意不寫死，一律以個別檢驗報告參考值為準。
-- **健保代碼／點數**：保守不寫；與 [Q11](/pa/q11-taiwan-nhi-coverage/) cross-check 後再定。
+- **健保代碼／點數**：本文不列，見 [Q11](/pa/q11-taiwan-nhi-coverage/)；申報前以最新系統版本為準。
 
 ---
 

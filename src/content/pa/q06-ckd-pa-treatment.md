@@ -32,7 +32,7 @@ related_q:
 > **原發性醛固酮（Primary aldosteronism, PA）** 合併**慢性腎臟病（CKD）** 的處置不是把標準 PA 治療「縮小劑量」，而是**用 eGFR 三段式決策**：(1) **≥60** lateralized → adrenalectomy / bilateral → spironolactone 12.5-25 mg/day；(2) **30-60** spironolactone 12.5 mg QOD-QD 起 + 1-2 週查 K⁺/Cr，**lateralized 仍優先手術**；(3) **<30 + lateralized** → **反而更該考慮手術**（chronic MRA hyperK + dose limit；**clinical inference，非 RCT**），術前必告知 **acute eGFR dip 16.6%** [Chen JY 2024]；**<30 + bilateral / 不可手術** → AMBER patiromer-enabled spironolactone（**eGFR 25-45 紅線**，不外推 <25/dialysis）or amiloride 替代。**沒有 spironolactone vs adrenalectomy head-to-head RCT**；Comparator 嚴格區分：Chen 2019 = ADX-treated PA **vs EH controls**（不是 vs MRA direct）；Wu 2021 = adrenalectomy **vs MRA direct**（ACM HR 0.57 / MACE HR 0.67 / CHF HR 0.49）；Cohen 2023 PA-CKD specific cohort 顯示 ADX vs medical 5 年 BP + 用藥較佳但 hard endpoint 無顯著差異。**Finerenone 在 PA 為 off-label**，僅 60 人 8 週 pilot RCT [Hu 2025 Circulation, eGFR ≥60 only, BP 非劣 + K⁺ 較佳]，**hard endpoint 證據不存在**，TW 自費。
 
 > **📝 文件層級分辨**
-> **指引建議** ≠ **臨床實務** ≠ **政策現況（NHI coverage）**。本文以 2025 Endocrine Society Clinical Practice Guideline (Adler GK et al., **PMID 40658480**) 為主軸；KDIGO 2024 CKD guideline 為 CKD pathway 對照；TAIPAI Chen YY 2019 + Wu VC 2021 + Chen JY 2024 為核心 cohort 證據；Cohen 2023 為 PA-CKD specific multicenter cohort。截至本次查核可見（2026-05-12），**台灣 NHI 對 finerenone 在 PA 為 off-label 自費**；patiromer 在台灣未能獨立確認成品藥證 / 上市供應 / 健保收載，申報 / 採購前以 TFDA / 健保署 / 院內藥局為準（Q11 cross-reference）。
+> **指引建議** ≠ **臨床實務** ≠ **政策現況（NHI coverage）**。本文以 2025 Endocrine Society Clinical Practice Guideline (Adler GK et al., **PMID 40658480**) 為主軸；KDIGO 2024 CKD guideline 為 CKD pathway 對照；TAIPAI Chen YY 2019 + Wu VC 2021 + Chen JY 2024 為核心 cohort 證據；Cohen 2023 為 PA-CKD specific multicenter cohort。**finerenone 在 PA 為 off-label 自費**（台灣健保截至 2026-10-15 仍未給付 finerenone）；截至 2026-05-12，查不到 patiromer 在台灣的成品藥證、上市供應或健保收載資料，申報 / 採購前以 TFDA / 健保署 / 院內藥局為準（見 [Q11](/pa/q11-taiwan-nhi-coverage/)）。
 
 ---
 
@@ -86,12 +86,12 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
 
 ### 3.1 Severe CKD + lateralized PA：手術 outcome 是否仍優？
 
-> **⚠️ 嚴格立場 hedge**
+> **⚠️ 這是臨床推論**
 > 「**Severe CKD（eGFR <30）+ lateralized PA 反而常更值得認真考慮手術**」此論述**是臨床推論，非隨機試驗結論**。整合自：(a) chronic MRA 在 advanced CKD 之 hyperK + dose limitation；(b) Hundemer 2018 renal: MRA-PA renal slope 劣於 EH；(c) Wu 2021: surgery vs MRA 整體較佳。**並無直接針對 eGFR <30 lateralized PA 的 RCT 或大型 cohort hard endpoint 證據**。
 >
 > **但在偏鄉現場的張力**：這類 advanced CKD + 單側 PA 病人，雖然「臨床上更該考慮手術」，但**實際接受到手術治療的可近性常較低**——轉介醫學中心、完成 AVS workup、外科評估、家屬意願、交通、經濟、共病等都是門檻。地區醫院腎臟科常見的情境是：把病人轉介出去之後，**是否真的能完成手術鏈**取決於整條照護鏈的銜接，而不只是醫療判斷。
 
-**Comparator 嚴格區分**（Q5 v1.1 教訓延伸）：
+**Comparator 嚴格區分**：
 
 | 研究 | PMID | Comparator | Effect size |
 |---|---|---|---|
@@ -101,7 +101,7 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
 
 **子群分析（Chen YY 2019）**：Charlson score >0 者，ADX vs EH ESRD HR **0.18 [0.04-0.71]** — 共病多者 ADX benefit 更顯著。**非以 baseline eGFR 分層之子群**。
 
-**baseline eGFR <30 dedicated cohort**：截至本次查核可見尚未發表。
+**baseline eGFR <30 dedicated cohort**：截至 2026-05 尚未見發表。
 
 ### 3.2 Acute eGFR dip — Chen JY 2024 深化（PMID 38051943, JCEM）
 
@@ -132,7 +132,7 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
 > 「您現在抽血看到的 eGFR 是 X，但這個數字其實是『**假性偏高**』——PA 讓腎臟『超前工作』把分數撐起來。手術把腫瘤拿掉後，腎臟回到**真實狀態**，這在概念上是『**校正回歸**』：從假性偏高校正回到真實水準。這是 hemodynamic unmasking 的常見解釋，**但仍需個案排除 AKI、volume depletion、藥物等可逆因素**。約 1/6 病人 eGFR 會下降超過 30%，多數在 3-6 個月後穩定。下降幅度較大的這群人，未來 CKD 惡化 / 再透析的風險會稍升（MAKE HR 2.18），因此**術後要更密切追蹤**（1 週 / 1 個月 / 3 個月 / 6 個月各驗一次 Cr / K⁺ / eGFR）。觀察性 cohort 整體支持手術可改善 BP / 用藥負擔（Cohen 2023），但**對個別 severe CKD 病人不應保證手術一定降低未來心血管事件或洗腎風險**。」
 
 > **ℹ️ 風險預測工具**
-> 截至本次查核可見，**沒有已外部驗證的 PA-ADX eGFR-dip score 或 nomogram**。實務上以年齡 + 術前 eGFR + PAC + K⁺ + SBP 五個變項做臨床 stratification。
+> 截至 2026-05，**沒有已外部驗證的 PA-ADX eGFR-dip score 或 nomogram**。實務上以年齡 + 術前 eGFR + PAC + K⁺ + SBP 五個變項做臨床 stratification。
 
 ### 3.3 Long-term renal outcome post-surgery
 
@@ -145,7 +145,7 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
 - L-FABP/Cr ↓, KIM-1/Cr ↓ = **tubular health 改善**
 - → **支持** acute dip 主要可能是 hemodynamic reset / hyperfiltration unmasking，而非單純 progressive CKD；但仍需個案排除 AKI、volume 與藥物因素。
 
-**Iwakura 2022 stage 3 CKD-PA（PMID 36367014, n=20, 5-8 yr follow-up）**：
+**Nakano 2023 stage 3 CKD-PA（PMID 36367014；追蹤 >5 年者 20 人，中位 7 年）**：
 - ADX 12 例 / MRA 8 例
 - 兩組長期 eGFR 進一步下降皆不顯著
 - **樣本極小**，外推應保守
@@ -209,9 +209,9 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
 > ❌ **不可宣稱**：「AMBER 證實 patiromer 改善 PA-CKD hard endpoint」（primary endpoint 是 persistence，不是 hard endpoint）
 > ❌ **AMBER 不是 PA trial**
 
-**PA-specific patiromer-enabled spironolactone study**：截至 2026-05-12 文獻檢索結果為 **0 篇發表**（PA cohort 外推 AMBER 為唯一證據）
+**PA-specific patiromer-enabled spironolactone study**：截至 2026-05-12 **未見發表**（PA 族群只能外推 AMBER）
 
-**Patiromer 台灣狀態**：截至本次查核**未能獨立確認** patiromer（Veltassa）在台灣有成品藥證、上市供應或健保收載；申報 / 採購前須以 TFDA 藥物許可證查詢系統、健保署查詢系統與院內藥局為準。
+**Patiromer 台灣狀態**：截至 2026-05-12，**查不到** patiromer（Veltassa）在台灣的成品藥證、上市供應或健保收載資料；申報 / 採購前須以 TFDA 藥物許可證查詢系統、健保署查詢系統與院內藥局為準。
 
 > **⚠️ AMBER 的證據基礎是 patiromer ≠ SZC / Lokelma**
 > **AMBER evidence base 是 patiromer**，不是 SZC（sodium zirconium cyclosilicate / Lokelma）。SZC 在台灣可見 5 g/包藥品資料，但 SZC 不能被寫成 AMBER 的等價替代證據——兩種藥的分子結構、PK、subgroup data 都不同。實務上若考慮 SZC 替代 patiromer 啟用 spironolactone，是 evidence-bridging 而非 evidence-equivalent，需個案 K⁺ 密切監測。
@@ -222,7 +222,7 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
 - 對 PA BP / K⁺ 控制與 spironolactone 大致相當（Karagiannis 系列）
 - 抗雄性素副作用低
 - **K⁺ 風險與 spironolactone 大致相當**（同為 K 保留）
-- TW NHI 給付：截至本次查核可見，曾有共擬會議議「擴增至 PA 所致高血壓 + spironolactone 不耐」（第 55/79 次議程）；**最新給付以最新版查詢系統為準**（Q11 cross-reference）
+- TW NHI 給付：共擬會議曾議「擴增至 PA 所致高血壓 + spironolactone 不耐」（第 55/79 次議程）；截至 2026-05 現行條文仍未列 PA，**最新給付以最新版查詢系統為準**（見 [Q11](/pa/q11-taiwan-nhi-coverage/)）
 
 ### 4.4 Finerenone in CKD-PA — Off-label disclaimer ⚠️
 
@@ -246,11 +246,11 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
 **2. Li 2026 multicenter prospective study（PMID 41568520, Hypertension）**：
 - Single-arm, PA cohort
 - PAMO complete biochemical response 29.1%, clinical response 20.0%
-- Single-arm exploratory；details 以原文 methods 為準
+- Single-arm exploratory
 
-**3. Ongoing trials**：FAIRY NCT06457074 招募中、FAVOR NCT06164379 / NCT05814770 / NCT06381323（status varied）
+**3. 後續試驗**（ClinicalTrials.gov，2026-10-15 查詢）：finerenone vs spironolactone 隨機試驗 FAIRY（NCT06457074，n=306）已於 2026-04 完成；FAVOR（NCT06164379）與 NCT05814770 狀態不明；單臂試驗 NCT06381323（n=55）已完成
 
-**TW NHI**：Finerenone 已有 T2D-CKD 相關適應症資料；**健保是否已生效給付、給付條件與健保碼，申報前須以健保署最新版查詢系統與院內藥局為準**。PA **不是核准適應症**，也沒有 PA hard endpoint trial；以 PA 為適應症使用屬 off-label，**不得寫成常規健保給付**。公開自費價約 ~NT$90/20 mg 顆，月約 ~NT$2,520，實際以院內藥局為準。
+**TW NHI**：截至 2026-10-15，finerenone 仍未納入健保給付（任何適應症；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)）。PA **不是核准適應症**，也沒有 PA hard endpoint trial；以 PA 為適應症使用屬 off-label 自費。公開自費價約 ~NT$90/20 mg 顆，月約 ~NT$2,520，實際以院內藥局為準。
 
 **真正適合考慮 finerenone 的情境（極罕見）**：
 - 明確不能手術
@@ -304,7 +304,7 @@ flowchart TD
 
 **框架要點**：
 1. **eGFR 60 / 30 / 25 為三段式節點**
-2. **lateralized 在所有 eGFR 段都優先評估手術**（CKD 越重，chronic MRA 越受限，手術相對價值上升 — 但須 hedge，非 RCT）
+2. **lateralized 在所有 eGFR 段都優先評估手術**（CKD 越重，chronic MRA 越受限，手術相對價值上升 — 但屬臨床推論，非 RCT）
 3. **eGFR 25-45 為 patiromer 適用區間**（含 30-45 區間：若 hyperK 限制 MRA，亦可參考 AMBER eGFR 25-45 evidence，但仍非 PA-specific hard endpoint），<25 / 透析 **嚴禁外推**
 4. **Finerenone 在 PA 任一 eGFR 段都標記 off-label**
 
@@ -338,14 +338,14 @@ flowchart TD
 
 ## 7. NHI 實務 quick reference（連 [Q11](/pa/q11-taiwan-nhi-coverage/)）
 
-> ⚠️ **截至本次查核可見；申報前以最新版健保藥品給付規定查詢系統為準。**
+> ⚠️ **以下為 2026-05 整理（finerenone 更新至 2026-10-15）；申報前以最新版健保藥品給付規定查詢系統為準。**
 
-| 藥物 | NHI 給付（截至本次查核可見）| 備註 |
+| 藥物 | NHI 給付 | 備註 |
 |---|---|---|
 | **Spironolactone** | 全給付 | 廣泛使用於 HTN / HF / 肝硬化 / PA |
 | **Eplerenone（NHIA 2.9.1）** | 限 post-MI HF / NYHA II 以上 + LVEF ≤30% + **spironolactone 不耐**；**PA 屬 off-label** | 共擬會議曾議擴增至 PA，最新給付以查詢系統為準 |
-| **Finerenone（Kerendia）** | 有 T2D-CKD 相關適應症資料；**是否已生效給付 / 給付條件 / 健保碼，申報前以健保署最新版查詢系統與院內藥局為準** | **PA 不是核准適應症 / 不得寫成常規健保給付**；公開自費價約 ~NT$90/20 mg 顆，月 ~NT$2,520 |
-| **Patiromer（Veltassa）** | **截至本次查核未能獨立確認台灣有成品藥證 / 上市供應 / 健保收載**；以 TFDA / 健保署 / 院內藥局為準 | AMBER evidence base 是 patiromer；國外公開價 USD 1,000-1,500/月 |
+| **Finerenone（Kerendia）** | **截至 2026-10-15 未納入健保給付**（健保用藥品項查無；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)） | **PA 不是核准適應症**；公開自費價約 ~NT$90/20 mg 顆，月 ~NT$2,520 |
+| **Patiromer（Veltassa）** | **截至 2026-05 查不到台灣成品藥證 / 上市供應 / 健保收載資料**；以 TFDA / 健保署 / 院內藥局為準 | AMBER evidence base 是 patiromer；國外公開價 USD 1,000-1,500/月 |
 | **SZC / Lokelma** | 可見台灣 5 g/包藥品資料；健保狀態以院內藥局為準 | 公開自費價約 NT$300-400/包；不是 AMBER patiromer 的等價替代證據 |
 | **Amiloride 單方** | 健保 NHIA 2.9.2 **限 Liddle's syndrome 事前審查**；PA 屬 off-label | 實務上需依院內藥局 / 健保查詢系統確認是否可取得與是否自費 |
 | **Amiloride/HCTZ 複方（Moduretic / Amizide 類）** | 與單方為不同給付與適應症 | **不等同 PA 的 ENaC inhibitor 單方替代**；CKD 使用須注意 HCTZ 對容量 / 血鉀 / 腎功能影響 |
@@ -403,17 +403,17 @@ flowchart TD
 
 2. **baseline eGFR <30 dedicated cohort 仍稀少** — 「Severe CKD + lateralized PA 更該考慮手術」為臨床推論
 
-3. **Chen JY 2024 核心數字已核對**：n=445、術後 6 個月 dip >30% 74/445（16.6%）、mean follow-up 5.0 ± 3.6 years、MAKE HR 2.18 [1.04-4.57]
+3. **Chen JY 2024 核心數字**：n=445、術後 6 個月 dip >30% 74/445（16.6%）、mean follow-up 5.0 ± 3.6 years、MAKE HR 2.18 [1.04-4.57]
 
-4. **Patiromer 台灣狀態**：截至本文查核**未能獨立確認**成品藥證 / 上市 / 健保收載；申報與採購前以 TFDA / 健保署 / 院內藥局為準
+4. **Patiromer 台灣狀態**：截至 2026-05-12 **查不到**成品藥證 / 上市 / 健保收載資料；申報與採購前以 TFDA / 健保署 / 院內藥局為準
 
 5. **Eplerenone PA 健保最新給付** — 共擬會議第 55 / 79 次議程；以最新版查詢系統為準
 
 6. **Finerenone in PA emerging trials** — Hu 2025 Circulation pilot RCT（PMID 39804908）與 Li 2026 Hypertension single-arm（PMID 41568520）已列；均**不可視為 PA hard endpoint evidence**
 
-7. **PA-specific patiromer-enabled spironolactone prospective study** — 截至 2026-05 文獻檢索結果為 **0 篇**，僅 AMBER 外推
+7. **PA-specific patiromer-enabled spironolactone prospective study** — 截至 2026-05 **未見發表**，僅能外推 AMBER
 
-8. **截至 2026-05-11 查核**：未見取代 2025 ES Adler guideline 的新 PA-CKD 立場
+8. **截至 2026-05-11**：未見取代 2025 ES Adler guideline 的新 PA-CKD 立場
 
 ---
 
@@ -456,25 +456,25 @@ flowchart TD
 21. **Fernández-Argüeso M, et al.** Higher risk of chronic kidney disease and progressive kidney function impairment in primary aldosteronism than in essential hypertension. 2021. **PMID 33797699**
 22. **Mirfakhraee S, et al.** Diagnosing Primary Aldosteronism in the Setting of Chronic Kidney Disease. 2021. **PMID 34293951**
 
-### Off-label / 待觀察 / 待 Consensus 驗證
+### Off-label / 待觀察
 
-23. **Nakano Y / Iwakura Y, et al.** Long-term effects of PA treatment on patients with PA and CKD. 2023. **PMID 36367014** *(stage 3 CKD-PA, n=20, 5-8 yr ADX vs MRA 無顯著差異；樣本極小)*
-24. **Queiroz MS, et al.** Renal function evolution after unilateral adrenalectomy for PA. 2024. **PMID 38040032** *(eGFR 第 1 週下降, 6 月內穩定；本文 n=94 請以原文 methods 為準)*
+23. **Nakano Y, Murakami M, Hara K, et al.** Long-term effects of primary aldosteronism treatment on patients with primary aldosteronism and chronic kidney disease. *Clin Endocrinol (Oxf)* 2023;98(3):323-331. **PMID 36367014** *(治療後 CKD 者中 20 人追蹤 >5 年〔ADX 12、MRA 8〕，中位 7 年 eGFR 未再明顯下降、兩組無差異；樣本極小)*
+24. **Queiroz NL, Stumpf MAM, Souza VCM, et al.** Renal Function Evolution and Hypoaldosteronism Risk After Unilateral Adrenalectomy for Primary Aldosteronism. *Horm Metab Res* 2024;56(5):350-357. **PMID 38040032** *(n=94；eGFR 術後第 1 週下降，之後 6 個月維持在同一水準；術後生化低醛固酮 48%)*
 25. **Wu VC, et al.** Markers of Kidney Tubular Function Deteriorate While Those of Kidney Tubule Health Improve in Primary Aldosteronism After Targeted Treatments. *JAHA* 2023. **PMID 36789834**
-26. NCT05814770 / NCT06457074 (FAIRY) / NCT06164379 (FAVOR) / NCT06381323 — finerenone in PA 後續試驗（招募中 or single-arm）
+26. finerenone in PA 後續試驗（ClinicalTrials.gov，2026-10-15 查詢）：NCT06457074（FAIRY，隨機，2026-04 完成）、NCT06164379（FAVOR，隨機，狀態不明）、NCT05814770（隨機，狀態不明）、NCT06381323（單臂，已完成）
 
 ### 健保條文
 
 - NHIA 公開給付規範：**Eplerenone（2.9.1）**：限對 spironolactone 無法耐受 + post-MI HF / NYHA II 以上 + LVEF ≤30%
 - NHIA 公開給付規範：**Amiloride 單方（2.9.2）**：限 Liddle's syndrome 事前審查（PA 屬 off-label）
 - NHIA 共擬會議文件：**Eplerenone 擴增至 PA**（第 55/79 次議程曾議）
-- NHIA 共擬會議文件：**Finerenone（Kerendia）納入健保審議案（T2D-CKD）**——是否已生效給付以最新版查詢系統為準
-- **Patiromer 台灣狀態未能獨立確認；SZC / Lokelma 有藥品資料但不是 AMBER patiromer 等價替代證據**
+- NHIA 共擬會議文件：**Finerenone（Kerendia）納入健保審議案（T2D-CKD）**——截至 2026-10-15 未納入給付
+- **Patiromer：截至 2026-05 查不到台灣藥證資料；SZC / Lokelma 有藥品資料但不是 AMBER patiromer 等價替代證據**
 - **以最新版健保署支付標準查詢系統與貴院申報指引為準**
 
 ---
 
-> **品質聲明**：本決策備忘錄遵守 (1) 核心 PMID 已逐項核對；仍涉及健保 / 藥品可近性之條目，申報前須以最新版查詢系統與院內藥局為準；(2) Comparator 嚴格區分（Chen 2019 vs EH ≠ Wu 2021 vs MRA direct ≠ Cohen 2023 PA-CKD specific）；(3) Hard endpoint vs surrogate 區分；(4) AMBER 適用紅線（eGFR 25-45）；(5) Finerenone PA off-label flag；(6) Acute eGFR dip 為 hemodynamic unmasking 常見解釋，但 dip >30% 仍需排除可逆因素；(7) Severe CKD 手術立場必標 clinical inference hedge；(8) 作者範圍誠實 — 區域醫院腎臟科可執行 MRA titration / 追蹤 / 轉介手術 / 術後 eGFR 監測，**不執行 adrenalectomy 與 AVS**。
+> **閱讀說明**：(1) 涉及健保 / 藥品可近性的條目，申報前以最新版查詢系統與院內藥局為準；(2) 各研究的比較對象不同（Chen 2019 對照原發性高血壓、Wu 2021 直接對照 MRA、Cohen 2023 為 PA-CKD 專屬 cohort），不可混讀；(3) 區分 hard endpoint 與 surrogate；(4) AMBER 只適用 eGFR 25-45；(5) Finerenone 在 PA 屬 off-label；(6) Acute eGFR dip 常見解釋是 hemodynamic unmasking，但 dip >30% 仍需排除可逆因素；(7) Severe CKD 傾向手術的立場屬臨床推論；(8) 作者執業範圍：區域醫院腎臟科可執行 MRA titration / 追蹤 / 轉介手術 / 術後 eGFR 監測，**不執行 adrenalectomy 與 AVS**。
 
 ---
 

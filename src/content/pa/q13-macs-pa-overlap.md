@@ -27,7 +27,7 @@ quick_answer: "PA 合併 MACS（mild autonomous cortisol secretion）的統合�
 ## Bottom line
 
 - **PA 合併 MACS 並不少見，但不是固定「四分之一」**：2025 cohort 加統合分析的 pooled prevalence 為 **21.9%（95% CI 18.1–26.2）**（PMID 40069399）；台灣 TAIPAI 的 26.4% 是 **65/246**，限於 image–AVS analysis subgroup，不是 65/327，也不代表所有 PA（PMID 37800679）。
-- **誰最該做 DST：PA 合併 adrenal adenoma**：2025 Endocrine Society 建議做 1-mg overnight DST，但屬**弱建議、very-low certainty（2｜⊕○○○）**（PMID 40658480）。adrenal incidentaloma 依 2023 ESE 原則上應做 DST；準備 AVS／adrenalectomy 者也有台灣共識支持。無腺瘤、純藥物治療者則個別化，不寫成所有 PA 絕對必做。
+- **誰最該做 DST：PA 合併 adrenal adenoma**：2025 Endocrine Society 建議做 1-mg overnight DST，但屬**弱建議、very-low certainty（2｜⊕○○○）**（PMID 40658480）。adrenal incidentaloma 依 2023 ESE 原則上應做 DST；準備 AVS／adrenalectomy 者也有台灣共識支持。無腺瘤、純藥物治療者則個別化，並非所有 PA 都絕對必做。
 - **MACS 不等於 AVS 必然失真**：真正要警覺的是 AVS 當下**左右 cortisol 分泌不對稱**。cortisol 與真正 aldosterone-dominant side 同側偏高可壓低 A/C-based 側化指數；偏在對側可放大；若 aldosterone 原本不明顯單側，還可能製造表觀側化。
 - **metanephrine 是補充工具，不是標準替代品**：替代 analyte 最一致的優勢是改善 selectivity；PA–MACS lateralization rescue 以 metanephrine 較直接，但 outcome validation 很少，沒有跨 assay／ACTH protocol 的通用 cutoff。
 - **手術後同時追兩條軸**：aldosterone 的生化／臨床結局，與 cortisol／HPA 恢復分開看。TAIPAI 較低的完全生化治癒率是小型單一 cohort signal（9/14 vs 51/52），不能翻成「開刀只有六成會好」；術前 DST >1.8 µg/dL 且接受手術者，依 ESE 應有圍術期 glucocorticoid 與 HPA 恢復計畫。
@@ -89,7 +89,7 @@ Hung 2023 顯示 image–AVS discordance 75.4%（49/65）vs 56.4%（102/181）�
 
 ### 2.2 術後生化治癒：重要 signal，尚非一般定論
 
-- **Hung 2023**：完全生化治癒 **64.3%（9/14）vs 98.1%（51/52）**；該 cohort 數字已交叉查核，但樣本小、CI 極寬，對一般 PA–MACS 的外推有限。
+- **Hung 2023**：完全生化治癒 **64.3%（9/14）vs 98.1%（51/52）**；樣本小、CI 極寬，對一般 PA–MACS 的外推有限。
 - **Araujo-Castro 2023**：ACS-PA 與 PA-only 的手術生化與臨床治癒率相似，未見顯著差異。
 - **Heinrich 2022、Lamas 2024**：未見 cortisol 共分泌對 PASO／biochemical/clinical response 的一致不利影響。
 
@@ -101,7 +101,7 @@ Hung 2023 顯示 image–AVS discordance 75.4%（49/65）vs 56.4%（102/181）�
 - 2025 ES PA guideline：術後應測 early-morning cortisol，並預備可能的 glucocorticoid 不足期。
 - Heinrich 2019（PMID 31225874）：單中心 unilateral PA adrenalectomy n=100、依該研究 ACTH stimulation protocol，**27% 有術後腎上腺功能不足**（severe 13、moderate 14；1 例 adrenal crisis）；**這不是 MACS-PA 專屬發生率，也不是 27% 都是 severe**。
 
-公開版不寫死 POD1 cortisol、ACTH-test cutoff、固定 hydrocortisone 劑量或 taper 時程；assay、院所 protocol 與個人恢復速度不同，留給內分泌團隊決定。
+本文不列 POD1 cortisol、ACTH-test cutoff、固定 hydrocortisone 劑量或 taper 時程；assay、院所 protocol 與個人恢復速度不同，留給內分泌團隊決定。
 
 ---
 
@@ -115,7 +115,7 @@ Hung 2023 顯示 image–AVS discordance 75.4%（49/65）vs 56.4%（102/181）�
 | **adrenal incidentaloma** | 依 functional work-up 原則做 DST，不因沒有典型 Cushing 外觀而省略；frail、餘命有限可例外 | 2023 ESE；詳 [Q8 — 腎上腺意外瘤](/pa/q08-adrenal-incidentaloma-htn/) |
 | **準備 AVS 或 adrenalectomy** | 低門檻篩 ACS；結果會影響 AVS caveat 與術後 HPA plan | 台灣共識（PMID 37173227） |
 | **HTN、糖尿病、血脂異常、骨質疏鬆等與 cortisol 相關共病新發、惡化、難治或與年齡不相稱** | 若合併 adrenal mass 或過去未完成 cortisol work-up，提高 DST／內分泌重評優先度；共病本身不診斷 MACS | 2023 ESE comorbidity framework；PA-specific 直接證據有限 |
-| **純藥物治療、無腺瘤／不走 AVS 或手術** | 是否檢查取決於結果能否改變共病監測或轉介；不寫成 universal mandate | PA-specific guideline 未明確涵蓋 |
+| **純藥物治療、無腺瘤／不走 AVS 或手術** | 是否檢查取決於結果能否改變共病監測或轉介；不是 universal mandate | PA-specific guideline 未明確涵蓋 |
 
 ### 3.2 實務流程
 

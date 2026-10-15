@@ -29,7 +29,7 @@ quick_answer: "Spironolactone 全給付且仿單明列 PA 適應症，是 PA 第
 
 1. **Spironolactone 全給付且 TFDA 仿單明列 PA 適應症** — 多數 PA 病人的長期治療、AVS 前 wash-out 與症狀控制都靠這個藥。
 2. **Eplerenone 健保不給付 PA**：給付僅限「對 spironolactone 無法耐受之 (a) 心肌梗塞後心衰竭、(b) NYHA II 以上 LVEF≤30% 慢性心衰竭」（藥品給付規定 2.9.1，100/1/1、104/12/1）。**PA 用法 off-label，自費**。
-3. **Finerenone 在原發性醛固酮（PA）的健保與適應症現況**：TFDA 已核可（仿單列 T2D 相關 CKD + LVEF ≥40% 心衰竭兩項適應症），**截至本次查核未確認有正式生效之健保給付條文**（第 79 次共擬會議仍在補資料階段，多家醫院列為自費品項）。**FDA、EMA、TFDA、Endocrine Society 2016/2025、Taiwan 2022/2023 guideline 皆無 PA 適應症**；個人立場是**只要沒有 FDA/TFDA 適應症就不會建議使用**。
+3. **Finerenone 在原發性醛固酮（PA）的健保與適應症現況**：TFDA 已核可（仿單列 T2D 相關 CKD + LVEF ≥40% 心衰竭兩項適應症），**截至 2026-10-15 仍未納入健保給付**（第 70、79 次共擬會議皆未形成納入給付結論，2026 年第 80–84 次未再列入；多家醫院列為自費品項；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)）。**FDA、EMA、TFDA、Endocrine Society 2016/2025、Taiwan 2022/2023 guideline 皆無 PA 適應症**；個人立場是**只要沒有 FDA/TFDA 適應症就不會建議使用**。
 
 實務上重點是：Spironolactone 為第一線；不耐受時告知病人換 eplerenone 需自費；不主動建議 finerenone 治療 PA。
 
@@ -38,7 +38,7 @@ quick_answer: "Spironolactone 全給付且仿單明列 PA 適應症，是 PA 第
 ## 1. 健保現行給付總表
 
 > **📝 表格說明**
-> 「給付狀態」以截至 2026-05-06 為止公開可查證為準。具體健保碼建議申報前以 NHI 支付標準查詢系統（<https://info.nhi.gov.tw/INAE5000/INAE5001S01>）核對。本表不偽造未公開金額。
+> 「給付狀態」以截至 2026-05-06 為止公開可查證為準（finerenone 更新至 2026-10-15）。具體健保碼建議申報前以 NHI 支付標準查詢系統（<https://info.nhi.gov.tw/INAE5000/INAE5001S01>）核對。未公開的金額不列。
 
 ### 檢驗類
 
@@ -77,7 +77,7 @@ quick_answer: "Spironolactone 全給付且仿單明列 PA 適應症，是 PA 第
 |---|---|---|---|
 | **Spironolactone** | **全給付** | TFDA 仿單明列「**原發性醛類脂醇過多症**」 | 衛署藥輸字第 022610 號（Aldactone）等多廠牌 |
 | **Eplerenone (Inspra)** | **限縮給付，PA 不在內** | 藥品給付規定 2.9.1：限對 spironolactone 無法耐受之 (1) post-MI 心衰竭、(2) NYHA II 以上 LVEF≤30% 慢性心衰竭（100/1/1、104/12/1） | 衛署藥輸字第 024306 號 |
-| **Finerenone (Kerendia, 可申達)** | **截至本次查核未確認有正式生效之健保給付條文** | TFDA 仿單列 **(a) T2D 相關 CKD**、**(b) LVEF ≥40% 心衰竭** 兩項適應症；第 79 次共擬會議仍在補資料階段；多家醫院列為自費品項。**對 PA 無任何國家或學會給予適應症**（FDA、EMA、TFDA、Endocrine Society 2016/2025、Taiwan 2022/2023 guideline 皆無）；申報前以最新健保藥品給付規定為準 | 衛部藥輸字第 028326 號 |
+| **Finerenone (Kerendia, 可申達)** | **未給付**（截至 2026-10-15，健保用藥品項查無） | TFDA 仿單列 **(a) T2D 相關 CKD**、**(b) LVEF ≥40% 心衰竭** 兩項適應症；第 70、79 次共擬會議皆未形成納入給付結論，2026 年第 80–84 次未再列入；多家醫院列為自費品項。**對 PA 無任何國家或學會給予適應症**（FDA、EMA、TFDA、Endocrine Society 2016/2025、Taiwan 2022/2023 guideline 皆無）；申報前以最新健保藥品給付規定為準 | 衛部藥輸字第 028326 號 |
 | Amiloride（單方或複方 Moduretic） | 給付 | 109/8/3 列入給付；可作 spironolactone 不耐受時的 K-sparing 替代 | — |
 | Patiromer (Veltassa) | 自費 | 用於 MRA-related 嚴重 hyperkalemia | — |
 | SZC (Lokelma) | 自費 | 高 K 急性處置 | 衛部藥輸字第 028710 號 |
@@ -109,10 +109,10 @@ quick_answer: "Spironolactone 全給付且仿單明列 PA 適應症，是 PA 第
 | **Finerenone (Kerendia, 可申達)** | TFDA 仿單目前列：**(1) 第二型糖尿病相關慢性腎臟病** + **(2) LVEF ≥40% 心衰竭**（兩項獨立適應症） | **否** |
 
 > **❗ 仿單核可 ≠ 健保給付**
-> TFDA 仿單核可只代表「在台灣可合法販售並依適應症處方」，**不等於健保有給付**。截至本次查核：
+> TFDA 仿單核可只代表「在台灣可合法販售並依適應症處方」，**不等於健保有給付**。截至 2026-05-06（finerenone 更新至 2026-10-15）：
 > - **Spironolactone**：仿單列 PA + 健保全給付 → PA 第一線
 > - **Eplerenone**：仿單無 PA + 健保現行條文限心衰竭族群（雖第 55 次會議曾有條件式 PA 擴增提案、未生效） → PA 用為 off-label 自費
-> - **Finerenone**：仿單列 T2D-CKD 與 LVEF ≥40% 心衰竭（**無 PA**） + **尚未確認有正式生效之健保給付條文**
+> - **Finerenone**：仿單列 T2D-CKD 與 LVEF ≥40% 心衰竭（**無 PA**） + **健保未給付**
 >
 > 個人立場：**只要藥物沒有 FDA 或 TFDA 對應適應症，不會建議用於該疾病**。Finerenone 對 PA 既無國際適應症、又無 PA RCT，臨床上不主動建議。
 
@@ -135,13 +135,13 @@ quick_answer: "Spironolactone 全給付且仿單明列 PA 適應症，是 PA 第
 > **❗ 條件式結論 ≠ 已正式生效給付**
 > Eplerenone for PA **曾有共擬提案與條件式結論**（第 55 次會議，原則同意 + 廠商降價條件），**但目前不應視為已正式生效之 PA 健保給付**。實務上開立 eplerenone for PA 仍屬 off-label 自費。
 >
-> 若未來條件達成、2.9.1 條文修訂後新增 PA，本節需更新。建議申報前以最新健保藥品給付規定核對。
+> 若未來條件達成、2.9.1 條文修訂後新增 PA，以修訂後條文為準。申報前請以最新健保藥品給付規定核對。
 
 ### 3.2 Finerenone（Kerendia, 可申達）給付歷程
 
 - TFDA 已核可（衛部藥輸字第 028326 號，10 mg / 20 mg 膜衣錠）；TFDA 仿單目前列：**(a) T2D 相關 CKD**、**(b) LVEF ≥40% 心衰竭**
 - 第 70 次（2024-06-20）、第 79 次共擬會議皆有討論 Bayer 提案將 Kerendia 納入 T2D-CKD 給付，**會議結論仍要求補充國內臨床資料、財務推估模型，並將資料彙整後再提專家諮詢會議**（[第 79 次會議紀錄](https://www.nhi.gov.tw/ch/dl-94547-c4fcb196133340da9d0bb7e4f503135d-1.pdf)）
-- **截至本次查核可見的公開健保會議資料與給付規定**：尚未確認 finerenone 已有正式生效之健保給付條文；多家醫院（如耕莘）公開列為自費品項
+- **2026 年第 80–83 次共擬會議紀錄與第 84 次（2026-10-15）議程皆未再列入**；截至 2026-10-15，健保用藥品項查無 finerenone，仍未給付；多家醫院（如耕莘）公開列為自費品項
 - **PA 未在任何 finerenone 共擬會議提案中提出**
 
 > **📝 語氣保守**
@@ -317,4 +317,4 @@ PA 的健保政策框架自 2010 年代以來變動有限；除前述第 55 次�
 
 ---
 
-> **再次重申（finerenone caveat 第 5 處）**：Finerenone (Kerendia, 可申達) 在 FDA、EMA、TFDA 適應症，及 Endocrine Society 2016/2025、Taiwan Society of Aldosteronism 2017/2021/2022/2023 共識，**皆未列入 PA 治療藥物**。**截至本次查核可見的公開健保會議資料與給付規定，尚未確認 finerenone 已有正式生效之健保給付條文**；臨床使用前仍應以最新健保藥品給付規定與院內藥價系統查詢為準。**個人立場：沒有 FDA 或 TFDA 適應症的藥，不建議用於該疾病**——故 finerenone 不建議用於 PA。**勿與 spironolactone（PA 第一線、全給付、TFDA 仿單明列 PA 適應症）並列建議**。
+> **再次提醒**：Finerenone (Kerendia, 可申達) 在 FDA、EMA、TFDA 適應症，及 Endocrine Society 2016/2025、Taiwan Society of Aldosteronism 2017/2021/2022/2023 共識，**皆未列入 PA 治療藥物**。**截至 2026-10-15，finerenone 仍未納入健保給付**；臨床使用前仍應以最新健保藥品給付規定與院內藥價系統查詢為準。**個人立場：沒有 FDA 或 TFDA 適應症的藥，不建議用於該疾病**——故 finerenone 不建議用於 PA。**勿與 spironolactone（PA 第一線、全給付、TFDA 仿單明列 PA 適應症）並列建議**。

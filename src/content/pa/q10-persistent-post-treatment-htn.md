@@ -124,7 +124,7 @@ flowchart TD
 
 ### 5.3 Finerenone 在 PA — 嚴格保留
 
-> 截至本次查核可見，finerenone 並無 PA 核可適應症（FDA / EMA / TFDA / Endocrine Society / 台灣指引皆無），在 PA 屬 off-label 使用、台灣自費（給付與申報以最新版查詢系統為準）。目前可見的 PA 臨床證據包括：① CONPASS pilot 隨機試驗（Hu J 2025, *Circulation*, PMID 39804908；n=60，血壓與低劑量 spironolactone 相當）；② 實務換藥的反效果訊號（Uslar / Baudrand 2025, *Eur J Endocrinol*, PMID 40378185：被迫由 eplerenone 換為 finerenone 後，血壓正常比例下降、完全生化反應下降、腎素下降）；③ 2026 多中心前瞻單臂 exploratory 研究（Li P 2026, *Hypertension*, PMID 41568520；n=57，12 週日間收縮壓 −6.69 mmHg、完全生化 29.1% / 完全臨床 20.0%）。現有證據不足以取代標準的類固醇型 MRA，也不能與 spironolactone 視為已完成 head-to-head 定論，更不可暗示未來給付。標準 MRA 仍為首選。
+> 截至 2026-07，finerenone 並無 PA 核可適應症（FDA / EMA / TFDA / Endocrine Society / 台灣指引皆無），在 PA 屬 off-label 使用、台灣自費（給付與申報以最新版查詢系統為準）。目前可見的 PA 臨床證據包括：① CONPASS pilot 隨機試驗（Hu J 2025, *Circulation*, PMID 39804908；n=60，血壓與低劑量 spironolactone 相當）；② 實務換藥的反效果訊號（Uslar / Baudrand 2025, *Eur J Endocrinol*, PMID 40378185：被迫由 eplerenone 換為 finerenone 後，血壓正常比例下降、完全生化反應下降、腎素下降）；③ 2026 多中心前瞻單臂 exploratory 研究（Li P 2026, *Hypertension*, PMID 41568520；n=57，12 週日間收縮壓 −6.69 mmHg、完全生化 29.1% / 完全臨床 20.0%）。現有證據不足以取代標準的類固醇型 MRA，也不能與 spironolactone 視為已完成 head-to-head 定論，更不可暗示未來給付。標準 MRA 仍為首選。
 
 ---
 

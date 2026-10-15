@@ -21,7 +21,7 @@ tags:
 > 目前所有 confirmed hypertension 都應被考慮至少一次 **原發性醛固酮（Primary aldosteronism, PA）** 篩檢。若資源無法 universal screening，**最低限度必篩**：resistant HTN、HTN + 自發/利尿劑誘發低血鉀、young-onset HTN <40 歲、adrenal incidentaloma + HTN、HTN + OSA 且有風險增強因子（hypoK / resistant / young / moderate-severe）、HTN + AF 或 cardioembolic stroke、sustained BP >150/100、PA / 早發 HTN/CVA 家族史。抽血前 K⁺ 補到 ≥4.0；2025 ES 採**三層 washout 策略**（no withdrawal / minimal withdrawal / ideal full withdrawal）；多數情境 minimal withdrawal 即可（停 MRA + ENaC inhibitor 4 週）。
 
 > **📝 文件層級分辨**
-> **指引建議（guideline recommendation）** ≠ **臨床實務（clinical practice）** ≠ **政策現況（NHI coverage）**。本文以 2025 Endocrine Society Clinical Practice Guideline (Adler GK et al., JCEM 2025, **PMID 40658480**) 為主軸；2024 ESC、2025 Taipei Positional Paper、2017/2024 TSA 共識為對照。截至本次查核可見（2026-05-08），台灣 NHI 對 PA 篩檢仍要求臨床懷疑佐證；universal screening 為國際指引建議，**未進入台灣健保政策**。
+> **指引建議（guideline recommendation）** ≠ **臨床實務（clinical practice）** ≠ **政策現況（NHI coverage）**。本文以 2025 Endocrine Society Clinical Practice Guideline (Adler GK et al., JCEM 2025, **PMID 40658480**) 為主軸；2024 ESC、2025 Taipei Positional Paper、2017/2024 TSA 共識為對照。截至 2026-05-08，台灣 NHI 對 PA 篩檢仍要求臨床懷疑佐證；universal screening 為國際指引建議，**未進入台灣健保政策**。
 
 ---
 
@@ -68,7 +68,7 @@ tags:
 - **2025 Taipei Positional Paper** (Lin LY et al., J Clin Hypertens 2025, **PMID 40991208**)：主張台灣朝 universal PA screening 靠齊，引述 PA 約佔 all HTN 5-10%、resistant HTN 達 30%、實際篩檢率僅 1-2%
 
 > **⚠️ 對台灣 NHI 政策含義**
-> 截至本次查核可見（2026-05-08），台灣健保對 PA 篩檢仍要求臨床懷疑佐證；universal screening 是**國際指引建議**，**並非台灣健保政策**。Universal screening 在台灣的成本效益**尚未本土評估**。請務必區分「指引推薦」與「健保給付現況」。
+> 截至 2026-05-08，台灣健保對 PA 篩檢仍要求臨床懷疑佐證；universal screening 是**國際指引建議**，**並非台灣健保政策**。Universal screening 在台灣的成本效益**尚未本土評估**。請務必區分「指引推薦」與「健保給付現況」。
 
 ### 2.2 高風險族群（已確認證據）
 
@@ -114,7 +114,7 @@ tags:
 - 男性 + HTN+OSA：13.8%（Heizhati 2023, **PMID 36882631**）；女性 / 輕度 OSA / OSA alone 4.8%（Hu 2025）
 - OSA-PA 共病雙向 OR≈2，但異質性高（Zhang 2024, **PMID 38142557**）
 
-→ **不寫成「所有 OSA+HTN 都要篩」**，而是「HTN + OSA + 風險增強因子應優先篩」
+→ **不是「所有 OSA+HTN 都要篩」**，而是「HTN + OSA + 風險增強因子應優先篩」
 
 ##### A6. HTN + AF / Cardioembolic Stroke / Stroke 後高血壓
 
@@ -128,9 +128,9 @@ tags:
 
 [^1]: PAPPHY 詳細 cohort 結構：411 AF+HTN 篩檢 → 73 unexplained AF+HTN eligible (~18%) → 31/73 PA 診斷 (~42%) → 15/31 APA / surgically curable (48%)。
 
-**寫法紀律**：
-- ❌ 不寫「AF 病人 PA prevalence 42%」（cohort 過於粗略）
-- ✓ 寫：**「在合併高血壓且找不到明確 AF 原因（unexplained AF）的病人中，PAPPHY 顯示 PA 約 42%，其中近半屬可手術治療的 unilateral / APA 型態」**
+**解讀注意**：
+- ❌「AF 病人 PA prevalence 42%」：說得太廣，42% 只適用於下面這個篩選過的族群
+- ✓ 正確說法：**「在合併高血壓且找不到明確 AF 原因（unexplained AF）的病人中，PAPPHY 顯示 PA 約 42%，其中近半屬可手術治療的 unilateral / APA 型態」**
 
 **臨床路徑**：
 - HTN + **unexplained AF**（無結構性心臟病、無甲亢、無其他可解釋原因）→ ARR 不該再拖
@@ -187,7 +187,7 @@ tags:
 #### OSA — HYPNOS 後的後續
 
 - HYPNOS (Buffolo 2019, **PMID 31679423**)：HTN+OSA PA 8.9%；**單純 OSA（無其他指標）僅 1.5%** → 挑戰 2016 ES 將 OSA 列為強指標的立場
-- 後續證據（已驗證 PMID）：
+- 後續證據：
   - Heizhati 2023 (**PMID 36882631**)：HTN+OSA 13.2% vs HTN without OSA 10.0%
   - Hu 2025 (**PMID 40381611**)：HTN+OSA 13.0%、OSA alone 4.8%、**OSA + hypoK 50.0%**
   - Zhang 2023 meta (**PMID 38142557**)：OSA 病人 PA 27%、PA 病人 OSA 46%（雙向 OR≈2）
@@ -309,7 +309,7 @@ flowchart TD
 - HTN + hypokalemia：3.6%
 
 > **⚠️ 數據口徑**
-> 上述為 medRxiv preprint。**截至本次查核可見，已可由 PubMed 檢索到 preprint record（PMID 41292622），但仍不宜視為正式定稿證據**；待正式期刊發表後補入信心等級。
+> 上述為 medRxiv preprint（PubMed 收錄為 preprint record，PMID 41292622）。**截至 2026-05-09 尚未正式期刊發表，不宜視為定稿證據**；正式發表後再評估信心等級。
 
 ### 6.3 在地共識與基礎建設
 
@@ -340,7 +340,7 @@ flowchart TD
 
 ## 7. ARR 申報核刪預防（callout）
 
-> **❗ 截至本次查核可見**
+> **❗ 申報前確認**
 > 台灣 NHI 給付 aldosterone 與 renin 檢測，但需臨床適應症佐證。**實際申報前以最新版健保署支付標準查詢系統與貴院申報指引為準**。
 
 ### 7.1 高頻核刪情境
@@ -416,11 +416,10 @@ flowchart TD
 
 ## 10. Uncertainty / 待補充事項
 
-1. **引用查核**：文獻查找過程中曾出現兩個錯誤 PMID — PMID 8698750（誤標 GRA case series；正確為 PMID 34944634, Cheng 2021 TAIPAI）與 PMID 25340212（為 medRxiv ID 格式、非 PubMed PMID；對應 Tsai CH et al. 2025 medRxiv preprint，已有 PubMed PMID 41292622）；本文均不引用此二筆錯誤編號
-2. **台灣 30-60 萬潛在 PA / 萬餘人已診斷 估算**：分子（治療登錄個案）來自 TAIPAI 與 NHIRD 推估（Tsai CH et al. 2025 medRxiv preprint, PMID 41292622），分母（PA 預期數）為盛行率乘積，**非單一原始研究的精確數字**，僅作衛教用算術
-3. **Universal screening 在台灣的成本效益尚未本土評估**：目前僅日本、澳洲、中國的 cost-effectiveness 資料；不應將「ES 推薦 universal」直接等同「台灣應立即 universal」
-4. **HTN + AF 兩個 cohort 的數字並列**：PAPPHY (PMID 31834121) **unexplained AF + HTN 中 PA ~42%**（嚴格 subset，high-yield phenotype）；Nguyen 2022 (PMID 35518929) 較廣 cohort **HTN + AF 30%、cardioembolic stroke 11%**。本文兩者並列以呈現不同 inclusion 對應的不同臨床情境
-5. **截至 2026-05-09 本次查核**：未見取代 2025 ES 的新 PA-specific guideline；ES 自承每年覆閱
+1. **台灣 30-60 萬潛在 PA / 萬餘人已診斷 估算**：分子（治療登錄個案）來自 TAIPAI 與 NHIRD 推估（Tsai CH et al. 2025 medRxiv preprint, PMID 41292622），分母（PA 預期數）為盛行率乘積，**非單一原始研究的精確數字**，僅作衛教用算術
+2. **Universal screening 在台灣的成本效益尚未本土評估**：目前僅日本、澳洲、中國的 cost-effectiveness 資料；不應將「ES 推薦 universal」直接等同「台灣應立即 universal」
+3. **HTN + AF 兩個 cohort 的數字並列**：PAPPHY (PMID 31834121) **unexplained AF + HTN 中 PA ~42%**（嚴格 subset，high-yield phenotype）；Nguyen 2022 (PMID 35518929) 較廣 cohort **HTN + AF 30%、cardioembolic stroke 11%**。本文兩者並列以呈現不同 inclusion 對應的不同臨床情境
+4. **截至 2026-05-09**：未見取代 2025 ES 的新 PA-specific guideline；ES 自承每年覆閱
 
 ---
 

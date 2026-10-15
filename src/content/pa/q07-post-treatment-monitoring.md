@@ -172,7 +172,7 @@ tags:
 - **Hundemer 2018**（**PMID 29129576**, *Lancet Diab Endocrinol*）：MRA 後 renin 仍 suppressed（PRA <1）者，在 observational cohort 中 CV/死亡風險接近未治療 PA；unsuppressed 者無超額風險。
 - **Katsuragawa 2025 meta**（**PMID 41235994**, *Lancet Diab Endocrinol* 13(12):1041-1053；24 studies/6621 pt）：unsuppressed renin → CV events **HR 0.43**（0.23-0.80, low cert）；**≥5 yr HR 0.33**（0.19-0.57, mod cert）；**renal 無顯著 HR 0.95**（0.51-1.77, very low）；mortality HR 0.29（1 study, low）。多數研究 PRA cutoff **1.0**。作者結論明示：需前瞻研究才能確認「滴定至 renin 正常化可改善臨床結局」。
 
-> **⚠️ hedge — PRA cutoff + 硬終點強度**
+> **⚠️ 證據限制 — PRA cutoff 與硬終點**
 > ① **PRA cutoff 1 vs 2 無 RCT 直接比較**，PAMO 及多數研究用 1.0；PRA ≥1 宜視為常用工作目標、非鐵律，亦非指引固定 target。
 >
 > ② **renin-guided titration 無完成的硬終點 RCT** 證明優於 BP/K⁺ target：唯一直接試驗 **RETAME-PA**（Merabtine 2025, *BMJ Open*, **PMID 41419284**, NCT06108427）為 feasibility RCT（4 加拿大中心、58 人、open-label），**primary endpoint = 12 月達 unsuppressed renin（生化代理，非硬終點）**。機轉支持來自 **PATHWAY-2 mechanisms substudy**（Williams 2018, **PMID 29655877**：plasma renin/ARR 預測 spironolactone 降壓幅度）。Hundemer/Katsuragawa 為 **observational**；**SPAIN-ALDO（PMID 38225508）** suppressed vs unsuppressed renin 兩組 cardiometabolic 結局無差（HR 0.95 [0.52-1.73]），直接削弱「renin target = 改善硬結局」。→ 定性：**renin de-suppression 是現代最佳可用的治療到位 biomarker，但非 outcome-proven、非脫離臨床脈絡的單一硬指標**。
@@ -202,8 +202,8 @@ tags:
 
 ## 9. NHI 給付要點（細節回 [Q11](/pa/q11-taiwan-nhi-coverage/)）
 
-- 治療後監測抽血（K⁺/eGFR/PRA/PAC）之給付要點：**截至本次查核可見**，常規生化（K⁺、Cr/eGFR）為一般給付；PRA/PAC 之健保碼與點數以 [Q11](/pa/q11-taiwan-nhi-coverage/) + 健保署最新支付標準為準。
-- 時效語氣：申報前以最新版查詢系統為準；本文不列具體點數。
+- 治療後監測抽血（K⁺/eGFR/PRA/PAC）之給付要點（2026-07 整理）：常規生化（K⁺、Cr/eGFR）為一般給付；PRA/PAC 之健保碼與點數以 [Q11](/pa/q11-taiwan-nhi-coverage/) + 健保署最新支付標準為準。
+- 申報前以最新版查詢系統為準；本文不列具體點數。
 
 ---
 
@@ -212,9 +212,9 @@ tags:
 | 主張 | 證據強度 | 缺口 |
 |---|---|---|
 | 兩臂監測排程節點 | 依據 expert/label，非 RCT | 無 RCT 比較不同 schedule |
-| eGFR dip 約 5-15 hemodynamic / >30% MAKE-associated risk signal | 一手確認；量化門檻無共識 | 10/20/30% 處置門檻無共識；長期軌跡分層 PA 文獻 GAP |
+| eGFR dip 約 5-15 hemodynamic / >30% MAKE-associated risk signal | 原始研究數據；量化門檻無共識 | 10/20/30% 處置門檻無共識；長期軌跡分層 PA 文獻 GAP |
 | renin de-suppression 為治癒指標 | 機轉明確；結局證據 observational | 無硬終點 RCT（RETAME-PA feasibility）；PRA cutoff 1 vs 2 未定 |
-| PASO 37/47/94、PAMO 52.9/18.3 | 一手確認 | — |
+| PASO 37/47/94、PAMO 52.9/18.3 | 原始研究數據 | — |
 | finerenone 用於 PA | emerging，非標準 | 單臂 57 人 [Li P 2026, PMID 41568520] + pilot RCT，非標準、不入主推薦 |
 
 > **📝 Emerging — finerenone in PA（勿過度延伸）**
