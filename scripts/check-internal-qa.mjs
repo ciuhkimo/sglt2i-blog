@@ -43,11 +43,11 @@ const BLOCK = [
   // 2026-10-15：ckm／finerenone／PA／T04 等清完後由 WARN 升上來；升級時全站 0 命中
   { re: /未能(直接)?核實|無法核實|本次查核|本輪[^。\n]{0,8}核實/, label: '審稿過程語言（未能核實／本次查核）' },
   { re: /經?查核後|本輪(查核|檢索|未完成|實際)|Verification-Needed/i, label: '審稿過程語言（查核後／本輪…）' },
+  { re: /查核修訂|查核版/, label: '內部狀態標籤「查核修訂／查核版」' },
 ];
 
 const WARN = [
   { re: /^status:\s*['"]?(已定稿|草稿|已發布|查核修訂版|已修訂)/, label: 'frontmatter status 內部值（listing 頁會顯示給讀者）' },
-  { re: /查核修訂|查核版/, label: '內部狀態標籤「查核修訂/查核版」（reader-facing，清乾淨後可升 BLOCK）' },
   { re: /待核實/, label: '「待核實」（逐句判斷：reader caveat vs 內部 QA 狀態）' },
   { re: /不宜(寫成|標成|標為|描述成|混列|掛在)/, label: '「不宜寫成X」（多為合法作者 caveat，逐句確認非 bracketed 編輯註）' },
 ];
