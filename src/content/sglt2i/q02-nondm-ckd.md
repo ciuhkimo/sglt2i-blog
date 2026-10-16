@@ -2,9 +2,9 @@
 question_id: Q02
 title: "非糖尿病 CKD 患者是否應使用 SGLT2 inhibitor？"
 category: "啟用決策 (Initiation)"
-version: "v1.7"
+version: "v1.8"
 status: ""
-last_updated: 2026-04-28
+last_updated: 2026-10-16
 next_review: 2026-09-17
 description: "非糖尿病 CKD 是否應使用 SGLT2i？KDIGO 2024 建議 eGFR≥20 且 UACR≥200 或合併心衰竭時啟用。涵蓋 DAPA-CKD、EMPA-KIDNEY 證據、IgA 腎病變亞組分析、臨床啟用流程與台灣實務。"
 seo_title: "非糖尿病 CKD 能用 SGLT2i 嗎？KDIGO 2024 建議與臨床決策"
@@ -83,6 +83,17 @@ SGLT2 inhibitors 最早多被視為 diabetes 藥物，但大型 CKD outcome tria
   - **prolonged fasting、surgery、critical medical illness** 時合理暫停
   - 啟用 SGLT2i **不需要因此改變 CKD 監測頻率**
 
+### KDIGO 2027 CKD 用藥更新（公開審閱草案，2026-10；未定稿）
+
+草案把上面 KDIGO 2024 的 2B（eGFR 20–45 且 UACR <200 mg/g）依 albuminuria 拆成兩條：
+
+- **UACR 30–200 mg/g 且 eGFR 20–45**：**1B**（Recommendation 1.1.1）
+- **UACR <30 mg/g 且 eGFR 20–45**：**2B**（Recommendation 1.1.2）
+- 1A 的兩類：T2D 或 HF（不論 albuminuria）；UACR >200 mg/g 且 eGFR ≥20
+- **Practice Point 1.1.1**：已開始使用者，即使 eGFR 降到 20 以下也繼續使用
+
+UACR <30 這條只有 2B，是因為在無糖尿病、UACR ≤30 的次族群，CKD 進展事件只有 21 vs 17 件（HR 1.15，95% CI 0.59–2.22），草案主要以 eGFR slope 支持，而 eGFR slope 不是這次證據審查的 critical outcome。草案公開意見徵求至 2026-11-04；定稿前，本頁 Bottom Line 仍以 KDIGO 2024 為準。草案逐條重點見 [KDIGO 2027 CKD 用藥草案重點](/blog/kdigo-2027-ckd-medications-draft/)。
+
 ### ESC 2023（HF 情境支持）
 
 較精確的引用名稱應為：
@@ -92,7 +103,7 @@ SGLT2 inhibitors 最早多被視為 diabetes 藥物，但大型 CKD outcome tria
 
 ### Finerenone / GLP-1 RA 的位置
 
-- **Finerenone**：KDIGO 2024 的正式 recommendation 針對的是 **T2D + CKD**，不是一般 non-DM CKD
+- **Finerenone**：KDIGO 2024 的正式 recommendation 針對的是 **T2D + CKD**，不是一般 non-DM CKD；KDIGO 2027 草案新增無糖尿病 CKD 的 finerenone 2B（UACR ≥200 mg/g、已用 RASi 且最好已用 SGLT2i），定稿前仍屬草案，見 [Finerenone Q10](/finerenone/q10-special-populations/)
 - **GLP-1 receptor agonist**：也不是本題 non-DM CKD 啟用 SGLT2i 的核心直接證據
 
 因此若要在本 note 提到 finerenone / GLP-1 RA，應標示為：
@@ -273,6 +284,7 @@ eGFR 20–45 且 UACR <200？
 ### 1) Low-albuminuria non-DM CKD
 - 雖然 KDIGO 2024 已給 2B recommendation
 - EMPA-KIDNEY 也支持不應只因 albuminuria 低就排除治療
+- KDIGO 2027 公開審閱草案把 UACR <30 單獨列為 2B，並說明這一層主要靠 eGFR slope 支持、實際事件太少（見上方 Guideline Position）
 - 但這仍不是與 albuminuric CKD 同等強度的直接證據層級
 - **2025 新增批判性觀點**：NDT 2025 評論（DOI: 10.1093/ndt/gfag009）指出，現有 meta-analyses 可能過度推論 SGLT2i 在**低蛋白尿 + 非糖尿病 + 無心衰竭 + 無 ASCVD** 族群的效益，因為 subgroup analysis 統計力有限、直接 RCT 證據不足。在這些低風險族群使用 SGLT2i 時，應充分告知病人證據的不確定性
 
@@ -331,6 +343,13 @@ eGFR 20–45 且 UACR <200？
 10. **NCT07107945** https://clinicaltrials.gov/study/NCT07107945
 11. **NCT05254002** https://clinicaltrials.gov/study/NCT05254002
 12. **PMC8729835** — DAPA-CKD exclusion criteria
+13. **KDIGO 2027 CKD Guideline Focused Update: Medications Management（public review draft, 2026-10）** https://kdigo.org/wp-content/uploads/2026/10/KDIGO-2027-CKD-Guideline-Focused-Update-Public-Review-Draft.pdf
+
+---
+
+## 更新紀錄
+
+- **2026-10-16**：補 KDIGO 2027 CKD 用藥更新公開審閱草案：KDIGO 2024 的 2B 拆成 UACR 30–200（1B）與 <30（2B），以及無糖尿病 finerenone 2B；Bottom Line 定稿前仍以 KDIGO 2024 為準，本頁其餘內容未重審。
 
 ---
 
@@ -346,3 +365,4 @@ eGFR 20–45 且 UACR <200？
 - [CKM Q08 — Obesity-Related Glomerulopathy](/ckm/q08-obesity-related-glomerulopathy/)
 - [Finerenone Q01 — DKD 啟動時機](/finerenone/q01-dkd-when-to-start/)
 - [CKM Q13 — 新興治療（FIND-CKD 擴展）](/ckm/q13-emerging-therapies/)
+- [KDIGO 2027 CKD 用藥草案重點](/blog/kdigo-2027-ckd-medications-draft/)

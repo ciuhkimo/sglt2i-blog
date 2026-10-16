@@ -2,9 +2,9 @@
 question_id: "Q10"
 title: "Finerenone 於特殊族群的證據邊界與處方指引"
 category: "特殊族群"
-version: "v1.2"
+version: "v1.3"
 status: ""
-last_updated: 2026-06-13
+last_updated: 2026-10-16
 next_review: 2027-06-13
 tags: [finerenone, elderly, frailty, kidney-transplant, dialysis, hepatic-impairment, pregnancy, IgA-nephropathy, non-diabetic-CKD, decision-note]
 description: "Finerenone 在老年（含 ≥75 歲）、frailty、腎臟移植受贈者、dialysis、肝功能不全、懷孕哺乳、兒童及非糖尿病 CKD（含 IgAN）等特殊族群的證據邊界，區分 RCT subgroup、post-hoc 與純外推。"
@@ -85,6 +85,7 @@ FINE-ONE 2026 顯示 UACR surrogate benefit，但目前仍非既有 CKD/T2D indi
 |---|---|---|
 | **FIND-CKD（Heerspink, *NEJM* 2026, PMID 42246672）** | Phase 3 RCT in proteinuric 非糖尿病 CKD（N=1,584） | **已正式發表**——eGFR slope 差 +0.7／年（P<0.001）、composite kidney-or-CV HR 0.77（0.60–0.99）。non-DM CKD 的主要決策 anchor（primary 為 slope surrogate；CV 不單獨宣稱）|
 | **FIND-CKD 腎絲球次組（Neuen, *JAMA* 2026, PMID 42246414）** | prespecified glomerular subgroup（N=903；IgAN 46%／FSGS 24%／MN 10%，亞洲 62%）| slope 差 +0.73；albuminuria −42%；composite（kidney failure 或 ≥40% eGFR↓）HR 0.74（0.57–0.97）。**IgAN/FSGS/MN 的首批 RCT-level supporting evidence；屬 subgroup、非各病因 dedicated RCT** |
+| **KDIGO 2027 CKD 用藥更新（公開審閱草案，2026-10）** | 指引草案，未定稿 | 新增無糖尿病 CKD 建議：eGFR ≥25、血鉀正常、uACR ≥200 mg/g、已用 RASi 且最好已用 SGLT2i，考慮加上 finerenone（2B）；不適用於多囊腎、狼瘡腎炎與 ANCA 相關血管炎。主要依據為 FIND-CKD 的 eGFR slope |
 | **Zhang W et al. 2026 (PMID 42002725)** | 中國浙江單中心、回溯性 PSM cohort | N=28 vs 28（PSM 後）；12 月 ΔUP24 −393 vs +235 mg；Δ eGFR +3.4 vs −6.0。**證據等級遠低於上述 RCT，現以 FIND-CKD 為準** |
 | **個別 case series / mechanistic 推論** | — | 不應作為臨床決策依據 |
 
@@ -126,7 +127,7 @@ Zhang 2026 報告 12 月 ΔeGFR +3.4 vs −6.0 mL/min（差距 **~9.4 mL/min/yr*
 
 #### 台灣實務脈絡
 
-- **健保現行給付：finerenone 僅限 T2D + DKD**；用於 IgAN / 其它非糖 CKD 屬 **off-label + 自費**
+- **健保：截至 2026-10-15，finerenone 尚未納入健保給付**；台灣核准適應症為第二型糖尿病相關 CKD 與心衰竭（LVEF ≥40%），用於 IgAN／其他非糖尿病 CKD 屬 **off-label + 自費**
 - 真要使用須符合：shared decision-making、病歷紀錄理由、患者承擔費用、密切監測 K⁺ 與 eGFR
 - 詳見 [Q11 — 台灣健保與自費考量](/finerenone/q11-taiwan-nhi-coverage/)
 
@@ -137,6 +138,8 @@ Zhang 2026 報告 12 月 ΔeGFR +3.4 vs −6.0 mL/min（差距 **~9.4 mL/min/yr*
 | 非糖尿病 CKD / IgAN 想用 finerenone | **目前不建議作為 routine option**；應優先 RASi + SGLT2i 標準路徑 |
 | 病人/同事問「Zhang 2026 不是有效嗎？」 | 說明這是小型 PSM cohort，不能取代 RCT；現以已發表的 FIND-CKD（NEJM 2026）+ 腎絲球次組（JAMA 2026）為準，PSM 僅 supporting |
 | 想參考使用 | 視為 off-label individualized decision，不是 standard of care |
+
+KDIGO 2027 草案的 2B 與這個立場方向一致：同樣要先用 RASi、最好也已用 SGLT2i，且只限 uACR ≥200 mg/g 的病人；證據是腎功能下降速度變慢，還沒有證明能減少洗腎或死亡。草案公開意見徵求至 2026-11-04，定稿前本頁立場不變。草案逐條重點見 [KDIGO 2027 CKD 用藥草案重點](/blog/kdigo-2027-ckd-medications-draft/)。
 
 ---
 
@@ -210,6 +213,13 @@ Zhang 2026 報告 12 月 ΔeGFR +3.4 vs −6.0 mL/min（差距 **~9.4 mL/min/yr*
   7. NCT06059664 (EFFEKTOR). NCT07356388.
   8. Heerspink HJL, et al. N Engl J Med. 2026. PMID: 41780000.
   9. Zhang W, et al. Finerenone in IgA nephropathy: real-world 12-month propensity-matched cohort. *Ren Fail*. 2026;48(1):2644719. PMID: 42002725.
+  10. KDIGO 2027 CKD Guideline Focused Update: Medications Management. Public review draft, October 2026. https://kdigo.org/wp-content/uploads/2026/10/KDIGO-2027-CKD-Guideline-Focused-Update-Public-Review-Draft.pdf
+
+---
+
+## 更新紀錄
+
+- **2026-10-16**：補 KDIGO 2027 CKD 用藥更新公開審閱草案的無糖尿病 finerenone 建議（2B）；健保敘述更正為「截至 2026-10-15 尚未納入健保給付」，與 [Q11](/finerenone/q11-taiwan-nhi-coverage/) 一致（原寫「僅限 T2D + DKD」）。
 
 ---
 
@@ -218,4 +228,5 @@ Zhang 2026 報告 12 月 ΔeGFR +3.4 vs −6.0 mL/min（差距 **~9.4 mL/min/yr*
 - [eGFR 門檻](/finerenone/q04-egfr-threshold/)
 - [Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)
 - [台灣健保與自費](/finerenone/q11-taiwan-nhi-coverage/)
+- [KDIGO 2027 CKD 用藥草案重點](/blog/kdigo-2027-ckd-medications-draft/)
 - [SGLT2i Q20 — 特殊族群](/sglt2i/q20-special-populations/)

@@ -2,9 +2,9 @@
 question_id: Q02
 title: "GLP-1 RA 在 non-diabetic CKD 是否有腎保護角色？"
 category: "啟用決策 (Initiation)"
-version: "v1.1"
+version: "v1.2"
 status: ""
-last_updated: 2026-04-08
+last_updated: 2026-10-16
 next_review: 2026-10-08
 tags:
   - GLP-1RA
@@ -41,8 +41,10 @@ Non-diabetic CKD 佔 CKD 族群的相當比例，但目前大多數 GLP-1 RA 的
 | Guideline | Year | Recommendation | Strength |
 |-----------|------|---------------|----------|
 | **KDIGO 2024 CKD guideline** | 2024 | GLP-1 RA 正式推薦主要落在 **T2D + CKD**；對 CKD without diabetes 的 GLP-1-based therapies 尚無明確推薦 | — |
-| **KDIGO focused update** | 進行中 | 持續更新中，non-DM CKD 的 GLP-1 RA 定位待明確化 | Draft |
+| **KDIGO 2027 CKD 用藥更新（公開審閱草案）** | 2026-10 | 新增無糖尿病 CKD 建議：合併 ASCVD 且過重或肥胖的成人，考慮使用已證實有心血管或腎臟效益的 GLP-1-based therapy；草案也說明，目前沒有專收無糖尿病 CKD、以心血管與 CKD 終點評估的試驗 | 2B（草案，未定稿） |
 | **ADA 2026** | 2026 | GLP-1 RA 屬有 cardiorenal benefit 的優先 glucose-lowering class，但 CKD 推薦主要在 T2DM 框架下 | A（T2DM 限定） |
+
+KDIGO 2027 草案的對象比本頁所說的「以肥胖為主或心血管代謝風險高」更窄：必須同時有 ASCVD，而且依據是心血管效益（SELECT 的 CKD 子群），不是已證實的腎臟保護。草案公開意見徵求至 2026-11-04，定稿前仍可能修改。草案逐條重點見 [KDIGO 2027 CKD 用藥草案重點](/blog/kdigo-2027-ckd-medications-draft/)。
 
 ---
 
@@ -133,7 +135,7 @@ Non-diabetic CKD 病人評估 GLP-1 RA
 
 ### 待追蹤項目
 
-- KDIGO focused update 正式定稿後對 non-DM CKD 使用 GLP-1 RA 的立場
+- KDIGO 2027 CKD 用藥更新定稿後，無糖尿病 CKD 的 2B 條件是否改變（公開審閱草案的意見徵求至 2026-11-04）
 - 是否有任何 non-DM CKD 專屬的 hard kidney outcome trial 啟動
 - Tirzepatide 腎臟結局數據（TREASURE-CKD 結果公布）
 - SMART 更長期追蹤數據（若有延伸研究）
@@ -146,15 +148,22 @@ Non-diabetic CKD 病人評估 GLP-1 RA
   - Low-to-Moderate：non-diabetic CKD 的 GLP-1 RA 腎保護角色（surrogate endpoint evidence + non-dedicated trial signal）
   - Moderate：obesity-dominant non-DM CKD 使用 GLP-1 RA 的合理性（SMART + SELECT 支持，但非 hard renal outcome）
   - High（負面參考）：FLOW 不可直接外推至 non-DM CKD（FLOW 明確限於 T2DM + CKD）
-- **Evidence Sources**: SMART、SELECT kidney analysis、FLOW（NCT03819153，作為負面外推參考）、KDIGO 2024 CKD guideline、TREASURE-CKD（NCT05536804，進行中）
+- **Evidence Sources**: SMART、SELECT kidney analysis、FLOW（NCT03819153，作為負面外推參考）、KDIGO 2024 CKD guideline、KDIGO 2027 CKD 用藥更新公開審閱草案（2026-10）、TREASURE-CKD（NCT05536804，進行中）
 - **Key References**:
   - SMART trial: semaglutide in non-diabetic CKD with obesity（2024）
   - SELECT kidney analysis: semaglutide in non-diabetic overweight/obesity + CVD（2023）
   - FLOW main trial (PubMed): https://pubmed.ncbi.nlm.nih.gov/38785209/
   - TREASURE-CKD: NCT05536804 (ClinicalTrials.gov)
   - KDIGO 2024 CKD guideline: https://kdigo.org/guidelines/diabetes-ckd/
+  - KDIGO 2027 CKD Guideline Focused Update: Medications Management (public review draft, 2026-10): https://kdigo.org/wp-content/uploads/2026/10/KDIGO-2027-CKD-Guideline-Focused-Update-Public-Review-Draft.pdf
 - **Next Review Date**: 2026-10-08
 - **Clinical Relevance**: ★★★★☆
+
+---
+
+## 更新紀錄
+
+- **2026-10-16**：KDIGO 2027 CKD 用藥更新公開審閱草案（2026-10）新增無糖尿病 CKD 合併 ASCVD 與過重／肥胖的 GLP-1-based therapy 建議（2B），更新指引表與待追蹤項目；本頁其餘內容未重審。
 
 ---
 
@@ -169,3 +178,4 @@ Non-diabetic CKD 病人評估 GLP-1 RA
 
 - [SGLT2i Q02 — Non-DM CKD](/sglt2i/q02-nondm-ckd/)
 - [CKM Q08 — Obesity-Related Glomerulopathy](/ckm/q08-obesity-related-glomerulopathy/)
+- [KDIGO 2027 CKD 用藥草案重點](/blog/kdigo-2027-ckd-medications-draft/)
