@@ -3,7 +3,7 @@ title: "台灣這麼小，偏鄉醫院還需要自己的 CRRT 嗎？在地建置
 description: "偏鄉醫院該不該具備 CRRT（連續性腎臟替代治療）？本文的立場是：有加護病房、收治重症病人的偏鄉醫院應該在地建置，但轉診判斷不能因此放鬆：不為了避開 CRRT 而轉，也不因為有 CRRT 就不轉，轉診原因優先。用一張 2×2 表整理在地、橋接與上轉的分界，並討論導入時院方如何推動並回應第一線的疑慮。"
 category: "Rural Nephrology"
 target_audience: "腎臟科醫師、加護團隊、醫院管理者、衛生政策研究者"
-last_updated: 2026-10-09
+last_updated: 2026-10-16
 tags:
   - 偏鄉醫療
   - rural-nephrology
@@ -31,7 +31,9 @@ spoke_id: rural-nephrology-crrt-access
 
 並不是每位急性腎損傷（AKI）病人都需要腎臟替代治療（KRT），更不是都需要 CRRT。KDIGO 2012 AKI 指引的原則是：出現危及生命的體液、電解質或酸鹼失衡時應緊急啟動 KRT；其他情況則要看整體臨床情境與檢驗趨勢，不能只看單一的 BUN 或肌酸酐數值。[1]
 
-至於選哪一種模式，KDIGO 把連續與間歇治療視為互補，並建議血行動力學不穩定的病人使用 CRRT 而非標準間歇治療（2B）。[1] 但這不代表 CRRT 整體上比較能救命：韓國腎臟醫學會 2025 年的 CKRT 指引整理現有證據後，CRRT 與間歇性血液透析在院內死亡率、ICU 死亡率與住院天數上都沒有顯著差異。[2]
+至於選哪一種模式，KDIGO 把連續與間歇治療視為互補，並建議血行動力學不穩定的病人使用 CRRT 而非標準間歇治療（2B）。[1] 過去的證據看不出兩者的死亡率差異：韓國腎臟醫學會 2025 年的 CKRT 指引整理現有證據後，CRRT 與間歇性血液透析在院內死亡率、ICU 死亡率與住院天數上都沒有顯著差異。[2]
+
+2026 年 10 月發表的 ICRAKI 試驗改變了這個討論。法國 42 個 ICU 的重症 AKI 病人，已有腎臟替代治療適應症、多數正在使用升壓劑或呼吸器，起始用間歇性血液透析的 90 天死亡率高於起始用 CRRT（63.1% vs 53.5%，HR 1.30）。不過主要終點沒有統計差異，試驗也因這個死亡訊號提早終止，差異的幅度可能被高估。[15] 同期社論認為結果仍需確認，並指出真正的問題是如何整合各種模式：依病況選擇、病況改善後轉換，而不是哪一種最好。[16] 比較準確的說法是：對這類病人，重視初始 CRRT 的理由增加了，但還不足以說 CRRT 普遍有存活優勢。詳細解讀見[ICRAKI 試驗：重症 AKI 先用 IHD 還是 CRRT？](/blog/icraki-ihd-vs-crrt-critically-ill-aki/)
 
 所以這篇要談的，其實是一群特定的病人：<strong>需要腎臟替代治療、而且血行動力學不穩定、不適合間歇治療的重症病人。</strong>偏鄉醫院要不要為這群人建立在地能力，就是本文的問題。
 
@@ -49,6 +51,7 @@ spoke_id: rural-nephrology-crrt-access
 1. <strong>「台灣很小」是平均值。</strong>這和[腎臟科人力分布](/rural-nephrology/02-nephrology-workforce-distribution/)那篇的核心論點相同：縣市平均是錯誤的分析單位。東部、山區、離島與半島尖端的醫院，到最近一家能做 CRRT 的醫院，車程、天候與後送資源都是另一回事。
 2. <strong>安大略的研究只看得到「轉得出去」的病人。</strong>它納入的是轉院後 3 天內開始透析的人；不穩到無法轉送、或在轉送前就死亡的病人，這類研究本來就回答不了。加拿大的醫療制度與地理條件也和台灣不同。[7]
 3. <strong>最需要 CRRT 的病人，往往正是最經不起長途轉送的病人。</strong>CRRT 的適用對象是血行動力學不穩定的重症病人，而轉送本身就是風險。
+4. <strong>ICRAKI 讓在地 CRRT 的理由更強，但沒有比較轉院。</strong>這個試驗的參與中心兩種機器都有，比較的是同一家醫院裡起始用間歇性血液透析或 CRRT；「轉院去做 CRRT」和「在地先做間歇性血液透析」哪一個比較好，目前沒有試驗回答。[15]
 
 所以真正的問題不是「要不要轉」，而是「**轉診的理由是什麼**」。
 
@@ -126,6 +129,10 @@ CRRT 的機器操作可以透過訓練掌握，但安全執行仍需要處方、
 - **本文是作者的臨床立場與決策框架**，不是研究證實的標準方案；第 3 節的表格與第 5 節的配套，都需要各院依自身條件調整。
 - 本文未討論台灣的健保給付與緊急醫療能力分級制度。
 
+## 更新紀錄
+
+- **2026-10-16**：第 1 節依 ICRAKI 試驗（NEJM 2026）與同期社論，更新 CRRT 與間歇性血液透析的死亡率證據（原寫「這不代表 CRRT 整體上比較能救命」）；第 2 節補「ICRAKI 沒有比較轉院」。本文立場與第 3 節的 2×2 表不變。
+
 ---
 
 ## 參考資料
@@ -144,5 +151,7 @@ CRRT 的機器操作可以透過訓練掌握，但安全執行仍需要處方、
 12. Young LB, Chan PS, Cram P. Staff acceptance of tele-ICU coverage: a systematic review. *Chest*. 2011;139(2):279–288. PMID 21051386. [全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC3032369/)
 13. Faculty of Intensive Care Medicine, Intensive Care Society. Guidelines for the Provision of Intensive Care Services (GPICS), Version 3. January 2026. §3.8 Renal Support. [PDF](https://ics.ac.uk/static/707a261e-a517-4cd2-83582393de067085/GPICS-V3-2026.pdf)
 14. Intensive Care Society. Guidance On: The Transfer of the Critically Ill Adult, 5th Edition. 2026. §17.1. [PDF](https://ics.ac.uk/static/60aaa368-3687-47f4-ad8f07fc239aed9d/The-Transfer-Of-The-Critically-Ill-Adultedition52026FINALs.pdf)
+15. Gaudry S, et al. Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury (ICRAKI). *N Engl J Med*. Published online October 14, 2026. PMID 42873070. [DOI](https://doi.org/10.1056/NEJMoa2608397)
+16. Palevsky PM. Continuous or Intermittent Renal-Replacement Therapy — What Is the Question? *N Engl J Med*. Published online October 14, 2026 (editorial). PMID 42873071. [DOI](https://doi.org/10.1056/NEJMe2612910)
 
 本文為臨床教育與決策討論用途，不構成醫療建議。個別病人是否啟動腎臟替代治療、選擇何種模式、是否轉診，應由照護團隊依完整病況判斷。
