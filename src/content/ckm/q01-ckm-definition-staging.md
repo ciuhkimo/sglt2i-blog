@@ -2,9 +2,9 @@
 question_id: "Q01"
 title: "CKM Syndrome 定義與分期"
 category: "定義與識別"
-version: "v1.4"
+version: "v1.5"
 status: ""
-last_updated: 2026-09-12
+last_updated: 2026-10-16
 next_review: 2027-04-22
 tags:
   - CKM-syndrome
@@ -99,7 +99,7 @@ AHA 的 **PREVENT** 是 primary prevention 風險工具，不是 CKM 分期本�
 - 提供：**10 年**與**30 年** total CVD risk；同時可估計 ASCVD 與 HF 風險。
 - 與舊 PCE 相比：
   - 將 **eGFR** 納入 risk framework；
-  - 可選擇性加入 **UACR、HbA1c、social deprivation index**；
+  - 可選擇性加入 **UACR、HbA1c、social deprivation index**（HbA1c 加項模型已於 2026-10-14 修正，見 [Q14](/ckm/q14-cv-risk-stratification/)）；
   - **移除 race variable**。
 - 原始發展/驗證研究的 external validation 中，total CVD 的 median C-statistic 約為：
   - **女性 0.794**
@@ -108,7 +108,8 @@ AHA 的 **PREVENT** 是 primary prevention 風險工具，不是 CKM 分期本�
 **PREVENT 的正確用法**
 
 - PREVENT 是 **primary prevention 討論工具**，**不是**「已有臨床 CVD」病人的再分層工具。[9]
-- **dialysis、transplant、既有 clinical CVD、明顯不同於 derivation cohort 的族群**，不宜機械式套用。
+- AHA 明列**不要使用**的族群：已知 CVD、嚴重亞臨床 CVD（如 LVEF <40%、CAC ≥300）、帶致病基因變異或遺傳性心血管疾病、**末期腎臟病（ESKD，含透析）**、預期餘命 <1 年。[9]
+- **腎移植**或明顯不同於 derivation cohort 的族群，也不宜機械式套用。
 - AHA 文件把「high predicted risk by PREVENT」視為 Stage 3 的 risk-equivalent 概念，但**沒有在所有文件中固定成單一數值 cut-off**。
 - 若門診需要一個 **pragmatic threshold** 來觸發更積極處置，可把 **10 年 total CVD risk ≥20%** 視為「高 predicted risk」的操作門檻；但此做法應明確標示為 **implementation choice**，不是 AHA 的唯一硬性分界。[7]
 ### Guideline / Policy Summary
@@ -182,7 +183,7 @@ AHA 的 **PREVENT** 是 primary prevention 風險工具，不是 CKM 分期本�
    CKD 會改變 natriuretic peptide 的基線與解讀方式，固定 cut-off 容易產生偽陽性。[12]
 
 4. **不要把 PREVENT 用在不在其 intended population 的個案上**
-   已有 clinical CVD、dialysis、transplant 或明顯偏離 derivation cohort 的病人，不宜機械式套用 PREVENT。[9]
+   已有 clinical CVD 或 ESKD（含透析）的病人，AHA 明列不要使用 PREVENT；腎移植或明顯偏離 derivation cohort 的病人，也不宜機械式套用。[9]
 
 5. **不要把 CKM stage 當成單獨的用藥指令**
    真正的藥物啟動仍須回到各 disease-specific evidence 與適應症：albuminuria、eGFR、糖尿病、HF phenotype、鉀離子風險、血壓與可近性。
@@ -220,6 +221,12 @@ AHA 的 **PREVENT** 是 primary prevention 風險工具，不是 CKM 分期本�
 - PREVENT 在台灣或更廣泛東亞族群的外部驗證研究
 - CKM stage–guided care pathway 的 prospective study / RCT
 - SGLT2i + nsMRA + GLP-1 RA 等多支柱策略的 hard outcome trials
+
+---
+
+## 更新紀錄
+
+- **2026-10-16**：PREVENT 的不適用族群改依 AHA 官方列表；ESKD（含透析）由「不宜機械式套用」改為 AHA 明列「不要使用」。補註 HbA1c 加項模型已於 2026-10-14 修正（詳見 Q14）。
 
 ---
 

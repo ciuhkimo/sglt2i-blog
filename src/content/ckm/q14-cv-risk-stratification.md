@@ -2,9 +2,9 @@
 question_id: "Q14"
 title: "CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker）"
 category: "風險與預後"
-version: "v1.2"
+version: "v1.3"
 status: ""
-last_updated: 2026-05-12
+last_updated: 2026-10-16
 next_review: 2027-04-22
 tags:
   - CKM-syndrome
@@ -35,7 +35,7 @@ seo_title: "Q14 CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker�
    也因此，**G1A3 / G2A3 在 KDIGO nomenclature figure 是 orange（high risk），不是 red（very high risk）**。真正的 red/very-high risk 典型格子包括 **G3aA3、G3bA2–A3、G4A1–A3、G5A1–A3**。
 
 3. **PREVENT 適合用在尚未進入「明顯高風險分類」的 primary prevention 病人。**
-   PREVENT 的 base model 已納入 **eGFR**，add-on 可再加 **UACR、HbA1c、SDI**；它適用於 **30–79 歲、無已知 CVD** 的族群。
+   PREVENT 的 base model 已納入 **eGFR**，add-on 可再加 **UACR、HbA1c、SDI**；它適用於 **30–79 歲、無已知 CVD** 的族群，AHA 明列 **ESKD 不要使用**。
 
 4. **不要把 very-high-risk CKD 直接等同 secondary prevention。**
    若病人尚無臨床 ASCVD，應理解為 **「需 aggressive primary prevention，且可 bypass calculator」**，但不宜文字上直接當作「已是 secondary prevention」。真正 secondary prevention 仍以 **既有臨床 CVD** 為主。
@@ -154,14 +154,23 @@ KDIGO 2024 也指出，目前和 CKD 較有關的 validated risk tools，重點�
 AHA PREVENT 官方工具與其 development/validation paper 顯示，PREVENT 具下列特徵：
 
 - 適用於 **30–79 歲、無已知 CVD** 的成人
+- AHA 明列**不要使用**的族群：已知 CVD、嚴重亞臨床 CVD（如 LVEF <40%、CAC ≥300）、帶致病基因變異或遺傳性心血管疾病、**末期腎臟病（ESKD）**、預期餘命 <1 年
 - 根據 **>6.5 million** 美國成人資料建立
 - **base model 已納入 eGFR**
-- **optional predictors**：UACR、HbA1c、SDI
+- **optional predictors**：UACR、HbA1c、SDI（HbA1c 加項對有、無糖尿病者各有一個係數）
 - 可估計 **10-year / 30-year total CVD risk**，另有 **ASCVD- / HF-specific models**
 - 為 **race-free** 模型
 - external validation 的 median C-statistics：
   - female: **0.794**
   - male: **0.757**
+
+> **2026-10-14 更新：HbA1c 加項模型修正**
+>
+> AHA 於 2026-10-14 修正 PREVENT 的選填 HbA1c 預測項目。原始發展論文 Table 3 與補充檔中，「無糖尿病」與「有糖尿病」兩列 HbA1c 係數的標題對調，Circulation 已刊出更正（PMID 42872321）。
+>
+> - **影響範圍**：只有含 HbA1c 的加項模型，以及三個選填項目全用的完整模型；base model、UACR 加項與 SDI 加項不受影響。
+> - **影響幅度**：AHA 說明係數調整很小，會跨到另一個風險分級的人，中位數約 0.1%；模型的發展、驗證、整體表現與適用對象都不變。
+> - **實務做法**：自建試算表或院內系統若用過含 HbA1c 的舊版方程，應換成更新版；先前含 HbA1c、又接近決策門檻的估算，可用更新版重算。AHA 明言不應只因這次更正就開始、停止或調整治療。
 
 ### PREVENT 的一個重要臨床轉折
 
@@ -316,13 +325,14 @@ FGF23 在 CKD 與 HF risk 的關聯已有資料，例如 CRIC/相關 cohort 顯�
 
 - **30–79 歲**
 - **無已知 CVD**
+- **非 ESKD**（AHA 明列 ESKD 不要使用）
 - 尚未因 KDIGO / 臨床條件而明顯進入 bypass-calculator 區
 
 建議：
 
 - **至少用 base model**
 - 若有 UACR，**盡量加 UACR**
-- 有 diabetes 時，可視情況加 **HbA1c**
+- 有 HbA1c 數值時可加 **HbA1c**（有、無糖尿病者各有係數，不限糖尿病病人）；請用 2026-10-14 修正後的版本
 
 ### Step 3：用「現代門檻」做 primary prevention 討論
 
@@ -463,6 +473,7 @@ FGF23 在 CKD 與 HF risk 的關聯已有資料，例如 CRIC/相關 cohort 顯�
    - 官方 PDF（KDIGO）
 2. **AHA PREVENT official calculator page**
    - Professional Heart Daily / AHA
+   - PREVENT Equations Update: Frequently Asked Questions（2026-10-14）
 3. **AHA 2023 Cardiovascular-Kidney-Metabolic Health Presidential Advisory**
    - Professional Heart Daily / AHA
 4. **2026 ACC/AHA Guideline on the Management of Dyslipidemia**
@@ -471,6 +482,7 @@ FGF23 在 CKD 與 HF risk 的關聯已有資料，例如 CRIC/相關 cohort 顯�
 ### PubMed
 5. Matsushita K, et al. **Incorporating kidney disease measures into cardiovascular risk prediction**. EClinicalMedicine. 2020. PMID: **33150324**
 6. Khan SS, et al. **Development and Validation of the AHA PREVENT Equations**. Circulation. 2024. PMID: **37947085**
+   - Correction to: Development and Validation of the American Heart Association's PREVENT Equations. Circulation. 2026. PMID: **42872321**
 7. Diao JA, et al. **Projected Changes in Statin and Antihypertensive Therapy Eligibility With the AHA PREVENT Cardiovascular Risk Equations**. JAMA. 2024. PMID: **39073797**
 8. Matsushita K, et al. **Kidney measures beyond traditional risk factors for cardiovascular prediction**. Lancet Diabetes Endocrinol. 2015.
 9. Bansal N, et al. **Upper Reference Limits for hs-cTnT and NT-proBNP in Patients With CKD**. Am J Kidney Dis. 2022. PMID: **34293394**
@@ -485,6 +497,10 @@ FGF23 在 CKD 與 HF risk 的關聯已有資料，例如 CRIC/相關 cohort 顯�
 > 註：ClinicalTrials.gov 主要用於確認文中 landmark trials 的 registry identity 與 study framing；本文的核心演算法仍以 **KDIGO / AHA / ACC 官方文件與 PubMed 研究證據** 為主。
 
 ---
+
+## 更新紀錄
+
+- **2026-10-16**：AHA 於 2026-10-14 修正 PREVENT 的 HbA1c 加項模型（Circulation 更正 PMID 42872321），補上影響範圍、幅度與重算建議；Step 2 的 HbA1c 建議改為不限糖尿病病人；補列 AHA 明列不要使用的族群（含 ESKD）。
 
 ---
 
