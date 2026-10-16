@@ -2,9 +2,9 @@
 question_id: "Q07"
 title: "急性心腎症候群的腎臟科角色（Ward / ICU / 門診 decompensation）"
 category: "心腎交互"
-version: "v1.2"
+version: "v1.3"
 status: ""
-last_updated: 2026-04-30
+last_updated: 2026-10-16
 next_review: 2027-04-30
 tags:
   - CKM-syndrome
@@ -252,6 +252,7 @@ KDIGO 2012 支持在以下情境 **emergent** 啟動 KRT：[3]
 ### modality 選擇
 - **hemodynamically unstable / vasopressor-dependent** → 優先 **CRRT**；SLED 也可作為實務替代
 - **hemodynamically stable** → IHD 可接受
+- **ICRAKI（NEJM 2026）**：已有 KRT 適應症、多數使用 vasopressor 或呼吸器的重症 AKI，起始 IHD 的 90 天死亡率高於起始 CRRT（63.1% vs 53.5%，HR 1.30），支持 unstable 時優先 CRRT；但主要終點無統計差異，試驗因死亡訊號提早終止（差異幅度可能高估），也沒有比較 SLED。未使用 vasopressor 的次族群只有 139 人，穩定病人的證據仍有限。解讀見 [ICRAKI 試驗：重症 AKI 先用 IHD 還是 CRRT？](/blog/icraki-ihd-vs-crrt-critically-ill-aki/)[31]
 - **CRRT anticoagulation** → 若無 citrate contraindication，優先 **regional citrate anticoagulation**。[3]
 
 ---
@@ -417,8 +418,13 @@ KDIGO 2012 支持在以下情境 **emergent** 啟動 KRT：[3]
 28. Wilson BJ, et al. **Diuretic Strategies in Acute Decompensated Heart Failure**. *Am J Kidney Dis*. 2024. PMID: 38204501. / Verbrugge FH, et al. PMID: 31741232.
 29. Sovetova S, et al. **Venous excess ultrasound score is associated with worsening renal function and reduced natriuretic response in patients with acute heart failure**. *J Clin Med*. 2024.
 30. Giangregorio F, et al. **Assessing Venous Congestion in Acute and Chronic Heart Failure**. 2025 review; outcome-driven VExUS thresholds remain unvalidated. / ClinicalTrials.gov: **NCT06714409**.
+31. Gaudry S, et al. **Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury（ICRAKI）**. *N Engl J Med*. 2026（2026-10-14 線上發表）. PMID: 42873070. ClinicalTrials.gov: **NCT06032884**.
 
 ---
+
+## 更新紀錄
+
+- **2026-10-16**：KRT modality 選擇補 ICRAKI 試驗（NEJM 2026）的結果與限制，參考來源加 [31]；其餘內容未重審。
 
 ---
 
