@@ -154,7 +154,7 @@ Non-diabetic CKD 病人評估 GLP-1 RA
   - SELECT kidney analysis: semaglutide in non-diabetic overweight/obesity + CVD（2023）
   - FLOW main trial (PubMed): https://pubmed.ncbi.nlm.nih.gov/38785209/
   - TREASURE-CKD: NCT05536804 (ClinicalTrials.gov)
-  - KDIGO 2024 CKD guideline: https://kdigo.org/guidelines/diabetes-ckd/
+  - KDIGO 2024 CKD guideline: https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf
   - KDIGO 2027 CKD Guideline Focused Update: Medications Management (public review draft, 2026-10): https://kdigo.org/wp-content/uploads/2026/10/KDIGO-2027-CKD-Guideline-Focused-Update-Public-Review-Draft.pdf
 - **Next Review Date**: 2026-10-08
 - **Clinical Relevance**: ★★★★☆
