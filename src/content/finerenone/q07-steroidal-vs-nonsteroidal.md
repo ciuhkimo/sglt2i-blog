@@ -114,5 +114,6 @@ seo_title: "Steroidal vs Nonsteroidal MRA｜Finerenone 選擇時機比較"
 ## 延伸閱讀
 
 - [HF + CKD 角色](/finerenone/q05-hf-ckd-role/)
+- [Finerenone 與傳統 MRA：2026 TriNetX 觀察性比較](/blog/finerenone-vs-steroidal-mra-trinetx/)
 - [Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)
 - [RAASi 劑量調整](/finerenone/q09-raasi-dose-adjustment/)
