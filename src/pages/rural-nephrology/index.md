@@ -57,6 +57,8 @@ seo_title: "偏鄉腎臟照護｜從 CKD 到末期腎病的完整 care continuum
 
 CKD G1-G3a 的篩檢、家醫科共照、用藥監測、心血管風險管理、衛教。這層工作量最大、SEO 最廣，但容易被忽略——很多病人是在進展到 G4 之後才第一次見腎臟科。利用地區醫院醫療可近性的優勢，可以讓一些早期腎臟病以及晚期腎臟病的病人可以有機會接觸到腎臟科，進而得到腎臟保護的相關衛教知識。
 
+> 詳見：[高血壓都該驗 UACR 嗎？2025 AHA/ACC 新建議在偏鄉怎麼落地](/rural-nephrology/04-hypertension-uacr-rural/)
+
 ### 2. CKD5 與透析準備
 
 CKD G4-G5 的 ESKD Life-Plan、modality discussion（HD / PD / transplant / conservative）、瘻管建置時機、轉介路徑安排。這是地區醫院腎臟科的**核心策略價值**——[KDOQI 2019 update](https://pubmed.ncbi.nlm.nih.gov/32778223/) 強調 **ESKD Life-Plan** 與 **eGFR 15-20 / progressive CKD** 啟動通路規劃；偏鄉實務可把「**提早約 6 個月**」當作管路與轉介鏈的安全窗，但**執行端必然在外院**。**在偏鄉，CKD G3b–G4 的重點不是等到 eGFR 進入個位數才開始談透析，而是用 eGFR trend、albuminuria、comorbidity 與 kidney failure risk equation (KFRE) 來決定何時進入密集追蹤、modality education 與通路規劃**。
@@ -150,6 +152,7 @@ Rural Nephrology Hub（本頁）
 ├── ✅ 偏鄉腎臟科醫師到底在做什麼？（已上線）
 ├── ✅ 台灣腎臟科醫師都在哪裡？縣市人力地圖的四個判讀陷阱（已上線）
 ├── ✅ 偏鄉醫院增聘一位專科醫師：腎臟科還是心臟科？（已上線）
+├── ✅ 高血壓都該驗 UACR 嗎？2025 AHA/ACC 新建議在偏鄉怎麼落地（已上線）
 ├── 🔄 偏鄉 HD：哪些能在地處理？哪些一定要轉？（待寫）
 ├── 🔄 AKI 在偏鄉：什麼時候可以觀察？什麼時候不能等？（待寫）
 ├── 🔄 偏鄉 PD：哪些可以在地追蹤？哪些必須回醫學中心？（待寫）
