@@ -2,9 +2,9 @@
 question_id: "Q14"
 title: "CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker）"
 category: "風險與預後"
-version: "v1.3"
+version: "v1.4"
 status: ""
-last_updated: 2026-10-16
+last_updated: 2026-10-23
 next_review: 2027-04-22
 tags:
   - CKM-syndrome
@@ -61,13 +61,14 @@ seo_title: "Q14 CKD 的 CV 風險分層（heat map、PREVENT、CAC、biomarker�
   - borderline: **3% to <5%**
   - intermediate: **5% to <10%**
   - high: **≥10%**
+- **2025 AHA/ACC 高血壓指引也正式採用 PREVENT**：沒有臨床 CVD 的高血壓成人，若有糖尿病、CKD，或 PREVENT 估算的 **10 年總 CVD 風險 ≥7.5%**，平均 SBP **≥130** 即建議開始降壓藥（1/A）。UACR 是 PREVENT 的選填輸入之一，同一份指引也建議所有高血壓成人初診驗 UACR（KDOQI 2026 評論，PMID 42907045）。
 - **hs-cTnT 126 ng/L 與 NT-proBNP 3592 pg/mL 不應寫成通用 CKD 診斷 cutoff。**
   這兩個數字來自 **ambulatory CRIC CKD cohort 的 99th percentile**，可視為 **cohort-derived reference limits / proposed CKD-adapted context values**，不等於急性照護場景的 universal diagnostic threshold。
 
 ### 其他不建議的寫法
 
 - **「A3 一律就是 red / very-high risk」**：不正確（G1A3／G2A3 屬 orange／high risk）。
-- **將 PREVENT 搭配舊 PCE 7.5% 門檻直接使用**：門檻已改用 PREVENT-ASCVD 分級。
+- **降血脂決策時，將 PREVENT 搭配舊 PCE 7.5% 門檻直接使用**：降血脂已改用 PREVENT-ASCVD 分級。降壓藥起始則是 2025 AHA/ACC 高血壓指引另訂的 PREVENT 10 年總 CVD 風險 ≥7.5%（見上），兩者是不同的模型輸出與用途，不能互換。
 - **把單一 exploratory biomarker 寫成 routine tool**：證據不足，決策價值有限。
 
 ---
@@ -428,7 +429,7 @@ FGF23 在 CKD 與 HF risk 的關聯已有資料，例如 CRIC/相關 cohort 顯�
 1. **把 KDIGO heat map 說成 9 格**
 2. **把 G1A3 / G2A3 誤寫成 red / very-high risk**
 3. **把 CKM Stage 3 寫成「所有 very-high-risk CKD」的同義詞**
-4. **PREVENT 分數沿用舊 PCE 7.5% 門檻**
+4. **降血脂決策時，PREVENT 分數沿用舊 PCE 7.5% 門檻**（降壓起始的 PREVENT 總 CVD ≥7.5% 是另一條規則）
 5. **把 red-zone CKD 自動當成 secondary prevention**
 6. **用單一次 hs-cTnT / NT-proBNP 絕對值，在 CKD 直接診斷 ACS / HF**
 7. **在 G4–G5 / dialysis routine 做 CAC 當作標準流程**
@@ -489,10 +490,11 @@ FGF23 在 CKD 與 HF risk 的關聯已有資料，例如 CRIC/相關 cohort 顯�
 10. Tian / CRIC investigators. **Progression of CAC and Clinical Events in CKD**. AJKD. 2024. PMID: **39154888**
 11. Yaqoob K, et al. **Prognostic impact of albuminuria in early-stage CKD on cardiovascular outcomes**. Heart. 2025. PMID: **39837596**
 12. Faul C / Wolf M group. **Fibroblast growth factor-23 and cardiovascular events in CKD**. JASN. PMID: **24158986**
+13. Chang TI, Cluett JL, Cohen DL, et al. **KDOQI Commentary on the 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults**. *Am J Kidney Dis*. 2026;88(5):645-681. **DOI: 10.1053/j.ajkd.2026.07.006**. **PMID: 42907045**. 2025 AHA/ACC 的建議與等級依此評論轉錄。
 
 ### ClinicalTrials.gov（named trial cross-check）
-13. **SHARP** — Study of Heart and Renal Protection. ClinicalTrials.gov ID: **NCT00125593**
-14. **CANTOS** — Cardiovascular Risk Reduction Study. ClinicalTrials.gov ID: **NCT01327846**
+14. **SHARP** — Study of Heart and Renal Protection. ClinicalTrials.gov ID: **NCT00125593**
+15. **CANTOS** — Cardiovascular Risk Reduction Study. ClinicalTrials.gov ID: **NCT01327846**
 
 > 註：ClinicalTrials.gov 主要用於確認文中 landmark trials 的 registry identity 與 study framing；本文的核心演算法仍以 **KDIGO / AHA / ACC 官方文件與 PubMed 研究證據** 為主。
 
@@ -500,6 +502,7 @@ FGF23 在 CKD 與 HF risk 的關聯已有資料，例如 CRIC/相關 cohort 顯�
 
 ## 更新紀錄
 
+- **2026-10-23**：補 2025 AHA/ACC 高血壓指引採用 PREVENT 的降壓起始門檻（10 年總 CVD 風險 ≥7.5%、SBP ≥130），以及所有高血壓成人初診驗 UACR 的建議（依 KDOQI 2026 評論）；「PCE 7.5% 門檻」兩處限定為降血脂情境，避免與降壓門檻混淆。
 - **2026-10-16**：AHA 於 2026-10-14 修正 PREVENT 的 HbA1c 加項模型（Circulation 更正 PMID 42872321），補上影響範圍、幅度與重算建議；Step 2 的 HbA1c 建議改為不限糖尿病病人；補列 AHA 明列不要使用的族群（含 ESKD）。
 
 ---

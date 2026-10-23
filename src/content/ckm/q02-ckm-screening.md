@@ -2,9 +2,9 @@
 question_id: "Q02"
 title: "CKM 篩檢與識別"
 category: "定義與識別"
-version: "v1.3"
+version: "v1.4"
 status: ""
-last_updated: 2026-09-12
+last_updated: 2026-10-23
 next_review: 2027-04-22
 tags:
   - CKM-syndrome
@@ -53,6 +53,7 @@ seo_title: "Q02 CKM 篩檢與識別 | CKM Syndrome 腎臟科臨床決策"
 
 - **AHA 2026 implementation guide** 已明示：CKM staging framework 對幾乎所有 CKD 病人都相關；而且在 CKM stage 2–4，**正確的 kidney function evaluation 是核心工作**。
 - **albuminuria testing 仍被明顯低估**：在 insured US adults with CKD 的研究中，**59% 未接受 albuminuria testing**；在高血壓/糖尿病的大型 EHR 研究中，約 **two-thirds of albuminuria remained undetected because of lack of testing**。
+- **2025 AHA/ACC 高血壓指引**把 **UACR 或 UPCR** 列為所有新診斷高血壓成人的初始檢驗（**COR 1／LOE C-EO，屬專家共識**）。KDOQI 2026 評論指出，這是相較 2017 版最顯著的改變，也是門診流程的大幅轉變：在美國，單純高血壓者接受白蛋白尿篩檢的比例**不到 10%**（PMID 42907045）。
 - 台灣 515,602 人世代顯示 **71.5% 成人符合 CKM**；其中 CKM stage 2 佔 **46.3%**，且相較於無 CKM 成分者，**CVD mortality HR 2.81、incident ESKD HR 10.15**。
 - 2026 年 Nat Rev Nephrol 的 epidemiology review 整合多國資料指出，**stage 2（代謝風險或腎病）是全球最普遍的層級**；CKM 負擔在男性、年長者、社經弱勢與鄉村族群更高，因此 screening 不能只依「臨床表觀風險」，社區與 primary care 場景的 albuminuria + eGFR 取得管道是 implementation 重點（PMID 42098477）。
 - 以 CKD-PC 24 cohorts、637,315 人的 meta-analysis 來看，**albuminuria 與 eGFR 應同時納入 CV 風險分類**；其中 ACR 對 **CV mortality 與 HF** 的 discrimination improvement 特別明顯。
@@ -67,10 +68,10 @@ seo_title: "Q02 CKM 篩檢與識別 | CKM Syndrome 腎臟科臨床決策"
 | 維度 | 必做項目 | Selective / preferred add-on | 實務備註 |
 |------|---------|------------------------------|----------|
 | 體態 | **BMI + 腰圍（WC）** | Waist-to-height ratio | AHA adulthood screening 建議每年量測 BMI 與 WC。亞洲參考 cutoffs 可用 BMI ≥23、WC 男 ≥90 / 女 ≥80 cm，但分期仍需整體判讀。 |
-| 血壓 | **standardized office BP** | home BP / ambulatory BP | KDIGO 2021：成人 high BP + CKD 可考慮以 **SBP <120 mmHg** 為治療目標，但前提是 **standardized office BP** 且可耐受；AHA CKM algorithm 與 ADA diabetes care 常用 **<130/80 mmHg** 作為實務目標。 |
+| 血壓 | **standardized office BP** | home BP / ambulatory BP | KDIGO 2021：成人 high BP + CKD 可考慮以 **SBP <120 mmHg** 為治療目標，但前提是 **standardized office BP** 且可耐受；AHA CKM algorithm 與 ADA diabetes care 常用 **<130/80 mmHg** 作為實務目標。2025 AHA/ACC 高血壓指引：CV 風險較高者 **SBP 至少 <130、鼓勵達到 <120**（1/A）。 |
 | 血糖 | **HbA1c（有糖尿病者）或 FPG** | OGTT / CGM（特定情境） | KDIGO 2022：HbA1c 在 advanced CKD G4–G5、特別是 dialysis 時可靠性下降，但仍是主要 glycemic biomarker。 |
 | 血脂 | **完整 lipid profile** | ApoB / Lp(a)（選擇性） | CKM stage 2 adulthood screening 應系統性評估 metabolic syndrome components。 |
-| 腎臟 | **serum creatinine/eGFR + spot UACR** | **cystatin C（eGFRcr-cys）** | KDIGO 2024：at-risk / CKD 病人應同時做 **GFR + urine albumin measurement**；異常 UACR 或 eGFR 要重複確認；**首晨尿優先**，無法時 random spot 可接受；確認 chronicity 需 **≥3 個月**。 |
+| 腎臟 | **serum creatinine/eGFR + spot UACR** | **cystatin C（eGFRcr-cys）** | KDIGO 2024：at-risk / CKD 病人應同時做 **GFR + urine albumin measurement**；異常 UACR 或 eGFR 要重複確認；**首晨尿優先**，無法時 random spot 可接受；確認 chronicity 需 **≥3 個月**。2025 AHA/ACC：所有高血壓成人初診即驗 **UACR 或 UPCR**（1/C-EO）。 |
 | 心臟 | 非必做 | **NT-proBNP ± echocardiography** | AHA 2026：subclinical HF screening with echo and/or cardiac biomarkers **likely** 可考慮，但 **not yet defined**；故不列為所有腎臟科病人的 mandatory panel。 |
 
 ### 三工具分工
@@ -237,6 +238,7 @@ PREVENT 不適用於已知 CVD 的 secondary prevention；KFRE 也不應外推�
 10. Pieske B, et al. **How to diagnose heart failure with preserved ejection fraction: the HFA-PEFF diagnostic algorithm**. *Eur J Heart Fail*. 2020;22(3):391-412. **DOI: 10.1002/ejhf.1741**. **PMID: 32133741**.
 11. Bayés-Genís A, et al. **Practical algorithms for early diagnosis of heart failure and heart stress using NT-proBNP: A clinical consensus statement from the Heart Failure Association of the ESC**. 2023. **DOI: 10.1002/ejhf.3036**. **PMID: 37712339**.
 12. **Discordance between Cystatin C-Based and Creatinine-Based Estimated Glomerular Filtration Rate and Mortality in the General Population**. *Clin Chem*. 2025. **DOI: 10.1093/clinchem/hvaf063**. **PMID: 40464748**.
+13. Chang TI, Cluett JL, Cohen DL, et al. **KDOQI Commentary on the 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults**. *Am J Kidney Dis*. 2026;88(5):645-681. **DOI: 10.1053/j.ajkd.2026.07.006**. **PMID: 42907045**. 2025 AHA/ACC 的建議與等級依此評論轉錄。
 
 ### ClinicalTrials.gov
 1. **RENAL LIFECYCLE Trial**. ClinicalTrials.gov identifier: **NCT05374291**.
