@@ -2,9 +2,9 @@
 question_id: Q20
 title: "特殊族群是否應持續使用 SGLT2i？（elderly / dialysis / transplant / frailty）"
 category: "整合與特殊族群 (Integration)"
-version: "v1.4"
+version: "v1.5"
 status: ""
-last_updated: 2026-06-19
+last_updated: 2026-10-30
 next_review: 2026-09-17
 seo_title: "SGLT2i 特殊族群：高齡、透析、移植、衰弱患者"
 description: "高齡、透析、腎移植、衰弱患者能否用 SGLT2i？本文整理各特殊族群的 RCT 證據強度、IgAN 最新指引建議、個別化風險效益評估與實務處方考量。"
@@ -124,34 +124,49 @@ tags:
 
 ### 機轉假說
 
-SGLT2i 改善 CKD 貧血的機轉目前仍以假說為主，主流解釋包括：(1) 改善近端小管缺氧、活化 HIF-2α，刺激 peritubular interstitial fibroblast 重新分泌 EPO；(2) 體液容量收縮造成 Hct/Hb 在血清層次「相對」上升；(3) 降低 hepcidin、改善 iron bioavailability；(4) 減少慢性發炎與氧化壓力。這些機轉並非互斥，且 (2) 的血液稀釋效應一直被質疑為早期 Hb/Hct 上升的主要解釋——但長期維持效應（>26 週）很難只用 volume contraction 解釋。
+SGLT2i 使 Hb／Hct 上升的機轉目前仍以假說為主，主流解釋包括：(1) 改善近端小管缺氧、活化 HIF-2α，刺激 peritubular interstitial fibroblast 重新分泌 EPO；(2) 利尿造成血漿容量收縮，Hct／Hb「相對」上升（血液濃縮）；(3) 動用儲存鐵供造血使用（是否經由降低 hepcidin 仍未定：2026 年 JAMA 合併 4 項試驗，hepcidin 下降未達統計顯著）；(4) 減少慢性發炎與氧化壓力。這些機轉並非互斥。血液濃縮可以解釋早期上升；但追蹤超過 2 年的試驗中差距仍持續存在，且 EPO 與紅血球數同步上升，JAMA 作者推測持續的上升可能來自造血增加，而不只是血液濃縮。
 
 ### Meta-analysis 數據
 
-Irvania 2026 Renal Failure 的 systematic review + meta-analysis（PMID 42021630），納入 8 篇研究：
+**Yang 2026 JAMA**（PMID 42925557 / DOI 10.1001/jama.2026.19921）：85 項雙盲 RCT、70,543 人（心血管疾病、糖尿病、心衰竭或 CKD），追蹤中位 24 週，與 placebo 或其他降糖藥比較：
 
-- **Hb MD +4.37 g/L（95% CI 0.71–8.03）≈ +0.44 g/dL**，sensitivity analysis MD +4.11
-- **Hct MD +2.15%（95% CI 1.86–2.44, p<0.00001）**
-- 不良事件 RR 0.77（95% CI 0.59–0.99, p=0.04）
-- 全因死亡 RR 0.67（p=0.02）
-- 心血管事件、生殖泌尿道事件無顯著差異
+- **Hb +0.60 g/dL（95% CI 0.55–0.66；46 項試驗、33,997 人有 Hb 資料）**、**Hct +2.36 個百分點（95% CI 2.19–2.52；74 項試驗）**；證據確定性中等（GRADE）。Hb 數字依摘要；內文 Results 段寫 0.61（0.55–0.67），原文兩處略有出入
+- 異質性高（Hb I² 82%、Hct I² 92%），只部分可由治療時間與劑量解釋；試驗層級的 meta-regression 顯示治療時間越長、組間差距越大（事後模型估計 48 週時 Hb 差 0.71 g/dL，95% CI 0.62–0.80）。這是試驗之間的比較，不代表個別病人的 Hb 會一直往上升
+- EPO +2.11 mIU/mL（95% CI 0.50–3.71）、紅血球數 +0.20 ×10¹²/L（95% CI 0.17–0.22）
+- **ferritin −15 ng/mL（95% CI −22.8 至 −7.4）、TSAT −0.84 個百分點（95% CI −1.21 至 −0.47）**；serum iron、hepcidin 無顯著變化。作者認為這個型態「符合」動用儲存鐵供造血的解釋，而不是循環中的鐵被耗盡（屬推論）；且只有 7.3% 受試者有鐵指標資料
+- CKD 子群：9 項試驗、10,355 人，平均 eGFR 48.9 mL/min/1.73 m²、基線 Hb 13.1 g/dL；Hb 上升幅度在各疾病別之間一致（0.53–0.66 g/dL，交互作用不顯著）
+- 全體基線 Hb 平均 13.6 g/dL：**納入的試驗並非針對貧血病人**，平均值落在非貧血範圍（原文沒有報告貧血者比例）
 
-Hb 的 CI 下界貼近 null（0.71 g/L），Hct 的 CI 較窄、效應一致性較強。整體仍屬「小但一致」的訊號。
+較早的 Irvania 2026（Renal Failure，PMID 42021630）納入 8 篇 dapagliflozin 研究，其中 Hb 定量合併只有 4 篇（4,227 人）：Hb +0.44 g/dL（95% CI 0.07–0.80，I² 100%），方向一致但規模小、CI 寬；本段以上述大型分析為主要依據。
 
-### 與 DAPA-CKD / EMPA-KIDNEY Hb sub-analysis 對照
+### 與 DAPA-CKD、CREDENCE 貧血分析對照
 
-DAPA-CKD 的 post-hoc Hb / hematocrit 分析顯示 dapagliflozin 組相較 placebo 有持續性 Hb 上升，且新發或惡化貧血事件較少。EMPA-KIDNEY 的 anemia secondary analysis 也報告類似方向——empagliflozin 組需要 anemia 相關治療（ESA、輸血、iron）的比例較低。三個證據來源（DAPA-CKD post-hoc、EMPA-KIDNEY secondary、本次 meta-analysis）方向一致，但都不是 dedicated anemia-endpoint 的 pre-specified primary outcome。本質上是 hypothesis-generating signal，不是 confirmatory evidence。
+- **DAPA-CKD**（Koshino 2023 NEJM Evidence，PMID 38320128）：追蹤中位 2.4 年，dapagliflozin 組 Hct 比 placebo 多升 2.3 個百分點（95% CI 2.1–2.5）。貧血以 Hct 定義（男 <39%、女 <36%），矯正或新發都要連續兩次越過門檻：基線貧血者的貧血矯正率 53.3% vs 29.4%（HR 2.29，95% CI 1.96–2.68），基線無貧血者新發貧血 10.4% vs 23.7%（HR 0.39，95% CI 0.31–0.48）
+- **CREDENCE**（Oshima 2020 Lancet Diabetes Endocrinol，PMID 33065060）：canagliflozin 組 Hb 高 0.71 g/dL（95% CI 0.64–0.78）；「貧血事件或開始貧血治療」複合結果 HR 0.65（95% CI 0.55–0.77），其中開始使用 ESA 的 HR 0.65（95% CI 0.46–0.91）
+
+三者方向一致。Hb／Hct 上升本身有 RCT 證據支持；但兩個試驗分析都是事後分析，meta-analysis 則只看生化指標，沒有一項是以貧血為主要終點設計的。因此「SGLT2i 可改善 CKD 貧血、減少貧血治療需求」仍屬 hypothesis-generating，不是 confirmatory evidence。
 
 ### 臨床 implication
 
-1. **合併貧血的 CKD 病人啟動 SGLT2i 後，預期可見 Hb/Hct 小幅上升**，不需解讀為「ESA 反應變好」或「iron status 改善」，可能是 SGLT2i 本身的訊號。
-2. **抽血週期**：first 3 months 若同時使用 ESA，沿既有 monthly Hb 週期追蹤即可，不需特別加開抽血。
-3. **ESA 劑量**：目前無 prospective data 支持因 SGLT2i 而 preemptively 減 ESA。若 Hb 走向上緣（>11.5–12 g/dL，視 KDIGO / Taiwan NHI 目標），再依既有原則調整。
-4. **對於沒有腎臟科專科常駐的地區醫院或診所**，這個訊號的實務意義不是「換藥」，而是「在合併貧血的 CKD 病人，SGLT2i 的啟動門檻可以更低一些」——對 PCP 共同照護場景尤其有用。
+1. **啟動 SGLT2i 後，Hb 可能小升**：與對照組相比，平均差約 0.6 g/dL、Hct 約 2–3 個百分點（這是群體平均，個人變化不一）。不要直接解讀為「ESA 反應變好」，也不能憑一次上升就判定貧血原因已解決；Hb 上升本身也不能用來診斷或排除容量不足（容量評估見 [Q06](/sglt2i/q06-volume-status-assessment/)）。
+2. **ferritin／TSAT 可能小幅下降**（平均 ferritin 約 −15 ng/mL、TSAT 不到 1 個百分點）。這是群體平均，不能保證個人沒有缺鐵：判讀仍看 ferritin／TSAT 的絕對值與臨床情境，若達缺鐵範圍或 Hb 不升反降，依 CKD 貧血流程評估缺鐵與出血，不要歸因於藥物。
+3. **抽血週期**：已在 ESA 穩定維持期的病人，加上 SGLT2i 後沿原本的 Hb 追蹤週期即可。若 ESA 剛啟動或剛調整劑量，依 KDIGO 2026 每 2–4 週追 Hb，避免期間上升超過 1 g/dL。這是依指引整理的實務做法，目前沒有專為「啟動 SGLT2i 後」設計的監測研究。
+4. **ESA 劑量**：尚無足夠前瞻性試驗支持因 SGLT2i 而例行預先減 ESA，依個別 Hb 目標與上升速度調整即可。KDIGO 2026 建議接受 ESA 的成人 CKD 病人，Hb 目標 **<11.5 g/dL**（Recommendation 3.3.1）。作為對照，JAMA 作者引用的文獻中 ESA 可使 Hct 上升約 5–11 個百分點，SGLT2i 約 2.4（跨研究對照，不是直接比較），**不能取代 ESA 或鐵劑**。
+5. **對於沒有腎臟科專科常駐的地區醫院或診所**，這個訊號的實務意義是「看懂抽血變化」，不是「換藥」，也不是放寬啟動條件：SGLT2i 仍依腎臟、心臟適應症啟動，Hb 小升是可預期的藥理效應，不是為了治療貧血而開立的理由。
+6. **基線 Hb／Hct 已偏高者（紅血球增多）**：JAMA 作者在討論中提醒，這類病人 Hb／Hct 再上升，可能伴隨較多血栓栓塞事件，並引兩篇研究：
+   - 北歐約 150 萬名捐血者的世代研究（Hultcrantz 2020 Thromb Res，PMID 31927271）：Hb 越高，心肌梗塞與缺血性中風風險越高（男性 Hb ≥17.5 g/dL 的心肌梗塞 HR 3.52，95% CI 2.85–4.36）。但這是一般捐血者的觀察性資料，與 SGLT2i 無關；改用每人與自己比較時，與心肌梗塞的關聯減弱但仍顯著。
+   - CANVAS 與 CREDENCE 的合併事後分析（Doi 2025 Blood Adv，PMID 40239057）：canagliflozin 整體不改變心肌梗塞、中風與血栓栓塞的複合風險；1 年時符合紅血球增多定義的比例，男性 16.9% vs 5.5%。男性中，基線 Hct 會改變藥效方向：貧血者傾向獲益，基線已紅血球增多（Hct >49%）者傾向有害，主要來自心肌梗塞，但這個亞群的心肌梗塞 HR 1.77（95% CI 0.76–4.13）未達統計顯著。女性未觀察到這種差異，但紅血球增多的女性人數少，作者自承檢定力不足。作者據此建議：糖尿病合併紅血球增多者，可優先考慮同樣受指引推薦的 GLP-1RA；同時表示目前沒有明確理由只因紅血球增多就停用 SGLT2i，需要進一步研究。
+
+   **證據有限**：JAMA 這篇沒有分析血栓事件；支持這個提醒的只有一篇單一藥物的探索性事後次族群分析（未做多重比較校正，個別風險估計未達顯著），加上一篇與用藥無關的觀察性研究，沒有前瞻性研究。我們的判讀：已有紅血球增多的糖尿病病人，選藥時可把這點納入考量；但這個訊號還不足以成為常規處方規則，也不構成停藥理由。
 
 ### 限制
 
-Meta-analysis 異質性偏高（Hb CI 寬，下界貼近 null）；多數研究的 anemia outcome 為 secondary 或 post-hoc；dapagliflozin 為主，其他 SGLT2i 在 CKD 族群的 anemia data 較有限；缺乏專門以 CKD anemia 為 primary endpoint 設計的 SGLT2i RCT。**不能把訊號外推到 ESRD / 透析族群**（多數 RCT 排除此族群）。
+- 異質性高（Hb I² 82%、Hct I² 92%），只部分可由治療時間與劑量解釋
+- 納入的試驗並非針對貧血病人（基線 Hb 平均 13.6 g/dL；CKD 子群 13.1），不能直接當成「SGLT2i 治療 CKD 貧血」的證據
+- 鐵指標只有 7.3% 受試者有資料；沒有測量紅血球總量（Cr-51 標記），無法完全區分血液濃縮與真正的紅血球增加
+- 只有生化指標，沒有臨床結果，也沒有個別病人層級分析
+- 本段引用的證據都不是以 CKD 貧血為主要終點設計的試驗
+- **不能把訊號外推到透析族群**：CKD 子群平均 eGFR 約 49，主要 RCT 排除透析病人
 
 ### 健保誠實標註
 

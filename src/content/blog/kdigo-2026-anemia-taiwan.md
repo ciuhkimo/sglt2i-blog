@@ -1,9 +1,9 @@
 ---
 title: "KDIGO 2026 貧血指南：透析單位可立刻採用的 8 件事 + 台灣實務"
-description: "KDIGO 2026 Anemia in CKD Guideline 完整解讀：ESA / 鐵管理 / HIF-PHi（roxadustat、daprodustat、vadadustat）三 agent 安全 profile / PIVOTAL 評估 / 台灣 NHI 給付 / 2021 年報達標率 / 真實 HD 中心 IFS protocol。整合 4 平台 Deep Research + Consensus 4 題 + ERBP commentary。"
+description: "KDIGO 2026 Anemia in CKD Guideline 完整解讀：ESA / 鐵管理 / HIF-PHi（roxadustat、daprodustat、vadadustat）三 agent 安全 profile / PIVOTAL 評估 / 台灣 NHI 給付 / 2021 年報達標率 / 真實 HD 中心 IFS protocol，並對照 ERBP commentary。"
 category: "腎臟科血液透析併發症"
 target_audience: "腎臟科醫師、透析中心護理師、內科醫師"
-last_updated: 2026-05-12
+last_updated: 2026-10-30
 tags: [貧血, anemia, KDIGO, KDIGO-2026, ESA, HIF-PHi, roxadustat, daprodustat, vadadustat, PIVOTAL, IV-iron, ferritin, TSAT, 血液透析, HD, ERBP, 健保, 台灣, 透析貧血]
 seo_title: "KDIGO 2026 貧血指南解讀：透析單位 8 件事 + 台灣 NHI 實務"
 ---
@@ -207,16 +207,16 @@ ASCEND-D analysis（Hedayati 2024）：MACE 風險的增加可由 **age + prior 
 
 ### SGLT2i 與貧血的關係（次要 signal）
 
-近年陸續有研究觀察到，SGLT2 抑制劑（如 dapagliflozin、empagliflozin）在 CKD 病人身上有改善 Hb 與 Hct 的傾向。2026 年 Renal Failure 一篇 systematic review + meta-analysis（PMID 42021630）綜合 8 篇研究後得到一致方向的結果，但效應幅度不大（**Hb 約 +0.4 g/dL；Hct +2.15%**）。
+近年陸續有研究觀察到，SGLT2 抑制劑（如 dapagliflozin、empagliflozin）會讓 Hb 與 Hct 小幅上升。2026 年 JAMA 一篇 meta-analysis（85 項雙盲 RCT、70,543 人，PMID 42925557）顯示與對照組相比 **Hb 平均高約 0.6 g/dL、Hct 高 2.36 個百分點**；作者認為幅度小、臨床意義不明，且納入的試驗並非針對貧血病人。
 
 幾點 framing 要清楚：
 
 - **SGLT2i 不是貧血治療藥**，沒有取代 ESA、HIF stabilizer、鐵劑的角色；健保也沒有以「貧血」為適應症給付 SGLT2i。
-- 可能機轉是改善近端小管缺氧、活化 HIF-2α 刺激 EPO 分泌，但目前仍屬假說；血液稀釋效應也是部分解釋。
+- 可能機轉是改善近端小管缺氧、活化 HIF-2α 刺激 EPO 分泌，但目前仍屬假說；利尿造成的血液濃縮也是部分解釋。
 - **不能外推到 ESRD / 透析族群**（多數納入 RCT 排除此族群）。
 - 對病人而言：若同時使用 SGLT2i 做糖尿病或腎臟保護治療，Hb 可能比預期稍穩定一些，但這**不能取代規律的貧血追蹤與 ESA / 鐵劑治療**。
 
-詳細的證據強度、機轉假說、與 DAPA-CKD / EMPA-KIDNEY sub-analysis 的對照、健保給付限制，請參考 [SGLT2i 特殊族群決策（q20 — SGLT2i 對 CKD 貧血的影響）](/sglt2i/q20-special-populations/#sglt2i-對-ckd-貧血的影響次要-signal)。
+詳細的證據強度、機轉假說、與 DAPA-CKD / CREDENCE 事後分析的對照、鐵指標變化、健保給付限制，請參考 [SGLT2i 特殊族群決策（q20 — SGLT2i 對 CKD 貧血的影響）](/sglt2i/q20-special-populations/#sglt2i-對-ckd-貧血的影響次要-signal)。
 
 ---
 
