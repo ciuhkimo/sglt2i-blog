@@ -2,10 +2,10 @@
 question_id: T05
 title: "女性腎友的月經、性慾與懷孕：洗腎後身體的變化與可以做的事"
 category: "病人衛教 (Patient Education)"
-version: v1.0
+version: v1.1
 status: ""
-last_updated: 2026-04-14
-next_review: 2026-10-14
+last_updated: 2026-10-31
+next_review: 2027-04-30
 tags:
   - 腎友與性
   - PED
@@ -54,7 +54,7 @@ schema: FAQPage, MedicalWebPage
 
 對很多腎友來說，**黃體素類方法**（例如黃體素子宮內系統、皮下植入劑、迷你丸）是常見而實用的選擇。英國腎臟與妊娠指引認為黃體素迷你丸、黃體素皮下植入劑、黃體素子宮內系統對 CKD 女性是安全有效的；CDC 2024 避孕指引也顯示，對血液透析女性，銅 IUD 與黃體素 IUD 一般都可考慮。[^7][^10][^11]
 
-但如果你是**腹膜透析**，IUD 不是絕對不能用，而是建議在放置前先跟腎臟科和婦產科一起評估，因為現有文獻雖然不多，但有少數腹膜炎、骨盆感染或局部反應的個案報告。另一方面，**含雌激素**的避孕藥、貼片或陰道環，在血液透析或腹膜透析患者通常較不理想，因為會再增加血栓風險。[^11][^12]
+但如果你是**腹膜透析**，IUD 不是絕對不能用，而是建議在放置前先跟腎臟科和婦產科一起評估，因為現有文獻雖然不多，但有少數腹膜炎、骨盆感染或局部反應的個案報告。另一方面，**含雌激素**的避孕藥、貼片或陰道環，美國 CDC 2024 避孕指引列為血液透析與腹膜透析患者**不應使用**，因為會再增加血栓風險。[^11][^12]
 
 另外要記得：**保險套很重要，但它主要也在保護性傳染病。** 如果你的主要目標是「穩定避孕」，長效可逆避孕（例如 IUD、植入劑）常常更可靠；實際怎麼選，還是要看你是血液透析、腹膜透析、移植後、是否有高血壓、蛋白尿、血栓風險等條件。[^10][^11]
 
@@ -67,7 +67,7 @@ schema: FAQPage, MedicalWebPage
 - 評估是否需要先調整透析處方或先考慮移植後再備孕
 - 建立腎臟科 + 高風險產科的共同照護計畫
 
-尤其是如果你正在使用 **mycophenolate mofetil (MMF)、methotrexate、cyclophosphamide** 等藥物，或正在使用 **ACEi / ARB** 類藥物，更不能等到懷孕後才處理；應該在停避孕前就先和醫師談好換藥與追蹤計畫。**不要自行停藥，也不要自己先試著懷孕。**[^7][^13]
+尤其是如果你正在使用 **mycophenolate mofetil (MMF)、methotrexate、cyclophosphamide** 等藥物，或正在使用 **ACEi / ARB** 類藥物，更不能等到懷孕後才處理；應該在停避孕前就先和醫師談好換藥與追蹤計畫。**不要自行停藥，也不要自己先試著懷孕。**[^7]
 
 ## 常見疑慮
 
@@ -142,17 +142,16 @@ schema: FAQPage, MedicalWebPage
 ### PubMed / 文獻
 - [^2]: Chang DH, Dumanski SM, Ahmed SB. *Female Reproductive and Gynecologic Considerations in Chronic Kidney Disease: Adolescence and Young Adulthood*. Kidney Int Rep. 2022;7(2):152-164. PMID: 35155855. https://pubmed.ncbi.nlm.nih.gov/35155855/
 - [^3]: Mahmoud T, Borgi L. *The Interplay Between Nutrition, Metabolic, and Endocrine Disorders in Chronic Kidney Disease*. Semin Nephrol. 2021;41(2):180-188. PMID: 34140096. https://pubmed.ncbi.nlm.nih.gov/34140096/
-- [^4]: Kaminski P, Szpotanska-Sikorska M, Wielgos M. *Gynecological issues after organ transplantation*. Neuro Endocrinol Lett. 2008. PMID: 19112398. https://pubmed.ncbi.nlm.nih.gov/19112398/
-- [^5]: Pyrgidis N, Mykoniatis I, Drosos E, et al. *Sexual Dysfunction in Women With End-Stage Renal Disease: A Systematic Review and Meta-Analysis*. Sex Med Rev. 2021. PMID: 33903042. https://pubmed.ncbi.nlm.nih.gov/33903042/
+- [^4]: Kaminski P, Bobrowska K, Pietrzak B, Bablok L, Wielgos M. *Gynecological issues after organ transplantation*. Neuro Endocrinol Lett. 2008;29(6):852-856. PMID: 19112398. https://pubmed.ncbi.nlm.nih.gov/19112398/
+- [^5]: Pyrgidis N, Mykoniatis I, Tishukov M, et al. *Sexual Dysfunction in Women With End-Stage Renal Disease: A Systematic Review and Meta-Analysis*. J Sex Med. 2021;18(5):936-945. PMID: 33903042. https://pubmed.ncbi.nlm.nih.gov/33903042/
 - [^6]: Oliverio AL, Hladunewich MA. *End-Stage Kidney Disease and Dialysis in Pregnancy*. Adv Chronic Kidney Dis. 2020. PMID: 33328064. https://pubmed.ncbi.nlm.nih.gov/33328064/
-- [^13]: Ahmed SB, Bentley-Lewis R, Hollenberg NK, et al. Relevant medication and reproductive health recommendations summarized in UK Kidney Association pregnancy guideline and CKD reproductive health reviews.
-- [^14]: Haninger-Vacariu N, et al. *Exclusion of pregnancy in dialysis patients: diagnostic performance of human chorionic gonadotropin*. BMC Nephrol. 2020;21:46. PMID/PMC via PubMed Central; see also Schwarz A, et al. *Value of human chorionic gonadotropin measurements in the diagnosis of pregnancy in women on hemodialysis*. PMID: 2580246; Fahy BG, et al. *Pregnancy tests with end-stage renal disease*. PMID: 19100935.
+- [^14]: Haninger-Vacariu N, et al. *Exclusion of pregnancy in dialysis patients: diagnostic performance of human chorionic gonadotropin*. BMC Nephrol. 2020;21(1):70. PMID: 32111190. https://pubmed.ncbi.nlm.nih.gov/32111190/ ; see also Schwarz A, et al. *Value of human chorionic gonadotropin measurements in blood as a pregnancy test in women on maintenance hemodialysis*. Nephron. 1985;39(4):341-343. PMID: 2580246; Fahy BG, et al. *Pregnancy tests with end-stage renal disease*. J Clin Anesth. 2008;20(8):609-613. PMID: 19100935.
 
-### ClinicalTrials.gov（查核備註）
+### ClinicalTrials.gov 註冊研究
 - [^15]: ClinicalTrials.gov. *Pregnancy and Contraception Education in Chronic Kidney Disease* (NCT06189807). https://clinicaltrials.gov/study/NCT06189807
 - [^16]: ClinicalTrials.gov. *Female Sexual Dysfunctions in Chronic Kidney Disease* (NCT03485261). https://clinicaltrials.gov/study/NCT03485261
 
-> **查核備註**：ClinicalTrials.gov 目前可見與此主題直接相關的研究，多屬衛教、觀察性或症狀評估研究，尚未比現行指引提供更高等級、足以改變核心衛教建議的隨機對照證據。[^15][^16]
+> **備註**：ClinicalTrials.gov 目前可見與此主題直接相關的研究，多屬衛教、觀察性或症狀評估研究，尚未比現行指引提供更高等級、足以改變核心衛教建議的隨機對照證據。[^15][^16]
 
 ---
 

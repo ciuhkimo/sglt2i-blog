@@ -2,10 +2,10 @@
 question_id: T01
 title: "洗腎後還能有性生活嗎？勃起、性慾與月經怎麼辦"
 category: "病人衛教 (Patient Education)"
-version: v1.1
+version: v1.2
 status: ""
-last_updated: 2026-05-20
-next_review: 2026-10-14
+last_updated: 2026-10-31
+next_review: 2027-04-30
 tags:
   - 腎友與性
   - PED
@@ -33,7 +33,7 @@ schema: FAQPage, MedicalWebPage
 
 麻煩的是，這個話題在腎臟科門診常常沒有被主動談起。近年的腎臟科調查顯示，多數受訪醫師表示自己很少或從不主動討論 sexual dysfunction（性功能障礙）這個主題。[^6] 所以，如果你的醫師沒有先問，不代表這件事不重要；很多時候只是這個主題一直被臨床忽略。
 
-為什麼要正視？因為性健康不只是「性生活」而已。研究顯示，透析病人的性功能問題與較差的生活品質、較高的憂鬱症狀以及關係壓力有關。[^7][^8][^9] 這件事和你怎麼看待自己、和伴侶的連結、以及整體生活狀態都有關。
+為什麼要正視？因為性健康不只是「性生活」而已。研究顯示，透析病人的性功能問題與較差的生活品質、較高的憂鬱症狀以及關係壓力有關。[^1][^7][^8][^9] 這件事和你怎麼看待自己、和伴侶的連結、以及整體生活狀態都有關。
 
 好消息是：很多情況不是沒有辦法。National Kidney Foundation 提醒，常見可評估與處理的方向包括檢視藥物副作用、評估荷爾蒙與血糖、處理情緒因素、女性使用水性潤滑劑減少疼痛，以及在適當評估後使用藥物治療。[^1] 對部分男性來說，像 sildenafil 這類 PDE5 inhibitor 已有透析族群的臨床研究與註冊試驗資料，但是否適合你，仍必須先由醫師評估心血管狀況與目前用藥。[^10][^11][^12]
 
@@ -114,8 +114,8 @@ schema: FAQPage, MedicalWebPage
 [^6]: Semaska N, et al. *Nephrology Survey on Reproductive Health and Kidney Disease*. Kidney Int Rep. 2025. PubMed PMID: 41624449. 受訪者多表示很少或從不主動討論 sexual dysfunction。<https://pubmed.ncbi.nlm.nih.gov/41624449/>
 [^7]: Santos PR, et al. *Quality of life among women with sexual dysfunction undergoing hemodialysis: a cross-sectional observational study*. Health Qual Life Outcomes. 2012. PubMed PMID: 22937965. Sexual dysfunction 與較差 QoL 有關。<https://pubmed.ncbi.nlm.nih.gov/22937965/>
 [^8]: Santos PR, et al. *Sexual dysfunction predicts depression among women on hemodialysis*. Int Urol Nephrol. 2013. PubMed PMID: 23700108. Sexual dysfunction 與 depression 關聯顯著。<https://pubmed.ncbi.nlm.nih.gov/23700108/>
-[^9]: Balaban OD, et al. *Psychiatric Comorbidity, Sexual Dysfunction, and Quality of Life in Patients with Chronic Kidney Disease*. Noro Psikiyatr Ars. 2017. PubMed PMID: 28680311. 指出 ESRD 病人的 sexual dysfunction 與較差 QoL、精神共病相關。<https://pubmed.ncbi.nlm.nih.gov/28680311/>
-[^10]: Seibel I, et al. *Efficacy of oral sildenafil in hemodialysis patients with erectile dysfunction*. BJU Int. 2002. PubMed PMID: 12397048. 部分透析男性在醫師評估下可從 sildenafil 治療獲益。<https://pubmed.ncbi.nlm.nih.gov/12397048/>
+[^9]: Balaban OD, et al. *Psychiatric Comorbidity, Sexual Dysfunction, and Quality of Life in Patients Undergoing Hemodialysis: A Case-Control Study*. Noro Psikiyatr Ars. 2017;54(2):137-142. PubMed PMID: 28680311. 血液透析病人 49 人與 44 名對照相比，sexual dysfunction 與精神共病較多、QoL 較差。<https://pubmed.ncbi.nlm.nih.gov/28680311/>
+[^10]: Seibel I, et al. *Efficacy of oral sildenafil in hemodialysis patients with erectile dysfunction*. J Am Soc Nephrol. 2002;13(11):2770-2775. PubMed PMID: 12397048. 部分透析男性在醫師評估下可從 sildenafil 治療獲益。<https://pubmed.ncbi.nlm.nih.gov/12397048/>
 [^11]: MedlinePlus. *Sildenafil: Drug Information*. 明確提醒 sildenafil 不可與 nitrates 併用；若 sex activity 中出現 chest pain, dizziness, or nausea，應立即就醫。<https://medlineplus.gov/druginfo/meds/a699015.html>
 [^12]: ClinicalTrials.gov. *A Study Evaluating the Efficacy and Safety of Sildenafil in Patients With Erectile Dysfunction Receiving Hemodialysis* (NCT00654017). 顯示 sildenafil 在 hemodialysis-associated ED 曾有正式註冊研究。<https://clinicaltrials.gov/study/NCT00654017>
 [^13]: FDA. *VitalityXtra may be harmful due to hidden drug ingredient*. 來路不明 sexual enhancement 產品可能含未標示 sildenafil。<https://www.fda.gov/drugs/medication-health-fraud/vitalityxtra-may-be-harmful-due-hidden-drug-ingredient>

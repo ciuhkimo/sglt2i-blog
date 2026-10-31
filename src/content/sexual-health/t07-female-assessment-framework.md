@@ -2,16 +2,15 @@
 question_id: T07
 title: "女性透析病人性與生殖健康評估"
 category: "臨床評估 (Clinical Assessment)"
-version: v1.0
+version: v1.1
 status: ""
-last_updated: 2026-04-14
-next_review: 2026-10-14
+last_updated: 2026-10-31
+next_review: 2027-04-30
 tags:
   - 腎友與性
   - decision-note
   - female-SRH
   - dialysis
-  - fact-checked
 ---
 
 ---
@@ -42,11 +41,11 @@ tags:
 
 ---
 
-## Key Verified Evidence
+## Key Evidence
 
 ### Major Studies
 
-| Study | Year | Design | Population | Key verified point | Evidence level |
+| Study | Year | Design | Population | Key point | Evidence level |
 |---|---:|---|---|---|---|
 | Pyrgidis | 2021 | Systematic review + meta-analysis | ESRD/KRT 女性 n=3,490 | Sexual dysfunction 74% (95% CI 67%–80%); HD 80%; PD 67%; transplant 後 FSFI 上升 | 2a |
 | Rytz | 2022 | Systematic review + meta-analysis | CKD / dialysis / transplant | Menstrual abnormalities common; HD 19%–47%, PD 75%; transplant 後改善 | 2a |
@@ -58,12 +57,12 @@ tags:
 
 ### Guideline / Official Source Anchors
 
-| Source | Year | Verified point |
+| Source | Year | Key point |
 |---|---:|---|
 | **KDIGO Women and Kidney Health conference report** | 2025 | Reproductive healthcare 應嵌入 CKD care pathway；sexual functioning 應納入 standard symptom assessment；所有 childbearing-age CKD 女性應接受 contraception 與 pregnancy timing counseling |
 | **UK Kidney Association Pregnancy and Renal Disease guideline** | 2019 | 所有育齡 CKD 女性應提供 safe and effective contraception；progesterone-only pill / implant / progesterone IUS 安全有效；孕前應接受 MDT counseling |
 | **CDC U.S. MEC** | 2024 | CKD on hemodialysis / peritoneal dialysis：CHC 為 category 4；IUD 與多數 progestin-only methods 較可行；DMPA、DRSP POP 有額外 caveats |
-| **ClinicalTrials.gov registry search** | current registry check | 可找到 CKD/dialysis 女性 sexual dysfunction 相關註冊研究，但未檢索到足以改變目前實務的 dialysis-specific completed therapeutic trial 之 registry-based practice-changing evidence |
+| **ClinicalTrials.gov registry search** | 截至 2026-04 | 可找到 CKD/dialysis 女性 sexual dysfunction 相關註冊研究，但未檢索到足以改變目前實務的 dialysis-specific completed therapeutic trial 之 registry-based practice-changing evidence |
 
 ---
 
@@ -145,7 +144,7 @@ KDIGO 2025 指出，CKD 相關 amenorrhea 與 natural menopause 的鑑別對 rep
 - 若病人目前不打算懷孕，尤其同時暴露於 teratogenic medication，必須主動談 contraception。  
 - KDIGO 2025、UK Kidney Association 2019 都支持將 contraception counseling 視為 CKD 標準照護的一部分。[KDIGO 2025 official report; UK Kidney Association 2019]
 
-#### B. 依目前可查核到的官方分級，較實用的排序
+#### B. 依 CDC 2024 官方分級，較實用的排序
 
 | 方法 | 目前定位 | 實務備註 |
 |---|---|---|
@@ -172,7 +171,7 @@ KDIGO 2025 指出，CKD 相關 amenorrhea 與 natural menopause 的鑑別對 rep
 - 明確告知：dialysis pregnancy 屬 high-risk pregnancy，不能以一般產科模式看待  
 
 UK Kidney Association 2019 建議：  
-- 所有 CKD 女性在懷孕前接受 MDT counseling；  
+- 考慮懷孕的 CKD 女性，建議先由 MDT（含產科與腎臟科）提供 pre-pregnancy counseling（suggest，2D）；  
 - 正在 hemodialysis 者，懷孕前與懷孕中都應預期需要 **long, frequent hemodialysis**；  
 - 懷孕中可依 residual renal function 調整 dialysis dose，目標 pre-dialysis urea <12.5 mmol/L。[UK Kidney Association 2019]
 
@@ -270,14 +269,14 @@ UK Kidney Association 2019 建議：
 
 ---
 
-## Verified Source Map
+## Source Map
 
 ### Official websites / guidelines
-1. **KDIGO 2025 Women and Kidney Health conference report**（official KDIGO website）
+1. **KDIGO 2025 Women and Kidney Health conference report** — Piccoli GB, et al. *Kidney Int*. 2025;108(3):355–379. **PMID: 40439632**
 2. **UK Kidney Association Clinical Practice Guideline: Pregnancy and Renal Disease (2019)**（official UK Kidney Association website）
-3. **CDC U.S. Medical Eligibility Criteria for Contraceptive Use, 2024**（official CDC website; CKD / IUD / POC / CHC appendices checked）
+3. **CDC U.S. Medical Eligibility Criteria for Contraceptive Use, 2024**（official CDC website; CKD / IUD / POC / CHC appendices）
 
-### PubMed-verified items
+### PubMed
 4. Pyrgidis 2021 — sexual dysfunction meta-analysis. **PMID: 33903042**
 5. Rytz 2022 — menstrual abnormalities / reproductive lifespan systematic review. **PMID: 36418040**
 6. Hladunewich 2014 — intensive HD and pregnancy outcomes. **PMID: 24525032**
@@ -292,7 +291,7 @@ UK Kidney Association 2019 建議：
 15. Strippoli 2012 — female sexual dysfunction in advanced kidney disease. **PMID: 22490876**
 16. Semaska 2025 — nephrology survey on reproductive health and kidney disease. **PMID: 41624449**
 
-### ClinicalTrials.gov check
+### ClinicalTrials.gov
 17. Female Sexual Dysfunctions in Chronic Kidney Disease — **NCT03485261**
 18. Female Sexual Dysfunction in Renal Failure — **NCT03172637**
 19. Impact of Dialysis on Sexuality (SEXODIA) — **NCT07332949**
