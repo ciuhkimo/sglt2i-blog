@@ -2,10 +2,10 @@
 question_id: T02
 title: "腎友與性完整指南：洗腎、腎移植病人的性健康全攻略"
 category: "專區首頁 (Hub / Pillar Page)"
-version: v1.0
+version: v1.1
 status: ""
-last_updated: 2026-04-15
-next_review: 2026-10-15
+last_updated: 2026-11-05
+next_review: 2027-05-05
 tags:
   - 腎友與性
   - HUB
@@ -26,23 +26,23 @@ schema: CollectionPage, MedicalWebPage
 
 **重點摘要**
 
-- 腎臟病與透析族群的性健康問題很常見。CDC 病人衛教頁面指出，CKD 病人回報性健康問題的比例可高達約 8 成；在男性 ESRD / 透析族群中，PubMed 系統性回顧也顯示 ED 高度盛行。[^cdc-sex][^ed-esrd][^ed-ckd]
-- 這不只是「生活品質小問題」。性健康困擾和較差生活品質、憂鬱 / 焦慮症狀、伴侶壓力，以及臨床上經常沒有被例行詢問有關。[^depression-review][^navaneethan][^nephrologist-survey]
+- 腎臟病與透析族群的性健康問題很常見。CDC 病人衛教頁面指出，CKD 病人回報性健康問題的比例可高達約 8 成；在男性 ESRD / 透析族群中，系統性回顧也顯示 ED 高度盛行。[^cdc-sex][^ed-esrd][^ed-ckd]
+- 這不只是「生活品質小問題」。性健康困擾和較差生活品質、憂鬱等心理困擾、伴侶關係，以及臨床上經常沒有被例行詢問有關。[^depression-review][^navaneethan][^nkf-sex][^nephrologist-survey]
 - 多數問題值得主動提出，因為常可從藥物副作用、荷爾蒙、透析相關因素、情緒心理支持與症狀治療中找到介入空間。[^cdc-sex][^nkf-sex]
 
-> **查核提示**：性功能與生殖健康的盛行率會因族群（CKD、HD、PD、移植）、性別、年齡、是否有性行為，以及使用的量表不同而差很多。本頁只在有較清楚來源時保留數字；其餘改用「常見 / 高度盛行」表述，避免把單一研究數字套用到所有腎友。[^cdc-sex][^female-hd-review][^menstrual-review]
+> **數字怎麼看**：性功能與生殖健康的盛行率會因族群（CKD、HD、PD、移植）、性別、年齡、是否有性行為，以及使用的量表不同而差很多。本頁只在來源較清楚時寫出數字，其餘用「常見 / 高度盛行」描述，避免把單一研究數字套用到所有腎友。[^cdc-sex][^female-hd-review][^menstrual-review]
 
 ## 為什麼重要
 
 洗腎或腎臟病之後「那方面」出問題，真的很常見。官方衛教資料指出，CKD 病人的性健康問題可高達約 8 成；而在男性 ESRD / 透析族群，ED 的系統性回顧與統合分析也顯示這是高度盛行的問題。[^cdc-sex][^ed-esrd][^ed-ckd]
 
-對女性來說，問題也不只是在性慾。近年的系統性回顧指出，女性腎友常見性慾、喚起、潤滑、高潮與疼痛等困擾；在育齡透析女性，月經失調也很常見，而且不同透析型態的比例並不一樣。[^female-hd-review][^reproductive-health-review][^menstrual-review]
+對女性來說，問題也不只是在性慾。系統性回顧估計血液透析女性約 8 成有性功能障礙；單一中心研究也顯示，性慾、喚起、潤滑、高潮與疼痛各面向都可能受影響。[^fsd-esrd][^female-hd-review] 在育齡透析女性，月經失調也很常見，而且不同透析型態的比例並不一樣。[^menstrual-review][^reproductive-health-review]
 
-真正麻煩的是，這件事很常沒有被主動問起。針對腎臟科醫師的問卷研究顯示，96.4% 的受訪者表示自己在新病人門診中，討論 sexual dysfunction 的比例不到一半。[^nephrologist-survey]
+真正麻煩的是，這件事很常沒有被主動問起。針對荷蘭腎臟科醫師的問卷研究顯示，96.4% 的受訪者表示自己在新病人門診中，討論 sexual dysfunction 的比例不到一半。[^nephrologist-survey]
 
 好消息是，很多問題不是「只能忍」。官方病人衛教與文獻回顧都指出，藥物檢視、荷爾蒙評估、血糖與心血管風險控制、心理支持與症狀治療，都可能幫得上忙。[^cdc-sex][^nkf-sex]
 
-如果你已經完成腎移植，也不要自動假設問題一定會自己消失。官方衛教指出，很多人在移植後性功能會改善，懷孕也通常比仍在透析時更安全；但前提是移植腎功能穩定、藥物穩定，而且備孕前一定要先和移植團隊確認用藥，特別是 mycophenolate 類藥物。[^nkf-tx-sex][^nkf-preg-tx][^fda-mycophenolate]
+如果你已經完成腎移植，也不要自動假設問題一定會自己消失。官方衛教指出，很多人在移植後性功能會改善，懷孕也通常比仍在透析時更安全；但前提是移植腎功能穩定、藥物穩定，而且備孕前一定要先和移植團隊確認用藥，特別是 mycophenolate 類藥物。[^nkf-tx-sex][^nkf-preg-tx]
 
 > [為什麼「腎友與性」值得被正視](/sexual-health/t01-why-it-matters/)
 
@@ -123,15 +123,9 @@ schema: CollectionPage, MedicalWebPage
 ### 轉介時機
 - [轉介時機](/sexual-health/t12-referral-criteria/)
 
-## 查核重點（2026-04-14）
+## 臨床試驗現況
 
-- 已把原本較武斷的「70-80% 的洗腎病人（不分男女）都有性功能困擾」改成較可追溯的版本：**CKD / 腎衰竭族群整體性健康問題很常見；男性 ESRD / 透析族群 ED 的系統性回顧顯示高度盛行；女性則因量表與族群差異，數字變異較大。**[^cdc-sex][^ed-esrd][^female-hd-review]
-- 已把原本的「不到 4% 曾被醫師主動問過」改為**腎臟科臨床上通常沒有把 sexual dysfunction 當成固定問診主題**。[^nephrologist-survey]
-- 已把原本的「女性月經異常超過 73%」改為**育齡透析女性月經失調常見，但不同透析型態與研究設計差異很大**。[^menstrual-review]
-
-## 臨床試驗現況（ClinicalTrials.gov 快速查核）
-
-ClinicalTrials.gov 目前可以找到和腎友性健康相關的註冊研究，包括：
+ClinicalTrials.gov 上和腎友性健康相關的註冊研究（截至 2026-11），包括：
 
 - **SEXODIA / Impact of Dialysis on Sexuality**（NCT07332949）[^ctgov-sexodia]
 - **Female Sexual Dysfunctions in Chronic Kidney Disease**（NCT03485261）[^ctgov-female-ckd]
@@ -146,12 +140,12 @@ ClinicalTrials.gov 目前可以找到和腎友性健康相關的註冊研究，�
 [^nkf-sex]: National Kidney Foundation (NKF). *Sexual Health and Kidney Disease*. Accessed 2026-04-14. https://www.kidney.org/kidney-topics/sexual-health-and-kidney-disease
 [^nkf-tx-sex]: National Kidney Foundation (NKF). *Sexual Health and Kidney Transplant*. Accessed 2026-04-14. https://www.kidney.org/kidney-topics/sexual-health-and-kidney-transplant
 [^nkf-preg-tx]: National Kidney Foundation (NKF). *Pregnancy, Fertility, and Babies after a Kidney Transplant*. Updated 2024-10-01. https://www.kidney.org/kidney-topics/pregnancy-fertility-and-babies-after-kidney-transplant
-[^fda-mycophenolate]: U.S. Food and Drug Administration (FDA). *Questions and Answers: FDA Approves a Single Shared REMS for Mycophenolate-containing Medicines*. Accessed 2026-04-14. https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/questions-and-answers-fda-approves-single-shared-risk-evaluation-and-mitigation-strategy-rems
-[^ed-esrd]: Pyrgidis N, et al. *Prevalence of Erectile Dysfunction in Patients With End-Stage Renal Disease*. J Sex Med. 2021. PMID: 33221161. https://pubmed.ncbi.nlm.nih.gov/33221161/
+[^ed-esrd]: Pyrgidis N, et al. *Prevalence of Erectile Dysfunction in Patients With End-Stage Renal Disease*. J Sex Med. 2021;18(1):113-120. PMID: 33221161. https://pubmed.ncbi.nlm.nih.gov/33221161/
+[^fsd-esrd]: Pyrgidis N, et al. *Sexual Dysfunction in Women With End-Stage Renal Disease: A Systematic Review and Meta-Analysis*. J Sex Med. 2021;18(5):936-945. PMID: 33903042. https://pubmed.ncbi.nlm.nih.gov/33903042/
 [^ed-ckd]: Pizzol D, et al. *Prevalence of erectile dysfunction in patients with chronic kidney disease*. Int J Impot Res. 2021. PMID: 32358511. https://pubmed.ncbi.nlm.nih.gov/32358511/
-[^female-hd-review]: Shah SAY, et al. *Sexual Dysfunction in Female Patients Undergoing Hemodialysis*. Cureus. 2022. PMID: 36348849. https://pubmed.ncbi.nlm.nih.gov/36348849/
-[^menstrual-review]: Rytz CL, et al. *Menstrual Abnormalities and Reproductive Lifespan in Females with CKD*. Kidney Med. 2022. PMID: 36418040. https://pubmed.ncbi.nlm.nih.gov/36418040/
-[^reproductive-health-review]: Gumber R, et al. *Reproductive Health in Women with Kidney Disease*. Kidney Med. 2022. PMID: 36418039. https://pubmed.ncbi.nlm.nih.gov/36418039/
+[^female-hd-review]: Shah SAY, et al. *Sexual Dysfunction in Female Patients Undergoing Hemodialysis and Its Relationship With Anxiety and Depression*. Cureus. 2022;14(10):e29883（橫斷面研究，55 人）. PMID: 36348849. https://pubmed.ncbi.nlm.nih.gov/36348849/
+[^menstrual-review]: Rytz CL, et al. *Menstrual Abnormalities and Reproductive Lifespan in Females with CKD: A Systematic Review and Meta-Analysis*. Clin J Am Soc Nephrol. 2022;17(12):1742-1753. PMID: 36418040. https://pubmed.ncbi.nlm.nih.gov/36418040/
+[^reproductive-health-review]: Gumber R, Shah S. *Reproductive Health in Women with Kidney Disease*（社論）. Clin J Am Soc Nephrol. 2022;17(12):1716-1718. PMID: 36418039. https://pubmed.ncbi.nlm.nih.gov/36418039/
 [^nephrologist-survey]: van Ek GF, et al. *Discussing Sexual Dysfunction with CKD Patients*. J Sex Med. 2015. PMID: 26633081. https://pubmed.ncbi.nlm.nih.gov/26633081/
 [^navaneethan]: Navaneethan SD, et al. *Prevalence and correlates of self-reported sexual dysfunction in CKD*. Am J Kidney Dis. 2010. PMID: 20801572. https://pubmed.ncbi.nlm.nih.gov/20801572/
 [^depression-review]: Vecchio M, et al. *Depression and sexual dysfunction in chronic kidney disease*. Nephrol Dial Transplant. 2012. PMID: 22942174. https://pubmed.ncbi.nlm.nih.gov/22942174/

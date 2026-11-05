@@ -2,10 +2,10 @@
 question_id: T08
 title: "性生活諮詢實務：PLISSIT 模型在腎臟科門診的應用"
 category: "臨床評估 (Clinical Assessment)"
-version: v1.0
+version: v1.1
 status: ""
-last_updated: 2026-04-14
-next_review: 2026-10-14
+last_updated: 2026-11-05
+next_review: 2027-05-05
 tags:
   - 腎友與性
   - CDN
@@ -20,9 +20,9 @@ tags:
 
 ## Why This Matters
 
-透析病人 SD 盛行率 70-80%，但僅 21% 曾與醫療人員討論。KDIGO 2024 將 SD 列為尿毒症最嚴重症狀之一，卻無管理指引。「雙重沉默」——病人因羞恥不說、醫療團隊因訓練不足不問——導致約四分之三的透析病人默默承受。
+透析病人 SD 盛行率約 70-80%；一項美國透析女性調查中，有 SD 的人只有 21% 曾與醫療人員討論、6% 接受過治療。KDIGO 2024 指出 SD 是 CKD 病人描述最嚴重的症狀之一，但沒有提出處置建議。「雙重沉默」——病人因羞恥不說、醫療團隊因訓練不足不問——讓多數有困擾的透析病人沒有被處理。
 
-PLISSIT 是目前最被推薦且已在 HD 族群中驗證有效的性諮詢框架。
+PLISSIT（Annon 1976）是常用的分層性諮詢框架。它在透析族群的介入研究很少，本文用它作為門診操作架構，不代表已有透析族群的療效證據。
 
 ---
 
@@ -31,12 +31,11 @@ PLISSIT 是目前最被推薦且已在 HD 族群中驗證有效的性諮詢框�
 | Study | Design | Key Finding | LOE |
 |-------|--------|-------------|-----|
 | Pyrgidis 2021 | MA (n=10,320 / 3,490) | ED 79% (HD), FSD 80% (HD) | High |
-| Weisbord 2009 | Survey | 僅 21% 透析女性曾討論性健康；73% 認為重要 | Moderate |
-| Alvandi-Jam 2015 | Pre-post (HD) | PLISSIT 改善 sexual quality of life | Low |
+| Seethala 2010 | Survey (n=66) | 有 SD 的透析女性僅 21% 曾與醫療人員討論、6% 接受過治療 | Low |
 | AHA 2012 | Scientific Statement | 3-5 METs 無症狀 → 性行為安全 | IIa/C |
-| Princeton IV 2024 | Consensus | ED 為 ASCVD risk-enhancing factor | Consensus |
-| ISPD/GREX 2022 | Guideline | 唯一確認 PD 可安全進行性行為的指引 | 2C/2D |
-| Cochrane 2010 | SR | PDE5i IIEF-5 改善 10.65 分（15 RCTs, 352 pts） | Moderate |
+| Princeton IV 2024 | Consensus | ED 男性在排除前應視為心血管事件風險者 | Consensus |
+| ISPD/GREX 2022 | Practice recommendations | PD 置管 4 週後，性行為中漏液或導管移位的風險低（2C）；ED 藥物個別討論（2D） | 2C/2D |
+| Cochrane 2010 | SR | PDE5i 使 IIEF-5 增加 10.65 分（2 篇、101 人）；全文納入 15 篇、352 人，僅 1 篇收女性 | Moderate |
 
 ---
 
@@ -95,10 +94,10 @@ PD 病人：
 - PD 應先引流 — 專家共識
 - 性行為不增加 peritonitis 風險 — evidence absence
 - Post-dialysis 等 4-6 小時 — heparin PK 推論
+- PLISSIT 用於透析病人的成效 — 介入研究極少
 
 **完全缺乏**：
 - 女性透析 FSD 任何介入 RCT
-- PLISSIT 在亞洲透析族群的介入試驗
 - PDE5i 與 post-dialysis hypovolemia 交互作用
 
 **應暫緩性行為的 Red Flags**：
@@ -132,9 +131,9 @@ PD 病人：
 6. Princeton IV/Kohler 2024. PMID: 39115509
 7. ISPD/GREX/Bennett 2022. PMID: 34743628
 8. KDIGO 2024. PMID: 38490803
-9. Weisbord 2009. PMID: 19758295
+9. Seethala 2010（Hemodial Int 2010;14(1):55-60）. PMID: 19758295
 10. Peng 2005. PMID: 16014053
-11. Annon 1976 — PLISSIT model
+11. Annon JS. The PLISSIT model. J Sex Educ Ther. 1976;2(1):1-15
 
 ---
 
