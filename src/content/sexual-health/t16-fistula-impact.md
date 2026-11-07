@@ -2,10 +2,10 @@
 question_id: T16
 title: "瘻管會不會影響性生活？"
 category: "病人衛教 (Patient Education)"
-version: v1.0
+version: v1.1
 status: ""
-last_updated: 2026-04-15
-next_review: 2026-10-15
+last_updated: 2026-11-07
+next_review: 2027-05-07
 tags:
   - 腎友與性
   - PED
@@ -22,7 +22,7 @@ schema: FAQPage, MedicalWebPage
 
 ## 一句話回答
 
-**瘻管不會因為正常的性行為而受損。** 只要避免直接壓迫或拉扯管路部位，洗腎病人可以安全地進行性生活。
+**瘻管不會因為正常的性行為而受損。** 只要避免直接壓迫或拉扯管路部位，洗腎病人可以安全地進行性生活。[^1]
 
 ---
 
@@ -32,10 +32,10 @@ schema: FAQPage, MedicalWebPage
 
 ### 瘻管（AVF）與人工血管（AVG）
 
-瘻管位於皮膚下方、手臂內側，結構其實比你想像的堅固。正常的性行為不會讓瘻管破裂或受傷。需要注意的是：
+瘻管位於皮膚下方，通常在手臂上。美國腎臟基金會（NKF）指出，只要性活動不對通路造成壓力或拉扯，就不會傷害它；[^1] 英國 Kidney Care UK 也說，性生活中真的弄傷透析通路並不常見。[^2] 需要注意的是：
 
 - **避免壓迫**：不要長時間壓在有瘻管的那隻手臂上，換個姿勢就好。
-- **確認止血**：如果當天剛洗完腎，確認針孔已經完全止血再活動。洗腎使用的肝素可能讓凝血時間稍微延長，通常數小時後就沒問題。[^1][^2]
+- **確認止血**：如果當天剛洗完腎，確認針孔已經完全止血再活動。洗腎時會用抗凝血劑（肝素），針孔有時需要比較久才止住。
 - **人工血管**也一樣，原則相同。
 
 ### 中心靜脈導管（CVC）
@@ -52,11 +52,11 @@ schema: FAQPage, MedicalWebPage
 
 **Q1：做愛的時候壓到瘻管會不會大出血？**
 
-正常情況下不會。瘻管在皮膚底下，不是輕輕壓到就會破。但建議不要讓整個身體重量長時間壓在瘻管手臂上，姿勢上稍微調整就可以了。如果當天剛洗完腎、針孔還沒完全止血，等止血確認後再活動比較安心。[^1]
+正常情況下不會。瘻管在皮膚底下，不是輕輕壓到就會破。但建議不要讓整個身體重量長時間壓在瘻管手臂上，姿勢上稍微調整就可以了。如果當天剛洗完腎、針孔還沒完全止血，等止血確認後再活動比較安心。[^1][^2]
 
 **Q2：伴侶看到瘻管會不會覺得奇怪？**
 
-很多腎友擔心身體外觀的改變。事實上，和伴侶坦誠溝通比什麼都重要。瘻管是你維持生命的通路，不需要覺得不好意思。如果因為外觀問題影響到你的親密關係或心情，可以和醫療團隊聊聊。[^3]
+很多腎友擔心身體外觀的改變。事實上，和伴侶坦誠溝通比什麼都重要。瘻管是你維持生命的通路，不需要覺得不好意思。如果因為外觀問題影響到你的親密關係或心情，可以和醫療團隊聊聊。很多腎友都有同樣的擔心。[^2]
 
 ---
 
@@ -78,9 +78,8 @@ schema: FAQPage, MedicalWebPage
 ## 查核依據（精簡）
 
 ### PubMed / 文獻
-- [^1]: Levine GN et al. Sexual activity and cardiovascular disease: a scientific statement from the AHA. *Circulation*. 2012;125(8):1058-1072. PMID: 22267844. https://pubmed.ncbi.nlm.nih.gov/22267844/
-- [^2]: Bossola M et al. Post-dialysis fatigue: a frequent and debilitating symptom. *Kidney Blood Press Res*. 2023;48(1):40-51. PMID: 36404395. https://pubmed.ncbi.nlm.nih.gov/36404395/
-- [^3]: Van Ek GF et al. Sexual dysfunction in patients on hemodialysis. *Int J Nurs Stud*. 2017;77:68-78. PMID: 28714093. https://pubmed.ncbi.nlm.nih.gov/28714093/
+- [^1]: National Kidney Foundation. Sexual Health and Kidney Disease. https://www.kidney.org/kidney-topics/sexual-health-and-kidney-disease
+- [^2]: Kidney Care UK. Sexual health and contraception with chronic kidney disease. https://kidneycareuk.org/kidney-disease-information/living-with-kidney-disease/patient-info-sexual-health-and-contraception-with-ckd/
 
 ---
 
