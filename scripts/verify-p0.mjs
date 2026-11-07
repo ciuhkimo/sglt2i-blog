@@ -602,6 +602,47 @@ console.log('\n## Check 14: 粗體未渲染（字面 **）＋ 裸網址吞掉後
 }
 
 // ============================================================
+// Check 15: 腳註定義與內文引用對不上（content 原始檔，hard-fail）
+//   緣起（2026-11-07 抽查 T21 才發現）：參考文獻寫成 `- [^1]: …`，但內文從未出現 [^1]，
+//   remark-gfm 不輸出未被引用的定義 → 線上「查核依據」標題下整段是空的，build／CI 都不報錯。
+//   (a) 有定義、內文沒引用 → 該筆參考文獻在頁面上消失
+//   (b) 內文引用、沒有定義 → 頁面露出字面 [^n]
+//   校準：182 檔中 16 檔有腳註，現況 0 命中；以 T21 修正前版本為陽性對照可抓到。
+// ============================================================
+console.log('\n## Check 15: 腳註定義與內文引用對不上（content，hard-fail）\n');
+{
+	const CONTENT_DIR = resolve(__dirname, '..', 'src', 'content');
+	const mdFiles = [];
+	(function walkMd(dir) {
+		for (const e of readdirSync(dir, { withFileTypes: true })) {
+			const p = resolve(dir, e.name);
+			if (e.isDirectory()) walkMd(p);
+			else if (/\.(md|mdx)$/.test(e.name)) mdFiles.push(p);
+		}
+	})(CONTENT_DIR);
+
+	const defRe = /^[ \t]*(?:[-*+][ \t]+)?\[\^([^\]\s]+)\]:/gm;
+	const refRe = /\[\^([^\]\s]+)\](?!:)/g;
+	let withFn = 0;
+	let badFiles = 0;
+	for (const f of mdFiles) {
+		const txt = readFileSync(f, 'utf8').replace(/```[\s\S]*?```/g, '');
+		const defs = new Set([...txt.matchAll(defRe)].map((m) => m[1]));
+		const refs = new Set([...txt.matchAll(refRe)].map((m) => m[1]));
+		if (defs.size === 0 && refs.size === 0) continue;
+		withFn++;
+		const orphan = [...defs].filter((l) => !refs.has(l));
+		const undef = [...refs].filter((l) => !defs.has(l));
+		if (orphan.length === 0 && undef.length === 0) continue;
+		badFiles++;
+		const rel = f.slice(CONTENT_DIR.length + 1).replace(/\\/g, '/');
+		if (orphan.length) fail(`${rel}: 腳註有定義但內文沒引用 → [^${orphan.join('], [^')}]（頁面上會整筆消失；在內文補引用或刪定義）`);
+		if (undef.length) fail(`${rel}: 內文引用但沒有定義 → [^${undef.join('], [^')}]（頁面會露出字面 [^n]）`);
+	}
+	if (badFiles === 0) ok(`掃 ${mdFiles.length} 檔，${withFn} 檔有腳註，定義與引用全部對得上`);
+}
+
+// ============================================================
 // Final summary
 // ============================================================
 console.log('\n---');
