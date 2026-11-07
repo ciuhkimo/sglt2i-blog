@@ -2,10 +2,10 @@
 question_id: T03
 title: "洗腎後還可以有性生活嗎？安全性、注意事項與常見疑慮"
 category: "病人衛教 (Patient Education)"
-version: v1.0
+version: v1.1
 status: ""
-last_updated: 2026-04-14
-next_review: 2026-10-14
+last_updated: 2026-11-07
+next_review: 2027-05-07
 tags:
   - 腎友與性
   - 病人衛教
@@ -136,11 +136,11 @@ FDA 核准仿單指出，**重度腎功能不全**可考慮從 **25 mg** 起始�
 [^3]: National Kidney Foundation. **Sexual Health and Kidney Disease.** NKF 指出：只要不對 access site 造成壓力或拉扯，性活動不會傷害透析通路。<https://www.kidney.org/kidney-topics/sexual-health-and-kidney-disease>
 [^4]: Kidney Care UK. **Sexual health and contraception with chronic kidney disease.** 提到疲累可與腎臟團隊討論、必要時調整透析安排；性生活中真正損傷透析通路並不常見。<https://kidneycareuk.org/kidney-disease-information/living-with-kidney-disease/patient-info-sexual-health-and-contraception-with-ckd/>
 [^5]: You Q, et al. **Prevalence and Risk Factors of Postdialysis Fatigue in Patients Under Maintenance Hemodialysis: A Systematic Review and Meta-Analysis.** *Asian Nurs Res.* 2022. 系統性回顧與統合分析的 pooled prevalence 約 60%。<https://pubmed.ncbi.nlm.nih.gov/36455830/>
-[^6]: Bossola M, et al. **Post-dialysis fatigue: Comparison of bicarbonate dialysate with and without acetate.** *J Nephrol.* 2023. 研究中透析後恢復時間中位數約 180 分鐘；個體差異大。<https://pubmed.ncbi.nlm.nih.gov/36404395/>
+[^6]: Bossola M, et al. **Post-dialysis fatigue: comparison of bicarbonate hemodialysis and online hemodiafiltration.** *Hemodial Int.* 2023;27(1):55-61. 335 位透析病人中，透析後恢復時間中位數 180 分鐘；個體差異大。<https://pubmed.ncbi.nlm.nih.gov/36404395/>
 [^7]: UCLA Health CORE Kidney. **Peritoneal Dialysis.** 建議將 PD 導管固定或以專用腰帶保護，以免妨礙包含性生活在內的日常活動。<https://www.uclahealth.org/programs/core-kidney/conditions-treated/peritoneal-dialysis>
 [^8]: Mahale AS, et al. **Complications of peritoneal dialysis related to increased intra-abdominal pressure.** *Adv Perit Dial.* 2003. 高腹腔壓可增加疝氣、漏液、背痛等機械性併發症風險。<https://pubmed.ncbi.nlm.nih.gov/14763049/>
-[^9]: ISPD / 相關 PD 併發症文獻與病人照護資源都將**腹痛、混濁透析液、發燒、出口感染、滲漏**視為應儘速聯絡 PD 團隊的警訊。可參考：MyHealth Alberta（peritonitis care instructions）<https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=abr7195>
-[^10]: Seibel I, et al. **Efficacy of oral sildenafil in hemodialysis patients with erectile dysfunction.** *Am J Kidney Dis.* 2002. <https://pubmed.ncbi.nlm.nih.gov/12397048/>
+[^9]: MyHealth Alberta. **Peritonitis From Peritoneal Dialysis: Care Instructions.** 將**透析液混濁、發燒、導管出口紅腫熱痛或流膿、透析液流不通**列為應聯絡醫療團隊的警訊。<https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=abr7195>
+[^10]: Seibel I, et al. **Efficacy of oral sildenafil in hemodialysis patients with erectile dysfunction.** *J Am Soc Nephrol.* 2002;13(11):2770-2775. 41 位經篩選的血液透析男性之隨機安慰劑對照試驗。 <https://pubmed.ncbi.nlm.nih.gov/12397048/>
 [^11]: Grossman EB, et al. **The pharmacokinetics and hemodynamics of sildenafil citrate in male hemodialysis patients.** *Kidney Int.* 2004. 研究顯示 sildenafil **不會被血液透析清除**。<https://pubmed.ncbi.nlm.nih.gov/15200445/>
 [^12]: DailyMed / FDA-approved labeling. **VIAGRA (sildenafil citrate).** 重度腎功能不全可考慮由 25 mg 起始；與 **nitrates** 併用禁忌；若勃起超過 4 小時需就醫。<https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d905dc8d-917f-4ea3-a4ee-a1ecf6967d4e>
 [^13]: European Medicines Agency. **Nicorandil product information / referral documents.** nicorandil 與 PDE5 inhibitors（如 sildenafil、tadalafil、vardenafil）併用禁忌，因可能造成嚴重低血壓。<https://www.ema.europa.eu/en/documents/referral/ikorel-and-dancor-article-30-referral-annex-iii_en.pdf>
