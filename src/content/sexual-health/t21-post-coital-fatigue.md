@@ -2,10 +2,10 @@
 question_id: T21
 title: "性生活後很累是因為洗腎嗎？"
 category: "病人衛教 (Patient Education)"
-version: v1.0
+version: v1.1
 status: ""
-last_updated: 2026-04-15
-next_review: 2026-10-15
+last_updated: 2026-11-07
+next_review: 2027-05-07
 tags:
   - 腎友與性
   - PED
@@ -28,13 +28,13 @@ schema: FAQPage, MedicalWebPage
 
 ## 簡短說明
 
-透析疲勞（post-dialysis fatigue）影響超過六成的血液透析病人，這是性生活後特別累的最大背景因素。疲累的原因通常是多重的：
+統合分析中，約六成的血液透析病人有透析後疲勞（post-dialysis fatigue），[^1] 這是性生活後特別累的最大背景因素。疲累的原因通常是多重的：
 
-- **透析本身的消耗**：每次血液透析約四小時，血壓和體液快速變動，很多人結束後幾小時內都覺得虛。
-- **貧血**：即使有使用 EPO，血紅素常在 10-11 g/dL 左右，攜氧量比一般人低。
+- **透析本身的消耗**：每次血液透析約四小時，血壓和體液快速變動，很多人結束後幾小時內都覺得虛；一項研究中，透析後恢復時間的中位數約 3 小時。[^2]
+- **貧血**：洗腎病人常有貧血，攜氧量比一般人低。覺得特別累時，腎臟團隊可以幫你檢查鐵和血紅素，必要時調整透析安排。[^3]
 - **體能下降（deconditioning）**：長期洗腎的病人活動量往往減少，肌肉量和心肺耐力都會下降。
 
-性行為的體力消耗大約相當於爬兩層樓（3-5 METs），對體能已經偏低的人來說不算輕鬆，所以活動後覺得特別累是合理的。
+性行為的體力消耗大約 3–5 METs，相當於快走或爬兩層樓梯，[^4] 對體能已經偏低的人來說不算輕鬆，所以活動後覺得特別累是合理的。
 
 ---
 
@@ -48,8 +48,8 @@ schema: FAQPage, MedicalWebPage
 
 可以從幾個方面著手：
 
-- **貧血控制**：和醫師確認血紅素是否達標（通常目標 10-11.5 g/dL），鐵劑和 EPO 有沒有需要調整。
-- **適度運動**：即使是透析中的簡單踏步或散步，持續幾週後心肺耐力會有明顯改善。
+- **貧血控制**：和醫師確認貧血控制得如何，鐵劑和紅血球生成素有沒有需要調整（見 [KDIGO 2026 貧血指引整理](/blog/kdigo-2026-anemia-taiwan/)）。
+- **適度運動**：統合分析顯示，持續至少 8 週的規律運動可以改善心肺耐力和行走能力，研究多數是透析病人做的有氧運動。[^5] 開始前先和醫療團隊討論適合的強度。
 - **營養補充**：確保蛋白質攝取足夠，避免肌肉持續流失。
 - **不用追求完美**：性生活不需要像電影那樣激烈，調整節奏和姿勢也可以減少體力消耗。
 
@@ -72,8 +72,11 @@ schema: FAQPage, MedicalWebPage
 ## 查核依據（精簡）
 
 ### PubMed / 文獻
-- [^1]: Bossola M et al. Fatigue in hemodialysis patients: an underestimated problem. *Semin Dial*. 2018;31(6):594-601. PMID: 30191602. https://pubmed.ncbi.nlm.nih.gov/30191602/
-- [^2]: Drenth H et al. Fatigue in dialysis patients. *Nephrol Dial Transplant*. 2020. PMID: 32766839. https://pubmed.ncbi.nlm.nih.gov/32766839/
+- [^1]: You Q et al. Prevalence and risk factors of postdialysis fatigue in patients under maintenance hemodialysis: a systematic review and meta-analysis. *Asian Nurs Res*. 2022;16(5):292-298. PMID: 36455830. https://pubmed.ncbi.nlm.nih.gov/36455830/
+- [^2]: Bossola M et al. Post-dialysis fatigue: comparison of bicarbonate hemodialysis and online hemodiafiltration. *Hemodial Int*. 2023;27(1):55-61. PMID: 36404395. https://pubmed.ncbi.nlm.nih.gov/36404395/
+- [^3]: Kidney Care UK. Sexual health and contraception with chronic kidney disease. https://kidneycareuk.org/kidney-disease-information/living-with-kidney-disease/patient-info-sexual-health-and-contraception-with-ckd/
+- [^4]: Levine GN et al. Sexual activity and cardiovascular disease: a scientific statement from the American Heart Association. *Circulation*. 2012;125(8):1058-1072. PMID: 22267844. https://pubmed.ncbi.nlm.nih.gov/22267844/
+- [^5]: Heiwe S, Jacobson SH. Exercise training in adults with CKD: a systematic review and meta-analysis. *Am J Kidney Dis*. 2014;64(3):383-393. PMID: 24913219. https://pubmed.ncbi.nlm.nih.gov/24913219/
 
 ---
 

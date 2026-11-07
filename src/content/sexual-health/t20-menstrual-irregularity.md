@@ -2,10 +2,10 @@
 question_id: T20
 title: "女性洗腎後月經亂掉怎麼辦？"
 category: "病人衛教 (Patient Education)"
-version: v1.0
+version: v1.1
 status: ""
-last_updated: 2026-04-15
-next_review: 2026-10-15
+last_updated: 2026-11-07
+next_review: 2027-05-07
 tags:
   - 腎友與性
   - PED
@@ -23,7 +23,7 @@ schema: FAQPage, MedicalWebPage
 
 ## 一句話回答
 
-月經異常在洗腎女性非常普遍，約四到七成會受到影響，但**多數不是真正的卵巢停經**，而是荷爾蒙失調造成的。[^1]
+月經異常在洗腎女性很常見，統合分析中血液透析約 19–47%、腹膜透析約 75%。[^1] 但月經停掉**不一定是停經**，常見原因是大腦調控荷爾蒙出了問題。[^4][^5]
 
 ---
 
@@ -31,10 +31,10 @@ schema: FAQPage, MedicalWebPage
 
 洗腎會從兩個層面干擾月經：
 
-1. **中樞抑制**：腎衰竭時累積的毒素會壓制大腦的 GnRH 脈衝，讓 LH、FSH 的分泌節奏被打亂。
-2. **泌乳素偏高**：透析病人的 prolactin 常常偏高（腎臟清除減少），進一步抑制排卵。
+1. **中樞（下視丘）的問題**：腎衰竭會干擾大腦規律釋放 GnRH，讓 LH 失去排卵所需的週期性高峰，所以常常不排卵。[^2][^3]
+2. **泌乳素偏高**：透析病人的泌乳素（prolactin）常偏高，可能也有影響；[^2][^3] 不過研究中用藥把泌乳素壓下來，只有少數人恢復排卵。[^2]
 
-好消息是，這些改變多半可以逆轉。使用 EPO 改善貧血後，約一半的女性會恢復月經；腎移植後，大多數人在兩到三個月內月經就回來了。[^1][^2]
+好消息是，這些改變有機會逆轉：腎移植後月經異常的比例會下降，[^1] 加強透析也可能部分改善。[^4] 英國腎臟病人組織也提到，換腎後月經很可能會回來。[^5]
 
 ---
 
@@ -46,13 +46,13 @@ schema: FAQPage, MedicalWebPage
 
 **Q2：月經沒來，還需要避孕嗎？**
 
-**需要。** 月經停掉不代表不會排卵。排卵可能在沒有預警的情況下恢復，尤其在透析效率改善或開始使用 EPO 之後。目前建議的首選避孕方式是含 levonorgestrel 的子宮內裝置（LNG-IUD），同時可以改善異常出血，而且不增加血栓風險。口服避孕藥（含雌激素）在洗腎病人屬於相對禁忌。[^1]
+**需要。** 月經停掉不代表不會懷孕（見[洗腎會不會不孕？](/sexual-health/t15-infertility/)）。避孕方法方面，美國 CDC 2024 避孕指引把含雌激素的避孕方法（包括多數口服避孕藥）列為血液透析與腹膜透析病人**不應使用**；子宮內避孕器（含銅或含 levonorgestrel）、皮下植入型等方法比較適合，也有個案報告顯示含 levonorgestrel 的子宮內避孕器改善了經血過多。[^6] 實際選哪一種，請和婦產科討論。
 
 ---
 
 ## Take-home
 
-> 1. 洗腎後月經亂掉是荷爾蒙失調，多數不是永久停經。
+> 1. 洗腎後月經亂掉常是荷爾蒙調節出問題，不一定是停經。
 > 2. **月經不來不等於不會懷孕**——有性生活就要避孕。
 > 3. 月經問題可以處理，和腎臟科與婦產科一起討論最適合你的方式。
 
@@ -68,8 +68,12 @@ schema: FAQPage, MedicalWebPage
 ## 查核依據（精簡）
 
 ### PubMed / 文獻
-- [^1]: Rytz CL et al. Menstrual health in CKD: a systematic review and meta-analysis. *Clin J Am Soc Nephrol*. 2022. PMID: 36418040. https://pubmed.ncbi.nlm.nih.gov/36418040/
-- [^2]: Lim VS et al. Ovarian function in chronic renal failure: evidence suggesting hypothalamic anovulation. *Ann Intern Med*. 1980;93(1):21-27. PMID: 6772062. https://pubmed.ncbi.nlm.nih.gov/6772062/
+- [^1]: Rytz CL et al. Menstrual abnormalities and reproductive lifespan in females with CKD: a systematic review and meta-analysis. *Clin J Am Soc Nephrol*. 2022;17(12):1742-1753. PMID: 36418040. https://pubmed.ncbi.nlm.nih.gov/36418040/
+- [^2]: Lim VS et al. Ovarian function in chronic renal failure: evidence suggesting hypothalamic anovulation. *Ann Intern Med*. 1980;93(1):21-27. PMID: 7396309. https://pubmed.ncbi.nlm.nih.gov/7396309/
+- [^3]: Holley JL. The hypothalamic-pituitary axis in men and women with chronic kidney disease. *Adv Chronic Kidney Dis*. 2004;11(4):337-341. PMID: 15492969. https://pubmed.ncbi.nlm.nih.gov/15492969/
+- [^4]: Ahmed SB, Ramesh S. Sex hormones in women with kidney disease. *Nephrol Dial Transplant*. 2016;31(11):1787-1795. PMID: 27190328. https://pubmed.ncbi.nlm.nih.gov/27190328/
+- [^5]: Kidney Care UK. Sexual health and contraception with chronic kidney disease. https://kidneycareuk.org/kidney-disease-information/living-with-kidney-disease/patient-info-sexual-health-and-contraception-with-ckd/
+- [^6]: CDC. *U.S. Medical Eligibility Criteria for Contraceptive Use, 2024*（子宮內避孕器、含雌激素避孕方法附錄）. https://www.cdc.gov/contraception/hcp/usmec/intrauterine-devices.html ; https://www.cdc.gov/contraception/hcp/usmec/combined-hormonal-contraceptives.html
 
 ---
 
