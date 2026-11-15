@@ -2,9 +2,9 @@
 question_id: "Q13"
 title: "CKM 新興治療（tirzepatide、atrasentan、atacicept、baxdrostat、finerenone 擴展等）"
 category: "整合藥物策略"
-version: "v1.7"
+version: "v1.8"
 status: ""
-last_updated: 2026-10-09
+last_updated: 2026-11-15
 next_review: 2026-12-18
 tags:
   - CKM-syndrome
@@ -53,7 +53,7 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
    - 證據強但未形成腎臟適應症：**HFpEF with obesity、secondary/post hoc cardiorenal outcomes**
 3. **Atrasentan（Vanrafia）** 已在美國取得 **primary IgAN accelerated approval**，核心依據仍是 **proteinuria surrogate**。**就台灣目前的一般核准可近性而言**，它是較直接的 nephrology-facing IgAN 選項——這是可近性陳述，**不是與 atacicept 的療效排序**。
 4. **Atacicept（Trutakna）** 是 IgAN 的第二個 accelerated approval：**2026-07-07 美國核准**，機轉為 BAFF／APRIL 雙抑制。與 atrasentan **在核准證據類型上同層級**（同為蛋白尿 surrogate 的 accelerated approval），但這不代表療效、安全性或整體證據成熟度已被證明等同，也無 head-to-head 證據。
-5. **Baxdrostat（Baxfendy）** 美國已於 **2026-05-15 核准**，但適應症為控制不佳的成人高血壓，**非腎臟適應症**；pivotal trial 要求 eGFR ≥45、血鉀 <5.0，仿單亦載明 eGFR <45 起始之安全性與療效尚未建立。
+5. **Baxdrostat（Baxfendy）** 美國已於 **2026-05-15 核准**，歐盟 CHMP 亦於 2026-11 建議核准，但適應症都是控制不佳的高血壓，**非腎臟適應症**；pivotal trial 要求 eGFR ≥45、血鉀 <5.0，仿單亦載明 eGFR <45 起始之安全性與療效尚未建立。
 6. **Finerenone 的真正現況要分開寫**：
    - 已核准：**CKD associated with T2D**（美國、台灣）
    - 美國另已擴展：**HF with LVEF ≥40%**
@@ -86,9 +86,9 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 | **Semaglutide** | FLOW + FDA CKD label | T2D+CKD 可降低 major kidney events / CV death 風險 | 已落地，不再只是 pipeline | 作為 GLP-1 renal comparator |
 | **Tirzepatide** | SUMMIT、SURPASS-4 post hoc、SURPASS-CVOT + official labels | CKM 訊號強，但腎臟與 HFpEF 仍沒有官方腎臟 / HFpEF label | 已核准 T2D；另有 obesity / OSA in obesity indications；非 kidney label | 常由 diabetes / obesity / HF pathway 先遇到 |
 | **Atrasentan (Vanrafia／穩腎優)** | ALIGN + FDA accelerated approval + 台灣許可證 | primary IgAN、快速進展風險高、以蛋白尿下降為目前核准基礎 | 美國已核准；**台灣 2026-06-22 核准**（衛部藥輸字第029157號）；hard renal outcome confirmatory data 待完成 | nephrology-facing add-on 藥物；台灣已可取得 |
-| **Atacicept (Trutakna)** | ORIGIN 3 第 36 週期中分析（NEJM, PMID 41196369）+ FDA 核准仿單 | primary IgAN、以蛋白尿下降為核准基礎的 BAFF／APRIL 雙抑制劑 | 美國 2026-07-07 accelerated approval（BLA 761486）；**截至 2026-10-08，TFDA 已發證許可證資料查無紀錄**；104 週 confirmatory 資料 2026-09-15 由廠商公告、尚未同儕審查 | 與 atrasentan 同層級的 IgAN add-on；屬免疫抑制劑，多一層感染與疫苗時程考量 |
-| **Baxdrostat (Baxfendy)** | BrigHTN / BaxHTN + 美國核准仿單 | aldosterone synthase inhibitor，對 uncontrolled / resistant HTN 有明顯降壓效果 | 美國 2026-05-15 核准，適應症為**高血壓**；截至 2026-10-08，TFDA 已發證許可證資料查無紀錄 | 不是腎臟科適應症；仿單載明 eGFR <45 起始未建立、最常見不良反應為高血鉀 |
-| **Orforglipron (Foundayo)** | ATTAIN-1（NEJM, PMID 40960239）+ 美國核准仿單 | 口服小分子 GLP-1 RA，已取得減重適應症；**沒有 T2D 適應症、沒有腎臟適應症** | 美國 2026-04-01 核准（NDA 220934），適應症為**成人肥胖／過重合併共病的減重與長期維持**；截至 2026-10-08，TFDA 已發證許可證資料查無紀錄 | 可能改變 GLP-1 RA 的給藥途徑門檻；無 dedicated renal outcome data |
+| **Atacicept (Trutakna)** | ORIGIN 3 第 36 週期中分析（NEJM, PMID 41196369）+ FDA 核准仿單 | primary IgAN、以蛋白尿下降為核准基礎的 BAFF／APRIL 雙抑制劑 | 美國 2026-07-07 accelerated approval（BLA 761486）；**截至 2026-11-15，TFDA 已發證許可證資料查無紀錄**；104 週 confirmatory 資料 2026-09-15 由廠商公告、尚未同儕審查 | 與 atrasentan 同層級的 IgAN add-on；屬免疫抑制劑，多一層感染與疫苗時程考量 |
+| **Baxdrostat (Baxfendy)** | BrigHTN / BaxHTN + 美國核准仿單 | aldosterone synthase inhibitor，對 uncontrolled / resistant HTN 有明顯降壓效果 | 美國 2026-05-15 核准、歐盟 CHMP 2026-11 建議核准，適應症皆為**高血壓**；截至 2026-11-15，TFDA 已發證許可證資料查無紀錄 | 不是腎臟科適應症；仿單載明 eGFR <45 起始未建立、最常見不良反應為高血鉀 |
+| **Orforglipron (Foundayo)** | ATTAIN-1（NEJM, PMID 40960239）+ 美國核准仿單 | 口服小分子 GLP-1 RA，已取得減重適應症；**沒有 T2D 適應症、沒有腎臟適應症** | 美國 2026-04-01 核准（NDA 220934），適應症為**成人肥胖／過重合併共病的減重與長期維持**；截至 2026-11-15，TFDA 已發證許可證資料查無紀錄 | 可能改變 GLP-1 RA 的給藥途徑門檻；無 dedicated renal outcome data |
 | **Retatrutide** | 三個 phase 2 試驗（PMID 37366315／37385280／38858523）| GIP／GLP-1／glucagon triple agonist，減重與肝脂訊號強，**腎臟 hard endpoint 尚未產生** | **尚未核准**（美、台皆查無已核准紀錄）；phase 3 進行中，含帶腎臟複合終點的 TRIUMPH-Outcomes | 現階段不是臨床選項；追蹤 TRIUMPH-Outcomes |
 | **Finerenone** | official labels + FIND-CKD（NEJM 2026, PMID 42246672）| 已核准 T2D-associated CKD；**美國與台灣仿單均已含 HF with LVEF ≥40%**；non-DM CKD：FIND-CKD 已正式發表、primary 達標 | non-DM CKD 仍 investigational | 不能把 FIND-CKD 當已完成擴證 |
 
@@ -209,7 +209,7 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 ### 3. Regulatory status：已核准，但核准的不是你以為的那件事
 
 - **美國已核准的是減重適應症**。這支藥**沒有 T2D 適應症、沒有任何腎臟適應症、也沒有 dedicated renal outcome trial**。
-- 台灣：**截至 2026-10-08，TFDA 已發證許可證資料查無 orforglipron／Foundayo 紀錄**。該資料集只涵蓋已發證許可證，**不涵蓋送件或審查中狀態**，因此這裡只能寫「查無許可證」，不能寫成「沒有在申請」。
+- 台灣：**截至 2026-11-15，TFDA 已發證許可證資料查無 orforglipron／Foundayo 紀錄**。該資料集只涵蓋已發證許可證，**不涵蓋送件或審查中狀態**，因此這裡只能寫「查無許可證」，不能寫成「沒有在申請」。
 - 後續 ATTAIN-2（obesity with T2D）與 ACHIEVE 系列（T2D efficacy）資料已陸續發表，但**腎臟 hard endpoint 仍闕如**。
 
 ### 4. 腎臟科實務定位
@@ -228,7 +228,7 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 
 - Retatrutide 是作用於 GIP／GLP-1／glucagon 三個受體的 triple hormone receptor agonist。
 - **尚未取得美國核准**：截至 2026-10-08，Drugs@FDA 查無 retatrutide 的已核准申請紀錄；ClinicalTrials.gov 另登錄一筆 **pre-approval expanded access**（NCT07629401），與未核准狀態一致。
-- 台灣：**截至 2026-10-08，TFDA 已發證許可證資料查無紀錄**。同前，這是「查無許可證」不是「沒有在申請」。
+- 台灣：**截至 2026-11-15，TFDA 已發證許可證資料查無紀錄**。同前，這是「查無許可證」不是「沒有在申請」。
 - Phase 2 資料已完整發表（見下節），**phase 3 計畫已全面展開**：
   - **TRIUMPH-1～4**：肥胖，以及巢式的 OSA、膝 OA 子計畫，另含合併 CVD 族群（整體逾 5,800 人）
   - **TRANSCEND-T2D-1／-2**：T2D（-2 為與 semaglutide 的 open-label 對照）
@@ -375,7 +375,7 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 - 就目前 FDA 的核准依據而言，兩者**同屬以蛋白尿 surrogate 支持的 accelerated approval**，在「核准證據類型」上同層級。但這**不代表療效、安全性或整體證據成熟度已被證明等同**，也沒有 head-to-head 證據可供排序。實務上的主要差別在機轉與監測負擔。
 - atacicept 是**免疫抑制劑**，這是 atrasentan 沒有的負擔。仿單的可操作要求是：**有活動性感染時延後起始、治療期間監測感染徵象、感染變嚴重時考慮中斷**；疫苗方面應於起始前依現行指引完成 age-appropriate immunization，且**活性疫苗不建議於起始前 30 天內或治療期間施打**。
 - terminal 半衰期約 40 天，代表**停藥後全身暴露不會迅速消失**；但不應僅憑半衰期推定臨床免疫效應的確切消退時間。
-- **截至 2026-09-15，TFDA 已發證許可證資料查無 atacicept／Trutakna 紀錄**（見下節）。就一般已核准藥品而言，目前尚非台灣可常規開立的選項；**專案進口與各院內取得狀態不在本文查核範圍**。現階段對台灣門診的意義是「知道它存在、知道它站在哪個證據層級」。
+- **截至 2026-11-15，TFDA 已發證許可證資料查無 atacicept／Trutakna 紀錄**（見下節）。就一般已核准藥品而言，目前尚非台灣可常規開立的選項；**專案進口與各院內取得狀態不在本文查核範圍**。現階段對台灣門診的意義是「知道它存在、知道它站在哪個證據層級」。
 
 ---
 
@@ -405,7 +405,8 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 
 - **美國：已核准。** 商品名 **BAXFENDY**，NDA 219878，AstraZeneca AB，核准日 **2026-05-15**（Drugs@FDA 申請案紀錄）。
 - **核准的適應症是高血壓，不是腎臟病**：aldosterone synthase inhibitor，**與其他降壓藥併用**，用於其他藥物控制不佳的成人高血壓，以降低血壓。仿單並載明「There are no controlled trials demonstrating risk reduction of these events with BAXFENDY」。
-- **台灣：查無許可證。** 依 2026-09-10 版 TFDA 西藥許可證資料集（83,483 筆）查詢，baxdrostat 與 Baxfendy 均無命中。**是否已進入送件或審查程序不在該資料集範圍內，本文不下定論。**
+- **歐盟：CHMP 建議核准。** EMA 人用藥品委員會（CHMP）2026-11-09～12 會議建議授予 Baxfendy（baxdrostat）上市許可，用於治療控制不佳的高血壓；這是委員會的建議意見，尚非已取得的歐盟上市許可。適應症同樣是高血壓，不是腎臟病。
+- **台灣：查無許可證。** 依 2026-11-15 下載之 TFDA 西藥許可證資料集（CSV 解析為 72,120 筆）查詢，baxdrostat 與 Baxfendy 均無命中。**是否已進入送件或審查程序不在該資料集範圍內，本文不下定論。**
 - 因此現在較準確的寫法不再是「還沒核准所以不能用」，而是：
   - **已有核准適應症，但那個適應症是高血壓**
   - **腎臟科場景（CKD、PA、合併 RAS blockade 或 MRA）都不在核准基礎內**
@@ -499,11 +500,11 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 ### B. 本次未以台灣官方來源直接確認者
 
 #### 1. Baxdrostat
-- **依 2026-09-15 版 TFDA 西藥許可證資料集（72,057 筆）查詢，查無 baxdrostat／Baxfendy 許可證。**（本文與下方 atacicept 使用**同一版本母體**重跑，以免兩個結論來自不同版本而無法對照。）
+- **依 2026-11-15 下載之 TFDA 西藥許可證資料集（CSV 解析為 72,120 筆）查詢，查無 baxdrostat／Baxfendy 許可證。**（本文與下方 atacicept 使用**同一版本母體**重跑，以免兩個結論來自不同版本而無法對照。）
 - 但**該資料集只涵蓋已發證的許可證**，是否已送件或在審查中不在其範圍內，本文不下定論。
 
 #### 2. Atacicept（Trutakna）
-- **依 2026-09-15 版 TFDA 西藥許可證資料集（72,057 筆）查詢，查無 atacicept／Trutakna 許可證。**
+- **依 2026-11-15 下載之 TFDA 西藥許可證資料集（CSV 解析為 72,120 筆）查詢，查無 atacicept／Trutakna 許可證。**
 - 同一份資料集可查得 finerenone、atrasentan、tirzepatide、semaglutide、spironolactone、**belimumab（同為 anti-BAFF 生物製劑）**、eculizumab 與 Vanrafia（衛部藥輸字第029157號），確認資料集涵蓋國際原廠生物製劑。
 - 界線同 baxdrostat：**該資料集只涵蓋已發證許可證**，是否已送件或在審查中不在其範圍，本文不下定論。
 
@@ -543,7 +544,7 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 若是 atacicept
 → 美國已核准（2026-07-07），適應症與 atrasentan 同樣是 primary IgAN 的蛋白尿下降
 → 核准基礎同為 surrogate；兩年 confirmatory 資料已公告但尚未同儕審查
-→ 截至 2026-09-15，TFDA 已發證許可證資料查無紀錄；就一般已核准藥品而言尚非可常規開立
+→ 截至 2026-11-15，TFDA 已發證許可證資料查無紀錄；就一般已核准藥品而言尚非可常規開立
 → 該資料不能判定是否已送件或審查中；專案進口與院內取得狀態未查
 ```
 
@@ -686,7 +687,7 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
    https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219878
 10. U.S. FDA. **BAXFENDY prescribing information**（適應症、hyperkalemia、eGFR 段落與 §8.6 Renal Impairment 均引自本檔）.
    https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/219878Orig1s000lbl.pdf
-11. 衛生福利部食品藥物管理署. **西藥、醫療器材、含藥化粧品許可證資料集**。本文的 Vanrafia、Kerendia 許可證字號與適應症逐字內容取自 **2026-09-15 版（CSV 解析為 72,057 筆）**；baxdrostat、atacicept、orforglipron、retatrutide **查無許可證**之結論已於 **2026-10-08 版（CSV 解析為 72,074 筆）重新確認**。同一資料集可查得 finerenone、atrasentan、tirzepatide、semaglutide、spironolactone 與 belimumab（同類 anti-BAFF 生物製劑），確認查詢有效。**該資料集僅涵蓋已發證許可證（含已註銷），不涵蓋送件中或審查中案件。**
+11. 衛生福利部食品藥物管理署. **西藥、醫療器材、含藥化粧品許可證資料集**。本文的 Vanrafia、Kerendia 許可證字號與適應症逐字內容取自 **2026-09-15 版（CSV 解析為 72,057 筆）**；baxdrostat、atacicept、orforglipron、retatrutide **查無許可證**之結論已於 **2026-11-15 下載版（CSV 解析為 72,120 筆）重新確認**。同一資料集可查得 finerenone、atrasentan、tirzepatide、semaglutide、spironolactone、belimumab（同類 anti-BAFF 生物製劑）與 eculizumab，確認查詢有效。**該資料集僅涵蓋已發證許可證（含已註銷），不涵蓋送件中或審查中案件。**
    https://data.fda.gov.tw/
 12. （歷史）AstraZeneca. **Baxdrostat NDA accepted under FDA Priority Review** (2025-12-02).
    https://www.astrazeneca.com/media-centre/press-releases/2025/baxdrostat-new-drug-application-accepted-under-fda-priority-review-in-the-us-for-patients-with-hard-to-control-hypertension.html
@@ -708,6 +709,8 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
    https://api.fda.gov/drug/label.json?search=openfda.generic_name:%22orforglipron%22
 32. Vera Therapeutics. **ORIGIN 3 兩年最終療效分析公告**（2026-09-15；本文 104 週 eGFR slope、複合終點與 sBLA 規劃均引自本公告，該資料尚未同儕審查）.
    https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-trutaknatm-atacicept-vymj-stabilized
+53. European Medicines Agency. **Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 9-12 November 2026**（建議授予 Baxfendy（baxdrostat）上市許可，適應症為控制不佳的高血壓）.
+   https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-9-12-november-2026
 
 ### PubMed / journal articles
 15. Perkovic V, et al. **Effects of Semaglutide on Chronic Kidney Disease in Patients with Type 2 Diabetes.** N Engl J Med. 2024. PMID: **38785209**.
@@ -764,6 +767,7 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 27. **FIND-CKD** — NCT05047263.
    https://clinicaltrials.gov/study/NCT05047263
 36. **ORIGIN 3** — NCT04716231（試驗編號依 Trutakna 核准仿單 §14 所載）.
+   https://clinicaltrials.gov/study/NCT04716231
 47. **ATTAIN-1**（orforglipron, obesity）— NCT05869903.
 48. **Retatrutide phase 2 obesity** — NCT04881760；**retatrutide phase 2 T2D** — NCT04867785.
 49. **TRIUMPH-Outcomes** — NCT06383390（phase 3、event-driven、n=10,000；BMI ≥27 且合併 ASCVD 和／或 CKD；主要終點含 ESKD／eGFR 持續下降 ≥40%／心血管死亡或腎臟死亡之腎臟複合終點；primary completion 預計 2029-02；查核日狀態 active, not recruiting）.
@@ -771,7 +775,6 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 50. **TRANSCEND-T2D-1** — NCT06354660；**TRANSCEND-T2D-2** — NCT06260722（與 semaglutide 之 open-label 對照）.
 51. **Retatrutide，T2D 合併中度至重度腎功能不全** — NCT06297603（phase 3、n=320；**終點為血糖控制，非腎臟結果**）.
 52. **Retatrutide pre-approval expanded access** — NCT07629401（與尚未核准狀態一致）.
-   https://clinicaltrials.gov/study/NCT04716231
 
 ---
 
