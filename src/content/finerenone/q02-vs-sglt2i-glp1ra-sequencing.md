@@ -2,9 +2,9 @@
 question_id: "Q02"
 title: "Finerenone 與 SGLT2i / GLP-1 RA 的排序與合併策略"
 category: "排序與合併"
-version: "v1.5"
+version: "v1.6"
 status: ""
-last_updated: 2026-05-27
+last_updated: 2026-11-21
 next_review: 2026-08-27
 tags: [finerenone, SGLT2i, GLP-1RA, sequencing, combination, decision-note, DKD, NDKD, non-diabetic-CKD]
 description: "在已接受 max tolerated ACEi/ARB 的 DKD 病人，finerenone 如何與 SGLT2i 及 GLP-1 RA 排序與合併？"
@@ -131,7 +131,7 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
 | 情境 | 建議 |
 |---|---|
 | 典型 NDKD（如 IgAN）on RASi，要再加一線 | **預設 SGLT2i**（hard-outcome 證據最強）|
-| NDKD 蛋白尿仍持續高（UPCR ≥0.5 g/g）on RASi + SGLT2i | **可個別化考慮 finerenone**，但**屬 off-label**（台灣健保僅給付 T2D + DKD）|
+| NDKD 蛋白尿仍持續高（UPCR ≥0.5 g/g）on RASi + SGLT2i | **可個別化考慮 finerenone**，但**屬 off-label**（台灣 CKD 適應症僅限 T2D 相關 CKD，且 finerenone 尚未納入健保）|
 | 非典型 NDKD（FSGS、obesity GN 等） | 走 disease-specific guideline；不要直接套用 Chen 2026 framework |
 | 病人/同事問「Chen 2026 不是說 finerenone 在蛋白尿主導 NDKD 比較好？」 | 說明這是 indirect、surrogate-based NMA；FIND-CKD RCT 已正式發表（NEJM 2026, PMID 42246672）提供直接證據，但 primary 為 eGFR slope surrogate，且台灣非糖尿病 CKD 仍屬 off-label |
 

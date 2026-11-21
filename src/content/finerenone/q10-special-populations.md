@@ -2,13 +2,13 @@
 question_id: "Q10"
 title: "Finerenone 於特殊族群的證據邊界與處方指引"
 category: "特殊族群"
-version: "v1.3"
+version: "v1.4"
 status: ""
-last_updated: 2026-10-16
+last_updated: 2026-11-21
 next_review: 2027-06-13
-tags: [finerenone, elderly, frailty, kidney-transplant, dialysis, hepatic-impairment, pregnancy, IgA-nephropathy, non-diabetic-CKD, decision-note]
-description: "Finerenone 在老年（含 ≥75 歲）、frailty、腎臟移植受贈者、dialysis、肝功能不全、懷孕哺乳、兒童及非糖尿病 CKD（含 IgAN）等特殊族群的證據邊界，區分 RCT subgroup、post-hoc 與純外推。"
-quick_answer: "老年（含 ≥75 歲）有 phase 3 subgroup evidence 支持 CV 獲益一致，不需因年齡降劑量。Frailty 為 post-hoc 分析，非 dedicated RCT。腎臟移植受贈者為 off-label（pivotal trials 排除）。Dialysis 無直接 trial。Child-Pugh C / pregnancy / pediatric 避免使用。非糖尿病 CKD（含 IgAN）：FIND-CKD（2026, NEJM）已提供 RCT 級證據，其 prespecified glomerular subgroup（JAMA 2026；IgAN/FSGS/MN，亞洲 62%）顯示 eGFR slope 保護與降白蛋白尿，但屬 subgroup、primary 為 slope surrogate，且在台灣非糖尿病 CKD 仍非核准適應症。"
+tags: [finerenone, elderly, frailty, kidney-transplant, dialysis, hepatic-impairment, pregnancy, IgA-nephropathy, non-diabetic-CKD, type-1-diabetes, decision-note]
+description: "Finerenone 在老年（含 ≥75 歲）、frailty、腎臟移植受贈者、dialysis、肝功能不全、懷孕哺乳、兒童、第一型糖尿病（T1D）相關 CKD 及非糖尿病 CKD（含 IgAN）等特殊族群的證據邊界，區分 RCT subgroup、post-hoc 與純外推。"
+quick_answer: "老年（含 ≥75 歲）有 phase 3 subgroup evidence 支持 CV 獲益一致，不需因年齡降劑量。Frailty 為 post-hoc 分析，非 dedicated RCT。腎臟移植受贈者為 off-label（pivotal trials 排除）。Dialysis 無直接 trial。Child-Pugh C / pregnancy / pediatric 避免使用。T1D 相關 CKD：美國 FDA 已於 2026-09-16 核准（依 FINE-ONE 的 UACR 降幅，由 T2D 試驗的腎臟結局外推），台灣仿單未含，屬 off-label 自費。非糖尿病 CKD（含 IgAN）：FIND-CKD（2026, NEJM）已提供 RCT 級證據，其 prespecified glomerular subgroup（JAMA 2026；IgAN/FSGS/MN，亞洲 62%）顯示 eGFR slope 保護與降白蛋白尿，但屬 subgroup、primary 為 slope surrogate，且在台灣非糖尿病 CKD 仍非核准適應症。"
 seo_title: "Finerenone 特殊族群｜老年、移植、透析、懷孕處方指引"
 ---
 
@@ -23,7 +23,7 @@ seo_title: "Finerenone 特殊族群｜老年、移植、透析、懷孕處方指
 | Child-Pugh A/B/C | 主要依仿單 PK/safety guidance | label-based |
 | Pregnancy / Lactation | 主要依非臨床毒理與仿單 | label-based |
 | Pediatric | 安全性/有效性未建立 | 無直接證據 |
-| T1D-CKD | FINE-ONE 已顯示 UACR surrogate benefit；尚非 label expansion | 新興 / 間接 |
+| T1D-CKD | 美國 FDA 2026-09-16 已核准（依 FINE-ONE 的 UACR 降幅外推）；台灣仿單未含 | 間接（UACR surrogate＋自 T2D 外推；無 T1D 硬終點）|
 | 非糖尿病 CKD / IgAN | FIND-CKD（NEJM 2026）+ 腎絲球次組（JAMA 2026）已提供 RCT 級 slope/albuminuria 證據 | **Moderate**（RCT，惟 primary 為 surrogate、glomerular 屬 subgroup；台灣非適應症內）|
 
 ---
@@ -73,9 +73,25 @@ FIDELITY post-hoc analysis 以 Rockwood frailty index 計算。效果不因 frai
 | Lactation | 治療期間及最後一劑後 1 天內不建議哺乳 | FDA 仿單 |
 | Pediatric | <18 歲安全性與有效性未建立 | FDA 仿單 |
 
-### 6) T1D-CKD
+### 6) T1D-CKD（v1.4 更新）
 
-FINE-ONE 2026 顯示 UACR surrogate benefit，但目前仍非既有 CKD/T2D indication 的等價延伸。
+#### 監管現況
+
+| 項目 | 現況 |
+|---|---|
+| **美國 FDA** | **2026-09-16 核准**：成人 T1D 相關 CKD，適應症文字為「降低 UACR，預期可降低 eGFR 持續下降與末期腎病的風險」 |
+| **核准依據** | FINE-ONE 的 UACR 降幅；FDA 以 FIDELIO-DKD / FIGARO-DKD 在 T2D 證實的腎臟結局，推論 T1D 的 UACR 下降可轉為腎臟保護——**T1D 本身沒有腎臟或心血管硬終點資料** |
+| **美國仿單劑量** | 與 T2D 相同：eGFR ≥60 起始 20 mg、25–<60 起始 10 mg、<25 不建議起始；血鉀 >5.0 mEq/L 不起始；目標 20 mg |
+| **台灣 TFDA** | 現行仿單（衛部藥輸字第 028326 號，114/12/11 版）適應症為 T2D 相關 CKD 與心衰竭（LVEF ≥40%），**未含 T1D**；用於 T1D-CKD 屬 off-label＋自費 |
+
+#### FINE-ONE 重點（Heerspink, *NEJM* 2026, PMID 41780000）
+
+- 收案：T1D、eGFR 25–<90、UACR 200–<5000 mg/g、已用 ACEi/ARB；**排除正在使用 SGLT2i 或 GLP-1 RA 的病人**
+- 主要結果：6 個月 UACR 比安慰劑多降 25%（幾何平均比 0.75；95% CI 0.65–0.87）
+- 高血鉀：10.1% vs 3.3%；因高血鉀停藥 1.7%
+- eGFR：6 個月變化 −5.6 vs −2.7 mL/min/1.73m²（差 −2.9），停藥 washout 期間回到接近基線
+
+KDIGO 2027 CKD 用藥更新草案另新增：T1D 合併 albuminuria、條件與 T2D 相同時，可考慮 nsMRA（2C）；草案尚未定稿，見 [KDIGO 2027 CKD 用藥草案重點](/blog/kdigo-2027-ckd-medications-draft/)。
 
 ### 7) 非糖尿病 CKD / IgA Nephropathy（v1.2 新增）
 
@@ -165,6 +181,13 @@ KDIGO 2027 草案的 2B 與這個立場方向一致：同樣要先用 RASi、最
 5. 注意 cyclosporine 為 CYP3A4/P-gp inhibitor，應高度謹慎
 6. 能進 trial 優先進 trial
 
+### T1D-CKD
+
+1. 台灣屬 off-label＋自費；已用足 ACEi/ARB、仍有持續白蛋白尿的病人，可個別化討論，需 shared decision-making 與病歷紀錄
+2. 起始與監測比照 T2D-CKD：起始前與起始後 4 週測血鉀與 eGFR，依血鉀調整劑量
+3. 與病人說明：目前證據是「白蛋白尿下降」，還沒有 T1D 病人「減少洗腎或死亡」的直接資料
+4. FINE-ONE 未納入正在用 SGLT2i 或 GLP-1 RA 的病人，併用時缺乏 T1D 資料
+
 ### 不建議 / 不受直接證據支持
 
 | 情境 | 建議 |
@@ -191,7 +214,7 @@ KDIGO 2027 草案的 2B 與這個立場方向一致：同樣要先用 RASi、最
 ### 中度不確定
 
 - ≥75 歲 kidney composite 受 competing risk 影響
-- FINE-ONE 尚不等同 label expansion
+- T1D-CKD：美國核准依據為 UACR 替代終點與 T2D 外推，T1D 的腎臟／心血管硬終點與長期安全性仍無直接資料
 
 ---
 
@@ -202,9 +225,10 @@ KDIGO 2027 草案的 2B 與這個立場方向一致：同樣要先用 RASi、最
   - 低至中等：frailty post-hoc
   - 很低：KTR
   - 極低：dialysis
+  - 間接：T1D-CKD（UACR surrogate＋自 T2D 外推）
   - label-based：hepatic / pregnancy / lactation / pediatric
 - **Key References**:
-  1. FDA Kerendia PI. 2025.
+  1. FDA Kerendia PI. Revised 2026-09（NDA 215341，S-011 T1D 相關 CKD 適應症，2026-09-16 核准）.
   2. KDIGO 2024 CKD Guideline.
   3. ADA Standards of Care 2026.
   4. Bansal S, et al. BMJ Open. 2024. PMID: 38508632.
@@ -214,11 +238,13 @@ KDIGO 2027 草案的 2B 與這個立場方向一致：同樣要先用 RASi、最
   8. Heerspink HJL, et al. N Engl J Med. 2026. PMID: 41780000.
   9. Zhang W, et al. Finerenone in IgA nephropathy: real-world 12-month propensity-matched cohort. *Ren Fail*. 2026;48(1):2644719. PMID: 42002725.
   10. KDIGO 2027 CKD Guideline Focused Update: Medications Management. Public review draft, October 2026. https://kdigo.org/wp-content/uploads/2026/10/KDIGO-2027-CKD-Guideline-Focused-Update-Public-Review-Draft.pdf
+  11. TFDA 藥品仿單：Kerendia（finerenone）20 mg，衛部藥輸字第 028326 號，114/12/11 版。
 
 ---
 
 ## 更新紀錄
 
+- **2026-11-21**：T1D-CKD 改寫——美國 FDA 2026-09-16 已核准 T1D 相關 CKD 適應症（依 UACR 外推），台灣仿單未含；補 FINE-ONE 收案條件、主要結果與安全性，以及台灣門診做法。原寫「尚非 label expansion」已過時。
 - **2026-10-16**：補 KDIGO 2027 CKD 用藥更新公開審閱草案的無糖尿病 finerenone 建議（2B）；健保敘述更正為「截至 2026-10-15 尚未納入健保給付」，與 [Q11](/finerenone/q11-taiwan-nhi-coverage/) 一致（原寫「僅限 T2D + DKD」）。
 
 ---

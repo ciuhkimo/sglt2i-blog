@@ -2,9 +2,9 @@
 question_id: "Q01"
 title: "DKD 何時加上 Finerenone — 啟動時機與治療定位"
 category: "起始治療"
-version: "v1.2"
+version: "v1.3"
 status: ""
-last_updated: 2026-05-27
+last_updated: 2026-11-21
 next_review: 2026-08-27
 tags: [finerenone, nonsteroidal-MRA, decision-note, DKD, albuminuria, cardiorenal]
 description: "Finerenone 在 T2D + albuminuric CKD 的啟動時機、治療定位（additive vs foundational）、劑量選擇與排序策略。"
@@ -48,7 +48,7 @@ seo_title: "DKD 何時加 Finerenone？啟動時機、定位與劑量指引"
 |---|---|---|
 | **KDIGO 2024** | Suggest 使用具 proven kidney / CV benefit 的 nsMRA 於 **T2D、eGFR >25、normal serum K、albuminuria >30 mg/g、且已用 max tolerated RASi** 的成人；並明載 nsMRA 可加在 **RASi + SGLT2i** 之上。 | finerenone 的 sweet spot 是 **albuminuric residual risk despite SOC**。 |
 | **ADA 2026** | 對 **CKD + albuminuria**，nsMRA 被列為用來降低 CKD progression 與 CV events 的治療選項；並新增「在 selected adults 可考慮與 SGLT2i simultaneous initiation」的表述。 | parallel start 從「研究概念」進入 guideline-supported option。 |
-| **FDA label（7/2025）** | **K >5.0 不可啟動**；eGFR ≥60 起始 20 mg、25-<60 起始 10 mg、<25 不建議啟動；4 週追蹤 K/eGFR。美國 label 另新增 HF（LVEF ≥40%）適應症與 40 mg strength，但 **DKD dosing 仍是 10/20 mg，target 20 mg**。 | DKD 臨床不要把 HF 的 40 mg regimen 直接搬來用。 |
+| **FDA label（9/2026）** | **K >5.0 不可啟動**；eGFR ≥60 起始 20 mg、25-<60 起始 10 mg、<25 不建議啟動；4 週追蹤 K/eGFR。美國 label 另有 HF（LVEF ≥40%，2025-07）與 T1D 相關 CKD（2026-09）適應症；HF 有 40 mg strength，但 **CKD（T2D 或 T1D）dosing 仍是 10/20 mg，target 20 mg**。 | DKD 臨床不要把 HF 的 40 mg regimen 直接搬來用。 |
 | **EMA current public SmPC / EPAR** | 目前公開適應症仍為 **CKD (with albuminuria) associated with T2D**；明載不應與 **other MRAs** 或 **potassium-sparing diuretics** 併用；若進展至 ESRD / eGFR <15 則停藥。 | EU 公開 label 仍是 CKD-with-T2D 為主；避免 co-MRA。 |
 | **TFDA** | Kerendia 10 mg / 20 mg 於 **2022-07-01** 核准，許可證字號 **衛部藥輸字第028325、028326號**。 | 台灣 regulatory approval 已確認。 |
 | **NHIA public documents** | 公開議程與會議文件曾討論 finerenone 健保給付條件，但**截至 2026-10-15 仍未收載**（見 [Q11](/finerenone/q11-taiwan-nhi-coverage/)）。 | 臨床上目前**不宜假設已可健保給付**。 |
@@ -241,7 +241,7 @@ T2D + CKD 病人就診
 ### 待追蹤研究 / 監管變化
 
 - **FIND-CKD（Heerspink, NEJM 2026, PMID 42246672）已正式發表**：finerenone 在 proteinuric 非糖尿病 CKD 減緩 eGFR slope（差 +0.7／年, P<0.001）、composite kidney-or-CV HR 0.77（0.60–0.99）——「何時起始」的適應範圍首次擴及非糖尿病 CKD；INFINITY（Neuen, Lancet 2026, PMID 42248158）pooled 後跨 T2D 與非糖尿病 albuminuric CKD 方向一致。惟 primary 為 slope surrogate，且**台灣 CKD 適應症目前仍限 T2D-related CKD**（非糖尿病屬適應症外、監管變更待後續）。
-- **FINE-ONE（T1D + CKD）**：2026 已有 surrogate positive publication，但目前仍屬 current label 之外的延伸證據，不應直接等同於 T2D-associated DKD 的 routine indication。
+- **FINE-ONE（T1D + CKD）**：美國 FDA 已於 2026-09-16 核准 T1D 相關 CKD 適應症（依 UACR 降幅，由 T2D 試驗的腎臟結局外推）；台灣 TFDA 仿單未含，屬 off-label。T1D 本身仍無硬終點資料，詳見 [Q10 — 特殊族群](/finerenone/q10-special-populations/)。
 - **EMA HF indication**：2026-01 已有 CHMP positive opinion，但截至 2026-05-27，公開 EPAR/SmPC 尚未完全反映 EC 最終核定後的更新版本。
 - **台灣 NHIA**：若未來有正式收載公告，臨床門檻、治療排序與可近性都可能實質改變。
 
@@ -257,11 +257,11 @@ T2D + CKD 病人就診
 | **Non-diabetic CKD extension** | **Moderate**（FIND-CKD slope-based RCT；台灣非適應症內）；T1D 仍 **Low** |
 | **臨床定位** | conditional foundational add-on rather than substitute |
 
-- **Evidence Sources**: FIDELIO-DKD (NCT02540993), FIGARO-DKD (NCT02545049), FIDELITY pooled analysis, CONFIDENCE (NCT05254002), KDIGO 2024, ADA 2026, FDA Kerendia PI (7/2025), EMA EPAR/SmPC
+- **Evidence Sources**: FIDELIO-DKD (NCT02540993), FIGARO-DKD (NCT02545049), FIDELITY pooled analysis, CONFIDENCE (NCT05254002), KDIGO 2024, ADA 2026, FDA Kerendia PI (9/2026), EMA EPAR/SmPC
 - **Key References**:
   1. KDIGO 2024 CKD Guideline. Kidney Int. 2024;105(4S):S117-S314. PMID: 38490803.
   2. ADA Standards of Care 2026. Diabetes Care. 2026;49(Suppl 1):S246-S260.
-  3. FDA Kerendia Prescribing Information. Revised 2025-07.
+  3. FDA Kerendia Prescribing Information. Revised 2026-09.
   4. EMA Kerendia EPAR / SmPC; CHMP positive opinion 2026-01-29.
   5. TFDA Assessment Report: Kerendia 10 mg / 20 mg; approval 2022-07-01.
   6. Bakris GL, et al. N Engl J Med. 2020;383:2219-2229. PMID: 33264825.
