@@ -2,9 +2,9 @@
 question_id: Q6
 title: PA + CKD：eGFR 三段式治療與手術後 acute eGFR dip 管理
 category: Treatment
-version: v1.1
+version: v1.2
 status: ""
-last_updated: 2026-05-12
+last_updated: 2026-11-21
 next_review: 2027-05-11
 seo_title: "PA + CKD 怎麼治療？eGFR 三段式 + 手術後 acute eGFR dip 完整框架（2025 ES + TAIPAI + Chen JY 2024）"
 description: "原發性醛固酮症合併慢性腎臟病的治療：依 eGFR 分三段調整 spironolactone、單側病灶的手術評估、術後腎功能短期下降該如何解讀，以及高血鉀時的處理選項。"
@@ -227,7 +227,7 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
 ### 4.4 Finerenone in CKD-PA — Off-label disclaimer ⚠️
 
 > **⚠️ Off-label 紅線**
-> **Finerenone 在原發性醛固酮（PA）為 off-label**：FDA / EMA / TFDA / 2025 Endocrine Society / 2023 TSA 皆無 PA 適應症；台灣健保僅給付 T2D-CKD。**機轉外推合理，但 hard endpoint 證據在 PA 不存在；不可外推 PA 優於 spironolactone**。
+> **Finerenone 在原發性醛固酮（PA）為 off-label**：FDA / EMA / TFDA / 2025 Endocrine Society / 2023 TSA 皆無 PA 適應症；台灣 CKD 適應症僅限 T2D 相關 CKD，且 finerenone 尚未納入健保。**機轉外推合理，但 hard endpoint 證據在 PA 不存在；不可外推 PA 優於 spironolactone**。
 
 **FIDELITY pooled analysis（T2D-CKD, NOT PA）**：
 - Hyperkalemia 14% vs 6.9%
