@@ -2,9 +2,9 @@
 question_id: "Q16"
 title: "2026 AHA/ACC/ADA/ASN CKM 指引：腎臟科實際要改什麼"
 category: "整合藥物策略"
-version: "v1.0"
+version: "v1.1"
 status: ""
-last_updated: 2026-09-12
+last_updated: 2026-11-25
 next_review: 2027-03-12
 tags:
   - CKM-syndrome
@@ -150,6 +150,14 @@ seo_title: "Q16 2026 AHA/ACC/ADA/ASN CKM 指引：腎臟科要改什麼 | CKM Sy
 
 SGLT2i 的台灣 CKD 給付條件同樣與指引門檻不同，已在 [Q12](/ckm/q12-low-egfr-ckm-strategy/) 處理，此處不重複。
 
+### 2026-12-01 起的兩項健保異動
+
+- **inclisiran（Leqvio）新增健保給付**（藥品給付規定 2.6.4.3）：須已發生重大動脈粥狀硬化心血管事件（如心肌梗塞、冠狀動脈或其他動脈血管再通術、動脈硬化相關之缺血性腦中風），並完成前置用藥（最大耐受劑量 statin 3 個月以上、再合併 ezetimibe 10 mg 3 個月以上；對 statin 有禁忌或確診不耐受者，ezetimibe 至少 3 個月），LDL-C 仍 >100 mg/dL，才可送事前審查。每次核准 12 個月，續用須 LDL-C 較用藥前下降至少 30%。
+  - 這是**給付門檻**，不是治療目標；指引對 CKM stage 4 的目標仍是 LDL-C <55 mg/dL。
+  - 給付以重大心血管事件為必要條件，**單憑 CKD 不能申請**。
+  - 事件時點、用藥期間與佐證資料，請對照[健保署公告](https://www.nhi.gov.tw/ch/cp-20724-a266b-3258-1.html)與[給付規定修訂對照表（含新版附表二-D）](https://www.nhi.gov.tw/ch/dl-104000-c3a0ad1e72c6482fa62f7d751e436d63-1.pdf)；條文整理見 [11-15 至 11-21 期週報](/regulatory/2026-11-21-tfda-weekly/)。
+- **六個口服降血脂品項放寬給付並調價**：3 個 statin 單方品項移出 2.6.1「僅適用表二」清單，改適用含 CKD 高風險分層的表一；3 個 ezetimibe／statin 複方品項不必再先用 statin 單方治療 3 個月。**只限公告列出的健保代碼，不是整類放寬**；品項與代碼見[健保署公告](https://www.nhi.gov.tw/ch/cp-20681-3808b-3258-1.html)與 [10-25 至 10-31 期週報](/regulatory/2026-10-31-tfda-weekly/)。
+
 ## 關於那條「finerenone 不具成本效益」
 
 指引在 CKD 用藥那一節收錄了三條經濟性陳述：
@@ -205,6 +213,10 @@ SGLT2i 的台灣 CKD 給付條件同樣與指引門檻不同，已在 [Q12](/ckm
    https://doi.org/10.1056/NEJMoa2410659
 7. 衛生福利部中央健康保險署. **全民健康保險降血脂藥物給付規定表（115/9/1）**，藥品給付規定 2.6.1。
    https://info.nhi.gov.tw/api/INAE3000/INAE3000S01/getPDF?DurgFileName=2.6.1._20260901.pdf
+8. 衛生福利部中央健康保險署. **公告暫予支付含 inclisiran 成分藥品 Leqvio solution for injection in pre-filled syringe 及其藥品給付規定暨修訂 2.6.4 PCSK9 血脂調節劑給付規定**（健保審字第 1150058558 號，2026-11-13；2026-12-01 生效）。
+   https://www.nhi.gov.tw/ch/cp-20724-a266b-3258-1.html
+9. 衛生福利部中央健康保險署. **公告異動降血脂藥品支付價格及修訂其藥品給付規定**（健保審字第 1150672925 號，2026-10-29；2026-12-01 生效）。
+   https://www.nhi.gov.tw/ch/cp-20681-3808b-3258-1.html
 
 ## 🔜 下一題
 
