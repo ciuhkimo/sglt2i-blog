@@ -1,9 +1,9 @@
 ---
 title: "透析後反覆腹痛冒冷汗：別漏掉 Non-Occlusive Mesenteric Ischemia"
-description: "HD 病人洗後腹痛 + 冒冷汗的 splanchnic hypoperfusion / NOMI 識別與處置：5 步驟地區醫院工作流程、台灣 Kalimate 紅旗、Mesenteric duplex US PSV cutoffs、Papaverine 治療 protocol，整合最新實證與地區醫院可執行的判斷路徑。"
+description: "HD 病人洗後腹痛 + 冒冷汗的 splanchnic hypoperfusion / NOMI 識別與處置：懷疑即立即 CTA 的地區醫院工作流程、台灣 Kalimate 紅旗、Mesenteric duplex US PSV cutoffs、Papaverine 治療 protocol，整合最新實證與地區醫院可執行的判斷路徑。"
 category: "腎臟科血液透析併發症"
 target_audience: "腎臟科醫師、透析中心護理師、內科醫師"
-last_updated: 2026-10-10
+last_updated: 2026-11-25
 tags: [血液透析, HD, NOMI, mesenteric-ischemia, 過度脫水, dry-weight, IDH, 腸缺血, papaverine, Kalimate, 健保, 台灣, ultrafiltration, 透析併發症]
 seo_title: "HD 透析後腹痛冒冷汗：NOMI 識別與地區醫院工作流程"
 ---
@@ -13,7 +13,7 @@ seo_title: "HD 透析後腹痛冒冷汗：NOMI 識別與地區醫院工作流程
 - 血液透析病人**洗後腹痛 + 冒冷汗**——別只想 IDH，**先想 Non-Occlusive Mesenteric Ischemia（NOMI）**
 - HD 族群 mesenteric ischemia 風險是一般人的 **44 倍**（台灣 nationwide cohort, n=55,807）
 - Pooled NOMI mortality **58.4%**；HD-specific event mortality 45–60%、1-year 可達 85%
-- **5 步驟地區醫院工作流程**：EKG+Troponin → Lactate → 評估方向 → Triphasic CT @ post-HD 1–2h → CTA + 醫學中心
+- **地區醫院工作流程**：臨床懷疑急性腸繫膜缺血就**立即安排 CTA**；lactate 與心臟評估（EKG + Troponin）並行、不等結果；院內無法及時做 CTA，同步啟動急症會診與轉送協調
 - 台灣特別紅旗：**Kalimate / Kayexalate** 相關 colonic necrosis（ESRD 53%, mortality 20.7%）
 - 治療 anchor：**Intra-arterial papaverine**（NNT ≈ 3, ACR 2022 first-line）
 - 核心張力：**「保腸 vs 保容量」目前沒有 RCT 答案**
@@ -34,7 +34,7 @@ seo_title: "HD 透析後腹痛冒冷汗：NOMI 識別與地區醫院工作流程
 1. NOMI 的 mortality 是真的高——**pooled estimate 約 58%**（Tamme 2022 meta, n=163 studies），HD-specific cohort 在不同來源報告 **45–60% event-level、長期 1-year mortality 在 chronic dialysis 可達 85%**。**最新 prospective multicentre AMESI study (n=705) 報告 NOMI in-hospital + 90-day mortality 72.7–74.5%**。
 2. 這個專題的**整體證據水準偏低**——大部分推薦來自 mechanistic studies、observational cohorts，與 expert consensus，**不是 RCT-grade evidence**。本文會標出每個建議的證據強度。
 
-這篇文章整理一個真實 case 的決策過程，加上**地區醫院腎臟科實際可操作的 5 步驟工作流程**——不是教科書理想答案，是台灣臨床現場的可行答案。
+這篇文章整理一個真實 case 的決策過程，加上**地區醫院腎臟科實際可操作的工作流程**——不是教科書理想答案，是台灣臨床現場的可行答案。
 
 ---
 
@@ -133,43 +133,38 @@ HD 病人慢性 elevated renin → 基線 angiotensin II-mediated mesenteric vas
 
 ---
 
-## ⭐ 5 步驟工作流程（地區醫院可操作版）
+## ⭐ 工作流程（地區醫院可操作版）
 
 > 這是這篇文章的核心 anchor。**不是國際教科書的理想答案，是地區醫院腎臟科可立刻執行的精煉版。**
 >
-> 下面這 5 步是我**現在**會跑的——以前不會這樣，是這個 case 教我的。
+> 下面這 3 步是我**現在**會跑的——以前不會這樣，是這個 case 教我的。
 
 ```
-Step 1: EKG + Troponin I
-   ↓ 先排 inferior wall MI（最危險的鑑別）
-
-Step 2: Lactate
-   ↓ 確認是否真有 tissue hypoperfusion（不是單純 functional IDH）
-
-Step 3: 評估後續方向
-   ↓ 若 cardiac 排除 + lactate 提示 hypoperfusion
-
-Step 4: Contrast Triphasic CT @ post-HD 1–2h
-   ↓ 評估 celiac trunk / SMA / IMA / portal vein
-   ↓ 在地區醫院可行 + 適應症較易申請
-
-Step 5: CTA @ 醫學中心
-   ↓ 若 triphasic CT 證據強 + 需評估 endovascular intervention
+臨床懷疑急性腸繫膜缺血
+（洗後腹痛 + 冒冷汗 + 上方紅旗）
+  │
+  ├─ Step 1：立即安排 CTA
+  │    不等 lactate 或其他檢驗結果
+  │
+  ├─ Step 2：同時評估心臟與 lactate
+  │    EKG + Troponin I、lactate
+  │    與 CTA 並行，不排在 CTA 前面
+  │
+  └─ Step 3：院內無法及時做 CTA
+       同步啟動急症會診與轉送協調
 ```
 
 ### 各步驟設計理由
 
 | 步驟 | 為什麼這樣做 | Evidence base |
 |---|---|---|
-| **Step 1：EKG + Troponin I** | Inferior wall MI 可以 epigastric pain + diaphoresis 表現，最常見也最危險的陷阱；先排心臟事件不能省 | 標準臨床原則 |
-| **Step 2：Lactate** | 區分 functional IDH 不適 vs 真有 organ ischemia；**>2 mmol/L 即警覺**（HR 4.1 for irreversible ischemia, WSES 2022） | WSES 指南 |
-| **Step 3：評估方向** | Lactate 正常 + cardiac 排除 → 較可能是 functional IDH，先以 HD prescription 調整為主；Lactate 偏高 → 進入影像 | 邏輯整合 |
-| **Step 4：Triphasic CT @ post-HD 1–2h** | ① **Timing**：post-HD 1–2h 是 residual hypoperfusion 仍可見的窗口；② **Access**：triphasic 在地區醫院申請門檻低於 CTA；③ **Yield**：portal phase 對 mesenteric venous engorgement / bowel wall enhancement 有意義 | CTA pooled sensitivity 93–94%, specificity 95–96%；但 **interictal 量化 yield 數據不足**（evidence gap） |
-| **Step 5：CTA + 醫學中心** | 資源密集步驟保留 refractory case；非急性轉介 | 臨床現實 |
+| **Step 1：立即安排 CTA** | 診斷延誤是急性腸繫膜缺血死亡率高的主因；WSES 2022 引述，延誤每 6 小時死亡率約加倍。等 lactate 結果、等透析結束後再照，都是延誤 | WSES 2022 Statement 5：懷疑 AMI 即應立即做 CTA（1A）；CTA pooled sensitivity 93–94%、specificity 95–96% |
+| **Step 2：心臟評估與 lactate 並行** | Inferior wall MI 可以 epigastric pain + diaphoresis 表現，是最危險的陷阱，EKG + Troponin I 不能省，但與 CTA 同時進行。Lactate 用來評估灌流與病情嚴重度，**正常不能排除**，也不作為是否安排 CTA 的門檻 | WSES 2022 Statement 4：沒有檢驗足以確認或排除腸缺血，lactate、白血球、D-dimer 只能輔助（2B） |
+| **Step 3：院內無法及時做 CTA** | 同步啟動急症會診與轉送協調，不先等檢驗結果 | 臨床現實（依「CTA 不應延誤」推論） |
 
-### Triphasic CT 下單的小技巧
+### 影像申請單的小技巧
 
-Triphasic CT 預設是 hepatic protocol，radiologist 可能聚焦肝臟病灶。建議在 clinical note 註明：
+Triphasic CT 預設是 hepatic protocol，radiologist 可能聚焦肝臟病灶。不論申請哪一種影像，都建議在 clinical note 註明：
 
 > 「臨床懷疑 mesenteric hypoperfusion / NOMI；請特別評估 **celiac trunk / SMA / IMA / portal vein 通暢度與 bowel wall enhancement pattern**。」
 
@@ -181,8 +176,8 @@ Triphasic CT 預設是 hepatic protocol，radiologist 可能聚焦肝臟病灶�
 
 | Marker | 性能 | 臨床意義 |
 |---|---|---|
-| **Lactate >2 mmol/L** | 與不可逆腸缺血相關，HR 4.1（WSES 2022 引用的 AMI 研究，不是 NOMI 專屬門檻）| 警覺，儘速安排影像評估 |
-| **Lactate >7.68 mmol/L** | 探索性預後分界（Winzer 2020，回溯性，n=35 接受動脈內 papaverine）：AUC 0.79，高於此值者 30 天內 15/17 死亡 | 提示預後差，**不是**治療無效或直接開刀的門檻（見下方治療段）|
+| **Lactate >2 mmol/L** | 與不可逆腸缺血相關，HR 4.1（WSES 2022 引用的 AMI 研究，不是 NOMI 專屬門檻）| 提示灌流不足、病情較重；正常不能排除，不作為安排 CTA 的門檻 |
+| **Lactate >7.68 mmol/L** | 探索性預後分界（Winzer 2020，回溯性，n=35 接受動脈內 papaverine）：AUC 0.79，高於此值者 30 天內 15/17 死亡 | 探索性預後分界，**不作**診斷或處置門檻（見下方治療段）|
 | **Serum I-FABP** | 敏感度 73.9%／特異度 90.5%（Reintam Blaser 2023 統合分析，16 項研究）| 不能單獨決策 |
 | **Serum I-FABP 3.1 ng/mL** | Kanda 2011 研究使用的切點（急腹症 361 人；陽性／陰性概似比 3.01／0.29）| 受檢測方法與族群影響，不是通用臨床門檻 |
 | **Urinary I-FABP** | 敏感度 87.9%／特異度 78.9%（Reintam Blaser 2023 統合分析，4 項研究）| 替代選項；採尿較簡便，但研究數少 |
@@ -202,7 +197,7 @@ Triphasic CT 預設是 hepatic protocol，radiologist 可能聚焦肝臟病灶�
 | Peptic ulcer perforation | Free air on imaging |
 | Dialysis disequilibrium syndrome | 與 BUN 急速下降相關，較常於高 BUN baseline |
 | ACEi-induced angioedema | 若有使用 ACEi、伴隨臉/口部水腫 |
-| 單純 IDH | Lactate 正常 + 症狀短暫、隨血壓回復而緩解 |
+| 單純 IDH | 症狀短暫、隨血壓回復而完全緩解（lactate 正常不能排除 NOMI）|
 | ⭐ **Kalimate/Kayexalate-induced colitis** | **必查 medication list**；ESRD 53% bias |
 
 ---
@@ -279,7 +274,7 @@ Triphasic CT 預設是 hepatic protocol，radiologist 可能聚焦肝臟病灶�
 | 對 chronic mesenteric ischemia / 結構性病變 | ⭐ **可診斷**（PSV cutoff 已驗證）| 同 |
 | 操作者依賴度 | 高 | 低 |
 
-→ **地區醫院最佳策略**：症狀緩解期，先做 mesenteric duplex US 評估有無 chronic structural disease；急性發作期，CTA 適應症明確才申請。
+→ **地區醫院最佳策略**：症狀緩解期，先做 mesenteric duplex US 評估有無 chronic structural disease；急性發作期，臨床懷疑急性腸繫膜缺血就立即安排 CTA（見工作流程）。
 
 ---
 
@@ -580,6 +575,7 @@ Winzer 2020 在 35 位接受動脈內 papaverine 的病人中，用治療前數�
 
 - **2026-10-10**：原文把 lactate >7.68 mmol/L、pH <7.31、base excess <-4.55 寫成「futility threshold」，並建議達到時考慮直接開腹。回到原始研究核對後，這組數字出自單一回溯性研究（Winzer 2020，n=35），原作者描述的是與 30 天死亡相關的預後分界，並沒有提出改直接開腹的建議。該段已改寫為探索性預後分界，pH 分界依正文及表 4 改為 <7.32，並補上一篇終點不同的前瞻性研究作為補充；同時更正該研究在參考文獻中的卷期頁碼。
 - **2026-10-10**：同日更正檢驗表。D-dimer 原寫「Rule-out 用」，改為不能單獨排除或確診，數字原本無法回溯出處，改用 Reintam Blaser 2023 統合分析；I-FABP 的敏感度與特異度原本混接不同研究，改回 Reintam Blaser 2023 統合分析的原始數字；citrulline 原寫「AUC 0.46–0.68」，其中 0.46 是 Youden index 而非 AUC，已更正；I-FABP 3.1 ng/mL 原標為可操作數字，改為研究使用的切點；lactate >2 mmol/L 補註為 AMI 研究的數據。
+- **2026-11-25**：工作流程原本把 lactate 排在影像之前，寫成 lactate 偏高才進入影像、先在透析後 1–2 小時做 triphasic CT、再視結果到醫學中心做 CTA，與檢驗段「不應等待 lactate 升高才安排 CTA」矛盾，照流程走可能延誤檢查。已依 WSES 2022 改為：臨床懷疑急性腸繫膜缺血就立即安排 CTA，lactate 與心臟評估並行；院內無法及時做 CTA，同步啟動急症會診與轉送協調。摘要、流程圖、步驟表、檢驗表與鑑別表一併修正；lactate 7.68 mmol/L 維持為回溯研究的探索性預後分界，不作診斷或處置門檻。
 
 ---
 
