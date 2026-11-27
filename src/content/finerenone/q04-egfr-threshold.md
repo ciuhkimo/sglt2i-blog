@@ -2,13 +2,13 @@
 question_id: "Q04"
 title: "Finerenone eGFR 門檻 — 起始 vs 持續使用"
 category: "起始與劑量"
-version: "v1.2"
+version: "v1.3"
 status: ""
-last_updated: 2026-05-27
-next_review: 2026-08-27
+last_updated: 2026-11-27
+next_review: 2027-05-27
 tags: [finerenone, nonsteroidal-MRA, eGFR, CKD-staging, decision-note, dosing]
 description: "Finerenone 的 eGFR 起始門檻、持續使用門檻與停藥門檻，以及 CKD/T2D 與 HF 兩種適應症的劑量差異。"
-quick_answer: "eGFR ≥60 起始 20 mg QD、eGFR 25-<60 起始 10 mg QD、eGFR <25 不建議起始。治療中跌破 25 不等於必須停藥（CKD/T2D：eGFR ≥15 可續用；<15/ESKD 停藥）。eGFR 下降 >30% 時不要上調劑量，先排除可逆因素。"
+quick_answer: "eGFR ≥60 起始 20 mg QD、eGFR 25-<60 起始 10 mg QD、eGFR <25 不建議起始。治療中跌破 25 不等於必須停藥（TFDA／EMA 仿單：eGFR ≥15 可續用；<15/ESKD 停藥）。eGFR 下降 >30% 時不要上調劑量，先排除可逆因素。"
 seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
 ---
 
@@ -38,13 +38,13 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
 ### 2) 治療中 eGFR 跌破 25，是否必須停藥？
 
 - **不是。**
-- 對 **CKD/T2D** 而言，TFDA/EMA 的用字都支持：**治療中若 eGFR 仍 ≥15**，可在血鉀監測下繼續；若進展至 **ESKD / eGFR <15**，應停藥。
-- 對 **HF（LVEF ≥40%）** 而言，FDA 的 HF 標示重點是：**定期追 eGFR**，若出現 **clinically significant worsening renal function**，應考慮 **延後 up-titration 或暫時中斷**。
+- **TFDA（6.7 節）與 EMA 仿單的腎功能不全段落不分適應症**：**治療中若 eGFR 仍 ≥15**，可考慮在血鉀監測下繼續；若進展至 **ESKD / eGFR <15**，應停藥。FDA 仿單沒有這一條。
+- **HF（LVEF ≥40%）** 另有一條：FDA 與 TFDA 都要求維持期**定期追 eGFR**，若出現 **clinically significant worsening renal function**，應考慮 **延後 up-titration 或暫時中斷**；EMA 則寫明 eGFR 較前次下降 **≥40%** 時考慮減量或暫停。
 
 ### 3) 4 週後若 eGFR 比前次下降 >30%
 
 - **不要自動上調劑量。**
-- CKD/T2D label：若 eGFR 較前次下降 **>30%**，則 **維持目前劑量/不要往上加**。
+- 仿單（CKD 與 HF 皆同）：若 eGFR 較前次下降 **>30%**，則 **維持目前劑量/不要往上加**。
 - 實務上要先排除可逆因素：**AKI、volume depletion、over-diuresis、NSAID、sepsis、低灌流、recent contrast** 等。
 
 ---
@@ -58,10 +58,10 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
 | **起始（CKD/T2D 或 HF）** | ≥60 | **20 mg QD** |
 | **起始（CKD/T2D 或 HF）** | 25-<60 | **10 mg QD** |
 | **起始（CKD/T2D 或 HF）** | <25 | **Do NOT initiate** |
-| **持續（CKD/T2D）** | 15-<25 | **可考慮繼續**，依血鉀與腎功能調整，密切監測 |
-| **持續（CKD/T2D）** | <15 / ESKD | **停藥** |
+| **持續（不分適應症；TFDA／EMA）** | 15-<25 | **可考慮繼續**，依血鉀與腎功能調整，密切監測 |
+| **持續（不分適應症；TFDA／EMA）** | <15 / ESKD | **停藥** |
 | **持續（HF）** | 治療後跌破 25 | **不是自動停藥線**；先看血鉀、eGFR 下降幅度 |
-| **持續（HF）** | clinically significant worsening | **延後 up-titration 或暫停** |
+| **持續（HF）** | clinically significant worsening（EMA：較前次下降 ≥40%） | **延後 up-titration、減量或暫停** |
 
 ### 劑量與 eGFR 分層
 
@@ -73,6 +73,8 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
 
 > HF 的目標劑量是依 **「開始治療時的 eGFR」** 決定，而不是依之後某次門診的 eGFR 臨時改寫成另一個 target。
 
+> 美國 FDA 仿單 2026-09 起納入 **T1D 相關 CKD**，起始與調整規則與 T2D 相同（目標 20 mg）；台灣仿單未含 T1D，屬 off-label，詳見 [Q10 — 特殊族群](/finerenone/q10-special-populations/)。
+
 ### Early acute eGFR dip：不應視為自動停藥理由
 
 - FIDELITY prespecified pooled analysis 納入 **12,798** 位 CKD+T2D 病人。
@@ -81,7 +83,7 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
 
 ### eGFR 20-25 + non-DM real-world 觀察訊號（Aledan 2026, Very Low certainty）— v1.2 新增
 
-⭐ **Aledan & Abbood 2026 *Front Nephrol*（PMID 42179848）**——單中心前瞻 cohort（伊拉克 Basra, N=180, 2023/01–2024/06, 1 年追蹤），刻意納入 **eGFR 20–60 ml/min** 的 CKD stage 3–4 病人，**包含 22% 非糖尿病**。
+⭐ **Aledan & Abbood 2026 *Front Nephrol*（PMID 42179848）**——前瞻 cohort（伊拉克 Basra 一處腎臟與移植中心及私人診所, N=180, 2023/01–2024/06, 1 年追蹤），刻意納入 **eGFR 20–60 ml/min** 的 CKD stage 3–4 病人，**包含 22% 非糖尿病**。
 
 | Subgroup | eGFR/UACR 變化（1 年） | 性質 |
 |---|---|---|
@@ -90,13 +92,13 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
 | **非糖尿病 (22%)** | 同樣顯著改善 (P<0.001) | NDKD real-world 訊號 |
 | 血清 K⁺ | **未升高（did not elevate）** | 安全性正向（單臂無 placebo 對比）|
 
-**LOE / 限制**：Oxford Level 3–4；GRADE **Very Low**；單中心、**無對照組、before-after cohort 設計**；abstract 未提供劑量 / RASi / SGLT2i 背景比例；regression-to-the-mean 與 background therapy 變動干擾無法排除；伊拉克單一族群外推性受限。
+**LOE / 限制**：Oxford Level 3–4；GRADE **Very Low**；單一地區、**無對照組、before-after cohort 設計**；abstract 未提供劑量 / RASi / SGLT2i 背景比例；regression-to-the-mean 與 background therapy 變動干擾無法排除；伊拉克單一族群外推性受限。
 
 **對 Q04 的實務含意**：
 
 | 該寫的 | 不該寫的 |
 |---|---|
-| ✅ eGFR 20–25 區間（EMA SmPC 允許但 FIDELIO 未納入）有 **real-world 觀察訊號** | ❌ 把無對照 cohort 的 eGFR「改善」與 RCT 級 eGFR slope 證據等同 |
+| ✅ eGFR 20–25 區間（FDA／EMA／TFDA 仿單皆不建議在此起始，FIDELIO 也未納入）有 **real-world 觀察訊號** | ❌ 把無對照 cohort 的 eGFR「改善」與 RCT 級 eGFR slope 證據等同 |
 | ✅ 非糖尿病 subgroup 與 **FIND-CKD（NEJM 2026 已發表，eGFR 25–<90 收案）** 方向一致，但 Aledan 證據等級**遠低** | ❌ 因 Aledan 就放寬 eGFR ≥25 起始門檻為常規 |
 | ✅ 補強 Q04「eGFR 20–25 灰色地帶」的決策對話素材 | ❌ 把 K⁺「未升高」推為「無 hyperkalemia 風險」（單臂 cohort 無 placebo 對比） |
 
@@ -145,16 +147,16 @@ seo_title: "Finerenone eGFR 門檻｜起始、持續與停藥決策指引"
   - Moderate：eGFR 15-24 維持策略
   - Low：AKI 後最適重啟時機；dialysis population
 - **Key References**:
-  1. TFDA Kerendia 仿單. Accessed 2026-04-19.
-  2. FDA Kerendia PI. Revised 07/2025.
-  3. EMA Kerendia SmPC.
-  4. Navaneethan SD, et al. Kidney Int. 2025. PMID: 40268166.
-  5. Sarafidis P, et al. Clin J Am Soc Nephrol. 2023. PMID: 36927680.
-  6. Solomon SD, et al. N Engl J Med. 2024. PMID: 39225278.
-  7. Chimura M, et al. JACC Heart Fail. 2026. PMID: 41642173.
-  8. Heerspink HJL, et al. (FIND-CKD). Finerenone in Persons with CKD without Diabetes. N Engl J Med. 2026. PMID: 42246672.（proteinuric 非糖尿病 CKD，eGFR 25–<90 收案；確認起始門檻 eGFR ≥25 延伸至非糖尿病族群）
-  10. Neuen BL, et al. (INFINITY IPD pooled). Lancet. 2026;407:2375-2386. PMID: 42248158.（效益跨 baseline eGFR 一致，支持 eGFR 門檻不因病因而異）
+  1. TFDA Kerendia 仿單（衛部藥輸字第 028325／028326 號，114/12/11 版）. Accessed 2026-11-27.
+  2. FDA Kerendia PI. Revised 09/2026.
+  3. EMA Kerendia SmPC (EMEA/H/C/005200). Accessed 2026-11-27.
+  4. Navaneethan SD, et al. Kidney Int. 2025;108(1):136-144. PMID: 40268166.
+  5. Sarafidis P, et al. Clin J Am Soc Nephrol. 2023;18(5):602-612. PMID: 36927680.
+  6. Solomon SD, et al. N Engl J Med. 2024;391(16):1475-1485. PMID: 39225278.
+  7. Chimura M, et al. JACC Heart Fail. 2026;14(6):102938. PMID: 41642173.
+  8. Heerspink HJL, et al. (FIND-CKD). Finerenone in Persons with CKD without Diabetes. N Engl J Med. 2026;395(6):533-545. PMID: 42246672.（proteinuric 非糖尿病 CKD，eGFR 25–<90 收案；非糖尿病 CKD 的隨機試驗證據同樣只涵蓋 eGFR ≥25 起始，且此族群目前不在 FDA／EMA／TFDA 適應症內）
   9. **Aledan H, Abbood AS. 2026.** Efficacy and safety of finerenone in chronic kidney disease stages 3-4 in diabetic and non-diabetic patients with an eGFR 20-60 mL/min: a prospective cohort study. *Front Nephrol.* 6:1716452. **PMID: 42179848**. DOI: 10.3389/fneph.2026.1716452. *(v1.2 新增 — 單中心 cohort N=180, eGFR 20-25 subgroup n=65 + non-DM 22% 同見改善, Very Low certainty)*
+  10. Neuen BL, et al. (INFINITY IPD pooled). Lancet. 2026;407:2375-2386. PMID: 42248158.（三個試驗皆以 eGFR ≥25 收案；腎臟複合終點效益在不同 baseline eGFR、CKD 病因與血糖狀態間一致）
 
 ---
 
