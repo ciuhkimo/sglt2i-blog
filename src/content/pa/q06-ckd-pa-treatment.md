@@ -2,9 +2,9 @@
 question_id: Q6
 title: PA + CKD：eGFR 三段式治療與手術後 acute eGFR dip 管理
 category: Treatment
-version: v1.2
+version: v1.3
 status: ""
-last_updated: 2026-11-21
+last_updated: 2026-11-27
 next_review: 2027-05-11
 seo_title: "PA + CKD 怎麼治療？eGFR 三段式 + 手術後 acute eGFR dip 完整框架（2025 ES + TAIPAI + Chen JY 2024）"
 description: "原發性醛固酮症合併慢性腎臟病的治療：依 eGFR 分三段調整 spironolactone、單側病灶的手術評估、術後腎功能短期下降該如何解讀，以及高血鉀時的處理選項。"
@@ -250,7 +250,7 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
 
 **3. 後續試驗**（ClinicalTrials.gov，2026-10-15 查詢）：finerenone vs spironolactone 隨機試驗 FAIRY（NCT06457074，n=306）已於 2026-04 完成；FAVOR（NCT06164379）與 NCT05814770 狀態不明；單臂試驗 NCT06381323（n=55）已完成
 
-**TW NHI**：截至 2026-10-15，finerenone 仍未納入健保給付（任何適應症；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)）。PA **不是核准適應症**，也沒有 PA hard endpoint trial；以 PA 為適應症使用屬 off-label 自費。公開自費價約 ~NT$90/20 mg 顆，月約 ~NT$2,520，實際以院內藥局為準。
+**TW NHI**：截至 2026-10-15，finerenone 仍未納入健保給付（任何適應症；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)）。PA **不是核准適應症**，也沒有 PA hard endpoint trial；以 PA 為適應症使用屬 off-label 自費。自費價：臺北榮總公告 20 mg 每錠 NT$90（2025-09-01 起），以每日一次估算約每月 NT$2,700，實際以院內藥局為準。
 
 **真正適合考慮 finerenone 的情境（極罕見）**：
 - 明確不能手術
@@ -344,7 +344,7 @@ flowchart TD
 |---|---|---|
 | **Spironolactone** | 全給付 | 廣泛使用於 HTN / HF / 肝硬化 / PA |
 | **Eplerenone（NHIA 2.9.1）** | 限 post-MI HF / NYHA II 以上 + LVEF ≤30% + **spironolactone 不耐**；**PA 屬 off-label** | 共擬會議曾議擴增至 PA，最新給付以查詢系統為準 |
-| **Finerenone（Kerendia）** | **截至 2026-10-15 未納入健保給付**（健保用藥品項查無；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)） | **PA 不是核准適應症**；公開自費價約 ~NT$90/20 mg 顆，月 ~NT$2,520 |
+| **Finerenone（Kerendia）** | **截至 2026-10-15 未納入健保給付**（健保用藥品項查無；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)） | **PA 不是核准適應症**；臺北榮總公告 NT$90/20 mg 顆；月約 NT$2,700 |
 | **Patiromer（Veltassa）** | **截至 2026-05 查不到台灣成品藥證 / 上市供應 / 健保收載資料**；以 TFDA / 健保署 / 院內藥局為準 | AMBER evidence base 是 patiromer；國外公開價 USD 1,000-1,500/月 |
 | **SZC / Lokelma** | 可見台灣 5 g/包藥品資料；健保狀態以院內藥局為準 | 公開自費價約 NT$300-400/包；不是 AMBER patiromer 的等價替代證據 |
 | **Amiloride 單方** | 健保 NHIA 2.9.2 **限 Liddle's syndrome 事前審查**；PA 屬 off-label | 實務上需依院內藥局 / 健保查詢系統確認是否可取得與是否自費 |

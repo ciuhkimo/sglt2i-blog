@@ -2,10 +2,10 @@
 question_id: "Q01"
 title: "DKD 何時加上 Finerenone — 啟動時機與治療定位"
 category: "起始治療"
-version: "v1.3"
+version: "v1.4"
 status: ""
-last_updated: 2026-11-21
-next_review: 2026-08-27
+last_updated: 2026-11-27
+next_review: 2027-02-27
 tags: [finerenone, nonsteroidal-MRA, decision-note, DKD, albuminuria, cardiorenal]
 description: "Finerenone 在 T2D + albuminuric CKD 的啟動時機、治療定位（additive vs foundational）、劑量選擇與排序策略。"
 quick_answer: "Finerenone 定位為「有條件的 foundational add-on」：對 T2D + persistent albuminuria（UACR ≥30 mg/g）+ eGFR ≥25 + serum K ≤5.0 + 已建立 RAS blockade 的患者，應主動納入 cardiorenal disease-modifying strategy，而非僅作為最後一步 rescue therapy。不能替代 ACEi/ARB 或 SGLT2i。"
@@ -27,7 +27,7 @@ seo_title: "DKD 何時加 Finerenone？啟動時機、定位與劑量指引"
 | KDIGO 2024 以 K ≤4.8 為 guideline 門檻 | KDIGO 的正式文字是 **normal serum potassium concentration**；≤4.8 主要來自 trial-based monitoring algorithm 與 label/pragmatic practice，不應寫成 KDIGO 的硬性文字門檻。 |
 | CONFIDENCE 組合治療可降低 hyperkalemia，可解釋為 SGLT2i 排鉀保護 | 專門的 secondary analysis 指出 **180 天內未顯著降低 hyperkalemia 風險**；因此不能把合併療法視為「保鉀解法」。 |
 | FIND-CKD 還只是未來待追蹤的試驗 | **已正式發表（NEJM 2026, PMID 42246672）**：proteinuric 非糖尿病 CKD 達 eGFR slope primary（差 +0.7／年, P<0.001）；惟 primary 為 surrogate、長期 hard outcome 待續、台灣非適應症 |
-| EMA 的 HF 適應症仍在 pending | 2026-01 已有 **CHMP positive opinion**；截至 2026-05-27，公開 EPAR/SmPC 仍以 CKD with T2D 為現行適應症。 |
+| EMA 的 HF 適應症仍在 pending | 已於 **2026-03-26 經 EC 核定**（CHMP positive opinion 2026-01-29），現行 SmPC 已列 HF（LVEF ≥40%）並新增 40 mg 錠；EU 的 CKD 適應症仍限 T2D 相關。 |
 
 ---
 
@@ -49,7 +49,7 @@ seo_title: "DKD 何時加 Finerenone？啟動時機、定位與劑量指引"
 | **KDIGO 2024** | Suggest 使用具 proven kidney / CV benefit 的 nsMRA 於 **T2D、eGFR >25、normal serum K、albuminuria >30 mg/g、且已用 max tolerated RASi** 的成人；並明載 nsMRA 可加在 **RASi + SGLT2i** 之上。 | finerenone 的 sweet spot 是 **albuminuric residual risk despite SOC**。 |
 | **ADA 2026** | 對 **CKD + albuminuria**，nsMRA 被列為用來降低 CKD progression 與 CV events 的治療選項；並新增「在 selected adults 可考慮與 SGLT2i simultaneous initiation」的表述。 | parallel start 從「研究概念」進入 guideline-supported option。 |
 | **FDA label（9/2026）** | **K >5.0 不可啟動**；eGFR ≥60 起始 20 mg、25-<60 起始 10 mg、<25 不建議啟動；4 週追蹤 K/eGFR。美國 label 另有 HF（LVEF ≥40%，2025-07）與 T1D 相關 CKD（2026-09）適應症；HF 有 40 mg strength，但 **CKD（T2D 或 T1D）dosing 仍是 10/20 mg，target 20 mg**。 | DKD 臨床不要把 HF 的 40 mg regimen 直接搬來用。 |
-| **EMA current public SmPC / EPAR** | 目前公開適應症仍為 **CKD (with albuminuria) associated with T2D**；明載不應與 **other MRAs** 或 **potassium-sparing diuretics** 併用；若進展至 ESRD / eGFR <15 則停藥。 | EU 公開 label 仍是 CKD-with-T2D 為主；避免 co-MRA。 |
+| **EMA current public SmPC / EPAR** | 現行適應症為 **CKD (with albuminuria) associated with T2D**，以及 **symptomatic chronic HF with LVEF ≥40%**（2026-03-26 EC 核定）；明載不應與 **other MRAs** 或 **potassium-sparing diuretics** 併用；若進展至 ESRD / eGFR <15 則停藥。 | EU 的 CKD 適應症仍限 T2D 相關（未含 T1D 或非糖尿病 CKD）；避免 co-MRA。 |
 | **TFDA** | Kerendia 10 mg / 20 mg 於 **2022-07-01** 核准，許可證字號 **衛部藥輸字第028325、028326號**。 | 台灣 regulatory approval 已確認。 |
 | **NHIA public documents** | 公開議程與會議文件曾討論 finerenone 健保給付條件，但**截至 2026-10-15 仍未收載**（見 [Q11](/finerenone/q11-taiwan-nhi-coverage/)）。 | 臨床上目前**不宜假設已可健保給付**。 |
 
@@ -242,7 +242,7 @@ T2D + CKD 病人就診
 
 - **FIND-CKD（Heerspink, NEJM 2026, PMID 42246672）已正式發表**：finerenone 在 proteinuric 非糖尿病 CKD 減緩 eGFR slope（差 +0.7／年, P<0.001）、composite kidney-or-CV HR 0.77（0.60–0.99）——「何時起始」的適應範圍首次擴及非糖尿病 CKD；INFINITY（Neuen, Lancet 2026, PMID 42248158）pooled 後跨 T2D 與非糖尿病 albuminuric CKD 方向一致。惟 primary 為 slope surrogate，且**台灣 CKD 適應症目前仍限 T2D-related CKD**（非糖尿病屬適應症外、監管變更待後續）。
 - **FINE-ONE（T1D + CKD）**：美國 FDA 已於 2026-09-16 核准 T1D 相關 CKD 適應症（依 UACR 降幅，由 T2D 試驗的腎臟結局外推）；台灣 TFDA 仿單未含，屬 off-label。T1D 本身仍無硬終點資料，詳見 [Q10 — 特殊族群](/finerenone/q10-special-populations/)。
-- **EMA HF indication**：2026-01 已有 CHMP positive opinion，但截至 2026-05-27，公開 EPAR/SmPC 尚未完全反映 EC 最終核定後的更新版本。
+- **EMA**：HF（LVEF ≥40%）適應症已於 2026-03-26 經 EC 核定；截至 2026-11-27，現行 SmPC 的 CKD 適應症仍限 T2D 相關，未含 T1D 或非糖尿病 CKD。
 - **台灣 NHIA**：若未來有正式收載公告，臨床門檻、治療排序與可近性都可能實質改變。
 
 ---
@@ -262,7 +262,7 @@ T2D + CKD 病人就診
   1. KDIGO 2024 CKD Guideline. Kidney Int. 2024;105(4S):S117-S314. PMID: 38490803.
   2. ADA Standards of Care 2026. Diabetes Care. 2026;49(Suppl 1):S246-S260.
   3. FDA Kerendia Prescribing Information. Revised 2026-09.
-  4. EMA Kerendia EPAR / SmPC; CHMP positive opinion 2026-01-29.
+  4. EMA Kerendia EPAR / SmPC (EMEA/H/C/005200); HF indication extension: CHMP opinion 2026-01-29, EC decision 2026-03-26.
   5. TFDA Assessment Report: Kerendia 10 mg / 20 mg; approval 2022-07-01.
   6. Bakris GL, et al. N Engl J Med. 2020;383:2219-2229. PMID: 33264825.
   7. Pitt B, et al. N Engl J Med. 2021;385:2252-2263. PMID: 34449181.
@@ -273,8 +273,8 @@ T2D + CKD 病人就診
   12. Agarwal R, et al. PMID: 41493296.
   13. Heerspink HJL, et al. (FIND-CKD). Finerenone in Persons with CKD without Diabetes. N Engl J Med. 2026. PMID: 42246672.
   14. Neuen BL, et al. (INFINITY IPD pooled). Lancet. 2026;407:2375-2386. PMID: 42248158.
-  14. Heerspink HJL, et al. N Engl J Med. 2026. PMID: 41780000.
-  15. **De Nicola L, Ruotolo C, La Manna G, et al.** Missing Opportunity for Nephroprotective Therapy in Patients With Non-Dialysis CKD Under Stable Nephrology Care. *Kidney Int Rep.* 2026;11(6):106541. **PMID: 42179812**. DOI: 10.1016/j.ekir.2026.106541. *(v1.2 新增 — N=4,523 義大利多中心 ND-CKD; finerenone 6-month inertia 96%（4 柱最高）)*
+  15. Heerspink HJL, et al. (FINE-ONE). Finerenone in Type 1 Diabetes and Chronic Kidney Disease. N Engl J Med. 2026;394(10):947-957. PMID: 41780000.
+  16. **De Nicola L, Ruotolo C, La Manna G, et al.** Missing Opportunity for Nephroprotective Therapy in Patients With Non-Dialysis CKD Under Stable Nephrology Care. *Kidney Int Rep.* 2026;11(6):106541. **PMID: 42179812**. DOI: 10.1016/j.ekir.2026.106541. *(v1.2 新增 — N=4,523 義大利多中心 ND-CKD; finerenone 6-month inertia 96%（4 柱最高）)*
 
 ---
 
@@ -290,7 +290,7 @@ T2D + CKD 病人就診
 
 - 想看 **Hyperkalemia 風險管理** → [Q03 — Hyperkalemia 管理](/finerenone/q03-hyperkalemia-management/)（K⁺ 監測 / 暫停 / 重啟 / patiromer 角色）
 - 想看 **eGFR 門檻** → [Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/)（25-60 啟動 / 25-75 維持 / <25 邊界）
-- 想看**健保實務** → [Q11 — Taiwan NHI Coverage](/finerenone/q11-taiwan-nhi-coverage/)（T2D-CKD 給付條件 / PA off-label 自費）
+- 想看**健保實務** → [Q11 — Taiwan NHI Coverage](/finerenone/q11-taiwan-nhi-coverage/)（健保尚未給付 / 自費價格 / 自費 add-on 討論）
 
 ---
 

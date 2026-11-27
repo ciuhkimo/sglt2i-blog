@@ -2,10 +2,10 @@
 question_id: "Q02"
 title: "Finerenone 與 SGLT2i / GLP-1 RA 的排序與合併策略"
 category: "排序與合併"
-version: "v1.6"
+version: "v1.7"
 status: ""
-last_updated: 2026-11-21
-next_review: 2026-08-27
+last_updated: 2026-11-27
+next_review: 2027-02-27
 tags: [finerenone, SGLT2i, GLP-1RA, sequencing, combination, decision-note, DKD, NDKD, non-diabetic-CKD]
 description: "在已接受 max tolerated ACEi/ARB 的 DKD 病人，finerenone 如何與 SGLT2i 及 GLP-1 RA 排序與合併？"
 quick_answer: "預設仍以 SGLT2i 為 first add-on；符合 albuminuria / eGFR / K 條件時加 finerenone；GLP-1 RA 依 glycemic / obesity / ASCVD / direct kidney-outcome evidence 前移。ADA 2026 已新增：T2D + UACR ≥100 + eGFR 30-90 + RASi 的成人可考慮 SGLT2i + finerenone simultaneous initiation。NDKD（含 IgAN / FSGS）的 FIND-CKD 已正式發表（NEJM 2026, PMID 42246672），primary eGFR slope 達標，但屬 surrogate-led，且台灣非糖尿病 CKD 仍非核准適應症、發表 ≠ label expansion。"
@@ -356,7 +356,7 @@ GLP-1 RA 可以不必永遠排在第三位。下列 phenotype 可前移：
 
 - 想看 **啟動時機** → [Q01 — DKD 何時加上 Finerenone](/finerenone/q01-dkd-when-to-start/)（指徵 + ADA 2026 simultaneous initiation）
 - 想看 **eGFR 門檻** → [Q04 — eGFR 門檻](/finerenone/q04-egfr-threshold/)（25-60 / ≥60 / <25 分層 + acute dip 處理）
-- 想看 **健保實務** → [Q11 — Taiwan NHI Coverage](/finerenone/q11-taiwan-nhi-coverage/)（DKD 給付 / PA off-label）
+- 想看 **健保實務** → [Q11 — Taiwan NHI Coverage](/finerenone/q11-taiwan-nhi-coverage/)（健保尚未給付 / 自費價格 / PA off-label）
 
 ---
 

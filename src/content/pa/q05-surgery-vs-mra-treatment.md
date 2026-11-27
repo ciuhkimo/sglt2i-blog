@@ -2,9 +2,9 @@
 question_id: Q5
 title: PA 治療策略：Surgery vs MRA 怎麼選
 category: Treatment
-version: v1.2
+version: v1.3
 status: ""
-last_updated: 2026-05-12
+last_updated: 2026-11-27
 next_review: 2027-05-09
 seo_title: "PA 手術還是吃藥？腎上腺切除 vs MRA 治療決策（2025 Endocrine Society + TAIPAI 整合）"
 description: "對 lateralized PA 病人，腹腔鏡單側腎上腺切除為 gold standard；bilateral 或不適合手術 → spironolactone first-line。整合 PASO 結果、TAIPAI hard endpoint、術後 acute eGFR dip、Karagiannis 2008 RCT、Finerenone off-label disclaimer，給區域醫院腎臟科可落地的決策框架。"
@@ -245,7 +245,7 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 - NHIA 共擬會議曾審議 **T2D-CKD 適應症**（第 70、79 次），皆未形成納入給付結論
 - **截至 2026-10-15 仍未納入健保給付**（任何適應症；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)）
 - 在 PA 屬 **off-label，自費**
-- **公開自費價格**：20-mg tablet ~NT$90/顆；月費 ~NT$2520（依院所）
+- **公開自費價格**：臺北榮總公告 20 mg 每錠 NT$90（2025-09-01 起），以每日一次估算約每月 NT$2,700；各院所不同，以院內公告為準
 
 **真正適合考慮的情境（極罕見）**：
 - 明確不能手術
@@ -341,7 +341,7 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 | -------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------ | ----------------------- |
 | Spironolactone             | **全給付**                                                                                    | 最常用                            |                         |
 | Eplerenone（NHIA 2.9.1）   | 限使用於**對 spironolactone 無法耐受**之 (1) 心肌梗塞後之心衰竭病人；(2) NYHA II 級(含)以上之慢性心衰竭且 **LVEF ≤30%** 成人患者。**PA 使用屬 off-label** | 公開自費 ~NT$37-39/50 mg/顆         |                         |
-| Finerenone                 | **截至 2026-10-15 未納入健保給付**（任何適應症；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)）                                  | 公開自費 ~NT$90/20 mg/顆；月 ~NT$2520 |                         |
+| Finerenone                 | **截至 2026-10-15 未納入健保給付**（任何適應症；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)）                                  | 臺北榮總公告 NT$90/20 mg/顆；月約 NT$2,700 |                         |
 | Laparoscopic adrenalectomy | 給付（含住院）                                                                                    | 高階耗材另自費                        |                         |
 | Amiloride                  | 全給付                                                                                        | 不常用                            |                         |
 | Patiromer (K-binder)       | 健保給付規定查 [Q11](/pa/q11-taiwan-nhi-coverage/)                                                | hyperkalemia mitigation        |                         |
