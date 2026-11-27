@@ -2,9 +2,9 @@
 question_id: "Q11"
 title: "PA 健保給付與自費價格（台灣）"
 category: "台灣在地化"
-version: "v1.1"
+version: "v1.2"
 status: ""
-last_updated: 2026-05-06
+last_updated: 2026-11-27
 next_review: 2027-05-06
 tags:
   - PA
@@ -38,7 +38,7 @@ quick_answer: "Spironolactone 全給付且仿單明列 PA 適應症，是 PA 第
 ## 1. 健保現行給付總表
 
 > **📝 表格說明**
-> 「給付狀態」以截至 2026-05-06 為止公開可查證為準（finerenone 更新至 2026-10-15）。具體健保碼建議申報前以 NHI 支付標準查詢系統（<https://info.nhi.gov.tw/INAE5000/INAE5001S01>）核對。未公開的金額不列。
+> 「給付狀態」以截至 2026-05-06 為止公開可查證為準（finerenone 更新至 2026-10-15；patiromer／SZC 更新至 2026-11-27）。具體健保碼建議申報前以 NHI 支付標準查詢系統（<https://info.nhi.gov.tw/INAE5000/INAE5001S01>）核對。未公開的金額不列。
 
 ### 檢驗類
 
@@ -79,8 +79,8 @@ quick_answer: "Spironolactone 全給付且仿單明列 PA 適應症，是 PA 第
 | **Eplerenone (Inspra)** | **限縮給付，PA 不在內** | 藥品給付規定 2.9.1：限對 spironolactone 無法耐受之 (1) post-MI 心衰竭、(2) NYHA II 以上 LVEF≤30% 慢性心衰竭（100/1/1、104/12/1） | 衛署藥輸字第 024306 號 |
 | **Finerenone (Kerendia, 可申達)** | **未給付**（截至 2026-10-15，健保用藥品項查無） | TFDA 仿單列 **(a) T2D 相關 CKD**、**(b) LVEF ≥40% 心衰竭** 兩項適應症；第 70、79 次共擬會議皆未形成納入給付結論，2026 年第 80–84 次未再列入；多家醫院列為自費品項。**對 PA 無任何國家或學會給予適應症**（FDA、EMA、TFDA、Endocrine Society 2016/2025、Taiwan 2022/2023 guideline 皆無）；申報前以最新健保藥品給付規定為準 | 衛部藥輸字第 028326 號 |
 | Amiloride（單方或複方 Moduretic） | 給付 | 109/8/3 列入給付；可作 spironolactone 不耐受時的 K-sparing 替代 | — |
-| Patiromer (Veltassa) | 自費 | 用於 MRA-related 嚴重 hyperkalemia | — |
-| SZC (Lokelma) | 自費 | 高 K 急性處置 | 衛部藥輸字第 028710 號 |
+| Patiromer (Veltassa) | **台灣查無許可證，健保未收載**（2026-11-27 查） | AMBER（patiromer 護航 spironolactone）的證據藥物；台灣無法常規取得 | 查無 |
+| SZC (Lokelma) | **自費**（健保用藥品項查無，2026-11-27 查） | TFDA 適應症：治療成人高血鉀症；不是 AMBER 的等價證據 | 衛部藥輸字第 028710（5 g）、028711（10 g）號 |
 
 ### 手術（依公開資料整理；具體申報依轉介中心）
 
@@ -232,7 +232,7 @@ PA 的健保政策框架自 2010 年代以來變動有限；除前述第 55 次�
 2. **AVS 程序的健保包裹申報碼**：健保支付標準無 PA 專屬條文；各醫學中心拆分申報，依該院申報組最新版支付標準
 3. **影像、AVS、手術、基因檢測在各醫學中心的「自費 vs NHI 比例」**：作者為地區醫院腎臟科，未實際操作這些項目；具體申報組合與自費內容請以轉介中心當期公告為準
 4. **NP-59 放射性藥物的健保支付點數**：屬核醫科稀有放射藥物採購制；具體點數未公開明列
-5. **Patiromer / SZC 給付狀態**：公開查詢顯示為自費；建議申報前以最新「健保用藥品項查詢」確認
+5. **Patiromer / SZC 給付狀態**：2026-11-27 查 TFDA 西藥許可證資料集與健保用藥品項：patiromer 兩者皆查無；SZC（Lokelma）有許可證、健保查無，屬自費。申報與採購前仍以最新查詢與院內藥局為準
 6. **健保署近年對 PA 相關項目的核刪率或審查趨勢**：健保署未公開「PA 條目別」核刪統計。**ARR 在 PA 篩檢條件下的個人經驗未遇核刪，但鄰近題目（proteinuria 多項免疫電泳）曾遇過核刪要求說明**；若篩檢量明顯高於同區，建議在病歷強化篩檢適應症記載
 7. **Finerenone 健保狀態的時效性**：截至 2026-05-06 為止公開健保藥品給付規定中無 finerenone 條文；若未來健保納入給付，本節需更新（但仍不適用 PA，因無 PA 適應症）
 8. **2.9.1 條文後續修訂**：本文截至 2026-05-06 確認最新版為 104/12/1（無 PA 擴增）；申報前再確認最新公告
@@ -246,11 +246,13 @@ PA 的健保政策框架自 2010 年代以來變動有限；除前述第 55 次�
 - 健保署藥品給付規定總頁：https://www.nhi.gov.tw/Content_List.aspx?n=E70D4F1BD029DC37
 - 健保署 2.9.1 條文（Eplerenone）公開 PDF：https://info.nhi.gov.tw/api/INAE3000/INAE3000S01/getPDF?DurgFileName=2.9.1._20151201_000.pdf
 - 健保署支付標準查詢系統：https://info.nhi.gov.tw/INAE5000/INAE5001S01
+- 健保用藥品項網路查詢：https://info.nhi.gov.tw/INAE3000/INAE3000S01
 - 共擬會議紀錄區：https://www.nhi.gov.tw/Content_List.aspx?n=748D4A0C0839220C
 
 ### TFDA / 食藥署
 
 - TFDA 西藥許可證查詢：https://info.fda.gov.tw/MLMS/H0001.aspx
+- TFDA 西藥許可證開放資料集：https://data.fda.gov.tw/data/opendata/export/36/csv
 - TFDA 仿單查詢平台：https://mcp.fda.gov.tw/
 
 ### 台灣 PA 學會（Taiwan Society of Aldosteronism, TSA）

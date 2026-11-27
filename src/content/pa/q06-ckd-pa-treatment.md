@@ -211,10 +211,10 @@ PA-CKD 的核心決策不複雜：**先決定能否安全承接 MRA、是否已�
 
 **PA-specific patiromer-enabled spironolactone study**：截至 2026-05-12 **未見發表**（PA 族群只能外推 AMBER）
 
-**Patiromer 台灣狀態**：截至 2026-05-12，**查不到** patiromer（Veltassa）在台灣的成品藥證、上市供應或健保收載資料；申報 / 採購前須以 TFDA 藥物許可證查詢系統、健保署查詢系統與院內藥局為準。
+**Patiromer 台灣狀態**：截至 2026-11-27，TFDA 西藥許可證資料集與健保用藥品項**皆查無** patiromer（Veltassa）；申報 / 採購前須以 TFDA 藥物許可證查詢系統、健保署查詢系統與院內藥局為準。
 
 > **⚠️ AMBER 的證據基礎是 patiromer ≠ SZC / Lokelma**
-> **AMBER evidence base 是 patiromer**，不是 SZC（sodium zirconium cyclosilicate / Lokelma）。SZC 在台灣可見 5 g/包藥品資料，但 SZC 不能被寫成 AMBER 的等價替代證據——兩種藥的分子結構、PK、subgroup data 都不同。實務上若考慮 SZC 替代 patiromer 啟用 spironolactone，是 evidence-bridging 而非 evidence-equivalent，需個案 K⁺ 密切監測。
+> **AMBER evidence base 是 patiromer**，不是 SZC（sodium zirconium cyclosilicate / Lokelma）。SZC 在台灣有 5 g 與 10 g 許可證（健保未收載、自費），但 SZC 不能被寫成 AMBER 的等價替代證據——兩種藥的分子結構、PK、subgroup data 都不同。實務上若考慮 SZC 替代 patiromer 啟用 spironolactone，是 evidence-bridging 而非 evidence-equivalent，需個案 K⁺ 密切監測。
 
 ### 4.3 Eplerenone in CKD-PA
 
@@ -345,8 +345,8 @@ flowchart TD
 | **Spironolactone** | 全給付 | 廣泛使用於 HTN / HF / 肝硬化 / PA |
 | **Eplerenone（NHIA 2.9.1）** | 限 post-MI HF / NYHA II 以上 + LVEF ≤30% + **spironolactone 不耐**；**PA 屬 off-label** | 共擬會議曾議擴增至 PA，最新給付以查詢系統為準 |
 | **Finerenone（Kerendia）** | **截至 2026-10-15 未納入健保給付**（健保用藥品項查無；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)） | **PA 不是核准適應症**；臺北榮總公告 NT$90/20 mg 顆；月約 NT$2,700 |
-| **Patiromer（Veltassa）** | **截至 2026-05 查不到台灣成品藥證 / 上市供應 / 健保收載資料**；以 TFDA / 健保署 / 院內藥局為準 | AMBER evidence base 是 patiromer；國外公開價 USD 1,000-1,500/月 |
-| **SZC / Lokelma** | 可見台灣 5 g/包藥品資料；健保狀態以院內藥局為準 | 公開自費價約 NT$300-400/包；不是 AMBER patiromer 的等價替代證據 |
+| **Patiromer（Veltassa）** | **截至 2026-11-27 台灣查無許可證、健保未收載**；以 TFDA / 健保署 / 院內藥局為準 | AMBER evidence base 是 patiromer；國外公開價 USD 1,000-1,500/月 |
+| **SZC / Lokelma** | 有台灣許可證（5 g、10 g）；健保用藥品項查無，屬自費（2026-11-27 查） | 公開自費價約 NT$300-400/包；不是 AMBER patiromer 的等價替代證據 |
 | **Amiloride 單方** | 健保 NHIA 2.9.2 **限 Liddle's syndrome 事前審查**；PA 屬 off-label | 實務上需依院內藥局 / 健保查詢系統確認是否可取得與是否自費 |
 | **Amiloride/HCTZ 複方（Moduretic / Amizide 類）** | 與單方為不同給付與適應症 | **不等同 PA 的 ENaC inhibitor 單方替代**；CKD 使用須注意 HCTZ 對容量 / 血鉀 / 腎功能影響 |
 
@@ -387,7 +387,7 @@ flowchart TD
 
 | Q | 連結內容 |
 |---|---|
-| [Q11 PA 健保給付](/pa/q11-taiwan-nhi-coverage/) | spironolactone / eplerenone / finerenone / patiromer 詳細給付條件 |
+| [Q11 PA 健保給付](/pa/q11-taiwan-nhi-coverage/) | spironolactone / eplerenone / finerenone 給付條件、patiromer / SZC 台灣狀態 |
 | [Q5 PA 治療策略 Surgery vs MRA](/pa/q05-surgery-vs-mra-treatment/) | 本 Q6 為其 CKD subgroup 深化 |
 | [Q3 Confirmation Test](/pa/q03-confirmation-test/)| CKD 影響 ARR / confirmatory test 解讀 |
 | [Q4 AVS / lateralization](/pa/q04-lateralization-avs/)| CKD 不影響 AVS 適用；對比劑須 hydration |
@@ -405,7 +405,7 @@ flowchart TD
 
 3. **Chen JY 2024 核心數字**：n=445、術後 6 個月 dip >30% 74/445（16.6%）、mean follow-up 5.0 ± 3.6 years、MAKE HR 2.18 [1.04-4.57]
 
-4. **Patiromer 台灣狀態**：截至 2026-05-12 **查不到**成品藥證 / 上市 / 健保收載資料；申報與採購前以 TFDA / 健保署 / 院內藥局為準
+4. **Patiromer 台灣狀態**：截至 2026-11-27 TFDA 許可證與健保用藥品項**皆查無**；申報與採購前以 TFDA / 健保署 / 院內藥局為準
 
 5. **Eplerenone PA 健保最新給付** — 共擬會議第 55 / 79 次議程；以最新版查詢系統為準
 
@@ -469,7 +469,7 @@ flowchart TD
 - NHIA 公開給付規範：**Amiloride 單方（2.9.2）**：限 Liddle's syndrome 事前審查（PA 屬 off-label）
 - NHIA 共擬會議文件：**Eplerenone 擴增至 PA**（第 55/79 次議程曾議）
 - NHIA 共擬會議文件：**Finerenone（Kerendia）納入健保審議案（T2D-CKD）**——截至 2026-10-15 未納入給付
-- **Patiromer：截至 2026-05 查不到台灣藥證資料；SZC / Lokelma 有藥品資料但不是 AMBER patiromer 等價替代證據**
+- **Patiromer：截至 2026-11-27 台灣查無許可證、健保未收載；SZC / Lokelma 有許可證（自費）但不是 AMBER patiromer 等價替代證據**
 - **以最新版健保署支付標準查詢系統與貴院申報指引為準**
 
 ---

@@ -310,6 +310,7 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 
 **AMBER (Agarwal 2019, Lancet, PMID 31533906)**：在 resistant HTN+CKD（**eGFR 25-45**）中，**patiromer 提高 spironolactone 持續使用率 86% vs placebo 66% (Δ19.5%, 95% CI 10.0-29.0; p<0.0001)**。
 - ⚠️ **不是 PA trial** — 不能直接當 PA-CKD hard outcome 證據
+- ⚠️ **台灣查無 patiromer 許可證**（2026-11-27 查）；可取得的 K binder 是 SZC（Lokelma，自費），用 SZC 護航 spironolactone 屬證據外推，見 [Q6](/pa/q06-ckd-pa-treatment/)
 - ⚠️ **AMBER 適用範圍為 eGFR 25-45**，**不能外推到 eGFR <25 / dialysis**
 - 價值：**hyperkalemia mitigation strategy 在想保住 spironolactone 時可能可用**
 
@@ -344,7 +345,7 @@ surrogate endpoint **不能**等同 hard endpoint，但決定病人「感不感�
 | Finerenone                 | **截至 2026-10-15 未納入健保給付**（任何適應症；見 [Finerenone Q11](/finerenone/q11-taiwan-nhi-coverage/)）                                  | 臺北榮總公告 NT$90/20 mg/顆；月約 NT$2,700 |                         |
 | Laparoscopic adrenalectomy | 給付（含住院）                                                                                    | 高階耗材另自費                        |                         |
 | Amiloride                  | 全給付                                                                                        | 不常用                            |                         |
-| Patiromer (K-binder)       | 健保給付規定查 [Q11](/pa/q11-taiwan-nhi-coverage/)                                                | hyperkalemia mitigation        |                         |
+| Patiromer (K-binder)       | **台灣查無許可證、健保未收載**（見 [Q11](/pa/q11-taiwan-nhi-coverage/)） | hyperkalemia mitigation；台灣可取得的是 SZC（Lokelma，自費），但不是 AMBER 的等價證據 |                         |
 
 完整健保條文 / 申報核刪 / 自費告知 → [Q11](/pa/q11-taiwan-nhi-coverage/)。
 
