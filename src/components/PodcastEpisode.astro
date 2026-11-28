@@ -1,0 +1,94 @@
+---
+// 文章內的 Podcast 單集區塊。隱私：Firstory 播放器「點了才載入」，
+// 載入前不連線第三方；YouTube 只放連結、不嵌入。（Chang 2026-11-28 選定方案 A）
+import { episodeForPath } from '../lib/podcast';
+
+const ep = episodeForPath(Astro.url.pathname);
+const embedSrc = ep ? `https://open.firstory.fm/embed/story/${ep.firstoryStoryId}` : '';
+---
+
+{ep && (
+	<aside class="podcast-episode no-print" aria-label="Podcast 單集">
+		<p class="podcast-kicker">🎙️ Podcast {ep.episode}</p>
+		<p class="podcast-title">{ep.title}</p>
+		<div class="podcast-player" data-src={embedSrc} data-title={`Nephro Decisions ${ep.episode} 播放器`}>
+			<button type="button" class="podcast-load">▶ 播放 Podcast</button>
+			<p class="podcast-note">按下後才會載入 Firstory 播放器，Firstory 可能設定自己的 cookie。詳見<a href="/privacy/">隱私權政策</a>。</p>
+		</div>
+		<p class="podcast-links">
+			<a href={`https://open.firstory.fm/story/${ep.firstoryStoryId}`} target="_blank" rel="noopener">在 Firstory 收聽</a>
+			<span aria-hidden="true">｜</span>
+			<a href={`https://www.youtube.com/watch?v=${ep.youtubeId}`} target="_blank" rel="noopener">在 YouTube 觀看</a>
+			<span aria-hidden="true">｜</span>
+			<a href="/listen/#podcast">其他收聽平台</a>
+		</p>
+	</aside>
+)}
+
+<script>
+	document.querySelectorAll<HTMLElement>('.podcast-player').forEach((box) => {
+		const btn = box.querySelector<HTMLButtonElement>('.podcast-load');
+		btn?.addEventListener('click', () => {
+			const iframe = document.createElement('iframe');
+			iframe.src = box.dataset.src || '';
+			iframe.title = box.dataset.title || 'Podcast 播放器';
+			iframe.loading = 'lazy';
+			iframe.allow = 'autoplay; encrypted-media';
+			iframe.className = 'podcast-iframe';
+			box.replaceChildren(iframe);
+		});
+	});
+</script>
+
+<style>
+	.podcast-episode {
+		margin: 1.2em 0 1.8em;
+		padding: 1em 1.2em;
+		background: #f0f4f3;
+		border-left: 4px solid var(--accent);
+		border-radius: 0 8px 8px 0;
+	}
+	.podcast-kicker {
+		margin: 0;
+		font-size: 0.85em;
+		color: var(--accent-dark);
+		font-weight: 600;
+	}
+	.podcast-title {
+		margin: 0.2em 0 0.8em;
+		font-weight: 600;
+	}
+	.podcast-load {
+		background: var(--accent);
+		color: #fff;
+		border: none;
+		border-radius: 6px;
+		padding: 0.55em 1.2em;
+		font-size: 1em;
+		cursor: pointer;
+	}
+	.podcast-load:hover,
+	.podcast-load:focus-visible {
+		background: var(--accent-dark);
+	}
+	.podcast-note {
+		margin: 0.5em 0 0;
+		font-size: 0.8em;
+		color: rgb(var(--gray));
+	}
+	:global(.podcast-iframe) {
+		width: 100%;
+		height: 180px;
+		border: 0;
+		border-radius: 8px;
+	}
+	.podcast-links {
+		margin: 0.8em 0 0;
+		font-size: 0.9em;
+	}
+	@media print {
+		.podcast-episode {
+			display: none;
+		}
+	}
+</style>

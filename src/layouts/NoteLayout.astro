@@ -6,6 +6,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import SubscribeCTA from '../components/SubscribeCTA.astro';
 import ReadAloudButton from '../components/ReadAloudButton.astro';
+import PodcastEpisode from '../components/PodcastEpisode.astro';
 import { authorPerson, authorPersonRef } from '../lib/schema/authorPerson';
 import { organization, organizationRef } from '../lib/schema/organization';
 
@@ -255,6 +256,7 @@ const breadcrumbLd = JSON.stringify({
 					<ReadAloudButton />
 					<button class="print-btn" onclick="window.print()">列印 / 存 PDF</button>
 				</div>
+				<PodcastEpisode />
 				{quick_answer && (
 					<div class="quick-answer">
 						<strong>臨床結論：</strong>{quick_answer}

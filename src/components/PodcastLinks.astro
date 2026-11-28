@@ -1,0 +1,70 @@
+---
+// 節目層級的收聽入口（首頁、/listen/）。只放連結，不嵌入第三方播放器。
+import { PODCAST_SHOW, PODCAST_EPISODES } from '../lib/podcast';
+
+interface Props {
+	heading?: string;
+	headingLevel?: 'h2' | 'h3';
+}
+const { heading = '🎙️ 用聽的：Nephro Decisions Podcast', headingLevel = 'h2' } = Astro.props;
+const Heading = headingLevel;
+const episodes = Object.entries(PODCAST_EPISODES);
+---
+
+<section class="podcast-links-block" id="podcast">
+	<Heading>{heading}</Heading>
+	<p class="podcast-lead">把網站上的臨床決策與腎友衛教，做成可以通勤時聽的單集。每集都對應一篇網站原文，數字與劑量請以文字版為準。</p>
+	<ul class="podcast-platforms">
+		{PODCAST_SHOW.links.map((l) => (
+			<li><a href={l.href} target="_blank" rel="noopener">{l.label}</a></li>
+		))}
+	</ul>
+	<ul class="podcast-episode-list">
+		{episodes.map(([path, ep]) => (
+			<li><span class="ep-label">{ep.episode}</span> <a href={path}>{ep.title}</a></li>
+		))}
+	</ul>
+</section>
+
+<style>
+	.podcast-links-block {
+		padding: 1.5em 1.2em;
+		margin: 1.5em 0;
+		background: #f0f4f3;
+		border-radius: 12px;
+	}
+	.podcast-links-block h2,
+	.podcast-links-block h3 {
+		font-size: 1.3em;
+		margin: 0 0 0.5em;
+		line-height: 1.4;
+	}
+	.podcast-lead {
+		color: rgb(var(--gray-dark, 34, 41, 57));
+		line-height: 1.7;
+	}
+	.podcast-platforms {
+		list-style: none;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5em;
+		margin: 0.8em 0;
+	}
+	.podcast-platforms a {
+		display: inline-block;
+		padding: 0.35em 0.9em;
+		border: 1px solid var(--accent);
+		border-radius: 999px;
+		text-decoration: none;
+		font-size: 0.95em;
+	}
+	.podcast-episode-list {
+		padding-left: 1.2em;
+		line-height: 1.8;
+	}
+	.ep-label {
+		font-weight: 600;
+		color: var(--accent-dark);
+	}
+</style>

@@ -4,6 +4,7 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getCollection } from 'astro:content';
+import PodcastLinks from '../components/PodcastLinks.astro';
 import { authorPerson } from '../lib/schema/authorPerson';
 import { organization, organizationRef } from '../lib/schema/organization';
 
@@ -734,6 +735,8 @@ const groups = [
 					))}
 				</ul>
 			</section>
+
+			<PodcastLinks />
 
 			<section class="subscribe-section">
 				<h2>訂閱更新</h2>
