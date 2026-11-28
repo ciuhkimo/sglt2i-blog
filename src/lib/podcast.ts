@@ -35,6 +35,12 @@ export const PODCAST_EPISODES: Record<string, PodcastEpisode> = {
 		firstoryStoryId: 'cmx016v6i057i01utdme97vxp',
 		youtubeId: 'XD2ViNCAntY',
 	},
+	'/blog/rural-ckd5-vascular-access-timing/': {
+		episode: 'EP03',
+		title: '【腎友】做瘻管，就要開始洗腎了嗎？',
+		firstoryStoryId: 'cmx0d8xuq06ao01vgba130pjv',
+		youtubeId: 'FtkvY3rKsNI',
+	},
 };
 
 export function episodeForPath(pathname: string): PodcastEpisode | undefined {
