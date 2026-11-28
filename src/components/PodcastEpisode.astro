@@ -19,6 +19,12 @@ const embedSrc = ep ? `https://open.firstory.fm/embed/story/${ep.firstoryStoryId
 			<a href={`https://open.firstory.fm/story/${ep.firstoryStoryId}`} target="_blank" rel="noopener">在 Firstory 收聽</a>
 			<span aria-hidden="true">｜</span>
 			<a href={`https://www.youtube.com/watch?v=${ep.youtubeId}`} target="_blank" rel="noopener">在 YouTube 觀看</a>
+			{ep.appleEpisodeId && (
+				<>
+					<span aria-hidden="true">｜</span>
+					<a href={`https://podcasts.apple.com/tw/podcast/id6840243327?i=${ep.appleEpisodeId}`} target="_blank" rel="noopener">在 Apple Podcasts 收聽</a>
+				</>
+			)}
 			<span aria-hidden="true">｜</span>
 			<a href="/listen/#podcast">其他收聽平台</a>
 		</p>
