@@ -4,7 +4,7 @@ title: "CKM 新興治療（tirzepatide、atrasentan、atacicept、baxdrostat、f
 category: "整合藥物策略"
 version: "v1.8"
 status: ""
-last_updated: 2026-11-15
+last_updated: 2026-11-28
 next_review: 2026-12-18
 tags:
   - CKM-syndrome
@@ -90,6 +90,7 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 | **Baxdrostat (Baxfendy)** | BrigHTN / BaxHTN + 美國核准仿單 | aldosterone synthase inhibitor，對 uncontrolled / resistant HTN 有明顯降壓效果 | 美國 2026-05-15 核准、歐盟 CHMP 2026-11 建議核准，適應症皆為**高血壓**；截至 2026-11-15，TFDA 已發證許可證資料查無紀錄 | 不是腎臟科適應症；仿單載明 eGFR <45 起始未建立、最常見不良反應為高血鉀 |
 | **Orforglipron (Foundayo)** | ATTAIN-1（NEJM, PMID 40960239）+ 美國核准仿單 | 口服小分子 GLP-1 RA，已取得減重適應症；**沒有 T2D 適應症、沒有腎臟適應症** | 美國 2026-04-01 核准（NDA 220934），適應症為**成人肥胖／過重合併共病的減重與長期維持**；截至 2026-11-15，TFDA 已發證許可證資料查無紀錄 | 可能改變 GLP-1 RA 的給藥途徑門檻；無 dedicated renal outcome data |
 | **Retatrutide** | 三個 phase 2 試驗（PMID 37366315／37385280／38858523）| GIP／GLP-1／glucagon triple agonist，減重與肝脂訊號強，**腎臟 hard endpoint 尚未產生** | **尚未核准**（美、台皆查無已核准紀錄）；phase 3 進行中，含帶腎臟複合終點的 TRIUMPH-Outcomes | 現階段不是臨床選項；追蹤 TRIUMPH-Outcomes |
+| **Ziltivekimab（抗 IL-6）** | ZEUS（NEJM 2026, PMID 43001751）| ASCVD + CKD + hsCRP ≥2 mg/L：IL-6 與 hsCRP 大幅下降，但 **3-point MACE 中性（HR 0.99）** | **未核准**；phase 3 主要終點未達標 | 不是臨床選項；「抗發炎降 CV 風險」在 CKD 尚未被證實 |
 | **Finerenone** | official labels + FIND-CKD（NEJM 2026, PMID 42246672）| 已核准 T2D-associated CKD；**美國與台灣仿單均已含 HF with LVEF ≥40%**；non-DM CKD：FIND-CKD 已正式發表、primary 達標 | non-DM CKD 仍 investigational | 不能把 FIND-CKD 當已完成擴證 |
 
 ---
@@ -430,6 +431,25 @@ seo_title: "Q13 CKM 新興治療：atacicept、atrasentan、tirzepatide、baxdro
 - **核准適應症是高血壓，不是 CKD**。用在 CKD 病人身上不等於超出適應症，但**支持它的試驗族群 eGFR ≥45、基線平均 eGFR 85**，越往下走越沒有資料
 - **不能把 phase 3 positive 直接當成真實世界定位已確立**
 - 對 CKD 病人仍應保留 **K⁺ / eGFR monitoring** 思維，尤其若與 RAS blockade / MRA / other K-raising drugs 交疊時。仿單自己就把高血鉀列為最常見不良反應
+
+---
+
+## 抗發炎路線：Ziltivekimab（ZEUS，結果中性）
+
+### 1. 試驗結果
+
+ZEUS（Ridker et al., *N Engl J Med* 2026, PMID 43001751, DOI 10.1056/NEJMoa2612126；NCT05021835）是多國雙盲 placebo-controlled phase 3 試驗，納入 **已確立 ASCVD + CKD + hsCRP ≥2 mg/L** 的成人（n=6,376，平均 69.4 歲），每月皮下注射 ziltivekimab 15 mg 或安慰劑，中位追蹤 33 個月：
+
+- **發炎指標大幅下降**：24 個月時 free IL-6 相差 −76 個百分點、hsCRP 相差 −64 個百分點。
+- **主要終點中性**：3-point MACE 17.6% vs 17.7%（**HR 0.99，95% CI 0.88–1.11，P=0.84**）。
+- **安全性**：嚴重不良事件相近（54.6% vs 54.8%），但**嚴重感染較多（20.4% vs 17.9%）**。
+
+### 2. 腎臟科實務定位
+
+- 「CKD 病人殘餘發炎風險 → 抗 IL-6 降低心血管事件」這個假說，在目前最直接的 phase 3 試驗中**沒有得到支持**。
+- **不要把抗 IL-6 寫成「有望成為 CKM 第五支柱」**；生物指標下降不等於臨床終點下降，這是 ZEUS 最重要的提醒。
+- hsCRP 仍可作為風險分層參考，但目前沒有據此加用抗發炎生物製劑的證據；既有 RAS blockade、SGLT2i、適用時的 ns-MRA 與 GLP-1 RA 才是基礎。
+- 感染風險增加這點，對已有免疫力下降的晚期 CKD 族群尤其需要注意。
 
 ---
 

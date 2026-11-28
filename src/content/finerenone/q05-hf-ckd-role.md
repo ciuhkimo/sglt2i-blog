@@ -4,7 +4,7 @@ title: "Finerenone 在 Heart Failure 合併 CKD 的角色"
 category: "適應症定位"
 version: "v1.3"
 status: ""
-last_updated: 2026-06-05
+last_updated: 2026-11-28
 next_review: 2027-04-29
 tags: [finerenone, nonsteroidal-MRA, heart-failure, HFpEF, HFmrEF, HFrEF, CKD, decision-note, FINEARTS-HF, KDIGO-2026]
 description: "Finerenone 在 HFrEF、HFmrEF/HFpEF 與 CKD 交會情境的 MRA 定位，包含 FINEARTS-HF 核心數據、regulatory status、dual-MRA 禁忌與 FINE-HEART 正確詮釋。"
@@ -133,6 +133,16 @@ seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
 | Advanced CKD（G4–G5、dialysis）| 證據仍極有限 | finerenone 在 eGFR <25 仍不建議起始（與現行 USPI/SmPC 一致） |
 | 試驗設計建議 | kidney function trajectory、QoL、symptom burden 應為次要終點 | 影響未來 finerenone HF 試驗設計（如 FINALITY-HF 後續分析） |
 
+### 國家級指引動態：西班牙 SEMI 2026 HFpEF 指引（2026-11 補充）
+
+西班牙內科醫學會（SEMI）心衰竭與心房顫動工作小組 2026 年發表 HFpEF 臨床實務指引（Quirós-López et al., *Rev Clin Esp* 2026, PMID 43098181, DOI 10.1016/j.rceng.2026.502638；採 GRADE 方法，特別著重高齡、衰弱與多重共病族群）。依摘要，指引：
+
+- 以利尿劑控制鬱血、以 **SGLT2i 為證據最一致的藥物治療**；
+- **建議使用 finerenone 以減少惡化性 HF 事件**；
+- sacubitril/valsartan 保留給特定病人；semaglutide／tirzepatide 用於 HFpEF 合併肥胖表型。
+
+> **解讀**：這是 FINEARTS-HF 之後，把 finerenone 納入 HFpEF 推薦的歐洲國家級學會指引之一，與本文「LVEF ≥40% 時 finerenone 是最直接 evidence-based 的 MRA 選項」一致，也同樣把效益定位在**減少惡化性 HF 事件**（而非死亡）。但它屬國家級內科學會指引，**不是 ESC／AHA／KDIGO 等級的國際指引**；推薦強度與證據等級須以全文為準。
+
 > **本文立場**：KDIGO 2026 共識與 Q05 v1.1 的核心結論 **完全一致**——finerenone 不取代 HFrEF 標準 sMRA、不應因 small eGFR dip 中止、advanced CKD 仍有證據缺口。新增本段為強化權威背書，**不改變既有臨床決策框架**。
 
 ---
@@ -167,6 +177,7 @@ seo_title: "Finerenone 心衰竭合併 CKD｜HFpEF 與 HFrEF 定位"
   7. TFDA Kerendia 仿單.
   8. NCT06033950 (FINALITY-HF).
   9. Lam CSP, et al. Kidney Disease and Heart Failure: Recent Advances and Current Challenges: Conclusions From a KDIGO Controversies Conference. *JACC Heart Fail*. 2026;14(4):102943. PMID: 41793402.
+  10. Quirós-López R, et al. SEMI 2026 Guidelines for the diagnosis and treatment of heart failure with preserved ejection fraction. *Rev Clin Esp (Barc)*. 2026. PMID: 43098181. DOI: 10.1016/j.rceng.2026.502638.
 
 ---
 

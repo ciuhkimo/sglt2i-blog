@@ -4,7 +4,7 @@ title: "GLP-1 RA 的腎臟終點證據有多強？"
 category: "啟用決策 (Initiation)"
 version: "v1.2"
 status: ""
-last_updated: 2026-05-27
+last_updated: 2026-11-28
 next_review: 2026-11-27
 tags:
   - GLP-1RA
@@ -116,6 +116,14 @@ SURPASS-CVOT vs dulaglutide（active comparator，非 vs placebo）：ASN 2025 �
 
 **判讀**：tirzepatide CKD 證據 tier 從「Phase 2 + active-comparator subgroup」**升級為「Phase 3-grade dedicated kidney readout」**；但仍非 dedicated CKD-primary-endpoint RCT（exploratory + powered for CV not kidney + albuminuria-weighted + 限 T2D+ASCVD）。TREASURE-CKD（Phase 2, NCT05536804）進行中。SGLT2i 仍為 foundational（3 dedicated trials + 含 non-DM），tirzepatide SURPASS-CVOT 為 active-comparator design，evidence basis 不同。
 
+**2026-11 補充：parent-trial 層級 SR/MA**（Li et al., *Diabetes Res Clin Pract* 2026, PMID 43025465, DOI 10.1016/j.diabres.2026.113668；10 個 parent trial 去重後合併）：
+
+- **Albuminuria 下降可重現**：vs insulin UACR −27.0%（95% CI −16.0% 至 −36.6%；moderate certainty）；vs placebo 則不確定（−18.1%，CI −43.2% 至 +18.3%；very low certainty）。
+- **固定時點 eGFR 沒有明確差異**：+0.36 mL/min/1.73 m²（CI −0.34 至 1.07；low certainty）。
+- **ESKD 尚未證實下降**：SURPASS-CVOT 高風險層 hard-only 腎複合終點 HR 0.70（0.57–0.86）vs dulaglutide，但 ESKD 單獨 **HR 1.04（0.70–1.55）**；且屬 post hoc aggregate 對比、未校正多重比較。
+
+> **措辭紀律**：目前可以說「tirzepatide 降低 albuminuria 的證據一致，SURPASS-CVOT 顯示相對 dulaglutide 的腎臟複合終點優勢」；**不要寫成「tirzepatide 已證實有腎保護、可延緩進入透析」**。作者結論同樣指出硬終點效益依族群與終點而異，仍需 dedicated kidney-outcome trial。
+
 ---
 
 ## Clinical Decision
@@ -198,7 +206,7 @@ Step 5: 注意邊界
   - Moderate：GLP-1 RA 類別降低 kidney failure（Badve HR 0.84, CI 接近 1.0, FLOW 主導）
   - Low：Non-DM CKD 腎臟保護（SELECT 支持性信號，非確證）
   - Uncertain：SGLT2i + GLP-1 RA 硬腎臟終點疊加效益
-- **Evidence Sources**: FLOW（NCT03819153; NEJM 2024）、LEADER（NCT01179048）、SUSTAIN-6、REWIND、AMPLITUDE-O、SOUL、SELECT、SURPASS-CVOT（Zoungas 2026, Lancet Diabetes Endocrinol, PMID 42114520）、Badve 2025 meta-analysis、Sasaki 2025 meta-analysis、CREDENCE、DAPA-CKD、EMPA-KIDNEY、SMART-C IPD meta-analysis
+- **Evidence Sources**: FLOW（NCT03819153; NEJM 2024）、LEADER（NCT01179048）、SUSTAIN-6、REWIND、AMPLITUDE-O、SOUL、SELECT、SURPASS-CVOT（Zoungas 2026, Lancet Diabetes Endocrinol, PMID 42114520）、Li 2026 tirzepatide parent-trial SR/MA（Diabetes Res Clin Pract, PMID 43025465）、Badve 2025 meta-analysis、Sasaki 2025 meta-analysis、CREDENCE、DAPA-CKD、EMPA-KIDNEY、SMART-C IPD meta-analysis
 - **Guideline Concordance**: KDIGO 2026 draft 1A（draft）；ADA 2025/2026 Grade A；FDA Ozempic CKD indication（2025）
 - **Key References**:
   - FLOW main trial: Perkovic V et al. N Engl J Med. 2024
